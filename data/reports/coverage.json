@@ -1,6 +1,10 @@
 {
   "overall": {
-    "contestants": 90,
+    "entries": 90,
+    "participants": 90,
+    "individualEntries": 90,
+    "coupleEntries": 0,
+    "withdrawnEntries": 0,
     "dishes": 300,
     "winners": 18,
     "fieldCoverage": {
@@ -291,7 +295,11 @@
   },
   "bySeason": {
     "1": {
-      "contestants": 50,
+      "entries": 50,
+      "participants": 50,
+      "individualEntries": 50,
+      "coupleEntries": 0,
+      "withdrawnEntries": 0,
       "dishes": 161,
       "winners": 10,
       "fieldCoverage": {
@@ -490,7 +498,11 @@
       }
     },
     "2": {
-      "contestants": 40,
+      "entries": 40,
+      "participants": 40,
+      "individualEntries": 40,
+      "coupleEntries": 0,
+      "withdrawnEntries": 0,
       "dishes": 139,
       "winners": 8,
       "fieldCoverage": {

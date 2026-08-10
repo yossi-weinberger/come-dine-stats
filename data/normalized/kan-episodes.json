@@ -1,5 +1,41 @@
 [
   {
+    "season": 5,
+    "episode": 15,
+    "title": "00:27:39 פרק 15 - צפון חלק ה' הדו קרב בין חנה לינה מגיע לשיאו במגדלי פנורמה, בערב האחרון בשבוע הצפון",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134167/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134167/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 16,
+    "title": "00:28:46 פרק 16 - דרום חלק א' בערב פתיחת שבוע דרום מאחרת קציעה, היועצת מינית, שמגישה מנות וגם טיפים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134169/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134169/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 21,
+    "title": "00:28:06 פרק 21 - חיפה והקריות חלק א' הארוחה הראשונה בשבוע חיפה והקריות מתגלה כערב רווקים רווקות",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134179/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134179/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
     "season": 7,
     "episode": 1,
     "weekName": "שרון",
@@ -904,6 +940,20 @@
       "kind": "kan",
       "title": "כאן 11 — בואו לאכול איתי",
       "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077378/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 10,
+    "episode": 17,
+    "weekName": "אילת",
+    "hostingOrder": 2,
+    "title": "00:27:06 פרק 17 - שבוע אילת, יום ב' בילי מארחת את החבורה ומדהימה את כולם בסיפור חייה המיוחד",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/",
       "note": "Official episode archive; factual metadata and links only"
     }
   }

@@ -256,6 +256,9 @@
       }
     ],
     "fieldSources": {
+      "entryType": [],
+      "members": [],
+      "status": [],
       "week": [
         {
           "kind": "fandom",
@@ -9736,6 +9739,9 @@
       }
     ],
     "fieldSources": {
+      "entryType": [],
+      "members": [],
+      "status": [],
       "week": [
         {
           "kind": "fandom",
