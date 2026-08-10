@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import contestantsJson from '../data/normalized/contestants.json'
-import type { Contestant } from '../lib/types'
+import type { Contestant, Dish } from '../lib/types'
 
 const contestants = contestantsJson as unknown as Contestant[]
 const reportsDir = new URL('../data/reports/', import.meta.url)
@@ -30,6 +30,10 @@ function participantCount(item: Contestant) {
   return item.members?.length || 1
 }
 
+function variantOf(dish: Dish) {
+  return dish.variant ?? 'standard'
+}
+
 function coverageFor(items: Contestant[]) {
   const fieldCoverage = Object.fromEntries(fields.map((field) => {
     const count = items.filter((item) => hasValue(item[field])).length
@@ -40,11 +44,27 @@ function coverageFor(items: Contestant[]) {
     }]
   }))
 
+  const allDishes = items.flatMap((item) => item.dishes)
   const withAnyDish = items.filter((item) => item.dishes.length > 0).length
   const withThreePrimaryCourses = items.filter((item) => {
-    const primary = new Set(item.dishes.filter((dish) => dish.course !== 'alternative').map((dish) => dish.course))
+    const primary = new Set(
+      item.dishes
+        .filter((dish) => variantOf(dish) === 'standard')
+        .map((dish) => dish.course),
+    )
     return primary.has('starter') && primary.has('main') && primary.has('dessert')
   }).length
+  const withVegetarianAlternative = items.filter((item) => item.dishes.some((dish) => variantOf(dish) === 'vegetarian')).length
+  const withVeganAlternative = items.filter((item) => item.dishes.some((dish) => variantOf(dish) === 'vegan')).length
+
+  const dishCountsByCourse = Object.fromEntries(['starter', 'main', 'dessert'].map((course) => [
+    course,
+    allDishes.filter((dish) => dish.course === course).length,
+  ]))
+  const dishCountsByVariant = Object.fromEntries(['standard', 'vegetarian', 'vegan', 'alternative'].map((variant) => [
+    variant,
+    allDishes.filter((dish) => variantOf(dish) === variant).length,
+  ]))
 
   return {
     entries: items.length,
@@ -52,12 +72,22 @@ function coverageFor(items: Contestant[]) {
     individualEntries: items.filter((item) => item.entryType !== 'couple').length,
     coupleEntries: items.filter((item) => item.entryType === 'couple').length,
     withdrawnEntries: items.filter((item) => item.status === 'withdrawn').length,
-    dishes: items.reduce((sum, item) => sum + item.dishes.length, 0),
+    dishes: allDishes.length,
     winners: items.filter((item) => item.winner).length,
     fieldCoverage,
     menuCoverage: {
       anyDish: { count: withAnyDish, percent: pct(withAnyDish, items.length) },
       threePrimaryCourses: { count: withThreePrimaryCourses, percent: pct(withThreePrimaryCourses, items.length) },
+      vegetarianAlternative: { count: withVegetarianAlternative, percent: pct(withVegetarianAlternative, items.length) },
+      veganAlternative: { count: withVeganAlternative, percent: pct(withVeganAlternative, items.length) },
+      dishesByCourse: dishCountsByCourse,
+      dishesByVariant: dishCountsByVariant,
+      missingThreePrimaryCourses: items
+        .filter((item) => {
+          const primary = new Set(item.dishes.filter((dish) => variantOf(dish) === 'standard').map((dish) => dish.course))
+          return !(primary.has('starter') && primary.has('main') && primary.has('dessert'))
+        })
+        .map((item) => item.name),
     },
   }
 }
