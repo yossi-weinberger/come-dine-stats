@@ -3,8 +3,8 @@ import type { Contestant, Dish, SourceRef } from '../lib/types'
 
 const normalizedDir = new URL('../data/normalized/', import.meta.url)
 const reportsDir = new URL('../data/reports/', import.meta.url)
-const sourcePriority: Record<string, number> = { manual: 50, kan: 40, fandom: 30, wayback: 20, legacy: 10 }
-const scalarFields = ['week','weekName','hostingOrder','age','city','region','occupation','relationshipStatus','gender','diet','score','placement','winner'] as const
+const sourcePriority: Record<string, number> = { manual: 50, kan: 40, wikipedia: 35, fandom: 30, wayback: 20, legacy: 10 }
+const scalarFields = ['entryType','members','status','week','weekName','hostingOrder','age','city','region','occupation','relationshipStatus','gender','diet','score','placement','winner'] as const
 
 type ScalarField = typeof scalarFields[number]
 type Conflict = { key: string; field: ScalarField; values: Array<{ value: unknown; sources: SourceRef[] }> }
@@ -88,6 +88,7 @@ async function main() {
     ...(await maybeRead('seed-contestants.json')),
     ...(await maybeRead('legacy-contestants.json')),
     ...(await maybeRead('fandom-contestants.json')),
+    ...(await maybeRead('wikipedia-contestants.json')),
     ...(await maybeRead('kan-contestants.json')),
   ]
   const byKey = new Map<string, Contestant>()
@@ -102,7 +103,7 @@ async function main() {
   const output = [...byKey.values()].sort((a, b) => a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || (a.hostingOrder ?? 999) - (b.hostingOrder ?? 999) || a.name.localeCompare(b.name, 'he'))
   await writeFile(new URL('contestants.json', normalizedDir), JSON.stringify(output, null, 2))
   await writeFile(new URL('conflicts.json', reportsDir), JSON.stringify(conflicts, null, 2))
-  console.log(`Merged ${inputs.length} source rows into ${output.length} contestants; ${conflicts.length} conflicts preserved`)
+  console.log(`Merged ${inputs.length} source rows into ${output.length} competition entries; ${conflicts.length} conflicts preserved`)
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1 })
