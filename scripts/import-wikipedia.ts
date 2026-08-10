@@ -171,7 +171,9 @@ function allNodeMatches($: cheerio.CheerioAPI, nodes: cheerio.Cheerio<any>[], se
   const matches: cheerio.Cheerio<any>[] = []
   for (const node of nodes) {
     if (node.is(selector)) matches.push(node)
-    node.find(selector).each((_, element) => matches.push($(element)))
+    node.find(selector).each((_, element) => {
+      matches.push($(element))
+    })
   }
   return matches
 }
@@ -179,7 +181,9 @@ function allNodeMatches($: cheerio.CheerioAPI, nodes: cheerio.Cheerio<any>[], se
 function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRow[] {
   const rows: ParsedRow[] = []
   table.find('tr').each((_, row) => {
-    const cells = $(row).find('td')
+    // Wikipedia uses <th> for row headers (hosting order and contestant/couple)
+    // and <td> for the individual votes/total. Treat both as logical cells.
+    const cells = $(row).children('th,td')
     if (cells.length < 2) return
 
     const orderText = stripReferences(cells.eq(0).text())
