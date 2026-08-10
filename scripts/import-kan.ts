@@ -1,11 +1,25 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import * as cheerio from 'cheerio'
-import type { Episode, SourceRef } from '../lib/types'
+import type { Contestant, Episode, SourceRef } from '../lib/types'
 
 type SeasonPage = { season: number; url: string }
+type EnrichmentDiagnostic = {
+  season: number
+  episode: number
+  week?: number
+  hostingOrder?: number
+  matched?: string
+  candidates?: string[]
+  text: string
+}
+
 const configUrl = new URL('../data/kan-season-pages.json', import.meta.url)
 const rawDir = new URL('../data/raw/kan/', import.meta.url)
+const reportsDir = new URL('../data/reports/', import.meta.url)
 const normalizedFile = new URL('../data/normalized/kan-episodes.json', import.meta.url)
+const contestantsFile = new URL('../data/normalized/kan-contestants.json', import.meta.url)
+const enrichmentReportFile = new URL('../data/reports/kan-contestant-enrichment.json', import.meta.url)
+const wikipediaFile = new URL('../data/normalized/wikipedia-contestants.json', import.meta.url)
 
 const dayOrder: Record<string, number> = { "א'": 1, "ב'": 2, "ג'": 3, "ד'": 4, "ה'": 5 }
 
@@ -13,11 +27,26 @@ function compact(value: string) {
   return value.replace(/\s+/g, ' ').trim()
 }
 
+function normalize(value: string) {
+  return compact(value)
+    .normalize('NFKC')
+    .toLocaleLowerCase('he')
+    .replace(/["'״׳().,;:–—-]/g, '')
+    .replace(/\s+/g, '')
+}
+
+function firstNameCandidates(name: string) {
+  const clean = compact(name)
+  const firstToken = clean.split(/\s+/)[0]
+  const aliases = [...clean.matchAll(/\(([^)]+)\)/g)].map((match) => match[1])
+  return [...new Set([firstToken, ...aliases].map(normalize).filter(Boolean))]
+}
+
 async function fetchHtml(url: string) {
   const response = await fetch(url, {
     headers: {
       accept: 'text/html,application/xhtml+xml',
-      'user-agent': 'come-dine-stats/0.3 (metadata importer; source links preserved)',
+      'user-agent': 'come-dine-stats/0.4 (metadata importer; official source links preserved)',
     },
   })
   if (!response.ok) throw new Error(`${url}: ${response.status} ${response.statusText}`)
@@ -29,16 +58,19 @@ function absoluteUrl(href: string, base: string) {
 }
 
 function parseEpisodeLabel(text: string, fallbackSeason: number) {
-  const clean = compact(text)
+  const clean = compact(text).replace(/^\d{2}:\d{2}:\d{2}\s*/, '')
   const season = Number(clean.match(/עונה\s*(\d+)/)?.[1] ?? fallbackSeason)
   const episode = Number(clean.match(/פרק\s*(\d+)/)?.[1])
-  const weekName = clean.match(/שבוע\s+([^,|–—-]+?)(?=,\s*יום|\s*[|–—-])/u)?.[1]?.trim()
+  const explicitWeek = clean.match(/שבוע\s+([^,|–—-]+?)(?=,\s*יום|\s*[|–—-])/u)?.[1]?.trim()
+  const prefixWeek = clean.match(/^(.+?)\s*[-–—]\s*יום\s+[אבגדה]'?/u)?.[1]?.trim()
+  const weekName = explicitWeek ?? prefixWeek
   const day = clean.match(/יום\s+([אבגדה]'?)/u)?.[1]
   return {
     season,
     episode: Number.isFinite(episode) && episode > 0 ? episode : undefined,
     weekName,
     hostingOrder: day ? dayOrder[day.includes("'") ? day : `${day}'`] : undefined,
+    clean,
   }
 }
 
@@ -57,7 +89,6 @@ function extractEpisodes(html: string, page: SeasonPage): Episode[] {
     const anchor = $(element)
     const text = compact(anchor.text())
     if (!/פרק\s*\d+/.test(text)) return
-    if (!text.includes('בואו לאכול איתי') && !text.includes('שבוע') && !text.includes('יום')) return
 
     const parsed = parseEpisodeLabel(text, page.season)
     if (!parsed.episode || parsed.season !== page.season) return
@@ -73,7 +104,7 @@ function extractEpisodes(html: string, page: SeasonPage): Episode[] {
       episode: parsed.episode,
       weekName: parsed.weekName,
       hostingOrder: parsed.hostingOrder,
-      title: text,
+      title: parsed.clean,
       description: description && description.length <= 500 ? description : undefined,
       url,
       source: { ...source, url },
@@ -82,16 +113,16 @@ function extractEpisodes(html: string, page: SeasonPage): Episode[] {
 
   if (!episodes.length) {
     const body = compact($('body').text())
-    const regex = /פרק\s*(\d+)\s*-\s*שבוע\s+([^,]+),\s*יום\s+([אבגדה]'?)/g
+    const regex = /(?:שבוע\s+)?([^,|–—-]+?)\s*[-–—]\s*יום\s+([אבגדה]'?).{0,120}?פרק\s*(\d+)/g
     for (const match of body.matchAll(regex)) {
-      const episode = Number(match[1])
-      const day = match[3].includes("'") ? match[3] : `${match[3]}'`
+      const episode = Number(match[3])
+      const day = match[2].includes("'") ? match[2] : `${match[2]}'`
       episodes.push({
         season: page.season,
         episode,
-        weekName: match[2].trim(),
+        weekName: compact(match[1]),
         hostingOrder: dayOrder[day],
-        title: match[0],
+        title: compact(match[0]),
         url: page.url,
         source,
       })
@@ -101,8 +132,97 @@ function extractEpisodes(html: string, page: SeasonPage): Episode[] {
   return episodes.sort((a, b) => a.episode - b.episode)
 }
 
+async function maybeWikipediaContestants() {
+  try {
+    return JSON.parse(await readFile(wikipediaFile, 'utf8')) as Contestant[]
+  } catch {
+    return []
+  }
+}
+
+function inferWeek(episode: Episode) {
+  // Seasons 5+ use five hosting nights per regional week. We currently enrich
+  // only seasons 5–6 because they are present in the Wikipedia profile import.
+  if (episode.season === 5 || episode.season === 6) return Math.floor((episode.episode - 1) / 5) + 1
+  return undefined
+}
+
+function scoreCandidate(entry: Contestant, episodeText: string) {
+  const text = normalize(episodeText)
+  const fullName = normalize(entry.name)
+  let score = fullName && text.includes(fullName) ? 100 : 0
+
+  for (const candidate of firstNameCandidates(entry.name)) {
+    if (candidate.length >= 2 && text.includes(candidate)) score += 20
+  }
+
+  return score
+}
+
+function buildKanContestants(episodes: Episode[], wikipediaContestants: Contestant[]) {
+  const rows: Contestant[] = []
+  const diagnostics: EnrichmentDiagnostic[] = []
+
+  for (const episode of episodes) {
+    if (![5, 6].includes(episode.season) || !episode.hostingOrder) continue
+    const week = inferWeek(episode)
+    if (!week) continue
+
+    const candidates = wikipediaContestants.filter((entry) => entry.season === episode.season && entry.week === week && entry.entryType !== 'couple')
+    const text = `${episode.title} ${episode.description ?? ''}`
+    const ranked = candidates
+      .map((entry) => ({ entry, score: scoreCandidate(entry, text) }))
+      .filter((item) => item.score > 0)
+      .sort((a, b) => b.score - a.score)
+
+    const top = ranked[0]
+    const unique = top && (!ranked[1] || top.score > ranked[1].score)
+    const matched = unique ? top.entry : undefined
+
+    diagnostics.push({
+      season: episode.season,
+      episode: episode.episode,
+      week,
+      hostingOrder: episode.hostingOrder,
+      matched: matched?.name,
+      candidates: ranked.slice(0, 3).map((item) => `${item.entry.name} (${item.score})`),
+      text: compact(text).slice(0, 300),
+    })
+
+    if (!matched) continue
+    const source: SourceRef = {
+      ...episode.source,
+      url: episode.url,
+      note: `Official Kan episode ${episode.episode}; host matched from episode metadata`,
+    }
+
+    rows.push({
+      slug: matched.slug,
+      name: matched.name,
+      season: matched.season,
+      entryType: matched.entryType,
+      members: matched.members,
+      week,
+      weekName: episode.weekName ?? matched.weekName,
+      hostingOrder: episode.hostingOrder,
+      dishes: [],
+      episodeUrls: [episode.url],
+      sources: [source],
+      fieldSources: {
+        week: [source],
+        ...(episode.weekName ? { weekName: [source] } : {}),
+        hostingOrder: [source],
+      },
+    })
+  }
+
+  const deduped = [...new Map(rows.map((row) => [`${row.season}:${normalize(row.name)}`, row])).values()]
+  return { rows: deduped, diagnostics }
+}
+
 async function main() {
   await mkdir(rawDir, { recursive: true })
+  await mkdir(reportsDir, { recursive: true })
   const pages = JSON.parse(await readFile(configUrl, 'utf8')) as SeasonPage[]
   const all: Episode[] = []
 
@@ -121,7 +241,18 @@ async function main() {
   const deduped = [...new Map(all.map((episode) => [`${episode.season}:${episode.episode}`, episode])).values()]
     .sort((a, b) => a.season - b.season || a.episode - b.episode)
   await writeFile(normalizedFile, JSON.stringify(deduped, null, 2))
+
+  const wikipediaContestants = await maybeWikipediaContestants()
+  const enrichment = buildKanContestants(deduped, wikipediaContestants)
+  await writeFile(contestantsFile, JSON.stringify(enrichment.rows, null, 2))
+  await writeFile(enrichmentReportFile, JSON.stringify({
+    matchedEntries: enrichment.rows.length,
+    episodesConsidered: enrichment.diagnostics.length,
+    diagnostics: enrichment.diagnostics,
+  }, null, 2))
+
   console.log(`Saved ${deduped.length} official episode records with Kan attribution`)
+  console.log(`Matched ${enrichment.rows.length}/${enrichment.diagnostics.length} season 5–6 hosting episodes to competition entries`)
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1 })
