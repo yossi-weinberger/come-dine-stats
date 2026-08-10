@@ -23,9 +23,20 @@ type ParsedRow = {
   status?: Contestant['status']
 }
 
+type Diagnostic = {
+  season: number
+  title: string
+  ok: boolean
+  revision?: number
+  entries?: number
+  error?: string
+}
+
 const configUrl = new URL('../data/wikipedia-season-pages.json', import.meta.url)
 const rawDir = new URL('../data/raw/wikipedia/', import.meta.url)
+const reportsDir = new URL('../data/reports/', import.meta.url)
 const normalizedFile = new URL('../data/normalized/wikipedia-contestants.json', import.meta.url)
+const diagnosticFile = new URL('../data/reports/wikipedia-import.json', import.meta.url)
 const API = 'https://he.wikipedia.org/w/api.php'
 
 function compact(value: string) {
@@ -124,7 +135,7 @@ function matchesWinner(entryName: string, winnerName?: string) {
   return entry === winner || entry.startsWith(winner) || winner.startsWith(entry)
 }
 
-function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<cheerio.Element>): ParsedRow[] {
+function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRow[] {
   const rows: ParsedRow[] = []
 
   table.find('tr').each((_, row) => {
@@ -188,7 +199,7 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
 
     const week = Number(weekMatch[1])
     const weekName = compact(weekMatch[2])
-    const siblings: cheerio.Cheerio<cheerio.Element>[] = []
+    const siblings: cheerio.Cheerio<any>[] = []
     let current = $(heading).next()
 
     while (current.length && !current.is('h2,h3')) {
@@ -202,13 +213,13 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
       .join(' ')
     const winner = winnerFromIntro(introText)
 
-    const list = siblings.find((node) => node.is('ul')).at(0)
-    const participants = list.length
+    const list = siblings.find((node) => node.is('ul'))
+    const participants = list?.length
       ? list.find('li').toArray().map((li) => parseParticipant($(li).text())).filter((item): item is ParsedParticipant => Boolean(item))
       : []
 
-    const table = siblings.find((node) => node.is('table')).at(0)
-    const rows = table.length ? parseRows($, table) : []
+    const table = siblings.find((node) => node.is('table'))
+    const rows = table?.length ? parseRows($, table) : []
 
     if (!rows.length && !participants.length) return
 
@@ -268,32 +279,42 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
 
 async function main() {
   await mkdir(rawDir, { recursive: true })
+  await mkdir(reportsDir, { recursive: true })
   const configs = JSON.parse(await readFile(configUrl, 'utf8')) as SeasonConfig[]
   const all: Contestant[] = []
+  const diagnostics: Diagnostic[] = []
 
   for (const config of configs) {
-    const parsed = await fetchSeason(config)
-    await writeFile(new URL(`season-${config.season}.html`, rawDir), parsed.text)
+    try {
+      const parsed = await fetchSeason(config)
+      await writeFile(new URL(`season-${config.season}.html`, rawDir), parsed.text)
 
-    const revisionUrl = `https://he.wikipedia.org/w/index.php?title=${encodeURIComponent(config.title.replace(/ /g, '_'))}&oldid=${parsed.revid}`
-    const source: SourceRef = {
-      kind: 'wikipedia',
-      title: `${config.title} — ויקיפדיה העברית`,
-      url: revisionUrl,
-      author: 'ויקיפדיה העברית — עורכים שונים',
-      license: 'CC BY-SA 4.0',
-      note: `Imported from revision ${parsed.revid}; factual competition metadata with revision-level attribution`,
+      const revisionUrl = `https://he.wikipedia.org/w/index.php?title=${encodeURIComponent(config.title.replace(/ /g, '_'))}&oldid=${parsed.revid}`
+      const source: SourceRef = {
+        kind: 'wikipedia',
+        title: `${config.title} — ויקיפדיה העברית`,
+        url: revisionUrl,
+        author: 'ויקיפדיה העברית — עורכים שונים',
+        license: 'CC BY-SA 4.0',
+        note: `Imported from revision ${parsed.revid}; factual competition metadata with revision-level attribution`,
+      }
+
+      const contestants = extractSeason(config, parsed.text, source)
+      all.push(...contestants)
+      diagnostics.push({ season: config.season, title: config.title, ok: true, revision: parsed.revid, entries: contestants.length })
+      console.log(`Wikipedia season ${config.season}: ${contestants.length} competition entries from revision ${parsed.revid}`)
+    } catch (error) {
+      const message = error instanceof Error ? `${error.name}: ${error.message}` : String(error)
+      diagnostics.push({ season: config.season, title: config.title, ok: false, error: message })
+      console.warn(`Wikipedia season ${config.season} failed: ${message}`)
     }
-
-    const contestants = extractSeason(config, parsed.text, source)
-    all.push(...contestants)
-    console.log(`Wikipedia season ${config.season}: ${contestants.length} competition entries from revision ${parsed.revid}`)
   }
 
   const deduped = [...new Map(all.map((contestant) => [`${contestant.season}:${normalizeName(contestant.name)}`, contestant])).values()]
     .sort((a, b) => a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || (a.hostingOrder ?? 999) - (b.hostingOrder ?? 999))
 
   await writeFile(normalizedFile, JSON.stringify(deduped, null, 2))
+  await writeFile(diagnosticFile, JSON.stringify({ seasons: diagnostics, totalEntries: deduped.length }, null, 2))
   console.log(`Saved ${deduped.length} Wikipedia competition entries with revision-level attribution`)
 }
 
