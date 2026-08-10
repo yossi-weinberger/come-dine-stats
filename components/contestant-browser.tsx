@@ -11,6 +11,14 @@ const sourceLabels: Record<string, string> = {
   manual: 'מקור מאומת',
 }
 
+const hostingOrderLabels: Record<number, string> = {
+  1: 'אירח ראשון',
+  2: 'אירח שני',
+  3: 'אירח שלישי',
+  4: 'אירח רביעי',
+  5: 'אירח חמישי',
+}
+
 function SourceLink({ source }: { source: SourceRef }) {
   return (
     <a
@@ -59,6 +67,14 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
     })
   }, [contestants, query, season, winnersOnly])
 
+  const hasFilters = Boolean(query.trim()) || season !== 'all' || winnersOnly
+
+  function resetFilters() {
+    setQuery('')
+    setSeason('all')
+    setWinnersOnly(false)
+  }
+
   return (
     <section className="section browserSection" aria-labelledby="contestants-title">
       <div className="sectionTitle">
@@ -66,7 +82,9 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
           <div className="eyebrow">המאגר החי</div>
           <h2 id="contestants-title">כל המתמודדים</h2>
         </div>
-        <span>{filtered.length} מתוך {contestants.length} מתמודדים</span>
+        <span className="resultCount" aria-live="polite" aria-atomic="true">
+          {filtered.length} מתוך {contestants.length} מתמודדים
+        </span>
       </div>
 
       <div className="browserControls" role="search">
@@ -98,6 +116,15 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
           />
           <span>🏆 מנצחים בלבד</span>
         </label>
+
+        <button
+          className="resetFilters"
+          type="button"
+          onClick={resetFilters}
+          disabled={!hasFilters}
+        >
+          איפוס
+        </button>
       </div>
 
       {filtered.length ? (
@@ -125,7 +152,7 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
 
                 <div className="factsRow">
                   {contestant.occupation && <span>{contestant.occupation}</span>}
-                  {contestant.hostingOrder && <span>אירוח #{contestant.hostingOrder}</span>}
+                  {contestant.hostingOrder && <span>{hostingOrderLabels[contestant.hostingOrder] || `סדר אירוח ${contestant.hostingOrder}`}</span>}
                   {contestant.placement && <span>מקום {contestant.placement}</span>}
                 </div>
 
@@ -152,6 +179,7 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
         <div className="emptyState">
           <strong>לא מצאתי התאמה.</strong>
           <span>אפשר לנסות שם אחר, מנה אחרת או להסיר סינון.</span>
+          {hasFilters && <button type="button" onClick={resetFilters}>איפוס סינונים</button>}
         </div>
       )}
     </section>
