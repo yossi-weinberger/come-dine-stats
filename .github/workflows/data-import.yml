@@ -73,6 +73,7 @@ jobs:
             data/normalized/wikipedia-contestants.json \
             data/normalized/kan-episodes.json \
             data/normalized/contestants.json \
+            data/reports/wikipedia-import.json \
             data/reports/conflicts.json \
             data/reports/coverage.json
           do
