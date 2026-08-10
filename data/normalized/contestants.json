@@ -32757,7 +32757,7 @@
     ],
     "status": "active",
     "week": 1,
-    "weekName": "השרון",
+    "weekName": "שרון",
     "hostingOrder": 1,
     "age": 28,
     "city": "יהוד",
@@ -32774,6 +32774,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
+        "note": "Official Kan episode 1; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -32785,6 +32791,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "members": [
@@ -32795,6 +32807,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "week": [
@@ -32805,6 +32823,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -32815,6 +32839,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -32825,6 +32855,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "age": [
@@ -32896,8 +32932,15 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/"
+    ]
   },
   {
     "slug": "s7-שלי-סנשיין-וולמן",
@@ -36243,6 +36286,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
+        "note": "Official Kan episode 1; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -36254,6 +36303,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "members": [
@@ -36264,6 +36319,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "week": [
@@ -36274,6 +36335,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -36284,6 +36351,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -36294,6 +36367,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
+          "note": "Official Kan episode 1; host matched from episode metadata"
         }
       ],
       "age": [
@@ -36355,8 +36434,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/"
+    ]
   },
   {
     "slug": "s8-מעיין-מיזן",
@@ -36383,6 +36470,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
+        "note": "Official Kan episode 2; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -36394,6 +36487,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
+          "note": "Official Kan episode 2; host matched from episode metadata"
         }
       ],
       "members": [
@@ -36404,6 +36503,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
+          "note": "Official Kan episode 2; host matched from episode metadata"
         }
       ],
       "week": [
@@ -36414,6 +36519,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
+          "note": "Official Kan episode 2; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -36424,6 +36535,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
+          "note": "Official Kan episode 2; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -36434,6 +36551,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
+          "note": "Official Kan episode 2; host matched from episode metadata"
         }
       ],
       "city": [
@@ -36485,8 +36608,17 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "age": [],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/"
+    ]
   },
   {
     "slug": "s8-אחיה-זלייט",
@@ -36514,6 +36646,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
+        "note": "Official Kan episode 3; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -36525,6 +36663,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
+          "note": "Official Kan episode 3; host matched from episode metadata"
         }
       ],
       "members": [
@@ -36535,6 +36679,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
+          "note": "Official Kan episode 3; host matched from episode metadata"
         }
       ],
       "week": [
@@ -36545,6 +36695,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
+          "note": "Official Kan episode 3; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -36555,6 +36711,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
+          "note": "Official Kan episode 3; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -36565,6 +36727,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
+          "note": "Official Kan episode 3; host matched from episode metadata"
         }
       ],
       "city": [
@@ -36626,8 +36794,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "age": [],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/"
+    ]
   },
   {
     "slug": "s8-איתמר-גרובר",
@@ -36655,6 +36831,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
+        "note": "Official Kan episode 4; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -36666,6 +36848,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
+          "note": "Official Kan episode 4; host matched from episode metadata"
         }
       ],
       "members": [
@@ -36676,6 +36864,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
+          "note": "Official Kan episode 4; host matched from episode metadata"
         }
       ],
       "week": [
@@ -36686,6 +36880,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
+          "note": "Official Kan episode 4; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -36696,6 +36896,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
+          "note": "Official Kan episode 4; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -36706,6 +36912,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
+          "note": "Official Kan episode 4; host matched from episode metadata"
         }
       ],
       "age": [
@@ -36767,8 +36979,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/"
+    ]
   },
   {
     "slug": "s8-דנה-כהן-הלוי",
@@ -36795,6 +37015,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
+        "note": "Official Kan episode 5; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -36806,6 +37032,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
+          "note": "Official Kan episode 5; host matched from episode metadata"
         }
       ],
       "members": [
@@ -36816,6 +37048,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
+          "note": "Official Kan episode 5; host matched from episode metadata"
         }
       ],
       "week": [
@@ -36826,6 +37064,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
+          "note": "Official Kan episode 5; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -36836,6 +37080,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
+          "note": "Official Kan episode 5; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -36846,6 +37096,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
+          "note": "Official Kan episode 5; host matched from episode metadata"
         }
       ],
       "city": [
@@ -36897,8 +37153,17 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "age": [],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/"
+    ]
   },
   {
     "slug": "s8-לבנה-שיפמן",
@@ -36926,6 +37191,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
+        "note": "Official Kan episode 6; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -36937,6 +37208,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
+          "note": "Official Kan episode 6; host matched from episode metadata"
         }
       ],
       "members": [
@@ -36947,6 +37224,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
+          "note": "Official Kan episode 6; host matched from episode metadata"
         }
       ],
       "week": [
@@ -36957,6 +37240,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
+          "note": "Official Kan episode 6; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -36967,6 +37256,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
+          "note": "Official Kan episode 6; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -36977,6 +37272,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
+          "note": "Official Kan episode 6; host matched from episode metadata"
         }
       ],
       "age": [
@@ -37038,8 +37339,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/"
+    ]
   },
   {
     "slug": "s8-יפה-חסידים",
@@ -37067,6 +37376,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
+        "note": "Official Kan episode 7; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -37078,6 +37393,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
+          "note": "Official Kan episode 7; host matched from episode metadata"
         }
       ],
       "members": [
@@ -37088,6 +37409,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
+          "note": "Official Kan episode 7; host matched from episode metadata"
         }
       ],
       "week": [
@@ -37098,6 +37425,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
+          "note": "Official Kan episode 7; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -37108,6 +37441,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
+          "note": "Official Kan episode 7; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -37118,6 +37457,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
+          "note": "Official Kan episode 7; host matched from episode metadata"
         }
       ],
       "age": [
@@ -37179,8 +37524,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/"
+    ]
   },
   {
     "slug": "s8-יוסלה-זיו",
@@ -37209,6 +37562,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+        "note": "Official Kan episode 8; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -37220,6 +37579,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+          "note": "Official Kan episode 8; host matched from episode metadata"
         }
       ],
       "members": [
@@ -37230,6 +37595,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+          "note": "Official Kan episode 8; host matched from episode metadata"
         }
       ],
       "week": [
@@ -37240,6 +37611,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+          "note": "Official Kan episode 8; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -37250,6 +37627,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+          "note": "Official Kan episode 8; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -37260,6 +37643,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+          "note": "Official Kan episode 8; host matched from episode metadata"
         }
       ],
       "age": [
@@ -37331,8 +37720,15 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/"
+    ]
   },
   {
     "slug": "s8-קארי-בר-כהן",
@@ -37360,6 +37756,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
+        "note": "Official Kan episode 9; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -37371,6 +37773,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
+          "note": "Official Kan episode 9; host matched from episode metadata"
         }
       ],
       "members": [
@@ -37381,6 +37789,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
+          "note": "Official Kan episode 9; host matched from episode metadata"
         }
       ],
       "week": [
@@ -37391,6 +37805,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
+          "note": "Official Kan episode 9; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -37401,6 +37821,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
+          "note": "Official Kan episode 9; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -37411,6 +37837,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
+          "note": "Official Kan episode 9; host matched from episode metadata"
         }
       ],
       "age": [
@@ -37472,8 +37904,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/"
+    ]
   },
   {
     "slug": "s8-יהונתן-מקרוב",
@@ -37501,6 +37941,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
+        "note": "Official Kan episode 10; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -37512,6 +37958,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
+          "note": "Official Kan episode 10; host matched from episode metadata"
         }
       ],
       "members": [
@@ -37522,6 +37974,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
+          "note": "Official Kan episode 10; host matched from episode metadata"
         }
       ],
       "week": [
@@ -37532,6 +37990,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
+          "note": "Official Kan episode 10; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -37542,6 +38006,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
+          "note": "Official Kan episode 10; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -37552,6 +38022,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
+          "note": "Official Kan episode 10; host matched from episode metadata"
         }
       ],
       "age": [
@@ -37613,8 +38089,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/"
+    ]
   },
   {
     "slug": "s8-עמית-שאטו",
@@ -37783,6 +38267,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
+        "note": "Official Kan episode 12; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -37794,6 +38284,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
+          "note": "Official Kan episode 12; host matched from episode metadata"
         }
       ],
       "members": [
@@ -37804,6 +38300,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
+          "note": "Official Kan episode 12; host matched from episode metadata"
         }
       ],
       "week": [
@@ -37814,6 +38316,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
+          "note": "Official Kan episode 12; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -37824,6 +38332,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
+          "note": "Official Kan episode 12; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -37834,6 +38348,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
+          "note": "Official Kan episode 12; host matched from episode metadata"
         }
       ],
       "age": [
@@ -37895,8 +38415,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/"
+    ]
   },
   {
     "slug": "s8-משה-ניסימפור",
@@ -37924,6 +38452,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
+        "note": "Official Kan episode 13; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -37935,6 +38469,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
+          "note": "Official Kan episode 13; host matched from episode metadata"
         }
       ],
       "members": [
@@ -37945,6 +38485,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
+          "note": "Official Kan episode 13; host matched from episode metadata"
         }
       ],
       "week": [
@@ -37955,6 +38501,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
+          "note": "Official Kan episode 13; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -37965,6 +38517,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
+          "note": "Official Kan episode 13; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -37975,6 +38533,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
+          "note": "Official Kan episode 13; host matched from episode metadata"
         }
       ],
       "age": [
@@ -38036,8 +38600,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/"
+    ]
   },
   {
     "slug": "s8-עמרי-שושן",
@@ -38206,6 +38778,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
+        "note": "Official Kan episode 15; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -38217,6 +38795,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
+          "note": "Official Kan episode 15; host matched from episode metadata"
         }
       ],
       "members": [
@@ -38227,6 +38811,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
+          "note": "Official Kan episode 15; host matched from episode metadata"
         }
       ],
       "week": [
@@ -38237,6 +38827,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
+          "note": "Official Kan episode 15; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -38247,6 +38843,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
+          "note": "Official Kan episode 15; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -38257,6 +38859,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
+          "note": "Official Kan episode 15; host matched from episode metadata"
         }
       ],
       "city": [
@@ -38318,8 +38926,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "age": [],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/"
+    ]
   },
   {
     "slug": "s8-אילנה-בן-אבו",
@@ -38347,6 +38963,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
+        "note": "Official Kan episode 16; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -38358,6 +38980,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
+          "note": "Official Kan episode 16; host matched from episode metadata"
         }
       ],
       "members": [
@@ -38368,6 +38996,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
+          "note": "Official Kan episode 16; host matched from episode metadata"
         }
       ],
       "week": [
@@ -38378,6 +39012,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
+          "note": "Official Kan episode 16; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -38388,6 +39028,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
+          "note": "Official Kan episode 16; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -38398,6 +39044,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
+          "note": "Official Kan episode 16; host matched from episode metadata"
         }
       ],
       "city": [
@@ -38459,8 +39111,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "age": [],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/"
+    ]
   },
   {
     "slug": "s8-ירון-ליברמן",
@@ -38486,6 +39146,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+        "note": "Official Kan episode 17; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -38497,6 +39163,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; host matched from episode metadata"
         }
       ],
       "members": [
@@ -38507,6 +39179,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; host matched from episode metadata"
         }
       ],
       "week": [
@@ -38517,6 +39195,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -38527,6 +39211,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -38537,6 +39227,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; host matched from episode metadata"
         }
       ],
       "relationshipStatus": [
@@ -38578,8 +39274,18 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "age": [],
+      "city": [],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/"
+    ]
   },
   {
     "slug": "s8-עמנואל-יצחק-לוי",
@@ -38604,6 +39310,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+        "note": "Official Kan episode 18; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -38615,6 +39327,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched from episode metadata"
         }
       ],
       "members": [
@@ -38625,6 +39343,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched from episode metadata"
         }
       ],
       "week": [
@@ -38635,6 +39359,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -38645,6 +39375,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -38655,6 +39391,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched from episode metadata"
         }
       ],
       "score": [
@@ -38686,8 +39428,19 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "age": [],
+      "city": [],
+      "region": [],
+      "occupation": [],
+      "relationshipStatus": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/"
+    ]
   },
   {
     "slug": "s8-נירית-מיטל",
@@ -38715,6 +39468,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+        "note": "Official Kan episode 19; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -38726,6 +39485,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+          "note": "Official Kan episode 19; host matched from episode metadata"
         }
       ],
       "members": [
@@ -38736,6 +39501,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+          "note": "Official Kan episode 19; host matched from episode metadata"
         }
       ],
       "week": [
@@ -38746,6 +39517,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+          "note": "Official Kan episode 19; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -38756,6 +39533,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+          "note": "Official Kan episode 19; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -38766,6 +39549,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+          "note": "Official Kan episode 19; host matched from episode metadata"
         }
       ],
       "age": [
@@ -38827,8 +39616,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/"
+    ]
   },
   {
     "slug": "s8-גל-בן-דוד",
@@ -38856,6 +39653,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
+        "note": "Official Kan episode 20; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -38867,6 +39670,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
+          "note": "Official Kan episode 20; host matched from episode metadata"
         }
       ],
       "members": [
@@ -38877,6 +39686,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
+          "note": "Official Kan episode 20; host matched from episode metadata"
         }
       ],
       "week": [
@@ -38887,6 +39702,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
+          "note": "Official Kan episode 20; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -38897,6 +39718,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
+          "note": "Official Kan episode 20; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -38907,6 +39734,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
+          "note": "Official Kan episode 20; host matched from episode metadata"
         }
       ],
       "age": [
@@ -38968,8 +39801,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/"
+    ]
   },
   {
     "slug": "s8-עדן-כהן",
@@ -38996,6 +39837,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
+        "note": "Official Kan episode 21; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -39007,6 +39854,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
+          "note": "Official Kan episode 21; host matched from episode metadata"
         }
       ],
       "members": [
@@ -39017,6 +39870,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
+          "note": "Official Kan episode 21; host matched from episode metadata"
         }
       ],
       "week": [
@@ -39027,6 +39886,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
+          "note": "Official Kan episode 21; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -39037,6 +39902,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
+          "note": "Official Kan episode 21; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -39047,6 +39918,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
+          "note": "Official Kan episode 21; host matched from episode metadata"
         }
       ],
       "age": [
@@ -39098,8 +39975,17 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "relationshipStatus": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/"
+    ]
   },
   {
     "slug": "s8-לואר-עמור",
@@ -39127,6 +40013,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
+        "note": "Official Kan episode 22; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -39138,6 +40030,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
+          "note": "Official Kan episode 22; host matched from episode metadata"
         }
       ],
       "members": [
@@ -39148,6 +40046,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
+          "note": "Official Kan episode 22; host matched from episode metadata"
         }
       ],
       "week": [
@@ -39158,6 +40062,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
+          "note": "Official Kan episode 22; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -39168,6 +40078,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
+          "note": "Official Kan episode 22; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -39178,6 +40094,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
+          "note": "Official Kan episode 22; host matched from episode metadata"
         }
       ],
       "age": [
@@ -39239,8 +40161,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/"
+    ]
   },
   {
     "slug": "s8-אייל-עובדיה",
@@ -39267,6 +40197,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
+        "note": "Official Kan episode 23; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -39278,6 +40214,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
+          "note": "Official Kan episode 23; host matched from episode metadata"
         }
       ],
       "members": [
@@ -39288,6 +40230,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
+          "note": "Official Kan episode 23; host matched from episode metadata"
         }
       ],
       "week": [
@@ -39298,6 +40246,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
+          "note": "Official Kan episode 23; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -39308,6 +40262,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
+          "note": "Official Kan episode 23; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -39318,6 +40278,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
+          "note": "Official Kan episode 23; host matched from episode metadata"
         }
       ],
       "age": [
@@ -39369,8 +40335,17 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "relationshipStatus": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/"
+    ]
   },
   {
     "slug": "s8-אדי-בן-סימון",
@@ -39398,6 +40373,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
+        "note": "Official Kan episode 24; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -39409,6 +40390,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
+          "note": "Official Kan episode 24; host matched from episode metadata"
         }
       ],
       "members": [
@@ -39419,6 +40406,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
+          "note": "Official Kan episode 24; host matched from episode metadata"
         }
       ],
       "week": [
@@ -39429,6 +40422,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
+          "note": "Official Kan episode 24; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -39439,6 +40438,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
+          "note": "Official Kan episode 24; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -39449,6 +40454,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
+          "note": "Official Kan episode 24; host matched from episode metadata"
         }
       ],
       "age": [
@@ -39510,8 +40521,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "placement": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/"
+    ]
   },
   {
     "slug": "s8-לינוי-דסה",
@@ -39539,6 +40558,12 @@
         "author": "ויקיפדיה העברית — עורכים שונים",
         "license": "CC BY-SA 4.0",
         "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
+        "note": "Official Kan episode 25; host matched from episode metadata"
       }
     ],
     "fieldSources": {
@@ -39550,6 +40575,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
+          "note": "Official Kan episode 25; host matched from episode metadata"
         }
       ],
       "members": [
@@ -39560,6 +40591,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
+          "note": "Official Kan episode 25; host matched from episode metadata"
         }
       ],
       "week": [
@@ -39570,6 +40607,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
+          "note": "Official Kan episode 25; host matched from episode metadata"
         }
       ],
       "weekName": [
@@ -39580,6 +40623,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
+          "note": "Official Kan episode 25; host matched from episode metadata"
         }
       ],
       "hostingOrder": [
@@ -39590,6 +40639,12 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
+          "note": "Official Kan episode 25; host matched from episode metadata"
         }
       ],
       "age": [
@@ -39651,8 +40706,16 @@
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
-      ]
-    }
+      ],
+      "region": [],
+      "occupation": [],
+      "gender": [],
+      "diet": [],
+      "score": []
+    },
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/"
+    ]
   },
   {
     "slug": "s9-קמילה-קידר",

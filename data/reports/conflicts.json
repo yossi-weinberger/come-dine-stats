@@ -88,5 +88,35 @@
         ]
       }
     ]
+  },
+  {
+    "key": "7:לירוןאלון",
+    "field": "weekName",
+    "values": [
+      {
+        "value": "השרון",
+        "sources": [
+          {
+            "kind": "wikipedia",
+            "title": "בואו לאכול איתי עונה 7 — ויקיפדיה העברית",
+            "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_7&oldid=43542951",
+            "author": "ויקיפדיה העברית — עורכים שונים",
+            "license": "CC BY-SA 4.0",
+            "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
+          }
+        ]
+      },
+      {
+        "value": "שרון",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי",
+            "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
+            "note": "Official Kan episode 1; host matched from episode metadata"
+          }
+        ]
+      }
+    ]
   }
 ]
