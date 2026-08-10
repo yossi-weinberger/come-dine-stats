@@ -23,7 +23,18 @@ function priorityFor(sources: SourceRef[] = []) {
   return Math.max(0, ...sources.map((source) => sourcePriority[source.kind] ?? 0))
 }
 
-function sameValue(a: unknown, b: unknown) {
+function normalizeWeekName(value: unknown) {
+  if (typeof value !== 'string') return value
+  return value
+    .normalize('NFKC')
+    .replace(/[–—-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/^ה(?=[\p{L}])/u, '')
+}
+
+function sameValue(field: ScalarField, a: unknown, b: unknown) {
+  if (field === 'weekName') return JSON.stringify(normalizeWeekName(a)) === JSON.stringify(normalizeWeekName(b))
   return JSON.stringify(a) === JSON.stringify(b)
 }
 
@@ -68,7 +79,7 @@ function mergeContestant(base: Contestant, incoming: Contestant, conflicts: Conf
       ;(merged as any)[field] = right
       continue
     }
-    if (!sameValue(left, right)) {
+    if (!sameValue(field, left, right)) {
       conflicts.push({ key: entityKey(base), field, values: [{ value: left, sources: leftSources }, { value: right, sources: rightSources }] })
       if (priorityFor(rightSources) > priorityFor(leftSources)) (merged as any)[field] = right
     }
