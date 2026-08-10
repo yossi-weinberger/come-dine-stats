@@ -1,8 +1,608 @@
 [
   {
+    "season": 3,
+    "episode": 1,
+    "title": "פרק 1 - תל אביב, חלק א' שלושה זוגות מקצוות שונים של תל אביב נפגשים לארוחת ערב",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88541/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88541/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 2,
+    "title": "פרק 2 - תל אביב, חלק ב' אייל ורונית מכינים ארוחה \"בצבעי תשוקה\", רועי מסתבך מול עבד",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88544/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88544/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 3,
+    "title": "פרק 3, חיפה - חלק א' חיים ואצילה, זוג \"אושיות חיפאיות\", מארחים את הזוגות בדירתם המפוארת",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88547/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88547/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 4,
+    "title": "פרק 4 - חיפה, חלק ב' ליאת ודרור מגישים מנת חגבים מוקפצים ושמעון המנטליסט מפתיע את האורחים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88550/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88550/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 5,
+    "title": "פרק 5 - מטבח כשר, חלק א' הזוגות נפגשים לערב הראשון ופוגשים את דויד, שרוצה \"להידמות לבורא עולם\"",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88553/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88553/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 6,
+    "title": "פרק 6 - מטבח כשר, חלק ב' האורחים מתאמנים בתקיעת שופר ומשחקים בזיקוקים (וגם באש)",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88556/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88556/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 7,
+    "title": "פרק 7 - מחוז המרכז, חלק א' מה קורה כשזוג פעילי להב\"ה פוגשים זוג יהודי-ערבי לארוחת ערב?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88559/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88559/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 8,
+    "title": "פרק 8 - מחוז המרכז, חלק ב' הזוגות מנסים לשים את הפוליטיקה בצד ואת האוכל במרכז... ללא הצלחה יתרה",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88562/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88562/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 9,
+    "title": "פרק 9 - גוש דן, חלק א' ישראל וימית מארחים בסגנון הבלינג-בלינג",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88565/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88565/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 10,
+    "title": "פרק 10 - גוש דן, חלק ב' ארוחה טבעונית אפלולית אצל ארתור וג'ול, וארוחה מוגזמת אצל ליאל וליאור",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88568/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88568/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 11,
+    "title": "פרק 11 - ירושלים, חלק א' מגיעים לירושלים לערב של קנאה בין בני זוג, צרות עין ושירה בפנטומימה",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88571/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88571/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 12,
+    "title": "פרק 12 - ירושלים, חלק ב' מירי רוצה לקנות מאלעזר ושושנה את הבית והעניינים מתחילים להתלהט",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88574/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88574/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 13,
+    "title": "פרק 13 - אזור השרון, חלק א' שחר ואורית, \"בארבי וקן\", פוגשים ציידי פוקימונים ונשנשי רוקט מכפר מל\"ל",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88577/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88577/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 14,
+    "title": "פרק 14 - אזור השרון, חלק ב' הזוגות מגיעים לכפר מל\"ל כדי לטעום ממטבחם של אורלי וישגב, השף העירום",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88580/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88580/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 15,
+    "title": "פרק 15 - ספיישל חברים, חלק א' חברות ילדות, נשות חברה ומטפלים רוחניקים נפגשים לארוחה. איך זה ייגמר?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88583/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88583/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 16,
+    "title": "פרק 16 - ספיישל חברים, חלק ב' איזה טעם יש לעוגת \"גילה גילה בוצ'ה בודי\"?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88586/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88586/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 17,
+    "title": "פרק 17 - העמקים והקריות, חלק א' מה קורה כשזוג חוזר בתשובה פוגש צמד אתאיסטים ומתקשרת עם יישויות חוצניות",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88589/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88589/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 18,
+    "title": "פרק 18 - העמקים והקריות, חלק ב' סיגלית מפנקת את סקאי ב\"ניתוח פלסטי\", ושלמה וסיגלית מארחים בסגנון טברנה",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88592/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88592/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 19,
+    "title": "פרק 19 - השרון ומישור החוף, חלק א' מי השווה בין נסיכת הנילוס לטונה בקופסה, ומי הואשם ב\"הומופוביה לייט\"?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88595/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88595/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 3,
+    "episode": 20,
+    "title": "פרק 20 - השרון ומישור החוף, חלק ב' רון וירדנה ומשאירים את גיא ואביב פעורי פה מהסיבות הלא נכונות",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/105628/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/105628/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 1,
+    "title": "פרק 1 - דרום, חלק א' שלושה זוגות נפגשים לערב של כיף ודעות קדומות",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660671/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660671/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 2,
+    "title": "פרק 2 - דרום, חלק ב' אחרי שהבנו מי יותר לבן מטחינה, הגיע הזמן לכסות את שאר הסטראוטיפים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660674/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660674/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 3,
+    "title": "פרק 3 - מישור החוף הצפוני, חלק א תחרות האירוח שלנו עולה לצפון עם פוטנציאל לאבד את הצפון",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660680/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660680/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 4,
+    "title": "פרק 4 - מישור החוף הצפוני, חלק ב בחלק השני של מישור החוף הצפוני: טיפול בהלם או חוויה טראנס-אטלנטית?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660691/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660691/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 5,
+    "title": "פרק 5 - שומרון, חלק א' כשההורים של אורן חזן פגשו את הזוג מהמיד-ברן",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660699/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660699/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 6,
+    "title": "פרק 6 - שומרון, חלק ב' נדמה שכיסינו הכול ואז הזוג חזן מפתיעים בגילויי מרעיש על הזוגיות שלהם",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660703/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660703/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 7,
+    "title": "פרק 7 - אחים ואחיות, חלק א' דודי ואחיו יואב, בת לא רשמית עם נטייה לתפוס את הבמה פוגשים את צחי וורד",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660705/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660705/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 8,
+    "title": "פרק 8 - אחים ואחיות, חלק ב' ארוחה כורדית אצל צחי וורד וקווקזית אצל רייצ'ל ומריאז",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660707/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660707/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 9,
+    "title": "פרק 9 - מרכז, חלק א' נציגי האליטה הקיבוצית פוגשים את נציגי הבועה התל אביבית",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660709/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660709/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 10,
+    "title": "פרק 10 - מרכז, חלק ב' ארוחות עם ניחוחות של קנאה, תחקירים כלכליים ושאלות נוקבות על זוגיות",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660713/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660713/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 11,
+    "title": "פרק 11 - ספיישל כשר, חלק א' חזק חזק ונתחזק - ספיישל כשר למהדרין",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660723/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660723/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 12,
+    "title": "פרק 12 - ספיישל כשר, חלק ב' ארוחת \"כמעט שבת שלום\" בבית אל וארוחה עם מלאכים בעכו",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660725/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660725/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 13,
+    "title": "פרק 13 - השפלה והמרכז, חלק א' כשמפעל הילדים ומפעילות הילדים פגשו את האל-הוריים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660727/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660727/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 14,
+    "title": "פרק 14 - השפלה והמרכז, חלק ב' צפו להפעלות ילדים מוגזמות, שיווק עצמי אגרסיבי וטיפול זוגי כפוי",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660730/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660730/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 15,
+    "title": "פרק 15 - תל אביב יפו, חלק א' דן ומור מאמינים שאהבה זה כואב, על כל המשתמע מכך",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660733/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660733/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 4,
+    "episode": 16,
+    "title": "פרק 16 - תל אביב יפו, חלק ב' מה זה אומר להיות נורמלי? ולמה זה חשוב?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660736/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660736/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 1,
+    "title": "פרק 1 - השרון חלק א' ערב ראשון בשרון, אייל מארח בדירת המעוצבת ובני ציפר נחשף",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/132999/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/132999/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 2,
+    "title": "פרק 2 - השרון חלק ב' ליאת מארחת ומנפצת סטיגמות ובני ואייל ממשיכים ללחוץ אחד לשני על נקודות",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133002/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133002/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 3,
+    "title": "פרק 3 - השרון חלק ג' בני ציפר מגיש ארוחה תורכית ומתהדר בסטנדרטים המתאימים לנתניהוז",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133004/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133004/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 4,
+    "title": "פרק 4 - השרון חלק ד' גילי מארחת בהקפדה בביתה בקיבוץ, במטרה לכבוש את המקום הראשון",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133006/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133006/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 5,
+    "title": "פרק 5 - השרון חלק ה' ירון מארח וחולק עם האורחים את אמונתו במפלצת הפסטה. האם יעזור לו לנצח?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133009/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133009/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 6,
+    "title": "פרק 6 - תל אביב-יפו חלק א' אושרית, פעילה נגד המסתננים בת\"א, מארחת את קייסי, בת למהגרים פיליפינים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 7,
+    "title": "פרק 7 - תל אביב-יפו חלק ב' ירון מארח בפאר בקומה ה-37, אבל לא כולם מוכנים לנסות טעמים חדשים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133292/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133292/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 8,
+    "title": "פרק 8 - תל אביב-יפו חלק ג' הדס מנסה לנצח בעזרת קסם אישי, האם האורחים יפלו לרשתה?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133679/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133679/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 9,
+    "title": "פרק 9 - תל אביב-יפו חלק ד' גיא משקיע מכל הלב באירוח, אבל שיחות על החיים יוצאות מכלל שליטה",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133682/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133682/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 10,
+    "title": "פרק 10 - תל אביב-יפו חלק ה' קייסי מארחת בדירתה והאורחים מופעים מהמיקום ומצדדים באישיותה שנחשפים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 11,
+    "title": "פרק 11 - צפון חלק א' חנה בחצור הגלילית, מכינה חפלה מרוקאית. מי יאכל ומי יאכל את הראש?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134067/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134067/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 12,
+    "title": "פרק 12 - צפון חלק ב' עימראן מכפר בועאנה נוג'ידאת מפתיע את האורחים עם ארוחה איטלקית מסורתית",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134070/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134070/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 13,
+    "title": "פרק 13 - צפון חלק ג' האם שרין הצעירה הצעירה מעפולה תצליח לנצח את חנה בסעודה מהמטבח המרוקאי?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134162/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134162/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 14,
+    "title": "פרק 14 - צפון חלק ד' איך יתמודדו האורחים עם סגנונו נטול היומרה (והמפה) של אריאל מעין יעקב?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134165/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134165/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
     "season": 5,
     "episode": 15,
-    "title": "00:27:39 פרק 15 - צפון חלק ה' הדו קרב בין חנה לינה מגיע לשיאו במגדלי פנורמה, בערב האחרון בשבוע הצפון",
+    "title": "פרק 15 - צפון חלק ה' הדו קרב בין חנה לינה מגיע לשיאו במגדלי פנורמה, בערב האחרון בשבוע הצפון",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134167/",
     "source": {
       "kind": "kan",
@@ -14,7 +614,7 @@
   {
     "season": 5,
     "episode": 16,
-    "title": "00:28:46 פרק 16 - דרום חלק א' בערב פתיחת שבוע דרום מאחרת קציעה, היועצת מינית, שמגישה מנות וגם טיפים",
+    "title": "פרק 16 - דרום חלק א' בערב פתיחת שבוע דרום מאחרת קציעה, היועצת מינית, שמגישה מנות וגם טיפים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134169/",
     "source": {
       "kind": "kan",
@@ -25,8 +625,56 @@
   },
   {
     "season": 5,
+    "episode": 17,
+    "title": "פרק 17 - דרום חלק ב' איב התחרותי, מארח את החבורה בדירת הרווקים, שמיצדם מתרכזים בהיותו רווק",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134171/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134171/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 18,
+    "title": "פרק 18 - דרום חלק ג' ארוחה בייתית נינוחה בבית של אביגיל הופכת לשדה קרב, לאחר תקרית מביכה",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134173/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134173/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 19,
+    "title": "פרק 19 - דרום חלק ד' האורחים מגיעים מלאי ציפייה לממלכת השיק של תאיר בב\"ש לארוחה בלתי נשכחת",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134175/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134175/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 20,
+    "title": "פרק 20 - דרום חלק ה' איגור מארח לערב אחרון מלא אלכוהול. האם תאיר וקציעה ישלימו ומי ינצח?",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134177/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134177/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
     "episode": 21,
-    "title": "00:28:06 פרק 21 - חיפה והקריות חלק א' הארוחה הראשונה בשבוע חיפה והקריות מתגלה כערב רווקים רווקות",
+    "title": "פרק 21 - חיפה והקריות חלק א' הארוחה הראשונה בשבוע חיפה והקריות מתגלה כערב רווקים רווקות",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134179/",
     "source": {
       "kind": "kan",
@@ -36,10 +684,59 @@
     }
   },
   {
+    "season": 5,
+    "episode": 22,
+    "title": "פרק 22 - חיפה והקריות חלק ב' ענבל מארחת בביתה בכרמל לערב של אלכוהול וסטיגמות על שים, גברים וזוגיות",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134181/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134181/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 23,
+    "title": "פרק 23 - חיפה והקריות חלק ג' האורחים מגיעים לאלכס ומופעים שעדיין גר עם ההורים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134183/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134183/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 24,
+    "title": "פרק 24 - חיפה והקריות חלק ד' אורן מארח בדירת החדר שלו לערב של התגוששות מילולית ופיזית",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134185/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134185/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 5,
+    "episode": 25,
+    "title": "פרק 25 - חיפה והקריות חלק ה' בביתה של ספאא בדלית אל כרמל, אלכס מגלה שהוא לא היחיד שגר עם ההורים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134187/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134187/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
     "season": 6,
     "episode": 1,
+    "weekName": "צפון",
     "hostingOrder": 1,
-    "title": "00:27:14 צפון - יום א' (פרק 1) ערב ראשון בצפון. אורפז משקיעה מאוד באורחיה, אך האם הם יעריכו את הטרחה?",
+    "title": "צפון - יום א' (פרק 1) ערב ראשון בצפון. אורפז משקיעה מאוד באורחיה, אך האם הם יעריכו את הטרחה?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148385/",
     "source": {
       "kind": "kan",
@@ -51,8 +748,9 @@
   {
     "season": 6,
     "episode": 2,
+    "weekName": "צפון",
     "hostingOrder": 2,
-    "title": "00:28:10 צפון - יום ב' (פרק 2) יום שני לתחרות והאורחים מגלים צדדים חדשים שלא הכירו בעודד",
+    "title": "צפון - יום ב' (פרק 2) יום שני לתחרות והאורחים מגלים צדדים חדשים שלא הכירו בעודד",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148388/",
     "source": {
       "kind": "kan",
@@ -64,8 +762,9 @@
   {
     "season": 6,
     "episode": 3,
+    "weekName": "צפון",
     "hostingOrder": 3,
-    "title": "00:28:45 צפון - יום ג' (פרק 3) ממטבח קטן בנהריה, שחר הבלוגר מגיש ארוחה גדולה ועונה לשאלות על זוגיות",
+    "title": "צפון - יום ג' (פרק 3) ממטבח קטן בנהריה, שחר הבלוגר מגיש ארוחה גדולה ועונה לשאלות על זוגיות",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148391/",
     "source": {
       "kind": "kan",
@@ -77,8 +776,9 @@
   {
     "season": 6,
     "episode": 4,
+    "weekName": "צפון",
     "hostingOrder": 4,
-    "title": "00:27:16 צפון - יום ד' (פרק 4) שמרי מחליט להכין מנות חדשות בפעם הראשונה ומכיר לאורחים את קערת הקריסטל",
+    "title": "צפון - יום ד' (פרק 4) שמרי מחליט להכין מנות חדשות בפעם הראשונה ומכיר לאורחים את קערת הקריסטל",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148457/",
     "source": {
       "kind": "kan",
@@ -90,8 +790,9 @@
   {
     "season": 6,
     "episode": 5,
+    "weekName": "צפון",
     "hostingOrder": 5,
-    "title": "00:29:02 צפון - יום ה' (פרק 5) בפרק סיום השבוע בבית הצבעוני של חני, תיקו מפתיע ועניינים אישיים נחשפים",
+    "title": "צפון - יום ה' (פרק 5) בפרק סיום השבוע בבית הצבעוני של חני, תיקו מפתיע ועניינים אישיים נחשפים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148460/",
     "source": {
       "kind": "kan",
@@ -103,8 +804,9 @@
   {
     "season": 6,
     "episode": 6,
+    "weekName": "דרום",
     "hostingOrder": 1,
-    "title": "00:27:22 דרום - יום א' (פרק 6) בדרום, קרין המארחת מנסה להראות שהיא נסיכה ובשלנית. האם האורחים יסכימו?",
+    "title": "דרום - יום א' (פרק 6) בדרום, קרין המארחת מנסה להראות שהיא נסיכה ובשלנית. האם האורחים יסכימו?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148556/",
     "source": {
       "kind": "kan",
@@ -116,8 +818,9 @@
   {
     "season": 6,
     "episode": 7,
+    "weekName": "דרום",
     "hostingOrder": 2,
-    "title": "00:27:30 דרום - יום ב' (פרק 7) סופיה מגישה מנות גיאורגיות, בליווי ריקוד מפתיע ודיון על דת",
+    "title": "דרום - יום ב' (פרק 7) סופיה מגישה מנות גיאורגיות, בליווי ריקוד מפתיע ודיון על דת",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148559/",
     "source": {
       "kind": "kan",
@@ -129,8 +832,9 @@
   {
     "season": 6,
     "episode": 8,
+    "weekName": "דרום",
     "hostingOrder": 3,
-    "title": "00:27:34 דרום - יום ג' (פרק 8) עוד ערב גיאורגי, הפעם אצל אילנה. איך תגיב לשיחות הבוטות?",
+    "title": "דרום - יום ג' (פרק 8) עוד ערב גיאורגי, הפעם אצל אילנה. איך תגיב לשיחות הבוטות?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148562/",
     "source": {
       "kind": "kan",
@@ -142,8 +846,9 @@
   {
     "season": 6,
     "episode": 9,
+    "weekName": "דרום",
     "hostingOrder": 4,
-    "title": "00:28:06 דרום - יום ד' (פרק 9) עודד מארח את החבורה בדירת השותפים בב\"ש, איך יגיב כשתוכניותיו ישתבשו?",
+    "title": "דרום - יום ד' (פרק 9) עודד מארח את החבורה בדירת השותפים בב\"ש, איך יגיב כשתוכניותיו ישתבשו?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148565/",
     "source": {
       "kind": "kan",
@@ -155,8 +860,9 @@
   {
     "season": 6,
     "episode": 10,
+    "weekName": "דרום",
     "hostingOrder": 5,
-    "title": "00:27:22 דרום - יום ה' (פרק 10) רוני לוקח את אורחיו ל\"טיול\" בפרו ארץ מולדתו. האם הוא ינצח בשבוע הדרום?",
+    "title": "דרום - יום ה' (פרק 10) רוני לוקח את אורחיו ל\"טיול\" בפרו ארץ מולדתו. האם הוא ינצח בשבוע הדרום?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148568/",
     "source": {
       "kind": "kan",
@@ -168,8 +874,9 @@
   {
     "season": 6,
     "episode": 11,
+    "weekName": "ירושלים",
     "hostingOrder": 1,
-    "title": "00:27:43 ירושלים - יום א' (פרק 11) בפתיחת שבוע ירושלים, פיני הקרניבור מארח חבורה ירושלמית הטרוגנית",
+    "title": "ירושלים - יום א' (פרק 11) בפתיחת שבוע ירושלים, פיני הקרניבור מארח חבורה ירושלמית הטרוגנית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148994/",
     "source": {
       "kind": "kan",
@@ -181,8 +888,9 @@
   {
     "season": 6,
     "episode": 12,
+    "weekName": "ירושלים",
     "hostingOrder": 2,
-    "title": "00:27:41 ירושלים - יום ב' (פרק 12) ברוריה האומנית משלבת באירוח סיפור חיים, קודש וחול",
+    "title": "ירושלים - יום ב' (פרק 12) ברוריה האומנית משלבת באירוח סיפור חיים, קודש וחול",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148997/",
     "source": {
       "kind": "kan",
@@ -194,8 +902,9 @@
   {
     "season": 6,
     "episode": 13,
+    "weekName": "ירושלים",
     "hostingOrder": 3,
-    "title": "00:28:21 ירושלים - יום ג' (פרק 13) אריק חוגג טבעוני, הפתעה קרובה והיסטוריה ירושלמית",
+    "title": "ירושלים - יום ג' (פרק 13) אריק חוגג טבעוני, הפתעה קרובה והיסטוריה ירושלמית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149000/",
     "source": {
       "kind": "kan",
@@ -207,8 +916,9 @@
   {
     "season": 6,
     "episode": 14,
+    "weekName": "ירושלים",
     "hostingOrder": 4,
-    "title": "00:27:34 ירושלים - יום ד' (פרק 14) שלם מארח בארמונו לארוחה וסיפור חיים מפתיעים ומרתקים",
+    "title": "ירושלים - יום ד' (פרק 14) שלם מארח בארמונו לארוחה וסיפור חיים מפתיעים ומרתקים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149012/",
     "source": {
       "kind": "kan",
@@ -220,8 +930,9 @@
   {
     "season": 6,
     "episode": 15,
+    "weekName": "ירושלים",
     "hostingOrder": 5,
-    "title": "00:27:21 ירושלים - יום ה' (פרק 15) יעל סוגרת עם מנה מפתיעה, והמנצח של ירושלים נקבע",
+    "title": "ירושלים - יום ה' (פרק 15) יעל סוגרת עם מנה מפתיעה, והמנצח של ירושלים נקבע",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149015/",
     "source": {
       "kind": "kan",
@@ -233,8 +944,9 @@
   {
     "season": 6,
     "episode": 16,
+    "weekName": "דן ושומרון",
     "hostingOrder": 1,
-    "title": "00:28:41 דן ושומרון - יום א' (פרק 16) בואו לאכול איתי באזור המרכז, שעה מכל פקק. הפעם, מודי מבת ים יארח",
+    "title": "דן ושומרון - יום א' (פרק 16) בואו לאכול איתי באזור המרכז, שעה מכל פקק. הפעם, מודי מבת ים יארח",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149369/",
     "source": {
       "kind": "kan",
@@ -246,8 +958,9 @@
   {
     "season": 6,
     "episode": 17,
+    "weekName": "דן ושומרון",
     "hostingOrder": 2,
-    "title": "00:27:15 דן ושומרון - יום ב' (פרק 17) היום תגיע החבורה ברכב משוריין לעמיחי. שם תארח נערת הגבעות רבקה",
+    "title": "דן ושומרון - יום ב' (פרק 17) היום תגיע החבורה ברכב משוריין לעמיחי. שם תארח נערת הגבעות רבקה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149372/",
     "source": {
       "kind": "kan",
@@ -259,8 +972,9 @@
   {
     "season": 6,
     "episode": 18,
+    "weekName": "דן ושומרון",
     "hostingOrder": 3,
-    "title": "00:27:29 דן ושומרון - יום ג' (פרק 18) האורחים ניהנים בארוחה המקסיקנית של שרון עד ששאלה אחת מבעירה את השולחן",
+    "title": "דן ושומרון - יום ג' (פרק 18) האורחים ניהנים בארוחה המקסיקנית של שרון עד ששאלה אחת מבעירה את השולחן",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149375/",
     "source": {
       "kind": "kan",
@@ -272,8 +986,9 @@
   {
     "season": 6,
     "episode": 19,
+    "weekName": "דן ושומרון",
     "hostingOrder": 4,
-    "title": "00:27:46 דן ושומרון - יום ד' (פרק 19) גאלה מארחת בביתה הצבעוני והמיוחד, והאורחים לומדים על טינדר דתי וחילוני",
+    "title": "דן ושומרון - יום ד' (פרק 19) גאלה מארחת בביתה הצבעוני והמיוחד, והאורחים לומדים על טינדר דתי וחילוני",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149378/",
     "source": {
       "kind": "kan",
@@ -285,8 +1000,9 @@
   {
     "season": 6,
     "episode": 20,
+    "weekName": "דן ושומרון",
     "hostingOrder": 5,
-    "title": "00:27:14 דן ושומרון - יום ה' (פרק 20) עומר מאלקנה, שהצהיר שבא לנצח, סוגר את השבוע. האם יעמוד באתגר שהציב?",
+    "title": "דן ושומרון - יום ה' (פרק 20) עומר מאלקנה, שהצהיר שבא לנצח, סוגר את השבוע. האם יעמוד באתגר שהציב?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149381/",
     "source": {
       "kind": "kan",
@@ -298,8 +1014,9 @@
   {
     "season": 6,
     "episode": 21,
+    "weekName": "מרכז",
     "hostingOrder": 1,
-    "title": "00:27:45 מרכז - יום א' (פרק 21) המתקשרת והיוצרת יהודית מארחת בדירתה המסקרנת את הערב הראשון בשבוע המרכז",
+    "title": "מרכז - יום א' (פרק 21) המתקשרת והיוצרת יהודית מארחת בדירתה המסקרנת את הערב הראשון בשבוע המרכז",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149792/",
     "source": {
       "kind": "kan",
@@ -311,8 +1028,9 @@
   {
     "season": 6,
     "episode": 22,
+    "weekName": "מרכז",
     "hostingOrder": 2,
-    "title": "00:27:22 מרכז - יום ב' (פרק 22) אלה תארח בדירת השותפים התל אביבית. האםהבורה תתחבר לאוכל וגם אחד לשני?",
+    "title": "מרכז - יום ב' (פרק 22) אלה תארח בדירת השותפים התל אביבית. האםהבורה תתחבר לאוכל וגם אחד לשני?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149795/",
     "source": {
       "kind": "kan",
@@ -324,8 +1042,9 @@
   {
     "season": 6,
     "episode": 23,
+    "weekName": "מרכז",
     "hostingOrder": 3,
-    "title": "00:27:45 מרכז - יום ג' (פרק 23) סיוון מגישה במגדל ארוחה עשירה במיוחד והופעה מפתיעה, אך לא כולם מתרשמים",
+    "title": "מרכז - יום ג' (פרק 23) סיוון מגישה במגדל ארוחה עשירה במיוחד והופעה מפתיעה, אך לא כולם מתרשמים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149798/",
     "source": {
       "kind": "kan",
@@ -337,8 +1056,9 @@
   {
     "season": 6,
     "episode": 24,
+    "weekName": "מרכז",
     "hostingOrder": 4,
-    "title": "00:28:16 מרכז - יום ד' (פרק 24) כוכב הרשת אביעד וחתוליו מארחים את סיוון ויהודית שעסוקות בלסגור חשבון",
+    "title": "מרכז - יום ד' (פרק 24) כוכב הרשת אביעד וחתוליו מארחים את סיוון ויהודית שעסוקות בלסגור חשבון",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149801/",
     "source": {
       "kind": "kan",
@@ -350,7 +1070,7 @@
   {
     "season": 6,
     "episode": 25,
-    "title": "00:28:16 מרכז 5 (פרק 25) ארוחת פארם טו טייבל מושקעת אצל גל עם גילויים עסיסיים ומנצח/ת השבוע",
+    "title": "מרכז 5 (פרק 25) ארוחת פארם טו טייבל מושקעת אצל גל עם גילויים עסיסיים ומנצח/ת השבוע",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149804/",
     "source": {
       "kind": "kan",
@@ -362,8 +1082,9 @@
   {
     "season": 6,
     "episode": 26,
+    "weekName": "כרמל",
     "hostingOrder": 1,
-    "title": "00:27:56 כרמל - יום א' (פרק 26) פגישה ראשונה בבית הלא שגרתי של מורן לארוחה מרוקאית-רומנית",
+    "title": "כרמל - יום א' (פרק 26) פגישה ראשונה בבית הלא שגרתי של מורן לארוחה מרוקאית-רומנית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150023/",
     "source": {
       "kind": "kan",
@@ -375,8 +1096,9 @@
   {
     "season": 6,
     "episode": 27,
+    "weekName": "כרמל",
     "hostingOrder": 2,
-    "title": "00:27:58 כרמל - יום ב' (פרק 27) פאדי איש התקשורת מארח בביתו ומשתף בפרטים שלא כולם שמחים לשמוע",
+    "title": "כרמל - יום ב' (פרק 27) פאדי איש התקשורת מארח בביתו ומשתף בפרטים שלא כולם שמחים לשמוע",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150026/",
     "source": {
       "kind": "kan",
@@ -388,8 +1110,9 @@
   {
     "season": 6,
     "episode": 28,
+    "weekName": "כרמל",
     "hostingOrder": 3,
-    "title": "00:28:06 כרמל - יום ג' (פרק 28) ארוחה ביתית מרוקאית ואינטימית אצל מעיין החילונית-מסורתית",
+    "title": "כרמל - יום ג' (פרק 28) ארוחה ביתית מרוקאית ואינטימית אצל מעיין החילונית-מסורתית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150029/",
     "source": {
       "kind": "kan",
@@ -401,8 +1124,9 @@
   {
     "season": 6,
     "episode": 29,
+    "weekName": "כרמל",
     "hostingOrder": 4,
-    "title": "00:27:49 כרמל - יום ד' (פרק 29) ערב קופצני ואנרגטי אצל דנה בחיפה, עם שאלות מציקות ובידור טלפתי מפתיע",
+    "title": "כרמל - יום ד' (פרק 29) ערב קופצני ואנרגטי אצל דנה בחיפה, עם שאלות מציקות ובידור טלפתי מפתיע",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150035/",
     "source": {
       "kind": "kan",
@@ -414,8 +1138,9 @@
   {
     "season": 6,
     "episode": 30,
+    "weekName": "כרמל",
     "hostingOrder": 5,
-    "title": "00:27:11 כרמל - יום ה' (פרק 30) הערב תצפין החבורה לאירוח חגיגי במיוחד",
+    "title": "כרמל - יום ה' (פרק 30) הערב תצפין החבורה לאירוח חגיגי במיוחד",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150032/",
     "source": {
       "kind": "kan",
@@ -429,7 +1154,7 @@
     "episode": 1,
     "weekName": "שרון",
     "hostingOrder": 1,
-    "title": "00:30:09 פרק 1 - שבוע שרון, יום א' את התחרות יתחיל לירון, נשוי טרי, מובטל טרי ובכלל סטרייט בטעות",
+    "title": "פרק 1 - שבוע שרון, יום א' את התחרות יתחיל לירון, נשוי טרי, מובטל טרי ובכלל סטרייט בטעות",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
     "source": {
       "kind": "kan",
@@ -443,7 +1168,7 @@
     "episode": 2,
     "weekName": "שרון",
     "hostingOrder": 2,
-    "title": "00:28:07 פרק 2 - שבוע שרון, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 2 - שבוע שרון, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/444547/",
     "source": {
       "kind": "kan",
@@ -457,7 +1182,7 @@
     "episode": 3,
     "weekName": "שרון",
     "hostingOrder": 3,
-    "title": "00:28:07 פרק 3 - שבוע שרון, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 3 - שבוע שרון, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/444580/",
     "source": {
       "kind": "kan",
@@ -471,7 +1196,7 @@
     "episode": 4,
     "weekName": "שרון",
     "hostingOrder": 4,
-    "title": "00:26:10 פרק 4 - שבוע שרון, יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 4 - שבוע שרון, יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/458857/",
     "source": {
       "kind": "kan",
@@ -485,7 +1210,7 @@
     "episode": 5,
     "weekName": "שרון",
     "hostingOrder": 5,
-    "title": "00:27:52 פרק 5 - שבוע שרון, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 5 - שבוע שרון, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/444586/",
     "source": {
       "kind": "kan",
@@ -499,7 +1224,7 @@
     "episode": 6,
     "weekName": "מרכז",
     "hostingOrder": 1,
-    "title": "00:30:09 פרק 6 - שבוע מרכז, יום א' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 6 - שבוע מרכז, יום א' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439431/",
     "source": {
       "kind": "kan",
@@ -513,7 +1238,7 @@
     "episode": 7,
     "weekName": "מרכז",
     "hostingOrder": 2,
-    "title": "00:28:27 פרק 7 - שבוע מרכז, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 7 - שבוע מרכז, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439433/",
     "source": {
       "kind": "kan",
@@ -527,7 +1252,7 @@
     "episode": 8,
     "weekName": "מרכז",
     "hostingOrder": 3,
-    "title": "00:28:26 פרק 8 - שבוע מרכז, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 8 - שבוע מרכז, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439436/",
     "source": {
       "kind": "kan",
@@ -541,7 +1266,7 @@
     "episode": 9,
     "weekName": "מרכז",
     "hostingOrder": 4,
-    "title": "00:28:40 פרק 9 - שבוע מרכז , יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 9 - שבוע מרכז , יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439439/",
     "source": {
       "kind": "kan",
@@ -554,7 +1279,7 @@
     "season": 7,
     "episode": 10,
     "hostingOrder": 5,
-    "title": "00:27:55 פרק 10 - מרכז, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 10 - מרכז, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439442/",
     "source": {
       "kind": "kan",
@@ -567,7 +1292,7 @@
     "season": 7,
     "episode": 11,
     "hostingOrder": 1,
-    "title": "00:28:55 פרק 11 - ירושלים, יום א' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 11 - ירושלים, יום א' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475809/",
     "source": {
       "kind": "kan",
@@ -580,7 +1305,7 @@
     "season": 7,
     "episode": 12,
     "hostingOrder": 2,
-    "title": "00:27:25 פרק 12 - ירושלים, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 12 - ירושלים, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475354/",
     "source": {
       "kind": "kan",
@@ -593,7 +1318,7 @@
     "season": 7,
     "episode": 13,
     "hostingOrder": 3,
-    "title": "00:28:13 פרק 13 - ירושלים, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 13 - ירושלים, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469819/",
     "source": {
       "kind": "kan",
@@ -606,7 +1331,7 @@
     "season": 7,
     "episode": 14,
     "hostingOrder": 4,
-    "title": "00:27:29 פרק 14 - ירושלים, יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 14 - ירושלים, יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475437/",
     "source": {
       "kind": "kan",
@@ -619,7 +1344,7 @@
     "season": 7,
     "episode": 15,
     "hostingOrder": 5,
-    "title": "00:27:55 פרק 15 - ירושלים, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 15 - ירושלים, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/481776/",
     "source": {
       "kind": "kan",
@@ -632,7 +1357,7 @@
     "season": 7,
     "episode": 16,
     "hostingOrder": 1,
-    "title": "00:29:46 פרק 16 - צפון, יום א' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 16 - צפון, יום א' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439447/",
     "source": {
       "kind": "kan",
@@ -645,7 +1370,7 @@
     "season": 7,
     "episode": 17,
     "hostingOrder": 2,
-    "title": "00:26:22 פרק 17 - צפון, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 17 - צפון, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439449/",
     "source": {
       "kind": "kan",
@@ -658,7 +1383,7 @@
     "season": 7,
     "episode": 18,
     "hostingOrder": 3,
-    "title": "00:28:08 פרק 18 - צפון, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 18 - צפון, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439451/",
     "source": {
       "kind": "kan",
@@ -671,7 +1396,7 @@
     "season": 7,
     "episode": 19,
     "hostingOrder": 4,
-    "title": "00:26:26 פרק 19 - צפון, יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 19 - צפון, יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439453/",
     "source": {
       "kind": "kan",
@@ -684,7 +1409,7 @@
     "season": 7,
     "episode": 20,
     "hostingOrder": 5,
-    "title": "00:27:33 פרק 20 - צפון, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 20 - צפון, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/457502/",
     "source": {
       "kind": "kan",
@@ -697,7 +1422,7 @@
     "season": 7,
     "episode": 21,
     "hostingOrder": 1,
-    "title": "00:30:07 פרק 21 - תל אביב, יום א' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 21 - תל אביב, יום א' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475677/",
     "source": {
       "kind": "kan",
@@ -710,7 +1435,7 @@
     "season": 7,
     "episode": 22,
     "hostingOrder": 2,
-    "title": "00:28:00 פרק 22 - תל אביב, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 22 - תל אביב, יום ב' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/482175/",
     "source": {
       "kind": "kan",
@@ -723,7 +1448,7 @@
     "season": 7,
     "episode": 23,
     "hostingOrder": 3,
-    "title": "00:28:10 פרק 23 - תל אביב, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 23 - תל אביב, יום ג' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/482179/",
     "source": {
       "kind": "kan",
@@ -736,7 +1461,7 @@
     "season": 7,
     "episode": 24,
     "hostingOrder": 4,
-    "title": "00:28:07 פרק 24 - תל אביב ,יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 24 - תל אביב ,יום ד' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469814/",
     "source": {
       "kind": "kan",
@@ -749,7 +1474,7 @@
     "season": 7,
     "episode": 25,
     "hostingOrder": 5,
-    "title": "00:30:06 פרק 25 - תל אביב, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
+    "title": "פרק 25 - תל אביב, יום ה' בשל הסכמי זכויות שידור, פרק זה כבר לא זמין לצפייה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469803/",
     "source": {
       "kind": "kan",
@@ -763,7 +1488,7 @@
     "episode": 1,
     "weekName": "צפון",
     "hostingOrder": 1,
-    "title": "00:29:07 פרק 1 - שבוע צפון, יום א' אז אצל מי באים לאכול? את התחרות פותחת ענבל המורה מחיפה",
+    "title": "פרק 1 - שבוע צפון, יום א' אז אצל מי באים לאכול? את התחרות פותחת ענבל המורה מחיפה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
     "source": {
       "kind": "kan",
@@ -777,7 +1502,7 @@
     "episode": 2,
     "weekName": "צפון",
     "hostingOrder": 2,
-    "title": "00:27:30 פרק 2 - שבוע צפון, יום ב' ביום השני לתחרות מארחת מעיין, מסדרת ארונות מקצועית וסטייליסטית מיקנעם",
+    "title": "פרק 2 - שבוע צפון, יום ב' ביום השני לתחרות מארחת מעיין, מסדרת ארונות מקצועית וסטייליסטית מיקנעם",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
     "source": {
       "kind": "kan",
@@ -791,7 +1516,7 @@
     "episode": 3,
     "weekName": "צפון",
     "hostingOrder": 3,
-    "title": "00:27:01 פרק 3 - שבוע צפון, יום ג' את היום השלישי לתחרות מארח אחיה, לוחם חופש מהיישוב האקולוגי רותם",
+    "title": "פרק 3 - שבוע צפון, יום ג' את היום השלישי לתחרות מארח אחיה, לוחם חופש מהיישוב האקולוגי רותם",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
     "source": {
       "kind": "kan",
@@ -805,7 +1530,7 @@
     "episode": 4,
     "weekName": "צפון",
     "hostingOrder": 4,
-    "title": "00:28:06 פרק 4 - שבוע צפון, יום ד' ביום הרביעי לתחרות החבורה חוזרת לחיפה ומתארחת הפעם אצל איתמר ההייטקיסט",
+    "title": "פרק 4 - שבוע צפון, יום ד' ביום הרביעי לתחרות החבורה חוזרת לחיפה ומתארחת הפעם אצל איתמר ההייטקיסט",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
     "source": {
       "kind": "kan",
@@ -819,7 +1544,7 @@
     "episode": 5,
     "weekName": "צפון",
     "hostingOrder": 5,
-    "title": "00:27:37 פרק 5 - שבוע צפון, יום ה' בפרק אחרון לשבוע צפון מארחת דנה כהן הלוי, המתקשרת מהמושבה מגדל",
+    "title": "פרק 5 - שבוע צפון, יום ה' בפרק אחרון לשבוע צפון מארחת דנה כהן הלוי, המתקשרת מהמושבה מגדל",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
     "source": {
       "kind": "kan",
@@ -833,7 +1558,7 @@
     "episode": 6,
     "weekName": "ירושלים",
     "hostingOrder": 1,
-    "title": "00:28:17 פרק 6 - שבוע ירושלים, יום א' שבוע ירושלים נפתח אצל לבנה שיפמן עם ארוחה טבעונית מפתיעה",
+    "title": "פרק 6 - שבוע ירושלים, יום א' שבוע ירושלים נפתח אצל לבנה שיפמן עם ארוחה טבעונית מפתיעה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
     "source": {
       "kind": "kan",
@@ -847,7 +1572,7 @@
     "episode": 7,
     "weekName": "ירושלים",
     "hostingOrder": 2,
-    "title": "00:27:03 פרק 7 - שבוע ירושלים, יום ב' ביום השני לשבוע ירושלים תארח יפה חסידים לארוחה עיראקית באווירה משפחתית",
+    "title": "פרק 7 - שבוע ירושלים, יום ב' ביום השני לשבוע ירושלים תארח יפה חסידים לארוחה עיראקית באווירה משפחתית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
     "source": {
       "kind": "kan",
@@ -861,7 +1586,7 @@
     "episode": 8,
     "weekName": "ירושלים",
     "hostingOrder": 3,
-    "title": "00:27:32 פרק 8 - שבוע ירושלים, יום ג' ביום השלישי לתחרות יארח יוסל'ה, ספר נשים ביום ודראגיסט בלילה",
+    "title": "פרק 8 - שבוע ירושלים, יום ג' ביום השלישי לתחרות יארח יוסל'ה, ספר נשים ביום ודראגיסט בלילה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
     "source": {
       "kind": "kan",
@@ -875,7 +1600,7 @@
     "episode": 9,
     "weekName": "ירושלים",
     "hostingOrder": 4,
-    "title": "00:27:29 פרק 9 - שבוע ירושלים, יום ד' ביום הרביעי לשבוע ירושלים תארח קארי - ציונית חרדית ואושיית טיקטוק",
+    "title": "פרק 9 - שבוע ירושלים, יום ד' ביום הרביעי לשבוע ירושלים תארח קארי - ציונית חרדית ואושיית טיקטוק",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
     "source": {
       "kind": "kan",
@@ -889,7 +1614,7 @@
     "episode": 10,
     "weekName": "ירושלים",
     "hostingOrder": 5,
-    "title": "00:26:56 פרק 10 - שבוע ירושלים, יום ה' ביום האחרון לתחרות יארח יהונתן מנטף לארוחה אורגנית. מי יהיה הזוכה?",
+    "title": "פרק 10 - שבוע ירושלים, יום ה' ביום האחרון לתחרות יארח יהונתן מנטף לארוחה אורגנית. מי יהיה הזוכה?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
     "source": {
       "kind": "kan",
@@ -903,7 +1628,7 @@
     "episode": 11,
     "weekName": "דרום",
     "hostingOrder": 1,
-    "title": "00:27:38 פרק 11 - שבוע דרום, יום א' יום ראשון של שבוע חדש בתחרות האוכל והבישול",
+    "title": "פרק 11 - שבוע דרום, יום א' יום ראשון של שבוע חדש בתחרות האוכל והבישול",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773506/",
     "source": {
       "kind": "kan",
@@ -917,7 +1642,7 @@
     "episode": 12,
     "weekName": "דרום",
     "hostingOrder": 2,
-    "title": "00:28:56 פרק 12 - שבוע דרום, יום ב' הערב תארח חן, עירונית בנשמה עם אוכל אסייתי ושיחה סוערת על סטיגמות",
+    "title": "פרק 12 - שבוע דרום, יום ב' הערב תארח חן, עירונית בנשמה עם אוכל אסייתי ושיחה סוערת על סטיגמות",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
     "source": {
       "kind": "kan",
@@ -931,7 +1656,7 @@
     "episode": 13,
     "weekName": "דרום",
     "hostingOrder": 3,
-    "title": "00:28:00 פרק 13 - שבוע דרום, יום ג' היום השלישי לתחרות הבישול באזור הדרום עם אירוח של משה, אשקלוני גאה",
+    "title": "פרק 13 - שבוע דרום, יום ג' היום השלישי לתחרות הבישול באזור הדרום עם אירוח של משה, אשקלוני גאה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
     "source": {
       "kind": "kan",
@@ -945,7 +1670,7 @@
     "episode": 14,
     "weekName": "דרום",
     "hostingOrder": 4,
-    "title": "00:28:42 פרק 14 - שבוע דרום, יום ד' הערב מארח עמרי עם תפריט צמחוני, ומשה מגיע סקרן במיוחד לארוחה",
+    "title": "פרק 14 - שבוע דרום, יום ד' הערב מארח עמרי עם תפריט צמחוני, ומשה מגיע סקרן במיוחד לארוחה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773355/",
     "source": {
       "kind": "kan",
@@ -959,7 +1684,7 @@
     "episode": 15,
     "weekName": "דרום",
     "hostingOrder": 5,
-    "title": "00:28:59 פרק 15 - שבוע דרום, יום ה' זה היום האחרון לתחרות בשבוע הדרום עם אירוח ריטה, עולה משוודיה",
+    "title": "פרק 15 - שבוע דרום, יום ה' זה היום האחרון לתחרות בשבוע הדרום עם אירוח ריטה, עולה משוודיה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
     "source": {
       "kind": "kan",
@@ -973,7 +1698,7 @@
     "episode": 16,
     "weekName": "מרכז",
     "hostingOrder": 1,
-    "title": "00:28:24 פרק 16 - שבוע מרכז, יום א' שבוע מרכז נפתח בארוחה מרוקאית מסורתית אצל המארחת אילנה",
+    "title": "פרק 16 - שבוע מרכז, יום א' שבוע מרכז נפתח בארוחה מרוקאית מסורתית אצל המארחת אילנה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
     "source": {
       "kind": "kan",
@@ -987,7 +1712,7 @@
     "episode": 17,
     "weekName": "מרכז",
     "hostingOrder": 2,
-    "title": "00:27:18 פרק 17 - שבוע מרכז, יום ב' ביום השני לתחרות החבורה תגיע לירון מגבעתיים שיארח לארוחה אירופאית",
+    "title": "פרק 17 - שבוע מרכז, יום ב' ביום השני לתחרות החבורה תגיע לירון מגבעתיים שיארח לארוחה אירופאית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
     "source": {
       "kind": "kan",
@@ -1001,7 +1726,7 @@
     "episode": 18,
     "weekName": "מרכז",
     "hostingOrder": 3,
-    "title": "00:28:30 פרק 18 - שבוע מרכז, יום ג' ביום השלישי החבורה תגיע לעמנואל, מורה לתנ\"ך וסולן להקה מדרום תל אביב",
+    "title": "פרק 18 - שבוע מרכז, יום ג' ביום השלישי החבורה תגיע לעמנואל, מורה לתנ\"ך וסולן להקה מדרום תל אביב",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
     "source": {
       "kind": "kan",
@@ -1015,7 +1740,7 @@
     "episode": 19,
     "weekName": "מרכז",
     "hostingOrder": 4,
-    "title": "00:27:20 פרק 19 - שבוע מרכז, יום ד' ביום הרביעי לתחרות החבורה מגיעה לנירית מצפון תל אביב לארוחה איטלקית",
+    "title": "פרק 19 - שבוע מרכז, יום ד' ביום הרביעי לתחרות החבורה מגיעה לנירית מצפון תל אביב לארוחה איטלקית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
     "source": {
       "kind": "kan",
@@ -1029,7 +1754,7 @@
     "episode": 20,
     "weekName": "מרכז",
     "hostingOrder": 5,
-    "title": "00:28:28 פרק 20 - שבוע מרכז, יום ה' ביום האחרון לשבוע מרכז החבורה מגיעה לערב פויקה בשטח אצל גל",
+    "title": "פרק 20 - שבוע מרכז, יום ה' ביום האחרון לשבוע מרכז החבורה מגיעה לערב פויקה בשטח אצל גל",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
     "source": {
       "kind": "kan",
@@ -1043,7 +1768,7 @@
     "episode": 21,
     "weekName": "מישור החוף",
     "hostingOrder": 1,
-    "title": "00:28:43 פרק 21 - שבוע מישור החוף, יום א' שבוע מישור החוף נפתח באירוח המשפחתי של עדן כהן מנתניה",
+    "title": "פרק 21 - שבוע מישור החוף, יום א' שבוע מישור החוף נפתח באירוח המשפחתי של עדן כהן מנתניה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
     "source": {
       "kind": "kan",
@@ -1057,7 +1782,7 @@
     "episode": 22,
     "weekName": "מישור החוף",
     "hostingOrder": 2,
-    "title": "00:28:05 פרק 22 - שבוע מישור החוף, יום ב' ביום השני לתחרות החבורה תגיע לאירוח חוויתי אצל לואר בת הים מאחיטוב",
+    "title": "פרק 22 - שבוע מישור החוף, יום ב' ביום השני לתחרות החבורה תגיע לאירוח חוויתי אצל לואר בת הים מאחיטוב",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
     "source": {
       "kind": "kan",
@@ -1071,7 +1796,7 @@
     "episode": 23,
     "weekName": "מישור החוף",
     "hostingOrder": 3,
-    "title": "00:27:37 פרק 23 - שבוע מישור החוף, יום ג' ביום השלישי לתחרות החבורה תתארח בחדרה אצל אייל הגבר שלא רוצה להתבגר",
+    "title": "פרק 23 - שבוע מישור החוף, יום ג' ביום השלישי לתחרות החבורה תתארח בחדרה אצל אייל הגבר שלא רוצה להתבגר",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
     "source": {
       "kind": "kan",
@@ -1085,7 +1810,7 @@
     "episode": 24,
     "weekName": "מישור החוף",
     "hostingOrder": 4,
-    "title": "00:27:44 פרק 24 - שבוע מישור החוף, יום ד' ביום הרביעי לתחרות יארח אדי בן סימון בסגנון קלאס עם מאמץ",
+    "title": "פרק 24 - שבוע מישור החוף, יום ד' ביום הרביעי לתחרות יארח אדי בן סימון בסגנון קלאס עם מאמץ",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
     "source": {
       "kind": "kan",
@@ -1099,7 +1824,7 @@
     "episode": 25,
     "weekName": "מישור החוף",
     "hostingOrder": 5,
-    "title": "00:27:13 פרק 25 - שבוע מישור החוף, יום ה' ביום האחרון לתחרות תארח את החבורה לינוי דסה מפתח תקווה",
+    "title": "פרק 25 - שבוע מישור החוף, יום ה' ביום האחרון לתחרות תארח את החבורה לינוי דסה מפתח תקווה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
     "source": {
       "kind": "kan",
@@ -1113,7 +1838,7 @@
     "episode": 1,
     "weekName": "ירושלים",
     "hostingOrder": 1,
-    "title": "00:25:06 פרק 1 - שבוע ירושלים, יום א' היום הראשון לתחרות בעיר הבירה: הכירו את רועי, אדם, יגאל, חיה וניקול",
+    "title": "פרק 1 - שבוע ירושלים, יום א' היום הראשון לתחרות בעיר הבירה: הכירו את רועי, אדם, יגאל, חיה וניקול",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059625/",
     "source": {
       "kind": "kan",
@@ -1127,7 +1852,7 @@
     "episode": 2,
     "weekName": "ירושלים",
     "hostingOrder": 2,
-    "title": "00:26:50 פרק 2 - שבוע ירושלים, יום ב' זה היום השני לתחרות הבישול באזור ירושלים והערב מארח אדם מנווה דניאל",
+    "title": "פרק 2 - שבוע ירושלים, יום ב' זה היום השני לתחרות הבישול באזור ירושלים והערב מארח אדם מנווה דניאל",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
     "source": {
       "kind": "kan",
@@ -1141,7 +1866,7 @@
     "episode": 3,
     "weekName": "ירושלים",
     "hostingOrder": 3,
-    "title": "00:27:12 פרק 3 - שבוע ירושלים, יום ג' מה גרם ליגאל להפסיק לספר בדיחות והאם האהבה פורחת?",
+    "title": "פרק 3 - שבוע ירושלים, יום ג' מה גרם ליגאל להפסיק לספר בדיחות והאם האהבה פורחת?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059652/",
     "source": {
       "kind": "kan",
@@ -1155,7 +1880,7 @@
     "episode": 4,
     "weekName": "ירושלים",
     "hostingOrder": 4,
-    "title": "00:29:02 פרק 4 - שבוע ירושלים, יום ד' החבורה מגיעה לארוחה אפריקאית בביתה של חיה. מה כל כך ריגש את אדם?",
+    "title": "פרק 4 - שבוע ירושלים, יום ד' החבורה מגיעה לארוחה אפריקאית בביתה של חיה. מה כל כך ריגש את אדם?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059629/",
     "source": {
       "kind": "kan",
@@ -1169,7 +1894,7 @@
     "episode": 5,
     "weekName": "ירושלים",
     "hostingOrder": 5,
-    "title": "00:27:56 פרק 5 - שבוע ירושלים, יום ה' יום אחרון לתחרות באזור ירושלים והערב תארח ניקול. מי המנצח של התחרות?",
+    "title": "פרק 5 - שבוע ירושלים, יום ה' יום אחרון לתחרות באזור ירושלים והערב תארח ניקול. מי המנצח של התחרות?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059645/",
     "source": {
       "kind": "kan",
@@ -1183,7 +1908,7 @@
     "episode": 6,
     "weekName": "שפלה",
     "hostingOrder": 1,
-    "title": "00:29:20 פרק 6 - שבוע שפלה, יום א' ביום הראשון לתחרות באזור השפלה תארח איריס, מעבירה ערבי הפרשות חלה",
+    "title": "פרק 6 - שבוע שפלה, יום א' ביום הראשון לתחרות באזור השפלה תארח איריס, מעבירה ערבי הפרשות חלה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1061353/",
     "source": {
       "kind": "kan",
@@ -1197,7 +1922,7 @@
     "episode": 7,
     "weekName": "שפלה",
     "hostingOrder": 2,
-    "title": "00:27:37 פרק 7 - שבוע שפלה, יום ב' ברוכים הבאים למוזיאון של יריב. מה חשבו האורחים על הבית?",
+    "title": "פרק 7 - שבוע שפלה, יום ב' ברוכים הבאים למוזיאון של יריב. מה חשבו האורחים על הבית?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1061354/",
     "source": {
       "kind": "kan",
@@ -1211,7 +1936,7 @@
     "episode": 8,
     "weekName": "שפלה",
     "hostingOrder": 3,
-    "title": "00:28:53 פרק 8 - שבוע שפלה, יום ג' החבורה מגיעה לארוחה יפנית בבית של ליהי. האם כולם התחברו לטעמים היפנים?",
+    "title": "פרק 8 - שבוע שפלה, יום ג' החבורה מגיעה לארוחה יפנית בבית של ליהי. האם כולם התחברו לטעמים היפנים?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1061355/",
     "source": {
       "kind": "kan",
@@ -1225,7 +1950,7 @@
     "episode": 9,
     "weekName": "שפלה",
     "hostingOrder": 4,
-    "title": "00:28:09 פרק 9 - שבוע שפלה, יום ד' הפעם האורחים יגיעו לביקור אצל זהר, הערב נגלה - למה ליהי לא רוצה ילדים?",
+    "title": "פרק 9 - שבוע שפלה, יום ד' הפעם האורחים יגיעו לביקור אצל זהר, הערב נגלה - למה ליהי לא רוצה ילדים?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1073273/",
     "source": {
       "kind": "kan",
@@ -1239,7 +1964,7 @@
     "episode": 10,
     "weekName": "שפלה",
     "hostingOrder": 5,
-    "title": "00:28:26 פרק 10 - שבוע שפלה, יום ה' היום האחרון לתחרות באזור השפלה, מה חשבו האורחים על הבית של דניאל?",
+    "title": "פרק 10 - שבוע שפלה, יום ה' היום האחרון לתחרות באזור השפלה, מה חשבו האורחים על הבית של דניאל?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1073279/",
     "source": {
       "kind": "kan",
@@ -1253,7 +1978,7 @@
     "episode": 11,
     "weekName": "צפון",
     "hostingOrder": 1,
-    "title": "00:28:51 פרק 11 - שבוע צפון, יום א' היום הראשון לתחרות באזור הצפון, הפעם תארח - עליזה, ליצנית רפואית",
+    "title": "פרק 11 - שבוע צפון, יום א' היום הראשון לתחרות באזור הצפון, הפעם תארח - עליזה, ליצנית רפואית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077371/",
     "source": {
       "kind": "kan",
@@ -1267,7 +1992,7 @@
     "episode": 12,
     "weekName": "צפון",
     "hostingOrder": 2,
-    "title": "00:27:35 פרק 12 - שבוע צפון, יום ב' ביום השני לתחרות מוזמנים האורחים למסיבת יום ההולדת של רוני",
+    "title": "פרק 12 - שבוע צפון, יום ב' ביום השני לתחרות מוזמנים האורחים למסיבת יום ההולדת של רוני",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077372/",
     "source": {
       "kind": "kan",
@@ -1281,7 +2006,7 @@
     "episode": 13,
     "weekName": "צפון",
     "hostingOrder": 3,
-    "title": "00:29:06 פרק 13 - שבוע צפון, יום ג' ביום השלישי לתחרות הגיעו האורחים לביתו של אבינעם בכליל לארוחה טבעונית",
+    "title": "פרק 13 - שבוע צפון, יום ג' ביום השלישי לתחרות הגיעו האורחים לביתו של אבינעם בכליל לארוחה טבעונית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
     "source": {
       "kind": "kan",
@@ -1295,7 +2020,7 @@
     "episode": 14,
     "weekName": "צפון",
     "hostingOrder": 4,
-    "title": "00:28:03 פרק 14 - שבוע צפון, יום ד' הערב הגיעו האורחים אל מירן, למה עליזה לא אכלה את המנה העיקרית?",
+    "title": "פרק 14 - שבוע צפון, יום ד' הערב הגיעו האורחים אל מירן, למה עליזה לא אכלה את המנה העיקרית?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077374/",
     "source": {
       "kind": "kan",
@@ -1309,7 +2034,7 @@
     "episode": 15,
     "weekName": "צפון",
     "hostingOrder": 5,
-    "title": "00:28:51 פרק 15 - שבוע צפון, יום ה' היום אחרון לתחרות באזור הצפון, והפעם חגיגה מרוקאית אצל אלירן",
+    "title": "פרק 15 - שבוע צפון, יום ה' היום אחרון לתחרות באזור הצפון, והפעם חגיגה מרוקאית אצל אלירן",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077375/",
     "source": {
       "kind": "kan",
@@ -1323,7 +2048,7 @@
     "episode": 16,
     "weekName": "אילת",
     "hostingOrder": 1,
-    "title": "00:30:43 פרק 16 - שבוע אילת, יום א' זה היום הראשון והפעם הראשונה שתחרות הבישול מגיעה לעיר הדרומית אילת",
+    "title": "פרק 16 - שבוע אילת, יום א' זה היום הראשון והפעם הראשונה שתחרות הבישול מגיעה לעיר הדרומית אילת",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077378/",
     "source": {
       "kind": "kan",
@@ -1337,7 +2062,7 @@
     "episode": 17,
     "weekName": "אילת",
     "hostingOrder": 2,
-    "title": "00:27:06 פרק 17 - שבוע אילת, יום ב' בילי מארחת את החבורה ומדהימה את כולם בסיפור חייה המיוחד",
+    "title": "פרק 17 - שבוע אילת, יום ב' בילי מארחת את החבורה ומדהימה את כולם בסיפור חייה המיוחד",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/",
     "source": {
       "kind": "kan",
