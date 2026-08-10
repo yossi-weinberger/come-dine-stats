@@ -1,6 +1,6 @@
 {
   "name": "come-dine-stats",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,11 +10,12 @@
     "import:legacy": "tsx scripts/import-legacy.ts",
     "normalize": "tsx scripts/normalize.ts",
     "import:fandom": "tsx scripts/import-fandom.ts",
+    "import:wikipedia": "tsx scripts/import-wikipedia.ts",
     "stats": "tsx scripts/stats.ts",
     "coverage": "tsx scripts/coverage.ts",
     "recover:legacy": "tsx scripts/recover-legacy-wayback.ts",
     "merge": "tsx scripts/merge.ts",
-    "import:all": "npm run recover:legacy && npm run normalize && npm run import:fandom && npm run import:kan && npm run merge && npm run coverage && npm run stats",
+    "import:all": "npm run recover:legacy && npm run normalize && npm run import:fandom && npm run import:wikipedia && npm run import:kan && npm run merge && npm run coverage && npm run stats",
     "import:kan": "tsx scripts/import-kan.ts"
   },
   "dependencies": {
