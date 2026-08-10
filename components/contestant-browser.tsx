@@ -5,6 +5,7 @@ import type { Contestant, SourceRef } from '@/lib/types'
 
 const sourceLabels: Record<string, string> = {
   fandom: 'Fandom Wiki',
+  wikipedia: 'ויקיפדיה',
   kan: 'כאן 11',
   legacy: 'עונת הסטטיסטיקות',
   wayback: 'Wayback',
@@ -41,11 +42,17 @@ function normalize(value: string) {
 function searchableText(contestant: Contestant) {
   return normalize([
     contestant.name,
+    ...(contestant.members ?? []),
     contestant.city,
     contestant.occupation,
     contestant.weekName,
     ...contestant.dishes.flatMap((dish) => [dish.name, dish.description, ...(dish.tags ?? [])]),
   ].filter(Boolean).join(' '))
+}
+
+function entryLabel(contestant: Contestant) {
+  if (contestant.entryType === 'couple') return 'זוג'
+  return 'יחיד/ה'
 }
 
 export function ContestantBrowser({ contestants }: { contestants: Contestant[] }) {
@@ -80,10 +87,10 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
       <div className="sectionTitle">
         <div>
           <div className="eyebrow">המאגר החי</div>
-          <h2 id="contestants-title">כל המתמודדים</h2>
+          <h2 id="contestants-title">כל יחידות התחרות</h2>
         </div>
         <span className="resultCount" aria-live="polite" aria-atomic="true">
-          {filtered.length} מתוך {contestants.length} מתמודדים
+          {filtered.length} מתוך {contestants.length} רשומות
         </span>
       </div>
 
@@ -139,6 +146,7 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
                     עונה {contestant.season}
                     {contestant.week ? ` · שבוע ${contestant.week}` : ''}
                     {contestant.weekName ? ` · ${contestant.weekName}` : ''}
+                    {contestant.entryType ? ` · ${entryLabel(contestant)}` : ''}
                   </span>
                   {contestant.winner && <b>🏆 מקום ראשון</b>}
                 </div>
@@ -154,6 +162,7 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
                   {contestant.occupation && <span>{contestant.occupation}</span>}
                   {contestant.hostingOrder && <span>{hostingOrderLabels[contestant.hostingOrder] || `סדר אירוח ${contestant.hostingOrder}`}</span>}
                   {contestant.placement && <span>מקום {contestant.placement}</span>}
+                  {contestant.status === 'withdrawn' && <span>פרש/ה מהתחרות</span>}
                 </div>
 
                 {primaryDishes.length > 0 && (
