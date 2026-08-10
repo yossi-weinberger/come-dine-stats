@@ -1,0 +1,47 @@
+name: Recover legacy archive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+
+      - name: Recover archived Strapi data
+        run: npm run recover:legacy
+
+      - name: Normalize when data was recovered
+        shell: bash
+        run: |
+          if [ -s data/raw/legacy/contestants.json ]; then
+            npm run normalize
+            npm run merge
+            npm run coverage
+          else
+            echo "No legacy contestant JSON was recovered"
+          fi
+
+      - name: Commit recovery evidence
+        shell: bash
+        run: |
+          git config user.name "come-dine-stats bot"
+          git config user.email "137178593+yossi-weinberger@users.noreply.github.com"
+          for path in data/raw/legacy data/normalized/legacy-contestants.json data/normalized/contestants.json data/reports/coverage.json data/reports/conflicts.json; do
+            if [ -e "$path" ]; then git add "$path"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "No recovery changes"
+            exit 0
+          fi
+          git commit -m "refresh legacy archive recovery"
+          git push

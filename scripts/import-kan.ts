@@ -17,7 +17,7 @@ async function fetchHtml(url: string) {
   const response = await fetch(url, {
     headers: {
       accept: 'text/html,application/xhtml+xml',
-      'user-agent': 'come-dine-stats/0.2 (metadata importer; source links preserved)',
+      'user-agent': 'come-dine-stats/0.3 (metadata importer; source links preserved)',
     },
   })
   if (!response.ok) throw new Error(`${url}: ${response.status} ${response.statusText}`)
@@ -49,7 +49,6 @@ function extractEpisodes(html: string, page: SeasonPage): Episode[] {
     title: 'כאן 11 — בואו לאכול איתי',
     url: page.url,
     note: 'Official episode archive; factual metadata and links only',
-    retrievedAt: new Date().toISOString(),
   }
   const episodes: Episode[] = []
   const seen = new Set<string>()

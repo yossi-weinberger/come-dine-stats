@@ -2,7 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises'
 import contestantsJson from '../data/normalized/contestants.json'
 import type { Contestant } from '../lib/types'
 
-const contestants = contestantsJson as Contestant[]
+const contestants = contestantsJson as unknown as Contestant[]
 const reportsDir = new URL('../data/reports/', import.meta.url)
 
 const fields = [
@@ -65,7 +65,6 @@ async function main() {
   ]))
 
   const report = {
-    generatedAt: new Date().toISOString(),
     overall: coverageFor(contestants),
     bySeason: Object.fromEntries(seasons.map((season) => [String(season), coverageFor(contestants.filter((item) => item.season === season))])),
     sourceCounts,

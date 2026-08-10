@@ -8,7 +8,11 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/data-import.yml'
-      - 'scripts/**'
+      - 'scripts/import-fandom.ts'
+      - 'scripts/import-kan.ts'
+      - 'scripts/merge.ts'
+      - 'scripts/coverage.ts'
+      - 'scripts/stats.ts'
       - 'data/kan-season-pages.json'
       - 'package.json'
 
@@ -22,7 +26,7 @@ concurrency:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,17 +38,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install --no-audit --no-fund
-
-      - name: Recover legacy API from Wayback
-        continue-on-error: true
-        shell: bash
-        run: |
-          npm run recover:legacy
-          if [ -s data/raw/legacy/contestants.json ]; then
-            npm run normalize
-          else
-            echo "No legacy contestants snapshot recovered in this run"
-          fi
 
       - name: Import Fandom
         run: npm run import:fandom
@@ -69,9 +62,7 @@ jobs:
 
           for path in \
             data/raw/fandom/coverage.json \
-            data/raw/legacy \
             data/normalized/fandom-contestants.json \
-            data/normalized/legacy-contestants.json \
             data/normalized/kan-episodes.json \
             data/normalized/contestants.json \
             data/reports/conflicts.json \

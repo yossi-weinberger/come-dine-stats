@@ -21,7 +21,7 @@ function SourceLink({ source }: { source: SourceRef }) {
       title={source.note || source.title || sourceLabels[source.kind]}
     >
       <span aria-hidden="true">↗</span>
-      {source.title || sourceLabels[source.kind] || source.kind}
+      {sourceLabels[source.kind] || source.kind}
     </a>
   )
 }
@@ -42,8 +42,12 @@ function searchableText(contestant: Contestant) {
 
 export function ContestantBrowser({ contestants }: { contestants: Contestant[] }) {
   const [query, setQuery] = useState('')
-  const [season, setSeason] = useState<'all' | '1' | '2'>('all')
+  const [season, setSeason] = useState('all')
   const [winnersOnly, setWinnersOnly] = useState(false)
+  const seasons = useMemo(
+    () => [...new Set(contestants.map((contestant) => contestant.season))].sort((a, b) => a - b),
+    [contestants],
+  )
 
   const filtered = useMemo(() => {
     const needle = normalize(query)
@@ -78,10 +82,11 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
 
         <label className="selectField">
           <span>עונה</span>
-          <select value={season} onChange={(event) => setSeason(event.target.value as 'all' | '1' | '2')}>
+          <select value={season} onChange={(event) => setSeason(event.target.value)}>
             <option value="all">כל העונות</option>
-            <option value="1">עונה 1</option>
-            <option value="2">עונה 2</option>
+            {seasons.map((seasonNumber) => (
+              <option key={seasonNumber} value={seasonNumber}>עונה {seasonNumber}</option>
+            ))}
           </select>
         </label>
 

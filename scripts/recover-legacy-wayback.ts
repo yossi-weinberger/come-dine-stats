@@ -169,7 +169,6 @@ async function recover(target: Target) {
 async function main() {
   await mkdir(outDir, { recursive: true })
   const manifest: Record<string, unknown> = {
-    recoveredAt: new Date().toISOString(),
     archive: 'Internet Archive / Wayback Machine',
     originalService: 'https://protected-shore-74105.herokuapp.com/',
     frontendCredit: 'https://github.com/nemo369/dine-with-me',

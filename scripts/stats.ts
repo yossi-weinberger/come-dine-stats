@@ -1,7 +1,7 @@
 import contestantsJson from '../data/normalized/contestants.json'
 import type { Contestant } from '../lib/types'
 
-const contestants = contestantsJson as Contestant[]
+const contestants = contestantsJson as unknown as Contestant[]
 const winners = contestants.filter((c) => c.winner)
 const ages = contestants.flatMap((c) => c.age ? [c.age] : [])
 const scores = contestants.flatMap((c) => c.score != null ? [c.score] : [])

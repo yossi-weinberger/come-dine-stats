@@ -103,7 +103,6 @@ async function getContestantTitles() {
   winners.forEach((title) => titles.add(title))
 
   await writeFile(new URL('coverage.json', rawDir), JSON.stringify({
-    discoveredAt: new Date().toISOString(),
     categories: coverage,
     uniqueContestantPages: titles.size,
   }, null, 2))
@@ -129,7 +128,6 @@ function sourceFor(url: string): SourceRef {
     title: 'בואו לאכול איתי Wiki — Fandom',
     url,
     license: 'CC BY-SA 3.0 (unless otherwise noted by the wiki)',
-    retrievedAt: new Date().toISOString(),
     note: 'Direct article link preserved for attribution',
   }
 }
