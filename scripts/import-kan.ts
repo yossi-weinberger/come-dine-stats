@@ -39,6 +39,7 @@ function words(value: string) {
   return compact(value)
     .normalize('NFKC')
     .toLocaleLowerCase('he')
+    .replace(/["'״׳]/g, '')
     .split(/[^\p{L}\p{N}]+/u)
     .filter(Boolean)
 }
@@ -166,10 +167,15 @@ function scoreCandidate(entry: Contestant, episodeText: string) {
   let score = fullName && normalizedText.includes(fullName) ? 100 : 0
   const episodeWords = new Set(words(episodeText))
   const cueText = compact(episodeText).normalize('NFKC').toLocaleLowerCase('he')
+  const hebrewPrefixes = ['ל', 'ב', 'מ', 'ו', 'כ', 'ה']
 
   for (const candidate of firstNameCandidates(entry.name)) {
-    if (candidate.length < 2 || !episodeWords.has(candidate)) continue
-    score += 20
+    if (candidate.length < 2) continue
+    const exactWord = episodeWords.has(candidate)
+    const prefixedWord = hebrewPrefixes.some((prefix) => episodeWords.has(`${prefix}${candidate}`))
+    if (!exactWord && !prefixedWord) continue
+
+    score += exactWord ? 20 : 10
 
     const escaped = escapeRegExp(candidate)
     const explicitHostCue = new RegExp(`(?:מארח(?:ת)?|יארח|תארח|אצל)\\s+${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
