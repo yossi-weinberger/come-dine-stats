@@ -3,27 +3,43 @@
     {
       "season": 3,
       "title": "בואו לאכול איתי עונה 3",
-      "ok": false,
-      "error": "Error: בואו לאכול איתי עונה 3: 429 Too Many Requests"
+      "ok": true,
+      "revision": 43385404,
+      "entries": 30,
+      "expectedEntries": 30,
+      "tableWeeks": 10,
+      "expectedWeeks": 10
     },
     {
       "season": 4,
       "title": "בואו לאכול איתי עונה 4",
-      "ok": false,
-      "error": "Error: בואו לאכול איתי עונה 4: 429 Too Many Requests"
+      "ok": true,
+      "revision": 43385476,
+      "entries": 24,
+      "expectedEntries": 24,
+      "tableWeeks": 8,
+      "expectedWeeks": 8
     },
     {
       "season": 5,
       "title": "בואו לאכול איתי עונה 5",
-      "ok": false,
-      "error": "Error: בואו לאכול איתי עונה 5: 429 Too Many Requests"
+      "ok": true,
+      "revision": 43385516,
+      "entries": 25,
+      "expectedEntries": 25,
+      "tableWeeks": 5,
+      "expectedWeeks": 5
     },
     {
       "season": 6,
       "title": "בואו לאכול איתי עונה 6",
-      "ok": false,
-      "error": "Error: בואו לאכול איתי עונה 6: 429 Too Many Requests"
+      "ok": true,
+      "revision": 43718668,
+      "entries": 30,
+      "expectedEntries": 30,
+      "tableWeeks": 6,
+      "expectedWeeks": 6
     }
   ],
-  "totalEntries": 0
+  "totalEntries": 109
 }
