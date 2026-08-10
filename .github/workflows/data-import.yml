@@ -1,5 +1,7 @@
 name: Refresh show data
 
+# Generated data intentionally excludes volatile retrieval timestamps, so an
+# unchanged source refresh should finish with "No data changes".
 on:
   workflow_dispatch:
   schedule:
