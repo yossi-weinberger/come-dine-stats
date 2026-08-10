@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from 'node:fs/promises'
 import * as cheerio from 'cheerio'
-import type { Contestant, Dish, SourceRef } from '../lib/types'
+import type { Contestant, Dish, DishVariant, SourceRef } from '../lib/types'
 
 const API = 'https://comedinewithmeil.fandom.com/he/api.php'
 const rawDir = new URL('../data/raw/fandom/', import.meta.url)
@@ -62,7 +62,7 @@ function slugify(value: string) {
 async function mediaWiki(params: Record<string, string>) {
   const url = new URL(API)
   Object.entries({ format: 'json', formatversion: '2', origin: '*', ...params }).forEach(([k, v]) => url.searchParams.set(k, v))
-  const response = await fetch(url, { headers: { 'user-agent': 'come-dine-stats/0.3 (attribution-preserving research importer)' } })
+  const response = await fetch(url, { headers: { 'user-agent': 'come-dine-stats/0.4 (attribution-preserving research importer)' } })
   if (!response.ok) throw new Error(`${url}: ${response.status}`)
   return response.json()
 }
@@ -133,29 +133,47 @@ function sourceFor(url: string): SourceRef {
 }
 
 function courseFromLabel(label: string): Dish['course'] | null {
-  if (/מנה ראשונה/.test(label)) return /צמחונית|טבעונית|חלופ/.test(label) ? 'alternative' : 'starter'
-  if (/מנה עיקרית/.test(label)) return /צמחונית|טבעונית|חלופ/.test(label) ? 'alternative' : 'main'
-  if (/קינוח/.test(label)) return /צמחונית|טבעונית|חלופ/.test(label) ? 'alternative' : 'dessert'
+  if (/מנה ראשונה/.test(label)) return 'starter'
+  if (/מנה עיקרית/.test(label)) return 'main'
+  if (/קינוח/.test(label)) return 'dessert'
   return null
+}
+
+function variantFromLabel(label: string): DishVariant {
+  if (/טבעוני/.test(label)) return 'vegan'
+  if (/צמחוני/.test(label)) return 'vegetarian'
+  if (/חלופ|תחליפ/.test(label)) return 'alternative'
+  return 'standard'
 }
 
 function extractDishes($: cheerio.CheerioAPI, source: SourceRef): Dish[] {
   const dishes: Dish[] = []
+  const seen = new Set<string>()
+
   $('h4').each((_, element) => {
     const label = compact($(element).text())
     const course = courseFromLabel(label)
     if (!course) return
     const value = valueAfterHeading($, label)
     if (!value) return
+
+    const variant = variantFromLabel(label)
     const [name, ...rest] = value.split(/\s+-\s+/)
-    dishes.push({
+    const dish: Dish = {
       course,
+      variant,
+      label,
       name: compact(name),
       description: compact(rest.join(' - ')) || undefined,
-      tags: course === 'alternative' ? [label] : undefined,
+      tags: variant === 'standard' ? undefined : [label],
       sources: [source],
-    })
+    }
+    const key = `${dish.course}:${dish.variant}:${dish.name.normalize('NFKC').toLowerCase()}`
+    if (seen.has(key)) return
+    seen.add(key)
+    dishes.push(dish)
   })
+
   return dishes
 }
 
