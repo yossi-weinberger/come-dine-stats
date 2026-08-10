@@ -39,7 +39,8 @@ function sameValue(field: ScalarField, a: unknown, b: unknown) {
 }
 
 function dishKey(dish: Dish) {
-  return `${dish.course}:${dish.name.normalize('NFKC').replace(/\s+/g, ' ').trim().toLowerCase()}`
+  const variant = dish.variant ?? 'standard'
+  return `${dish.course}:${variant}:${dish.name.normalize('NFKC').replace(/\s+/g, ' ').trim().toLowerCase()}`
 }
 
 function mergeDishes(current: Dish[], incoming: Dish[]) {
@@ -50,6 +51,8 @@ function mergeDishes(current: Dish[], incoming: Dish[]) {
     if (!existing) map.set(key, dish)
     else map.set(key, {
       ...existing,
+      variant: existing.variant ?? dish.variant ?? 'standard',
+      label: existing.label || dish.label,
       description: existing.description || dish.description,
       tags: [...new Set([...(existing.tags ?? []), ...(dish.tags ?? [])])],
       sources: uniqSources([...(existing.sources ?? []), ...(dish.sources ?? [])]),
