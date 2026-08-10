@@ -11,10 +11,12 @@ on:
     paths:
       - '.github/workflows/data-import.yml'
       - 'scripts/import-fandom.ts'
+      - 'scripts/import-wikipedia.ts'
       - 'scripts/import-kan.ts'
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
       - 'scripts/stats.ts'
+      - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
       - 'package.json'
 
@@ -44,6 +46,9 @@ jobs:
       - name: Import Fandom
         run: npm run import:fandom
 
+      - name: Import Hebrew Wikipedia seasons
+        run: npm run import:wikipedia
+
       - name: Import Kan metadata
         run: npm run import:kan
 
@@ -65,6 +70,7 @@ jobs:
           for path in \
             data/raw/fandom/coverage.json \
             data/normalized/fandom-contestants.json \
+            data/normalized/wikipedia-contestants.json \
             data/normalized/kan-episodes.json \
             data/normalized/contestants.json \
             data/reports/conflicts.json \
