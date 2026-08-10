@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "shani-pelchi",
+    "name": "שני פלצ'י",
+    "season": 2,
+    "week": 1,
+    "weekName": "חיפה והקריות",
+    "hostingOrder": 3,
+    "age": 34,
+    "city": "קריית מוצקין",
+    "occupation": "קצינת שלישות בקבע",
+    "relationshipStatus": "נשואה",
+    "diet": "צמחונית",
+    "score": 32,
+    "placement": 1,
+    "winner": true,
+    "dishes": [
+      {"course":"starter","name":"ממרח פטה כבד וביצה עלומה","description":"לצד ריבת בצל וטוסטונים"},
+      {"course":"alternative","name":"פטריות במילוי גבינה","tags":["צמחוני","מנה ראשונה"]},
+      {"course":"main","name":"רוסטביף","description":"ירקות שורש מקורמלים בתוספת סלט עלים"},
+      {"course":"alternative","name":"דג סלמון צלוי בתנור","tags":["חלופה","מנה עיקרית"]},
+      {"course":"dessert","name":"קסטת בריאות","description":"בליווי תותים וקרם עשיר"}
+    ],
+    "sources": [{"kind":"fandom","url":"https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"}]
+  },
+  {
+    "slug": "gali-mashiach-russo",
+    "name": "גלי משיח רוסו",
+    "season": 1,
+    "week": 1,
+    "weekName": "תל אביב",
+    "hostingOrder": 2,
+    "age": 52,
+    "city": "צפון תל אביב",
+    "occupation": "מורה לשעבר",
+    "relationshipStatus": "גרושה",
+    "score": 32,
+    "placement": 1,
+    "winner": true,
+    "dishes": [
+      {"course":"starter","name":"צומת גלילות","description":"גלילות בלינצ'ס ממולאות בבשר טחון, פירות יבשים, פלפלים קלויים ורוטב טחינה"},
+      {"course":"main","name":"תל מגידו","description":"צלי בשר ברוטב פירות יבשים וערמונים עם מחית ירקות שורש"},
+      {"course":"dessert","name":"חוף מבטחים-גבינמיסו","description":"עוגת גבינה וטירמיסו על מצע רוטב פירות יער"}
+    ],
+    "sources": [{"kind":"fandom","url":"https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95"}]
+  }
+]

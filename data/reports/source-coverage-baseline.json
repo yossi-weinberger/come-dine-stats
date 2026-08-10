@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-08-10",
+  "fandom": {
+    "season1CategoryCount": 50,
+    "season2CategoryCount": 40,
+    "notes": "Counts verified from public Fandom category pages. The importer checks season categories 1-10 dynamically and writes live coverage.json when run.",
+    "sources": [
+      "https://comedinewithmeil.fandom.com/he/wiki/קטגוריה:מתמודדים_בעונה_הראשונה",
+      "https://comedinewithmeil.fandom.com/he/wiki/קטגוריה:מתמודדים_בעונה_השנייה"
+    ]
+  },
+  "kan": {
+    "season7Archive": true,
+    "season8Archive": true,
+    "season8EpisodeCountVisible": 25,
+    "season9Archive": true,
+    "notes": "Kan pages are primary-source episode metadata. The web-indexed season 9 page was stale during this check, so the importer treats live HTML as the source of truth when executed.",
+    "sources": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939930/439428",
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937791/755811",
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/961503/All"
+    ]
+  }
+}
