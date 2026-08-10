@@ -52,7 +52,7 @@ function normalize(value: string) {
 }
 
 function variantOf(dish: Dish) {
-  const rawCourse = (dish as Dish & { course: string }).course
+  const rawCourse = (dish as unknown as { course: string }).course
   if (dish.variant) return dish.variant
   return rawCourse === 'alternative' ? 'alternative' : 'standard'
 }
