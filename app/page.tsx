@@ -19,19 +19,19 @@ export default function Home() {
     <main>
       <section className="hero">
         <div className="heroTop">
-          <div className="eyebrow">פרויקט לא-רשמי • v0.3 • source-first</div>
+          <div className="eyebrow">פרויקט לא-רשמי • v0.4 • source-first</div>
           <Link className="creditsLink" href="/sources">מקורות וקרדיטים →</Link>
         </div>
         <h1>בואו לאכול איתי<br/><em>הדאטאבייס</em></h1>
-        <p>{stats.contestants} מתמודדים מאומתים כרגע, עם מנות, ציונים וסטטיסטיקות — ומקור לכל נתון.</p>
+        <p>{stats.participants} משתתפים מאומתים כרגע, עם תוצאות, מנות וסטטיסטיקות — ומקור לכל נתון.</p>
       </section>
 
       <section className="stats" aria-label="סטטיסטיקות המאגר">
-        <Stat label="מתמודדים במאגר" value={stats.contestants} />
-        <Stat label="עונות עם פרופילי מתמודדים" value={stats.seasons} />
-        <Stat label="מנצחים" value={stats.winners} />
+        <Stat label="משתתפים במאגר" value={stats.participants} />
+        <Stat label="יחידות תחרות" value={stats.entries} />
+        <Stat label="עונות עם נתוני משתתפים" value={stats.seasons} />
+        <Stat label="זוכים / זוגות זוכים" value={stats.winners} />
         <Stat label="מנות שנקלטו" value={stats.dishes} />
-        <Stat label="גיל ממוצע" value={stats.averageAge} />
         <Stat label="ציון שיא" value={stats.topScore} />
       </section>
 
