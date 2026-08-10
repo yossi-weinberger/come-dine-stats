@@ -1,178 +1,5 @@
 [
   {
-    "slug": "gali-mashiach-russo",
-    "name": "גלי משיח רוסו",
-    "season": 1,
-    "week": 1,
-    "weekName": "תל אביב",
-    "hostingOrder": 2,
-    "age": 52,
-    "city": "צפון תל אביב",
-    "occupation": "מורה לשעבר",
-    "relationshipStatus": "גרושה",
-    "score": 32,
-    "placement": 1,
-    "winner": true,
-    "dishes": [
-      {
-        "course": "starter",
-        "name": "צומת גלילות",
-        "description": "גלילות בלינצ'ס ממולאות בבשר טחון, פירות יבשים, פלפלים קלויים ורוטב טחינה",
-        "tags": [],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "retrievedAt": "2026-08-10T16:24:01.351Z",
-            "note": "Direct article link preserved for attribution"
-          }
-        ]
-      },
-      {
-        "course": "main",
-        "name": "תל מגידו",
-        "description": "צלי בשר ברוטב פירות יבשים וערמונים עם מחית ירקות שורש",
-        "tags": [],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "retrievedAt": "2026-08-10T16:24:01.351Z",
-            "note": "Direct article link preserved for attribution"
-          }
-        ]
-      },
-      {
-        "course": "dessert",
-        "name": "חוף מבטחים-גבינמיסו",
-        "description": "עוגת גבינה וטירמיסו על מצע רוטב פירות יער",
-        "tags": [],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "retrievedAt": "2026-08-10T16:24:01.351Z",
-            "note": "Direct article link preserved for attribution"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "kind": "fandom",
-        "title": "בואו לאכול איתי Wiki — Fandom",
-        "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-        "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-        "retrievedAt": "2026-08-10T16:24:01.351Z",
-        "note": "Direct article link preserved for attribution"
-      }
-    ],
-    "fieldSources": {
-      "week": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95"
-        }
-      ],
-      "weekName": [
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:01.351Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "hostingOrder": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95"
-        }
-      ],
-      "age": [
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:01.351Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "city": [
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:01.351Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "region": [],
-      "occupation": [
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:01.351Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "relationshipStatus": [
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:01.351Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "gender": [],
-      "diet": [],
-      "score": [
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:01.351Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "placement": [
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:01.351Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "winner": [
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:01.351Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ]
-    },
-    "episodeUrls": []
-  },
-  {
     "slug": "1-אבינועם-אייק",
     "name": "אבינועם אייק",
     "season": 1,
@@ -3475,6 +3302,188 @@
           "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%99%D7%9C_%D7%9C%D7%94%D7%91",
           "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
           "retrievedAt": "2026-08-10T16:24:01.064Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "1-גלי-משיח-רוסו",
+    "name": "גלי משיח רוסו",
+    "season": 1,
+    "weekName": "תל אביב",
+    "age": 52,
+    "city": "צפון תל אביב",
+    "occupation": "מורה לשעבר",
+    "relationshipStatus": "גרושה",
+    "score": 32,
+    "placement": 1,
+    "winner": true,
+    "dishes": [
+      {
+        "course": "starter",
+        "name": "צומת גלילות",
+        "description": "גלילות בלינצ'ס ממולאות בבשר טחון, פירות יבשים, פלפלים קלויים ורוטב טחינה (יין המנה: ריזליניג)",
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "retrievedAt": "2026-08-10T16:24:01.351Z",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "name": "תל מגידו",
+        "description": "צלי בשר ברוטב פירות יבשים וערמונים עם מחית ירקות שורש (יין המנה: פטיט סירה)",
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "retrievedAt": "2026-08-10T16:24:01.351Z",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "name": "חוף מבטחים-גבינמיסו",
+        "description": "עוגת גבינה וטירמיסו על מצע רוטב פירות יער (יין המנה: מוסקט-יין לקינוח)",
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "retrievedAt": "2026-08-10T16:24:01.351Z",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fandom",
+        "title": "בואו לאכול איתי Wiki — Fandom",
+        "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+        "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+        "retrievedAt": "2026-08-10T16:24:01.351Z",
+        "note": "Direct article link preserved for attribution"
+      }
+    ],
+    "fieldSources": {
+      "name": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "season": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "city": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "occupation": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "placement": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "dishes": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%9C%D7%99_%D7%9E%D7%A9%D7%99%D7%97_%D7%A8%D7%95%D7%A1%D7%95",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:01.351Z",
           "note": "Direct article link preserved for attribution"
         }
       ]
@@ -8976,259 +8985,6 @@
         }
       ]
     }
-  },
-  {
-    "slug": "shani-pelchi",
-    "name": "שני פלצ'י",
-    "season": 2,
-    "week": 1,
-    "weekName": "חיפה והקריות",
-    "hostingOrder": 3,
-    "age": 34,
-    "city": "קריית מוצקין",
-    "occupation": "קצינת שלישות בקבע",
-    "relationshipStatus": "נשואה",
-    "diet": "צמחונית",
-    "score": 32,
-    "placement": 1,
-    "winner": true,
-    "dishes": [
-      {
-        "course": "starter",
-        "name": "ממרח פטה כבד וביצה עלומה",
-        "description": "לצד ריבת בצל וטוסטונים",
-        "tags": [],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "retrievedAt": "2026-08-10T16:24:16.145Z",
-            "note": "Direct article link preserved for attribution"
-          }
-        ]
-      },
-      {
-        "course": "alternative",
-        "name": "פטריות במילוי גבינה",
-        "tags": [
-          "צמחוני",
-          "מנה ראשונה",
-          "מנה ראשונה צמחונית"
-        ],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "retrievedAt": "2026-08-10T16:24:16.145Z",
-            "note": "Direct article link preserved for attribution"
-          }
-        ]
-      },
-      {
-        "course": "main",
-        "name": "רוסטביף",
-        "description": "ירקות שורש מקורמלים בתוספת סלט עלים",
-        "tags": [],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "retrievedAt": "2026-08-10T16:24:16.145Z",
-            "note": "Direct article link preserved for attribution"
-          }
-        ]
-      },
-      {
-        "course": "alternative",
-        "name": "דג סלמון צלוי בתנור",
-        "tags": [
-          "חלופה",
-          "מנה עיקרית",
-          "מנה עיקרית צמחונית"
-        ],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "retrievedAt": "2026-08-10T16:24:16.145Z",
-            "note": "Direct article link preserved for attribution"
-          }
-        ]
-      },
-      {
-        "course": "dessert",
-        "name": "קסטת בריאות",
-        "description": "בליווי תותים וקרם עשיר",
-        "tags": [],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "retrievedAt": "2026-08-10T16:24:16.145Z",
-            "note": "Direct article link preserved for attribution"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "kind": "fandom",
-        "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-      },
-      {
-        "kind": "fandom",
-        "title": "בואו לאכול איתי Wiki — Fandom",
-        "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-        "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-        "retrievedAt": "2026-08-10T16:24:16.145Z",
-        "note": "Direct article link preserved for attribution"
-      }
-    ],
-    "fieldSources": {
-      "week": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        }
-      ],
-      "weekName": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        },
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:16.145Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "hostingOrder": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        }
-      ],
-      "age": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        },
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:16.145Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "city": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        },
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:16.145Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "region": [],
-      "occupation": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        },
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:16.145Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "relationshipStatus": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        },
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:16.145Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "gender": [],
-      "diet": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        }
-      ],
-      "score": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        },
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:16.145Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "placement": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        },
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:16.145Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ],
-      "winner": [
-        {
-          "kind": "fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6%27%D7%99"
-        },
-        {
-          "kind": "fandom",
-          "title": "בואו לאכול איתי Wiki — Fandom",
-          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-          "retrievedAt": "2026-08-10T16:24:16.145Z",
-          "note": "Direct article link preserved for attribution"
-        }
-      ]
-    },
-    "episodeUrls": []
   },
   {
     "slug": "2-אבנר-בן-יון",
@@ -16089,6 +15845,222 @@
           "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F_%D7%97%D7%96%D7%95%D7%98",
           "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
           "retrievedAt": "2026-08-10T16:24:15.909Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "2-שני-פלצ-י",
+    "name": "שני פלצ'י",
+    "season": 2,
+    "weekName": "חיפה והקריות",
+    "age": 34,
+    "city": "קריית מוצקין",
+    "occupation": "קצינת שלישות בקבע",
+    "relationshipStatus": "נשואה",
+    "score": 32,
+    "placement": 1,
+    "winner": true,
+    "dishes": [
+      {
+        "course": "starter",
+        "name": "ממרח פטה כבד וביצה עלומה",
+        "description": "לצד ריבת בצל וטוסטונים",
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "retrievedAt": "2026-08-10T16:24:16.145Z",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      },
+      {
+        "course": "alternative",
+        "name": "פטריות במילוי גבינה",
+        "tags": [
+          "מנה ראשונה צמחונית"
+        ],
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "retrievedAt": "2026-08-10T16:24:16.145Z",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "name": "רוסטביף",
+        "description": "ירקות שורש מקורמלים בתוספת סלט עלים",
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "retrievedAt": "2026-08-10T16:24:16.145Z",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      },
+      {
+        "course": "alternative",
+        "name": "דג סלמון צלוי בתנור",
+        "tags": [
+          "מנה עיקרית צמחונית"
+        ],
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "retrievedAt": "2026-08-10T16:24:16.145Z",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "name": "קסטת בריאות",
+        "description": "בליווי תותים וקרם עשיר",
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "retrievedAt": "2026-08-10T16:24:16.145Z",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fandom",
+        "title": "בואו לאכול איתי Wiki — Fandom",
+        "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+        "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+        "retrievedAt": "2026-08-10T16:24:16.145Z",
+        "note": "Direct article link preserved for attribution"
+      }
+    ],
+    "fieldSources": {
+      "name": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "season": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "city": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "occupation": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "placement": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "dishes": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "retrievedAt": "2026-08-10T16:24:16.145Z",
           "note": "Direct article link preserved for attribution"
         }
       ]
