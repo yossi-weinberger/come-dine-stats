@@ -26,6 +26,10 @@ function pct(count: number, total: number) {
   return total ? Math.round((count / total) * 1000) / 10 : 0
 }
 
+function participantCount(item: Contestant) {
+  return item.members?.length || 1
+}
+
 function coverageFor(items: Contestant[]) {
   const fieldCoverage = Object.fromEntries(fields.map((field) => {
     const count = items.filter((item) => hasValue(item[field])).length
@@ -43,7 +47,11 @@ function coverageFor(items: Contestant[]) {
   }).length
 
   return {
-    contestants: items.length,
+    entries: items.length,
+    participants: items.reduce((sum, item) => sum + participantCount(item), 0),
+    individualEntries: items.filter((item) => item.entryType !== 'couple').length,
+    coupleEntries: items.filter((item) => item.entryType === 'couple').length,
+    withdrawnEntries: items.filter((item) => item.status === 'withdrawn').length,
     dishes: items.reduce((sum, item) => sum + item.dishes.length, 0),
     winners: items.filter((item) => item.winner).length,
     fieldCoverage,
@@ -72,7 +80,8 @@ async function main() {
 
   await writeFile(new URL('coverage.json', reportsDir), JSON.stringify(report, null, 2))
   console.log(JSON.stringify({
-    contestants: report.overall.contestants,
+    entries: report.overall.entries,
+    participants: report.overall.participants,
     dishes: report.overall.dishes,
     seasons,
     menuCoverage: report.overall.menuCoverage,
