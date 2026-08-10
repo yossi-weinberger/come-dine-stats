@@ -5,12 +5,20 @@ import type { Contestant } from './types'
 // union from optional JSON keys, so cross the serialization boundary explicitly.
 export const contestants = contestantsJson as unknown as Contestant[]
 
+function participantCount(item: Contestant) {
+  return item.members?.length || 1
+}
+
 export function getStats(items = contestants) {
   const withAge = items.filter((c) => typeof c.age === 'number')
   const winners = items.filter((c) => c.winner)
   const withScore = items.filter((c) => typeof c.score === 'number')
 
   return {
+    entries: items.length,
+    participants: items.reduce((sum, item) => sum + participantCount(item), 0),
+    // Backward-compatible alias while the codebase migrates from the original
+    // person-only model to individual/couple competition entries.
     contestants: items.length,
     seasons: new Set(items.map((c) => c.season)).size,
     winners: winners.length,
