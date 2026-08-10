@@ -26,5 +26,26 @@
     "entryType": "individual",
     "expectedEntries": 30,
     "expectedWeeks": 6
+  },
+  {
+    "season": 7,
+    "title": "בואו לאכול איתי עונה 7",
+    "entryType": "individual",
+    "expectedEntries": 25,
+    "expectedWeeks": 5
+  },
+  {
+    "season": 8,
+    "title": "בואו לאכול איתי עונה 8",
+    "entryType": "individual",
+    "expectedEntries": 25,
+    "expectedWeeks": 5
+  },
+  {
+    "season": 9,
+    "title": "בואו לאכול איתי עונה 9",
+    "entryType": "individual",
+    "expectedEntries": 25,
+    "expectedWeeks": 5
   }
 ]
