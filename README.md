@@ -1,46 +1,47 @@
 # בואו לאכול איתי — הדאטאבייס
 
-מאגר לא-רשמי שמרכז מתמודדים, שבועות, ציונים, מנות ומקורות מכל עונות **בואו לאכול איתי** ומייצר מהם סטטיסטיקות searchable.
+מאגר מעריצים לא-רשמי שמרכז מתמודדים, שבועות, ציונים ומנות מתוך **בואו לאכול איתי**, ומייצר מהם חיפוש וסטטיסטיקות עם provenance מלא.
 
-## מצב הפרויקט
+## מצב נוכחי — v0.3
 
-**Milestone 0.2 — source-first ingestion**
+הפרויקט כבר עובד מול דאטה אמיתי:
+
+- **90 מתמודדים** מעונות 1–2 דרך Fandom MediaWiki API.
+- **300 מנות** שנקלטו למאגר.
+- **18 מנצחים**.
+- גיל ממוצע בדאטה הקיים: **43**.
+- ציון שיא בדאטה הקיים: **36**.
+- תפריט של שלוש מנות עיקריות/ראשונות/קינוח קיים ל-**89 מתוך 90** מתמודדים.
+- סדר אירוח קיים ל-**90 מתוך 90**.
+- 66 רשומות פרק רשמיות מכאן 11 שנקלטו כרגע מעונות 7, 8 ו-10.
+
+המספרים נוצרים מחדש על ידי ה-pipeline ולא אמורים להיות hard-coded כמקור אמת.
+
+## MVP
 
 - Next.js 16 + TypeScript, RTL-first.
-- סכמת Postgres/Supabase למתמודדים, שבועות, מנות ומקורות.
-- provenance ברמת שדה (`field_evidence`) — כדי שלא נאבד מאיפה הגיע כל נתון.
-- עמוד `/sources` עם קרדיטים, רישיונות ומדיניות שימוש.
+- חיפוש חופשי לפי שם, עיר, מקצוע ומנות.
+- סינון לפי עונה ומנצחים.
 - source badge בכל כרטיס מתמודד.
-- importer ל-Strapi הישן + recovery אוטומטי דרך Wayback CDX/replay.
-- importer ל-Fandom דרך MediaWiki API עם attribution ישיר לכל עמוד.
-- normalizer לנתוני legacy, כולל `city`, `order`, `final_place`, `family_status` והקשר ל-`week` שהתגלו בקוד המקורי.
+- `/sources` עם קרדיטים, רישיונות ומדיניות שימוש.
+- Postgres/Supabase schema למתמודדים, שבועות, מנות, מקורות ו-field evidence.
 - merge engine ששומר conflicts במקום לדרוס אותם.
+- coverage report אוטומטי ב-`data/reports/coverage.json`.
 
-> `data/normalized/contestants.json` הוא המאגר המאוחד. כל source-specific importer כותב קודם לקובץ נפרד ורק `npm run merge` מאחד אותם.
+## עיקרון Source-first
 
-## קרדיט ומקורות
+אנחנו לא שומרים רק `value`; אנחנו שומרים גם מאיפה הוא הגיע. אם שני מקורות סותרים זה את זה, שתי העדויות נשמרות והסתירה נרשמת ב-`data/reports/conflicts.json`.
 
-1. **בואו לאכול איתי — עונת הסטטיסטיקות / `nemo369`** — הפרויקט ההיסטורי שהיווה בסיס חשוב להבנת מבנה הדאטה וה-API: `https://github.com/nemo369/dine-with-me`. לא מצאנו רישיון מפורש בריפו, ולכן לא מעתיקים ממנו קוד/עיצוב או מדיה; שומרים קרדיט ומשתמשים בעובדות/מטא-דאטה.
-2. **Internet Archive / Wayback Machine** — משמש לשחזור snapshots של ה-API הישן. כל שחזור שומר גם URL מקור וגם URL snapshot.
-3. **בואו לאכול איתי Wiki ב-Fandom** — מידע ברמת מתמודד ותפריט. כל רשומה שומרת קישור ישיר לעמוד המקורי. לפי מדיניות Fandom, טקסט wiki הוא בדרך כלל CC BY-SA 3.0 אלא אם מצוין אחרת; מדיה אינה בהכרח תחת אותו רישיון.
-4. **כאן 11** — מקור רשמי לפרקים/עונות/סדר שידור וקישורים. משתמשים בעיקר בעובדות ומטא-דאטה ולא משכפלים נכסי מדיה או טקסטים ארוכים.
+### מקורות וקרדיטים
 
-פירוט מלא: `data/ATTRIBUTION.md` וגם באתר ב-`/sources`.
+1. **בואו לאכול איתי — עונת הסטטיסטיקות / `nemo369`** — הפרויקט ההיסטורי שעזר להבין את מבנה הדאטה ואת ה-API הישן. לא נמצא רישיון מפורש בריפו ולכן לא מועתקים ממנו קוד, עיצוב או מדיה.
+2. **Internet Archive / Wayback Machine** — שימש לניסיון שחזור ה-API הישן. ה-CDX ו-Availability API נבדקו; כרגע לא נמצא snapshot מסוג JSON-array ל-`contestants` או `weeks`. ה-manifest נשמר ב-`data/raw/legacy/wayback-manifest.json`.
+3. **בואו לאכול איתי Wiki ב-Fandom** — מקור עיקרי כרגע לפרופילי מתמודדים ותפריטים. כל מתמודד שומר URL ישיר לדף המקור. טקסט wiki ב-Fandom הוא בדרך כלל CC BY-SA 3.0 אלא אם צוין אחרת; מדיה אינה בהכרח תחת אותו רישיון.
+4. **כאן 11** — מקור רשמי למטא-דאטה של פרקים וסדר שידור. שומרים עובדות וקישורים, לא משכפלים וידאו/תמונות או טקסטים ארוכים.
 
-## Data model
+פירוט: `data/ATTRIBUTION.md` ו-`data/sources.json`.
 
-העיקרון: **לא שומרים רק value — שומרים גם evidence**.
-
-- `seasons`
-- `weeks`
-- `contestants`
-- `dishes`
-- `sources`
-- `field_evidence`
-
-אם Fandom אומר גיל 34 ומקור אחר אומר 35, שתי העדויות נשמרות. `scripts/merge.ts` בוחר ערך להצגה לפי source priority אבל כותב את הסתירה ל-`data/reports/conflicts.json`.
-
-## הרצה
+## הרצה מקומית
 
 ```bash
 npm install
@@ -49,70 +50,39 @@ npm run dev
 
 ## Pipeline
 
-### 1. ניסיון ישיר מול ה-Strapi הישן
-
 ```bash
-npm run import:legacy
+npm run import:fandom
+npm run import:kan
+npm run merge
+npm run coverage
+npm run stats
 ```
 
-### 2. אם Heroku מת — שחזור מ-Wayback
+ניסיון שחזור היסטורי:
 
 ```bash
 npm run recover:legacy
 ```
 
-ה-script מחפש captures של `contestants*` ו-`weeks*` ב-CDX API של Internet Archive, מוריד replay במצב `id_`, ובוחר את מערך ה-JSON הגדול ביותר שנמצא. נכתב גם `wayback-manifest.json` עם URLs ותאריכים.
+ה-GitHub Action ב-`.github/workflows/data-import.yml` מריץ את הייבוא באופן אוטומטי, מייצר coverage report ומבצע commit רק אם הדאטה השתנה.
 
-### 3. נרמול legacy
-
-```bash
-npm run normalize
-```
-
-### 4. ייבוא Fandom
+## בדיקות
 
 ```bash
-npm run import:fandom
+npm run lint
+npm run build
 ```
 
-ה-importer משתמש ב-MediaWiki API, מגלה מתמודדים ישירות דרך קטגוריות העונות (במקום לסרוק את כל הוויקי), ושומר `data/raw/fandom/coverage.json` עם מספר הדפים שנמצאו בכל עונה. הוא שומר גם raw HTML וגם normalized JSON ומחלץ: עונה, שבוע, סדר אירוח, גיל, עיר, מקצוע, מצב משפחתי, ניקוד, דירוג ותפריט; מזהה גם דירוגים מילוליים כמו "מקום ראשון" ומנות חלופיות טבעוניות/צמחוניות.
+אותן בדיקות רצות ב-GitHub Actions על כל push ו-PR.
 
-### 5. ייבוא metadata רשמי מכאן 11
+## השלב הבא
 
-```bash
-npm run import:kan
-```
-
-ה-importer שומר `data/normalized/kan-episodes.json` עם עונה, פרק, שבוע, סדר אירוח וקישור רשמי. הוא לא מעתיק וידאו/תמונות. רשימת עמודי העונות נשמרת ב-`data/kan-season-pages.json` וניתנת לעדכון.
-
-### 6. merge ושמירת conflicts
-
-```bash
-npm run merge
-npm run stats
-```
-
-או pipeline מלא:
-
-```bash
-npm run import:all
-```
-
-## Backlog קרוב
-
-- [x] Wayback recovery script ל-API הישן
-- [x] importer Fandom עם attribution
-- [x] merge + conflict report
-- [x] sources/credits UI
-- [ ] להריץ recovery בסביבה עם גישה לרשת ולבדוק כמה משורות עונות 1–4 באמת נשמרו ב-Wayback
-- [x] importer ראשוני לארכיון כאן 11 (episode metadata + source URLs)
-- [ ] להרחיב את Kan importer לעונות 5–6 ולעמודי מתכונים/עונה 10 תוך כדי שידור
-- [ ] entity matching מתקדם (זוגות, משתתפים חוזרים, שינויי איות)
-- [ ] דפי עונה / שבוע / מתמודד
-- [ ] dashboard: winners, score distribution, age, hosting order, dish keywords
-- [ ] full-text search על מנות
-- [ ] תהליך update לעונה 10
+- להרחיב מקורות לעונות 3–10.
+- לשחזר עונות 3–4 מדפי Nuxt/contestant היסטוריים אם ה-API עצמו אינו בארכיון.
+- להשלים ולתקן את אינדקס כאן לעונה 9.
+- לבנות דפי מתמודד/עונה/שבוע וסטטיסטיקות שיתופיות.
+- לחבר Supabase כשנרצה לעבור מ-JSON versioned למסד נתונים חי.
 
 ## Disclaimer
 
-פרויקט מעריצים לא-רשמי. אינו קשור לכאן, גיל הפקות, Fandom או בעלי הזכויות. Attribution אינו מחליף רישיון: לפני שכפול טקסט או מדיה יש לבדוק את תנאי המקור הספציפי.
+פרויקט מעריצים לא-רשמי. אינו קשור לכאן, גיל הפקות, Fandom או בעלי הזכויות. Attribution אינו מחליף רישיון; לפני שכפול טקסט או מדיה בודקים את תנאי המקור הספציפי.
