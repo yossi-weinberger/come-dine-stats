@@ -50,6 +50,56 @@
     }
   },
   {
+    "slug": "s6-עודד-דואר",
+    "name": "עודד דואר",
+    "season": 6,
+    "entryType": "individual",
+    "members": [
+      "עודד דואר"
+    ],
+    "week": 1,
+    "weekName": "צפון",
+    "hostingOrder": 2,
+    "dishes": [],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148388/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148388/",
+        "note": "Official Kan episode 2; host matched from episode metadata"
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148388/",
+          "note": "Official Kan episode 2; host matched from episode metadata"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148388/",
+          "note": "Official Kan episode 2; host matched from episode metadata"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148388/",
+          "note": "Official Kan episode 2; host matched from episode metadata"
+        }
+      ]
+    }
+  },
+  {
     "slug": "s6-שחר-חן",
     "name": "שחר חן",
     "season": 6,
@@ -1650,6 +1700,56 @@
     }
   },
   {
+    "slug": "s8-יוסלה-זיו",
+    "name": "יוסל'ה זיו",
+    "season": 8,
+    "entryType": "individual",
+    "members": [
+      "יוסל'ה זיו"
+    ],
+    "week": 2,
+    "weekName": "ירושלים",
+    "hostingOrder": 3,
+    "dishes": [],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+        "note": "Official Kan episode 8; host matched from episode metadata"
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+          "note": "Official Kan episode 8; host matched from episode metadata"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+          "note": "Official Kan episode 8; host matched from episode metadata"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+          "note": "Official Kan episode 8; host matched from episode metadata"
+        }
+      ]
+    }
+  },
+  {
     "slug": "s8-קארי-בר-כהן",
     "name": "קארי בר כהן",
     "season": 8,
@@ -1995,6 +2095,156 @@
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
           "note": "Official Kan episode 16; host matched from episode metadata"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s8-ירון-ליברמן",
+    "name": "ירון ליברמן",
+    "season": 8,
+    "entryType": "individual",
+    "members": [
+      "ירון ליברמן"
+    ],
+    "week": 4,
+    "weekName": "מרכז",
+    "hostingOrder": 2,
+    "dishes": [],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+        "note": "Official Kan episode 17; host matched from episode metadata"
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; host matched from episode metadata"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; host matched from episode metadata"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; host matched from episode metadata"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s8-עמנואל-יצחק-לוי",
+    "name": "עמנואל יצחק לוי",
+    "season": 8,
+    "entryType": "individual",
+    "members": [
+      "עמנואל יצחק לוי"
+    ],
+    "week": 4,
+    "weekName": "מרכז",
+    "hostingOrder": 3,
+    "dishes": [],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+        "note": "Official Kan episode 18; host matched from episode metadata"
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched from episode metadata"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched from episode metadata"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched from episode metadata"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s8-נירית-מיטל",
+    "name": "נירית מיטל",
+    "season": 8,
+    "entryType": "individual",
+    "members": [
+      "נירית מיטל"
+    ],
+    "week": 4,
+    "weekName": "מרכז",
+    "hostingOrder": 4,
+    "dishes": [],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+        "note": "Official Kan episode 19; host matched from episode metadata"
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+          "note": "Official Kan episode 19; host matched from episode metadata"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+          "note": "Official Kan episode 19; host matched from episode metadata"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+          "note": "Official Kan episode 19; host matched from episode metadata"
         }
       ]
     }
