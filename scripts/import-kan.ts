@@ -35,6 +35,18 @@ function normalize(value: string) {
     .replace(/\s+/g, '')
 }
 
+function words(value: string) {
+  return compact(value)
+    .normalize('NFKC')
+    .toLocaleLowerCase('he')
+    .split(/[^\p{L}\p{N}]+/u)
+    .filter(Boolean)
+}
+
+function escapeRegExp(value: string) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 function firstNameCandidates(name: string) {
   const clean = compact(name)
   const firstToken = clean.split(/\s+/)[0]
@@ -149,12 +161,19 @@ function inferWeek(episode: Episode) {
 }
 
 function scoreCandidate(entry: Contestant, episodeText: string) {
-  const text = normalize(episodeText)
+  const normalizedText = normalize(episodeText)
   const fullName = normalize(entry.name)
-  let score = fullName && text.includes(fullName) ? 100 : 0
+  let score = fullName && normalizedText.includes(fullName) ? 100 : 0
+  const episodeWords = new Set(words(episodeText))
+  const cueText = compact(episodeText).normalize('NFKC').toLocaleLowerCase('he')
 
   for (const candidate of firstNameCandidates(entry.name)) {
-    if (candidate.length >= 2 && text.includes(candidate)) score += 20
+    if (candidate.length < 2 || !episodeWords.has(candidate)) continue
+    score += 20
+
+    const escaped = escapeRegExp(candidate)
+    const explicitHostCue = new RegExp(`(?:מארח(?:ת)?|יארח|תארח|אצל)\\s+${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
+    if (explicitHostCue.test(cueText)) score += 60
   }
 
   return score
