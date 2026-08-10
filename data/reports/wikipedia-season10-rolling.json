@@ -1,0 +1,12 @@
+{
+  "season": 10,
+  "mode": "rolling",
+  "ok": true,
+  "revision": 43736954,
+  "entries": 15,
+  "previousEntries": 0,
+  "detectedWeeks": 3,
+  "tableWeeks": 3,
+  "maxEntries": 25,
+  "maxWeeks": 5
+}

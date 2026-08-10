@@ -25008,5 +25008,1900 @@
         }
       ]
     }
+  },
+  {
+    "slug": "s10-רועי-גולן",
+    "name": "רועי גולן",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "רועי גולן"
+    ],
+    "status": "active",
+    "week": 1,
+    "weekName": "ירושלים",
+    "hostingOrder": 1,
+    "age": 44,
+    "city": "מלחה",
+    "relationshipStatus": "+4",
+    "score": 29,
+    "winner": false,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-אדם-גוזלן",
+    "name": "אדם גוזלן",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "אדם גוזלן"
+    ],
+    "status": "active",
+    "week": 1,
+    "weekName": "ירושלים",
+    "hostingOrder": 2,
+    "age": 28,
+    "relationshipStatus": "גרוש +1 מנווה דניאל",
+    "score": 26,
+    "winner": false,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-יגאל-טמיר",
+    "name": "יגאל טמיר",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "יגאל טמיר"
+    ],
+    "status": "active",
+    "week": 1,
+    "weekName": "ירושלים",
+    "hostingOrder": 3,
+    "age": 79,
+    "relationshipStatus": "נשוי פעם שנייה משורש",
+    "score": 28,
+    "winner": false,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-חיה-לב",
+    "name": "חיה לב",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "חיה לב"
+    ],
+    "status": "active",
+    "week": 1,
+    "weekName": "ירושלים",
+    "hostingOrder": 4,
+    "age": 52,
+    "relationshipStatus": "מנחלאות",
+    "score": 30,
+    "placement": 1,
+    "winner": true,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "placement": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-ניקול-אלטשולר",
+    "name": "ניקול אלטשולר",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "ניקול אלטשולר"
+    ],
+    "status": "active",
+    "week": 1,
+    "weekName": "ירושלים",
+    "hostingOrder": 5,
+    "age": 26,
+    "city": "עין כרם",
+    "placement": 5,
+    "winner": false,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "placement": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-איריס-אלוג",
+    "name": "איריס אלוג",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "איריס אלוג"
+    ],
+    "status": "active",
+    "week": 2,
+    "weekName": "השפלה",
+    "hostingOrder": 1,
+    "age": 53,
+    "city": "ראשון לציון",
+    "relationshipStatus": "נשואה +2",
+    "score": 32,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-יריב-אגוזי",
+    "name": "יריב אגוזי",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "יריב אגוזי"
+    ],
+    "status": "active",
+    "week": 2,
+    "weekName": "השפלה",
+    "hostingOrder": 2,
+    "age": 55,
+    "relationshipStatus": "גרוש +3 מנס ציונה",
+    "score": 32,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-ליהי-קימורה",
+    "name": "ליהי קימורה",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "ליהי קימורה"
+    ],
+    "status": "active",
+    "week": 2,
+    "weekName": "השפלה",
+    "hostingOrder": 3,
+    "age": 35,
+    "relationshipStatus": "נשואה ממזכרת בתיה",
+    "score": 27,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-זהר-גורמס",
+    "name": "זהר גורמס",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "זהר גורמס"
+    ],
+    "status": "active",
+    "week": 2,
+    "weekName": "השפלה",
+    "hostingOrder": 4,
+    "age": 30,
+    "relationshipStatus": "נשואה +2 מרחובות",
+    "score": 31,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-דניאל-דריי",
+    "name": "דניאל דריי",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "דניאל דריי"
+    ],
+    "status": "active",
+    "week": 2,
+    "weekName": "השפלה",
+    "hostingOrder": 5,
+    "age": 61,
+    "relationshipStatus": "נשוי +4 מגנות",
+    "score": 31,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-עליזה-אלקיים-עבאדי",
+    "name": "עליזה אלקיים עבאדי",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "עליזה אלקיים עבאדי"
+    ],
+    "status": "active",
+    "week": 3,
+    "weekName": "צפון",
+    "hostingOrder": 1,
+    "city": "קריית ים",
+    "relationshipStatus": "אלמנה",
+    "score": 27,
+    "winner": false,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-רוני-פליישר",
+    "name": "רוני פליישר",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "רוני פליישר"
+    ],
+    "status": "active",
+    "week": 3,
+    "weekName": "צפון",
+    "hostingOrder": 2,
+    "age": 50,
+    "relationshipStatus": "+1 מכרמיאל",
+    "score": 33,
+    "winner": false,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "age": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-אבינעם-שמעון",
+    "name": "אבינעם שמעון",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "אבינעם שמעון"
+    ],
+    "status": "active",
+    "week": 3,
+    "weekName": "צפון",
+    "hostingOrder": 3,
+    "relationshipStatus": "מכליל",
+    "score": 28,
+    "winner": false,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-מירן-הולדשטיין",
+    "name": "מירן הולדשטיין",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "מירן הולדשטיין"
+    ],
+    "status": "active",
+    "week": 3,
+    "weekName": "צפון",
+    "hostingOrder": 4,
+    "relationshipStatus": "נשואה מחיפה",
+    "score": 28,
+    "winner": false,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "score": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-אלירן-בוחבוט",
+    "name": "אלירן בוחבוט",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "אלירן בוחבוט"
+    ],
+    "status": "active",
+    "week": 3,
+    "weekName": "צפון",
+    "hostingOrder": 5,
+    "relationshipStatus": "נשוי +1 מקריית אתא",
+    "placement": 1,
+    "winner": true,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "wikipedia",
+        "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+        "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+        "author": "ויקיפדיה העברית — עורכים שונים",
+        "license": "CC BY-SA 4.0",
+        "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+      }
+    ],
+    "fieldSources": {
+      "entryType": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "members": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "week": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "placement": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "winner": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "status": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ]
+    }
   }
 ]
