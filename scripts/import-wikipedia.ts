@@ -234,9 +234,19 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
     const week = Number(weekMatch[1])
     const weekName = compact(weekMatch[2])
     const siblings: cheerio.Cheerio<any>[] = []
-    let current = $(heading).next()
 
-    while (current.length && !current.is('h2,h3')) {
+    // MediaWiki's current parser wraps section headings in .mw-heading. Walk
+    // from that wrapper, not from the nested <h3>, so the following paragraphs,
+    // lists and score table are actual siblings.
+    const headingNode = $(heading).parent().hasClass('mw-heading') ? $(heading).parent() : $(heading)
+    let current = headingNode.next()
+
+    while (
+      current.length &&
+      !current.is('h2,h3') &&
+      !current.hasClass('mw-heading2') &&
+      !current.hasClass('mw-heading3')
+    ) {
       siblings.push(current)
       current = current.next()
     }
@@ -260,9 +270,13 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
     // The scoring table is the canonical competition-entry list. Participant
     // bullet lists sometimes use a different order, and season 3 week 8 lists
     // six individual friends while the scoring table correctly has three pairs.
-    const canonicalRows = rows.length
+    const canonicalRows: ParsedRow[] = rows.length
       ? rows
-      : participants.map((participant, index) => ({ tableName: participant.name, hostingOrder: index + 1, status: 'active' as const }))
+      : participants.map((participant, index) => ({
+          tableName: participant.name,
+          hostingOrder: index + 1,
+          status: 'active',
+        }))
 
     for (const row of canonicalRows) {
       const directParticipant = participants.find((participant) => participantMatchesRow(participant.name, row.tableName, config.entryType))
