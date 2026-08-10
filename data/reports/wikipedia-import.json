@@ -39,7 +39,37 @@
       "expectedEntries": 30,
       "tableWeeks": 6,
       "expectedWeeks": 6
+    },
+    {
+      "season": 7,
+      "title": "בואו לאכול איתי עונה 7",
+      "ok": true,
+      "revision": 43542951,
+      "entries": 25,
+      "expectedEntries": 25,
+      "tableWeeks": 5,
+      "expectedWeeks": 5
+    },
+    {
+      "season": 8,
+      "title": "בואו לאכול איתי עונה 8",
+      "ok": true,
+      "revision": 43526339,
+      "entries": 25,
+      "expectedEntries": 25,
+      "tableWeeks": 5,
+      "expectedWeeks": 5
+    },
+    {
+      "season": 9,
+      "title": "בואו לאכול איתי עונה 9",
+      "ok": true,
+      "revision": 43526353,
+      "entries": 25,
+      "expectedEntries": 25,
+      "tableWeeks": 5,
+      "expectedWeeks": 5
     }
   ],
-  "totalEntries": 109
+  "totalEntries": 184
 }
