@@ -16,6 +16,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "בדימיג'אן גורה",
         "description": "חצילים בענבי בוסר",
         "sources": [
@@ -30,6 +32,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "גורמה סבז'י",
         "description": "נזיד מרק ירוק פרסי בתוספת ת'אדיק: אורז לבן ותפוחי-אדמה",
         "sources": [
@@ -44,6 +48,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "גלידה בסגנון פרסי",
         "sources": [
           {
@@ -204,6 +210,8 @@
         "course": "starter",
         "name": "צומת גלילות",
         "description": "גלילות בלינצ'ס ממולאות בבשר טחון, פירות יבשים, פלפלים קלויים ורוטב טחינה",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "tags": [],
         "sources": [
           {
@@ -219,6 +227,8 @@
         "course": "main",
         "name": "תל מגידו",
         "description": "צלי בשר ברוטב פירות יבשים וערמונים עם מחית ירקות שורש",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "tags": [],
         "sources": [
           {
@@ -234,6 +244,8 @@
         "course": "dessert",
         "name": "חוף מבטחים-גבינמיסו",
         "description": "עוגת גבינה וטירמיסו על מצע רוטב פירות יער",
+        "variant": "standard",
+        "label": "קינוח",
         "tags": [],
         "sources": [
           {
@@ -372,6 +384,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פורטובלה",
         "description": "פטרית פורטובלו גדולה ועסיסית ממולאת בתערובת יחודית של פירות יבשים ואגוזים ברוטב של סויה ודבש",
         "sources": [
@@ -386,6 +400,8 @@
       },
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה לגלי",
         "name": "קישוא ממולא",
         "description": "קישוא עגול ממולא בתערובת יחודית של בשר, פירות יבשים ואגוזים",
         "sources": [
@@ -400,6 +416,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "המבורגר פרטובלה",
         "description": "קציצת בשר בקר משובח מונחת בין שתי פטריות פורטבלו ברוטב סמיך של יין אדום וסילן (לגלי ההמבורגר יוגש ללא פטריות)",
         "sources": [
@@ -414,6 +432,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "שרי בלוסום גירל",
         "description": "פודינג אורז חמים ברוטב קר של דובדבנים וליקר שרי",
         "sources": [
@@ -573,6 +593,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "דג לוקוס",
         "description": "ברוטב כוסברה, גמבה, שום וחומוסים",
         "sources": [
@@ -587,6 +609,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "צלעות כבש",
         "description": "לצד טינזיה ואורז עם אינטריה",
         "sources": [
@@ -601,6 +625,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סלט פירות עשיר",
         "sources": [
           {
@@ -759,6 +785,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סביצ'ה מוסר ים",
         "description": "עם סומק, עלי זעתר, נענע, קשיו, זרעי עגבנייה, תאסוס יווני וטחינה גולמית על פרנה מרוקאית",
         "sources": [
@@ -773,6 +801,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה לברק צרוב במחבת",
         "description": "עם יין לבן על ניוקי ריקוטה, עגבניות חרוכות, פונדו כרישה ושטרויזל תימין בליווי סלט שומר",
         "sources": [
@@ -787,6 +817,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קרם מסקרפונה",
         "description": "בקוביות אגס בקוניאק, קראמבל אגוזי מקדמיה בסירופ תות ושוקולד לבן",
         "sources": [
@@ -944,6 +976,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סשימי",
         "description": "מהים לצלחת",
         "sources": [
@@ -958,6 +992,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "סלמון מיסו",
         "description": "בתוספת אורז פראי בליווי סביצ'ה עגבניות",
         "sources": [
@@ -972,6 +1008,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "טארט טאטן",
         "sources": [
           {
@@ -1110,6 +1148,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "ניוקי ערמונים על מצע ריזוטו (בליווי יין שרדונה בציר 2009)",
         "sources": [
           {
@@ -1123,6 +1163,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "צלי כבש",
         "description": "ביין לבן בליווי ירקות (לצד יין קברנה סוביניון בציר 2003)",
         "sources": [
@@ -1137,6 +1179,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "ופל בלגי",
         "description": "מקושט בגלידה ביתית",
         "sources": [
@@ -1278,6 +1322,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "צ'יפס של פטריות פורטבלו ואנטיפסטי",
         "description": "בתוספת מטבל מיופסטו",
         "sources": [
@@ -1292,6 +1338,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קרני יאריק",
         "description": "סירות חציל ממולאות בבשר טחון לצד דואט בטטה ותפוחי אדמה אורז לבן וטורלו",
         "sources": [
@@ -1306,6 +1354,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פינוקי גבינה",
         "description": "בליטוף פירות אדומים מוגשים עם תה נענע",
         "sources": [
@@ -1465,6 +1515,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "ברנינג הארט",
         "description": "לבבות עוף על מצע עגבניות שרי בוערים באבסינת וענף של רוזמרין",
         "sources": [
@@ -1479,6 +1531,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "העוף של גאיה",
         "description": "עופיונים קטנים עם כוסמת, פירות יבשים, צנוברים ואגוזים",
         "sources": [
@@ -1493,6 +1547,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קרם ברולה",
         "sources": [
           {
@@ -1651,6 +1707,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מרטיני לוקוס",
         "sources": [
           {
@@ -1664,6 +1722,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "מסדר המפקד",
         "description": "טלה עם ירקות שורש מהרי תורכיה",
         "sources": [
@@ -1678,6 +1738,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "הקינוח של מאמא אסנת",
         "description": "דלעת מבושלת בזיגוג סילן עם שבבי חלבה ואגוזים",
         "sources": [
@@ -1836,6 +1898,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קציצות בורי ופילה דג איילת הים",
         "description": "מוגש על מצע שומר ועדשים ירוקות",
         "sources": [
@@ -1850,6 +1914,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה בקר וכבד אווז",
         "description": "עטופים בבצק עלים עם רוטב יין אדום",
         "sources": [
@@ -1864,6 +1930,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "עוגת מוס שוקולד לבן ומריר",
         "sources": [
           {
@@ -2013,6 +2081,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "דג הבית אפוי בתנור",
         "description": "ברוטב לימון חמצמץ על מצע ירקות מונפץ",
         "sources": [
@@ -2027,6 +2097,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "צלי בקר שנשכח בתנור",
         "description": "מוקף ירקות חברותיים לצד אורז צבעוני עם שלל הפתעות, סלט עגבניות חריפות וסלט כרוב לבן במיונז",
         "sources": [
@@ -2041,6 +2113,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סופלה שוקולד חם",
         "description": "לצד כדורי גלידה",
         "sources": [
@@ -2200,6 +2274,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פטריות פורטבלו גדולות והגודל כן קובע",
         "description": "במילוי שמיימי, על מצע סלט עשבים וצנוברים ברוטב המזרח הרחוק לצד לחם הרסני עם אגוזים",
         "sources": [
@@ -2214,6 +2290,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "סלמון מאוכזב ושיכור בויסקי של אייבי הגבר שנטשתי",
         "description": "לצד סופלה גזר מתקתק עם גרעיני ארצנו שרק בלונדיניות יכולות להבין וקינואה נחבאת אל הכלים מוקפצת עם נבטים שתלטניים ושמן שומשום",
         "sources": [
@@ -2228,6 +2306,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מוס שוקולד הורס משפחות",
         "description": "שכל מי שטועם אותו עובר לגור אצלי",
         "sources": [
@@ -2387,6 +2467,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קרפצ'יו",
         "description": "סלט רוקט, לצד ברוסקטת עגבניות ובזיליקום",
         "sources": [
@@ -2401,6 +2483,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "חזה מולארד ברוטב פירות יער",
         "description": "על מצע פירה מדורה, סלט עלים ירוק, שעועית ירוקה מוקפצת עם שום ופירורי לחם",
         "sources": [
@@ -2415,6 +2499,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מוס שוקולד מריר אוורירי",
         "description": "לצד סלט פירות טרופי",
         "sources": [
@@ -2573,6 +2659,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מרק חרירה",
         "sources": [
           {
@@ -2586,6 +2674,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "טאג'ין קוסקוס וירקות",
         "sources": [
           {
@@ -2599,6 +2689,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סוברס ושבקייה",
         "description": "בליווי תה מהביל",
         "sources": [
@@ -2749,6 +2841,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "עלי פילו במילוי תרד וכבד",
         "sources": [
           {
@@ -2762,6 +2856,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "שוקי אווז עם ערמונים",
         "description": "מוגש עם עגבניות שרי במילוי אגוזי מלך, סלט ירקות ואפונה סינית, אגוזי קשיו מסוכרים וחלמון עלום על מצע אורז פילאף עם עשבי תיבול",
         "sources": [
@@ -2776,6 +2872,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "אגסים ביין",
         "description": "עם מוס שוקולד לבן ומרציפן",
         "sources": [
@@ -2935,6 +3033,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מנה תאילנדית",
         "description": "כנפיים בצ'ילי בתוספת חציל ובצל",
         "sources": [
@@ -2949,6 +3049,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "מנה הודית",
         "description": "קציצות בקר ברוטב קארי טמונות בכיכר לחם",
         "sources": [
@@ -2963,6 +3065,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מנה ויאטנמית",
         "description": "נשיקות עם פירות טרופיים אקזוטיים",
         "sources": [
@@ -3121,6 +3225,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סביצ'ה מדג אינטיאס טרי",
         "sources": [
           {
@@ -3134,6 +3240,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "אנטריקוט של אנגוס מרמת הגולן",
         "description": "מוגש עם במיה ועגבניות צלויות בשמן זית",
         "sources": [
@@ -3148,6 +3256,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קרם שקדים",
         "description": "מוגש עם טונקה ודובדבני אמרונה",
         "sources": [
@@ -3297,6 +3407,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "באג'י בנאן",
         "description": "בליווי מטבל צ'טני, טחינה ירוקה וסלסה עגבניות",
         "sources": [
@@ -3311,6 +3423,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "צ'יקן טיקה",
         "description": "עוף בחלב קוקוס עם אורז לבן בתוספת סלט מנגו",
         "sources": [
@@ -3325,6 +3439,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "גולאב ג'אמון",
         "description": "מוגש בקן קדאיף וגלידת פיסטוק",
         "sources": [
@@ -3473,6 +3589,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "כשהים פוגש את היבשה",
         "description": "פילה דג בליווי תפוח אדמה, אספרגוס וביצי סלמון",
         "sources": [
@@ -3487,6 +3605,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "לשתות ולאכול באותו הזמן אפשר רק בבורגון",
         "description": "ביף בורגיניון בליווי קרוקטים ופסטה",
         "sources": [
@@ -3501,6 +3621,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "נסיעה בעולם המתוקים",
         "description": "סופלה שוקולד, קרם קרמל, שיפודי פירות וטארט תפוחים",
         "sources": [
@@ -3642,6 +3764,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "שיפודי סלמון טרי",
         "description": "נושק לכוכב עדשים: סלט עדשים שחורות עם תירס קלוי וירקות מוקפצים, בליווי צזיקי בנוסח סלונקי עם נענע, שום ושמיר",
         "sources": [
@@ -3656,6 +3780,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "עופיון ממולא",
         "description": "אורז, פירות יבשים, צנוברים ושקדים, מככב על מצע סלט ירוק וטרי הכולל שעועית ירוקה, אפונה סינית ואגוזי לוז, מעוטר בקליפות תפוז רעננות וזוהרות לצד כוכבים מגשימי משאלות העשוים בטטה ותפוחי אדמה",
         "sources": [
@@ -3670,6 +3796,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "גביע הפתעות",
         "description": "קינוח מכוכב אחר בסגנון טירמיסו עם פירות יער שובבים",
         "sources": [
@@ -3829,6 +3957,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מחשי ווארק דוואלי",
         "description": "עלי גפן ממולאים בשר ואורז ברוטב עגבניות עשיר לצד סלט טאבולה",
         "sources": [
@@ -3843,6 +3973,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "מסחן בליווי שורבט פריקה",
         "description": "מרק חיטה ירוקה לצד פיתה עיראקית שעליה בצל בסומק ועוף צלוי",
         "sources": [
@@ -3857,6 +3989,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "ליילי ביירות",
         "description": "קינוח סולת וקרם וניל עם מי ורדים על מצע פיסטוק",
         "sources": [
@@ -4151,6 +4285,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "רביולי עם לא זוכר מה עוד לצד משהו שלא הספקתי לקרוא",
         "sources": [
           {
@@ -4164,6 +4300,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "המבורגר אנטריקוט",
         "description": "עם רוטב איולי בתוספת צ'יפס וסלט",
         "sources": [
@@ -4178,6 +4316,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "כוסמוס",
         "description": "מוס פרלינה עם חתיכות ג'נדויה חריפות וקישוט קרמל",
         "sources": [
@@ -4336,6 +4476,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "כבד שיכור",
         "sources": [
           {
@@ -4348,7 +4490,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
         "name": "מרק גספצ'ו",
         "tags": [
           "מנה ראשונה צמחונית"
@@ -4365,6 +4509,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "נתח טלה",
         "sources": [
           {
@@ -4377,7 +4523,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "פטריות והפתעות",
         "tags": [
           "מנה עיקרית צמחונית"
@@ -4394,6 +4542,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פלואוטינג איילנד",
         "sources": [
           {
@@ -4543,6 +4693,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "אדון חציל",
         "description": "באבא גנוג' בטחינה פטל יער ומיץ רימונים ביתי בתוספת עלי גפן",
         "sources": [
@@ -4557,6 +4709,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "המלכה במיה",
         "description": "תבשיל במיה ברוטב שום ולימונים מוגש לצד אורז",
         "sources": [
@@ -4571,6 +4725,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "השיעור האחרון של רימה",
         "sources": [
           {
@@ -4729,6 +4885,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סלסלות קדאיף",
         "description": "ממולאות במבחר כבדים ופטריות",
         "sources": [
@@ -4743,6 +4901,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "סטייק אנטריקוט",
         "description": "לצד פירה קטיפתי",
         "sources": [
@@ -4757,6 +4917,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מעדן שוקולד וקצפת",
         "description": "עם פירות יער מסוכרים",
         "sources": [
@@ -4916,6 +5078,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סלט עשבים",
         "description": "זרעים וגבינה גלילית",
         "sources": [
@@ -4930,6 +5094,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "אטריות אודון",
         "description": "עם אננס, פלפל חריף וטופו ברוטב פינקולדה",
         "sources": [
@@ -4944,6 +5110,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "טראפלס יפנים",
         "description": "לצד פירות מהשדה",
         "sources": [
@@ -5102,6 +5270,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סיגרים של דג לוקוס",
         "description": "עטופים בבצק פילו, מוגש עם רוטב גוואקמולה",
         "sources": [
@@ -5115,7 +5285,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
         "name": "טריו פטריות",
         "description": "ממולאות במגוון גבינות ואגוזים",
         "tags": [
@@ -5133,6 +5305,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "סטייק פילה עגל",
         "description": "ברוטב יין מתקתק, מוגש לצד פירה וסלט ירוק",
         "sources": [
@@ -5146,7 +5320,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "פסטה דה-לה קאזה",
         "description": "פסטה ביתית ברוטב פטריות כמהין, פורצ'יני ושמפניון",
         "tags": [
@@ -5164,6 +5340,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פרוסות אננס",
         "description": "מטוגנות בסילאן עם פלפל שחור, מוגש לצד עלי נענע וגלידת וניל צרפתי",
         "sources": [
@@ -5314,6 +5492,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "עלי גפן",
         "description": "ממולאים באורז וצנוברים בנוסח דרוזי",
         "sources": [
@@ -5328,6 +5508,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "סטייק חזה עוף",
         "description": "מגולגל סביב מלפפון חמוץ, בתוספת אורז קיצ'רי אדום עם עדשים אדומות",
         "sources": [
@@ -5341,7 +5523,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "פונדו רמזור",
         "description": "ירקות וטופו במגוון מטבלים",
         "tags": [
@@ -5359,6 +5543,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פחזניות",
         "description": "ממולאות אגוזים ברוטב תפוחים וקינמון",
         "sources": [
@@ -5518,6 +5704,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פילה דג מושט",
         "description": "לצד לחם ביתי",
         "sources": [
@@ -5531,7 +5719,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
         "name": "פלפל קלוי",
         "description": "בתוספת גבינה",
         "tags": [
@@ -5549,6 +5739,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "תבשיל ריאות וגידים",
         "description": "בתוספת גרגירי חומוס ואורז טנזיה",
         "sources": [
@@ -5562,7 +5754,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "ירקות ממולאים",
         "description": "במגוון ירקות וטופו",
         "tags": [
@@ -5580,6 +5774,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סברינה",
         "sources": [
           {
@@ -5738,6 +5934,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מח בנוסח מרקש אקספרס",
         "sources": [
           {
@@ -5751,6 +5949,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "ראש בראש",
         "description": "על מצע קוסקוס וירקות",
         "sources": [
@@ -5765,6 +5965,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "בנופי",
         "sources": [
           {
@@ -5921,6 +6123,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פטה כבדי עוף",
         "description": "עם ריבת בצל",
         "sources": [
@@ -5935,6 +6139,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "רוסטביף",
         "description": "עם פירה וסלט בייבי",
         "sources": [
@@ -5949,6 +6155,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "עוגת אגסים",
         "description": "ברוטב שוקולד",
         "sources": [
@@ -6089,6 +6297,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "טארטלטים אישים",
         "description": "במילוי פטריות ושמנת, מוגש ליד סלט חסה ברוטב ויניגרט ולחם כפרי",
         "sources": [
@@ -6103,6 +6313,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "רוסטביף סינטה",
         "description": "בתוספת תפוחי אדמה גרטן דופינואה ושעועית ירוקה",
         "sources": [
@@ -6117,6 +6329,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "טארט טאטן",
         "description": "עם קרם וניל",
         "sources": [
@@ -6266,6 +6480,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "חציל בנוסח יווני",
         "description": "עם גבינות פרמז'ן וקשקבל ברוטב עגבניות וירקות",
         "sources": [
@@ -6280,6 +6496,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "דג דניס ברוטב פיקנטי",
         "description": "עם פלפלים אדומים בתוספת תפוחי אדמה ובטטות לצד סלט ברוקולי חי",
         "sources": [
@@ -6294,6 +6512,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קרם בוואריה",
         "description": "עם קוקטייל פירות",
         "sources": [
@@ -6443,6 +6663,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "כבד אווז מטוגן",
         "description": "לצד אגסים ביין",
         "sources": [
@@ -6457,6 +6679,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה בקר",
         "description": "בליווי תפוחי אדמה ברוטב חרדל לצד אפונה וסלט ירוק",
         "sources": [
@@ -6471,6 +6695,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קרם ערמונים",
         "description": "עם קצפת וסלט פירות",
         "sources": [
@@ -6621,6 +6847,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "לחם פרנה ממולא פרגיות",
         "description": "בליווי טאפסים",
         "sources": [
@@ -6635,6 +6863,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה פרגית",
         "description": "עם זיתים ולימון כבוש לצד קוסקוס ודלורית מגונדרת",
         "sources": [
@@ -6649,6 +6879,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "תפוח עץ אפוי",
         "description": "בסלסלת עלי פילו וסיגר ממולא בחטאים",
         "sources": [
@@ -6808,6 +7040,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "טריו רביולי בזיליקום",
         "description": "ממולא דלעת ערמונים מוגש על קרם עגבניות ושמנת",
         "sources": [
@@ -6822,6 +7056,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קציצות פרגית",
         "description": "ברוטב לימון חריף לצד סלט ירוק ואורז במי ורדים",
         "sources": [
@@ -6836,6 +7072,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פנקוטה",
         "description": "ברוטב תפוחים וליקר תפוזים",
         "sources": [
@@ -6995,6 +7233,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "גלילות חצילים",
         "description": "במילוי פסטו ועגבניות מיובשות",
         "sources": [
@@ -7009,6 +7249,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "אנטריקוט",
         "description": "בליווי פירה בטטה וריבת בצל",
         "sources": [
@@ -7023,6 +7265,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קרם ברולה",
         "sources": [
           {
@@ -7181,6 +7425,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "ברוסקטות עם פטריות במילוי פירה בטטה",
         "description": "עם קונפי שום",
         "sources": [
@@ -7195,6 +7441,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה סלמון",
         "description": "בליווי אנטיפסטי, ממרח עגבניות מיובשות ופסטו",
         "sources": [
@@ -7209,6 +7457,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "בננות מקורמלות בשוקולד",
         "description": "בליווי סלסולי חלבה וכדור גלידה (לא לבעלי לב חלש)",
         "sources": [
@@ -7368,6 +7618,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סרדינים כבושים",
         "description": "על פטוצ'יני עם פסטו כוסברה",
         "sources": [
@@ -7382,6 +7634,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "תבשיל קציצות דגים",
         "description": "לצד אדממה",
         "sources": [
@@ -7396,6 +7650,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "רביולי",
         "description": "במילוי קרם אגוזי לוז וג'ינג'ר",
         "sources": [
@@ -7555,6 +7811,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "רביולי גבינות צאן ושמן ארגן",
         "description": "מוגש ברוטב חמאה ומרווה לצד נתח סלמון מעושן",
         "sources": [
@@ -7569,6 +7827,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "אינוולטיני דיויטלו",
         "description": "מעטפת בשר עגל מגולגל עם חזה אווז מעושן לצד פסטה ביתית ברוטב ראגו",
         "sources": [
@@ -7583,6 +7843,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סלט פירות אקזוטי",
         "description": "ברוטב עלי קפיר ליים, ג'ינג'ר ונענע",
         "sources": [
@@ -7741,6 +8003,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "שבירת הצום הספרדי",
         "sources": [
           {
@@ -7754,6 +8018,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "עוף שתוי בשמלה ירוקה",
         "description": "על מצע תפוחי אדמה",
         "sources": [
@@ -7768,6 +8034,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "בלוק בטון משוקולד",
         "sources": [
           {
@@ -7917,6 +8185,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "חריימה של אמא",
         "description": "מדג נסיכת הנילוס עם חומוסים שלמים",
         "sources": [
@@ -7931,6 +8201,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פרגיות ממולאות בבשר כבש",
         "description": "ברוטב בצלים ופטריות",
         "sources": [
@@ -7945,6 +8217,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מוזלי משודרג",
         "sources": [
           {
@@ -8103,6 +8377,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "דג מרוקאי בתנור",
         "description": "עם טוויסט עכשווי",
         "sources": [
@@ -8117,6 +8393,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "צלעות טלה",
         "description": "עם בצלצלי פנינה בליווי ארטישוק ירושלמי",
         "sources": [
@@ -8131,6 +8409,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מופלטה",
         "description": "עם ריבת אל מרוזיה וכדור גלידה",
         "sources": [
@@ -8289,6 +8569,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קרפצ'יו דג לבן עם נגיעות אדומות",
         "sources": [
           {
@@ -8301,7 +8583,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
         "name": "בבא אל פומודורו",
         "tags": [
           "מנה ראשונה צמחונית"
@@ -8318,6 +8602,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קבב דג ים",
         "description": "שט בעגבניות אפויות טובל ביוגורט",
         "sources": [
@@ -8331,7 +8617,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "קציצות זוקיני ירוק",
         "description": "במרק יוגורט לבן",
         "tags": [
@@ -8349,6 +8637,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מלבי של אשכנזים",
         "sources": [
           {
@@ -8495,6 +8785,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מרק עוף ביתי",
         "description": "מוגש בליווי קרפלך",
         "sources": [
@@ -8508,7 +8800,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
         "name": "פטריות שמפניון",
         "description": "ממולאות בכל טוב",
         "tags": [
@@ -8526,6 +8820,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "עוף בתנור",
         "description": "מוגש עם אורז וסלט כרוב",
         "sources": [
@@ -8539,7 +8835,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "פשטידת פיטריות",
         "tags": [
           "מנה עיקרית צמחונית"
@@ -8556,6 +8854,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קומפוט פירות יבשים",
         "sources": [
           {
@@ -8686,6 +8986,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קציצות ירקות מהטבע",
         "description": "מוגשות לצד חומוס ביתי בנוסח אלבני",
         "sources": [
@@ -8700,6 +9002,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "לזניה פטריות עם חצילים",
         "description": "מוגשת בליווי סלט נבטים מלזי",
         "sources": [
@@ -8714,6 +9018,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "בלינצ'ס טריים",
         "description": "ברוטב שוקולד אוסטרי",
         "sources": [
@@ -8863,6 +9169,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "כבד טרופי",
         "description": "כבדי עוף במחית אננס וצ'ילי",
         "sources": [
@@ -8876,7 +9184,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
         "name": "סירות חציל",
         "description": "ממולאות בטחינה וסלסה",
         "tags": [
@@ -8894,6 +9204,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "רולדת בשר",
         "description": "במילוי פרגיות ופיסטוק חלבי",
         "sources": [
@@ -8907,7 +9219,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "פאייה חגיגת יער",
         "description": "אורז מבושל עם פירות יער וטופו",
         "tags": [
@@ -8925,6 +9239,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "החטא הלבן",
         "description": "ערמת שוקולד לבן עם הפתעות מהיער",
         "sources": [
@@ -9074,6 +9390,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "עגבניות חרוכות",
         "description": "עם גבינה קרועה",
         "sources": [
@@ -9088,6 +9406,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "ניוקי ערמונים ופורצ'יני",
         "sources": [
           {
@@ -9101,6 +9421,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קרמבל תפוחים לוהט",
         "description": "עם גלידת וניל קרירה",
         "sources": [
@@ -9250,6 +9572,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "חריימה דגי-ים",
         "description": "ולחם מרוקאי ביתי",
         "sources": [
@@ -9264,6 +9588,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "חמין מעקרונה",
         "sources": [
           {
@@ -9276,7 +9602,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "לביבות ארבע עונות",
         "description": "על מצע חציל בלאדי טחינה וסחוג",
         "tags": [
@@ -9294,6 +9622,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פירות העונה בשיכר אקזוטי",
         "sources": [
           {
@@ -9443,6 +9773,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "בלינצ'ס פטריות",
         "sources": [
           {
@@ -9456,6 +9788,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "גולש וגלושקה",
         "sources": [
           {
@@ -9468,7 +9802,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "דג סלמון בתנור",
         "description": "עם אגוזים ושעועית ירוקה",
         "tags": [
@@ -9486,6 +9822,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "ז'רבו",
         "sources": [
           {
@@ -9647,6 +9985,8 @@
         "course": "starter",
         "name": "ממרח פטה כבד וביצה עלומה",
         "description": "לצד ריבת בצל וטוסטונים",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "tags": [],
         "sources": [
           {
@@ -9663,23 +10003,15 @@
         "name": "פטריות במילוי גבינה",
         "tags": [
           "צמחוני",
-          "מנה ראשונה",
-          "מנה ראשונה צמחונית"
-        ],
-        "sources": [
-          {
-            "kind": "fandom",
-            "title": "בואו לאכול איתי Wiki — Fandom",
-            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
-            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
-            "note": "Direct article link preserved for attribution"
-          }
+          "מנה ראשונה"
         ]
       },
       {
         "course": "main",
         "name": "רוסטביף",
         "description": "ירקות שורש מקורמלים בתוספת סלט עלים",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "tags": [],
         "sources": [
           {
@@ -9696,8 +10028,33 @@
         "name": "דג סלמון צלוי בתנור",
         "tags": [
           "חלופה",
-          "מנה עיקרית",
-          "מנה עיקרית צמחונית"
+          "מנה עיקרית"
+        ]
+      },
+      {
+        "course": "dessert",
+        "name": "קסטת בריאות",
+        "description": "בליווי תותים וקרם עשיר",
+        "variant": "standard",
+        "label": "קינוח",
+        "tags": [],
+        "sources": [
+          {
+            "kind": "fandom",
+            "title": "בואו לאכול איתי Wiki — Fandom",
+            "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A9%D7%A0%D7%99_%D7%A4%D7%9C%D7%A6'%D7%99",
+            "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+            "note": "Direct article link preserved for attribution"
+          }
+        ]
+      },
+      {
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
+        "name": "פטריות במילוי גבינה",
+        "tags": [
+          "מנה ראשונה צמחונית"
         ],
         "sources": [
           {
@@ -9710,10 +10067,13 @@
         ]
       },
       {
-        "course": "dessert",
-        "name": "קסטת בריאות",
-        "description": "בליווי תותים וקרם עשיר",
-        "tags": [],
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
+        "name": "דג סלמון צלוי בתנור",
+        "tags": [
+          "מנה עיקרית צמחונית"
+        ],
         "sources": [
           {
             "kind": "fandom",
@@ -9899,6 +10259,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "בראנץ' גלילי",
         "description": "פטריות שמפיניון ממולאות לצד גלילוני חצילים ופניני הפתעה",
         "sources": [
@@ -9913,6 +10275,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "השילוש הקוסמי הגלילי",
         "description": "פילה פורל ביין לבן, סלט בריאות ופטריות בחמאת עיזים וקוקוס",
         "sources": [
@@ -9927,6 +10291,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קינוח טרופי גלילי",
         "description": "כנאפה גלילית עם כדור גלידת פרי התשוקה",
         "sources": [
@@ -10076,6 +10442,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "רול סלמון ברוטב בוטנים",
         "description": "לצד סלטון פפאיה",
         "sources": [
@@ -10090,6 +10458,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "צלע עגל חלב במילוי ערמונים",
         "description": "בתוספת ארטישוק ירושלמי מוקפץ",
         "sources": [
@@ -10103,7 +10473,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "פילו במילוי סופלה פטריות יעל מוקפצות",
         "tags": [
           "מנה עיקרית צמחונית"
@@ -10120,6 +10492,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "טארט שוקולד",
         "description": "עם פירות יער",
         "sources": [
@@ -10270,6 +10644,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "טחול בטחינה",
         "sources": [
           {
@@ -10282,7 +10658,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegan",
+        "label": "מנה ראשונה טבעונית",
         "name": "סלט ירוק",
         "description": "עם פיצוחים על פירה כסבייה",
         "tags": [
@@ -10300,6 +10678,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "ארטישוק וכרעיים ממולאים",
         "description": "סלט מסייר וסלט ארטישוק",
         "sources": [
@@ -10313,7 +10693,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegan",
+        "label": "מנה עיקרית טבעונית",
         "name": "פלפל ממולא",
         "tags": [
           "מנה עיקרית טבעונית"
@@ -10330,6 +10712,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קומפוט",
         "description": "עם תמר ברוטב קר",
         "sources": [
@@ -10489,6 +10873,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "גיוזה בצק אורז במילוי עוף",
         "sources": [
           {
@@ -10501,7 +10887,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegan",
+        "label": "מנה ראשונה טבעונית",
         "name": "גיוזה בצק אורז במילוי ירקות מוקפצים",
         "tags": [
           "מנה ראשונה טבעונית"
@@ -10518,6 +10906,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "צלי בקר משובח",
         "description": "בבישול ארוך לבעלי זמן קצר ולב חלש בליווי אנטיפסטי ואורז עם שקדים ופפריקה",
         "sources": [
@@ -10531,7 +10921,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegan",
+        "label": "מנה עיקרית טבעונית",
         "name": "צלי סייטן",
         "tags": [
           "מנה עיקרית טבעונית"
@@ -10548,6 +10940,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "גלידת טחינה וקוואנטרו",
         "sources": [
           {
@@ -10705,6 +11099,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סלט חציל הודי עם צ'פאטי",
         "sources": [
           {
@@ -10718,6 +11114,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "דאל עדשים הודיות צהובות",
         "description": "עם הרבה לימון, בתוספת סמוסה, אורז לימון ובוטנים, צ'אטני עגבניות וצ'אטני נענע",
         "sources": [
@@ -10732,6 +11130,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פנקוטה חלב שקדים",
         "description": "עם קולי פירות אדומים, מוגש עם צ'אי הודי",
         "sources": [
@@ -10882,6 +11282,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פטה כבד עוף בפחזנית",
         "description": "עם ריבת בצל",
         "sources": [
@@ -10895,7 +11297,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegan",
+        "label": "מנה ראשונה טבעונית",
         "name": "מרק אפונה ותירס",
         "tags": [
           "מנה ראשונה טבעונית"
@@ -10912,6 +11316,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "כתף כבש צלויה",
         "description": "בתוספת קוביות בטטה וחצילים גרוזיניים",
         "sources": [
@@ -10925,7 +11331,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegan",
+        "label": "מנה עיקרית טבעונית",
         "name": "חציל ממולא באורז",
         "description": "בתוספת קוביות בטטה וחצילים",
         "tags": [
@@ -10943,6 +11351,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מקרונים של שוקולד קפה ופירות יער לצד קדה",
         "sources": [
           {
@@ -11101,6 +11511,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "חריימה לוקוס",
         "description": "עם לחם הבית",
         "sources": [
@@ -11114,7 +11526,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegan",
+        "label": "מנה ראשונה טבעונית",
         "name": "חריימה בטטה",
         "tags": [
           "מנה ראשונה טבעונית"
@@ -11131,6 +11545,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "מפרום על מצע קוסקוס",
         "description": "עם טבחה בסלק ומרק ירקות בתוספת צ'ירשי ומסייר",
         "sources": [
@@ -11144,7 +11560,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegan",
+        "label": "מנה עיקרית טבעונית",
         "name": "מפרום טבעוני",
         "tags": [
           "מנה עיקרית טבעונית"
@@ -11161,6 +11579,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "עוגת ספרה ותמרים",
         "description": "בתוספת תה עם בוטנים שרופים",
         "sources": [
@@ -11320,6 +11740,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קציצות בולט",
         "description": "עם סלט מרמומה וגזר תוניסאי",
         "sources": [
@@ -11334,6 +11756,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קוסקוס",
         "sources": [
           {
@@ -11347,6 +11771,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "לשיקות",
         "sources": [
           {
@@ -11505,6 +11931,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "דג לוקוס חריף",
         "sources": [
           {
@@ -11518,6 +11946,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "אסאדו",
         "sources": [
           {
@@ -11531,6 +11961,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "שבקייה",
         "description": "עם קנקן תה אישי",
         "sources": [
@@ -11690,6 +12122,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מחית כבד עוף ביין מחוזק בסגנון פורט",
         "description": "על אפרסמון ותות שדה עם בצל מטוגן וקונפיטורת תות ביתית",
         "sources": [
@@ -11704,6 +12138,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פרוסות צ'אך",
         "description": "ברוטב יין אדום ועשבי תיבול, על בטטה אפויה עם עגבניות שרי ממולאות, ברוקולי וסלילי תפוחי אדמה",
         "sources": [
@@ -11718,6 +12154,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "אגסים מבושלים ביין קינוח בסגנון פורט",
         "description": "עם שוקולד מריר וסורבה תות שדה, מקושטים באפרסמון ועלי נענע",
         "sources": [
@@ -11877,6 +12315,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מרק עדשים",
         "sources": [
           {
@@ -11890,6 +12330,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קציצות בקר עם אפונה עדינה",
         "description": "אורז עם שמיר ומבחר סלטים",
         "sources": [
@@ -11904,6 +12346,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סלט פירות אקזוטי",
         "description": "בתוספת מרשמלו, עוגיות וקצפת",
         "sources": [
@@ -12063,6 +12507,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "כנפיים מתוקות חריפות",
         "description": "ברוטב ברביקיו",
         "sources": [
@@ -12077,6 +12523,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "רוסטביף משוגע",
         "sources": [
           {
@@ -12090,6 +12538,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "אננס צלוי בחלב קוקוס",
         "description": "עם סורבה קוקוס",
         "sources": [
@@ -12249,6 +12699,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סלט קיסר",
         "description": "עלי חסה ערבית עם קרוטונים ואנשובי",
         "sources": [
@@ -12263,6 +12715,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה סלמון בעשבי תיבול",
         "description": "שעועית ירוקה בנוסח אסייתי וגרטן דופינואה עם גבינת גרוייר",
         "sources": [
@@ -12277,6 +12731,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "טירמיסו",
         "sources": [
           {
@@ -12434,6 +12890,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קבבוני טלה",
         "description": "של אימא של נטלי",
         "sources": [
@@ -12448,6 +12906,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פרגיות ברוטב מעניין",
         "description": "עם פירה בטטות כתום",
         "sources": [
@@ -12462,6 +12922,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פחזניות ממולאות מוס שוקולד",
         "sources": [
           {
@@ -12611,6 +13073,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מרק קישואים וארטישוק ירושלמי",
         "description": "עם גבינת פקורינו ושמן כמהין",
         "sources": [
@@ -12625,6 +13089,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "דניס מגולגל עם פירה ערמונים",
         "sources": [
           {
@@ -12638,6 +13104,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "טארט טאטן אגסים",
         "description": "עם מקל וניל על בצק פילו",
         "sources": [
@@ -12797,6 +13265,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מרק אדום-אדום",
         "sources": [
           {
@@ -12810,6 +13280,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "שניצל מחופש למכורים בלבד",
         "description": "על מצע פירה שובב בליווי סלט ירקות טרופיים",
         "sources": [
@@ -12824,6 +13296,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "גלידה בגביע",
         "description": "בסגנון עשה זאת בעצמך",
         "sources": [
@@ -12983,6 +13457,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קראמבל ירקות שורש חורפי ומפנק",
         "description": "עם קשקבל ופירורי שורט-ברד",
         "sources": [
@@ -12997,6 +13473,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה סלמון פריך",
         "description": "עם ניוקי כתום בחמאת מרווה",
         "sources": [
@@ -13011,6 +13489,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "טירמיסו תפוזי עם לבבות",
         "sources": [
           {
@@ -13169,6 +13649,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "טארט קונפי שום",
         "description": "לצד כדור סורבה וואסבי",
         "sources": [
@@ -13183,6 +13665,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "טריו קציצות",
         "description": "הודו דובדבנים, כבש חריפות, בקר שום וקרמל בליווי פירה וסלט קטן",
         "sources": [
@@ -13197,6 +13681,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "Deconstructed Krembo",
         "description": "קרמבו מפורק לחלקיו",
         "sources": [
@@ -13355,6 +13841,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "דג בתנור",
         "sources": [
           {
@@ -13368,6 +13856,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פרגיות מוקפצות בצ'ילי",
         "description": "בתוספת אורז לבן ופרוסות חציל מטוגן בצ'ילי",
         "sources": [
@@ -13382,6 +13872,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "עוגת קרמבו, ביס פאי וגלילית ממולאת",
         "sources": [
           {
@@ -13531,6 +14023,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "טורטייה ממולאת בבשר",
         "description": "לצד טחינה וצ'ילי",
         "sources": [
@@ -13545,6 +14039,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "דרבלי",
         "description": "תבשיל גברים טריפוליטאי",
         "sources": [
@@ -13559,6 +14055,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סלט פירות ודבש",
         "sources": [
           {
@@ -13716,6 +14214,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פטריות ממולאות",
         "description": "מוגשות על פירה ארטישוק ירושלמי",
         "sources": [
@@ -13730,6 +14230,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קנלוני",
         "description": "ממולא בשמל רוקפור ותרד ברוטב עגבניות",
         "sources": [
@@ -13744,6 +14246,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "אצבעות שוקולד פקאן",
         "sources": [
           {
@@ -13893,6 +14397,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פואה גרה",
         "description": "בליווי סלט משי",
         "sources": [
@@ -13907,6 +14413,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה עגל חלב",
         "description": "בליווי פסטה כמהין",
         "sources": [
@@ -13921,6 +14429,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "תותים בפונדו שוקולד חם",
         "sources": [
           {
@@ -14079,6 +14589,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "דג סול בעשבי תיבול",
         "description": "על מצע נבטים ועגבניות שרי",
         "sources": [
@@ -14093,6 +14605,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "ניוקי ברוטב בשר ועגבניות",
         "description": "עם סלט קיסר (מלווה ביין אדום)",
         "sources": [
@@ -14107,6 +14621,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פודינג מי הדרים",
         "description": "ותה חליטת עשבים",
         "sources": [
@@ -14266,6 +14782,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קישואים ממולאים",
         "description": "בסלמון ופטריות",
         "sources": [
@@ -14280,6 +14798,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "שפרד'ס פאי",
         "sources": [
           {
@@ -14293,6 +14813,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "טארטלטים",
         "description": "במילוי קרם ריקוטה ופירות העונה",
         "sources": [
@@ -14452,6 +14974,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סלט עלי רוקט ובייבי חסה",
         "description": "עם אגוזי לוז, גבינה כחולה ופטריות מטוגנות, מוגש על ברוסקטה עגבניות",
         "sources": [
@@ -14466,6 +14990,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "פילה דניס",
         "description": "ברוטב עגבניות שרי ופלפלים אדומים בליווי תפוחי אדמה וארטישוק ירושלמי אפויים בשמנת ומוקרמים בגבינת פרמז'ן",
         "sources": [
@@ -14480,6 +15006,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "אגסים מבושלים",
         "description": "בתבלינים ויין אדום",
         "sources": [
@@ -14638,6 +15166,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מיתוס",
         "description": "סלט בטטה ואצות היזיקי",
         "sources": [
@@ -14652,6 +15182,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "נוסטלגיה",
         "description": "תבשיל עוף בעשבי תיבול ואורז",
         "sources": [
@@ -14666,6 +15198,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "יש עתיד",
         "description": "צפיחית בדבש ותה פרסי",
         "sources": [
@@ -14816,6 +15350,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קציצות דג ברוטב לימונים",
         "sources": [
           {
@@ -14829,6 +15365,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "כתף טלה בשומר ועגבניות",
         "sources": [
           {
@@ -14842,6 +15380,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "עוגת שוקולד חמה עם סורבה",
         "sources": [
           {
@@ -14999,6 +15539,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פירה בטטות בניחוח קוקוס",
         "description": "על עגבנייה מקורמלת בתנור לצד נגיסת שעועית ירוקה באווז מעושן. ביס משכר וממכר",
         "sources": [
@@ -15013,6 +15555,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קדירת בקר נוסטלגית",
         "description": "המזכירה את בית סבתא, חובקת תיבול שום ועשבי תיבול, ברוטב שורשים ויין, בליווי פסטה הונגרית, נוקדלי, שהכנתה ידנית כבר דורות רבים",
         "sources": [
@@ -15027,6 +15571,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "זיכרון רחוק של בננות בוערות",
         "description": "על פונדנט שוקולד גועש, אננס חמצמץ ורפרוף של נשיקות מרנג וקוקוס קלוי",
         "sources": [
@@ -15177,6 +15723,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "גלילות חצילים",
         "description": "ממולאות בבשר טחון ופטריות לצד סלט רענן",
         "sources": [
@@ -15191,6 +15739,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "רוסטביף בתנור",
         "description": "בתוספת שעועית ירוקה, תפוחי אדמה וסלט חסה",
         "sources": [
@@ -15205,6 +15755,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קרם ברולה",
         "sources": [
           {
@@ -15363,6 +15915,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מרק דגים בלקני אבגו-לימונו",
         "sources": [
           {
@@ -15376,6 +15930,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קציצות פראסה עם בשר",
         "description": "ברוטב לימון וציר עוף, בתוספת מקרון ריינדו עם בשר, בליווי סלט טבולה עם רימונים וחמוצי הבית",
         "sources": [
@@ -15390,6 +15946,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סחלב טורקי חם",
         "description": "לצד מוסטצ'ודוס",
         "sources": [
@@ -15548,6 +16106,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "המרק של סבתא מרים",
         "description": "מרק שושברק",
         "sources": [
@@ -15562,6 +16122,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "הממולאים של סבתא גניה",
         "sources": [
           {
@@ -15575,6 +16137,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "עוואמה",
         "sources": [
           {
@@ -15724,6 +16288,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "ריזוטו שמפניה",
         "description": "מועשר בזעפרן ובפרמז'ן רג'יאנו (אלכוהול - אותה השמפניה בה בושל הריזוטו)",
         "sources": [
@@ -15738,6 +16304,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "סינטה עגל ברוטב",
         "description": "על מצע פולנטה ופטריות פורצ'יני, בליווי אספרגוס צרוב (אלכוהול - יין קיאנטי קלאסי)",
         "sources": [
@@ -15752,6 +16320,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "קנולי קלאסי של מאמא סיציליאנית",
         "description": "במילוי גנאש בשלושה צבעים ופירות חורף (שתייה - אספרסו או קפוצ'ינו איטלקי כהלכתו)",
         "sources": [
@@ -15910,6 +16480,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "דג מרוקאי וביצי דגים",
         "sources": [
           {
@@ -15922,7 +16494,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
         "name": "צ'וריסו צמחוני עטוף בבצק עלים",
         "description": "ברוטב פטריות",
         "tags": [
@@ -15940,6 +16514,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "בשר ראש בכמון ותפוחי אדמה",
         "description": "בתוספת אורז מתוק וזעפרן",
         "sources": [
@@ -15953,7 +16529,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "ארטישוק ממולא בטופו",
         "tags": [
           "מנה עיקרית צמחונית"
@@ -15970,6 +16548,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "שחיתות של טריקולד",
         "sources": [
           {
@@ -16119,6 +16699,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "מאפה חצילים ונזר נבטים (200 או 25 קל)",
         "sources": [
           {
@@ -16132,6 +16714,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "ארטישוק ירושלמי ושזיף יבש בעוף מגולגל",
         "description": "לצד נזר אפונה סינית בנוסח סיני למדי (340 או 30 בינוני)",
         "sources": [
@@ -16145,7 +16729,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "פלפל אדום ואפונה ירוקה",
         "description": "מוקפצים עם סייטן ועטופים בדפי אורז",
         "tags": [
@@ -16163,6 +16749,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "מעדן קליל של שוקולדצ'יפ קוקי, לימון ותות בניחוח וניל (270 או 18 הארד קור)",
         "sources": [
           {
@@ -16321,6 +16909,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "סאטה טופו ואננס ברוטב בוטנים",
         "description": "עם סלט פפאיה",
         "sources": [
@@ -16335,6 +16925,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "מלאי קופטה",
         "description": "כופתאות ירקות הודיות ברוטב עגבניות מבושם עם אורז אוצרות",
         "sources": [
@@ -16349,6 +16941,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פאי פירות בקרם פטיסייר",
         "sources": [
           {
@@ -16507,6 +17101,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "קרעי פסטה",
         "description": "בעגבניות שרי, שאלוטס, שום ותרד בשמן זית (יין או וודקה)",
         "sources": [
@@ -16521,6 +17117,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "קדירת בשר וירקות שורש",
         "description": "על פירה כרובית עם סלט עלים ואוכמניות בברנדי",
         "sources": [
@@ -16534,7 +17132,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "תבשיל פטריות יער",
         "tags": [
           "מנה עיקרית צמחונית"
@@ -16551,6 +17151,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "פונדו שוקולד ופירות העונה (חליטת צמחים מרוקאית/קפה)",
         "sources": [
           {
@@ -16709,6 +17311,8 @@
     "dishes": [
       {
         "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
         "name": "פטריות ממולאות כבד אווז",
         "description": "בתוספת אספרגוס עטוף בחזה אווז וסלט עולש",
         "sources": [
@@ -16722,7 +17326,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "starter",
+        "variant": "vegetarian",
+        "label": "מנה ראשונה צמחונית",
         "name": "קישואים ממולאים בחצילים",
         "tags": [
           "מנה ראשונה צמחונית"
@@ -16739,6 +17345,8 @@
       },
       {
         "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
         "name": "שוק טלה בתנור",
         "description": "זרוע בשום, עטוף בגרגרי חרדל על בסיס יין אדום וצ'ילי בתוספת מחית תפוחי אדמה וקישוא מצופה גרגרי שומשום",
         "sources": [
@@ -16752,7 +17360,9 @@
         ]
       },
       {
-        "course": "alternative",
+        "course": "main",
+        "variant": "vegetarian",
+        "label": "מנה עיקרית צמחונית",
         "name": "טארט כפרי",
         "tags": [
           "מנה עיקרית צמחונית"
@@ -16769,6 +17379,8 @@
       },
       {
         "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
         "name": "סורבה פירות העונה",
         "sources": [
           {
