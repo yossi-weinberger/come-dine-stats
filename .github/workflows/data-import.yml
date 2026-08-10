@@ -5,13 +5,15 @@ name: Refresh show data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3 * * 2'
+    # Daily while season 10 is actively airing; return to weekly after the finale.
+    - cron: '17 3 * * *'
   push:
     branches: [main]
     paths:
       - '.github/workflows/data-import.yml'
       - 'scripts/import-fandom.ts'
       - 'scripts/import-wikipedia.ts'
+      - 'scripts/import-season10.ts'
       - 'scripts/import-kan.ts'
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
@@ -46,8 +48,11 @@ jobs:
       - name: Import Fandom
         run: npm run import:fandom
 
-      - name: Import Hebrew Wikipedia seasons
+      - name: Import Hebrew Wikipedia historical seasons
         run: npm run import:wikipedia
+
+      - name: Import rolling season 10
+        run: npm run import:season10
 
       - name: Import Kan metadata
         run: npm run import:kan
@@ -75,6 +80,7 @@ jobs:
             data/normalized/kan-contestants.json \
             data/normalized/contestants.json \
             data/reports/wikipedia-import.json \
+            data/reports/wikipedia-season10-rolling.json \
             data/reports/kan-contestant-enrichment.json \
             data/reports/conflicts.json \
             data/reports/coverage.json
