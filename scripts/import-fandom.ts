@@ -14,6 +14,8 @@ const hebrewNumber: Record<string, number> = {
   החמישי: 5, החמישית: 5, חמישי: 5, חמישית: 5,
 }
 
+const ordinalWords = Object.keys(hebrewNumber).sort((a, b) => b.length - a.length).join('|')
+
 function compact(value: string) {
   return value.replace(/\[[^\]]*]/g, '').replace(/\s+/g, ' ').trim()
 }
@@ -34,6 +36,25 @@ function placementFrom(value?: string) {
   return undefined
 }
 
+function hostingOrderFromText(value: string) {
+  const patterns = [
+    new RegExp(`אירח[ה]?[^.!?]{0,80}?(${ordinalWords})`),
+    new RegExp(`(?:היה|הייתה)[^.!?]{0,50}?(?:מארח|מארחת)[^.!?]{0,40}?(${ordinalWords})`),
+  ]
+  for (const pattern of patterns) {
+    const match = value.match(pattern)
+    if (match?.[1]) return hebrewNumber[match[1]]
+  }
+  return undefined
+}
+
+function weekFromEpisodes(value?: string) {
+  if (!value) return undefined
+  const range = value.match(/פרקים?\s*(\d+)\s*[-–]\s*(\d+)/)
+  if (!range) return undefined
+  return Math.floor((Number(range[1]) - 1) / 5) + 1
+}
+
 function slugify(value: string) {
   return value.normalize('NFKD').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '').toLowerCase()
 }
@@ -41,7 +62,7 @@ function slugify(value: string) {
 async function mediaWiki(params: Record<string, string>) {
   const url = new URL(API)
   Object.entries({ format: 'json', formatversion: '2', origin: '*', ...params }).forEach(([k, v]) => url.searchParams.set(k, v))
-  const response = await fetch(url, { headers: { 'user-agent': 'come-dine-stats/0.2 (attribution-preserving research importer)' } })
+  const response = await fetch(url, { headers: { 'user-agent': 'come-dine-stats/0.3 (attribution-preserving research importer)' } })
   if (!response.ok) throw new Error(`${url}: ${response.status}`)
   return response.json()
 }
@@ -154,12 +175,12 @@ function parseContestant(title: string, html: string, categories: string[], url:
   const weekName = episodes?.match(/\(שבוע\s+(.+?)\)/)?.[1]
   const score = numberFrom(valueAfterHeading($, 'ניקוד'))
   const placement = placementFrom(valueAfterHeading($, 'דירוג בשבוע'))
-  const bodyText = compact($('#mw-content-text').text())
-  const hostMatch = bodyText.match(/אירח[ה]? את הערב (הראשון|הראשונה|השני|השנייה|השלישי|השלישית|הרביעי|הרביעית|החמישי|החמישית)/)
+  const bodyText = compact($.root().text())
   const source = sourceFor(url)
   const values = {
+    week: weekFromEpisodes(episodes),
     weekName,
-    hostingOrder: hostMatch ? hebrewNumber[hostMatch[1]] : undefined,
+    hostingOrder: hostingOrderFromText(bodyText),
     age: numberFrom(valueAfterHeading($, 'גיל')),
     city: valueAfterHeading($, 'מקום מגורים'),
     occupation: valueAfterHeading($, 'מקצוע'),

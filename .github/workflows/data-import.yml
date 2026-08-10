@@ -8,6 +8,9 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/data-import.yml'
+      - 'scripts/**'
+      - 'data/kan-season-pages.json'
+      - 'package.json'
 
 permissions:
   contents: write
