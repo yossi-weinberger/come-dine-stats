@@ -6,6 +6,7 @@ type SeasonConfig = {
   season: number
   title: string
   entryType: 'individual' | 'couple'
+  expectedEntries: number
 }
 
 type ParsedParticipant = {
@@ -29,6 +30,8 @@ type Diagnostic = {
   ok: boolean
   revision?: number
   entries?: number
+  expectedEntries: number
+  preservedPrevious?: boolean
   error?: string
 }
 
@@ -67,14 +70,13 @@ function normalizeName(value: string) {
 function coupleNameParts(value: string) {
   return stripReferences(value)
     .split(/\s+ו(?=\p{L})/u)
-    .map((part) => compact(part))
+    .map(compact)
     .filter(Boolean)
 }
 
 function parsePlacement(value: string) {
   const clean = stripReferences(value)
-  if (/ניצח/u.test(clean)) return 1
-  if (/מקום\s+ראשון/u.test(clean)) return 1
+  if (/ניצח|מקום\s+ראשון/u.test(clean)) return 1
   if (/מקום\s+שני/u.test(clean)) return 2
   if (/מקום\s+שלישי/u.test(clean)) return 3
   if (/מקום\s+רביעי/u.test(clean)) return 4
@@ -84,19 +86,15 @@ function parsePlacement(value: string) {
 
 function parseMembers(name: string, entryType: SeasonConfig['entryType']) {
   if (entryType === 'individual') return [name]
-
   const parts = coupleNameParts(name)
   if (parts.length !== 2) return parts.length ? parts : [name]
 
   const [first, second] = parts
   const firstTokens = first.split(' ')
   const secondTokens = second.split(' ')
-
-  // Common Wikipedia shorthand: "חיים ואצילה גרשון" means both share the surname.
   if (firstTokens.length === 1 && secondTokens.length >= 2) {
     return [`${first} ${secondTokens.at(-1)}`, second]
   }
-
   return parts
 }
 
@@ -120,19 +118,13 @@ function parseParticipant(text: string): ParsedParticipant | null {
   }
 
   detail = compact(detail.replace(/^ב[ןת]\s+\d{1,3}\s*,?\s*/u, '').replace(/^,\s*/, ''))
-  const relationshipStatus = detail || undefined
-
-  return { name, age, city, relationshipStatus }
+  return { name, age, city, relationshipStatus: detail || undefined }
 }
 
 function winnerFromIntro(text: string) {
-  const clean = stripReferences(text)
-  const match = clean.match(/בשבוע\s+זה\s+ניצח(?:ה|ו)?\s+(.+?)(?:\s+עם\s+(\d+(?:\.\d+)?)\s+נקודות|\.|$)/u)
+  const match = stripReferences(text).match(/בשבוע\s+זה\s+ניצח(?:ה|ו)?\s+(.+?)(?:\s+עם\s+(\d+(?:\.\d+)?)\s+נקודות|\.|$)/u)
   if (!match) return undefined
-  return {
-    name: compact(match[1]),
-    score: match[2] ? Number(match[2]) : undefined,
-  }
+  return { name: compact(match[1]), score: match[2] ? Number(match[2]) : undefined }
 }
 
 function matchesWinner(entryName: string, winnerName?: string) {
@@ -140,7 +132,6 @@ function matchesWinner(entryName: string, winnerName?: string) {
   const entry = normalizeName(entryName)
   const winner = normalizeName(winnerName)
   if (entry === winner || entry.startsWith(winner) || winner.startsWith(entry)) return true
-
   const winnerParts = coupleNameParts(winnerName).map(normalizeName)
   return winnerParts.length > 1 && winnerParts.every((part) => entry.includes(part))
 }
@@ -150,7 +141,6 @@ function participantMatchesRow(participantName: string, rowName: string, entryTy
   const row = normalizeName(rowName)
   if (participant === row || participant.includes(row) || row.includes(participant)) return true
   if (entryType === 'individual') return false
-
   const rowParts = coupleNameParts(rowName).map(normalizeName)
   return rowParts.length > 1 && rowParts.every((part) => participant.includes(part))
 }
@@ -158,7 +148,6 @@ function participantMatchesRow(participantName: string, rowName: string, entryTy
 function participantsForCoupleRow(participants: ParsedParticipant[], rowName: string) {
   const rowParts = coupleNameParts(rowName)
   if (rowParts.length !== 2) return []
-
   return rowParts.flatMap((part) => {
     const needle = normalizeName(part.split(' ')[0])
     const match = participants.find((participant) => {
@@ -180,7 +169,6 @@ function firstNodeOrDescendant(nodes: cheerio.Cheerio<any>[], selector: string) 
 
 function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRow[] {
   const rows: ParsedRow[] = []
-
   table.find('tr').each((_, row) => {
     const cells = $(row).find('td')
     if (cells.length < 2) return
@@ -191,19 +179,23 @@ function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRo
 
     let hostingOrder: number | undefined
     if (/^\d+$/.test(orderText)) hostingOrder = Number(orderText)
-    else if (/^[–—-]$/.test(orderText)) hostingOrder = undefined
-    else return
+    else if (!/^[–—-]$/.test(orderText)) return
 
     const last = stripReferences(cells.eq(cells.length - 1).text())
     const scoreMatch = last.match(/^(-?\d+(?:\.\d+)?)(?:\s|$)/)
-    const score = scoreMatch ? Number(scoreMatch[1]) : undefined
-    const placement = parsePlacement(last)
-    const status: Contestant['status'] = /פרש/u.test(cells.text()) ? 'withdrawn' : 'active'
-
-    rows.push({ hostingOrder, tableName, score, placement, status })
+    rows.push({
+      hostingOrder,
+      tableName,
+      score: scoreMatch ? Number(scoreMatch[1]) : undefined,
+      placement: parsePlacement(last),
+      status: /פרש/u.test(cells.text()) ? 'withdrawn' : 'active',
+    })
   })
-
   return rows
+}
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
 async function fetchSeason(config: SeasonConfig) {
@@ -215,20 +207,36 @@ async function fetchSeason(config: SeasonConfig) {
   url.searchParams.set('formatversion', '2')
   url.searchParams.set('origin', '*')
 
-  const response = await fetch(url, {
-    headers: {
-      accept: 'application/json',
-      'user-agent': 'come-dine-stats/0.4 (source-first factual metadata importer; contact via GitHub)',
-    },
-  })
-  if (!response.ok) throw new Error(`${config.title}: ${response.status} ${response.statusText}`)
+  let lastError: Error | undefined
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    const response = await fetch(url, {
+      headers: {
+        accept: 'application/json',
+        'user-agent': 'come-dine-stats/0.4 (source-first factual metadata importer; contact via GitHub)',
+      },
+    })
 
-  const payload = await response.json() as {
-    parse?: { title: string; pageid: number; revid: number; text: string }
-    error?: { info?: string }
+    if (response.ok) {
+      const payload = await response.json() as {
+        parse?: { title: string; pageid: number; revid: number; text: string }
+        error?: { info?: string }
+      }
+      if (!payload.parse) throw new Error(payload.error?.info ?? `Could not parse ${config.title}`)
+      return payload.parse
+    }
+
+    lastError = new Error(`${config.title}: ${response.status} ${response.statusText}`)
+    if (response.status !== 429 && response.status < 500) break
+
+    const retryAfter = Number(response.headers.get('retry-after'))
+    const delay = Number.isFinite(retryAfter) && retryAfter > 0
+      ? Math.min(retryAfter * 1000, 30_000)
+      : attempt * 3_000
+    console.warn(`Wikipedia season ${config.season}: ${response.status}; retry ${attempt}/4 after ${delay}ms`)
+    await sleep(delay)
   }
-  if (!payload.parse) throw new Error(payload.error?.info ?? `Could not parse ${config.title}`)
-  return payload.parse
+
+  throw lastError ?? new Error(`Could not fetch ${config.title}`)
 }
 
 function extractSeason(config: SeasonConfig, html: string, source: SourceRef): Contestant[] {
@@ -236,50 +244,29 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
   const output: Contestant[] = []
 
   $('h3').each((_, heading) => {
-    const headingText = stripReferences($(heading).text())
-    const weekMatch = headingText.match(/שבוע\s*(\d+)\s*\(([^)]+)\)/u)
+    const weekMatch = stripReferences($(heading).text()).match(/שבוע\s*(\d+)\s*\(([^)]+)\)/u)
     if (!weekMatch) return
 
     const week = Number(weekMatch[1])
     const weekName = compact(weekMatch[2])
     const siblings: cheerio.Cheerio<any>[] = []
-
-    // MediaWiki wraps section headings in .mw-heading. Walk from the wrapper,
-    // otherwise the content after the nested <h3> is invisible to sibling traversal.
     const headingNode = $(heading).parent().hasClass('mw-heading') ? $(heading).parent() : $(heading)
     let current = headingNode.next()
-
-    while (
-      current.length &&
-      !current.is('h2,h3') &&
-      !current.hasClass('mw-heading2') &&
-      !current.hasClass('mw-heading3')
-    ) {
+    while (current.length && !current.is('h2,h3') && !current.hasClass('mw-heading2') && !current.hasClass('mw-heading3')) {
       siblings.push(current)
       current = current.next()
     }
 
-    const introText = siblings
-      .filter((node) => node.is('p'))
-      .map((node) => stripReferences(node.text()))
-      .join(' ')
+    const introText = siblings.filter((node) => node.is('p')).map((node) => stripReferences(node.text())).join(' ')
     const winner = winnerFromIntro(introText)
-
-    // Wide special-week tables can be wrapped in an extra div by MediaWiki,
-    // so inspect both direct siblings and their descendants.
     const list = firstNodeOrDescendant(siblings, 'ul')
     const participants = list?.length
       ? list.find('li').toArray().map((li) => parseParticipant($(li).text())).filter((item): item is ParsedParticipant => Boolean(item))
       : []
-
     const table = firstNodeOrDescendant(siblings, 'table')
     const rows = table?.length ? parseRows($, table) : []
 
     if (!rows.length && !participants.length) return
-
-    // A couple-season score table is the only safe definition of competition
-    // entries. Some special weeks list six individual friends/siblings but score
-    // them as three pairs; never turn those six people into six fake couple rows.
     if (config.entryType === 'couple' && !rows.length) {
       console.warn(`Wikipedia season ${config.season}, week ${week}: no scoring rows; skipped unsafe couple fallback`)
       return
@@ -287,32 +274,25 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
 
     const canonicalRows: ParsedRow[] = rows.length
       ? rows
-      : participants.map((participant, index) => ({
-          tableName: participant.name,
-          hostingOrder: index + 1,
-          status: 'active',
-        }))
+      : participants.map((participant, index) => ({ tableName: participant.name, hostingOrder: index + 1, status: 'active' }))
 
     for (const row of canonicalRows) {
       const directParticipant = participants.find((participant) => participantMatchesRow(participant.name, row.tableName, config.entryType))
       const pairedParticipants = config.entryType === 'couple' && !directParticipant
         ? participantsForCoupleRow(participants, row.tableName)
         : []
-
       const name = directParticipant?.name ?? row.tableName
       const members = directParticipant
         ? parseMembers(directParticipant.name, config.entryType)
         : pairedParticipants.length === 2
           ? pairedParticipants.map((participant) => participant.name)
           : parseMembers(row.tableName, config.entryType)
-
       const sharedCity = pairedParticipants.length === 2 && pairedParticipants[0].city === pairedParticipants[1].city
         ? pairedParticipants[0].city
         : undefined
       const city = directParticipant?.city ?? sharedCity
       const relationshipStatus = directParticipant?.relationshipStatus
       const age = config.entryType === 'individual' ? directParticipant?.age : undefined
-
       const isWinner = matchesWinner(name, winner?.name) || matchesWinner(row.tableName, winner?.name) || row.placement === 1
       const score = row.score ?? (isWinner ? winner?.score : undefined)
       const fieldSources: Contestant['fieldSources'] = {}
@@ -359,18 +339,26 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
   return output
 }
 
+async function readPrevious() {
+  try {
+    return JSON.parse(await readFile(normalizedFile, 'utf8')) as Contestant[]
+  } catch {
+    return []
+  }
+}
+
 async function main() {
   await mkdir(rawDir, { recursive: true })
   await mkdir(reportsDir, { recursive: true })
   const configs = JSON.parse(await readFile(configUrl, 'utf8')) as SeasonConfig[]
+  const previous = await readPrevious()
   const all: Contestant[] = []
   const diagnostics: Diagnostic[] = []
+  let unresolved = false
 
   for (const config of configs) {
     try {
       const parsed = await fetchSeason(config)
-      await writeFile(new URL(`season-${config.season}.html`, rawDir), parsed.text)
-
       const revisionUrl = `https://he.wikipedia.org/w/index.php?title=${encodeURIComponent(config.title.replace(/ /g, '_'))}&oldid=${parsed.revid}`
       const source: SourceRef = {
         kind: 'wikipedia',
@@ -380,24 +368,70 @@ async function main() {
         license: 'CC BY-SA 4.0',
         note: `Imported from revision ${parsed.revid}; factual competition metadata with revision-level attribution`,
       }
-
       const contestants = extractSeason(config, parsed.text, source)
+      if (contestants.length !== config.expectedEntries) {
+        throw new Error(`quality gate: expected ${config.expectedEntries} entries, parsed ${contestants.length}`)
+      }
+
+      await writeFile(new URL(`season-${config.season}.html`, rawDir), parsed.text)
       all.push(...contestants)
-      diagnostics.push({ season: config.season, title: config.title, ok: true, revision: parsed.revid, entries: contestants.length })
-      console.log(`Wikipedia season ${config.season}: ${contestants.length} competition entries from revision ${parsed.revid}`)
+      diagnostics.push({
+        season: config.season,
+        title: config.title,
+        ok: true,
+        revision: parsed.revid,
+        entries: contestants.length,
+        expectedEntries: config.expectedEntries,
+      })
+      console.log(`Wikipedia season ${config.season}: ${contestants.length}/${config.expectedEntries} validated entries from revision ${parsed.revid}`)
     } catch (error) {
       const message = error instanceof Error ? `${error.name}: ${error.message}` : String(error)
-      diagnostics.push({ season: config.season, title: config.title, ok: false, error: message })
-      console.warn(`Wikipedia season ${config.season} failed: ${message}`)
+      const fallback = previous.filter((item) => item.season === config.season)
+      if (fallback.length === config.expectedEntries) {
+        all.push(...fallback)
+        diagnostics.push({
+          season: config.season,
+          title: config.title,
+          ok: false,
+          entries: fallback.length,
+          expectedEntries: config.expectedEntries,
+          preservedPrevious: true,
+          error: message,
+        })
+        console.warn(`Wikipedia season ${config.season}: preserved ${fallback.length} previous validated entries after ${message}`)
+      } else {
+        unresolved = true
+        diagnostics.push({
+          season: config.season,
+          title: config.title,
+          ok: false,
+          entries: fallback.length || undefined,
+          expectedEntries: config.expectedEntries,
+          preservedPrevious: false,
+          error: message,
+        })
+        console.error(`Wikipedia season ${config.season}: no validated fallback available after ${message}`)
+      }
     }
+
+    // Be polite to the public API and reduce the chance of burst throttling.
+    await sleep(1_500)
+  }
+
+  await writeFile(diagnosticFile, JSON.stringify({ seasons: diagnostics, totalEntries: all.length }, null, 2))
+  if (unresolved) {
+    throw new Error('Wikipedia import incomplete; normalized data was not replaced')
   }
 
   const deduped = [...new Map(all.map((contestant) => [`${contestant.season}:${normalizeName(contestant.name)}`, contestant])).values()]
     .sort((a, b) => a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || (a.hostingOrder ?? 999) - (b.hostingOrder ?? 999))
 
+  if (deduped.length !== configs.reduce((sum, config) => sum + config.expectedEntries, 0)) {
+    throw new Error(`Wikipedia aggregate quality gate failed: ${deduped.length} entries`)
+  }
+
   await writeFile(normalizedFile, JSON.stringify(deduped, null, 2))
-  await writeFile(diagnosticFile, JSON.stringify({ seasons: diagnostics, totalEntries: deduped.length }, null, 2))
-  console.log(`Saved ${deduped.length} Wikipedia competition entries with revision-level attribution`)
+  console.log(`Saved ${deduped.length} validated Wikipedia competition entries with revision-level attribution`)
 }
 
 main().catch((error) => {
