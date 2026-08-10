@@ -11,11 +11,12 @@
     "normalize": "tsx scripts/normalize.ts",
     "import:fandom": "tsx scripts/import-fandom.ts",
     "import:wikipedia": "tsx scripts/import-wikipedia.ts",
+    "import:season10": "tsx scripts/import-season10.ts",
     "stats": "tsx scripts/stats.ts",
     "coverage": "tsx scripts/coverage.ts",
     "recover:legacy": "tsx scripts/recover-legacy-wayback.ts",
     "merge": "tsx scripts/merge.ts",
-    "import:all": "npm run recover:legacy && npm run normalize && npm run import:fandom && npm run import:wikipedia && npm run import:kan && npm run merge && npm run coverage && npm run stats",
+    "import:all": "npm run recover:legacy && npm run normalize && npm run import:fandom && npm run import:wikipedia && npm run import:season10 && npm run import:kan && npm run merge && npm run coverage && npm run stats",
     "import:kan": "tsx scripts/import-kan.ts"
   },
   "dependencies": {
