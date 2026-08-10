@@ -104,7 +104,9 @@ function allNodeMatches($: cheerio.CheerioAPI, nodes: cheerio.Cheerio<any>[], se
   const matches: cheerio.Cheerio<any>[] = []
   for (const node of nodes) {
     if (node.is(selector)) matches.push(node)
-    node.find(selector).each((_, element) => matches.push($(element)))
+    node.find(selector).each((_, element) => {
+      matches.push($(element))
+    })
   }
   return matches
 }
@@ -237,13 +239,14 @@ function extractSeason(html: string, source: SourceRef): Extraction {
     if (!participants.length && !rows.length) return
 
     const winner = inferSafeWinner(rows)
-    const canonical = rows.length
+    const canonical: Array<{ row: ParsedRow; participant?: ParsedParticipant }> = rows.length
       ? rows.map((row) => ({ row, participant: participants.find((item) => participantMatchesRow(item.name, row.tableName)) }))
-      : participants.map((participant) => ({ row: { tableName: participant.name, status: 'active' as const }, participant }))
+      : participants.map((participant) => ({ row: { tableName: participant.name, status: 'active' }, participant }))
 
     for (const { row, participant } of canonical) {
       const name = participant?.name ?? row.tableName
       const isWinner = winner === normalizeName(row.tableName) || winner === normalizeName(name)
+      const winnerValue = winner ? isWinner : undefined
       const fieldSources: Contestant['fieldSources'] = {}
       const setSource = (field: string, value: unknown) => {
         if (value !== undefined && value !== null && value !== '') fieldSources[field] = [source]
@@ -259,7 +262,7 @@ function extractSeason(html: string, source: SourceRef): Extraction {
       setSource('relationshipStatus', participant?.relationshipStatus)
       setSource('score', row.score)
       setSource('placement', isWinner ? 1 : row.placement)
-      setSource('winner', isWinner)
+      setSource('winner', winnerValue)
       setSource('status', row.status)
 
       output.push({
@@ -277,7 +280,7 @@ function extractSeason(html: string, source: SourceRef): Extraction {
         relationshipStatus: participant?.relationshipStatus,
         score: row.score,
         placement: isWinner ? 1 : row.placement,
-        winner: isWinner,
+        winner: winnerValue,
         dishes: [],
         sources: [source],
         fieldSources,
