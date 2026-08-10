@@ -169,6 +169,15 @@ function participantsForCoupleRow(participants: ParsedParticipant[], rowName: st
   })
 }
 
+function firstNodeOrDescendant(nodes: cheerio.Cheerio<any>[], selector: string) {
+  for (const node of nodes) {
+    if (node.is(selector)) return node
+    const nested = node.find(selector).first()
+    if (nested.length) return nested
+  }
+  return undefined
+}
+
 function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRow[] {
   const rows: ParsedRow[] = []
 
@@ -235,9 +244,8 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
     const weekName = compact(weekMatch[2])
     const siblings: cheerio.Cheerio<any>[] = []
 
-    // MediaWiki's current parser wraps section headings in .mw-heading. Walk
-    // from that wrapper, not from the nested <h3>, so the following paragraphs,
-    // lists and score table are actual siblings.
+    // MediaWiki wraps section headings in .mw-heading. Walk from the wrapper,
+    // otherwise the content after the nested <h3> is invisible to sibling traversal.
     const headingNode = $(heading).parent().hasClass('mw-heading') ? $(heading).parent() : $(heading)
     let current = headingNode.next()
 
@@ -257,19 +265,26 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
       .join(' ')
     const winner = winnerFromIntro(introText)
 
-    const list = siblings.find((node) => node.is('ul'))
+    // Wide special-week tables can be wrapped in an extra div by MediaWiki,
+    // so inspect both direct siblings and their descendants.
+    const list = firstNodeOrDescendant(siblings, 'ul')
     const participants = list?.length
       ? list.find('li').toArray().map((li) => parseParticipant($(li).text())).filter((item): item is ParsedParticipant => Boolean(item))
       : []
 
-    const table = siblings.find((node) => node.is('table'))
+    const table = firstNodeOrDescendant(siblings, 'table')
     const rows = table?.length ? parseRows($, table) : []
 
     if (!rows.length && !participants.length) return
 
-    // The scoring table is the canonical competition-entry list. Participant
-    // bullet lists sometimes use a different order, and season 3 week 8 lists
-    // six individual friends while the scoring table correctly has three pairs.
+    // A couple-season score table is the only safe definition of competition
+    // entries. Some special weeks list six individual friends/siblings but score
+    // them as three pairs; never turn those six people into six fake couple rows.
+    if (config.entryType === 'couple' && !rows.length) {
+      console.warn(`Wikipedia season ${config.season}, week ${week}: no scoring rows; skipped unsafe couple fallback`)
+      return
+    }
+
     const canonicalRows: ParsedRow[] = rows.length
       ? rows
       : participants.map((participant, index) => ({
