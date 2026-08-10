@@ -3,24 +3,28 @@
     "season": 3,
     "title": "בואו לאכול איתי עונה 3",
     "entryType": "couple",
-    "expectedEntries": 30
+    "expectedEntries": 30,
+    "expectedWeeks": 10
   },
   {
     "season": 4,
     "title": "בואו לאכול איתי עונה 4",
     "entryType": "couple",
-    "expectedEntries": 24
+    "expectedEntries": 24,
+    "expectedWeeks": 8
   },
   {
     "season": 5,
     "title": "בואו לאכול איתי עונה 5",
     "entryType": "individual",
-    "expectedEntries": 25
+    "expectedEntries": 25,
+    "expectedWeeks": 5
   },
   {
     "season": 6,
     "title": "בואו לאכול איתי עונה 6",
     "entryType": "individual",
-    "expectedEntries": 30
+    "expectedEntries": 30,
+    "expectedWeeks": 6
   }
 ]
