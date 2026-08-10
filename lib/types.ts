@@ -1,4 +1,4 @@
-export type SourceKind = 'legacy' | 'fandom' | 'kan' | 'manual' | 'wayback'
+export type SourceKind = 'legacy' | 'fandom' | 'wikipedia' | 'kan' | 'manual' | 'wayback'
 
 export type SourceRef = {
   kind: SourceKind
@@ -22,6 +22,9 @@ export type Contestant = {
   slug: string
   name: string
   season: number
+  entryType?: 'individual' | 'couple'
+  members?: string[]
+  status?: 'active' | 'withdrawn' | 'guest'
   week?: number
   weekName?: string
   hostingOrder?: number
@@ -51,7 +54,6 @@ export type SourceRegistryEntry = {
   licenseUrl?: string
   reusePolicy: string
 }
-
 
 export type Episode = {
   season: number
