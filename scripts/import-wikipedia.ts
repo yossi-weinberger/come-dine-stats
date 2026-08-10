@@ -7,6 +7,7 @@ type SeasonConfig = {
   title: string
   entryType: 'individual' | 'couple'
   expectedEntries: number
+  expectedWeeks: number
 }
 
 type ParsedParticipant = {
@@ -31,8 +32,16 @@ type Diagnostic = {
   revision?: number
   entries?: number
   expectedEntries: number
+  tableWeeks?: number
+  expectedWeeks: number
   preservedPrevious?: boolean
   error?: string
+}
+
+type SeasonExtraction = {
+  contestants: Contestant[]
+  detectedWeeks: number
+  tableWeeks: number
 }
 
 const configUrl = new URL('../data/wikipedia-season-pages.json', import.meta.url)
@@ -158,13 +167,13 @@ function participantsForCoupleRow(participants: ParsedParticipant[], rowName: st
   })
 }
 
-function firstNodeOrDescendant(nodes: cheerio.Cheerio<any>[], selector: string) {
+function allNodeMatches($: cheerio.CheerioAPI, nodes: cheerio.Cheerio<any>[], selector: string) {
+  const matches: cheerio.Cheerio<any>[] = []
   for (const node of nodes) {
-    if (node.is(selector)) return node
-    const nested = node.find(selector).first()
-    if (nested.length) return nested
+    if (node.is(selector)) matches.push(node)
+    node.find(selector).each((_, element) => matches.push($(element)))
   }
-  return undefined
+  return matches
 }
 
 function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRow[] {
@@ -192,6 +201,26 @@ function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRo
     })
   })
   return rows
+}
+
+function bestParticipantList($: cheerio.CheerioAPI, siblings: cheerio.Cheerio<any>[]) {
+  let best: ParsedParticipant[] = []
+  for (const list of allNodeMatches($, siblings, 'ul')) {
+    const parsed = list.find('li').toArray()
+      .map((li) => parseParticipant($(li).text()))
+      .filter((item): item is ParsedParticipant => Boolean(item))
+    if (parsed.length > best.length) best = parsed
+  }
+  return best
+}
+
+function bestScoreRows($: cheerio.CheerioAPI, siblings: cheerio.Cheerio<any>[]) {
+  let best: ParsedRow[] = []
+  for (const table of allNodeMatches($, siblings, 'table')) {
+    const parsed = parseRows($, table)
+    if (parsed.length > best.length) best = parsed
+  }
+  return best
 }
 
 function sleep(ms: number) {
@@ -239,13 +268,16 @@ async function fetchSeason(config: SeasonConfig) {
   throw lastError ?? new Error(`Could not fetch ${config.title}`)
 }
 
-function extractSeason(config: SeasonConfig, html: string, source: SourceRef): Contestant[] {
+function extractSeason(config: SeasonConfig, html: string, source: SourceRef): SeasonExtraction {
   const $ = cheerio.load(html)
   const output: Contestant[] = []
+  let detectedWeeks = 0
+  let tableWeeks = 0
 
   $('h3').each((_, heading) => {
     const weekMatch = stripReferences($(heading).text()).match(/שבוע\s*(\d+)\s*\(([^)]+)\)/u)
     if (!weekMatch) return
+    detectedWeeks++
 
     const week = Number(weekMatch[1])
     const weekName = compact(weekMatch[2])
@@ -259,12 +291,9 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
 
     const introText = siblings.filter((node) => node.is('p')).map((node) => stripReferences(node.text())).join(' ')
     const winner = winnerFromIntro(introText)
-    const list = firstNodeOrDescendant(siblings, 'ul')
-    const participants = list?.length
-      ? list.find('li').toArray().map((li) => parseParticipant($(li).text())).filter((item): item is ParsedParticipant => Boolean(item))
-      : []
-    const table = firstNodeOrDescendant(siblings, 'table')
-    const rows = table?.length ? parseRows($, table) : []
+    const participants = bestParticipantList($, siblings)
+    const rows = bestScoreRows($, siblings)
+    if (rows.length) tableWeeks++
 
     if (!rows.length && !participants.length) return
     if (config.entryType === 'couple' && !rows.length) {
@@ -336,7 +365,7 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
     }
   })
 
-  return output
+  return { contestants: output, detectedWeeks, tableWeeks }
 }
 
 async function readPrevious() {
@@ -368,9 +397,13 @@ async function main() {
         license: 'CC BY-SA 4.0',
         note: `Imported from revision ${parsed.revid}; factual competition metadata with revision-level attribution`,
       }
-      const contestants = extractSeason(config, parsed.text, source)
+      const extraction = extractSeason(config, parsed.text, source)
+      const contestants = extraction.contestants
       if (contestants.length !== config.expectedEntries) {
         throw new Error(`quality gate: expected ${config.expectedEntries} entries, parsed ${contestants.length}`)
+      }
+      if (extraction.detectedWeeks !== config.expectedWeeks || extraction.tableWeeks !== config.expectedWeeks) {
+        throw new Error(`quality gate: expected ${config.expectedWeeks} table-backed weeks, detected ${extraction.detectedWeeks}, score tables ${extraction.tableWeeks}`)
       }
 
       await writeFile(new URL(`season-${config.season}.html`, rawDir), parsed.text)
@@ -382,8 +415,10 @@ async function main() {
         revision: parsed.revid,
         entries: contestants.length,
         expectedEntries: config.expectedEntries,
+        tableWeeks: extraction.tableWeeks,
+        expectedWeeks: config.expectedWeeks,
       })
-      console.log(`Wikipedia season ${config.season}: ${contestants.length}/${config.expectedEntries} validated entries from revision ${parsed.revid}`)
+      console.log(`Wikipedia season ${config.season}: ${contestants.length}/${config.expectedEntries} entries; ${extraction.tableWeeks}/${config.expectedWeeks} score tables; revision ${parsed.revid}`)
     } catch (error) {
       const message = error instanceof Error ? `${error.name}: ${error.message}` : String(error)
       const fallback = previous.filter((item) => item.season === config.season)
@@ -395,6 +430,7 @@ async function main() {
           ok: false,
           entries: fallback.length,
           expectedEntries: config.expectedEntries,
+          expectedWeeks: config.expectedWeeks,
           preservedPrevious: true,
           error: message,
         })
@@ -407,28 +443,23 @@ async function main() {
           ok: false,
           entries: fallback.length || undefined,
           expectedEntries: config.expectedEntries,
+          expectedWeeks: config.expectedWeeks,
           preservedPrevious: false,
           error: message,
         })
         console.error(`Wikipedia season ${config.season}: no validated fallback available after ${message}`)
       }
     }
-
-    // Be polite to the public API and reduce the chance of burst throttling.
     await sleep(1_500)
   }
 
   await writeFile(diagnosticFile, JSON.stringify({ seasons: diagnostics, totalEntries: all.length }, null, 2))
-  if (unresolved) {
-    throw new Error('Wikipedia import incomplete; normalized data was not replaced')
-  }
+  if (unresolved) throw new Error('Wikipedia import incomplete; normalized data was not replaced')
 
   const deduped = [...new Map(all.map((contestant) => [`${contestant.season}:${normalizeName(contestant.name)}`, contestant])).values()]
     .sort((a, b) => a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || (a.hostingOrder ?? 999) - (b.hostingOrder ?? 999))
-
-  if (deduped.length !== configs.reduce((sum, config) => sum + config.expectedEntries, 0)) {
-    throw new Error(`Wikipedia aggregate quality gate failed: ${deduped.length} entries`)
-  }
+  const expectedTotal = configs.reduce((sum, config) => sum + config.expectedEntries, 0)
+  if (deduped.length !== expectedTotal) throw new Error(`Wikipedia aggregate quality gate failed: expected ${expectedTotal}, got ${deduped.length}`)
 
   await writeFile(normalizedFile, JSON.stringify(deduped, null, 2))
   console.log(`Saved ${deduped.length} validated Wikipedia competition entries with revision-level attribution`)
