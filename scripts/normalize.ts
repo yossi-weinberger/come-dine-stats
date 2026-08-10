@@ -43,6 +43,7 @@ function splitDish(value: string, course: Dish['course'], source: SourceRef): Di
   const [name, ...description] = value.split(/\s+-\s+/)
   return {
     course,
+    variant: 'standard',
     name: name.trim(),
     description: description.join(' - ').trim() || undefined,
     sources: [source],

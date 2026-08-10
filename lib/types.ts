@@ -10,8 +10,13 @@ export type SourceRef = {
   note?: string
 }
 
+export type DishCourse = 'starter' | 'main' | 'dessert'
+export type DishVariant = 'standard' | 'vegetarian' | 'vegan' | 'alternative'
+
 export type Dish = {
-  course: 'starter' | 'main' | 'dessert' | 'alternative'
+  course: DishCourse
+  variant?: DishVariant
+  label?: string
   name: string
   description?: string
   tags?: string[]

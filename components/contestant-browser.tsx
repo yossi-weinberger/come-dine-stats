@@ -1,7 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import type { Contestant, SourceRef } from '@/lib/types'
+import type { Contestant, Dish, SourceRef } from '@/lib/types'
 
 const sourceLabels: Record<string, string> = {
   fandom: 'Fandom Wiki',
@@ -18,6 +18,18 @@ const hostingOrderLabels: Record<number, string> = {
   3: 'אירח שלישי',
   4: 'אירח רביעי',
   5: 'אירח חמישי',
+}
+
+const courseLabels: Record<string, string> = {
+  starter: 'ראשונה',
+  main: 'עיקרית',
+  dessert: 'קינוח',
+}
+
+const variantLabels: Record<string, string> = {
+  vegetarian: 'צמחונית',
+  vegan: 'טבעונית',
+  alternative: 'חלופית',
 }
 
 function SourceLink({ source }: { source: SourceRef }) {
@@ -39,6 +51,16 @@ function normalize(value: string) {
   return value.normalize('NFKC').toLocaleLowerCase('he').trim()
 }
 
+function variantOf(dish: Dish) {
+  const rawCourse = (dish as unknown as { course: string }).course
+  if (dish.variant) return dish.variant
+  return rawCourse === 'alternative' ? 'alternative' : 'standard'
+}
+
+function isPrimaryDish(dish: Dish) {
+  return variantOf(dish) === 'standard' && ['starter', 'main', 'dessert'].includes(dish.course)
+}
+
 function searchableText(contestant: Contestant) {
   return normalize([
     contestant.name,
@@ -46,13 +68,28 @@ function searchableText(contestant: Contestant) {
     contestant.city,
     contestant.occupation,
     contestant.weekName,
-    ...contestant.dishes.flatMap((dish) => [dish.name, dish.description, ...(dish.tags ?? [])]),
+    ...contestant.dishes.flatMap((dish) => [dish.name, dish.description, dish.label, ...(dish.tags ?? [])]),
   ].filter(Boolean).join(' '))
 }
 
 function entryLabel(contestant: Contestant) {
   if (contestant.entryType === 'couple') return 'זוג'
   return 'יחיד/ה'
+}
+
+function DishLine({ dish }: { dish: Dish }) {
+  const variant = variantOf(dish)
+  const label = variant === 'standard'
+    ? courseLabels[dish.course] || dish.label
+    : [courseLabels[dish.course], variantLabels[variant]].filter(Boolean).join(' · ')
+
+  return (
+    <li>
+      {label && <span className="dishType">{label}</span>}
+      <strong>{dish.name}</strong>
+      {dish.description && <small>{dish.description}</small>}
+    </li>
+  )
 }
 
 export function ContestantBrowser({ contestants }: { contestants: Contestant[] }) {
@@ -138,7 +175,8 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
         <div className="cards contestantGrid">
           {filtered.map((contestant) => {
             const sources = [...new Map(contestant.sources.map((source) => [`${source.kind}:${source.url}`, source])).values()]
-            const primaryDishes = contestant.dishes.filter((dish) => dish.course !== 'alternative')
+            const primaryDishes = contestant.dishes.filter(isPrimaryDish)
+            const alternativeDishes = contestant.dishes.filter((dish) => !isPrimaryDish(dish))
             return (
               <article className="card contestantCard" key={contestant.slug}>
                 <div className="cardTop">
@@ -168,12 +206,20 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
                 {primaryDishes.length > 0 && (
                   <ol className="dishList">
                     {primaryDishes.map((dish) => (
-                      <li key={`${dish.course}-${dish.name}`}>
-                        <strong>{dish.name}</strong>
-                        {dish.description && <small>{dish.description}</small>}
-                      </li>
+                      <DishLine key={`${dish.course}-${variantOf(dish)}-${dish.name}`} dish={dish} />
                     ))}
                   </ol>
+                )}
+
+                {alternativeDishes.length > 0 && (
+                  <details className="alternativeMenu">
+                    <summary>חלופות בתפריט ({alternativeDishes.length})</summary>
+                    <ol className="dishList alternativeDishList">
+                      {alternativeDishes.map((dish) => (
+                        <DishLine key={`${dish.course}-${variantOf(dish)}-${dish.name}`} dish={dish} />
+                      ))}
+                    </ol>
+                  </details>
                 )}
 
                 <div className="sourceRow" aria-label={`מקורות עבור ${contestant.name}`}>
