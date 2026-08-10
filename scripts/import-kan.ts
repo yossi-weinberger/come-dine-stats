@@ -141,9 +141,10 @@ async function maybeWikipediaContestants() {
 }
 
 function inferWeek(episode: Episode) {
-  // Seasons 5+ use five hosting nights per regional week. We currently enrich
-  // only seasons 5–6 because they are present in the Wikipedia profile import.
-  if (episode.season === 5 || episode.season === 6) return Math.floor((episode.episode - 1) / 5) + 1
+  // Seasons 5–8 use five hosting nights per regional week. Season 9 is not
+  // enriched yet because the Kan archive importer does not currently recover
+  // a complete official episode set for that season.
+  if (episode.season >= 5 && episode.season <= 8) return Math.floor((episode.episode - 1) / 5) + 1
   return undefined
 }
 
@@ -164,7 +165,7 @@ function buildKanContestants(episodes: Episode[], wikipediaContestants: Contesta
   const diagnostics: EnrichmentDiagnostic[] = []
 
   for (const episode of episodes) {
-    if (![5, 6].includes(episode.season) || !episode.hostingOrder) continue
+    if (![5, 6, 7, 8].includes(episode.season) || !episode.hostingOrder) continue
     const week = inferWeek(episode)
     if (!week) continue
 
@@ -252,7 +253,7 @@ async function main() {
   }, null, 2))
 
   console.log(`Saved ${deduped.length} official episode records with Kan attribution`)
-  console.log(`Matched ${enrichment.rows.length}/${enrichment.diagnostics.length} season 5–6 hosting episodes to competition entries`)
+  console.log(`Matched ${enrichment.rows.length}/${enrichment.diagnostics.length} season 5–8 hosting episodes to competition entries`)
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1 })
