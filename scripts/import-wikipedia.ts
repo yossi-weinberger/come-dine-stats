@@ -64,6 +64,13 @@ function normalizeName(value: string) {
     .toLowerCase()
 }
 
+function coupleNameParts(value: string) {
+  return stripReferences(value)
+    .split(/\s+ו(?=\p{L})/u)
+    .map((part) => compact(part))
+    .filter(Boolean)
+}
+
 function parsePlacement(value: string) {
   const clean = stripReferences(value)
   if (/ניצח/u.test(clean)) return 1
@@ -78,7 +85,7 @@ function parsePlacement(value: string) {
 function parseMembers(name: string, entryType: SeasonConfig['entryType']) {
   if (entryType === 'individual') return [name]
 
-  const parts = name.split(/\s+ו(?=\p{L})/u).map((part) => compact(part)).filter(Boolean)
+  const parts = coupleNameParts(name)
   if (parts.length !== 2) return parts.length ? parts : [name]
 
   const [first, second] = parts
@@ -132,7 +139,34 @@ function matchesWinner(entryName: string, winnerName?: string) {
   if (!winnerName) return false
   const entry = normalizeName(entryName)
   const winner = normalizeName(winnerName)
-  return entry === winner || entry.startsWith(winner) || winner.startsWith(entry)
+  if (entry === winner || entry.startsWith(winner) || winner.startsWith(entry)) return true
+
+  const winnerParts = coupleNameParts(winnerName).map(normalizeName)
+  return winnerParts.length > 1 && winnerParts.every((part) => entry.includes(part))
+}
+
+function participantMatchesRow(participantName: string, rowName: string, entryType: SeasonConfig['entryType']) {
+  const participant = normalizeName(participantName)
+  const row = normalizeName(rowName)
+  if (participant === row || participant.includes(row) || row.includes(participant)) return true
+  if (entryType === 'individual') return false
+
+  const rowParts = coupleNameParts(rowName).map(normalizeName)
+  return rowParts.length > 1 && rowParts.every((part) => participant.includes(part))
+}
+
+function participantsForCoupleRow(participants: ParsedParticipant[], rowName: string) {
+  const rowParts = coupleNameParts(rowName)
+  if (rowParts.length !== 2) return []
+
+  return rowParts.flatMap((part) => {
+    const needle = normalizeName(part.split(' ')[0])
+    const match = participants.find((participant) => {
+      const firstToken = normalizeName(participant.name.split(' ')[0])
+      return firstToken === needle || normalizeName(participant.name).startsWith(needle)
+    })
+    return match ? [match] : []
+  })
 }
 
 function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRow[] {
@@ -223,16 +257,35 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
 
     if (!rows.length && !participants.length) return
 
-    const count = Math.max(rows.length, participants.length)
-    for (let index = 0; index < count; index++) {
-      const participant = participants[index]
-      const row = rows[index]
-      const name = participant?.name ?? row?.tableName
-      if (!name) continue
+    // The scoring table is the canonical competition-entry list. Participant
+    // bullet lists sometimes use a different order, and season 3 week 8 lists
+    // six individual friends while the scoring table correctly has three pairs.
+    const canonicalRows = rows.length
+      ? rows
+      : participants.map((participant, index) => ({ tableName: participant.name, hostingOrder: index + 1, status: 'active' as const }))
 
-      const isWinner = matchesWinner(name, winner?.name) || row?.placement === 1
-      const score = row?.score ?? (isWinner ? winner?.score : undefined)
-      const members = parseMembers(name, config.entryType)
+    for (const row of canonicalRows) {
+      const directParticipant = participants.find((participant) => participantMatchesRow(participant.name, row.tableName, config.entryType))
+      const pairedParticipants = config.entryType === 'couple' && !directParticipant
+        ? participantsForCoupleRow(participants, row.tableName)
+        : []
+
+      const name = directParticipant?.name ?? row.tableName
+      const members = directParticipant
+        ? parseMembers(directParticipant.name, config.entryType)
+        : pairedParticipants.length === 2
+          ? pairedParticipants.map((participant) => participant.name)
+          : parseMembers(row.tableName, config.entryType)
+
+      const sharedCity = pairedParticipants.length === 2 && pairedParticipants[0].city === pairedParticipants[1].city
+        ? pairedParticipants[0].city
+        : undefined
+      const city = directParticipant?.city ?? sharedCity
+      const relationshipStatus = directParticipant?.relationshipStatus
+      const age = config.entryType === 'individual' ? directParticipant?.age : undefined
+
+      const isWinner = matchesWinner(name, winner?.name) || matchesWinner(row.tableName, winner?.name) || row.placement === 1
+      const score = row.score ?? (isWinner ? winner?.score : undefined)
       const fieldSources: Contestant['fieldSources'] = {}
       const setSource = (field: string, value: unknown) => {
         if (value !== undefined && value !== null && value !== '') fieldSources[field] = [source]
@@ -242,14 +295,14 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
       setSource('members', members)
       setSource('week', week)
       setSource('weekName', weekName)
-      setSource('hostingOrder', row?.hostingOrder)
-      setSource('age', participant?.age)
-      setSource('city', participant?.city)
-      setSource('relationshipStatus', participant?.relationshipStatus)
+      setSource('hostingOrder', row.hostingOrder)
+      setSource('age', age)
+      setSource('city', city)
+      setSource('relationshipStatus', relationshipStatus)
       setSource('score', score)
-      setSource('placement', isWinner ? 1 : row?.placement)
+      setSource('placement', isWinner ? 1 : row.placement)
       setSource('winner', isWinner)
-      setSource('status', row?.status)
+      setSource('status', row.status)
 
       output.push({
         slug: `s${config.season}-${slugify(name)}`,
@@ -257,15 +310,15 @@ function extractSeason(config: SeasonConfig, html: string, source: SourceRef): C
         season: config.season,
         entryType: config.entryType,
         members,
-        status: row?.status ?? 'active',
+        status: row.status ?? 'active',
         week,
         weekName,
-        hostingOrder: row?.hostingOrder,
-        age: config.entryType === 'individual' ? participant?.age : undefined,
-        city: participant?.city,
-        relationshipStatus: participant?.relationshipStatus,
+        hostingOrder: row.hostingOrder,
+        age,
+        city,
+        relationshipStatus,
         score,
-        placement: isWinner ? 1 : row?.placement,
+        placement: isWinner ? 1 : row.placement,
         winner: isWinner,
         dishes: [],
         sources: [source],
