@@ -45,5 +45,221 @@
         }
       ]
     }
+  },
+  {
+    "slug": "s5-בני-ציפר",
+    "name": "בני ציפר",
+    "season": 5,
+    "occupation": "עיתונאי ומשורר",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/culture/tv/article/3727921",
+        "title": "ישראל היום — בואו לאכול איתו: השואו של בני ציפר",
+        "author": "ערן סויסה",
+        "note": "Article about Ziffer's participation in season 5 explicitly identifies him as a journalist and poet."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/culture/tv/article/3727921",
+          "title": "ישראל היום — בואו לאכול איתו: השואו של בני ציפר",
+          "author": "ערן סויסה",
+          "note": "Article about Ziffer's participation in season 5 explicitly identifies him as a journalist and poet."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s7-מיה-דגן",
+    "name": "מיה דגן",
+    "season": 7,
+    "occupation": "שחקנית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/bjsg5b4jh",
+        "title": "ynet — הצופים של בואו לאכול איתי רעבים לאותו הדבר בדיוק",
+        "author": "סמדר שילוני",
+        "note": "Season 7 review explicitly identifies participant Mia Dagan as an actress."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/bjsg5b4jh",
+          "title": "ynet — הצופים של בואו לאכול איתי רעבים לאותו הדבר בדיוק",
+          "author": "סמדר שילוני",
+          "note": "Season 7 review explicitly identifies participant Mia Dagan as an actress."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s7-קרן-בר-לב",
+    "name": "קרן בר לב",
+    "season": 7,
+    "occupation": "ראש תחום רשתות חברתיות במכון ויצמן",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/laisha/article/skb9bwti2",
+        "title": "לאשה / ynet — קרן בר לב: אני נשלטת ב-BDSM, אני שמנה ואני עפה על עצמי",
+        "author": "תחיה ברק",
+        "note": "Interview explicitly identifies Bar Lev as a Come Dine With Me participant and states her role at the Weizmann Institute."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/laisha/article/skb9bwti2",
+          "title": "לאשה / ynet — קרן בר לב: אני נשלטת ב-BDSM, אני שמנה ואני עפה על עצמי",
+          "author": "תחיה ברק",
+          "note": "Interview explicitly identifies Bar Lev as a Come Dine With Me participant and states her role at the Weizmann Institute."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s7-בן-טרומן",
+    "name": "בן טרומן",
+    "season": 7,
+    "occupation": "מעצב אירועים ומכין מגשי אירוח",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.mako.co.il/pride-culture/Article-febf4051931b981026.htm",
+        "title": "mako — היא אליטיסטית שחיה בסרט",
+        "author": "לירוי פיניאן",
+        "note": "Interview about Truman's season 7 participation explicitly states that he designs events and prepares catering platters for a living."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.mako.co.il/pride-culture/Article-febf4051931b981026.htm",
+          "title": "mako — היא אליטיסטית שחיה בסרט",
+          "author": "לירוי פיניאן",
+          "note": "Interview about Truman's season 7 participation explicitly states that he designs events and prepares catering platters for a living."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s7-רחלי-סופיר",
+    "name": "רחלי סופיר",
+    "season": 7,
+    "occupation": "קוסמטיקאית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.atmag.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-7/",
+        "title": "את — אכילת ראש: למה בואו לאכול איתי בוחשת לנו ככה ברחם?",
+        "author": "שיר שחף",
+        "note": "Season 7 coverage explicitly identifies Sophir as the group's cosmetician."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.atmag.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-7/",
+          "title": "את — אכילת ראש: למה בואו לאכול איתי בוחשת לנו ככה ברחם?",
+          "author": "שיר שחף",
+          "note": "Season 7 coverage explicitly identifies Sophir as the group's cosmetician."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s7-סיוון-קנטי-אביטן",
+    "name": "סיוון קנטי אביטן",
+    "season": 7,
+    "occupation": "שדכנית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+        "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+        "author": "לורי שטטמאור",
+        "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+          "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+          "author": "לורי שטטמאור",
+          "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s9-שירה-ניר",
+    "name": "שירה ניר",
+    "season": 9,
+    "occupation": "עורכת דין פלילית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1yjbbfaee",
+        "title": "ynet — כוכבת בואו לאכול איתי: אמרתי להפקה תיזהרו להוציא אותי מטומטמת",
+        "author": "סמדר שילוני",
+        "note": "Interview explicitly identifies Nir as a season 9 participant and criminal defense attorney."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1yjbbfaee",
+          "title": "ynet — כוכבת בואו לאכול איתי: אמרתי להפקה תיזהרו להוציא אותי מטומטמת",
+          "author": "סמדר שילוני",
+          "note": "Interview explicitly identifies Nir as a season 9 participant and criminal defense attorney."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-אדם-גוזלן",
+    "name": "אדם גוזלן",
+    "season": 10,
+    "occupation": "עובד באולם אירועים",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/culture/tv/article/21018200",
+        "title": "ישראל היום — בואו לאכול איתי של כאן 11 הפכה לבואו להתפרסם איתי",
+        "author": "ניר וולף",
+        "note": "Season 10 review explicitly states that Gozlan works at an event hall."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/culture/tv/article/21018200",
+          "title": "ישראל היום — בואו לאכול איתי של כאן 11 הפכה לבואו להתפרסם איתי",
+          "author": "ניר וולף",
+          "note": "Season 10 review explicitly states that Gozlan works at an event hall."
+        }
+      ]
+    }
   }
 ]

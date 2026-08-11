@@ -24978,6 +24978,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133004/",
         "note": "Official Kan episode 3; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/culture/tv/article/3727921",
+        "title": "ישראל היום — בואו לאכול איתו: השואו של בני ציפר",
+        "author": "ערן סויסה",
+        "note": "Article about Ziffer's participation in season 5 explicitly identifies him as a journalist and poet."
       }
     ],
     "fieldSources": {
@@ -25122,14 +25129,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/culture/tv/article/3727921",
+          "title": "ישראל היום — בואו לאכול איתו: השואו של בני ציפר",
+          "author": "ערן סויסה",
+          "note": "Article about Ziffer's participation in season 5 explicitly identifies him as a journalist and poet."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133004/"
-    ]
+    ],
+    "occupation": "עיתונאי ומשורר"
   },
   {
     "slug": "s5-גילי-שמחה-עוזיאל",
@@ -35675,6 +35691,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/444586/",
         "note": "Official Kan episode 5; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.atmag.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-7/",
+        "title": "את — אכילת ראש: למה בואו לאכול איתי בוחשת לנו ככה ברחם?",
+        "author": "שיר שחף",
+        "note": "Season 7 coverage explicitly identifies Sophir as the group's cosmetician."
       }
     ],
     "fieldSources": {
@@ -35810,14 +35833,23 @@
       ],
       "age": [],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.atmag.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-7/",
+          "title": "את — אכילת ראש: למה בואו לאכול איתי בוחשת לנו ככה ברחם?",
+          "author": "שיר שחף",
+          "note": "Season 7 coverage explicitly identifies Sophir as the group's cosmetician."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/444586/"
-    ]
+    ],
+    "occupation": "קוסמטיקאית"
   },
   {
     "slug": "s7-סיוון-קנטי-אביטן",
@@ -35850,6 +35882,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439431/",
         "note": "Official Kan episode 6; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+        "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+        "author": "לורי שטטמאור",
+        "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker."
       }
     ],
     "fieldSources": {
@@ -35985,14 +36024,23 @@
       ],
       "age": [],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+          "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+          "author": "לורי שטטמאור",
+          "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439431/"
-    ]
+    ],
+    "occupation": "שדכנית"
   },
   {
     "slug": "s7-קרן-בר-לב",
@@ -36026,6 +36074,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439433/",
         "note": "Official Kan episode 7; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/laisha/article/skb9bwti2",
+        "title": "לאשה / ynet — קרן בר לב: אני נשלטת ב-BDSM, אני שמנה ואני עפה על עצמי",
+        "author": "תחיה ברק",
+        "note": "Interview explicitly identifies Bar Lev as a Come Dine With Me participant and states her role at the Weizmann Institute."
       }
     ],
     "fieldSources": {
@@ -36170,14 +36225,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/laisha/article/skb9bwti2",
+          "title": "לאשה / ynet — קרן בר לב: אני נשלטת ב-BDSM, אני שמנה ואני עפה על עצמי",
+          "author": "תחיה ברק",
+          "note": "Interview explicitly identifies Bar Lev as a Come Dine With Me participant and states her role at the Weizmann Institute."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439433/"
-    ]
+    ],
+    "occupation": "ראש תחום רשתות חברתיות במכון ויצמן"
   },
   {
     "slug": "s7-בן-טרומן",
@@ -36212,6 +36276,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439436/",
         "note": "Official Kan episode 8; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.mako.co.il/pride-culture/Article-febf4051931b981026.htm",
+        "title": "mako — היא אליטיסטית שחיה בסרט",
+        "author": "לירוי פיניאן",
+        "note": "Interview about Truman's season 7 participation explicitly states that he designs events and prepares catering platters for a living."
       }
     ],
     "fieldSources": {
@@ -36366,13 +36437,22 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.mako.co.il/pride-culture/Article-febf4051931b981026.htm",
+          "title": "mako — היא אליטיסטית שחיה בסרט",
+          "author": "לירוי פיניאן",
+          "note": "Interview about Truman's season 7 participation explicitly states that he designs events and prepares catering platters for a living."
+        }
+      ],
       "gender": [],
       "diet": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439436/"
-    ]
+    ],
+    "occupation": "מעצב אירועים ומכין מגשי אירוח"
   },
   {
     "slug": "s7-דני-סימון",
@@ -36591,6 +36671,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439442/",
         "note": "Official Kan episode 10; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/bjsg5b4jh",
+        "title": "ynet — הצופים של בואו לאכול איתי רעבים לאותו הדבר בדיוק",
+        "author": "סמדר שילוני",
+        "note": "Season 7 review explicitly identifies participant Mia Dagan as an actress."
       }
     ],
     "fieldSources": {
@@ -36735,14 +36822,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/bjsg5b4jh",
+          "title": "ynet — הצופים של בואו לאכול איתי רעבים לאותו הדבר בדיוק",
+          "author": "סמדר שילוני",
+          "note": "Season 7 review explicitly identifies participant Mia Dagan as an actress."
+        }
+      ],
       "gender": [],
       "diet": [],
       "score": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439442/"
-    ]
+    ],
+    "occupation": "שחקנית"
   },
   {
     "slug": "s7-טל-רוזנבך-שמעיה",
@@ -44710,6 +44806,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922432/",
         "note": "Official Kan episode 4; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1yjbbfaee",
+        "title": "ynet — כוכבת בואו לאכול איתי: אמרתי להפקה תיזהרו להוציא אותי מטומטמת",
+        "author": "סמדר שילוני",
+        "note": "Interview explicitly identifies Nir as a season 9 participant and criminal defense attorney."
       }
     ],
     "fieldSources": {
@@ -44854,14 +44957,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1yjbbfaee",
+          "title": "ynet — כוכבת בואו לאכול איתי: אמרתי להפקה תיזהרו להוציא אותי מטומטמת",
+          "author": "סמדר שילוני",
+          "note": "Interview explicitly identifies Nir as a season 9 participant and criminal defense attorney."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922432/"
-    ]
+    ],
+    "occupation": "עורכת דין פלילית"
   },
   {
     "slug": "s9-עודד-קב",
@@ -48890,6 +49002,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
         "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/culture/tv/article/21018200",
+        "title": "ישראל היום — בואו לאכול איתי של כאן 11 הפכה לבואו להתפרסם איתי",
+        "author": "ניר וולף",
+        "note": "Season 10 review explicitly states that Gozlan works at an event hall."
       }
     ],
     "fieldSources": {
@@ -49032,7 +49151,15 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/culture/tv/article/21018200",
+          "title": "ישראל היום — בואו לאכול איתי של כאן 11 הפכה לבואו להתפרסם איתי",
+          "author": "ניר וולף",
+          "note": "Season 10 review explicitly states that Gozlan works at an event hall."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
@@ -49040,7 +49167,8 @@
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/"
     ],
-    "city": "נווה דניאל"
+    "city": "נווה דניאל",
+    "occupation": "עובד באולם אירועים"
   },
   {
     "slug": "s10-יגאל-טמיר",
