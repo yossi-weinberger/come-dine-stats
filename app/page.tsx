@@ -21,7 +21,10 @@ export default function Home() {
       <section className="hero">
         <div className="heroTop">
           <div className="eyebrow">פרויקט לא-רשמי • v0.4 • source-first</div>
-          <Link className="creditsLink" href="/sources">מקורות וקרדיטים →</Link>
+          <div className="heroLinks">
+            <Link className="creditsLink" href="/stats">סטטיסטיקות →</Link>
+            <Link className="creditsLink" href="/sources">מקורות וקרדיטים →</Link>
+          </div>
         </div>
         <h1>בואו לאכול איתי<br/><em>הדאטאבייס</em></h1>
         <p>{stats.participants} משתתפים מאומתים כרגע, עם תוצאות, מנות וסטטיסטיקות — ומקור לכל נתון.</p>
@@ -34,6 +37,15 @@ export default function Home() {
         <Stat label="זוכים / זוגות זוכים" value={stats.winners} />
         <Stat label="מנות שנקלטו" value={stats.dishes} />
         <Stat label="ציון שיא" value={stats.topScore} />
+      </section>
+
+      <section className="statsTeaser" aria-labelledby="stats-teaser-title">
+        <div>
+          <div className="eyebrow">לא רק לחפש שמות</div>
+          <h2 id="stats-teaser-title">מה באמת קורה לאורך 10 עונות?</h2>
+          <p>ציוני שיא, סדר אירוח, פערי ניצחון, גילאים, ערים, השוואת עונות וכיסוי התפריטים — עם כיסוי נתונים גלוי ליד כל ניתוח.</p>
+        </div>
+        <Link href="/stats">לכל הסטטיסטיקות ←</Link>
       </section>
 
       <section className="seasonStrip" aria-labelledby="season-strip-title">
