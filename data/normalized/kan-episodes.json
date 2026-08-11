@@ -434,6 +434,7 @@
   {
     "season": 5,
     "episode": 1,
+    "hostingOrder": 1,
     "title": "פרק 1 - השרון חלק א' ערב ראשון בשרון, אייל מארח בדירת המעוצבת ובני ציפר נחשף",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/132999/",
     "source": {
@@ -446,6 +447,7 @@
   {
     "season": 5,
     "episode": 2,
+    "hostingOrder": 2,
     "title": "פרק 2 - השרון חלק ב' ליאת מארחת ומנפצת סטיגמות ובני ואייל ממשיכים ללחוץ אחד לשני על נקודות",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133002/",
     "source": {
@@ -458,6 +460,7 @@
   {
     "season": 5,
     "episode": 3,
+    "hostingOrder": 3,
     "title": "פרק 3 - השרון חלק ג' בני ציפר מגיש ארוחה תורכית ומתהדר בסטנדרטים המתאימים לנתניהוז",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133004/",
     "source": {
@@ -470,6 +473,7 @@
   {
     "season": 5,
     "episode": 4,
+    "hostingOrder": 4,
     "title": "פרק 4 - השרון חלק ד' גילי מארחת בהקפדה בביתה בקיבוץ, במטרה לכבוש את המקום הראשון",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133006/",
     "source": {
@@ -482,6 +486,7 @@
   {
     "season": 5,
     "episode": 5,
+    "hostingOrder": 5,
     "title": "פרק 5 - השרון חלק ה' ירון מארח וחולק עם האורחים את אמונתו במפלצת הפסטה. האם יעזור לו לנצח?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133009/",
     "source": {
@@ -494,6 +499,7 @@
   {
     "season": 5,
     "episode": 6,
+    "hostingOrder": 1,
     "title": "פרק 6 - תל אביב-יפו חלק א' אושרית, פעילה נגד המסתננים בת\"א, מארחת את קייסי, בת למהגרים פיליפינים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/",
     "source": {
@@ -506,6 +512,7 @@
   {
     "season": 5,
     "episode": 7,
+    "hostingOrder": 2,
     "title": "פרק 7 - תל אביב-יפו חלק ב' ירון מארח בפאר בקומה ה-37, אבל לא כולם מוכנים לנסות טעמים חדשים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133292/",
     "source": {
@@ -518,6 +525,7 @@
   {
     "season": 5,
     "episode": 8,
+    "hostingOrder": 3,
     "title": "פרק 8 - תל אביב-יפו חלק ג' הדס מנסה לנצח בעזרת קסם אישי, האם האורחים יפלו לרשתה?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133679/",
     "source": {
@@ -530,6 +538,7 @@
   {
     "season": 5,
     "episode": 9,
+    "hostingOrder": 4,
     "title": "פרק 9 - תל אביב-יפו חלק ד' גיא משקיע מכל הלב באירוח, אבל שיחות על החיים יוצאות מכלל שליטה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133682/",
     "source": {
@@ -542,6 +551,7 @@
   {
     "season": 5,
     "episode": 10,
+    "hostingOrder": 5,
     "title": "פרק 10 - תל אביב-יפו חלק ה' קייסי מארחת בדירתה והאורחים מופעים מהמיקום ומצדדים באישיותה שנחשפים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
     "source": {
@@ -554,6 +564,7 @@
   {
     "season": 5,
     "episode": 11,
+    "hostingOrder": 1,
     "title": "פרק 11 - צפון חלק א' חנה בחצור הגלילית, מכינה חפלה מרוקאית. מי יאכל ומי יאכל את הראש?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134067/",
     "source": {
@@ -566,6 +577,7 @@
   {
     "season": 5,
     "episode": 12,
+    "hostingOrder": 2,
     "title": "פרק 12 - צפון חלק ב' עימראן מכפר בועאנה נוג'ידאת מפתיע את האורחים עם ארוחה איטלקית מסורתית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134070/",
     "source": {
@@ -578,6 +590,7 @@
   {
     "season": 5,
     "episode": 13,
+    "hostingOrder": 3,
     "title": "פרק 13 - צפון חלק ג' האם שרין הצעירה הצעירה מעפולה תצליח לנצח את חנה בסעודה מהמטבח המרוקאי?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134162/",
     "source": {
@@ -590,6 +603,7 @@
   {
     "season": 5,
     "episode": 14,
+    "hostingOrder": 4,
     "title": "פרק 14 - צפון חלק ד' איך יתמודדו האורחים עם סגנונו נטול היומרה (והמפה) של אריאל מעין יעקב?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134165/",
     "source": {
@@ -602,6 +616,7 @@
   {
     "season": 5,
     "episode": 15,
+    "hostingOrder": 5,
     "title": "פרק 15 - צפון חלק ה' הדו קרב בין חנה לינה מגיע לשיאו במגדלי פנורמה, בערב האחרון בשבוע הצפון",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134167/",
     "source": {
@@ -614,6 +629,7 @@
   {
     "season": 5,
     "episode": 16,
+    "hostingOrder": 1,
     "title": "פרק 16 - דרום חלק א' בערב פתיחת שבוע דרום מאחרת קציעה, היועצת מינית, שמגישה מנות וגם טיפים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134169/",
     "source": {
@@ -626,6 +642,7 @@
   {
     "season": 5,
     "episode": 17,
+    "hostingOrder": 2,
     "title": "פרק 17 - דרום חלק ב' איב התחרותי, מארח את החבורה בדירת הרווקים, שמיצדם מתרכזים בהיותו רווק",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134171/",
     "source": {
@@ -638,6 +655,7 @@
   {
     "season": 5,
     "episode": 18,
+    "hostingOrder": 3,
     "title": "פרק 18 - דרום חלק ג' ארוחה בייתית נינוחה בבית של אביגיל הופכת לשדה קרב, לאחר תקרית מביכה",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134173/",
     "source": {
@@ -650,6 +668,7 @@
   {
     "season": 5,
     "episode": 19,
+    "hostingOrder": 4,
     "title": "פרק 19 - דרום חלק ד' האורחים מגיעים מלאי ציפייה לממלכת השיק של תאיר בב\"ש לארוחה בלתי נשכחת",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134175/",
     "source": {
@@ -662,6 +681,7 @@
   {
     "season": 5,
     "episode": 20,
+    "hostingOrder": 5,
     "title": "פרק 20 - דרום חלק ה' איגור מארח לערב אחרון מלא אלכוהול. האם תאיר וקציעה ישלימו ומי ינצח?",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134177/",
     "source": {
@@ -674,6 +694,7 @@
   {
     "season": 5,
     "episode": 21,
+    "hostingOrder": 1,
     "title": "פרק 21 - חיפה והקריות חלק א' הארוחה הראשונה בשבוע חיפה והקריות מתגלה כערב רווקים רווקות",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134179/",
     "source": {
@@ -686,6 +707,7 @@
   {
     "season": 5,
     "episode": 22,
+    "hostingOrder": 2,
     "title": "פרק 22 - חיפה והקריות חלק ב' ענבל מארחת בביתה בכרמל לערב של אלכוהול וסטיגמות על שים, גברים וזוגיות",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134181/",
     "source": {
@@ -698,6 +720,7 @@
   {
     "season": 5,
     "episode": 23,
+    "hostingOrder": 3,
     "title": "פרק 23 - חיפה והקריות חלק ג' האורחים מגיעים לאלכס ומופעים שעדיין גר עם ההורים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134183/",
     "source": {
@@ -710,6 +733,7 @@
   {
     "season": 5,
     "episode": 24,
+    "hostingOrder": 4,
     "title": "פרק 24 - חיפה והקריות חלק ד' אורן מארח בדירת החדר שלו לערב של התגוששות מילולית ופיזית",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134185/",
     "source": {
@@ -722,6 +746,7 @@
   {
     "season": 5,
     "episode": 25,
+    "hostingOrder": 5,
     "title": "פרק 25 - חיפה והקריות חלק ה' בביתה של ספאא בדלית אל כרמל, אלכס מגלה שהוא לא היחיד שגר עם ההורים",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134187/",
     "source": {
@@ -1070,6 +1095,7 @@
   {
     "season": 6,
     "episode": 25,
+    "hostingOrder": 5,
     "title": "מרכז 5 (פרק 25) ארוחת פארם טו טייבל מושקעת אצל גל עם גילויים עסיסיים ומנצח/ת השבוע",
     "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149804/",
     "source": {
