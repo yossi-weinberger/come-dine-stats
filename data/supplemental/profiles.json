@@ -58,6 +58,48 @@
     }
   },
   {
+    "season": 7,
+    "name": "בן טרומן",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.mako.co.il/pride-culture/Article-febf4051931b981026.htm",
+      "title": "mako — היא אליטיסטית שחיה בסרט",
+      "author": "לירוי פיניאן",
+      "note": "Interview about Truman's season 7 participation explicitly states that he designs events and prepares catering platters for a living."
+    },
+    "fields": {
+      "occupation": "מעצב אירועים ומכין מגשי אירוח"
+    }
+  },
+  {
+    "season": 7,
+    "name": "רחלי סופיר",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.atmag.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-7/",
+      "title": "את — אכילת ראש: למה בואו לאכול איתי בוחשת לנו ככה ברחם?",
+      "author": "שיר שחף",
+      "note": "Season 7 coverage explicitly identifies Sophir as the group's cosmetician."
+    },
+    "fields": {
+      "occupation": "קוסמטיקאית"
+    }
+  },
+  {
+    "season": 7,
+    "name": "סיוון קנטי אביטן",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+      "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+      "author": "לורי שטטמאור",
+      "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker."
+    },
+    "fields": {
+      "occupation": "שדכנית"
+    }
+  },
+  {
     "season": 9,
     "name": "שירה ניר",
     "source": {
