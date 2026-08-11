@@ -470,5 +470,177 @@
         }
       ]
     }
+  },
+  {
+    "slug": "s6-ברוריה-פסטרנק-שביט",
+    "name": "ברוריה פסטרנק-שביט",
+    "season": 6,
+    "occupation": "אמנית רב־תחומית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Pasternak-Shavit as a multidisciplinary artist."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Pasternak-Shavit as a multidisciplinary artist."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s6-אילנה-אביגל",
+    "name": "אילנה אביגל",
+    "season": 6,
+    "occupation": "רכזת בלשכת התעסוקה",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Avigal as an employment-office coordinator."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Avigal as an employment-office coordinator."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s6-גל-אלון",
+    "name": "גל אלון",
+    "season": 6,
+    "occupation": "יזם קולינרי",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Alon as a culinary entrepreneur."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Alon as a culinary entrepreneur."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s6-דנה-שפירא",
+    "name": "דנה שפירא",
+    "season": 6,
+    "occupation": "יזמית אוכל",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Shapira as a food entrepreneur."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Shapira as a food entrepreneur."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s6-יעל-צין",
+    "name": "יעל צין",
+    "season": 6,
+    "occupation": "עיתונאית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/culture/tv/article/13016123",
+        "title": "ישראל היום — היא לא חרדית בכלל: העיתונאית שהשתתפה בבואו לאכול איתי סופגת אש",
+        "author": "יוסי דלאל",
+        "note": "Article published during season 6 explicitly identifies Tzin as a journalist and participant."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/culture/tv/article/13016123",
+          "title": "ישראל היום — היא לא חרדית בכלל: העיתונאית שהשתתפה בבואו לאכול איתי סופגת אש",
+          "author": "יוסי דלאל",
+          "note": "Article published during season 6 explicitly identifies Tzin as a journalist and participant."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s7-יעל-בן-חביב",
+    "name": "יעל בן חביב",
+    "season": 7,
+    "age": 72,
+    "occupation": "משגיחה בבחינות",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/food/recipes/article/14627214",
+        "title": "ישראל היום — מרק בשני סירים: מתכון של הסבתא מבואו לאכול איתי לקראת הצום",
+        "author": "הילה דודאל",
+        "note": "Interview published shortly after season 7 explicitly states Ben-Haviv's age and current work and identifies her as a show participant."
+      }
+    ],
+    "fieldSources": {
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/food/recipes/article/14627214",
+          "title": "ישראל היום — מרק בשני סירים: מתכון של הסבתא מבואו לאכול איתי לקראת הצום",
+          "author": "הילה דודאל",
+          "note": "Interview published shortly after season 7 explicitly states Ben-Haviv's age and current work and identifies her as a show participant."
+        }
+      ],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/food/recipes/article/14627214",
+          "title": "ישראל היום — מרק בשני סירים: מתכון של הסבתא מבואו לאכול איתי לקראת הצום",
+          "author": "הילה דודאל",
+          "note": "Interview published shortly after season 7 explicitly states Ben-Haviv's age and current work and identifies her as a show participant."
+        }
+      ]
+    }
   }
 ]

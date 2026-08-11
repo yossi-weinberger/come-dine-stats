@@ -30621,6 +30621,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148562/",
         "note": "Official Kan episode 8; explicit host wording overrode conflicting structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Avigal as an employment-office coordinator."
       }
     ],
     "fieldSources": {
@@ -30775,13 +30782,22 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Avigal as an employment-office coordinator."
+        }
+      ],
       "gender": [],
       "diet": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148562/"
-    ]
+    ],
+    "occupation": "רכזת בלשכת התעסוקה"
   },
   {
     "slug": "s6-עודד-אסגו",
@@ -31381,6 +31397,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148997/",
         "note": "Official Kan episode 12; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Pasternak-Shavit as a multidisciplinary artist."
       }
     ],
     "fieldSources": {
@@ -31532,6 +31555,13 @@
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148997/",
           "note": "Official Kan episode 12; host matched by structured hosting order"
+        },
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Pasternak-Shavit as a multidisciplinary artist."
         }
       ],
       "gender": [],
@@ -31540,7 +31570,7 @@
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148997/"
     ],
-    "occupation": "אומנית"
+    "occupation": "אמנית רב־תחומית"
   },
   {
     "slug": "s6-אריק-פינקלברג",
@@ -31934,6 +31964,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149015/",
         "note": "Official Kan episode 15; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/culture/tv/article/13016123",
+        "title": "ישראל היום — היא לא חרדית בכלל: העיתונאית שהשתתפה בבואו לאכול איתי סופגת אש",
+        "author": "יוסי דלאל",
+        "note": "Article published during season 6 explicitly identifies Tzin as a journalist and participant."
       }
     ],
     "fieldSources": {
@@ -32078,14 +32115,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/culture/tv/article/13016123",
+          "title": "ישראל היום — היא לא חרדית בכלל: העיתונאית שהשתתפה בבואו לאכול איתי סופגת אש",
+          "author": "יוסי דלאל",
+          "note": "Article published during season 6 explicitly identifies Tzin as a journalist and participant."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149015/"
-    ]
+    ],
+    "occupation": "עיתונאית"
   },
   {
     "slug": "s6-מחמוד-מודי-צפורי",
@@ -33836,6 +33882,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149804/",
         "note": "Official Kan episode 25; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Alon as a culinary entrepreneur."
       }
     ],
     "fieldSources": {
@@ -33990,13 +34043,22 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Alon as a culinary entrepreneur."
+        }
+      ],
       "gender": [],
       "diet": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149804/"
-    ]
+    ],
+    "occupation": "יזם קולינרי"
   },
   {
     "slug": "s6-מורן-זיסר",
@@ -34573,6 +34635,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150035/",
         "note": "Official Kan episode 29; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Shapira as a food entrepreneur."
       }
     ],
     "fieldSources": {
@@ -34717,14 +34786,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Shapira as a food entrepreneur."
+        }
+      ],
       "relationshipStatus": [],
       "gender": [],
       "diet": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150035/"
-    ]
+    ],
+    "occupation": "יזמית אוכל"
   },
   {
     "slug": "s6-טל-ניב",
@@ -37451,6 +37529,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475437/",
         "note": "Official Kan episode 14; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/food/recipes/article/14627214",
+        "title": "ישראל היום — מרק בשני סירים: מתכון של הסבתא מבואו לאכול איתי לקראת הצום",
+        "author": "הילה דודאל",
+        "note": "Interview published shortly after season 7 explicitly states Ben-Haviv's age and current work and identifies her as a show participant."
       }
     ],
     "fieldSources": {
@@ -37584,16 +37669,34 @@
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
         }
       ],
-      "age": [],
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/food/recipes/article/14627214",
+          "title": "ישראל היום — מרק בשני סירים: מתכון של הסבתא מבואו לאכול איתי לקראת הצום",
+          "author": "הילה דודאל",
+          "note": "Interview published shortly after season 7 explicitly states Ben-Haviv's age and current work and identifies her as a show participant."
+        }
+      ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/food/recipes/article/14627214",
+          "title": "ישראל היום — מרק בשני סירים: מתכון של הסבתא מבואו לאכול איתי לקראת הצום",
+          "author": "הילה דודאל",
+          "note": "Interview published shortly after season 7 explicitly states Ben-Haviv's age and current work and identifies her as a show participant."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475437/"
-    ]
+    ],
+    "age": 72,
+    "occupation": "משגיחה בבחינות"
   },
   {
     "slug": "s7-דובי-לוי",
