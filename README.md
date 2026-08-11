@@ -68,6 +68,7 @@ npm run import:fandom
 npm run import:wikipedia
 npm run import:season10
 npm run import:kan
+npm run enrich:kan-cities
 npm run import:supplemental-menus
 npm run merge
 npm run coverage
