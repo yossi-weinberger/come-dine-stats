@@ -15191,6 +15191,7 @@
     "slug": "2-בנימין-יעקביאן",
     "name": "בנימין יעקביאן",
     "season": 2,
+    "status": "disqualified",
     "week": 7,
     "weekName": "ירושלים",
     "hostingOrder": 4,
@@ -15198,7 +15199,8 @@
     "city": "ירושלים",
     "occupation": "במאי תיאטרון פרינג' ופייטן",
     "relationshipStatus": "רווק",
-    "score": 28,
+    "score": 0,
+    "scoreBeforeAdjustment": 28,
     "winner": false,
     "dishes": [
       {
@@ -15278,6 +15280,15 @@
           "note": "Direct article link preserved for attribution"
         }
       ],
+      "status": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F_%D7%99%D7%A2%D7%A7%D7%91%D7%99%D7%90%D7%9F",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
       "week": [
         {
           "kind": "fandom",
@@ -15342,6 +15353,15 @@
         }
       ],
       "score": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F_%D7%99%D7%A2%D7%A7%D7%91%D7%99%D7%90%D7%9F",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "scoreBeforeAdjustment": [
         {
           "kind": "fandom",
           "title": "בואו לאכול איתי Wiki — Fandom",

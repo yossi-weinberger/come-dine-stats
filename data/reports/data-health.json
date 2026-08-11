@@ -3,11 +3,11 @@
   "summary": {
     "entries": 289,
     "errors": 0,
-    "warnings": 3,
+    "warnings": 2,
     "unresolvedConflicts": 3,
     "derivedPlacements": 27,
     "exceptionalStates": {
-      "disqualified": 0,
+      "disqualified": 1,
       "withdrawn": 1
     }
   },
@@ -44,41 +44,6 @@
           {
             "name": "נורית בר-לוי",
             "hostingOrder": 5
-          }
-        ]
-      }
-    },
-    {
-      "code": "placement-score-mismatch",
-      "message": "Sourced placement does not match raw score order in season 2, week 7",
-      "context": {
-        "season": 2,
-        "week": 7,
-        "reason": "known-placement-mismatch",
-        "entries": [
-          {
-            "name": "דניאל קוץ",
-            "score": 24,
-            "placement": 4
-          },
-          {
-            "name": "חגית פטריק",
-            "score": 31,
-            "placement": 1
-          },
-          {
-            "name": "רענן יקותיאל",
-            "score": 27,
-            "placement": 3
-          },
-          {
-            "name": "בנימין יעקביאן",
-            "score": 28
-          },
-          {
-            "name": "רינת סילבסטר",
-            "score": 23,
-            "placement": 2
           }
         ]
       }

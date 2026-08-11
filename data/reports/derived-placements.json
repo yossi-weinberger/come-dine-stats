@@ -518,7 +518,7 @@
     {
       "season": 2,
       "week": 7,
-      "reason": "known-placement-mismatch",
+      "reason": "exceptional-week",
       "entries": [
         {
           "name": "דניאל קוץ",
@@ -537,7 +537,8 @@
         },
         {
           "name": "בנימין יעקביאן",
-          "score": 28
+          "status": "disqualified",
+          "score": 0
         },
         {
           "name": "רינת סילבסטר",
