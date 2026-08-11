@@ -20,6 +20,7 @@ on:
       - 'scripts/import-supplemental-profiles.ts'
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
+      - 'scripts/data-health.ts'
       - 'scripts/stats.ts'
       - 'scripts/update-readme-stats.ts'
       - 'data/wikipedia-season-pages.json'
@@ -78,6 +79,9 @@ jobs:
       - name: Generate coverage report
         run: npm run coverage
 
+      - name: Validate data health
+        run: npm run health
+
       - name: Print stats
         run: npm run stats
 
@@ -107,7 +111,8 @@ jobs:
             data/reports/conflicts.json \
             data/reports/refinements.json \
             data/reports/derived-placements.json \
-            data/reports/coverage.json
+            data/reports/coverage.json \
+            data/reports/data-health.json
           do
             if [ -e "$path" ]; then git add "$path"; fi
           done
