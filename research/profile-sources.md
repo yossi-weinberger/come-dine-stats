@@ -21,7 +21,40 @@ Not allowed:
 - matching a same-named person without show-specific evidence
 - copying biographical prose that is not needed for a normalized field
 
-Every imported field gets the exact source URL in `fieldSources`. Conflicting evidence is handled by the normal merge engine and remains visible in `data/reports/conflicts.json`.
+Every imported field gets the exact source URL in `fieldSources`. Incompatible evidence remains visible in `data/reports/conflicts.json`; compatible differences in specificity are preserved separately in `data/reports/refinements.json`.
+
+## Kan occupation audit — 2026-08-11
+
+The official Kan season-archive episode titles for seasons 5–10 were reviewed after the Hebrew-prefix fix in `scripts/import-kan.ts`.
+
+Current result:
+- Kan automatically extracts 21 explicit occupation facts from host-local episode text.
+- The common explicit profession patterns exposed by the archive titles are already covered by the conservative `occupationCues` list.
+- The Hebrew-prefix fallback recovered the previously missed `לעמנואל` case, yielding `מורה לתנ״ך וסולן להקה` for עמנואל יצחק לוי from the official season 8 episode title.
+
+Examples of explicit occupations that are valid for normalization include:
+- `קציעה, היועצת מינית`
+- `שחר הבלוגר`
+- `המתקשרת והיוצרת יהודית`
+- `כוכב הרשת אביעד`
+- `פאדי איש התקשורת`
+- `ענבל המורה`
+- `מעיין, מסדרת ארונות מקצועית וסטייליסטית`
+- `איתמר ההייטקיסט`
+- `יוסל'ה, ספר נשים ביום ודראגיסט בלילה`
+- `קמילה, מעצבת פנים`
+- `אבנית בלוגרית טיולים`
+- `עדי, בעלת סטודיו לריקוד`
+- `איריס, מעבירה ערבי הפרשות חלה`
+- `עליזה, ליצנית רפואית`
+
+Descriptors that are intentionally **not** normalized as occupations include:
+- `אושרית, פעילה נגד המסתננים` — activism descriptor, not an explicit job
+- `אחיה, לוחם חופש` — identity/ideological descriptor, not an explicit job
+- `אילנית, זוכת מדליית הזהב בתחרות הפאראטריאתלון` — achievement, not an explicit occupation
+- `לירון, מובטל טרי` — employment status, not an occupation
+
+Conclusion: the safe **occupation-from-Kan-archive-title** path is considered substantially saturated. Further occupation coverage should come from reviewed supplemental sources or from a newly discovered first-party structured profile source, rather than broadening the extractor into personality, ideology, hobbies or inferred professions.
 
 ## Imported evidence
 
