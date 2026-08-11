@@ -1,4 +1,5 @@
 import './globals.css'
+import './analytics.css'
 
 export const metadata = {
   title: 'בואו לאכול איתי — הדאטאבייס',
