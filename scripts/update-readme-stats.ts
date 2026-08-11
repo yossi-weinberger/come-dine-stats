@@ -1,7 +1,12 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import type { Contestant } from '../lib/types'
 
-type CoverageField = { count: number; percent: number }
+type CoverageField = {
+  count: number
+  eligibleCount: number
+  notApplicableCount: number
+  percent: number
+}
 type CoverageReport = {
   overall: {
     entries: number
@@ -28,8 +33,8 @@ const readmeFile = new URL('../README.md', import.meta.url)
 const startMarker = '<!-- DATA_SNAPSHOT_START -->'
 const endMarker = '<!-- DATA_SNAPSHOT_END -->'
 
-function percent(field: CoverageField, total: number) {
-  return `${field.count}/${total} (${field.percent}%)`
+function percent(field: CoverageField) {
+  return `${field.count}/${field.eligibleCount} (${field.percent}%)`
 }
 
 async function main() {
@@ -52,8 +57,8 @@ async function main() {
     `- **${coverage.overall.entries}** רשומות תחרות, המייצגות **${coverage.overall.participants}** משתתפים (${coverage.overall.coupleEntries} רשומות זוגיות).`,
     `- **${seasons} עונות** מיוצגות במאגר.`,
     `- **${coverage.overall.dishes} מנות** ו-**${coverage.overall.winners} מנצחים** מתועדים כרגע.`,
-    `- סדר אירוח: **${percent(coverage.overall.fieldCoverage.hostingOrder, coverage.overall.entries)}**; שם שבוע/אזור: **${percent(coverage.overall.fieldCoverage.weekName, coverage.overall.entries)}**.`,
-    `- עיר: **${percent(coverage.overall.fieldCoverage.city, coverage.overall.entries)}**; גיל: **${percent(coverage.overall.fieldCoverage.age, coverage.overall.entries)}**; מקצוע: **${percent(coverage.overall.fieldCoverage.occupation, coverage.overall.entries)}**.`,
+    `- סדר אירוח: **${percent(coverage.overall.fieldCoverage.hostingOrder)}**; שם שבוע/אזור: **${percent(coverage.overall.fieldCoverage.weekName)}**.`,
+    `- עיר: **${percent(coverage.overall.fieldCoverage.city)}**; גיל ברשומות יחיד: **${percent(coverage.overall.fieldCoverage.age)}**; מקצוע ברשומות יחיד: **${percent(coverage.overall.fieldCoverage.occupation)}**.`,
     `- גיל ממוצע מתוך הרשומות שבהן גיל ידוע: **${averageAge ?? 'לא זמין'}**; ציון השיא המתועד: **${topScore ?? 'לא זמין'}**.`,
     endMarker,
   ].join('\n')
