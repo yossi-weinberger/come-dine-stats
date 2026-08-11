@@ -5,7 +5,7 @@
     "individualEntries": 235,
     "coupleEntries": 54,
     "withdrawnEntries": 1,
-    "dishes": 315,
+    "dishes": 319,
     "winners": 64,
     "fieldCoverage": {
       "weekName": {
@@ -902,8 +902,8 @@
     },
     "menuCoverage": {
       "anyDish": {
-        "count": 94,
-        "percent": 32.5
+        "count": 98,
+        "percent": 33.9
       },
       "threePrimaryCourses": {
         "count": 92,
@@ -919,12 +919,12 @@
       },
       "dishesByCourse": {
         "starter": 107,
-        "main": 112,
+        "main": 113,
         "dessert": 92,
-        "other": 2
+        "other": 5
       },
       "dishesByVariant": {
-        "standard": 280,
+        "standard": 284,
         "vegetarian": 24,
         "vegan": 11,
         "alternative": 0
@@ -2160,7 +2160,7 @@
       "individualEntries": 30,
       "coupleEntries": 0,
       "withdrawnEntries": 1,
-      "dishes": 5,
+      "dishes": 8,
       "winners": 6,
       "fieldCoverage": {
         "weekName": {
@@ -2356,8 +2356,8 @@
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 3,
-          "percent": 10
+          "count": 6,
+          "percent": 20
         },
         "threePrimaryCourses": {
           "count": 1,
@@ -2373,12 +2373,12 @@
         },
         "dishesByCourse": {
           "starter": 1,
-          "main": 1,
+          "main": 2,
           "dessert": 1,
-          "other": 2
+          "other": 4
         },
         "dishesByVariant": {
-          "standard": 4,
+          "standard": 7,
           "vegetarian": 0,
           "vegan": 1,
           "alternative": 0
@@ -2655,7 +2655,7 @@
       "individualEntries": 25,
       "coupleEntries": 0,
       "withdrawnEntries": 0,
-      "dishes": 3,
+      "dishes": 4,
       "winners": 5,
       "fieldCoverage": {
         "weekName": {
@@ -2826,8 +2826,8 @@
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 1,
-          "percent": 4
+          "count": 2,
+          "percent": 8
         },
         "threePrimaryCourses": {
           "count": 1,
@@ -2845,10 +2845,10 @@
           "starter": 1,
           "main": 1,
           "dessert": 1,
-          "other": 0
+          "other": 1
         },
         "dishesByVariant": {
-          "standard": 3,
+          "standard": 4,
           "vegetarian": 0,
           "vegan": 0,
           "alternative": 0
@@ -3338,7 +3338,7 @@
     "fandom": 90,
     "foodik": 1,
     "kan": 144,
-    "manual": 28,
+    "manual": 31,
     "rest": 4,
     "wikipedia": 199
   }

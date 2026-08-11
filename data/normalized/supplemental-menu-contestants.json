@@ -1,5 +1,172 @@
 [
   {
+    "slug": "s6-רוני-ברון",
+    "name": "רוני ברון",
+    "season": 6,
+    "dishes": [
+      {
+        "course": "other",
+        "variant": "standard",
+        "label": "מנה מתועדת — קורס לא צוין",
+        "name": "סביצ'ה",
+        "sources": [
+          {
+            "kind": "manual",
+            "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+            "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+            "author": "גבי בר חיים",
+            "note": "Season 6 winners interview explicitly states that Roni served ceviche. The course is not stated, so the dish remains unclassified."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly states that Roni served ceviche. The course is not stated, so the dish remains unclassified."
+      }
+    ],
+    "fieldSources": {
+      "dishes": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly states that Roni served ceviche. The course is not stated, so the dish remains unclassified."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s6-אביעד-בללי",
+    "name": "אביעד בללי",
+    "season": 6,
+    "dishes": [
+      {
+        "course": "main",
+        "variant": "standard",
+        "name": "קובה סלק בלי קובה",
+        "sources": [
+          {
+            "kind": "manual",
+            "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+            "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+            "author": "גבי בר חיים",
+            "note": "Season 6 winners interview explicitly identifies Aviad's main course as beet kubbeh without kubbeh."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Aviad's main course as beet kubbeh without kubbeh."
+      }
+    ],
+    "fieldSources": {
+      "dishes": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly identifies Aviad's main course as beet kubbeh without kubbeh."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s6-יעל-צין",
+    "name": "יעל צין",
+    "season": 6,
+    "dishes": [
+      {
+        "course": "other",
+        "variant": "standard",
+        "label": "מנה מתועדת — קורס לא צוין",
+        "name": "צ'ולנט",
+        "sources": [
+          {
+            "kind": "manual",
+            "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+            "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+            "author": "גבי בר חיים",
+            "note": "Season 6 winners interview explicitly states that Yael served cholent. The course is not stated, so the dish remains unclassified."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly states that Yael served cholent. The course is not stated, so the dish remains unclassified."
+      }
+    ],
+    "fieldSources": {
+      "dishes": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview explicitly states that Yael served cholent. The course is not stated, so the dish remains unclassified."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s8-ריטה-ליפשיץ",
+    "name": "ריטה ליפשיץ",
+    "season": 8,
+    "dishes": [
+      {
+        "course": "other",
+        "variant": "standard",
+        "label": "מנה מתועדת — קורס לא צוין",
+        "name": "פירה",
+        "sources": [
+          {
+            "kind": "manual",
+            "url": "https://www.ynet.co.il/entertainment/article/yokra14045224",
+            "title": "ynet — יש שינוי מאוד רציני מהעונות הקודמות: יש רוגע, יש חמלה",
+            "author": "גבי בר-חיים",
+            "note": "Season 8 winners interview explicitly refers to Rita's mashed potatoes as a dish viewers saw in her season. The course is not stated, so it remains unclassified."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra14045224",
+        "title": "ynet — יש שינוי מאוד רציני מהעונות הקודמות: יש רוגע, יש חמלה",
+        "author": "גבי בר-חיים",
+        "note": "Season 8 winners interview explicitly refers to Rita's mashed potatoes as a dish viewers saw in her season. The course is not stated, so it remains unclassified."
+      }
+    ],
+    "fieldSources": {
+      "dishes": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra14045224",
+          "title": "ynet — יש שינוי מאוד רציני מהעונות הקודמות: יש רוגע, יש חמלה",
+          "author": "גבי בר-חיים",
+          "note": "Season 8 winners interview explicitly refers to Rita's mashed potatoes as a dish viewers saw in her season. The course is not stated, so it remains unclassified."
+        }
+      ]
+    }
+  },
+  {
     "slug": "s6-שחר-חן",
     "name": "שחר חן",
     "season": 6,

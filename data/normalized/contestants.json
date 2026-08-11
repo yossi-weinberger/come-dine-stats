@@ -31155,7 +31155,23 @@
     "relationshipStatus": "גרוש בשנית +3",
     "score": 27,
     "winner": false,
-    "dishes": [],
+    "dishes": [
+      {
+        "course": "other",
+        "variant": "standard",
+        "label": "מנה מתועדת — קורס לא צוין",
+        "name": "סביצ'ה",
+        "sources": [
+          {
+            "kind": "manual",
+            "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+            "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+            "author": "גבי בר חיים",
+            "note": "Season 6 winners interview explicitly states that Roni served ceviche. The course is not stated, so the dish remains unclassified."
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "kind": "wikipedia",
@@ -31170,6 +31186,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148568/",
         "note": "Official Kan episode 10; explicit host wording overrode conflicting structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly states that Roni served ceviche. The course is not stated, so the dish remains unclassified."
       }
     ],
     "fieldSources": {
@@ -32113,7 +32136,23 @@
     "relationshipStatus": "נשואה +3",
     "score": 30,
     "winner": false,
-    "dishes": [],
+    "dishes": [
+      {
+        "course": "other",
+        "variant": "standard",
+        "label": "מנה מתועדת — קורס לא צוין",
+        "name": "צ'ולנט",
+        "sources": [
+          {
+            "kind": "manual",
+            "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+            "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+            "author": "גבי בר חיים",
+            "note": "Season 6 winners interview explicitly states that Yael served cholent. The course is not stated, so the dish remains unclassified."
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "kind": "wikipedia",
@@ -32128,6 +32167,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149015/",
         "note": "Official Kan episode 15; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly states that Yael served cholent. The course is not stated, so the dish remains unclassified."
       },
       {
         "kind": "manual",
@@ -33853,7 +33899,22 @@
     "relationshipStatus": "רווק",
     "score": 26,
     "winner": false,
-    "dishes": [],
+    "dishes": [
+      {
+        "course": "main",
+        "variant": "standard",
+        "name": "קובה סלק בלי קובה",
+        "sources": [
+          {
+            "kind": "manual",
+            "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+            "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+            "author": "גבי בר חיים",
+            "note": "Season 6 winners interview explicitly identifies Aviad's main course as beet kubbeh without kubbeh."
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "kind": "wikipedia",
@@ -33868,6 +33929,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149801/",
         "note": "Official Kan episode 24; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview explicitly identifies Aviad's main course as beet kubbeh without kubbeh."
       }
     ],
     "fieldSources": {
@@ -42717,7 +42785,23 @@
     "score": 34,
     "placement": 1,
     "winner": true,
-    "dishes": [],
+    "dishes": [
+      {
+        "course": "other",
+        "variant": "standard",
+        "label": "מנה מתועדת — קורס לא צוין",
+        "name": "פירה",
+        "sources": [
+          {
+            "kind": "manual",
+            "url": "https://www.ynet.co.il/entertainment/article/yokra14045224",
+            "title": "ynet — יש שינוי מאוד רציני מהעונות הקודמות: יש רוגע, יש חמלה",
+            "author": "גבי בר-חיים",
+            "note": "Season 8 winners interview explicitly refers to Rita's mashed potatoes as a dish viewers saw in her season. The course is not stated, so it remains unclassified."
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "kind": "wikipedia",
@@ -42732,6 +42816,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
         "note": "Official Kan episode 15; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra14045224",
+        "title": "ynet — יש שינוי מאוד רציני מהעונות הקודמות: יש רוגע, יש חמלה",
+        "author": "גבי בר-חיים",
+        "note": "Season 8 winners interview explicitly refers to Rita's mashed potatoes as a dish viewers saw in her season. The course is not stated, so it remains unclassified."
       }
     ],
     "fieldSources": {
