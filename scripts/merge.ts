@@ -7,7 +7,12 @@ const sourcePriority: Record<string, number> = { manual: 50, kan: 40, foodik: 38
 const scalarFields = ['entryType','members','status','week','weekName','hostingOrder','age','city','region','occupation','relationshipStatus','gender','diet','score','placement','winner'] as const
 
 type ScalarField = typeof scalarFields[number]
-type Conflict = { key: string; field: ScalarField; values: Array<{ value: unknown; sources: SourceRef[] }> }
+type EvidenceValue = { value: unknown; sources: SourceRef[] }
+type Conflict = { key: string; field: ScalarField; values: EvidenceValue[] }
+type Refinement = Conflict & {
+  relation: 'incoming-more-specific' | 'existing-more-specific'
+  preferredValue: unknown
+}
 
 function entityKey(c: Contestant) {
   return `${c.season}:${c.name.normalize('NFKC').replace(/[\s'״׳".-]+/g, '').toLowerCase()}`
@@ -33,9 +38,40 @@ function normalizeWeekName(value: unknown) {
     .replace(/^ה(?=[\p{L}])/u, '')
 }
 
+function normalizeOccupation(value: unknown) {
+  if (typeof value !== 'string') return value
+  return value
+    .normalize('NFKC')
+    .toLocaleLowerCase('he')
+    .replace(/["'״׳().,;:–—-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/(^|\s)אומנית(?=\s|$)/gu, '$1אמנית')
+    .replace(/(^|\s)אומן(?=\s|$)/gu, '$1אמן')
+}
+
 function sameValue(field: ScalarField, a: unknown, b: unknown) {
   if (field === 'weekName') return JSON.stringify(normalizeWeekName(a)) === JSON.stringify(normalizeWeekName(b))
+  if (field === 'occupation') return JSON.stringify(normalizeOccupation(a)) === JSON.stringify(normalizeOccupation(b))
   return JSON.stringify(a) === JSON.stringify(b)
+}
+
+function containsWholePhrase(longer: string, shorter: string) {
+  return longer === shorter || longer.startsWith(`${shorter} `) || longer.endsWith(` ${shorter}`) || longer.includes(` ${shorter} `)
+}
+
+function occupationRefinement(a: unknown, b: unknown) {
+  const left = normalizeOccupation(a)
+  const right = normalizeOccupation(b)
+  if (typeof left !== 'string' || typeof right !== 'string' || left === right) return undefined
+  if (containsWholePhrase(right, left)) return 'incoming-more-specific' as const
+  if (containsWholePhrase(left, right)) return 'existing-more-specific' as const
+  return undefined
+}
+
+function refinementRelation(field: ScalarField, a: unknown, b: unknown) {
+  if (field === 'occupation') return occupationRefinement(a, b)
+  return undefined
 }
 
 function dishKey(dish: Dish) {
@@ -61,7 +97,7 @@ function mergeDishes(current: Dish[], incoming: Dish[]) {
   return [...map.values()]
 }
 
-function mergeContestant(base: Contestant, incoming: Contestant, conflicts: Conflict[]) {
+function mergeContestant(base: Contestant, incoming: Contestant, conflicts: Conflict[], refinements: Refinement[]) {
   const merged: Contestant = {
     ...base,
     sources: uniqSources([...base.sources, ...incoming.sources]),
@@ -82,10 +118,24 @@ function mergeContestant(base: Contestant, incoming: Contestant, conflicts: Conf
       ;(merged as any)[field] = right
       continue
     }
-    if (!sameValue(field, left, right)) {
-      conflicts.push({ key: entityKey(base), field, values: [{ value: left, sources: leftSources }, { value: right, sources: rightSources }] })
-      if (priorityFor(rightSources) > priorityFor(leftSources)) (merged as any)[field] = right
+    if (sameValue(field, left, right)) continue
+
+    const relation = refinementRelation(field, left, right)
+    if (relation) {
+      const preferredValue = relation === 'incoming-more-specific' ? right : left
+      refinements.push({
+        key: entityKey(base),
+        field,
+        relation,
+        preferredValue,
+        values: [{ value: left, sources: leftSources }, { value: right, sources: rightSources }],
+      })
+      ;(merged as any)[field] = preferredValue
+      continue
     }
+
+    conflicts.push({ key: entityKey(base), field, values: [{ value: left, sources: leftSources }, { value: right, sources: rightSources }] })
+    if (priorityFor(rightSources) > priorityFor(leftSources)) (merged as any)[field] = right
   }
 
   return merged
@@ -109,17 +159,19 @@ async function main() {
   ]
   const byKey = new Map<string, Contestant>()
   const conflicts: Conflict[] = []
+  const refinements: Refinement[] = []
 
   for (const contestant of inputs) {
     const key = entityKey(contestant)
     const existing = byKey.get(key)
-    byKey.set(key, existing ? mergeContestant(existing, contestant, conflicts) : contestant)
+    byKey.set(key, existing ? mergeContestant(existing, contestant, conflicts, refinements) : contestant)
   }
 
   const output = [...byKey.values()].sort((a, b) => a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || (a.hostingOrder ?? 999) - (b.hostingOrder ?? 999) || a.name.localeCompare(b.name, 'he'))
   await writeFile(new URL('contestants.json', normalizedDir), JSON.stringify(output, null, 2))
   await writeFile(new URL('conflicts.json', reportsDir), JSON.stringify(conflicts, null, 2))
-  console.log(`Merged ${inputs.length} source rows into ${output.length} competition entries; ${conflicts.length} conflicts preserved`)
+  await writeFile(new URL('refinements.json', reportsDir), JSON.stringify(refinements, null, 2))
+  console.log(`Merged ${inputs.length} source rows into ${output.length} competition entries; ${conflicts.length} conflicts and ${refinements.length} refinements preserved`)
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1 })

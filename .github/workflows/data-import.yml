@@ -105,6 +105,7 @@ jobs:
             data/reports/kan-contestant-enrichment.json \
             data/reports/kan-city-enrichment.json \
             data/reports/conflicts.json \
+            data/reports/refinements.json \
             data/reports/coverage.json
           do
             if [ -e "$path" ]; then git add "$path"; fi
