@@ -36,7 +36,6 @@ const cityCues: Array<{ city: string; pattern: RegExp }> = [
   { city: 'עפולה', pattern: /(?:מ|ב)עפולה/u },
   { city: 'חצור הגלילית', pattern: /(?:מ|ב)חצור הגלילית/u },
   { city: 'עין יעקב', pattern: /(?:מ|ב)עין יעקב/u },
-  { city: 'דלית אל-כרמל', pattern: /בדלית אל כרמל/u },
 ]
 
 function compact(value: string) {
@@ -93,54 +92,61 @@ function uniqSources(sources: SourceRef[]) {
   return [...new Map(sources.map((source) => [`${source.kind}:${source.url}`, source])).values()]
 }
 
-const kanContestants = JSON.parse(await readFile(kanContestantsFile, 'utf8')) as Contestant[]
-const episodes = JSON.parse(await readFile(kanEpisodesFile, 'utf8')) as Episode[]
-const wikipediaContestants = JSON.parse(await readFile(wikipediaFile, 'utf8')) as Contestant[]
-const wikipediaByKey = new Map(wikipediaContestants.map((entry) => [entityKey(entry), entry]))
-const episodeByUrl = new Map(episodes.map((episode) => [episode.url, episode]))
-const diagnostics: Diagnostic[] = []
+async function main() {
+  const kanContestants = JSON.parse(await readFile(kanContestantsFile, 'utf8')) as Contestant[]
+  const episodes = JSON.parse(await readFile(kanEpisodesFile, 'utf8')) as Episode[]
+  const wikipediaContestants = JSON.parse(await readFile(wikipediaFile, 'utf8')) as Contestant[]
+  const wikipediaByKey = new Map(wikipediaContestants.map((entry) => [entityKey(entry), entry]))
+  const episodeByUrl = new Map(episodes.map((episode) => [episode.url, episode]))
+  const diagnostics: Diagnostic[] = []
 
-const output = kanContestants.map((entry) => {
-  const wikipediaEntry = wikipediaByKey.get(entityKey(entry))
-  if (wikipediaEntry?.city || entry.city) return entry
+  const output = kanContestants.map((entry) => {
+    const wikipediaEntry = wikipediaByKey.get(entityKey(entry))
+    if (wikipediaEntry?.city || entry.city) return entry
 
-  const episode = entry.episodeUrls?.map((url) => episodeByUrl.get(url)).find(Boolean)
-  if (!episode) return entry
+    const episode = entry.episodeUrls?.map((url) => episodeByUrl.get(url)).find(Boolean)
+    if (!episode) return entry
 
-  const text = `${episode.title} ${episode.description ?? ''}`
-  const city = inferCity(entry.name, text)
-  diagnostics.push({
-    season: entry.season,
-    name: entry.name,
-    episode: episode.episode,
-    city,
-    text: compact(text).slice(0, 300),
+    const text = `${episode.title} ${episode.description ?? ''}`
+    const city = inferCity(entry.name, text)
+    diagnostics.push({
+      season: entry.season,
+      name: entry.name,
+      episode: episode.episode,
+      city,
+      text: compact(text).slice(0, 300),
+    })
+    if (!city) return entry
+
+    const source: SourceRef = {
+      ...episode.source,
+      url: episode.url,
+      note: `Official Kan episode ${episode.episode}; city extracted from an explicit host-local location phrase`,
+    }
+
+    return {
+      ...entry,
+      city,
+      sources: uniqSources([...entry.sources, source]),
+      fieldSources: {
+        ...(entry.fieldSources ?? {}),
+        city: uniqSources([...(entry.fieldSources?.city ?? []), source]),
+      },
+    }
   })
-  if (!city) return entry
 
-  const source: SourceRef = {
-    ...episode.source,
-    url: episode.url,
-    note: `Official Kan episode ${episode.episode}; city extracted from an explicit host-local location phrase`,
-  }
+  await writeFile(kanContestantsFile, JSON.stringify(output, null, 2))
+  await writeFile(reportFile, JSON.stringify({
+    considered: diagnostics.length,
+    enriched: diagnostics.filter((item) => item.city).length,
+    policy: 'Only fill a city when Wikipedia has no city and the matched Kan episode contains an explicit host-local place phrase.',
+    diagnostics,
+  }, null, 2))
 
-  return {
-    ...entry,
-    city,
-    sources: uniqSources([...entry.sources, source]),
-    fieldSources: {
-      ...(entry.fieldSources ?? {}),
-      city: uniqSources([...(entry.fieldSources?.city ?? []), source]),
-    },
-  }
+  console.log(`Kan city enrichment: ${diagnostics.filter((item) => item.city).length}/${diagnostics.length} missing cities filled`)
+}
+
+main().catch((error) => {
+  console.error(error)
+  process.exitCode = 1
 })
-
-await writeFile(kanContestantsFile, JSON.stringify(output, null, 2))
-await writeFile(reportFile, JSON.stringify({
-  considered: diagnostics.length,
-  enriched: diagnostics.filter((item) => item.city).length,
-  policy: 'Only fill a city when Wikipedia has no city and the matched Kan episode contains an explicit host-local place phrase.',
-  diagnostics,
-}, null, 2))
-
-console.log(`Kan city enrichment: ${diagnostics.filter((item) => item.city).length}/${diagnostics.length} missing cities filled`)
