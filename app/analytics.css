@@ -1,0 +1,83 @@
+.heroLinks { display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+.statsTeaser { margin:-32px 0 74px; padding:26px 28px; border:1px solid var(--line); border-radius:18px; background:var(--card); display:flex; justify-content:space-between; align-items:center; gap:36px; }
+.statsTeaser h2 { margin:6px 0 8px; font-size:32px; }
+.statsTeaser p { max-width:760px; margin:0; color:var(--muted); line-height:1.6; }
+.statsTeaser>a { flex:0 0 auto; color:#fff; background:var(--ink); text-decoration:none; font-weight:800; padding:12px 17px; border-radius:999px; }
+.statsTeaser>a:hover { background:var(--accent); }
+.analyticsHero { padding:32px 0 34px; border-bottom:1px solid var(--line); }
+.analyticsHeroCopy { padding:76px 0 38px; }
+.analyticsHeroCopy h1 { font-size:clamp(52px,8.3vw,104px); margin:14px 0 24px; }
+.analyticsHeroCopy p { max-width:850px; margin:0; color:var(--muted); font-size:20px; line-height:1.65; }
+.coverageRow { display:flex; flex-wrap:wrap; gap:8px; }
+.coveragePill { display:inline-flex; align-items:center; min-height:34px; padding:6px 10px; border:1px solid var(--line); border-radius:999px; background:var(--card); color:var(--muted); font-size:11px; font-weight:800; font-variant-numeric:tabular-nums; }
+.analysisStats { display:grid; grid-template-columns:repeat(6,1fr); gap:1px; margin:32px 0 78px; border:1px solid var(--line); background:var(--line); }
+.analysisStat { min-height:126px; padding:17px; background:var(--card); display:flex; flex-direction:column; justify-content:space-between; gap:6px; }
+.analysisStat>span { color:var(--muted); font-size:11px; line-height:1.35; }
+.analysisStat>strong { font-size:31px; font-variant-numeric:tabular-nums; }
+.analysisStat>small { color:var(--muted); font-size:10px; line-height:1.35; }
+.analyticsSection { margin:78px 0 0; }
+.analyticsHeading { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:20px; }
+.analyticsHeading h2 { margin:5px 0 0; font-size:38px; }
+.analyticsHeading.compact h2 { font-size:30px; }
+.analyticsNote { color:var(--muted); font-size:11px; max-width:320px; line-height:1.45; text-align:left; }
+.analysisIntro { max-width:780px; margin:-5px 0 24px; color:var(--muted); line-height:1.65; }
+.rankingList { border-top:1px solid var(--line); }
+.rankingRow { min-height:72px; display:grid; grid-template-columns:42px minmax(0,1fr) 36px 72px; align-items:center; gap:14px; border-bottom:1px solid var(--line); color:var(--ink); text-decoration:none; padding:9px 12px; }
+.rankingRow:hover { background:rgba(255,253,248,.7); }
+.rankNumber { color:var(--muted); font-size:13px; font-weight:800; }
+.rankingRow>div { min-width:0; }
+.rankingRow>div strong { display:block; font-size:18px; }
+.rankingRow>div small { display:block; color:var(--muted); margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.rankWinner { font-size:19px; text-align:center; }
+.rankingRow>b { font-size:30px; text-align:left; font-variant-numeric:tabular-nums; }
+.hostingGrid { display:grid; grid-template-columns:repeat(5,1fr); gap:10px; }
+.hostingCard { min-width:0; padding:18px; border:1px solid var(--line); border-radius:15px; background:var(--card); }
+.hostingCardTop { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+.hostingCardTop>span { color:var(--muted); font-size:11px; font-weight:800; }
+.hostingCardTop>strong { font-size:20px; }
+.miniBar { height:7px; margin:17px 0 20px; border-radius:999px; background:#ece4d9; overflow:hidden; }
+.miniBar>span { display:block; height:100%; border-radius:inherit; background:var(--accent); }
+.hostingCard dl { margin:0; display:grid; gap:10px; }
+.hostingCard dl>div { padding-top:9px; border-top:1px solid #eee6dc; display:flex; justify-content:space-between; gap:10px; }
+.hostingCard dt { color:var(--muted); font-size:10px; }
+.hostingCard dd { margin:0; font-weight:800; font-size:12px; font-variant-numeric:tabular-nums; }
+.seasonTableWrap { overflow-x:auto; border:1px solid var(--line); border-radius:15px; background:var(--card); }
+.seasonCompareTable { width:100%; border-collapse:collapse; min-width:720px; }
+.seasonCompareTable th,.seasonCompareTable td { padding:14px 13px; border-bottom:1px solid #ece5dc; text-align:right; font-size:12px; font-variant-numeric:tabular-nums; }
+.seasonCompareTable thead th { color:var(--muted); background:#f3ede4; font-size:10px; }
+.seasonCompareTable tbody tr:last-child th,.seasonCompareTable tbody tr:last-child td { border-bottom:0; }
+.seasonCompareTable tbody tr:hover { background:#fffaf3; }
+.seasonCompareTable a { color:var(--ink); text-decoration:none; font-weight:800; }
+.seasonCompareTable a:hover { color:var(--accent); }
+.marginColumns { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.marginPanel { border:1px solid var(--line); border-radius:15px; background:var(--card); overflow:hidden; }
+.marginPanel>h3 { margin:0; padding:17px 18px; font-size:20px; border-bottom:1px solid var(--line); background:#f8f2e9; }
+.marginRow { display:grid; grid-template-columns:minmax(0,1fr) auto 48px; gap:12px; align-items:center; min-height:68px; padding:11px 17px; border-bottom:1px solid #ece5dc; }
+.marginRow:last-child { border-bottom:0; }
+.marginRow>div { min-width:0; }
+.marginRow a { display:block; color:var(--ink); font-weight:800; text-decoration:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.marginRow a:hover { color:var(--accent); }
+.marginRow small { display:block; margin-top:3px; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.marginRow>span { color:var(--muted); font-size:11px; font-variant-numeric:tabular-nums; }
+.marginRow>strong { text-align:left; color:var(--accent); font-size:20px; font-variant-numeric:tabular-nums; }
+.analyticsSplit { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:78px; }
+.analyticsCard { padding:22px; border:1px solid var(--line); border-radius:16px; background:var(--card); }
+.coverageCaption { margin:-5px 0 22px; color:var(--muted); font-size:11px; }
+.barList { display:grid; gap:13px; }
+.barRow { display:grid; grid-template-columns:70px minmax(0,1fr) 32px; gap:10px; align-items:center; }
+.cityBars .barRow { grid-template-columns:105px minmax(0,1fr) 32px; }
+.barRow>span { font-size:11px; font-weight:800; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.barRow>strong { text-align:left; font-size:12px; font-variant-numeric:tabular-nums; }
+.barTrack { height:10px; background:#ece4d9; border-radius:999px; overflow:hidden; }
+.barTrack>i { display:block; height:100%; border-radius:inherit; background:var(--accent); }
+.menuCoverageGrid { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; border:1px solid var(--line); background:var(--line); }
+.menuCoverageGrid .analysisStat { min-height:120px; }
+.courseCounts { display:grid; grid-template-columns:repeat(4,1fr); margin-top:12px; gap:8px; }
+.courseCounts>div { padding:14px 15px; border:1px solid var(--line); border-radius:12px; display:flex; justify-content:space-between; align-items:center; gap:12px; background:rgba(255,253,248,.55); }
+.courseCounts span { color:var(--muted); font-size:11px; }
+.courseCounts strong { font-size:18px; }
+.statsMethodology { margin-top:78px; padding:28px; border:1px solid var(--line); border-radius:18px; background:#f0e9df; }
+.statsMethodology h2 { margin:6px 0 10px; font-size:32px; }
+.statsMethodology p { max-width:920px; margin:0; color:#5e5852; line-height:1.7; }
+@media(max-width:1000px){.analysisStats{grid-template-columns:repeat(3,1fr)}.hostingGrid{grid-template-columns:repeat(3,1fr)}.menuCoverageGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.heroLinks{align-items:flex-start}.statsTeaser{margin-top:-28px;flex-direction:column;align-items:flex-start}.statsTeaser>a{width:100%;text-align:center}.analyticsHeroCopy{padding:50px 0 30px}.analyticsHeroCopy p{font-size:17px}.analysisStats{grid-template-columns:repeat(2,1fr);margin-bottom:58px}.analyticsSection{margin-top:60px}.analyticsHeading{align-items:flex-start;flex-direction:column}.analyticsHeading h2{font-size:31px}.analyticsNote{text-align:right}.rankingRow{grid-template-columns:32px minmax(0,1fr) 28px 50px;gap:8px;padding-inline:7px}.rankingRow>div strong{font-size:15px}.rankingRow>b{font-size:24px}.hostingGrid{grid-template-columns:1fr}.marginColumns,.analyticsSplit{grid-template-columns:1fr}.marginRow{grid-template-columns:minmax(0,1fr) auto 42px;padding-inline:12px}.menuCoverageGrid{grid-template-columns:repeat(2,1fr)}.courseCounts{grid-template-columns:repeat(2,1fr)}.cityBars .barRow{grid-template-columns:90px minmax(0,1fr) 28px}.statsMethodology{padding:22px}.statsMethodology h2{font-size:27px}}
