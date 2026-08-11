@@ -9,11 +9,7 @@
       "author": "גבי בר חיים",
       "note": "Season 6 winners interview; profile facts are stated explicitly."
     },
-    "fields": {
-      "age": 49,
-      "city": "פתח תקווה",
-      "occupation": "מורה לתקשורת ומחנכת"
-    }
+    "fields": { "age": 49, "city": "פתח תקווה", "occupation": "מורה לתקשורת ומחנכת" }
   },
   {
     "season": 5,
@@ -25,9 +21,7 @@
       "author": "ערן סויסה",
       "note": "Article about Ziffer's participation in season 5 explicitly identifies him as a journalist and poet."
     },
-    "fields": {
-      "occupation": "עיתונאי ומשורר"
-    }
+    "fields": { "occupation": "עיתונאי ומשורר" }
   },
   {
     "season": 7,
@@ -39,9 +33,7 @@
       "author": "סמדר שילוני",
       "note": "Season 7 review explicitly identifies participant Mia Dagan as an actress."
     },
-    "fields": {
-      "occupation": "שחקנית"
-    }
+    "fields": { "occupation": "שחקנית" }
   },
   {
     "season": 7,
@@ -53,9 +45,7 @@
       "author": "תחיה ברק",
       "note": "Interview explicitly identifies Bar Lev as a Come Dine With Me participant and states her role at the Weizmann Institute."
     },
-    "fields": {
-      "occupation": "ראש תחום רשתות חברתיות במכון ויצמן"
-    }
+    "fields": { "occupation": "ראש תחום רשתות חברתיות במכון ויצמן" }
   },
   {
     "season": 7,
@@ -67,9 +57,7 @@
       "author": "לירוי פיניאן",
       "note": "Interview about Truman's season 7 participation explicitly states that he designs events and prepares catering platters for a living."
     },
-    "fields": {
-      "occupation": "מעצב אירועים ומכין מגשי אירוח"
-    }
+    "fields": { "occupation": "מעצב אירועים ומכין מגשי אירוח" }
   },
   {
     "season": 7,
@@ -81,9 +69,7 @@
       "author": "שיר שחף",
       "note": "Season 7 coverage explicitly identifies Sophir as the group's cosmetician."
     },
-    "fields": {
-      "occupation": "קוסמטיקאית"
-    }
+    "fields": { "occupation": "קוסמטיקאית" }
   },
   {
     "season": 7,
@@ -95,9 +81,7 @@
       "author": "לורי שטטמאור",
       "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker."
     },
-    "fields": {
-      "occupation": "שדכנית"
-    }
+    "fields": { "occupation": "שדכנית" }
   },
   {
     "season": 9,
@@ -109,9 +93,7 @@
       "author": "סמדר שילוני",
       "note": "Interview explicitly identifies Nir as a season 9 participant and criminal defense attorney."
     },
-    "fields": {
-      "occupation": "עורכת דין פלילית"
-    }
+    "fields": { "occupation": "עורכת דין פלילית" }
   },
   {
     "season": 10,
@@ -123,9 +105,7 @@
       "author": "ניר וולף",
       "note": "Season 10 review explicitly states that Gozlan works at an event hall."
     },
-    "fields": {
-      "occupation": "עובד באולם אירועים"
-    }
+    "fields": { "occupation": "עובד באולם אירועים" }
   },
   {
     "season": 7,
@@ -137,10 +117,7 @@
       "author": "לורי שטטמאור",
       "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
     },
-    "fields": {
-      "age": 53,
-      "occupation": "סוכנת ביטוח"
-    }
+    "fields": { "age": 53, "occupation": "סוכנת ביטוח" }
   },
   {
     "season": 8,
@@ -152,9 +129,7 @@
       "author": "הילה דודאל",
       "note": "Published on the season 8 premiere date; explicitly identifies Shifman's role promoting foodtech."
     },
-    "fields": {
-      "occupation": "מנכ״לית העמותה לחקלאות מודרנית"
-    }
+    "fields": { "occupation": "מנכ״לית העמותה לחקלאות מודרנית" }
   },
   {
     "season": 8,
@@ -166,9 +141,7 @@
       "author": "רינת קרמר יבלינוביץ",
       "note": "Interview published on the season 8 premiere date explicitly states Dasa's occupation."
     },
-    "fields": {
-      "occupation": "סייעת בגן ילדים"
-    }
+    "fields": { "occupation": "סייעת בגן ילדים" }
   },
   {
     "season": 9,
@@ -180,9 +153,7 @@
       "author": "עומר מוזר",
       "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Elias Aboud as an actor."
     },
-    "fields": {
-      "occupation": "שחקן"
-    }
+    "fields": { "occupation": "שחקן" }
   },
   {
     "season": 9,
@@ -194,9 +165,7 @@
       "author": "עומר מוזר",
       "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Onika Elena Daniela as an artist."
     },
-    "fields": {
-      "occupation": "אמנית"
-    }
+    "fields": { "occupation": "אמנית" }
   },
   {
     "season": 10,
@@ -208,9 +177,18 @@
       "author": "סמדר שיר",
       "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
     },
-    "fields": {
-      "age": 61,
-      "occupation": "סקסולוג"
-    }
+    "fields": { "age": 61, "occupation": "סקסולוג" }
+  },
+  {
+    "season": 9,
+    "name": "מאיה לב קורן",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.ynet.co.il/laisha/article/h11t892ewl",
+      "title": "לאשה / ynet — ככל שאני גונחת יותר, אני מייצרת יותר הורמונים של עונג",
+      "author": "מאיה בניטה",
+      "note": "Post-show interview explicitly identifies Koren as a Come Dine With Me participant and states that sadotherapy is among her occupations."
+    },
+    "fields": { "occupation": "סאדו־תרפיסטית" }
   }
 ]
