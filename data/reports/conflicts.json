@@ -88,34 +88,5 @@
         ]
       }
     ]
-  },
-  {
-    "key": "6:ברוריהפסטרנקשביט",
-    "field": "occupation",
-    "values": [
-      {
-        "value": "אומנית",
-        "sources": [
-          {
-            "kind": "kan",
-            "title": "כאן 11 — בואו לאכול איתי",
-            "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148997/",
-            "note": "Official Kan episode 12; host matched by structured hosting order"
-          }
-        ]
-      },
-      {
-        "value": "אמנית רב־תחומית",
-        "sources": [
-          {
-            "kind": "manual",
-            "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
-            "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול",
-            "author": "גבי בר חיים",
-            "note": "Season 6 winners interview explicitly identifies Pasternak-Shavit as a multidisciplinary artist."
-          }
-        ]
-      }
-    ]
   }
 ]
