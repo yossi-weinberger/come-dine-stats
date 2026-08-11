@@ -18,6 +18,13 @@ const fields = [
   'placement',
 ] as const
 
+type CoverageField = typeof fields[number]
+
+// These are person-level scalar fields. A couple entry represents two people,
+// so one age/occupation/gender/diet value would be ambiguous rather than
+// genuinely "missing". Keep couples out of the denominator for these fields.
+const individualOnlyFields = new Set<CoverageField>(['age', 'occupation', 'gender', 'diet'])
+
 function hasValue(value: unknown) {
   return value !== undefined && value !== null && value !== ''
 }
@@ -34,13 +41,22 @@ function variantOf(dish: Dish) {
   return dish.variant ?? 'standard'
 }
 
+function eligibleForField(items: Contestant[], field: CoverageField) {
+  return individualOnlyFields.has(field)
+    ? items.filter((item) => item.entryType !== 'couple')
+    : items
+}
+
 function coverageFor(items: Contestant[]) {
   const fieldCoverage = Object.fromEntries(fields.map((field) => {
-    const count = items.filter((item) => hasValue(item[field])).length
+    const eligible = eligibleForField(items, field)
+    const count = eligible.filter((item) => hasValue(item[field])).length
     return [field, {
       count,
-      percent: pct(count, items.length),
-      missing: items.filter((item) => !hasValue(item[field])).map((item) => item.name),
+      eligibleCount: eligible.length,
+      notApplicableCount: items.length - eligible.length,
+      percent: pct(count, eligible.length),
+      missing: eligible.filter((item) => !hasValue(item[field])).map((item) => item.name),
     }]
   }))
 
