@@ -11,6 +11,9 @@ type EnrichmentDiagnostic = {
   hostingOrder?: number
   matched?: string
   matchMethod?: MatchMethod
+  structuredMatch?: string
+  explicitMatch?: string
+  orderConflict?: boolean
   occupation?: string
   diet?: string
   candidates?: string[]
@@ -32,16 +35,21 @@ const occupationCues: Array<{ value: string; pattern: RegExp }> = [
   { value: 'מסדרת ארונות וסטייליסטית', pattern: /מסדרת ארונות מקצועית וסטייליסטית/u },
   { value: 'ספר נשים ודראגיסט', pattern: /ספר נשים ביום ודראגיסט בלילה/u },
   { value: 'מתקשרת ויוצרת', pattern: /המתקשרת והיוצרת/u },
+  { value: 'מעבירה ערבי הפרשות חלה', pattern: /מעבירה ערבי הפרשות חלה/u },
+  { value: 'בעלת סטודיו לריקוד', pattern: /בעלת סטודיו לריקוד/u },
   { value: 'אחראית כיף בהייטק', pattern: /אחראית הכיף/u },
   { value: 'מתכנת בהייטק', pattern: /מתכנת בהייטק/u },
   { value: 'סוחר באבני חן', pattern: /סוחר באבני חן/u },
+  { value: 'בלוגרית טיולים', pattern: /בלוגרית טיולים/u },
   { value: 'ליצנית רפואית', pattern: /ליצנית רפואית/u },
   { value: 'יועצת מינית', pattern: /יועצת מינית/u },
   { value: 'מעצבת פנים', pattern: /מעצבת פנים/u },
   { value: 'מעצב בלונים', pattern: /מעצב הבלונים/u },
+  { value: 'איש חיי הלילה', pattern: /איש חיי הלילה/u },
   { value: 'איש תקשורת', pattern: /איש התקשורת/u },
   { value: 'כוכב רשת', pattern: /כוכב הרשת/u },
   { value: 'אושיית טיקטוק', pattern: /אושיית טיקטוק/u },
+  { value: 'משפיענית', pattern: /משפיענית/u },
   { value: 'הייטקיסט', pattern: /ההייטקיסט/u },
   { value: 'מדענית', pattern: /מדענית/u },
   { value: 'רפתן', pattern: /הרפתן/u },
@@ -64,15 +72,6 @@ function normalize(value: string) {
     .replace(/\s+/g, '')
 }
 
-function words(value: string) {
-  return compact(value)
-    .normalize('NFKC')
-    .toLocaleLowerCase('he')
-    .replace(/["'״׳]/g, '')
-    .split(/[^\p{L}\p{N}]+/u)
-    .filter(Boolean)
-}
-
 function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
@@ -82,10 +81,6 @@ function rawFirstNameCandidates(name: string) {
   const firstToken = clean.split(/\s+/)[0]
   const aliases = [...clean.matchAll(/\(([^)]+)\)/g)].map((match) => match[1])
   return [...new Set([firstToken, ...aliases].map(compact).filter(Boolean))]
-}
-
-function firstNameCandidates(name: string) {
-  return rawFirstNameCandidates(name).map(normalize).filter(Boolean)
 }
 
 async function fetchHtml(url: string) {
@@ -199,42 +194,70 @@ function inferWeek(episode: Episode) {
 }
 
 function explicitHostMatch(entry: Contestant, episodeText: string) {
-  const episodeWords = new Set(words(episodeText))
   const cueText = compact(episodeText).normalize('NFKC').toLocaleLowerCase('he')
-  for (const candidate of firstNameCandidates(entry.name)) {
+  for (const rawCandidate of rawFirstNameCandidates(entry.name)) {
+    const candidate = rawCandidate.normalize('NFKC').toLocaleLowerCase('he')
     if (candidate.length < 2) continue
-    const exactWord = episodeWords.has(candidate)
-    const prefixedWord = ['ל', 'ב', 'מ', 'ו', 'כ', 'ה'].some((prefix) => episodeWords.has(`${prefix}${candidate}`))
-    if (!exactWord && !prefixedWord) continue
     const escaped = escapeRegExp(candidate)
-    const explicitCue = new RegExp(`(?:מארח(?:ת)?|יארח|תארח|אצל)\\s+${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
-    if (explicitCue.test(cueText)) return true
+    const beforeName = new RegExp(`(?:מארח(?:ת)?|יארח|תארח|אצל)\\s+(?:את\\s+)?${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
+    const afterName = new RegExp(`(^|[^\\p{L}\\p{N}])${escaped}\\s*[,.:;–—-]?\\s*(?:המארח(?:ת)?|מארח(?:ת)?|יארח|תארח|מגיש(?:ה)?|לוקח(?:ת)?\\s+את\\s+אורח(?:יו|יה))(?=$|[^\\p{L}\\p{N}])`, 'u')
+    if (beforeName.test(cueText) || afterName.test(cueText)) return true
   }
   return false
 }
 
 function selectHost(candidates: Contestant[], episode: Episode, text: string) {
   const byOrder = candidates.filter((entry) => entry.hostingOrder === episode.hostingOrder)
-  if (byOrder.length === 1) {
+  const byExplicitText = candidates.filter((entry) => explicitHostMatch(entry, text))
+  const structuredMatch = byOrder.length === 1 ? byOrder[0] : undefined
+  const explicitMatch = byExplicitText.length === 1 ? byExplicitText[0] : undefined
+  const orderConflict = Boolean(structuredMatch && explicitMatch && structuredMatch !== explicitMatch)
+
+  if (orderConflict && explicitMatch) {
     return {
-      matched: byOrder[0],
-      matchMethod: 'hosting-order' as const,
-      diagnosticCandidates: byOrder.map((entry) => `${entry.name} (hosting order ${entry.hostingOrder})`),
+      matched: explicitMatch,
+      matchMethod: 'explicit-host-text' as const,
+      structuredMatch: structuredMatch?.name,
+      explicitMatch: explicitMatch.name,
+      orderConflict: true,
+      diagnosticCandidates: [
+        `${structuredMatch?.name} (hosting order ${structuredMatch?.hostingOrder})`,
+        `${explicitMatch.name} (explicit host cue)`,
+      ],
     }
   }
 
-  const byExplicitText = candidates.filter((entry) => explicitHostMatch(entry, text))
-  if (byExplicitText.length === 1) {
+  if (structuredMatch) {
     return {
-      matched: byExplicitText[0],
+      matched: structuredMatch,
+      matchMethod: 'hosting-order' as const,
+      structuredMatch: structuredMatch.name,
+      explicitMatch: explicitMatch?.name,
+      orderConflict: false,
+      diagnosticCandidates: [
+        `${structuredMatch.name} (hosting order ${structuredMatch.hostingOrder})`,
+        ...(explicitMatch ? [`${explicitMatch.name} (explicit host cue)`] : []),
+      ],
+    }
+  }
+
+  if (explicitMatch) {
+    return {
+      matched: explicitMatch,
       matchMethod: 'explicit-host-text' as const,
-      diagnosticCandidates: byExplicitText.map((entry) => `${entry.name} (explicit host cue)`),
+      structuredMatch: undefined,
+      explicitMatch: explicitMatch.name,
+      orderConflict: false,
+      diagnosticCandidates: [`${explicitMatch.name} (explicit host cue)`],
     }
   }
 
   return {
     matched: undefined,
     matchMethod: undefined,
+    structuredMatch: undefined,
+    explicitMatch: undefined,
+    orderConflict: false,
     diagnosticCandidates: [
       ...byOrder.map((entry) => `${entry.name} (hosting order ${entry.hostingOrder})`),
       ...byExplicitText.map((entry) => `${entry.name} (explicit host cue)`),
@@ -269,13 +292,14 @@ function inferDiet(entry: Contestant, episodeText: string) {
   const clean = compact(episodeText)
   for (const candidate of rawFirstNameCandidates(entry.name)) {
     if (candidate.length < 2) continue
-    const pattern = new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRegExp(candidate)}\\s*[,.:;–—-]?\\s*(טבעוני(?:ת)?|צמחוני(?:ת)?|קרניבור(?:ית)?)(?=$|[^\\p{L}\\p{N}])`, 'u')
+    const pattern = new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRegExp(candidate)}\\s*[,.:;–—-]?\\s*ה?(טבעוני(?:ת)?|צמחוני(?:ת)?|קרניבור(?:ית)?|פירותני(?:ת)?)(?=$|[^\\p{L}\\p{N}])`, 'u')
     const match = pattern.exec(clean)
     if (!match) continue
     const descriptor = match[2]
     if (descriptor.startsWith('טבעוני')) return 'טבעוני'
     if (descriptor.startsWith('צמחוני')) return 'צמחוני'
     if (descriptor.startsWith('קרניבור')) return 'קרניבור'
+    if (descriptor.startsWith('פירותני')) return 'פירותני'
   }
   return undefined
 }
@@ -303,6 +327,9 @@ function buildKanContestants(episodes: Episode[], wikipediaContestants: Contesta
       hostingOrder: episode.hostingOrder,
       matched: matched?.name,
       matchMethod: selection.matchMethod,
+      structuredMatch: selection.structuredMatch,
+      explicitMatch: selection.explicitMatch,
+      orderConflict: selection.orderConflict,
       occupation,
       diet,
       candidates: selection.diagnosticCandidates,
@@ -313,7 +340,9 @@ function buildKanContestants(episodes: Episode[], wikipediaContestants: Contesta
     const source: SourceRef = {
       ...episode.source,
       url: episode.url,
-      note: `Official Kan episode ${episode.episode}; host matched by ${selection.matchMethod === 'hosting-order' ? 'structured hosting order' : 'explicit host wording'}`,
+      note: selection.orderConflict
+        ? `Official Kan episode ${episode.episode}; explicit host wording overrode conflicting structured hosting order`
+        : `Official Kan episode ${episode.episode}; host matched by ${selection.matchMethod === 'hosting-order' ? 'structured hosting order' : 'explicit host wording'}`,
     }
 
     rows.push({
@@ -374,6 +403,7 @@ async function main() {
     episodesConsidered: enrichment.diagnostics.length,
     matchedByHostingOrder: enrichment.diagnostics.filter((item) => item.matchMethod === 'hosting-order').length,
     matchedByExplicitHostText: enrichment.diagnostics.filter((item) => item.matchMethod === 'explicit-host-text').length,
+    hostOrderConflicts: enrichment.diagnostics.filter((item) => item.orderConflict).length,
     unmatchedEpisodes: enrichment.diagnostics.filter((item) => !item.matched).length,
     profileExtraction: {
       occupations: enrichment.diagnostics.filter((item) => item.occupation).length,
@@ -389,7 +419,7 @@ async function main() {
 
   console.log(`Saved ${deduped.length} official episode records with Kan attribution`)
   console.log(`Matched ${enrichment.rows.length}/${enrichment.diagnostics.length} season 5–10 hosting episodes to competition entries`)
-  console.log(`Host match methods: ${enrichment.diagnostics.filter((item) => item.matchMethod === 'hosting-order').length} structured order, ${enrichment.diagnostics.filter((item) => item.matchMethod === 'explicit-host-text').length} explicit text`)
+  console.log(`Host match methods: ${enrichment.diagnostics.filter((item) => item.matchMethod === 'hosting-order').length} structured order, ${enrichment.diagnostics.filter((item) => item.matchMethod === 'explicit-host-text').length} explicit text; ${enrichment.diagnostics.filter((item) => item.orderConflict).length} source-order conflicts`)
   console.log(`Profile enrichment: ${enrichment.diagnostics.filter((item) => item.occupation).length} occupations, ${enrichment.diagnostics.filter((item) => item.diet).length} diets`)
 }
 
