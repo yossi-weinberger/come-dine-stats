@@ -1,5 +1,106 @@
 [
   {
+    "slug": "s5-איב-איבנעים",
+    "name": "איב איבנעים",
+    "season": 5,
+    "age": 37,
+    "city": "באר שבע",
+    "occupation": "בעל שלושה ברים",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.b7net.co.il/%D7%9E%D7%92%D7%96%D7%99%D7%9F/%D7%94%D7%A8%D7%95%D7%95%D7%A7-%D7%A9%D7%A9%D7%95%D7%95%D7%94-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%95-487146",
+        "title": "באר שבע נט — הרווק ששווה לאכול איתו",
+        "author": "שרון דינר",
+        "note": "Post-show local interview explicitly identifies Iv Ivnaim as a 37-year-old Be'er Sheva resident, owner of three bars in the city, and a Come Dine With Me participant."
+      }
+    ],
+    "fieldSources": {
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.b7net.co.il/%D7%9E%D7%92%D7%96%D7%99%D7%9F/%D7%94%D7%A8%D7%95%D7%95%D7%A7-%D7%A9%D7%A9%D7%95%D7%95%D7%94-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%95-487146",
+          "title": "באר שבע נט — הרווק ששווה לאכול איתו",
+          "author": "שרון דינר",
+          "note": "Post-show local interview explicitly identifies Iv Ivnaim as a 37-year-old Be'er Sheva resident, owner of three bars in the city, and a Come Dine With Me participant."
+        }
+      ],
+      "city": [
+        {
+          "kind": "manual",
+          "url": "https://www.b7net.co.il/%D7%9E%D7%92%D7%96%D7%99%D7%9F/%D7%94%D7%A8%D7%95%D7%95%D7%A7-%D7%A9%D7%A9%D7%95%D7%95%D7%94-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%95-487146",
+          "title": "באר שבע נט — הרווק ששווה לאכול איתו",
+          "author": "שרון דינר",
+          "note": "Post-show local interview explicitly identifies Iv Ivnaim as a 37-year-old Be'er Sheva resident, owner of three bars in the city, and a Come Dine With Me participant."
+        }
+      ],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.b7net.co.il/%D7%9E%D7%92%D7%96%D7%99%D7%9F/%D7%94%D7%A8%D7%95%D7%95%D7%A7-%D7%A9%D7%A9%D7%95%D7%95%D7%94-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%95-487146",
+          "title": "באר שבע נט — הרווק ששווה לאכול איתו",
+          "author": "שרון דינר",
+          "note": "Post-show local interview explicitly identifies Iv Ivnaim as a 37-year-old Be'er Sheva resident, owner of three bars in the city, and a Come Dine With Me participant."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s1-יוסי-והבה",
+    "name": "יוסי והבה",
+    "season": 1,
+    "age": 41,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/articles/0,7340,L-4230223,00.html",
+        "title": "ynet — קיבוץ גלויות: המשתתפים של בואו לאכול איתי",
+        "author": "ynet",
+        "note": "Participant introduction published during the original season explicitly identifies Yossi Wahaba as age 41."
+      }
+    ],
+    "fieldSources": {
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/articles/0,7340,L-4230223,00.html",
+          "title": "ynet — קיבוץ גלויות: המשתתפים של בואו לאכול איתי",
+          "author": "ynet",
+          "note": "Participant introduction published during the original season explicitly identifies Yossi Wahaba as age 41."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s6-יהודית-קונפורטי",
+    "name": "יהודית קונפורטי",
+    "season": 6,
+    "city": "רמת גן",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.mokasini.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%94/",
+        "title": "מוקסיני — נפלה שבע פעמים וקמה עשר",
+        "author": "יהורם גלילי",
+        "note": "Profile explicitly places Conforti's home/work space in Ramat Gan and identifies it as the place where she hosted during season 6."
+      }
+    ],
+    "fieldSources": {
+      "city": [
+        {
+          "kind": "manual",
+          "url": "https://www.mokasini.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%94/",
+          "title": "מוקסיני — נפלה שבע פעמים וקמה עשר",
+          "author": "יהורם גלילי",
+          "note": "Profile explicitly places Conforti's home/work space in Ramat Gan and identifies it as the place where she hosted during season 6."
+        }
+      ]
+    }
+  },
+  {
     "slug": "s6-שרון-בוננו",
     "name": "שרון בוננו",
     "season": 6,

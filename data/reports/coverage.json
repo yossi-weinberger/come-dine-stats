@@ -31,12 +31,11 @@
         ]
       },
       "age": {
-        "count": 191,
+        "count": 193,
         "eligibleCount": 235,
         "notApplicableCount": 54,
-        "percent": 81.3,
+        "percent": 82.1,
         "missing": [
-          "יוסי והבה",
           "שרית אליהו",
           "נטלי מימון",
           "יואל גאל-דור",
@@ -47,7 +46,6 @@
           "בן אבנון",
           "אילה גולני",
           "אורית שלום",
-          "איב איבנעים",
           "פיני קריספל",
           "ברוריה פסטרנק-שביט",
           "אריק פינקלברג",
@@ -83,10 +81,10 @@
         ]
       },
       "city": {
-        "count": 265,
+        "count": 267,
         "eligibleCount": 289,
         "notApplicableCount": 0,
-        "percent": 91.7,
+        "percent": 92.4,
         "missing": [
           "לילי בן נון",
           "קובי דימנט",
@@ -97,8 +95,6 @@
           "יואב ודודי",
           "מריאז' ורייצ'ל",
           "חגי מדי וגל שימרון",
-          "איב איבנעים",
-          "יהודית קונפורטי",
           "פאדי זגאירה",
           "זהר יוספיאן",
           "קארין מקס",
@@ -115,10 +111,10 @@
         ]
       },
       "occupation": {
-        "count": 127,
+        "count": 128,
         "eligibleCount": 235,
         "notApplicableCount": 54,
-        "percent": 54,
+        "percent": 54.5,
         "missing": [
           "אילנה וייס",
           "נטלי מימון",
@@ -141,7 +137,6 @@
           "שרין אברהם",
           "אריאל סולומון",
           "ינה קליפר",
-          "איב איבנעים",
           "אביגיל אוקנין חביב",
           "תאיר אלון",
           "איגור גרינברג",
@@ -1166,12 +1161,11 @@
           "missing": []
         },
         "age": {
-          "count": 43,
+          "count": 44,
           "eligibleCount": 50,
           "notApplicableCount": 0,
-          "percent": 86,
+          "percent": 88,
           "missing": [
-            "יוסי והבה",
             "שרית אליהו",
             "נטלי מימון",
             "יואל גאל-דור",
@@ -1957,28 +1951,24 @@
           "missing": []
         },
         "age": {
-          "count": 24,
+          "count": 25,
           "eligibleCount": 25,
           "notApplicableCount": 0,
-          "percent": 96,
-          "missing": [
-            "איב איבנעים"
-          ]
+          "percent": 100,
+          "missing": []
         },
         "city": {
-          "count": 24,
+          "count": 25,
           "eligibleCount": 25,
           "notApplicableCount": 0,
-          "percent": 96,
-          "missing": [
-            "איב איבנעים"
-          ]
+          "percent": 100,
+          "missing": []
         },
         "occupation": {
-          "count": 2,
+          "count": 3,
           "eligibleCount": 25,
           "notApplicableCount": 0,
-          "percent": 8,
+          "percent": 12,
           "missing": [
             "אייל טרסר",
             "ליאת ברששת",
@@ -1994,7 +1984,6 @@
             "שרין אברהם",
             "אריאל סולומון",
             "ינה קליפר",
-            "איב איבנעים",
             "אביגיל אוקנין חביב",
             "תאיר אלון",
             "איגור גרינברג",
@@ -2204,12 +2193,11 @@
           ]
         },
         "city": {
-          "count": 28,
+          "count": 29,
           "eligibleCount": 30,
           "notApplicableCount": 0,
-          "percent": 93.3,
+          "percent": 96.7,
           "missing": [
-            "יהודית קונפורטי",
             "פאדי זגאירה"
           ]
         },
@@ -3350,7 +3338,7 @@
     "fandom": 90,
     "foodik": 1,
     "kan": 144,
-    "manual": 25,
+    "manual": 28,
     "rest": 4,
     "wikipedia": 199
   }
