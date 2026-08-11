@@ -130,5 +130,29 @@
     "name": "יעל בן חביב",
     "source": { "kind": "manual", "url": "https://www.israelhayom.co.il/food/recipes/article/14627214", "title": "ישראל היום — מרק בשני סירים: מתכון של הסבתא מבואו לאכול איתי לקראת הצום", "author": "הילה דודאל", "note": "Interview published shortly after season 7 explicitly states Ben-Haviv's age and current work and identifies her as a show participant." },
     "fields": { "age": 72, "occupation": "משגיחה בבחינות" }
+  },
+  {
+    "season": 7,
+    "name": "אבינועם נתנאל",
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/bkgsdxu56", "title": "ynet — היו ימים שישנתי עם סכין. ואז הבנתי שאני חייבת להתמודד עם הפחד", "author": "סמדר שילוני", "note": "Interview with his daughter explicitly identifies Avinoam Nathanel as a diamond dealer and a season 7 Come Dine With Me participant." },
+    "fields": { "occupation": "יהלומן" }
+  },
+  {
+    "season": 7,
+    "name": "אוליבר רוס",
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/yokra13517294", "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי", "author": "לורי שטטמאור", "note": "Season 7 coverage explicitly identifies Oliver Ross as a mortgage adviser and amateur poet from the northern group." },
+    "fields": { "occupation": "יועץ משכנתאות ומשורר חובב" }
+  },
+  {
+    "season": 7,
+    "name": "סיוון קנטי אביטן",
+    "source": { "kind": "manual", "url": "https://rishon.mynet.co.il/gossip/article/h17sc007s3", "title": "mynet ראשון — אחרי המדריך לרווקה, השדכנית מראשל״צ תשגע אתכם בריאליטי", "author": "חופית כהן-אולאי", "note": "Pre-season interview explicitly states Kanti Avitan is 38 and identifies her as a season 7 Come Dine With Me participant." },
+    "fields": { "age": 38 }
+  },
+  {
+    "season": 8,
+    "name": "עמנואל יצחק לוי",
+    "source": { "kind": "manual", "url": "https://www.calcalist.co.il/style/article/h1fua7ohr", "title": "כלכליסט — דווקא מוזיקאי דתי צריך לשיר על סקס וחייזרים", "author": "מאיה נחום שחל", "note": "September 2024 interview states Levy is 29 and had recently participated in Come Dine With Me." },
+    "fields": { "age": 29 }
   }
 ]
