@@ -15,11 +15,13 @@ on:
       - 'scripts/import-wikipedia.ts'
       - 'scripts/import-season10.ts'
       - 'scripts/import-kan.ts'
+      - 'scripts/import-supplemental-menus.ts'
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
       - 'scripts/stats.ts'
       - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
+      - 'data/supplemental/menus.json'
       - 'package.json'
 
 permissions:
@@ -57,6 +59,9 @@ jobs:
       - name: Import Kan metadata
         run: npm run import:kan
 
+      - name: Import verified supplemental menus
+        run: npm run import:supplemental-menus
+
       - name: Merge sources
         run: npm run merge
 
@@ -78,6 +83,7 @@ jobs:
             data/normalized/wikipedia-contestants.json \
             data/normalized/kan-episodes.json \
             data/normalized/kan-contestants.json \
+            data/normalized/supplemental-menu-contestants.json \
             data/normalized/contestants.json \
             data/reports/wikipedia-import.json \
             data/reports/wikipedia-season10-rolling.json \
