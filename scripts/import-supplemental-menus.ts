@@ -14,7 +14,7 @@ const sourceSchema = z.object({
 })
 
 const dishSchema = z.object({
-  course: z.enum(['starter', 'main', 'dessert']),
+  course: z.enum(['starter', 'main', 'dessert', 'other']),
   variant: z.enum(['standard', 'vegetarian', 'vegan', 'alternative']).default('standard'),
   label: z.string().min(1).optional(),
   name: z.string().min(1),

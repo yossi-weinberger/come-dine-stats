@@ -10,7 +10,7 @@ export type SourceRef = {
   note?: string
 }
 
-export type DishCourse = 'starter' | 'main' | 'dessert'
+export type DishCourse = 'starter' | 'main' | 'dessert' | 'other'
 export type DishVariant = 'standard' | 'vegetarian' | 'vegan' | 'alternative'
 
 export type Dish = {
