@@ -57,7 +57,7 @@ function coverageFor(items: Contestant[]) {
   const withVegetarianAlternative = items.filter((item) => item.dishes.some((dish) => variantOf(dish) === 'vegetarian')).length
   const withVeganAlternative = items.filter((item) => item.dishes.some((dish) => variantOf(dish) === 'vegan')).length
 
-  const dishCountsByCourse = Object.fromEntries(['starter', 'main', 'dessert'].map((course) => [
+  const dishCountsByCourse = Object.fromEntries(['starter', 'main', 'dessert', 'other'].map((course) => [
     course,
     allDishes.filter((dish) => dish.course === course).length,
   ]))
