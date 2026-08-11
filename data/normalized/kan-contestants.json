@@ -4550,7 +4550,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
-        "note": "Official Kan episode 17; host matched by structured hosting order"
+        "note": "Official Kan episode 17; city extracted from an explicit host-local location phrase"
       }
     ],
     "fieldSources": {
@@ -4577,8 +4577,17 @@
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
           "note": "Official Kan episode 17; host matched by structured hosting order"
         }
+      ],
+      "city": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+          "note": "Official Kan episode 17; city extracted from an explicit host-local location phrase"
+        }
       ]
-    }
+    },
+    "city": "גבעתיים"
   },
   {
     "slug": "s8-עמנואל-יצחק-לוי",
@@ -4600,7 +4609,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
-        "note": "Official Kan episode 18; host matched by structured hosting order"
+        "note": "Official Kan episode 18; city extracted from an explicit host-local location phrase"
       }
     ],
     "fieldSources": {
@@ -4627,8 +4636,17 @@
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
           "note": "Official Kan episode 18; host matched by structured hosting order"
         }
+      ],
+      "city": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; city extracted from an explicit host-local location phrase"
+        }
       ]
-    }
+    },
+    "city": "תל אביב"
   },
   {
     "slug": "s8-נירית-מיטל",
@@ -5886,7 +5904,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
-        "note": "Official Kan episode 18; host matched by structured hosting order"
+        "note": "Official Kan episode 18; city extracted from an explicit host-local location phrase"
       }
     ],
     "fieldSources": {
@@ -5913,8 +5931,17 @@
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
           "note": "Official Kan episode 18; host matched by structured hosting order"
         }
+      ],
+      "city": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
+          "note": "Official Kan episode 18; city extracted from an explicit host-local location phrase"
+        }
       ]
-    }
+    },
+    "city": "דלית אל-כרמל"
   },
   {
     "slug": "s9-מאיה-לב-קורן",
@@ -6363,7 +6390,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
-        "note": "Official Kan episode 2; host matched by structured hosting order"
+        "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
       }
     ],
     "fieldSources": {
@@ -6390,8 +6417,17 @@
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
           "note": "Official Kan episode 2; host matched by structured hosting order"
         }
+      ],
+      "city": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
+          "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
+        }
       ]
-    }
+    },
+    "city": "נווה דניאל"
   },
   {
     "slug": "s10-יגאל-טמיר",
@@ -6931,7 +6967,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
-        "note": "Official Kan episode 13; host matched by structured hosting order"
+        "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
       }
     ],
     "fieldSources": {
@@ -6958,8 +6994,17 @@
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
           "note": "Official Kan episode 13; host matched by structured hosting order"
         }
+      ],
+      "city": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
+          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
+        }
       ]
-    }
+    },
+    "city": "כליל"
   },
   {
     "slug": "s10-מירן-הולדשטיין",
