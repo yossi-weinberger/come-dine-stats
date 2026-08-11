@@ -124,5 +124,11 @@
     "name": "יעל צין",
     "source": { "kind": "manual", "url": "https://www.israelhayom.co.il/culture/tv/article/13016123", "title": "ישראל היום — היא לא חרדית בכלל: העיתונאית שהשתתפה בבואו לאכול איתי סופגת אש", "author": "יוסי דלאל", "note": "Article published during season 6 explicitly identifies Tzin as a journalist and participant." },
     "fields": { "occupation": "עיתונאית" }
+  },
+  {
+    "season": 7,
+    "name": "יעל בן חביב",
+    "source": { "kind": "manual", "url": "https://www.israelhayom.co.il/food/recipes/article/14627214", "title": "ישראל היום — מרק בשני סירים: מתכון של הסבתא מבואו לאכול איתי לקראת הצום", "author": "הילה דודאל", "note": "Interview published shortly after season 7 explicitly states Ben-Haviv's age and current work and identifies her as a show participant." },
+    "fields": { "age": 72, "occupation": "משגיחה בבחינות" }
   }
 ]
