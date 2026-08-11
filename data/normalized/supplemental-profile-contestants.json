@@ -261,5 +261,214 @@
         }
       ]
     }
+  },
+  {
+    "slug": "s7-מירב-סעדו",
+    "name": "מירב סעדו",
+    "season": 7,
+    "age": 53,
+    "occupation": "סוכנת ביטוח",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+        "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+        "author": "לורי שטטמאור",
+        "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
+      }
+    ],
+    "fieldSources": {
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+          "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+          "author": "לורי שטטמאור",
+          "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
+        }
+      ],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+          "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+          "author": "לורי שטטמאור",
+          "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s8-לבנה-שיפמן",
+    "name": "לבנה שיפמן",
+    "season": 8,
+    "occupation": "מנכ״לית העמותה לחקלאות מודרנית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/food/food-news/article/16075643",
+        "title": "ישראל היום — בואו לאכול איתי חוזרת: קבלו מתכון למנה המפתיעה של העונה",
+        "author": "הילה דודאל",
+        "note": "Published on the season 8 premiere date; explicitly identifies Shifman's role promoting foodtech."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/food/food-news/article/16075643",
+          "title": "ישראל היום — בואו לאכול איתי חוזרת: קבלו מתכון למנה המפתיעה של העונה",
+          "author": "הילה דודאל",
+          "note": "Published on the season 8 premiere date; explicitly identifies Shifman's role promoting foodtech."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s8-לינוי-דסה",
+    "name": "לינוי דסה",
+    "season": 8,
+    "occupation": "סייעת בגן ילדים",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.srugim.co.il/1010778-%D7%9C%D7%90-%D7%A8%D7%A6%D7%99%D7%AA%D7%99-%D7%A9%D7%94%D7%A9%D7%91%D7%AA-%D7%AA%D7%92%D7%9E%D7%A8-%D7%9E%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%AA-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95",
+        "title": "סרוגים — לא רציתי שהשבת תגמר: מתמודדת בואו לאכול איתי בראיון",
+        "author": "רינת קרמר יבלינוביץ",
+        "note": "Interview published on the season 8 premiere date explicitly states Dasa's occupation."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.srugim.co.il/1010778-%D7%9C%D7%90-%D7%A8%D7%A6%D7%99%D7%AA%D7%99-%D7%A9%D7%94%D7%A9%D7%91%D7%AA-%D7%AA%D7%92%D7%9E%D7%A8-%D7%9E%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%AA-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95",
+          "title": "סרוגים — לא רציתי שהשבת תגמר: מתמודדת בואו לאכול איתי בראיון",
+          "author": "רינת קרמר יבלינוביץ",
+          "note": "Interview published on the season 8 premiere date explicitly states Dasa's occupation."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s9-אליאס-עבוד",
+    "name": "אליאס עבוד",
+    "season": 9,
+    "occupation": "שחקן",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://1075.fm/item/207268/",
+        "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+        "author": "עומר מוזר",
+        "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Elias Aboud as an actor."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://1075.fm/item/207268/",
+          "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+          "author": "עומר מוזר",
+          "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Elias Aboud as an actor."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s9-אוניקה-אלנה-דניאלה",
+    "name": "אוניקה אלנה דניאלה",
+    "season": 9,
+    "occupation": "אמנית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://1075.fm/item/207268/",
+        "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+        "author": "עומר מוזר",
+        "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Onika Elena Daniela as an artist."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://1075.fm/item/207268/",
+          "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+          "author": "עומר מוזר",
+          "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Onika Elena Daniela as an artist."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-דניאל-דריי",
+    "name": "דניאל דריי",
+    "season": 10,
+    "age": 61,
+    "occupation": "סקסולוג",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra14831122",
+        "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה",
+        "author": "סמדר שיר",
+        "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
+      }
+    ],
+    "fieldSources": {
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra14831122",
+          "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה",
+          "author": "סמדר שיר",
+          "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
+        }
+      ],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra14831122",
+          "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה",
+          "author": "סמדר שיר",
+          "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s9-מאיה-לב-קורן",
+    "name": "מאיה לב קורן",
+    "season": 9,
+    "occupation": "סאדו־תרפיסטית",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/laisha/article/h11t892ewl",
+        "title": "לאשה / ynet — ככל שאני גונחת יותר, אני מייצרת יותר הורמונים של עונג",
+        "author": "מאיה בניטה",
+        "note": "Post-show interview explicitly identifies Koren as a Come Dine With Me participant and states that sadotherapy is among her occupations."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/laisha/article/h11t892ewl",
+          "title": "לאשה / ynet — ככל שאני גונחת יותר, אני מייצרת יותר הורמונים של עונג",
+          "author": "מאיה בניטה",
+          "note": "Post-show interview explicitly identifies Koren as a Come Dine With Me participant and states that sadotherapy is among her occupations."
+        }
+      ]
+    }
   }
 ]

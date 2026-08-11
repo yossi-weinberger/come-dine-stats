@@ -37242,6 +37242,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469819/",
         "note": "Official Kan episode 13; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+        "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+        "author": "לורי שטטמאור",
+        "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
       }
     ],
     "fieldSources": {
@@ -37385,15 +37392,33 @@
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
         }
       ],
-      "age": [],
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+          "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+          "author": "לורי שטטמאור",
+          "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
+        }
+      ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+          "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+          "author": "לורי שטטמאור",
+          "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
+        }
+      ],
       "gender": [],
       "diet": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469819/"
-    ]
+    ],
+    "age": 53,
+    "occupation": "סוכנת ביטוח"
   },
   {
     "slug": "s7-יעל-בן-חביב",
@@ -40581,6 +40606,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
         "note": "Official Kan episode 6; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.israelhayom.co.il/food/food-news/article/16075643",
+        "title": "ישראל היום — בואו לאכול איתי חוזרת: קבלו מתכון למנה המפתיעה של העונה",
+        "author": "הילה דודאל",
+        "note": "Published on the season 8 premiere date; explicitly identifies Shifman's role promoting foodtech."
       }
     ],
     "fieldSources": {
@@ -40725,14 +40757,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.israelhayom.co.il/food/food-news/article/16075643",
+          "title": "ישראל היום — בואו לאכול איתי חוזרת: קבלו מתכון למנה המפתיעה של העונה",
+          "author": "הילה דודאל",
+          "note": "Published on the season 8 premiere date; explicitly identifies Shifman's role promoting foodtech."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/"
-    ]
+    ],
+    "occupation": "מנכ״לית העמותה לחקלאות מודרנית"
   },
   {
     "slug": "s8-יפה-חסידים",
@@ -44068,6 +44109,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
         "note": "Official Kan episode 25; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.srugim.co.il/1010778-%D7%9C%D7%90-%D7%A8%D7%A6%D7%99%D7%AA%D7%99-%D7%A9%D7%94%D7%A9%D7%91%D7%AA-%D7%AA%D7%92%D7%9E%D7%A8-%D7%9E%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%AA-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95",
+        "title": "סרוגים — לא רציתי שהשבת תגמר: מתמודדת בואו לאכול איתי בראיון",
+        "author": "רינת קרמר יבלינוביץ",
+        "note": "Interview published on the season 8 premiere date explicitly states Dasa's occupation."
       }
     ],
     "fieldSources": {
@@ -44212,14 +44260,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.srugim.co.il/1010778-%D7%9C%D7%90-%D7%A8%D7%A6%D7%99%D7%AA%D7%99-%D7%A9%D7%94%D7%A9%D7%91%D7%AA-%D7%AA%D7%92%D7%9E%D7%A8-%D7%9E%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%AA-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95",
+          "title": "סרוגים — לא רציתי שהשבת תגמר: מתמודדת בואו לאכול איתי בראיון",
+          "author": "רינת קרמר יבלינוביץ",
+          "note": "Interview published on the season 8 premiere date explicitly states Dasa's occupation."
+        }
+      ],
       "gender": [],
       "diet": [],
       "score": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/"
-    ]
+    ],
+    "occupation": "סייעת בגן ילדים"
   },
   {
     "slug": "s9-קמילה-קידר",
@@ -47538,6 +47595,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933745/",
         "note": "Official Kan episode 19; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/laisha/article/h11t892ewl",
+        "title": "לאשה / ynet — ככל שאני גונחת יותר, אני מייצרת יותר הורמונים של עונג",
+        "author": "מאיה בניטה",
+        "note": "Post-show interview explicitly identifies Koren as a Come Dine With Me participant and states that sadotherapy is among her occupations."
       }
     ],
     "fieldSources": {
@@ -47673,14 +47737,23 @@
       ],
       "age": [],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/laisha/article/h11t892ewl",
+          "title": "לאשה / ynet — ככל שאני גונחת יותר, אני מייצרת יותר הורמונים של עונג",
+          "author": "מאיה בניטה",
+          "note": "Post-show interview explicitly identifies Koren as a Come Dine With Me participant and states that sadotherapy is among her occupations."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933745/"
-    ]
+    ],
+    "occupation": "סאדו־תרפיסטית"
   },
   {
     "slug": "s9-אביתר-בן-פורת",
@@ -48092,6 +48165,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937791/",
         "note": "Official Kan episode 22; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://1075.fm/item/207268/",
+        "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+        "author": "עומר מוזר",
+        "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Elias Aboud as an actor."
       }
     ],
     "fieldSources": {
@@ -48236,14 +48316,23 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://1075.fm/item/207268/",
+          "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+          "author": "עומר מוזר",
+          "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Elias Aboud as an actor."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937791/"
-    ]
+    ],
+    "occupation": "שחקן"
   },
   {
     "slug": "s9-אוניקה-אלנה-דניאלה",
@@ -48275,6 +48364,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937793/",
         "note": "Official Kan episode 23; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://1075.fm/item/207268/",
+        "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+        "author": "עומר מוזר",
+        "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Onika Elena Daniela as an artist."
       }
     ],
     "fieldSources": {
@@ -48401,14 +48497,23 @@
       "age": [],
       "city": [],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://1075.fm/item/207268/",
+          "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+          "author": "עומר מוזר",
+          "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Onika Elena Daniela as an artist."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937793/"
-    ]
+    ],
+    "occupation": "אמנית"
   },
   {
     "slug": "s9-טל-הרוש",
@@ -50413,6 +50518,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1073279/",
         "note": "Official Kan episode 10; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra14831122",
+        "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה",
+        "author": "סמדר שיר",
+        "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
       }
     ],
     "fieldSources": {
@@ -50504,6 +50616,13 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra14831122",
+          "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה",
+          "author": "סמדר שיר",
+          "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
         }
       ],
       "relationshipStatus": [
@@ -50538,7 +50657,15 @@
       ],
       "city": [],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra14831122",
+          "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה",
+          "author": "סמדר שיר",
+          "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": [],
@@ -50546,7 +50673,8 @@
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1073279/"
-    ]
+    ],
+    "occupation": "סקסולוג"
   },
   {
     "slug": "s10-עליזה-אלקיים-עבאדי",
