@@ -1,8 +1,8 @@
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile, readdir, writeFile } from 'node:fs/promises'
 import { z } from 'zod'
 import type { Contestant, SourceRef } from '../lib/types'
 
-const inputFile = new URL('../data/supplemental/profiles.json', import.meta.url)
+const supplementalDir = new URL('../data/supplemental/', import.meta.url)
 const outputFile = new URL('../data/normalized/supplemental-profile-contestants.json', import.meta.url)
 
 const sourceSchema = z.object({
@@ -33,7 +33,7 @@ const rowSchema = z.object({
 })
 
 const fileSchema = z.array(rowSchema)
-
+type ProfileRow = z.infer<typeof rowSchema>
 type ProfileField = keyof z.infer<typeof fieldsSchema>
 
 function slugify(value: string) {
@@ -46,9 +46,23 @@ function slugify(value: string) {
     .replace(/^-+|-+$/g, '')
 }
 
+async function loadRows() {
+  const files = (await readdir(supplementalDir))
+    .filter((name) => /^profiles(?:-[\w-]+)?\.json$/.test(name))
+    .sort()
+
+  const rows: ProfileRow[] = []
+  for (const file of files) {
+    const raw = JSON.parse(await readFile(new URL(file, supplementalDir), 'utf8'))
+    rows.push(...fileSchema.parse(raw))
+  }
+
+  console.log(`Loaded ${rows.length} supplemental profile rows from ${files.length} evidence file(s)`)
+  return rows
+}
+
 async function main() {
-  const raw = JSON.parse(await readFile(inputFile, 'utf8'))
-  const rows = fileSchema.parse(raw)
+  const rows = await loadRows()
   const seen = new Set<string>()
 
   const output: Contestant[] = rows.map((row) => {
