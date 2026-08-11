@@ -14,6 +14,7 @@ function Stat({ label, value, suffix }: { label: string; value: string | number 
 
 export default function Home() {
   const stats = getStats()
+  const seasons = [...new Set(contestants.map((contestant) => contestant.season))].sort((a, b) => a - b)
 
   return (
     <main>
@@ -33,6 +34,24 @@ export default function Home() {
         <Stat label="זוכים / זוגות זוכים" value={stats.winners} />
         <Stat label="מנות שנקלטו" value={stats.dishes} />
         <Stat label="ציון שיא" value={stats.topScore} />
+      </section>
+
+      <section className="seasonStrip" aria-labelledby="season-strip-title">
+        <div className="sectionTitle">
+          <div>
+            <div className="eyebrow">לפי עונה</div>
+            <h2 id="season-strip-title">להיכנס לתחרות עצמה</h2>
+          </div>
+          <span>שבועות · ציונים · זוכים · תפריטים</span>
+        </div>
+        <nav className="seasonPills homeSeasonPills" aria-label="דפי עונות">
+          {seasons.map((season) => (
+            <Link key={season} href={`/seasons/${season}`}>
+              <span>עונה</span>
+              <strong>{season}</strong>
+            </Link>
+          ))}
+        </nav>
       </section>
 
       <ContestantBrowser contestants={contestants} />
