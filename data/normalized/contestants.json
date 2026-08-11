@@ -24755,11 +24755,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/132999/"
-    ]
+    ],
+    "placement": 3
   },
   {
     "slug": "s5-ליאת-ברששת",
@@ -24940,11 +24948,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133002/"
-    ]
+    ],
+    "placement": 4
   },
   {
     "slug": "s5-בני-ציפר",
@@ -25140,12 +25156,20 @@
       ],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133004/"
     ],
-    "occupation": "עיתונאי ומשורר"
+    "occupation": "עיתונאי ומשורר",
+    "placement": 2
   },
   {
     "slug": "s5-גילי-שמחה-עוזיאל",
@@ -25521,11 +25545,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133009/"
-    ]
+    ],
+    "placement": 5
   },
   {
     "slug": "s5-אושרית-מולאי",
@@ -25706,11 +25738,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/"
-    ]
+    ],
+    "placement": 5
   },
   {
     "slug": "s5-ירון-תשבי",
@@ -25891,11 +25931,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133292/"
-    ]
+    ],
+    "placement": 2
   },
   {
     "slug": "s5-הדס-פישר",
@@ -26076,11 +26124,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133679/"
-    ]
+    ],
+    "placement": 3
   },
   {
     "slug": "s5-גיא-זלצר",
@@ -26456,11 +26512,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/"
-    ]
+    ],
+    "placement": 4
   },
   {
     "slug": "s5-חנה-בן-שימול",
@@ -27583,12 +27647,20 @@
       ],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134169/"
     ],
-    "occupation": "יועצת מינית"
+    "occupation": "יועצת מינית",
+    "placement": 3
   },
   {
     "slug": "s5-איב-איבנעים",
@@ -27934,11 +28006,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134173/"
-    ]
+    ],
+    "placement": 4
   },
   {
     "slug": "s5-תאיר-אלון",
@@ -28119,11 +28199,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134175/"
-    ]
+    ],
+    "placement": 5
   },
   {
     "slug": "s5-איגור-גרינברג",
@@ -28294,11 +28382,19 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134177/"
-    ]
+    ],
+    "placement": 2
   },
   {
     "slug": "s5-אבי-אמר",
@@ -34239,11 +34335,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150023/"
-    ]
+    ],
+    "placement": 2
   },
   {
     "slug": "s6-פאדי-זגאירה",
@@ -34411,12 +34515,20 @@
       ],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150026/"
     ],
-    "occupation": "איש תקשורת"
+    "occupation": "איש תקשורת",
+    "placement": 3
   },
   {
     "slug": "s6-מעיין-חטואל",
@@ -34597,11 +34709,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150029/"
-    ]
+    ],
+    "placement": 4
   },
   {
     "slug": "s6-דנה-שפירא",
@@ -35362,11 +35482,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/444547/"
-    ]
+    ],
+    "placement": 3
   },
   {
     "slug": "s7-עמית-שמיר",
@@ -35547,11 +35675,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/444580/"
-    ]
+    ],
+    "placement": 4
   },
   {
     "slug": "s7-חנה-כהן",
@@ -35732,11 +35868,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/458857/"
-    ]
+    ],
+    "placement": 5
   },
   {
     "slug": "s7-רחלי-סופיר",
@@ -35922,12 +36066,20 @@
       ],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/444586/"
     ],
-    "occupation": "קוסמטיקאית"
+    "occupation": "קוסמטיקאית",
+    "placement": 2
   },
   {
     "slug": "s7-סיוון-קנטי-אביטן",
@@ -41823,11 +41975,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773506/"
-    ]
+    ],
+    "placement": 3
   },
   {
     "slug": "s8-חן-וייסמן",
@@ -42008,11 +42168,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/"
-    ]
+    ],
+    "placement": 5
   },
   {
     "slug": "s8-משה-ניסימפור",
@@ -42193,11 +42361,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/"
-    ]
+    ],
+    "placement": 4
   },
   {
     "slug": "s8-עמרי-שושן",
@@ -42378,11 +42554,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773355/"
-    ]
+    ],
+    "placement": 2
   },
   {
     "slug": "s8-ריטה-ליפשיץ",
@@ -42920,12 +43104,20 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/"
     ],
-    "city": "גבעתיים"
+    "city": "גבעתיים",
+    "placement": 2
   },
   {
     "slug": "s8-עמנואל-יצחק-לוי",
@@ -43090,13 +43282,21 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/"
     ],
     "city": "תל אביב",
-    "occupation": "מורה לתנ\"ך וסולן להקה"
+    "occupation": "מורה לתנ\"ך וסולן להקה",
+    "placement": 5
   },
   {
     "slug": "s8-נירית-מיטל",
@@ -43277,11 +43477,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/"
-    ]
+    ],
+    "placement": 3
   },
   {
     "slug": "s8-גל-בן-דוד",
@@ -43462,11 +43670,19 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "placement": []
+      "placement": [
+        {
+          "kind": "derived",
+          "title": "דירוג מחושב מציוני השבוע",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+          "note": "Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order."
+        }
+      ]
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/"
-    ]
+    ],
+    "placement": 4
   },
   {
     "slug": "s8-עדן-כהן",

@@ -1,0 +1,1576 @@
+{
+  "rule": "Derive score-order placement only for weeks with at least two active entries, complete scores, no tied scores, and no disagreement with any sourced placement already present.",
+  "completeWeeks": 12,
+  "derivedEntries": 27,
+  "validatedExistingEntries": 32,
+  "derived": [
+    {
+      "season": 5,
+      "week": 1,
+      "name": "אייל טרסר",
+      "score": 29,
+      "placement": 3
+    },
+    {
+      "season": 5,
+      "week": 1,
+      "name": "ליאת ברששת",
+      "score": 27,
+      "placement": 4
+    },
+    {
+      "season": 5,
+      "week": 1,
+      "name": "בני ציפר",
+      "score": 30,
+      "placement": 2
+    },
+    {
+      "season": 5,
+      "week": 1,
+      "name": "ירון גנד",
+      "score": 17,
+      "placement": 5
+    },
+    {
+      "season": 5,
+      "week": 2,
+      "name": "אושרית מולאי",
+      "score": 22,
+      "placement": 5
+    },
+    {
+      "season": 5,
+      "week": 2,
+      "name": "ירון תשבי",
+      "score": 32,
+      "placement": 2
+    },
+    {
+      "season": 5,
+      "week": 2,
+      "name": "הדס פישר",
+      "score": 30,
+      "placement": 3
+    },
+    {
+      "season": 5,
+      "week": 2,
+      "name": "קייסי זפטה",
+      "score": 28,
+      "placement": 4
+    },
+    {
+      "season": 5,
+      "week": 4,
+      "name": "קציעה אלדר",
+      "score": 26,
+      "placement": 3
+    },
+    {
+      "season": 5,
+      "week": 4,
+      "name": "אביגיל אוקנין חביב",
+      "score": 25,
+      "placement": 4
+    },
+    {
+      "season": 5,
+      "week": 4,
+      "name": "תאיר אלון",
+      "score": 17,
+      "placement": 5
+    },
+    {
+      "season": 5,
+      "week": 4,
+      "name": "איגור גרינברג",
+      "score": 29,
+      "placement": 2
+    },
+    {
+      "season": 6,
+      "week": 6,
+      "name": "מורן זיסר",
+      "score": 25,
+      "placement": 2
+    },
+    {
+      "season": 6,
+      "week": 6,
+      "name": "פאדי זגאירה",
+      "score": 24,
+      "placement": 3
+    },
+    {
+      "season": 6,
+      "week": 6,
+      "name": "מעיין חטואל",
+      "score": 20,
+      "placement": 4
+    },
+    {
+      "season": 7,
+      "week": 1,
+      "name": "שלי סנשיין וולמן",
+      "score": 29,
+      "placement": 3
+    },
+    {
+      "season": 7,
+      "week": 1,
+      "name": "עמית שמיר",
+      "score": 25,
+      "placement": 4
+    },
+    {
+      "season": 7,
+      "week": 1,
+      "name": "חנה כהן",
+      "score": 24,
+      "placement": 5
+    },
+    {
+      "season": 7,
+      "week": 1,
+      "name": "רחלי סופיר",
+      "score": 30,
+      "placement": 2
+    },
+    {
+      "season": 8,
+      "week": 3,
+      "name": "עמית שאטו",
+      "score": 29,
+      "placement": 3
+    },
+    {
+      "season": 8,
+      "week": 3,
+      "name": "חן וייסמן",
+      "score": 25,
+      "placement": 5
+    },
+    {
+      "season": 8,
+      "week": 3,
+      "name": "משה ניסימפור",
+      "score": 28,
+      "placement": 4
+    },
+    {
+      "season": 8,
+      "week": 3,
+      "name": "עמרי שושן",
+      "score": 30,
+      "placement": 2
+    },
+    {
+      "season": 8,
+      "week": 4,
+      "name": "ירון ליברמן",
+      "score": 32,
+      "placement": 2
+    },
+    {
+      "season": 8,
+      "week": 4,
+      "name": "עמנואל יצחק לוי",
+      "score": 19,
+      "placement": 5
+    },
+    {
+      "season": 8,
+      "week": 4,
+      "name": "נירית מיטל",
+      "score": 31,
+      "placement": 3
+    },
+    {
+      "season": 8,
+      "week": 4,
+      "name": "גל בן דוד",
+      "score": 29,
+      "placement": 4
+    }
+  ],
+  "skippedWeeks": [
+    {
+      "season": 1,
+      "week": 3,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "אילנה וייס",
+          "score": 29,
+          "placement": 2
+        },
+        {
+          "name": "אורן חזן",
+          "score": 28,
+          "placement": 5
+        },
+        {
+          "name": "מיכל אדר",
+          "score": 29,
+          "placement": 2
+        },
+        {
+          "name": "ענבל שורר רמתי",
+          "score": 29,
+          "placement": 1
+        },
+        {
+          "name": "יוסי והבה",
+          "score": 29,
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 1,
+      "week": 4,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "אבינועם אייק",
+          "score": 27,
+          "placement": 5
+        },
+        {
+          "name": "יורם יזדן",
+          "score": 32,
+          "placement": 2
+        },
+        {
+          "name": "גיל להב",
+          "score": 32,
+          "placement": 2
+        },
+        {
+          "name": "שרית אליהו",
+          "score": 31,
+          "placement": 4
+        },
+        {
+          "name": "נטלי מימון",
+          "score": 35,
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 1,
+      "week": 6,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "יעקוב חיאט",
+          "score": 23,
+          "placement": 4
+        },
+        {
+          "name": "ענת דודי",
+          "score": 31,
+          "placement": 1
+        },
+        {
+          "name": "שמירה ינקו-נוריאל",
+          "score": 23,
+          "placement": 4
+        },
+        {
+          "name": "אילן אורן",
+          "score": 27,
+          "placement": 3
+        },
+        {
+          "name": "עמית ילין",
+          "score": 28,
+          "placement": 2
+        },
+        {
+          "name": "נורית בר-לוי",
+          "score": 28,
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 1,
+      "week": 8,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "רינה לזר",
+          "score": 33,
+          "placement": 2
+        },
+        {
+          "name": "אלי אונגר",
+          "score": 27,
+          "placement": 5
+        },
+        {
+          "name": "אדווה עמר",
+          "score": 34,
+          "placement": 1
+        },
+        {
+          "name": "אפרת וייס",
+          "score": 30,
+          "placement": 3
+        },
+        {
+          "name": "איציק בן-עזרי",
+          "score": 30,
+          "placement": 3
+        }
+      ]
+    },
+    {
+      "season": 1,
+      "week": 9,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "מיקי לבני",
+          "score": 28,
+          "placement": 2
+        },
+        {
+          "name": "אולריך סאם",
+          "score": 18,
+          "placement": 5
+        },
+        {
+          "name": "איציק יעקב",
+          "score": 28,
+          "placement": 2
+        },
+        {
+          "name": "מיכל אזולאי",
+          "score": 26,
+          "placement": 4
+        }
+      ]
+    },
+    {
+      "season": 1,
+      "week": 10,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "אמיר בלנק",
+          "score": 28,
+          "placement": 2
+        },
+        {
+          "name": "רחל גרינברג",
+          "score": 28,
+          "placement": 2
+        },
+        {
+          "name": "מור דעי",
+          "score": 18,
+          "placement": 5
+        },
+        {
+          "name": "ברוך קון",
+          "score": 27,
+          "placement": 4
+        },
+        {
+          "name": "גאיה קורן",
+          "score": 29,
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "week": 2,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "משה אלמקייס",
+          "score": 29,
+          "placement": 2
+        },
+        {
+          "name": "מיכל הדי כהן",
+          "score": 22,
+          "placement": 5
+        },
+        {
+          "name": "קארין אור",
+          "score": 27,
+          "placement": 4
+        },
+        {
+          "name": "שי יוסף",
+          "score": 29,
+          "placement": 2
+        },
+        {
+          "name": "גיטה גואטה",
+          "score": 34,
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "week": 3,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "חנה תורג'מן",
+          "score": 29,
+          "placement": 4
+        },
+        {
+          "name": "בת אל פרץ",
+          "score": 30,
+          "placement": 2
+        },
+        {
+          "name": "נתן ליפשיץ",
+          "score": 27,
+          "placement": 5
+        },
+        {
+          "name": "יעל טרופ",
+          "score": 30,
+          "placement": 2
+        },
+        {
+          "name": "אדוארד ויצמן",
+          "score": 30,
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "week": 4,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "דניס לוי",
+          "score": 28,
+          "placement": 3
+        },
+        {
+          "name": "בן אבנון",
+          "score": 16,
+          "placement": 5
+        },
+        {
+          "name": "רותם דרוב",
+          "score": 30,
+          "placement": 1
+        },
+        {
+          "name": "יובל אדלמן",
+          "score": 24,
+          "placement": 4
+        },
+        {
+          "name": "חן אברבנאל",
+          "score": 30,
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "week": 6,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "חגי יודן",
+          "score": 27,
+          "placement": 3
+        },
+        {
+          "name": "חן שאבו",
+          "score": 26,
+          "placement": 5
+        },
+        {
+          "name": "יוסי חגי",
+          "score": 36,
+          "placement": 1
+        },
+        {
+          "name": "אילה גולני",
+          "score": 27,
+          "placement": 3
+        },
+        {
+          "name": "פנינה רמון",
+          "score": 33,
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "week": 7,
+      "reason": "known-placement-mismatch",
+      "entries": [
+        {
+          "name": "דניאל קוץ",
+          "score": 24,
+          "placement": 4
+        },
+        {
+          "name": "חגית פטריק",
+          "score": 31,
+          "placement": 1
+        },
+        {
+          "name": "רענן יקותיאל",
+          "score": 27,
+          "placement": 3
+        },
+        {
+          "name": "בנימין יעקביאן",
+          "score": 28
+        },
+        {
+          "name": "רינת סילבסטר",
+          "score": 23,
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "week": 8,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "אורית שלום",
+          "score": 28,
+          "placement": 4
+        },
+        {
+          "name": "נסיה יחיא",
+          "score": 31,
+          "placement": 3
+        },
+        {
+          "name": "יוסי רובין",
+          "score": 28,
+          "placement": 4
+        },
+        {
+          "name": "שפרה מזרחי",
+          "score": 33,
+          "placement": 1
+        },
+        {
+          "name": "חגי קוסקאס",
+          "score": 32,
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "week": 9,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "הילה מודרה",
+          "score": 26,
+          "placement": 5
+        },
+        {
+          "name": "שרון יוגב",
+          "score": 28,
+          "placement": 4
+        },
+        {
+          "name": "איריס אברמוביץ'",
+          "score": 29,
+          "placement": 2
+        },
+        {
+          "name": "אלון מדר",
+          "score": 29,
+          "placement": 2
+        },
+        {
+          "name": "אבנר בן יון",
+          "score": 32,
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 1,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "רועי עידן וחגית השמשוני",
+          "score": 28
+        },
+        {
+          "name": "רונית נוביק ואייל גראד",
+          "score": 25
+        },
+        {
+          "name": "עבד ואיסרא זיתונא",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 2,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "חיים ואצילה גרשון",
+          "score": 33,
+          "placement": 1
+        },
+        {
+          "name": "ליאת זיוון ודרור תמיר",
+          "score": 21
+        },
+        {
+          "name": "שמעון ויוליה נחמני",
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 3,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "מירי אור סעדון ודורון סעדון",
+          "score": 26
+        },
+        {
+          "name": "דוד הכהן ורון ירושלמי",
+          "score": 26
+        },
+        {
+          "name": "קרן וחיים פרלמן",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 4,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "ענבל ושניר רובין",
+          "score": 24
+        },
+        {
+          "name": "עמליה ואסף",
+          "score": 25
+        },
+        {
+          "name": "ספיר וג'וזף",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 5,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "ישראל וימית סיליק",
+          "score": 28,
+          "placement": 1
+        },
+        {
+          "name": "ארתור וייט וג'ול באום",
+          "score": 15
+        },
+        {
+          "name": "ליאל דבח וליאור צ'רכי",
+          "score": 28
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 6,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "אושר והילה עטיה",
+          "score": 25
+        },
+        {
+          "name": "מירי ומוטי גורדון",
+          "score": 29,
+          "placement": 1
+        },
+        {
+          "name": "אלעזר ושושנה קרבסי",
+          "score": 25
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 7,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "אורית בלוך ושחר מזור",
+          "score": 26
+        },
+        {
+          "name": "אורלי וישגב גלבוע",
+          "score": 28
+        },
+        {
+          "name": "רוני וגלית להב",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 8,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "לימור וסיגל",
+          "score": 31
+        },
+        {
+          "name": "אלכס וסווארופ",
+          "score": 23
+        },
+        {
+          "name": "רקפת ויעל",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 9,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "אבירם וסקיי",
+          "score": 29
+        },
+        {
+          "name": "סימה ואביחי דהן",
+          "score": 28
+        },
+        {
+          "name": "סיגלית גוסטר ושלמה אבוטבול",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 3,
+      "week": 10,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "גיא הררי ואביב קליין",
+          "score": 26
+        },
+        {
+          "name": "רון וירדנה הרוש",
+          "score": 27,
+          "placement": 1
+        },
+        {
+          "name": "ויקי בליומין ונועם ברדה",
+          "placement": 3
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "week": 1,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "אלי דודאי ונדב פרץ",
+          "score": 26,
+          "placement": 1
+        },
+        {
+          "name": "חן ברמי וענר זקוביץ'",
+          "score": 25
+        },
+        {
+          "name": "אבי ואודליה סויסה",
+          "score": 26
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "week": 2,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "ויויאן וז'אק בזק",
+          "score": 27,
+          "placement": 1
+        },
+        {
+          "name": "עמית ושירלי צוק",
+          "score": 23
+        },
+        {
+          "name": "ניצן זך ושירן זך כהן",
+          "score": 23
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "week": 3,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "פלג בכור ולילך רודני",
+          "score": 25,
+          "placement": 1
+        },
+        {
+          "name": "כריסי וארנון יהב",
+          "score": 20
+        },
+        {
+          "name": "אביבה ויחיאל חזן",
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "week": 4,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "יואב ודודי",
+          "score": 26
+        },
+        {
+          "name": "ורד וצחי",
+          "score": 33,
+          "placement": 1
+        },
+        {
+          "name": "מריאז' ורייצ'ל",
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "week": 5,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "הדר יוסיפון ואלה קלמי",
+          "score": 30,
+          "placement": 1
+        },
+        {
+          "name": "נילי ברנע וארנון נתן",
+          "score": 26
+        },
+        {
+          "name": "קובי אפלבוים ולנה אגרנוביץ'",
+          "placement": 3
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "week": 6,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "עוז ודעי ואהרון בילק",
+          "score": 28,
+          "placement": 1
+        },
+        {
+          "name": "ספיר ואברהם בלוך",
+          "score": 20
+        },
+        {
+          "name": "אושרי כהן וליאת חי טל",
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "week": 7,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "איריס ורחלי ג'וי",
+          "score": 24
+        },
+        {
+          "name": "חגי מדי וגל שימרון",
+          "score": 25
+        },
+        {
+          "name": "תימור כהן וקובי פלשמן",
+          "score": 25,
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 4,
+      "week": 8,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "מור ודן ציפורי",
+          "score": 27
+        },
+        {
+          "name": "עמוס ארליך וטלי רויטנברג",
+          "score": 29
+        },
+        {
+          "name": "לירז ויוסי כהן",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "week": 3,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "חנה בן שימול",
+          "score": 33,
+          "placement": 1
+        },
+        {
+          "name": "עימראן עיאדה",
+          "score": 26
+        },
+        {
+          "name": "שרין אברהם",
+          "score": 28
+        },
+        {
+          "name": "אריאל סולומון",
+          "score": 26
+        },
+        {
+          "name": "ינה קליפר",
+          "score": 33
+        }
+      ]
+    },
+    {
+      "season": 5,
+      "week": 5,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "אבי אמר",
+          "score": 29
+        },
+        {
+          "name": "ענבל אלנקווה",
+          "score": 28
+        },
+        {
+          "name": "אלכס שולץ",
+          "score": 25
+        },
+        {
+          "name": "אורן מלכה",
+          "score": 27
+        },
+        {
+          "name": "ספאא זהר אל דין פרחאת",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "week": 1,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "אורפז אמסלם דהן",
+          "score": 30
+        },
+        {
+          "name": "עודד דואר",
+          "score": 22
+        },
+        {
+          "name": "שחר חן",
+          "score": 30,
+          "placement": 1
+        },
+        {
+          "name": "שמרי שקד מאור",
+          "score": 24
+        },
+        {
+          "name": "חני בוהדנה",
+          "score": 26
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "week": 2,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "קרין אלקונין",
+          "score": 27
+        },
+        {
+          "name": "סופיה (סופי) דביר",
+          "score": 30
+        },
+        {
+          "name": "אילנה אביגל",
+          "score": 34,
+          "placement": 1
+        },
+        {
+          "name": "עודד אסגו",
+          "score": 29
+        },
+        {
+          "name": "רוני ברון",
+          "score": 27
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "week": 3,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "פיני קריספל",
+          "score": 26
+        },
+        {
+          "name": "ברוריה פסטרנק-שביט",
+          "score": 30,
+          "placement": 1
+        },
+        {
+          "name": "אריק פינקלברג",
+          "score": 29
+        },
+        {
+          "name": "שלם מושעיהו",
+          "score": 29
+        },
+        {
+          "name": "יעל צין",
+          "score": 30
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "week": 4,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "מחמוד (מודי) צפורי",
+          "score": 29
+        },
+        {
+          "name": "רבקה לפאיר",
+          "score": 22
+        },
+        {
+          "name": "שרון בוננו",
+          "score": 33,
+          "placement": 1
+        },
+        {
+          "name": "גאלה רחמילביץ'",
+          "score": 31
+        },
+        {
+          "name": "אורן ברט",
+          "placement": 4
+        }
+      ]
+    },
+    {
+      "season": 6,
+      "week": 5,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "יהודית קונפורטי",
+          "score": 28
+        },
+        {
+          "name": "אלה ורמה",
+          "score": 26
+        },
+        {
+          "name": "סיוון כהן",
+          "score": 23
+        },
+        {
+          "name": "אביעד בללי",
+          "score": 26
+        },
+        {
+          "name": "גל אלון",
+          "score": 34,
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "week": 2,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "סיוון קנטי אביטן",
+          "score": 29
+        },
+        {
+          "name": "קרן בר לב",
+          "score": 29
+        },
+        {
+          "name": "בן טרומן",
+          "score": 34,
+          "placement": 1
+        },
+        {
+          "name": "דני סימון",
+          "score": 27
+        },
+        {
+          "name": "מיה דגן",
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "week": 3,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "טל רוזנבך שמעיה",
+          "score": 29
+        },
+        {
+          "name": "עומר צוברי",
+          "score": 17
+        },
+        {
+          "name": "מירב סעדו",
+          "score": 35,
+          "placement": 1
+        },
+        {
+          "name": "יעל בן חביב",
+          "score": 28
+        },
+        {
+          "name": "דובי לוי",
+          "placement": 4
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "week": 4,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "ענבל פיניאן",
+          "score": 28
+        },
+        {
+          "name": "אביטל מגן",
+          "score": 22
+        },
+        {
+          "name": "לימור שובל",
+          "score": 26
+        },
+        {
+          "name": "יובל ברנדס",
+          "score": 32,
+          "placement": 1
+        },
+        {
+          "name": "אוליבר רוס",
+          "score": 28
+        }
+      ]
+    },
+    {
+      "season": 7,
+      "week": 5,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "רובי טשרניחובסקי",
+          "score": 26
+        },
+        {
+          "name": "רועי אלעני",
+          "score": 37,
+          "placement": 1
+        },
+        {
+          "name": "שלי אבנשטיין",
+          "score": 29
+        },
+        {
+          "name": "אסף איפרגן",
+          "score": 27
+        },
+        {
+          "name": "אבינועם נתנאל",
+          "placement": 2
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "week": 1,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "ענבל אהרון אזרד",
+          "score": 28
+        },
+        {
+          "name": "מעיין מיזן",
+          "score": 29
+        },
+        {
+          "name": "אחיה זלייט",
+          "score": 35,
+          "placement": 1
+        },
+        {
+          "name": "איתמר גרובר",
+          "score": 29
+        },
+        {
+          "name": "דנה כהן הלוי",
+          "score": 29
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "week": 2,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "לבנה שיפמן",
+          "score": 25
+        },
+        {
+          "name": "יפה חסידים",
+          "score": 27
+        },
+        {
+          "name": "יוסל'ה זיו",
+          "score": 35,
+          "placement": 1
+        },
+        {
+          "name": "קארי בר כהן",
+          "score": 30
+        },
+        {
+          "name": "יהונתן מקרוב",
+          "score": 30
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "week": 5,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "עדן כהן",
+          "score": 27
+        },
+        {
+          "name": "לואר עמור",
+          "score": 30
+        },
+        {
+          "name": "אייל עובדיה",
+          "score": 24
+        },
+        {
+          "name": "אדי בן סימון",
+          "score": 30
+        },
+        {
+          "name": "לינוי דסה",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 9,
+      "week": 1,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "קמילה קידר",
+          "score": 30
+        },
+        {
+          "name": "יובל ארוש",
+          "score": 33,
+          "placement": 1
+        },
+        {
+          "name": "ירדן שלי נקים",
+          "score": 30
+        },
+        {
+          "name": "שירה ניר",
+          "score": 31
+        },
+        {
+          "name": "עודד קב",
+          "placement": 5
+        }
+      ]
+    },
+    {
+      "season": 9,
+      "week": 2,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "חננאל אמיתי",
+          "score": 28
+        },
+        {
+          "name": "כרמית תא שמע",
+          "score": 30
+        },
+        {
+          "name": "רוני אילוז",
+          "score": 31
+        },
+        {
+          "name": "תום בייקין אוחיון",
+          "score": 33,
+          "placement": 1
+        },
+        {
+          "name": "דלילה שמש",
+          "score": 31
+        }
+      ]
+    },
+    {
+      "season": 9,
+      "week": 3,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "זהר יוספיאן",
+          "score": 28
+        },
+        {
+          "name": "יעל זילברמן",
+          "score": 24
+        },
+        {
+          "name": "חן (חנצ'ה) יאיר",
+          "score": 29
+        },
+        {
+          "name": "אתי גלבוע",
+          "score": 27
+        },
+        {
+          "name": "לינור אברג'ל",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 9,
+      "week": 4,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "אילנית יורמן",
+          "score": 25
+        },
+        {
+          "name": "קארין מקס",
+          "score": 28
+        },
+        {
+          "name": "אורי זיצ'ק",
+          "score": 29
+        },
+        {
+          "name": "מאיה לב קורן",
+          "score": 30
+        },
+        {
+          "name": "אביתר בן פורת",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 9,
+      "week": 5,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "אבנית סטרולוב",
+          "score": 28
+        },
+        {
+          "name": "אליאס עבוד",
+          "score": 25
+        },
+        {
+          "name": "אוניקה אלנה דניאלה",
+          "score": 27
+        },
+        {
+          "name": "טל הרוש",
+          "score": 29
+        },
+        {
+          "name": "עדי ויצמן אסולין",
+          "placement": 1
+        }
+      ]
+    },
+    {
+      "season": 10,
+      "week": 1,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "רועי גולן",
+          "score": 29
+        },
+        {
+          "name": "אדם גוזלן",
+          "score": 26
+        },
+        {
+          "name": "יגאל טמיר",
+          "score": 28
+        },
+        {
+          "name": "חיה לב",
+          "score": 30,
+          "placement": 1
+        },
+        {
+          "name": "ניקול אלטשולר",
+          "placement": 5
+        }
+      ]
+    },
+    {
+      "season": 10,
+      "week": 2,
+      "reason": "score-tie",
+      "entries": [
+        {
+          "name": "איריס אלוג",
+          "score": 32
+        },
+        {
+          "name": "יריב אגוזי",
+          "score": 32
+        },
+        {
+          "name": "ליהי קימורה",
+          "score": 27
+        },
+        {
+          "name": "זהר גורמס",
+          "score": 31
+        },
+        {
+          "name": "דניאל דריי",
+          "score": 31
+        }
+      ]
+    },
+    {
+      "season": 10,
+      "week": 3,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "עליזה אלקיים עבאדי",
+          "score": 27
+        },
+        {
+          "name": "רוני פליישר",
+          "score": 33
+        },
+        {
+          "name": "אבינעם שמעון",
+          "score": 28
+        },
+        {
+          "name": "מירן הולדשטיין",
+          "score": 28
+        },
+        {
+          "name": "אלירן בוחבוט",
+          "placement": 1
+        }
+      ]
+    }
+  ]
+}
