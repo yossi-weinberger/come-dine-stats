@@ -30,6 +30,20 @@
 - Used as a primary source for factual metadata such as season/episode identity, ordering and official links.
 - Do not mirror video, images or long editorial text unless separate permission/license allows it.
 
+## `foodik` — Foodik / contestant first-person sources
+
+- Site: https://www.foodik.co.il/
+- Used only when a participant directly identifies the dishes they served on the show.
+- Every imported dish keeps the exact article URL as evidence.
+- Import only short factual menu metadata. Do not copy recipe instructions, article prose, images or other protected content.
+
+## `rest` — REST / Zap Rest
+
+- Magazine: https://www.rest.co.il/magazine/
+- Used only for episode recaps that explicitly identify a host and name the dishes they served.
+- Every imported dish keeps the exact article URL as evidence.
+- Import only short factual menu metadata; do not copy article prose or images.
+
 ## Conflict rule
 
 No source silently overwrites another source. Conflicting values are preserved as evidence and resolved separately for presentation.
