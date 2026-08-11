@@ -1,10 +1,10 @@
 {
   "matchedEntries": 144,
-  "episodesConsidered": 147,
+  "episodesConsidered": 148,
   "matchedByHostingOrder": 141,
   "matchedByExplicitHostText": 3,
   "hostOrderConflicts": 3,
-  "unmatchedEpisodes": 3,
+  "unmatchedEpisodes": 4,
   "profileExtraction": {
     "occupations": 21,
     "diets": 2,
@@ -2146,6 +2146,15 @@
       "orderConflict": false,
       "candidates": [],
       "text": "פרק 17 - שבוע אילת, יום ב' בילי מארחת את החבורה ומדהימה את כולם בסיפור חייה המיוחד"
+    },
+    {
+      "season": 10,
+      "episode": 18,
+      "week": 4,
+      "hostingOrder": 3,
+      "orderConflict": false,
+      "candidates": [],
+      "text": "פרק 18 - שבוע אילת, יום ג' הערב הגיעו האורחים אל שלומי, למה יערית קמה בסערה מהשולחן?"
     }
   ]
 }

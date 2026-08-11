@@ -3216,6 +3216,7 @@
     "week": 4,
     "weekName": "השרון",
     "hostingOrder": 3,
+    "age": 48,
     "city": "רעננה",
     "occupation": "מדריך סיורים קולינריים",
     "relationshipStatus": "גרוש",
@@ -3318,6 +3319,15 @@
         }
       ],
       "hostingOrder": [
+        {
+          "kind": "fandom",
+          "title": "בואו לאכול איתי Wiki — Fandom",
+          "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%92%D7%99%D7%9C_%D7%9C%D7%94%D7%91",
+          "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
+          "note": "Direct article link preserved for attribution"
+        }
+      ],
+      "age": [
         {
           "kind": "fandom",
           "title": "בואו לאכול איתי Wiki — Fandom",

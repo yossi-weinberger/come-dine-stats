@@ -31,13 +31,12 @@
         ]
       },
       "age": {
-        "count": 188,
+        "count": 189,
         "eligibleCount": 235,
         "notApplicableCount": 54,
-        "percent": 80,
+        "percent": 80.4,
         "missing": [
           "יוסי והבה",
-          "גיל להב",
           "שרית אליהו",
           "נטלי מימון",
           "יואל גאל-דור",
@@ -1171,13 +1170,12 @@
           "missing": []
         },
         "age": {
-          "count": 42,
+          "count": 43,
           "eligibleCount": 50,
           "notApplicableCount": 0,
-          "percent": 84,
+          "percent": 86,
           "missing": [
             "יוסי והבה",
-            "גיל להב",
             "שרית אליהו",
             "נטלי מימון",
             "יואל גאל-דור",
