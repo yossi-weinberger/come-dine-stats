@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "s6-שרון-בוננו",
+    "name": "שרון בוננו",
+    "season": 6,
+    "age": 49,
+    "city": "פתח תקווה",
+    "occupation": "מורה לתקשורת ומחנכת",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview; profile facts are stated explicitly."
+      }
+    ],
+    "fieldSources": {
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview; profile facts are stated explicitly."
+        }
+      ],
+      "city": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview; profile facts are stated explicitly."
+        }
+      ],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview; profile facts are stated explicitly."
+        }
+      ]
+    }
+  }
+]

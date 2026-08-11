@@ -32473,6 +32473,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149375/",
         "note": "Official Kan episode 18; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+        "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
+        "author": "גבי בר חיים",
+        "note": "Season 6 winners interview; profile facts are stated explicitly."
       }
     ],
     "fieldSources": {
@@ -32564,6 +32571,13 @@
           "author": "ויקיפדיה העברית — עורכים שונים",
           "license": "CC BY-SA 4.0",
           "note": "Imported from revision 43718668; factual competition metadata with revision-level attribution"
+        },
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview; profile facts are stated explicitly."
         }
       ],
       "relationshipStatus": [
@@ -32616,15 +32630,33 @@
           "note": "Imported from revision 43718668; factual competition metadata with revision-level attribution"
         }
       ],
-      "age": [],
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview; profile facts are stated explicitly."
+        }
+      ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
+          "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
+          "author": "גבי בר חיים",
+          "note": "Season 6 winners interview; profile facts are stated explicitly."
+        }
+      ],
       "gender": [],
       "diet": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149375/"
-    ]
+    ],
+    "age": 49,
+    "occupation": "מורה לתקשורת ומחנכת"
   },
   {
     "slug": "s6-גאלה-רחמילביץ",
