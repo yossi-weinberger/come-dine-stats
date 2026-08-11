@@ -126,5 +126,91 @@
     "fields": {
       "occupation": "עובד באולם אירועים"
     }
+  },
+  {
+    "season": 7,
+    "name": "מירב סעדו",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+      "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+      "author": "לורי שטטמאור",
+      "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
+    },
+    "fields": {
+      "age": 53,
+      "occupation": "סוכנת ביטוח"
+    }
+  },
+  {
+    "season": 8,
+    "name": "לבנה שיפמן",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.israelhayom.co.il/food/food-news/article/16075643",
+      "title": "ישראל היום — בואו לאכול איתי חוזרת: קבלו מתכון למנה המפתיעה של העונה",
+      "author": "הילה דודאל",
+      "note": "Published on the season 8 premiere date; explicitly identifies Shifman's role promoting foodtech."
+    },
+    "fields": {
+      "occupation": "מנכ״לית העמותה לחקלאות מודרנית"
+    }
+  },
+  {
+    "season": 8,
+    "name": "לינוי דסה",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.srugim.co.il/1010778-%D7%9C%D7%90-%D7%A8%D7%A6%D7%99%D7%AA%D7%99-%D7%A9%D7%94%D7%A9%D7%91%D7%AA-%D7%AA%D7%92%D7%9E%D7%A8-%D7%9E%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%AA-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95",
+      "title": "סרוגים — לא רציתי שהשבת תגמר: מתמודדת בואו לאכול איתי בראיון",
+      "author": "רינת קרמר יבלינוביץ",
+      "note": "Interview published on the season 8 premiere date explicitly states Dasa's occupation."
+    },
+    "fields": {
+      "occupation": "סייעת בגן ילדים"
+    }
+  },
+  {
+    "season": 9,
+    "name": "אליאס עבוד",
+    "source": {
+      "kind": "manual",
+      "url": "https://1075.fm/item/207268/",
+      "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+      "author": "עומר מוזר",
+      "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Elias Aboud as an actor."
+    },
+    "fields": {
+      "occupation": "שחקן"
+    }
+  },
+  {
+    "season": 9,
+    "name": "אוניקה אלנה דניאלה",
+    "source": {
+      "kind": "manual",
+      "url": "https://1075.fm/item/207268/",
+      "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
+      "author": "עומר מוזר",
+      "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Onika Elena Daniela as an artist."
+    },
+    "fields": {
+      "occupation": "אמנית"
+    }
+  },
+  {
+    "season": 10,
+    "name": "דניאל דריי",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.ynet.co.il/entertainment/article/yokra14831122",
+      "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה",
+      "author": "סמדר שיר",
+      "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
+    },
+    "fields": {
+      "age": 61,
+      "occupation": "סקסולוג"
+    }
   }
 ]
