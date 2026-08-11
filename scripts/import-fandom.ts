@@ -110,8 +110,13 @@ async function getContestantTitles() {
   return [...titles]
 }
 
+function headingMatches(actual: string, requested: string) {
+  const text = compact(actual)
+  return text === requested || text.startsWith(`${requested} (`)
+}
+
 function valueAfterHeading($: cheerio.CheerioAPI, headingText: string) {
-  const heading = $('h2,h3,h4').filter((_, el) => compact($(el).text()).startsWith(headingText)).first()
+  const heading = $('h2,h3,h4').filter((_, el) => headingMatches($(el).text(), headingText)).first()
   if (!heading.length) return undefined
   let node = heading.next()
   while (node.length && !/^H[234]$/.test(node[0]?.tagName?.toUpperCase?.() ?? '')) {
