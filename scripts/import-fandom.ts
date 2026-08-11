@@ -26,6 +26,12 @@ function numberFrom(value?: string) {
   return match ? Number(match[0]) : undefined
 }
 
+function scoreAfterDisqualification(value?: string) {
+  if (!value) return undefined
+  const match = value.match(/\((\d+)\s*נקודות?\s*לאחר\s*פסיל/u)
+  return match ? Number(match[1]) : undefined
+}
+
 function placementFrom(value?: string) {
   const numeric = numberFrom(value)
   if (numeric) return numeric
@@ -194,11 +200,15 @@ function parseContestant(title: string, html: string, categories: string[], url:
   const season = numberFrom(episodes?.match(/עונה\s+\d+/)?.[0])
   if (!season) return null
   const weekName = episodes?.match(/\(שבוע\s+(.+?)\)/)?.[1]
-  const score = numberFrom(valueAfterHeading($, 'ניקוד'))
-  const placement = placementFrom(valueAfterHeading($, 'דירוג בשבוע'))
+  const scoreText = valueAfterHeading($, 'ניקוד')
+  const originalScore = numberFrom(scoreText)
+  const disqualified = categories.includes('מתמודדים שנפסלו מהתחרות')
+  const adjustedScore = disqualified ? scoreAfterDisqualification(scoreText) : undefined
+  const sourcedPlacement = placementFrom(valueAfterHeading($, 'דירוג בשבוע'))
   const bodyText = compact($.root().text())
   const source = sourceFor(url)
   const values = {
+    status: disqualified ? 'disqualified' as const : undefined,
     week: weekFromEpisodes(episodes),
     weekName,
     hostingOrder: hostingOrderFromText(bodyText),
@@ -206,9 +216,10 @@ function parseContestant(title: string, html: string, categories: string[], url:
     city: valueAfterHeading($, 'מקום מגורים'),
     occupation: valueAfterHeading($, 'מקצוע'),
     relationshipStatus: valueAfterHeading($, 'מצב משפחתי'),
-    score,
-    placement,
-    winner: placement === 1 || categories.includes('מנצחים'),
+    score: disqualified ? (adjustedScore ?? originalScore) : originalScore,
+    scoreBeforeAdjustment: disqualified && adjustedScore != null && originalScore !== adjustedScore ? originalScore : undefined,
+    placement: disqualified ? undefined : sourcedPlacement,
+    winner: disqualified ? false : sourcedPlacement === 1 || categories.includes('מנצחים'),
   }
   const dishes = extractDishes($, source)
 
