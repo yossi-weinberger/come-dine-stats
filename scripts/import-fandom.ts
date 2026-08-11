@@ -194,6 +194,10 @@ function evidenceFor(source: SourceRef, values: Record<string, unknown>) {
     .map(([key]) => [key, [source]]))
 }
 
+function normalizedCategories(categories: string[]) {
+  return categories.map((category) => category.replace(/_/g, ' ').normalize('NFKC').replace(/\s+/g, ' ').trim())
+}
+
 function parseContestant(title: string, html: string, categories: string[], url: string): Contestant | null {
   const $ = cheerio.load(html)
   const episodes = valueAfterHeading($, 'פרקים')
@@ -202,7 +206,8 @@ function parseContestant(title: string, html: string, categories: string[], url:
   const weekName = episodes?.match(/\(שבוע\s+(.+?)\)/)?.[1]
   const scoreText = valueAfterHeading($, 'ניקוד')
   const originalScore = numberFrom(scoreText)
-  const disqualified = categories.includes('מתמודדים שנפסלו מהתחרות')
+  const categoryNames = normalizedCategories(categories)
+  const disqualified = categoryNames.includes('מתמודדים שנפסלו מהתחרות')
   const adjustedScore = disqualified ? scoreAfterDisqualification(scoreText) : undefined
   const sourcedPlacement = placementFrom(valueAfterHeading($, 'דירוג בשבוע'))
   const bodyText = compact($.root().text())
@@ -219,7 +224,7 @@ function parseContestant(title: string, html: string, categories: string[], url:
     score: disqualified ? (adjustedScore ?? originalScore) : originalScore,
     scoreBeforeAdjustment: disqualified && adjustedScore != null && originalScore !== adjustedScore ? originalScore : undefined,
     placement: disqualified ? undefined : sourcedPlacement,
-    winner: disqualified ? false : sourcedPlacement === 1 || categories.includes('מנצחים'),
+    winner: disqualified ? false : sourcedPlacement === 1 || categoryNames.includes('מנצחים'),
   }
   const dishes = extractDishes($, source)
 
