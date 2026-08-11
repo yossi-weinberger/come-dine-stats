@@ -1,7 +1,7 @@
 {
-  "matchedEntries": 104,
-  "episodesConsidered": 105,
-  "matchedByHostingOrder": 104,
+  "matchedEntries": 129,
+  "episodesConsidered": 130,
+  "matchedByHostingOrder": 129,
   "matchedByExplicitHostText": 0,
   "unmatchedEpisodes": 1,
   "recipeDiscovery": {
@@ -1264,6 +1264,306 @@
         "לינוי דסה (hosting order 5)"
       ],
       "text": "פרק 25 - שבוע מישור החוף, יום ה' ביום האחרון לתחרות תארח את החבורה לינוי דסה מפתח תקווה"
+    },
+    {
+      "season": 9,
+      "episode": 1,
+      "week": 1,
+      "hostingOrder": 1,
+      "matched": "קמילה קידר",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "קמילה קידר (hosting order 1)"
+      ],
+      "text": "פרק 1 - שבוע דרום, יום א' את התחרות בשבוע הראשון באזור הדרום פותחת קמילה, מעצבת פנים מבאר שבע"
+    },
+    {
+      "season": 9,
+      "episode": 2,
+      "week": 1,
+      "hostingOrder": 2,
+      "matched": "יובל ארוש",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "יובל ארוש (hosting order 2)"
+      ],
+      "text": "פרק 2 - שבוע דרום, יום ב' הערב תתארח החבורה בטברנה היוונית של יובל. יאסו!"
+    },
+    {
+      "season": 9,
+      "episode": 3,
+      "week": 1,
+      "hostingOrder": 3,
+      "matched": "ירדן שלי נקים",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "ירדן שלי נקים (hosting order 3)"
+      ],
+      "text": "פרק 3 - שבוע דרום, יום ג' היום השלישי לתחרות האירוח והבישול בדרום, הערב מארחת ירדן מבאר שבע"
+    },
+    {
+      "season": 9,
+      "episode": 4,
+      "week": 1,
+      "hostingOrder": 4,
+      "matched": "שירה ניר",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "שירה ניר (hosting order 4)"
+      ],
+      "text": "פרק 4 - שבוע דרום, יום ד' היום הרביעי בתחרות באזור הדרום, והיום תארח שירה מאשקלון"
+    },
+    {
+      "season": 9,
+      "episode": 5,
+      "week": 1,
+      "hostingOrder": 5,
+      "matched": "עודד קב",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "עודד קב (hosting order 5)"
+      ],
+      "text": "פרק 5 - שבוע דרום, יום ה' בערב האחרון לשבוע באזור הדרום, החבורה תבלה בירוחם אצל עודד הפירותני"
+    },
+    {
+      "season": 9,
+      "episode": 6,
+      "week": 2,
+      "hostingOrder": 1,
+      "matched": "חננאל אמיתי",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "חננאל אמיתי (hosting order 1)"
+      ],
+      "text": "פרק 6 - שבוע ירושלים, יום א' את היום הראשון של התחרות באזור ירושלים, יבלו המשתתפים בישוב מטע"
+    },
+    {
+      "season": 9,
+      "episode": 7,
+      "week": 2,
+      "hostingOrder": 2,
+      "matched": "כרמית תא שמע",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "כרמית תא שמע (hosting order 2)"
+      ],
+      "text": "פרק 7 - שבוע ירושלים, יום ב' הערב מארחות כרמית והבינה המלאכותית במודיעין"
+    },
+    {
+      "season": 9,
+      "episode": 8,
+      "week": 2,
+      "hostingOrder": 3,
+      "matched": "רוני אילוז",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "רוני אילוז (hosting order 3)"
+      ],
+      "text": "פרק 8 - שבוע ירושלים, יום ג' הערב יגיעו האורחים לירושלים לחוויה רוחנית אצל רוני המתקשרת"
+    },
+    {
+      "season": 9,
+      "episode": 9,
+      "week": 2,
+      "hostingOrder": 4,
+      "matched": "תום בייקין אוחיון",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "תום בייקין אוחיון (hosting order 4)"
+      ],
+      "text": "פרק 9 - שבוע ירושלים, יום ד' היום הרביעי לתחרות באזור ירושלים, והפעם האורחים בצור הדסה בערב מהאגדות"
+    },
+    {
+      "season": 9,
+      "episode": 10,
+      "week": 2,
+      "hostingOrder": 5,
+      "matched": "דלילה שמש",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "דלילה שמש (hosting order 5)"
+      ],
+      "text": "פרק 10 - שבוע ירושלים, יום ה' את הערב האחרון לתחרות באזור ירושלים תבלה החבורה במוזיאון של דלילה"
+    },
+    {
+      "season": 9,
+      "episode": 11,
+      "week": 3,
+      "hostingOrder": 1,
+      "matched": "זהר יוספיאן",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "זהר יוספיאן (hosting order 1)"
+      ],
+      "text": "פרק 11 - שבוע תל אביב, יום א' את היום הראשון של תחרות הבישול והאירוח באזור תל אביב יפתח זהר"
+    },
+    {
+      "season": 9,
+      "episode": 12,
+      "week": 3,
+      "hostingOrder": 2,
+      "matched": "יעל זילברמן",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "יעל זילברמן (hosting order 2)"
+      ],
+      "text": "פרק 12 - שבוע תל אביב, יום ב' היום השני של התחרות באזור תל-אביב והערב מארחת יעל, משפיענית מבני ברק"
+    },
+    {
+      "season": 9,
+      "episode": 13,
+      "week": 3,
+      "hostingOrder": 3,
+      "matched": "חן (חנצ'ה) יאיר",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "חן (חנצ'ה) יאיר (hosting order 3)"
+      ],
+      "text": "פרק 13 - שבוע תל אביב, יום ג' היום השלישי לתחרות בתל אביב והערב מגיעים כולם לבית של חנצ'ה"
+    },
+    {
+      "season": 9,
+      "episode": 14,
+      "week": 3,
+      "hostingOrder": 4,
+      "matched": "אתי גלבוע",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אתי גלבוע (hosting order 4)"
+      ],
+      "text": "פרק 14 - שבוע תל אביב, יום ד' היום הרביעי לתחרות באזור תל אביב, וכולם מוזמנים לצהרון של אתי"
+    },
+    {
+      "season": 9,
+      "episode": 15,
+      "week": 3,
+      "hostingOrder": 5,
+      "matched": "לינור אברג'ל",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "לינור אברג'ל (hosting order 5)"
+      ],
+      "text": "פרק 15 - שבוע תל אביב, יום ה' הערב האחרון לתחרות באזור תל אביב הוא ערב חגיגי בסגנון מצרי אצל לינור"
+    },
+    {
+      "season": 9,
+      "episode": 16,
+      "week": 4,
+      "hostingOrder": 1,
+      "matched": "אילנית יורמן",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אילנית יורמן (hosting order 1)"
+      ],
+      "text": "פרק 16 - שבוע השרון והכרמל, יום א' הערב תיפגש החבורה בבית של זוכת מדליית הזהב בתחרות הפאראטריאתלון אילנית"
+    },
+    {
+      "season": 9,
+      "episode": 17,
+      "week": 4,
+      "hostingOrder": 2,
+      "matched": "קארין מקס",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "קארין מקס (hosting order 2)"
+      ],
+      "text": "פרק 17 - שבוע השרון והכרמל, יום ב' זה היום השני לתחרות הבישול והאירוח באזור השרון והכרמל, היום תארח קארין"
+    },
+    {
+      "season": 9,
+      "episode": 18,
+      "week": 4,
+      "hostingOrder": 3,
+      "matched": "אורי זיצ'ק",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אורי זיצ'ק (hosting order 3)"
+      ],
+      "text": "פרק 18 - שבוע השרון והכרמל, יום ג' היום השלישי לתחרות והערב יגיעו האורחים לאשרם של אורי בדלית אל כרמל"
+    },
+    {
+      "season": 9,
+      "episode": 19,
+      "week": 4,
+      "hostingOrder": 4,
+      "matched": "מאיה לב קורן",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "מאיה לב קורן (hosting order 4)"
+      ],
+      "text": "פרק 19 - שבוע השרון והכרמל, יום ד' יום רביעי בתחרות הבישול באזור השרון והכרמל, היום מארחת מאיה בקציר"
+    },
+    {
+      "season": 9,
+      "episode": 20,
+      "week": 4,
+      "hostingOrder": 5,
+      "matched": "אביתר בן פורת",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אביתר בן פורת (hosting order 5)"
+      ],
+      "text": "פרק 20 - שבוע השרון והכרמל, יום ה' החבורה מבלה אצל אביתר מחדרה בערב האחרון לתחרות באזור השרון והכרמל"
+    },
+    {
+      "season": 9,
+      "episode": 21,
+      "week": 5,
+      "hostingOrder": 1,
+      "matched": "אבנית סטרולוב",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אבנית סטרולוב (hosting order 1)"
+      ],
+      "text": "פרק 21 - שבוע חיפה, יום א' את השבוע הראשון לתחרות באזור חיפה פותחת אבנית בלוגרית טיולים"
+    },
+    {
+      "season": 9,
+      "episode": 22,
+      "week": 5,
+      "hostingOrder": 2,
+      "matched": "אליאס עבוד",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אליאס עבוד (hosting order 2)"
+      ],
+      "text": "פרק 22 - שבוע חיפה, יום ב' אליאס מואדי ניסנאס יארח לארוחת כריסמס חגיגית במיוחד"
+    },
+    {
+      "season": 9,
+      "episode": 23,
+      "week": 5,
+      "hostingOrder": 3,
+      "matched": "אוניקה אלנה דניאלה",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אוניקה אלנה דניאלה (hosting order 3)"
+      ],
+      "text": "פרק 23 - שבוע חיפה, יום ג' הערב דניאלה תעביר את האורחים מסע רוחני"
+    },
+    {
+      "season": 9,
+      "episode": 24,
+      "week": 5,
+      "hostingOrder": 4,
+      "matched": "טל הרוש",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "טל הרוש (hosting order 4)"
+      ],
+      "text": "פרק 24 - שבוע חיפה, יום ד' יום רביעי בתחרות באזור חיפה ומהמארח היום הוא טל, איש חיי הלילה מנשר"
+    },
+    {
+      "season": 9,
+      "episode": 25,
+      "week": 5,
+      "hostingOrder": 5,
+      "matched": "עדי ויצמן אסולין",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "עדי ויצמן אסולין (hosting order 5)"
+      ],
+      "text": "פרק 25 - שבוע חיפה, יום ה' פרק אחרון באזור חיפה: הפעם תארח עדי, בעלת סטודיו לריקוד מקרית אתא"
     }
   ]
 }

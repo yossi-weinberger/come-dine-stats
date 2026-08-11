@@ -1860,6 +1860,356 @@
     }
   },
   {
+    "season": 9,
+    "episode": 1,
+    "weekName": "דרום",
+    "hostingOrder": 1,
+    "title": "פרק 1 - שבוע דרום, יום א' את התחרות בשבוע הראשון באזור הדרום פותחת קמילה, מעצבת פנים מבאר שבע",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922427/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922427/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 2,
+    "weekName": "דרום",
+    "hostingOrder": 2,
+    "title": "פרק 2 - שבוע דרום, יום ב' הערב תתארח החבורה בטברנה היוונית של יובל. יאסו!",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922430/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922430/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 3,
+    "weekName": "דרום",
+    "hostingOrder": 3,
+    "title": "פרק 3 - שבוע דרום, יום ג' היום השלישי לתחרות האירוח והבישול בדרום, הערב מארחת ירדן מבאר שבע",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922431/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922431/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 4,
+    "weekName": "דרום",
+    "hostingOrder": 4,
+    "title": "פרק 4 - שבוע דרום, יום ד' היום הרביעי בתחרות באזור הדרום, והיום תארח שירה מאשקלון",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922432/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922432/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 5,
+    "weekName": "דרום",
+    "hostingOrder": 5,
+    "title": "פרק 5 - שבוע דרום, יום ה' בערב האחרון לשבוע באזור הדרום, החבורה תבלה בירוחם אצל עודד הפירותני",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922433/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922433/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 6,
+    "weekName": "ירושלים",
+    "hostingOrder": 1,
+    "title": "פרק 6 - שבוע ירושלים, יום א' את היום הראשון של התחרות באזור ירושלים, יבלו המשתתפים בישוב מטע",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/927070/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/927070/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 7,
+    "weekName": "ירושלים",
+    "hostingOrder": 2,
+    "title": "פרק 7 - שבוע ירושלים, יום ב' הערב מארחות כרמית והבינה המלאכותית במודיעין",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922442/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922442/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 8,
+    "weekName": "ירושלים",
+    "hostingOrder": 3,
+    "title": "פרק 8 - שבוע ירושלים, יום ג' הערב יגיעו האורחים לירושלים לחוויה רוחנית אצל רוני המתקשרת",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929726/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929726/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 9,
+    "weekName": "ירושלים",
+    "hostingOrder": 4,
+    "title": "פרק 9 - שבוע ירושלים, יום ד' היום הרביעי לתחרות באזור ירושלים, והפעם האורחים בצור הדסה בערב מהאגדות",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929730/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929730/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 10,
+    "weekName": "ירושלים",
+    "hostingOrder": 5,
+    "title": "פרק 10 - שבוע ירושלים, יום ה' את הערב האחרון לתחרות באזור ירושלים תבלה החבורה במוזיאון של דלילה",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929733/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929733/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 11,
+    "weekName": "תל אביב",
+    "hostingOrder": 1,
+    "title": "פרק 11 - שבוע תל אביב, יום א' את היום הראשון של תחרות הבישול והאירוח באזור תל אביב יפתח זהר",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922439/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922439/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 12,
+    "weekName": "תל אביב",
+    "hostingOrder": 2,
+    "title": "פרק 12 - שבוע תל אביב, יום ב' היום השני של התחרות באזור תל-אביב והערב מארחת יעל, משפיענית מבני ברק",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/931424/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/931424/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 13,
+    "weekName": "תל אביב",
+    "hostingOrder": 3,
+    "title": "פרק 13 - שבוע תל אביב, יום ג' היום השלישי לתחרות בתל אביב והערב מגיעים כולם לבית של חנצ'ה",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 14,
+    "weekName": "תל אביב",
+    "hostingOrder": 4,
+    "title": "פרק 14 - שבוע תל אביב, יום ד' היום הרביעי לתחרות באזור תל אביב, וכולם מוזמנים לצהרון של אתי",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922446/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922446/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 15,
+    "weekName": "תל אביב",
+    "hostingOrder": 5,
+    "title": "פרק 15 - שבוע תל אביב, יום ה' הערב האחרון לתחרות באזור תל אביב הוא ערב חגיגי בסגנון מצרי אצל לינור",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922447/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922447/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 16,
+    "weekName": "השרון והכרמל",
+    "hostingOrder": 1,
+    "title": "פרק 16 - שבוע השרון והכרמל, יום א' הערב תיפגש החבורה בבית של זוכת מדליית הזהב בתחרות הפאראטריאתלון אילנית",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933385/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933385/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 17,
+    "weekName": "השרון והכרמל",
+    "hostingOrder": 2,
+    "title": "פרק 17 - שבוע השרון והכרמל, יום ב' זה היום השני לתחרות הבישול והאירוח באזור השרון והכרמל, היום תארח קארין",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/934395/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/934395/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 18,
+    "weekName": "השרון והכרמל",
+    "hostingOrder": 3,
+    "title": "פרק 18 - שבוע השרון והכרמל, יום ג' היום השלישי לתחרות והערב יגיעו האורחים לאשרם של אורי בדלית אל כרמל",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 19,
+    "weekName": "השרון והכרמל",
+    "hostingOrder": 4,
+    "title": "פרק 19 - שבוע השרון והכרמל, יום ד' יום רביעי בתחרות הבישול באזור השרון והכרמל, היום מארחת מאיה בקציר",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933745/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933745/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 20,
+    "weekName": "השרון והכרמל",
+    "hostingOrder": 5,
+    "title": "פרק 20 - שבוע השרון והכרמל, יום ה' החבורה מבלה אצל אביתר מחדרה בערב האחרון לתחרות באזור השרון והכרמל",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933747/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933747/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 21,
+    "weekName": "חיפה",
+    "hostingOrder": 1,
+    "title": "פרק 21 - שבוע חיפה, יום א' את השבוע הראשון לתחרות באזור חיפה פותחת אבנית בלוגרית טיולים",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937788/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937788/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 22,
+    "weekName": "חיפה",
+    "hostingOrder": 2,
+    "title": "פרק 22 - שבוע חיפה, יום ב' אליאס מואדי ניסנאס יארח לארוחת כריסמס חגיגית במיוחד",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937791/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937791/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 23,
+    "weekName": "חיפה",
+    "hostingOrder": 3,
+    "title": "פרק 23 - שבוע חיפה, יום ג' הערב דניאלה תעביר את האורחים מסע רוחני",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937793/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937793/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 24,
+    "weekName": "חיפה",
+    "hostingOrder": 4,
+    "title": "פרק 24 - שבוע חיפה, יום ד' יום רביעי בתחרות באזור חיפה ומהמארח היום הוא טל, איש חיי הלילה מנשר",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939929/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939929/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
+    "season": 9,
+    "episode": 25,
+    "weekName": "חיפה",
+    "hostingOrder": 5,
+    "title": "פרק 25 - שבוע חיפה, יום ה' פרק אחרון באזור חיפה: הפעם תארח עדי, בעלת סטודיו לריקוד מקרית אתא",
+    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939930/",
+    "source": {
+      "kind": "kan",
+      "title": "כאן 11 — בואו לאכול איתי",
+      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939930/",
+      "note": "Official episode archive; factual metadata and links only"
+    }
+  },
+  {
     "season": 10,
     "episode": 1,
     "weekName": "ירושלים",

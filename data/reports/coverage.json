@@ -5,7 +5,7 @@
     "individualEntries": 235,
     "coupleEntries": 54,
     "withdrawnEntries": 1,
-    "dishes": 313,
+    "dishes": 315,
     "winners": 64,
     "fieldCoverage": {
       "weekName": {
@@ -1187,8 +1187,8 @@
     },
     "menuCoverage": {
       "anyDish": {
-        "count": 92,
-        "percent": 31.8
+        "count": 94,
+        "percent": 32.5
       },
       "threePrimaryCourses": {
         "count": 92,
@@ -1199,18 +1199,19 @@
         "percent": 5.2
       },
       "veganAlternative": {
-        "count": 5,
-        "percent": 1.7
+        "count": 6,
+        "percent": 2.1
       },
       "dishesByCourse": {
         "starter": 107,
         "main": 112,
-        "dessert": 92
+        "dessert": 92,
+        "other": 2
       },
       "dishesByVariant": {
-        "standard": 279,
+        "standard": 280,
         "vegetarian": 24,
-        "vegan": 10,
+        "vegan": 11,
         "alternative": 0
       },
       "missingThreePrimaryCourses": [
@@ -1627,7 +1628,8 @@
         "dishesByCourse": {
           "starter": 56,
           "main": 56,
-          "dessert": 49
+          "dessert": 49,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 148,
@@ -1816,7 +1818,8 @@
         "dishesByCourse": {
           "starter": 47,
           "main": 52,
-          "dessert": 40
+          "dessert": 40,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 122,
@@ -2068,7 +2071,8 @@
         "dishesByCourse": {
           "starter": 0,
           "main": 0,
-          "dessert": 0
+          "dessert": 0,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 0,
@@ -2317,7 +2321,8 @@
         "dishesByCourse": {
           "starter": 0,
           "main": 0,
-          "dessert": 0
+          "dessert": 0,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 0,
@@ -2541,7 +2546,8 @@
         "dishesByCourse": {
           "starter": 0,
           "main": 0,
-          "dessert": 0
+          "dessert": 0,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 0,
@@ -2584,7 +2590,7 @@
       "individualEntries": 30,
       "coupleEntries": 0,
       "withdrawnEntries": 1,
-      "dishes": 3,
+      "dishes": 5,
       "winners": 6,
       "fieldCoverage": {
         "weekName": {
@@ -2776,8 +2782,8 @@
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 1,
-          "percent": 3.3
+          "count": 3,
+          "percent": 10
         },
         "threePrimaryCourses": {
           "count": 1,
@@ -2788,18 +2794,19 @@
           "percent": 0
         },
         "veganAlternative": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 3.3
         },
         "dishesByCourse": {
           "starter": 1,
           "main": 1,
-          "dessert": 1
+          "dessert": 1,
+          "other": 2
         },
         "dishesByVariant": {
-          "standard": 3,
+          "standard": 4,
           "vegetarian": 0,
-          "vegan": 0,
+          "vegan": 1,
           "alternative": 0
         },
         "missingThreePrimaryCourses": [
@@ -3027,7 +3034,8 @@
         "dishesByCourse": {
           "starter": 2,
           "main": 2,
-          "dessert": 1
+          "dessert": 1,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 3,
@@ -3259,7 +3267,8 @@
         "dishesByCourse": {
           "starter": 1,
           "main": 1,
-          "dessert": 1
+          "dessert": 1,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 3,
@@ -3496,7 +3505,8 @@
         "dishesByCourse": {
           "starter": 0,
           "main": 0,
-          "dessert": 0
+          "dessert": 0,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 0,
@@ -3696,7 +3706,8 @@
         "dishesByCourse": {
           "starter": 0,
           "main": 0,
-          "dessert": 0
+          "dessert": 0,
+          "other": 0
         },
         "dishesByVariant": {
           "standard": 0,
@@ -3727,8 +3738,8 @@
   "sourceCounts": {
     "fandom": 90,
     "foodik": 1,
-    "kan": 104,
-    "rest": 2,
+    "kan": 129,
+    "rest": 4,
     "wikipedia": 199
   }
 }

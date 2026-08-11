@@ -69,6 +69,90 @@
     }
   },
   {
+    "slug": "s6-פיני-קריספל",
+    "name": "פיני קריספל",
+    "season": 6,
+    "dishes": [
+      {
+        "course": "other",
+        "variant": "vegan",
+        "label": "מנה טבעונית מתועדת",
+        "name": "המבורגר עם קציצה טבעונית קנויה",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/30900/",
+            "title": "בואו לאכול איתי - ליהוקים מפוהקים על מצע אוכל קנוי",
+            "author": "הבוחשת בקדרה",
+            "note": "Recap explicitly states that Pini prepared a bought vegan-patty hamburger for vegan guest Shalem; the course is not stated, so it is kept unclassified"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "rest",
+        "url": "https://www.rest.co.il/magazine/foodnews/30900/",
+        "title": "בואו לאכול איתי - ליהוקים מפוהקים על מצע אוכל קנוי",
+        "author": "הבוחשת בקדרה",
+        "note": "Recap explicitly states that Pini prepared a bought vegan-patty hamburger for vegan guest Shalem; the course is not stated, so it is kept unclassified"
+      }
+    ],
+    "fieldSources": {
+      "dishes": [
+        {
+          "kind": "rest",
+          "url": "https://www.rest.co.il/magazine/foodnews/30900/",
+          "title": "בואו לאכול איתי - ליהוקים מפוהקים על מצע אוכל קנוי",
+          "author": "הבוחשת בקדרה",
+          "note": "Recap explicitly states that Pini prepared a bought vegan-patty hamburger for vegan guest Shalem; the course is not stated, so it is kept unclassified"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s6-אורן-ברט",
+    "name": "אורן ברט",
+    "season": 6,
+    "dishes": [
+      {
+        "course": "other",
+        "variant": "standard",
+        "label": "מנה מתועדת",
+        "name": "כבד קצוץ בסוויד",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/30904/",
+            "title": "בואו לאכול איתי – אז למה לי פוליטיקה עכשיו?",
+            "author": "הבוחשת בקדרה",
+            "note": "Recap explicitly states that Oren prepared chopped liver sous-vide; the course is not stated, so it is kept unclassified"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "rest",
+        "url": "https://www.rest.co.il/magazine/foodnews/30904/",
+        "title": "בואו לאכול איתי – אז למה לי פוליטיקה עכשיו?",
+        "author": "הבוחשת בקדרה",
+        "note": "Recap explicitly states that Oren prepared chopped liver sous-vide; the course is not stated, so it is kept unclassified"
+      }
+    ],
+    "fieldSources": {
+      "dishes": [
+        {
+          "kind": "rest",
+          "url": "https://www.rest.co.il/magazine/foodnews/30904/",
+          "title": "בואו לאכול איתי – אז למה לי פוליטיקה עכשיו?",
+          "author": "הבוחשת בקדרה",
+          "note": "Recap explicitly states that Oren prepared chopped liver sous-vide; the course is not stated, so it is kept unclassified"
+        }
+      ]
+    }
+  },
+  {
     "slug": "s7-לירון-אלון",
     "name": "לירון אלון",
     "season": 7,
