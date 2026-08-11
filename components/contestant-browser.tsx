@@ -26,6 +26,7 @@ const courseLabels: Record<string, string> = {
   starter: 'ראשונה',
   main: 'עיקרית',
   dessert: 'קינוח',
+  other: 'מנה מתועדת',
 }
 
 const variantLabels: Record<string, string> = {
@@ -81,9 +82,12 @@ function entryLabel(contestant: Contestant) {
 
 function DishLine({ dish }: { dish: Dish }) {
   const variant = variantOf(dish)
-  const label = variant === 'standard'
-    ? courseLabels[dish.course] || dish.label
-    : [courseLabels[dish.course], variantLabels[variant]].filter(Boolean).join(' · ')
+  const baseLabel = dish.course === 'other'
+    ? dish.label || courseLabels[dish.course]
+    : courseLabels[dish.course] || dish.label
+  const label = dish.course === 'other' || variant === 'standard'
+    ? baseLabel
+    : [baseLabel, variantLabels[variant]].filter(Boolean).join(' · ')
 
   return (
     <li>
@@ -178,7 +182,8 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
           {filtered.map((contestant) => {
             const sources = [...new Map(contestant.sources.map((source) => [`${source.kind}:${source.url}`, source])).values()]
             const primaryDishes = contestant.dishes.filter(isPrimaryDish)
-            const alternativeDishes = contestant.dishes.filter((dish) => !isPrimaryDish(dish))
+            const otherDishes = contestant.dishes.filter((dish) => dish.course === 'other')
+            const alternativeDishes = contestant.dishes.filter((dish) => dish.course !== 'other' && !isPrimaryDish(dish))
             return (
               <article className="card contestantCard" key={contestant.slug}>
                 <div className="cardTop">
@@ -218,6 +223,17 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
                     <summary>חלופות בתפריט ({alternativeDishes.length})</summary>
                     <ol className="dishList alternativeDishList">
                       {alternativeDishes.map((dish) => (
+                        <DishLine key={`${dish.course}-${variantOf(dish)}-${dish.name}`} dish={dish} />
+                      ))}
+                    </ol>
+                  </details>
+                )}
+
+                {otherDishes.length > 0 && (
+                  <details className="alternativeMenu">
+                    <summary>מנות נוספות מתועדות ({otherDishes.length})</summary>
+                    <ol className="dishList alternativeDishList">
+                      {otherDishes.map((dish) => (
                         <DishLine key={`${dish.course}-${variantOf(dish)}-${dish.name}`} dish={dish} />
                       ))}
                     </ol>
