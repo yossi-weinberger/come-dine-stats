@@ -198,7 +198,11 @@ export default async function SeasonPage({ params }: PageProps) {
                       <div className="seasonEntryBody">
                         <div className="seasonEntryTitle">
                           <div>
-                            <h3>{entry.name}</h3>
+                            <h3>
+                              <Link className="contestantNameLink" href={`/contestants/${entry.slug}`}>
+                                {entry.name}
+                              </Link>
+                            </h3>
                             <p>
                               {[entryTypeLabel(entry), entry.city, entry.age ? `גיל ${entry.age}` : null, entry.occupation]
                                 .filter(Boolean)
@@ -223,6 +227,10 @@ export default async function SeasonPage({ params }: PageProps) {
                         ) : (
                           <p className="seasonMenuMissing">אין עדיין תפריט מלא מתועד לרשומה הזו.</p>
                         )}
+
+                        <Link className="profileLink" href={`/contestants/${entry.slug}`}>
+                          לפרופיל המלא והמקורות ←
+                        </Link>
 
                         <div className="sourceRow seasonSourceRow" aria-label={`מקורות עבור ${entry.name}`}>
                           <span>מקורות:</span>
