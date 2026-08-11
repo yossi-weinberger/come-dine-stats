@@ -24,7 +24,7 @@ on:
       - 'scripts/update-readme-stats.ts'
       - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
-      - 'data/supplemental/menus.json'
+      - 'data/supplemental/menus*.json'
       - 'data/supplemental/profiles*.json'
       - 'package.json'
 

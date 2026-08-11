@@ -9,12 +9,16 @@ Allowed:
 - explicit vegetarian/vegan alternatives
 - short factual descriptions needed to identify the dish
 - direct source URL on every imported dish
+- a clearly served dish whose course is not stated, stored as `other` rather than guessing the course
 
 Not allowed:
 - inferring three dishes from a cuisine label (e.g. "Mexican meal")
 - turning a passing mention into a course
 - copying recipe instructions, ingredients, images or long article prose
 - filling missing courses by guesswork
+- treating a partial-menu source as a complete three-course menu
+
+Supplemental menu evidence may be split across `data/supplemental/menus*.json` files. The importer validates and combines every batch, which keeps reviewed research additions small and auditable.
 
 ## Imported in the first pass
 
@@ -47,8 +51,24 @@ REST's opening-episode recap explicitly lists the three-course diner menu:
 - main: יוסף המרושל — בולונז בתוך ג'בטה ביתית
 - dessert: וופל אמריקאי עם פופקורן
 
+## Partial-menu evidence added on 2026-08-11
+
+Ynet's season 6 winners interview explicitly identifies several dishes that were served, but does not provide complete menus. These are therefore imported only at the supported granularity:
+
+- רוני ברון — סביצ'ה (`other`; course not stated)
+- אביעד בללי — קובה סלק בלי קובה (`main`; explicitly called the main course)
+- יעל צין — צ'ולנט (`other`; course not stated)
+
+Source: https://www.ynet.co.il/entertainment/article/s1ffezdbs
+
+Ynet's season 8 winners interview explicitly refers to ריטה ליפשיץ's פירה as a dish viewers saw in her season. Its course is not stated, so it is imported as `other`.
+
+Source: https://www.ynet.co.il/entertainment/article/yokra14045224
+
+These partial rows increase factual dish coverage but intentionally do **not** increase the complete-three-course-menu metric.
+
 ## Leads not imported as complete menus
 
 REST also published weekly season 6 recaps, but most mention only selected dishes or general cuisine styles. These pages remain research leads and should not be converted into complete menus unless each course is explicitly supported.
 
-Third-party episode databases sometimes contain labels such as "Mexican", "vegetarian" or a single dish. These are not sufficient evidence for a three-course menu and are not imported in this pass.
+Third-party episode databases sometimes contain labels such as "Mexican", "vegetarian" or a single dish. These are research leads only; they are not sufficient evidence for a three-course menu and are not used as the factual source when a first-party or direct editorial source can be found.
