@@ -642,5 +642,113 @@
         }
       ]
     }
+  },
+  {
+    "slug": "s7-אבינועם-נתנאל",
+    "name": "אבינועם נתנאל",
+    "season": 7,
+    "occupation": "יהלומן",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/bkgsdxu56",
+        "title": "ynet — היו ימים שישנתי עם סכין. ואז הבנתי שאני חייבת להתמודד עם הפחד",
+        "author": "סמדר שילוני",
+        "note": "Interview with his daughter explicitly identifies Avinoam Nathanel as a diamond dealer and a season 7 Come Dine With Me participant."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/bkgsdxu56",
+          "title": "ynet — היו ימים שישנתי עם סכין. ואז הבנתי שאני חייבת להתמודד עם הפחד",
+          "author": "סמדר שילוני",
+          "note": "Interview with his daughter explicitly identifies Avinoam Nathanel as a diamond dealer and a season 7 Come Dine With Me participant."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s7-אוליבר-רוס",
+    "name": "אוליבר רוס",
+    "season": 7,
+    "occupation": "יועץ משכנתאות ומשורר חובב",
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+        "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+        "author": "לורי שטטמאור",
+        "note": "Season 7 coverage explicitly identifies Oliver Ross as a mortgage adviser and amateur poet from the northern group."
+      }
+    ],
+    "fieldSources": {
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+          "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+          "author": "לורי שטטמאור",
+          "note": "Season 7 coverage explicitly identifies Oliver Ross as a mortgage adviser and amateur poet from the northern group."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s7-סיוון-קנטי-אביטן",
+    "name": "סיוון קנטי אביטן",
+    "season": 7,
+    "age": 38,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://rishon.mynet.co.il/gossip/article/h17sc007s3",
+        "title": "mynet ראשון — אחרי המדריך לרווקה, השדכנית מראשל״צ תשגע אתכם בריאליטי",
+        "author": "חופית כהן-אולאי",
+        "note": "Pre-season interview explicitly states Kanti Avitan is 38 and identifies her as a season 7 Come Dine With Me participant."
+      }
+    ],
+    "fieldSources": {
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://rishon.mynet.co.il/gossip/article/h17sc007s3",
+          "title": "mynet ראשון — אחרי המדריך לרווקה, השדכנית מראשל״צ תשגע אתכם בריאליטי",
+          "author": "חופית כהן-אולאי",
+          "note": "Pre-season interview explicitly states Kanti Avitan is 38 and identifies her as a season 7 Come Dine With Me participant."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s8-עמנואל-יצחק-לוי",
+    "name": "עמנואל יצחק לוי",
+    "season": 8,
+    "age": 29,
+    "dishes": [],
+    "sources": [
+      {
+        "kind": "manual",
+        "url": "https://www.calcalist.co.il/style/article/h1fua7ohr",
+        "title": "כלכליסט — דווקא מוזיקאי דתי צריך לשיר על סקס וחייזרים",
+        "author": "מאיה נחום שחל",
+        "note": "September 2024 interview states Levy is 29 and had recently participated in Come Dine With Me."
+      }
+    ],
+    "fieldSources": {
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.calcalist.co.il/style/article/h1fua7ohr",
+          "title": "כלכליסט — דווקא מוזיקאי דתי צריך לשיר על סקס וחייזרים",
+          "author": "מאיה נחום שחל",
+          "note": "September 2024 interview states Levy is 29 and had recently participated in Come Dine With Me."
+        }
+      ]
+    }
   }
 ]

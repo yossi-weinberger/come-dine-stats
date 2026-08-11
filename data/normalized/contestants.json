@@ -36129,6 +36129,13 @@
         "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
         "author": "לורי שטטמאור",
         "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker."
+      },
+      {
+        "kind": "manual",
+        "url": "https://rishon.mynet.co.il/gossip/article/h17sc007s3",
+        "title": "mynet ראשון — אחרי המדריך לרווקה, השדכנית מראשל״צ תשגע אתכם בריאליטי",
+        "author": "חופית כהן-אולאי",
+        "note": "Pre-season interview explicitly states Kanti Avitan is 38 and identifies her as a season 7 Come Dine With Me participant."
       }
     ],
     "fieldSources": {
@@ -36262,7 +36269,15 @@
           "note": "Imported from revision 43542951; factual competition metadata with revision-level attribution"
         }
       ],
-      "age": [],
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://rishon.mynet.co.il/gossip/article/h17sc007s3",
+          "title": "mynet ראשון — אחרי המדריך לרווקה, השדכנית מראשל״צ תשגע אתכם בריאליטי",
+          "author": "חופית כהן-אולאי",
+          "note": "Pre-season interview explicitly states Kanti Avitan is 38 and identifies her as a season 7 Come Dine With Me participant."
+        }
+      ],
       "region": [],
       "occupation": [
         {
@@ -36280,7 +36295,8 @@
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439431/"
     ],
-    "occupation": "שדכנית"
+    "occupation": "שדכנית",
+    "age": 38
   },
   {
     "slug": "s7-קרן-בר-לב",
@@ -38816,6 +38832,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/457502/",
         "note": "Official Kan episode 20; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+        "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+        "author": "לורי שטטמאור",
+        "note": "Season 7 coverage explicitly identifies Oliver Ross as a mortgage adviser and amateur poet from the northern group."
       }
     ],
     "fieldSources": {
@@ -38951,14 +38974,23 @@
       ],
       "age": [],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
+          "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
+          "author": "לורי שטטמאור",
+          "note": "Season 7 coverage explicitly identifies Oliver Ross as a mortgage adviser and amateur poet from the northern group."
+        }
+      ],
       "gender": [],
       "diet": [],
       "placement": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/457502/"
-    ]
+    ],
+    "occupation": "יועץ משכנתאות ומשורר חובב"
   },
   {
     "slug": "s7-רובי-טשרניחובסקי",
@@ -39711,6 +39743,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469803/",
         "note": "Official Kan episode 25; host matched by structured hosting order"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.ynet.co.il/entertainment/article/bkgsdxu56",
+        "title": "ynet — היו ימים שישנתי עם סכין. ואז הבנתי שאני חייבת להתמודד עם הפחד",
+        "author": "סמדר שילוני",
+        "note": "Interview with his daughter explicitly identifies Avinoam Nathanel as a diamond dealer and a season 7 Come Dine With Me participant."
       }
     ],
     "fieldSources": {
@@ -39846,14 +39885,23 @@
       ],
       "age": [],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "manual",
+          "url": "https://www.ynet.co.il/entertainment/article/bkgsdxu56",
+          "title": "ynet — היו ימים שישנתי עם סכין. ואז הבנתי שאני חייבת להתמודד עם הפחד",
+          "author": "סמדר שילוני",
+          "note": "Interview with his daughter explicitly identifies Avinoam Nathanel as a diamond dealer and a season 7 Come Dine With Me participant."
+        }
+      ],
       "gender": [],
       "diet": [],
       "score": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469803/"
-    ]
+    ],
+    "occupation": "יהלומן"
   },
   {
     "slug": "s8-ענבל-אהרון-אזרד",
@@ -43158,6 +43206,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
         "note": "Official Kan episode 18; city extracted from an explicit host-local location phrase"
+      },
+      {
+        "kind": "manual",
+        "url": "https://www.calcalist.co.il/style/article/h1fua7ohr",
+        "title": "כלכליסט — דווקא מוזיקאי דתי צריך לשיר על סקס וחייזרים",
+        "author": "מאיה נחום שחל",
+        "note": "September 2024 interview states Levy is 29 and had recently participated in Come Dine With Me."
       }
     ],
     "fieldSources": {
@@ -43271,7 +43326,15 @@
           "note": "Imported from revision 43526339; factual competition metadata with revision-level attribution"
         }
       ],
-      "age": [],
+      "age": [
+        {
+          "kind": "manual",
+          "url": "https://www.calcalist.co.il/style/article/h1fua7ohr",
+          "title": "כלכליסט — דווקא מוזיקאי דתי צריך לשיר על סקס וחייזרים",
+          "author": "מאיה נחום שחל",
+          "note": "September 2024 interview states Levy is 29 and had recently participated in Come Dine With Me."
+        }
+      ],
       "city": [
         {
           "kind": "kan",
@@ -43306,6 +43369,7 @@
     ],
     "city": "תל אביב",
     "occupation": "מורה לתנ\"ך וסולן להקה",
+    "age": 29,
     "placement": 5
   },
   {
