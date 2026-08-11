@@ -4,7 +4,7 @@ import type { Contestant, Dish, SourceRef } from '../lib/types'
 const normalizedDir = new URL('../data/normalized/', import.meta.url)
 const reportsDir = new URL('../data/reports/', import.meta.url)
 const sourcePriority: Record<string, number> = { manual: 50, kan: 40, foodik: 38, wikipedia: 35, fandom: 30, rest: 28, wayback: 20, legacy: 10, derived: 0 }
-const scalarFields = ['entryType','members','status','week','weekName','hostingOrder','age','city','region','occupation','relationshipStatus','gender','diet','score','placement','winner'] as const
+const scalarFields = ['entryType','members','status','week','weekName','hostingOrder','age','city','region','occupation','relationshipStatus','gender','diet','score','scoreBeforeAdjustment','placement','winner'] as const
 
 const derivedPlacementSource: SourceRef = {
   kind: 'derived',
@@ -20,7 +20,7 @@ type Refinement = Conflict & {
   relation: 'incoming-more-specific' | 'existing-more-specific'
   preferredValue: unknown
 }
-type PlacementSkipReason = 'insufficient-entries' | 'missing-score' | 'score-tie' | 'known-placement-mismatch'
+type PlacementSkipReason = 'insufficient-entries' | 'missing-score' | 'score-tie' | 'known-placement-mismatch' | 'exceptional-week'
 type PlacementDerivationReport = {
   rule: string
   completeWeeks: number
@@ -31,7 +31,7 @@ type PlacementDerivationReport = {
     season: number
     week: number
     reason: PlacementSkipReason
-    entries: Array<{ name: string; score?: number; placement?: number }>
+    entries: Array<{ name: string; status?: Contestant['status']; score?: number; placement?: number }>
   }>
 }
 
@@ -162,16 +162,20 @@ function mergeContestant(base: Contestant, incoming: Contestant, conflicts: Conf
   return merged
 }
 
+function isCompetitionActive(entry: Contestant) {
+  return entry.status !== 'guest' && entry.status !== 'withdrawn' && entry.status !== 'disqualified'
+}
+
 function derivePlacements(entries: Contestant[]): PlacementDerivationReport {
   const weeks = new Map<string, Contestant[]>()
   for (const entry of entries) {
-    if (entry.week == null || entry.status === 'guest' || entry.status === 'withdrawn') continue
+    if (entry.week == null) continue
     const key = `${entry.season}:${entry.week}`
     weeks.set(key, [...(weeks.get(key) ?? []), entry])
   }
 
   const report: PlacementDerivationReport = {
-    rule: 'Derive score-order placement only for weeks with at least two active entries, complete scores, no tied scores, and no disagreement with any sourced placement already present.',
+    rule: 'Derive score-order placement only for ordinary weeks with at least two active entries, complete scores, no tied scores, and no disagreement with any sourced placement already present. Weeks containing disqualified contestants are treated as exceptional and skipped.',
     completeWeeks: 0,
     derivedEntries: 0,
     validatedExistingEntries: 0,
@@ -179,23 +183,29 @@ function derivePlacements(entries: Contestant[]): PlacementDerivationReport {
     skippedWeeks: [],
   }
 
-  for (const group of weeks.values()) {
-    const season = group[0].season
-    const week = group[0].week as number
-    const snapshot = () => group.map(({ name, score, placement }) => ({ name, score, placement }))
+  for (const allEntries of weeks.values()) {
+    const season = allEntries[0].season
+    const week = allEntries[0].week as number
+    const snapshot = (group = allEntries) => group.map(({ name, status, score, placement }) => ({ name, status, score, placement }))
 
+    if (allEntries.some((entry) => entry.status === 'disqualified')) {
+      report.skippedWeeks.push({ season, week, reason: 'exceptional-week', entries: snapshot() })
+      continue
+    }
+
+    const group = allEntries.filter(isCompetitionActive)
     if (group.length < 2) {
-      report.skippedWeeks.push({ season, week, reason: 'insufficient-entries', entries: snapshot() })
+      report.skippedWeeks.push({ season, week, reason: 'insufficient-entries', entries: snapshot(group) })
       continue
     }
     if (group.some((entry) => typeof entry.score !== 'number')) {
-      report.skippedWeeks.push({ season, week, reason: 'missing-score', entries: snapshot() })
+      report.skippedWeeks.push({ season, week, reason: 'missing-score', entries: snapshot(group) })
       continue
     }
 
     const scores = group.map((entry) => entry.score as number)
     if (new Set(scores).size !== scores.length) {
-      report.skippedWeeks.push({ season, week, reason: 'score-tie', entries: snapshot() })
+      report.skippedWeeks.push({ season, week, reason: 'score-tie', entries: snapshot(group) })
       continue
     }
 
@@ -203,7 +213,7 @@ function derivePlacements(entries: Contestant[]): PlacementDerivationReport {
     const rankByKey = new Map(ranked.map((entry, index) => [entityKey(entry), index + 1]))
     const mismatched = group.filter((entry) => entry.placement != null && entry.placement !== rankByKey.get(entityKey(entry)))
     if (mismatched.length) {
-      report.skippedWeeks.push({ season, week, reason: 'known-placement-mismatch', entries: snapshot() })
+      report.skippedWeeks.push({ season, week, reason: 'known-placement-mismatch', entries: snapshot(group) })
       continue
     }
 

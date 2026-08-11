@@ -28,5 +28,8 @@ jobs:
       - name: Typecheck
         run: npm run lint
 
+      - name: Data health
+        run: npm run health
+
       - name: Build
         run: npm run build
