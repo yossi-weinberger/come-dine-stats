@@ -1,5 +1,5 @@
 {
-  "rule": "Derive score-order placement only for weeks with at least two active entries, complete scores, no tied scores, and no disagreement with any sourced placement already present.",
+  "rule": "Derive score-order placement only for ordinary weeks with at least two active entries, complete scores, no tied scores, and no disagreement with any sourced placement already present. Weeks containing disqualified contestants are treated as exceptional and skipped.",
   "completeWeeks": 12,
   "derivedEntries": 27,
   "validatedExistingEntries": 32,
@@ -617,14 +617,17 @@
       "entries": [
         {
           "name": "רועי עידן וחגית השמשוני",
+          "status": "active",
           "score": 28
         },
         {
           "name": "רונית נוביק ואייל גראד",
+          "status": "active",
           "score": 25
         },
         {
           "name": "עבד ואיסרא זיתונא",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -636,15 +639,18 @@
       "entries": [
         {
           "name": "חיים ואצילה גרשון",
+          "status": "active",
           "score": 33,
           "placement": 1
         },
         {
           "name": "ליאת זיוון ודרור תמיר",
+          "status": "active",
           "score": 21
         },
         {
           "name": "שמעון ויוליה נחמני",
+          "status": "active",
           "placement": 2
         }
       ]
@@ -656,14 +662,17 @@
       "entries": [
         {
           "name": "מירי אור סעדון ודורון סעדון",
+          "status": "active",
           "score": 26
         },
         {
           "name": "דוד הכהן ורון ירושלמי",
+          "status": "active",
           "score": 26
         },
         {
           "name": "קרן וחיים פרלמן",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -675,14 +684,17 @@
       "entries": [
         {
           "name": "ענבל ושניר רובין",
+          "status": "active",
           "score": 24
         },
         {
           "name": "עמליה ואסף",
+          "status": "active",
           "score": 25
         },
         {
           "name": "ספיר וג'וזף",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -694,15 +706,18 @@
       "entries": [
         {
           "name": "ישראל וימית סיליק",
+          "status": "active",
           "score": 28,
           "placement": 1
         },
         {
           "name": "ארתור וייט וג'ול באום",
+          "status": "active",
           "score": 15
         },
         {
           "name": "ליאל דבח וליאור צ'רכי",
+          "status": "active",
           "score": 28
         }
       ]
@@ -714,15 +729,18 @@
       "entries": [
         {
           "name": "אושר והילה עטיה",
+          "status": "active",
           "score": 25
         },
         {
           "name": "מירי ומוטי גורדון",
+          "status": "active",
           "score": 29,
           "placement": 1
         },
         {
           "name": "אלעזר ושושנה קרבסי",
+          "status": "active",
           "score": 25
         }
       ]
@@ -734,14 +752,17 @@
       "entries": [
         {
           "name": "אורית בלוך ושחר מזור",
+          "status": "active",
           "score": 26
         },
         {
           "name": "אורלי וישגב גלבוע",
+          "status": "active",
           "score": 28
         },
         {
           "name": "רוני וגלית להב",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -753,14 +774,17 @@
       "entries": [
         {
           "name": "לימור וסיגל",
+          "status": "active",
           "score": 31
         },
         {
           "name": "אלכס וסווארופ",
+          "status": "active",
           "score": 23
         },
         {
           "name": "רקפת ויעל",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -772,14 +796,17 @@
       "entries": [
         {
           "name": "אבירם וסקיי",
+          "status": "active",
           "score": 29
         },
         {
           "name": "סימה ואביחי דהן",
+          "status": "active",
           "score": 28
         },
         {
           "name": "סיגלית גוסטר ושלמה אבוטבול",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -791,15 +818,18 @@
       "entries": [
         {
           "name": "גיא הררי ואביב קליין",
+          "status": "active",
           "score": 26
         },
         {
           "name": "רון וירדנה הרוש",
+          "status": "active",
           "score": 27,
           "placement": 1
         },
         {
           "name": "ויקי בליומין ונועם ברדה",
+          "status": "active",
           "placement": 3
         }
       ]
@@ -811,15 +841,18 @@
       "entries": [
         {
           "name": "אלי דודאי ונדב פרץ",
+          "status": "active",
           "score": 26,
           "placement": 1
         },
         {
           "name": "חן ברמי וענר זקוביץ'",
+          "status": "active",
           "score": 25
         },
         {
           "name": "אבי ואודליה סויסה",
+          "status": "active",
           "score": 26
         }
       ]
@@ -831,15 +864,18 @@
       "entries": [
         {
           "name": "ויויאן וז'אק בזק",
+          "status": "active",
           "score": 27,
           "placement": 1
         },
         {
           "name": "עמית ושירלי צוק",
+          "status": "active",
           "score": 23
         },
         {
           "name": "ניצן זך ושירן זך כהן",
+          "status": "active",
           "score": 23
         }
       ]
@@ -851,15 +887,18 @@
       "entries": [
         {
           "name": "פלג בכור ולילך רודני",
+          "status": "active",
           "score": 25,
           "placement": 1
         },
         {
           "name": "כריסי וארנון יהב",
+          "status": "active",
           "score": 20
         },
         {
           "name": "אביבה ויחיאל חזן",
+          "status": "active",
           "placement": 2
         }
       ]
@@ -871,15 +910,18 @@
       "entries": [
         {
           "name": "יואב ודודי",
+          "status": "active",
           "score": 26
         },
         {
           "name": "ורד וצחי",
+          "status": "active",
           "score": 33,
           "placement": 1
         },
         {
           "name": "מריאז' ורייצ'ל",
+          "status": "active",
           "placement": 2
         }
       ]
@@ -891,15 +933,18 @@
       "entries": [
         {
           "name": "הדר יוסיפון ואלה קלמי",
+          "status": "active",
           "score": 30,
           "placement": 1
         },
         {
           "name": "נילי ברנע וארנון נתן",
+          "status": "active",
           "score": 26
         },
         {
           "name": "קובי אפלבוים ולנה אגרנוביץ'",
+          "status": "active",
           "placement": 3
         }
       ]
@@ -911,15 +956,18 @@
       "entries": [
         {
           "name": "עוז ודעי ואהרון בילק",
+          "status": "active",
           "score": 28,
           "placement": 1
         },
         {
           "name": "ספיר ואברהם בלוך",
+          "status": "active",
           "score": 20
         },
         {
           "name": "אושרי כהן וליאת חי טל",
+          "status": "active",
           "placement": 2
         }
       ]
@@ -931,14 +979,17 @@
       "entries": [
         {
           "name": "איריס ורחלי ג'וי",
+          "status": "active",
           "score": 24
         },
         {
           "name": "חגי מדי וגל שימרון",
+          "status": "active",
           "score": 25
         },
         {
           "name": "תימור כהן וקובי פלשמן",
+          "status": "active",
           "score": 25,
           "placement": 1
         }
@@ -951,14 +1002,17 @@
       "entries": [
         {
           "name": "מור ודן ציפורי",
+          "status": "active",
           "score": 27
         },
         {
           "name": "עמוס ארליך וטלי רויטנברג",
+          "status": "active",
           "score": 29
         },
         {
           "name": "לירז ויוסי כהן",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -970,23 +1024,28 @@
       "entries": [
         {
           "name": "חנה בן שימול",
+          "status": "active",
           "score": 33,
           "placement": 1
         },
         {
           "name": "עימראן עיאדה",
+          "status": "active",
           "score": 26
         },
         {
           "name": "שרין אברהם",
+          "status": "active",
           "score": 28
         },
         {
           "name": "אריאל סולומון",
+          "status": "active",
           "score": 26
         },
         {
           "name": "ינה קליפר",
+          "status": "active",
           "score": 33
         }
       ]
@@ -998,22 +1057,27 @@
       "entries": [
         {
           "name": "אבי אמר",
+          "status": "active",
           "score": 29
         },
         {
           "name": "ענבל אלנקווה",
+          "status": "active",
           "score": 28
         },
         {
           "name": "אלכס שולץ",
+          "status": "active",
           "score": 25
         },
         {
           "name": "אורן מלכה",
+          "status": "active",
           "score": 27
         },
         {
           "name": "ספאא זהר אל דין פרחאת",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -1025,23 +1089,28 @@
       "entries": [
         {
           "name": "אורפז אמסלם דהן",
+          "status": "active",
           "score": 30
         },
         {
           "name": "עודד דואר",
+          "status": "active",
           "score": 22
         },
         {
           "name": "שחר חן",
+          "status": "active",
           "score": 30,
           "placement": 1
         },
         {
           "name": "שמרי שקד מאור",
+          "status": "active",
           "score": 24
         },
         {
           "name": "חני בוהדנה",
+          "status": "active",
           "score": 26
         }
       ]
@@ -1053,23 +1122,28 @@
       "entries": [
         {
           "name": "קרין אלקונין",
+          "status": "active",
           "score": 27
         },
         {
           "name": "סופיה (סופי) דביר",
+          "status": "active",
           "score": 30
         },
         {
           "name": "אילנה אביגל",
+          "status": "active",
           "score": 34,
           "placement": 1
         },
         {
           "name": "עודד אסגו",
+          "status": "active",
           "score": 29
         },
         {
           "name": "רוני ברון",
+          "status": "active",
           "score": 27
         }
       ]
@@ -1081,23 +1155,28 @@
       "entries": [
         {
           "name": "פיני קריספל",
+          "status": "active",
           "score": 26
         },
         {
           "name": "ברוריה פסטרנק-שביט",
+          "status": "active",
           "score": 30,
           "placement": 1
         },
         {
           "name": "אריק פינקלברג",
+          "status": "active",
           "score": 29
         },
         {
           "name": "שלם מושעיהו",
+          "status": "active",
           "score": 29
         },
         {
           "name": "יעל צין",
+          "status": "active",
           "score": 30
         }
       ]
@@ -1109,23 +1188,28 @@
       "entries": [
         {
           "name": "מחמוד (מודי) צפורי",
+          "status": "active",
           "score": 29
         },
         {
           "name": "רבקה לפאיר",
+          "status": "active",
           "score": 22
         },
         {
           "name": "שרון בוננו",
+          "status": "active",
           "score": 33,
           "placement": 1
         },
         {
           "name": "גאלה רחמילביץ'",
+          "status": "active",
           "score": 31
         },
         {
           "name": "אורן ברט",
+          "status": "active",
           "placement": 4
         }
       ]
@@ -1137,22 +1221,27 @@
       "entries": [
         {
           "name": "יהודית קונפורטי",
+          "status": "active",
           "score": 28
         },
         {
           "name": "אלה ורמה",
+          "status": "active",
           "score": 26
         },
         {
           "name": "סיוון כהן",
+          "status": "active",
           "score": 23
         },
         {
           "name": "אביעד בללי",
+          "status": "active",
           "score": 26
         },
         {
           "name": "גל אלון",
+          "status": "active",
           "score": 34,
           "placement": 1
         }
@@ -1165,23 +1254,28 @@
       "entries": [
         {
           "name": "סיוון קנטי אביטן",
+          "status": "active",
           "score": 29
         },
         {
           "name": "קרן בר לב",
+          "status": "active",
           "score": 29
         },
         {
           "name": "בן טרומן",
+          "status": "active",
           "score": 34,
           "placement": 1
         },
         {
           "name": "דני סימון",
+          "status": "active",
           "score": 27
         },
         {
           "name": "מיה דגן",
+          "status": "active",
           "placement": 2
         }
       ]
@@ -1193,23 +1287,28 @@
       "entries": [
         {
           "name": "טל רוזנבך שמעיה",
+          "status": "active",
           "score": 29
         },
         {
           "name": "עומר צוברי",
+          "status": "active",
           "score": 17
         },
         {
           "name": "מירב סעדו",
+          "status": "active",
           "score": 35,
           "placement": 1
         },
         {
           "name": "יעל בן חביב",
+          "status": "active",
           "score": 28
         },
         {
           "name": "דובי לוי",
+          "status": "active",
           "placement": 4
         }
       ]
@@ -1221,23 +1320,28 @@
       "entries": [
         {
           "name": "ענבל פיניאן",
+          "status": "active",
           "score": 28
         },
         {
           "name": "אביטל מגן",
+          "status": "active",
           "score": 22
         },
         {
           "name": "לימור שובל",
+          "status": "active",
           "score": 26
         },
         {
           "name": "יובל ברנדס",
+          "status": "active",
           "score": 32,
           "placement": 1
         },
         {
           "name": "אוליבר רוס",
+          "status": "active",
           "score": 28
         }
       ]
@@ -1249,23 +1353,28 @@
       "entries": [
         {
           "name": "רובי טשרניחובסקי",
+          "status": "active",
           "score": 26
         },
         {
           "name": "רועי אלעני",
+          "status": "active",
           "score": 37,
           "placement": 1
         },
         {
           "name": "שלי אבנשטיין",
+          "status": "active",
           "score": 29
         },
         {
           "name": "אסף איפרגן",
+          "status": "active",
           "score": 27
         },
         {
           "name": "אבינועם נתנאל",
+          "status": "active",
           "placement": 2
         }
       ]
@@ -1277,23 +1386,28 @@
       "entries": [
         {
           "name": "ענבל אהרון אזרד",
+          "status": "active",
           "score": 28
         },
         {
           "name": "מעיין מיזן",
+          "status": "active",
           "score": 29
         },
         {
           "name": "אחיה זלייט",
+          "status": "active",
           "score": 35,
           "placement": 1
         },
         {
           "name": "איתמר גרובר",
+          "status": "active",
           "score": 29
         },
         {
           "name": "דנה כהן הלוי",
+          "status": "active",
           "score": 29
         }
       ]
@@ -1305,23 +1419,28 @@
       "entries": [
         {
           "name": "לבנה שיפמן",
+          "status": "active",
           "score": 25
         },
         {
           "name": "יפה חסידים",
+          "status": "active",
           "score": 27
         },
         {
           "name": "יוסל'ה זיו",
+          "status": "active",
           "score": 35,
           "placement": 1
         },
         {
           "name": "קארי בר כהן",
+          "status": "active",
           "score": 30
         },
         {
           "name": "יהונתן מקרוב",
+          "status": "active",
           "score": 30
         }
       ]
@@ -1333,22 +1452,27 @@
       "entries": [
         {
           "name": "עדן כהן",
+          "status": "active",
           "score": 27
         },
         {
           "name": "לואר עמור",
+          "status": "active",
           "score": 30
         },
         {
           "name": "אייל עובדיה",
+          "status": "active",
           "score": 24
         },
         {
           "name": "אדי בן סימון",
+          "status": "active",
           "score": 30
         },
         {
           "name": "לינוי דסה",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -1360,23 +1484,28 @@
       "entries": [
         {
           "name": "קמילה קידר",
+          "status": "active",
           "score": 30
         },
         {
           "name": "יובל ארוש",
+          "status": "active",
           "score": 33,
           "placement": 1
         },
         {
           "name": "ירדן שלי נקים",
+          "status": "active",
           "score": 30
         },
         {
           "name": "שירה ניר",
+          "status": "active",
           "score": 31
         },
         {
           "name": "עודד קב",
+          "status": "active",
           "placement": 5
         }
       ]
@@ -1388,23 +1517,28 @@
       "entries": [
         {
           "name": "חננאל אמיתי",
+          "status": "active",
           "score": 28
         },
         {
           "name": "כרמית תא שמע",
+          "status": "active",
           "score": 30
         },
         {
           "name": "רוני אילוז",
+          "status": "active",
           "score": 31
         },
         {
           "name": "תום בייקין אוחיון",
+          "status": "active",
           "score": 33,
           "placement": 1
         },
         {
           "name": "דלילה שמש",
+          "status": "active",
           "score": 31
         }
       ]
@@ -1416,22 +1550,27 @@
       "entries": [
         {
           "name": "זהר יוספיאן",
+          "status": "active",
           "score": 28
         },
         {
           "name": "יעל זילברמן",
+          "status": "active",
           "score": 24
         },
         {
           "name": "חן (חנצ'ה) יאיר",
+          "status": "active",
           "score": 29
         },
         {
           "name": "אתי גלבוע",
+          "status": "active",
           "score": 27
         },
         {
           "name": "לינור אברג'ל",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -1443,22 +1582,27 @@
       "entries": [
         {
           "name": "אילנית יורמן",
+          "status": "active",
           "score": 25
         },
         {
           "name": "קארין מקס",
+          "status": "active",
           "score": 28
         },
         {
           "name": "אורי זיצ'ק",
+          "status": "active",
           "score": 29
         },
         {
           "name": "מאיה לב קורן",
+          "status": "active",
           "score": 30
         },
         {
           "name": "אביתר בן פורת",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -1470,22 +1614,27 @@
       "entries": [
         {
           "name": "אבנית סטרולוב",
+          "status": "active",
           "score": 28
         },
         {
           "name": "אליאס עבוד",
+          "status": "active",
           "score": 25
         },
         {
           "name": "אוניקה אלנה דניאלה",
+          "status": "active",
           "score": 27
         },
         {
           "name": "טל הרוש",
+          "status": "active",
           "score": 29
         },
         {
           "name": "עדי ויצמן אסולין",
+          "status": "active",
           "placement": 1
         }
       ]
@@ -1497,23 +1646,28 @@
       "entries": [
         {
           "name": "רועי גולן",
+          "status": "active",
           "score": 29
         },
         {
           "name": "אדם גוזלן",
+          "status": "active",
           "score": 26
         },
         {
           "name": "יגאל טמיר",
+          "status": "active",
           "score": 28
         },
         {
           "name": "חיה לב",
+          "status": "active",
           "score": 30,
           "placement": 1
         },
         {
           "name": "ניקול אלטשולר",
+          "status": "active",
           "placement": 5
         }
       ]
@@ -1525,22 +1679,27 @@
       "entries": [
         {
           "name": "איריס אלוג",
+          "status": "active",
           "score": 32
         },
         {
           "name": "יריב אגוזי",
+          "status": "active",
           "score": 32
         },
         {
           "name": "ליהי קימורה",
+          "status": "active",
           "score": 27
         },
         {
           "name": "זהר גורמס",
+          "status": "active",
           "score": 31
         },
         {
           "name": "דניאל דריי",
+          "status": "active",
           "score": 31
         }
       ]
@@ -1552,22 +1711,27 @@
       "entries": [
         {
           "name": "עליזה אלקיים עבאדי",
+          "status": "active",
           "score": 27
         },
         {
           "name": "רוני פליישר",
+          "status": "active",
           "score": 33
         },
         {
           "name": "אבינעם שמעון",
+          "status": "active",
           "score": 28
         },
         {
           "name": "מירן הולדשטיין",
+          "status": "active",
           "score": 28
         },
         {
           "name": "אלירן בוחבוט",
+          "status": "active",
           "placement": 1
         }
       ]

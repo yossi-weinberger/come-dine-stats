@@ -346,6 +346,7 @@
           "note": "Direct article link preserved for attribution"
         }
       ],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "fandom",
@@ -2843,7 +2844,8 @@
       ],
       "region": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [],
     "age": 41
@@ -10248,6 +10250,7 @@
           "note": "Direct article link preserved for attribution"
         }
       ],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "fandom",
@@ -24789,6 +24792,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -24982,6 +24986,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -25190,6 +25195,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -25394,7 +25400,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133006/"
@@ -25579,6 +25586,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -25772,6 +25780,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -25965,6 +25974,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -26158,6 +26168,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -26361,7 +26372,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133682/"
@@ -26546,6 +26558,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -26749,7 +26762,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134067/"
@@ -26934,6 +26948,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -27119,6 +27134,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -27304,6 +27320,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -27489,6 +27506,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -27681,6 +27699,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -27886,7 +27905,8 @@
       ],
       "relationshipStatus": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134171/"
@@ -28074,6 +28094,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -28267,6 +28288,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -28450,6 +28472,7 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -28643,6 +28666,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -28828,6 +28852,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -29013,6 +29038,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -29198,6 +29224,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -29383,7 +29410,8 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134187/"
@@ -29568,6 +29596,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -29753,6 +29782,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -30005,7 +30035,8 @@
         }
       ],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148391/"
@@ -30191,6 +30222,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -30376,6 +30408,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -30561,6 +30594,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -30746,6 +30780,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -30956,7 +30991,8 @@
         }
       ],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148562/"
@@ -31132,6 +31168,7 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -31340,6 +31377,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -31545,6 +31583,7 @@
           "note": "Official Kan episode 11; host matched by structured hosting order"
         }
       ],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -31752,7 +31791,8 @@
         }
       ],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148997/"
@@ -31928,6 +31968,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -32113,6 +32154,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -32336,6 +32378,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -32522,6 +32565,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -32707,6 +32751,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -32922,7 +32967,8 @@
         }
       ],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149375/"
@@ -33109,6 +33155,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -33317,7 +33364,8 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149381/"
@@ -33504,6 +33552,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -33691,6 +33740,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -33876,6 +33926,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -34090,6 +34141,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -34301,7 +34353,8 @@
         }
       ],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149804/"
@@ -34487,6 +34540,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -34667,6 +34721,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -34861,6 +34916,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -35069,7 +35125,8 @@
       ],
       "relationshipStatus": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150035/"
@@ -35449,7 +35506,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/"
@@ -35634,6 +35692,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -35827,6 +35886,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -36020,6 +36080,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -36218,6 +36279,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -36432,6 +36494,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -36634,6 +36697,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -36845,7 +36909,8 @@
         }
       ],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439436/"
@@ -37031,6 +37096,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -37231,7 +37297,8 @@
       ],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439442/"
@@ -37417,6 +37484,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -37602,6 +37670,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -37810,7 +37879,8 @@
         }
       ],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469819/"
@@ -38010,6 +38080,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -38197,7 +38268,8 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/481776/"
@@ -38372,6 +38444,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -38557,6 +38630,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -38742,6 +38816,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -38937,7 +39012,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439453/"
@@ -39127,6 +39203,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -39313,6 +39390,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -39498,7 +39576,8 @@
       "occupation": [],
       "relationshipStatus": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/482175/"
@@ -39673,6 +39752,7 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -39848,6 +39928,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -40038,7 +40119,8 @@
       ],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469803/"
@@ -40278,6 +40360,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -40461,6 +40544,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -40647,7 +40731,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/"
@@ -40839,6 +40924,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -41022,6 +41108,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -41223,6 +41310,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -41409,6 +41497,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -41611,7 +41700,8 @@
         }
       ],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/"
@@ -41804,6 +41894,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -41990,6 +42081,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -42175,6 +42267,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -42368,6 +42461,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -42561,6 +42655,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -42754,6 +42849,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -42970,7 +43066,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/"
@@ -43155,7 +43252,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/"
@@ -43327,6 +43425,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -43520,6 +43619,7 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -43716,6 +43816,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -43909,6 +44010,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [
         {
           "kind": "derived",
@@ -44092,6 +44194,7 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -44277,6 +44380,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -44452,6 +44556,7 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -44637,6 +44742,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -44837,7 +44943,8 @@
       ],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/"
@@ -45030,6 +45137,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -45216,7 +45324,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922430/"
@@ -45391,6 +45500,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -45591,6 +45701,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -45784,7 +45895,8 @@
           "note": "Official Kan episode 5; host matched by structured hosting order"
         }
       ],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922433/"
@@ -45970,6 +46082,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -46145,6 +46258,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -46327,6 +46441,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -46523,7 +46638,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929730/"
@@ -46698,6 +46814,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -46863,6 +46980,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -47055,6 +47173,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -47241,6 +47360,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -47416,6 +47536,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -47601,7 +47722,8 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922447/"
@@ -47786,6 +47908,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -47951,6 +48074,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -48123,6 +48247,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -48314,6 +48439,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -48500,7 +48626,8 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933747/"
@@ -48692,6 +48819,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -48893,6 +49021,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -49074,6 +49203,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -49267,6 +49397,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -49450,7 +49581,8 @@
       ],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939930/"
@@ -49636,6 +49768,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -49833,6 +49966,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -50010,6 +50144,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -50195,7 +50330,8 @@
       "region": [],
       "occupation": [],
       "gender": [],
-      "diet": []
+      "diet": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059629/"
@@ -50370,7 +50506,8 @@
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059645/"
@@ -50551,6 +50688,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [],
       "winner": []
     },
@@ -50717,6 +50855,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [],
       "winner": []
     },
@@ -50882,6 +51021,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [],
       "winner": []
     },
@@ -51047,6 +51187,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [],
       "winner": []
     },
@@ -51234,6 +51375,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": [],
       "winner": []
     },
@@ -51418,6 +51560,7 @@
       ],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -51594,6 +51737,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -51766,6 +51910,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -51932,6 +52077,7 @@
       "occupation": [],
       "gender": [],
       "diet": [],
+      "scoreBeforeAdjustment": [],
       "placement": []
     },
     "episodeUrls": [
@@ -52097,7 +52243,8 @@
       "occupation": [],
       "gender": [],
       "diet": [],
-      "score": []
+      "score": [],
+      "scoreBeforeAdjustment": []
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077375/"
