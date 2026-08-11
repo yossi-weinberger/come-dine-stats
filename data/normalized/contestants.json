@@ -29589,7 +29589,50 @@
     "score": 30,
     "placement": 1,
     "winner": true,
-    "dishes": [],
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "name": "דג טונה על יוגורט מתובל עם קונפי בצל ושום",
+        "sources": [
+          {
+            "kind": "foodik",
+            "url": "https://www.foodik.co.il/כל-הכתבות/שחר-חן-בואו-לאכול-איתי/",
+            "title": "שחר חן בואו לאכול איתי עונה 6",
+            "author": "שחר חן",
+            "note": "First-person account by the contestant describing the three dishes he served on the show"
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "name": "פסטה עבודת יד ברוטב עגבניות מגי מעושנות ודג",
+        "sources": [
+          {
+            "kind": "foodik",
+            "url": "https://www.foodik.co.il/כל-הכתבות/שחר-חן-בואו-לאכול-איתי/",
+            "title": "שחר חן בואו לאכול איתי עונה 6",
+            "author": "שחר חן",
+            "note": "First-person account by the contestant describing the three dishes he served on the show"
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "name": "עוגת גבינה באסקית עם קולי פירות יער",
+        "sources": [
+          {
+            "kind": "foodik",
+            "url": "https://www.foodik.co.il/כל-הכתבות/שחר-חן-בואו-לאכול-איתי/",
+            "title": "שחר חן בואו לאכול איתי עונה 6",
+            "author": "שחר חן",
+            "note": "First-person account by the contestant describing the three dishes he served on the show"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "kind": "wikipedia",
@@ -29604,6 +29647,13 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148391/",
         "note": "Official Kan episode 3; host matched by structured hosting order"
+      },
+      {
+        "kind": "foodik",
+        "url": "https://www.foodik.co.il/כל-הכתבות/שחר-חן-בואו-לאכול-איתי/",
+        "title": "שחר חן בואו לאכול איתי עונה 6",
+        "author": "שחר חן",
+        "note": "First-person account by the contestant describing the three dishes he served on the show"
       }
     ],
     "fieldSources": {
@@ -34652,7 +34702,77 @@
     "score": 31,
     "placement": 1,
     "winner": true,
-    "dishes": [],
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "name": "סיגר במילוי דג עם סלטון פרש",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/31187/",
+            "title": "בואו לאכול איתי עונה 7 - פרק פתיחה",
+            "note": "Episode recap explicitly listing the host's standard and vegan menu items"
+          }
+        ]
+      },
+      {
+        "course": "starter",
+        "variant": "vegan",
+        "label": "מנה ראשונה טבעונית",
+        "name": "סיגר עם גמבה",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/31187/",
+            "title": "בואו לאכול איתי עונה 7 - פרק פתיחה",
+            "note": "Episode recap explicitly listing the host's standard and vegan menu items"
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "name": "פיתה עם שווארמה",
+        "description": "לצד צ'יפס בטטה",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/31187/",
+            "title": "בואו לאכול איתי עונה 7 - פרק פתיחה",
+            "note": "Episode recap explicitly listing the host's standard and vegan menu items"
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "vegan",
+        "label": "מנה עיקרית טבעונית",
+        "name": "פיתה עם שווארמה סייטן ופטריות",
+        "description": "לצד צ'יפס בטטה",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/31187/",
+            "title": "בואו לאכול איתי עונה 7 - פרק פתיחה",
+            "note": "Episode recap explicitly listing the host's standard and vegan menu items"
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "name": "קראמבל תות עם קצפת",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/31187/",
+            "title": "בואו לאכול איתי עונה 7 - פרק פתיחה",
+            "note": "Episode recap explicitly listing the host's standard and vegan menu items"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "kind": "wikipedia",
@@ -34667,6 +34787,12 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439444/",
         "note": "Official Kan episode 1; host matched by structured hosting order"
+      },
+      {
+        "kind": "rest",
+        "url": "https://www.rest.co.il/magazine/foodnews/31187/",
+        "title": "בואו לאכול איתי עונה 7 - פרק פתיחה",
+        "note": "Episode recap explicitly listing the host's standard and vegan menu items"
       }
     ],
     "fieldSources": {
@@ -39226,7 +39352,48 @@
     "relationshipStatus": "נשואה +2",
     "score": 28,
     "winner": false,
-    "dishes": [],
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "name": "שניצלים בשלושה טעמים",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/31295/",
+            "title": "בואו לאכול איתי עונה 8: מה יהיה עם האוכל?!",
+            "note": "Episode recap explicitly listing the host's three-course diner menu"
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "name": "יוסף המרושל",
+        "description": "בולונז בתוך ג'בטה ביתית",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/31295/",
+            "title": "בואו לאכול איתי עונה 8: מה יהיה עם האוכל?!",
+            "note": "Episode recap explicitly listing the host's three-course diner menu"
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "name": "וופל אמריקאי עם פופקורן",
+        "sources": [
+          {
+            "kind": "rest",
+            "url": "https://www.rest.co.il/magazine/foodnews/31295/",
+            "title": "בואו לאכול איתי עונה 8: מה יהיה עם האוכל?!",
+            "note": "Episode recap explicitly listing the host's three-course diner menu"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "kind": "wikipedia",
@@ -39241,6 +39408,12 @@
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
         "note": "Official Kan episode 1; host matched by structured hosting order"
+      },
+      {
+        "kind": "rest",
+        "url": "https://www.rest.co.il/magazine/foodnews/31295/",
+        "title": "בואו לאכול איתי עונה 8: מה יהיה עם האוכל?!",
+        "note": "Episode recap explicitly listing the host's three-course diner menu"
       }
     ],
     "fieldSources": {

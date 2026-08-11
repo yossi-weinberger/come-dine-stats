@@ -5,7 +5,7 @@
     "individualEntries": 235,
     "coupleEntries": 54,
     "withdrawnEntries": 1,
-    "dishes": 302,
+    "dishes": 313,
     "winners": 64,
     "fieldCoverage": {
       "weekName": {
@@ -1187,30 +1187,30 @@
     },
     "menuCoverage": {
       "anyDish": {
-        "count": 89,
-        "percent": 30.8
+        "count": 92,
+        "percent": 31.8
       },
       "threePrimaryCourses": {
-        "count": 89,
-        "percent": 30.8
+        "count": 92,
+        "percent": 31.8
       },
       "vegetarianAlternative": {
         "count": 15,
         "percent": 5.2
       },
       "veganAlternative": {
-        "count": 4,
-        "percent": 1.4
+        "count": 5,
+        "percent": 1.7
       },
       "dishesByCourse": {
-        "starter": 103,
-        "main": 108,
-        "dessert": 89
+        "starter": 107,
+        "main": 112,
+        "dessert": 92
       },
       "dishesByVariant": {
-        "standard": 270,
+        "standard": 279,
         "vegetarian": 24,
-        "vegan": 8,
+        "vegan": 10,
         "alternative": 0
       },
       "missingThreePrimaryCourses": [
@@ -1296,7 +1296,6 @@
         "ספאא זהר אל דין פרחאת",
         "אורפז אמסלם דהן",
         "עודד דואר",
-        "שחר חן",
         "שמרי שקד מאור",
         "חני בוהדנה",
         "קרין אלקונין",
@@ -1324,7 +1323,6 @@
         "מעיין חטואל",
         "דנה שפירא",
         "טל ניב",
-        "לירון אלון",
         "שלי סנשיין וולמן",
         "עמית שמיר",
         "חנה כהן",
@@ -1349,7 +1347,6 @@
         "שלי אבנשטיין",
         "אסף איפרגן",
         "אבינועם נתנאל",
-        "ענבל אהרון אזרד",
         "מעיין מיזן",
         "אחיה זלייט",
         "איתמר גרובר",
@@ -2587,7 +2584,7 @@
       "individualEntries": 30,
       "coupleEntries": 0,
       "withdrawnEntries": 1,
-      "dishes": 0,
+      "dishes": 3,
       "winners": 6,
       "fieldCoverage": {
         "weekName": {
@@ -2779,12 +2776,12 @@
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 3.3
         },
         "threePrimaryCourses": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 3.3
         },
         "vegetarianAlternative": {
           "count": 0,
@@ -2795,12 +2792,12 @@
           "percent": 0
         },
         "dishesByCourse": {
-          "starter": 0,
-          "main": 0,
-          "dessert": 0
+          "starter": 1,
+          "main": 1,
+          "dessert": 1
         },
         "dishesByVariant": {
-          "standard": 0,
+          "standard": 3,
           "vegetarian": 0,
           "vegan": 0,
           "alternative": 0
@@ -2808,7 +2805,6 @@
         "missingThreePrimaryCourses": [
           "אורפז אמסלם דהן",
           "עודד דואר",
-          "שחר חן",
           "שמרי שקד מאור",
           "חני בוהדנה",
           "קרין אלקונין",
@@ -2845,7 +2841,7 @@
       "individualEntries": 25,
       "coupleEntries": 0,
       "withdrawnEntries": 0,
-      "dishes": 0,
+      "dishes": 5,
       "winners": 5,
       "fieldCoverage": {
         "weekName": {
@@ -3013,34 +3009,33 @@
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 4
         },
         "threePrimaryCourses": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 4
         },
         "vegetarianAlternative": {
           "count": 0,
           "percent": 0
         },
         "veganAlternative": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 4
         },
         "dishesByCourse": {
-          "starter": 0,
-          "main": 0,
-          "dessert": 0
+          "starter": 2,
+          "main": 2,
+          "dessert": 1
         },
         "dishesByVariant": {
-          "standard": 0,
+          "standard": 3,
           "vegetarian": 0,
-          "vegan": 0,
+          "vegan": 2,
           "alternative": 0
         },
         "missingThreePrimaryCourses": [
-          "לירון אלון",
           "שלי סנשיין וולמן",
           "עמית שמיר",
           "חנה כהן",
@@ -3074,7 +3069,7 @@
       "individualEntries": 25,
       "coupleEntries": 0,
       "withdrawnEntries": 0,
-      "dishes": 0,
+      "dishes": 3,
       "winners": 5,
       "fieldCoverage": {
         "weekName": {
@@ -3246,12 +3241,12 @@
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 4
         },
         "threePrimaryCourses": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 4
         },
         "vegetarianAlternative": {
           "count": 0,
@@ -3262,18 +3257,17 @@
           "percent": 0
         },
         "dishesByCourse": {
-          "starter": 0,
-          "main": 0,
-          "dessert": 0
+          "starter": 1,
+          "main": 1,
+          "dessert": 1
         },
         "dishesByVariant": {
-          "standard": 0,
+          "standard": 3,
           "vegetarian": 0,
           "vegan": 0,
           "alternative": 0
         },
         "missingThreePrimaryCourses": [
-          "ענבל אהרון אזרד",
           "מעיין מיזן",
           "אחיה זלייט",
           "איתמר גרובר",
@@ -3732,7 +3726,9 @@
   },
   "sourceCounts": {
     "fandom": 90,
+    "foodik": 1,
     "kan": 104,
+    "rest": 2,
     "wikipedia": 199
   }
 }
