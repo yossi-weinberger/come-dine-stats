@@ -17,6 +17,7 @@ on:
       - 'scripts/import-kan.ts'
       - 'scripts/enrich-kan-cities.ts'
       - 'scripts/import-supplemental-menus.ts'
+      - 'scripts/import-supplemental-profiles.ts'
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
       - 'scripts/stats.ts'
@@ -24,6 +25,7 @@ on:
       - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
       - 'data/supplemental/menus.json'
+      - 'data/supplemental/profiles.json'
       - 'package.json'
 
 permissions:
@@ -67,6 +69,9 @@ jobs:
       - name: Import verified supplemental menus
         run: npm run import:supplemental-menus
 
+      - name: Import verified supplemental profiles
+        run: npm run import:supplemental-profiles
+
       - name: Merge sources
         run: npm run merge
 
@@ -93,6 +98,7 @@ jobs:
             data/normalized/kan-episodes.json \
             data/normalized/kan-contestants.json \
             data/normalized/supplemental-menu-contestants.json \
+            data/normalized/supplemental-profile-contestants.json \
             data/normalized/contestants.json \
             data/reports/wikipedia-import.json \
             data/reports/wikipedia-season10-rolling.json \
