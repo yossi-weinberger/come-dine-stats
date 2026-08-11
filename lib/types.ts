@@ -1,4 +1,4 @@
-export type SourceKind = 'legacy' | 'fandom' | 'wikipedia' | 'kan' | 'foodik' | 'rest' | 'manual' | 'wayback'
+export type SourceKind = 'legacy' | 'fandom' | 'wikipedia' | 'kan' | 'foodik' | 'rest' | 'manual' | 'wayback' | 'derived'
 
 export type SourceRef = {
   kind: SourceKind

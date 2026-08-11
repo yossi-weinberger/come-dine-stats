@@ -66,5 +66,13 @@
     "url": "",
     "attribution": "כל תיקון ידני חייב לכלול evidence וקישור למקור שעליו הוא מסתמך.",
     "reusePolicy": "אין ערכי manual ללא מקור והערת הסבר."
+  },
+  {
+    "id": "derived",
+    "name": "נתון מחושב",
+    "role": "שדות שנגזרים באופן דטרמיניסטי מנתונים שכבר מתועדים במקורות",
+    "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md",
+    "attribution": "הערך אינו מקור חיצוני חדש. הוא מחושב מנתוני מקור קיימים לפי כלל מתועד ושמרני, עם דוח audit שנוצר בכל merge.",
+    "reusePolicy": "לא גוזרים ערך כאשר הקלט חסר או דו-משמעי. נתון ממקור מפורש תמיד עדיף על derivation, ואי-התאמות נשמרות לבדיקה במקום להידרס."
   }
 ]

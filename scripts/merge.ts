@@ -3,8 +3,15 @@ import type { Contestant, Dish, SourceRef } from '../lib/types'
 
 const normalizedDir = new URL('../data/normalized/', import.meta.url)
 const reportsDir = new URL('../data/reports/', import.meta.url)
-const sourcePriority: Record<string, number> = { manual: 50, kan: 40, foodik: 38, wikipedia: 35, fandom: 30, rest: 28, wayback: 20, legacy: 10 }
+const sourcePriority: Record<string, number> = { manual: 50, kan: 40, foodik: 38, wikipedia: 35, fandom: 30, rest: 28, wayback: 20, legacy: 10, derived: 0 }
 const scalarFields = ['entryType','members','status','week','weekName','hostingOrder','age','city','region','occupation','relationshipStatus','gender','diet','score','placement','winner'] as const
+
+const derivedPlacementSource: SourceRef = {
+  kind: 'derived',
+  title: 'דירוג מחושב מציוני השבוע',
+  url: 'https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/derived-fields.md',
+  note: 'Calculated only when every active competition entry in the week has a score, scores are unique, and every existing placement agrees with score order.',
+}
 
 type ScalarField = typeof scalarFields[number]
 type EvidenceValue = { value: unknown; sources: SourceRef[] }
@@ -12,6 +19,20 @@ type Conflict = { key: string; field: ScalarField; values: EvidenceValue[] }
 type Refinement = Conflict & {
   relation: 'incoming-more-specific' | 'existing-more-specific'
   preferredValue: unknown
+}
+type PlacementSkipReason = 'insufficient-entries' | 'missing-score' | 'score-tie' | 'known-placement-mismatch'
+type PlacementDerivationReport = {
+  rule: string
+  completeWeeks: number
+  derivedEntries: number
+  validatedExistingEntries: number
+  derived: Array<{ season: number; week: number; name: string; score: number; placement: number }>
+  skippedWeeks: Array<{
+    season: number
+    week: number
+    reason: PlacementSkipReason
+    entries: Array<{ name: string; score?: number; placement?: number }>
+  }>
 }
 
 function entityKey(c: Contestant) {
@@ -141,6 +162,68 @@ function mergeContestant(base: Contestant, incoming: Contestant, conflicts: Conf
   return merged
 }
 
+function derivePlacements(entries: Contestant[]): PlacementDerivationReport {
+  const weeks = new Map<string, Contestant[]>()
+  for (const entry of entries) {
+    if (entry.week == null || entry.status === 'guest' || entry.status === 'withdrawn') continue
+    const key = `${entry.season}:${entry.week}`
+    weeks.set(key, [...(weeks.get(key) ?? []), entry])
+  }
+
+  const report: PlacementDerivationReport = {
+    rule: 'Derive score-order placement only for weeks with at least two active entries, complete scores, no tied scores, and no disagreement with any sourced placement already present.',
+    completeWeeks: 0,
+    derivedEntries: 0,
+    validatedExistingEntries: 0,
+    derived: [],
+    skippedWeeks: [],
+  }
+
+  for (const group of weeks.values()) {
+    const season = group[0].season
+    const week = group[0].week as number
+    const snapshot = () => group.map(({ name, score, placement }) => ({ name, score, placement }))
+
+    if (group.length < 2) {
+      report.skippedWeeks.push({ season, week, reason: 'insufficient-entries', entries: snapshot() })
+      continue
+    }
+    if (group.some((entry) => typeof entry.score !== 'number')) {
+      report.skippedWeeks.push({ season, week, reason: 'missing-score', entries: snapshot() })
+      continue
+    }
+
+    const scores = group.map((entry) => entry.score as number)
+    if (new Set(scores).size !== scores.length) {
+      report.skippedWeeks.push({ season, week, reason: 'score-tie', entries: snapshot() })
+      continue
+    }
+
+    const ranked = [...group].sort((a, b) => (b.score as number) - (a.score as number))
+    const rankByKey = new Map(ranked.map((entry, index) => [entityKey(entry), index + 1]))
+    const mismatched = group.filter((entry) => entry.placement != null && entry.placement !== rankByKey.get(entityKey(entry)))
+    if (mismatched.length) {
+      report.skippedWeeks.push({ season, week, reason: 'known-placement-mismatch', entries: snapshot() })
+      continue
+    }
+
+    report.completeWeeks += 1
+    for (const entry of group) {
+      const derivedPlacement = rankByKey.get(entityKey(entry)) as number
+      if (entry.placement != null) {
+        report.validatedExistingEntries += 1
+        continue
+      }
+      entry.placement = derivedPlacement
+      entry.fieldSources = { ...(entry.fieldSources ?? {}), placement: [derivedPlacementSource] }
+      report.derivedEntries += 1
+      report.derived.push({ season, week, name: entry.name, score: entry.score as number, placement: derivedPlacement })
+    }
+  }
+
+  return report
+}
+
 async function maybeRead(name: string): Promise<Contestant[]> {
   try { return JSON.parse(await readFile(new URL(name, normalizedDir), 'utf8')) as Contestant[] }
   catch { return [] }
@@ -168,10 +251,14 @@ async function main() {
   }
 
   const output = [...byKey.values()].sort((a, b) => a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || (a.hostingOrder ?? 999) - (b.hostingOrder ?? 999) || a.name.localeCompare(b.name, 'he'))
+  const placementDerivation = derivePlacements(output)
+
   await writeFile(new URL('contestants.json', normalizedDir), JSON.stringify(output, null, 2))
   await writeFile(new URL('conflicts.json', reportsDir), JSON.stringify(conflicts, null, 2))
   await writeFile(new URL('refinements.json', reportsDir), JSON.stringify(refinements, null, 2))
+  await writeFile(new URL('derived-placements.json', reportsDir), JSON.stringify(placementDerivation, null, 2))
   console.log(`Merged ${inputs.length} source rows into ${output.length} competition entries; ${conflicts.length} conflicts and ${refinements.length} refinements preserved`)
+  console.log(`Derived ${placementDerivation.derivedEntries} placements across ${placementDerivation.completeWeeks} unambiguous complete-score weeks; validated ${placementDerivation.validatedExistingEntries} sourced placements`)
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1 })
