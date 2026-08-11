@@ -31,5 +31,8 @@ jobs:
       - name: Data health
         run: npm run health
 
+      - name: Competition rules
+        run: npm run check:competition
+
       - name: Build
         run: npm run build
