@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "key": "6:אילנהאביגל",
+    "field": "hostingOrder",
+    "values": [
+      {
+        "value": 5,
+        "sources": [
+          {
+            "kind": "wikipedia",
+            "title": "בואו לאכול איתי עונה 6 — ויקיפדיה העברית",
+            "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_6&oldid=43718668",
+            "author": "ויקיפדיה העברית — עורכים שונים",
+            "license": "CC BY-SA 4.0",
+            "note": "Imported from revision 43718668; factual competition metadata with revision-level attribution"
+          }
+        ]
+      },
+      {
+        "value": 3,
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי",
+            "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148562/",
+            "note": "Official Kan episode 8; explicit host wording overrode conflicting structured hosting order"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "6:עודדאסגו",
+    "field": "hostingOrder",
+    "values": [
+      {
+        "value": 3,
+        "sources": [
+          {
+            "kind": "wikipedia",
+            "title": "בואו לאכול איתי עונה 6 — ויקיפדיה העברית",
+            "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_6&oldid=43718668",
+            "author": "ויקיפדיה העברית — עורכים שונים",
+            "license": "CC BY-SA 4.0",
+            "note": "Imported from revision 43718668; factual competition metadata with revision-level attribution"
+          }
+        ]
+      },
+      {
+        "value": 4,
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי",
+            "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148565/",
+            "note": "Official Kan episode 9; explicit host wording overrode conflicting structured hosting order"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "6:רוניברון",
+    "field": "hostingOrder",
+    "values": [
+      {
+        "value": 4,
+        "sources": [
+          {
+            "kind": "wikipedia",
+            "title": "בואו לאכול איתי עונה 6 — ויקיפדיה העברית",
+            "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_6&oldid=43718668",
+            "author": "ויקיפדיה העברית — עורכים שונים",
+            "license": "CC BY-SA 4.0",
+            "note": "Imported from revision 43718668; factual competition metadata with revision-level attribution"
+          }
+        ]
+      },
+      {
+        "value": 5,
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי",
+            "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148568/",
+            "note": "Official Kan episode 10; explicit host wording overrode conflicting structured hosting order"
+          }
+        ]
+      }
+    ]
+  }
+]

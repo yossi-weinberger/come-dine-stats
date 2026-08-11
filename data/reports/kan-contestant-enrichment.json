@@ -1,12 +1,13 @@
 {
-  "matchedEntries": 144,
+  "matchedEntries": 143,
   "episodesConsidered": 147,
-  "matchedByHostingOrder": 144,
-  "matchedByExplicitHostText": 0,
+  "matchedByHostingOrder": 140,
+  "matchedByExplicitHostText": 4,
+  "hostOrderConflicts": 4,
   "unmatchedEpisodes": 3,
   "profileExtraction": {
-    "occupations": 15,
-    "diets": 0,
+    "occupations": 20,
+    "diets": 2,
     "policy": "Only explicit host-local descriptors are extracted; menu style is not treated as contestant diet."
   },
   "recipeDiscovery": {
@@ -21,8 +22,12 @@
       "hostingOrder": 1,
       "matched": "אייל טרסר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אייל טרסר",
+      "explicitMatch": "אייל טרסר",
+      "orderConflict": false,
       "candidates": [
-        "אייל טרסר (hosting order 1)"
+        "אייל טרסר (hosting order 1)",
+        "אייל טרסר (explicit host cue)"
       ],
       "text": "פרק 1 - השרון חלק א' ערב ראשון בשרון, אייל מארח בדירת המעוצבת ובני ציפר נחשף"
     },
@@ -33,8 +38,12 @@
       "hostingOrder": 2,
       "matched": "ליאת ברששת",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ליאת ברששת",
+      "explicitMatch": "ליאת ברששת",
+      "orderConflict": false,
       "candidates": [
-        "ליאת ברששת (hosting order 2)"
+        "ליאת ברששת (hosting order 2)",
+        "ליאת ברששת (explicit host cue)"
       ],
       "text": "פרק 2 - השרון חלק ב' ליאת מארחת ומנפצת סטיגמות ובני ואייל ממשיכים ללחוץ אחד לשני על נקודות"
     },
@@ -45,6 +54,8 @@
       "hostingOrder": 3,
       "matched": "בני ציפר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "בני ציפר",
+      "orderConflict": false,
       "candidates": [
         "בני ציפר (hosting order 3)"
       ],
@@ -57,8 +68,12 @@
       "hostingOrder": 4,
       "matched": "גילי שמחה עוזיאל",
       "matchMethod": "hosting-order",
+      "structuredMatch": "גילי שמחה עוזיאל",
+      "explicitMatch": "גילי שמחה עוזיאל",
+      "orderConflict": false,
       "candidates": [
-        "גילי שמחה עוזיאל (hosting order 4)"
+        "גילי שמחה עוזיאל (hosting order 4)",
+        "גילי שמחה עוזיאל (explicit host cue)"
       ],
       "text": "פרק 4 - השרון חלק ד' גילי מארחת בהקפדה בביתה בקיבוץ, במטרה לכבוש את המקום הראשון"
     },
@@ -69,8 +84,12 @@
       "hostingOrder": 5,
       "matched": "ירון גנד",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ירון גנד",
+      "explicitMatch": "ירון גנד",
+      "orderConflict": false,
       "candidates": [
-        "ירון גנד (hosting order 5)"
+        "ירון גנד (hosting order 5)",
+        "ירון גנד (explicit host cue)"
       ],
       "text": "פרק 5 - השרון חלק ה' ירון מארח וחולק עם האורחים את אמונתו במפלצת הפסטה. האם יעזור לו לנצח?"
     },
@@ -79,10 +98,14 @@
       "episode": 6,
       "week": 2,
       "hostingOrder": 1,
-      "matched": "אושרית מולאי",
-      "matchMethod": "hosting-order",
+      "matched": "קייסי זפטה",
+      "matchMethod": "explicit-host-text",
+      "structuredMatch": "אושרית מולאי",
+      "explicitMatch": "קייסי זפטה",
+      "orderConflict": true,
       "candidates": [
-        "אושרית מולאי (hosting order 1)"
+        "אושרית מולאי (hosting order 1)",
+        "קייסי זפטה (explicit host cue)"
       ],
       "text": "פרק 6 - תל אביב-יפו חלק א' אושרית, פעילה נגד המסתננים בת\"א, מארחת את קייסי, בת למהגרים פיליפינים"
     },
@@ -93,8 +116,12 @@
       "hostingOrder": 2,
       "matched": "ירון תשבי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ירון תשבי",
+      "explicitMatch": "ירון תשבי",
+      "orderConflict": false,
       "candidates": [
-        "ירון תשבי (hosting order 2)"
+        "ירון תשבי (hosting order 2)",
+        "ירון תשבי (explicit host cue)"
       ],
       "text": "פרק 7 - תל אביב-יפו חלק ב' ירון מארח בפאר בקומה ה-37, אבל לא כולם מוכנים לנסות טעמים חדשים"
     },
@@ -105,6 +132,8 @@
       "hostingOrder": 3,
       "matched": "הדס פישר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "הדס פישר",
+      "orderConflict": false,
       "candidates": [
         "הדס פישר (hosting order 3)"
       ],
@@ -117,6 +146,8 @@
       "hostingOrder": 4,
       "matched": "גיא זלצר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "גיא זלצר",
+      "orderConflict": false,
       "candidates": [
         "גיא זלצר (hosting order 4)"
       ],
@@ -129,8 +160,12 @@
       "hostingOrder": 5,
       "matched": "קייסי זפטה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "קייסי זפטה",
+      "explicitMatch": "קייסי זפטה",
+      "orderConflict": false,
       "candidates": [
-        "קייסי זפטה (hosting order 5)"
+        "קייסי זפטה (hosting order 5)",
+        "קייסי זפטה (explicit host cue)"
       ],
       "text": "פרק 10 - תל אביב-יפו חלק ה' קייסי מארחת בדירתה והאורחים מופעים מהמיקום ומצדדים באישיותה שנחשפים"
     },
@@ -141,6 +176,8 @@
       "hostingOrder": 1,
       "matched": "חנה בן שימול",
       "matchMethod": "hosting-order",
+      "structuredMatch": "חנה בן שימול",
+      "orderConflict": false,
       "candidates": [
         "חנה בן שימול (hosting order 1)"
       ],
@@ -153,6 +190,8 @@
       "hostingOrder": 2,
       "matched": "עימראן עיאדה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עימראן עיאדה",
+      "orderConflict": false,
       "candidates": [
         "עימראן עיאדה (hosting order 2)"
       ],
@@ -165,6 +204,8 @@
       "hostingOrder": 3,
       "matched": "שרין אברהם",
       "matchMethod": "hosting-order",
+      "structuredMatch": "שרין אברהם",
+      "orderConflict": false,
       "candidates": [
         "שרין אברהם (hosting order 3)"
       ],
@@ -177,6 +218,8 @@
       "hostingOrder": 4,
       "matched": "אריאל סולומון",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אריאל סולומון",
+      "orderConflict": false,
       "candidates": [
         "אריאל סולומון (hosting order 4)"
       ],
@@ -189,6 +232,8 @@
       "hostingOrder": 5,
       "matched": "ינה קליפר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ינה קליפר",
+      "orderConflict": false,
       "candidates": [
         "ינה קליפר (hosting order 5)"
       ],
@@ -201,6 +246,8 @@
       "hostingOrder": 1,
       "matched": "קציעה אלדר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "קציעה אלדר",
+      "orderConflict": false,
       "occupation": "יועצת מינית",
       "candidates": [
         "קציעה אלדר (hosting order 1)"
@@ -214,6 +261,8 @@
       "hostingOrder": 2,
       "matched": "איב איבנעים",
       "matchMethod": "hosting-order",
+      "structuredMatch": "איב איבנעים",
+      "orderConflict": false,
       "candidates": [
         "איב איבנעים (hosting order 2)"
       ],
@@ -226,6 +275,8 @@
       "hostingOrder": 3,
       "matched": "אביגיל אוקנין חביב",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אביגיל אוקנין חביב",
+      "orderConflict": false,
       "candidates": [
         "אביגיל אוקנין חביב (hosting order 3)"
       ],
@@ -238,6 +289,8 @@
       "hostingOrder": 4,
       "matched": "תאיר אלון",
       "matchMethod": "hosting-order",
+      "structuredMatch": "תאיר אלון",
+      "orderConflict": false,
       "candidates": [
         "תאיר אלון (hosting order 4)"
       ],
@@ -250,8 +303,12 @@
       "hostingOrder": 5,
       "matched": "איגור גרינברג",
       "matchMethod": "hosting-order",
+      "structuredMatch": "איגור גרינברג",
+      "explicitMatch": "איגור גרינברג",
+      "orderConflict": false,
       "candidates": [
-        "איגור גרינברג (hosting order 5)"
+        "איגור גרינברג (hosting order 5)",
+        "איגור גרינברג (explicit host cue)"
       ],
       "text": "פרק 20 - דרום חלק ה' איגור מארח לערב אחרון מלא אלכוהול. האם תאיר וקציעה ישלימו ומי ינצח?"
     },
@@ -262,6 +319,8 @@
       "hostingOrder": 1,
       "matched": "אבי אמר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אבי אמר",
+      "orderConflict": false,
       "candidates": [
         "אבי אמר (hosting order 1)"
       ],
@@ -274,8 +333,12 @@
       "hostingOrder": 2,
       "matched": "ענבל אלנקווה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ענבל אלנקווה",
+      "explicitMatch": "ענבל אלנקווה",
+      "orderConflict": false,
       "candidates": [
-        "ענבל אלנקווה (hosting order 2)"
+        "ענבל אלנקווה (hosting order 2)",
+        "ענבל אלנקווה (explicit host cue)"
       ],
       "text": "פרק 22 - חיפה והקריות חלק ב' ענבל מארחת בביתה בכרמל לערב של אלכוהול וסטיגמות על שים, גברים וזוגיות"
     },
@@ -286,6 +349,8 @@
       "hostingOrder": 3,
       "matched": "אלכס שולץ",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אלכס שולץ",
+      "orderConflict": false,
       "candidates": [
         "אלכס שולץ (hosting order 3)"
       ],
@@ -298,8 +363,12 @@
       "hostingOrder": 4,
       "matched": "אורן מלכה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אורן מלכה",
+      "explicitMatch": "אורן מלכה",
+      "orderConflict": false,
       "candidates": [
-        "אורן מלכה (hosting order 4)"
+        "אורן מלכה (hosting order 4)",
+        "אורן מלכה (explicit host cue)"
       ],
       "text": "פרק 24 - חיפה והקריות חלק ד' אורן מארח בדירת החדר שלו לערב של התגוששות מילולית ופיזית"
     },
@@ -310,6 +379,8 @@
       "hostingOrder": 5,
       "matched": "ספאא זהר אל דין פרחאת",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ספאא זהר אל דין פרחאת",
+      "orderConflict": false,
       "candidates": [
         "ספאא זהר אל דין פרחאת (hosting order 5)"
       ],
@@ -322,6 +393,8 @@
       "hostingOrder": 1,
       "matched": "אורפז אמסלם דהן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אורפז אמסלם דהן",
+      "orderConflict": false,
       "candidates": [
         "אורפז אמסלם דהן (hosting order 1)"
       ],
@@ -334,6 +407,8 @@
       "hostingOrder": 2,
       "matched": "עודד דואר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עודד דואר",
+      "orderConflict": false,
       "candidates": [
         "עודד דואר (hosting order 2)"
       ],
@@ -346,6 +421,8 @@
       "hostingOrder": 3,
       "matched": "שחר חן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "שחר חן",
+      "orderConflict": false,
       "occupation": "בלוגר",
       "candidates": [
         "שחר חן (hosting order 3)"
@@ -359,6 +436,8 @@
       "hostingOrder": 4,
       "matched": "שמרי שקד מאור",
       "matchMethod": "hosting-order",
+      "structuredMatch": "שמרי שקד מאור",
+      "orderConflict": false,
       "candidates": [
         "שמרי שקד מאור (hosting order 4)"
       ],
@@ -371,6 +450,8 @@
       "hostingOrder": 5,
       "matched": "חני בוהדנה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "חני בוהדנה",
+      "orderConflict": false,
       "candidates": [
         "חני בוהדנה (hosting order 5)"
       ],
@@ -383,8 +464,12 @@
       "hostingOrder": 1,
       "matched": "קרין אלקונין",
       "matchMethod": "hosting-order",
+      "structuredMatch": "קרין אלקונין",
+      "explicitMatch": "קרין אלקונין",
+      "orderConflict": false,
       "candidates": [
-        "קרין אלקונין (hosting order 1)"
+        "קרין אלקונין (hosting order 1)",
+        "קרין אלקונין (explicit host cue)"
       ],
       "text": "דרום - יום א' (פרק 6) בדרום, קרין המארחת מנסה להראות שהיא נסיכה ובשלנית. האם האורחים יסכימו?"
     },
@@ -395,8 +480,12 @@
       "hostingOrder": 2,
       "matched": "סופיה (סופי) דביר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "סופיה (סופי) דביר",
+      "explicitMatch": "סופיה (סופי) דביר",
+      "orderConflict": false,
       "candidates": [
-        "סופיה (סופי) דביר (hosting order 2)"
+        "סופיה (סופי) דביר (hosting order 2)",
+        "סופיה (סופי) דביר (explicit host cue)"
       ],
       "text": "דרום - יום ב' (פרק 7) סופיה מגישה מנות גיאורגיות, בליווי ריקוד מפתיע ודיון על דת"
     },
@@ -405,10 +494,14 @@
       "episode": 8,
       "week": 2,
       "hostingOrder": 3,
-      "matched": "עודד אסגו",
-      "matchMethod": "hosting-order",
+      "matched": "אילנה אביגל",
+      "matchMethod": "explicit-host-text",
+      "structuredMatch": "עודד אסגו",
+      "explicitMatch": "אילנה אביגל",
+      "orderConflict": true,
       "candidates": [
-        "עודד אסגו (hosting order 3)"
+        "עודד אסגו (hosting order 3)",
+        "אילנה אביגל (explicit host cue)"
       ],
       "text": "דרום - יום ג' (פרק 8) עוד ערב גיאורגי, הפעם אצל אילנה. איך תגיב לשיחות הבוטות?"
     },
@@ -417,10 +510,14 @@
       "episode": 9,
       "week": 2,
       "hostingOrder": 4,
-      "matched": "רוני ברון",
-      "matchMethod": "hosting-order",
+      "matched": "עודד אסגו",
+      "matchMethod": "explicit-host-text",
+      "structuredMatch": "רוני ברון",
+      "explicitMatch": "עודד אסגו",
+      "orderConflict": true,
       "candidates": [
-        "רוני ברון (hosting order 4)"
+        "רוני ברון (hosting order 4)",
+        "עודד אסגו (explicit host cue)"
       ],
       "text": "דרום - יום ד' (פרק 9) עודד מארח את החבורה בדירת השותפים בב\"ש, איך יגיב כשתוכניותיו ישתבשו?"
     },
@@ -429,10 +526,14 @@
       "episode": 10,
       "week": 2,
       "hostingOrder": 5,
-      "matched": "אילנה אביגל",
-      "matchMethod": "hosting-order",
+      "matched": "רוני ברון",
+      "matchMethod": "explicit-host-text",
+      "structuredMatch": "אילנה אביגל",
+      "explicitMatch": "רוני ברון",
+      "orderConflict": true,
       "candidates": [
-        "אילנה אביגל (hosting order 5)"
+        "אילנה אביגל (hosting order 5)",
+        "רוני ברון (explicit host cue)"
       ],
       "text": "דרום - יום ה' (פרק 10) רוני לוקח את אורחיו ל\"טיול\" בפרו ארץ מולדתו. האם הוא ינצח בשבוע הדרום?"
     },
@@ -443,6 +544,9 @@
       "hostingOrder": 1,
       "matched": "פיני קריספל",
       "matchMethod": "hosting-order",
+      "structuredMatch": "פיני קריספל",
+      "orderConflict": false,
+      "diet": "קרניבור",
       "candidates": [
         "פיני קריספל (hosting order 1)"
       ],
@@ -455,6 +559,8 @@
       "hostingOrder": 2,
       "matched": "ברוריה פסטרנק-שביט",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ברוריה פסטרנק-שביט",
+      "orderConflict": false,
       "occupation": "אומנית",
       "candidates": [
         "ברוריה פסטרנק-שביט (hosting order 2)"
@@ -468,6 +574,8 @@
       "hostingOrder": 3,
       "matched": "אריק פינקלברג",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אריק פינקלברג",
+      "orderConflict": false,
       "candidates": [
         "אריק פינקלברג (hosting order 3)"
       ],
@@ -480,8 +588,12 @@
       "hostingOrder": 4,
       "matched": "שלם מושעיהו",
       "matchMethod": "hosting-order",
+      "structuredMatch": "שלם מושעיהו",
+      "explicitMatch": "שלם מושעיהו",
+      "orderConflict": false,
       "candidates": [
-        "שלם מושעיהו (hosting order 4)"
+        "שלם מושעיהו (hosting order 4)",
+        "שלם מושעיהו (explicit host cue)"
       ],
       "text": "ירושלים - יום ד' (פרק 14) שלם מארח בארמונו לארוחה וסיפור חיים מפתיעים ומרתקים"
     },
@@ -492,6 +604,8 @@
       "hostingOrder": 5,
       "matched": "יעל צין",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יעל צין",
+      "orderConflict": false,
       "candidates": [
         "יעל צין (hosting order 5)"
       ],
@@ -504,6 +618,8 @@
       "hostingOrder": 1,
       "matched": "מחמוד (מודי) צפורי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "מחמוד (מודי) צפורי",
+      "orderConflict": false,
       "candidates": [
         "מחמוד (מודי) צפורי (hosting order 1)"
       ],
@@ -516,6 +632,8 @@
       "hostingOrder": 2,
       "matched": "רבקה לפאיר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "רבקה לפאיר",
+      "orderConflict": false,
       "candidates": [
         "רבקה לפאיר (hosting order 2)"
       ],
@@ -528,6 +646,8 @@
       "hostingOrder": 3,
       "matched": "שרון בוננו",
       "matchMethod": "hosting-order",
+      "structuredMatch": "שרון בוננו",
+      "orderConflict": false,
       "candidates": [
         "שרון בוננו (hosting order 3)"
       ],
@@ -540,8 +660,12 @@
       "hostingOrder": 4,
       "matched": "גאלה רחמילביץ'",
       "matchMethod": "hosting-order",
+      "structuredMatch": "גאלה רחמילביץ'",
+      "explicitMatch": "גאלה רחמילביץ'",
+      "orderConflict": false,
       "candidates": [
-        "גאלה רחמילביץ' (hosting order 4)"
+        "גאלה רחמילביץ' (hosting order 4)",
+        "גאלה רחמילביץ' (explicit host cue)"
       ],
       "text": "דן ושומרון - יום ד' (פרק 19) גאלה מארחת בביתה הצבעוני והמיוחד, והאורחים לומדים על טינדר דתי וחילוני"
     },
@@ -552,6 +676,8 @@
       "hostingOrder": 5,
       "matched": "אורן ברט",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אורן ברט",
+      "orderConflict": false,
       "candidates": [
         "אורן ברט (hosting order 5)"
       ],
@@ -564,9 +690,13 @@
       "hostingOrder": 1,
       "matched": "יהודית קונפורטי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יהודית קונפורטי",
+      "explicitMatch": "יהודית קונפורטי",
+      "orderConflict": false,
       "occupation": "מתקשרת ויוצרת",
       "candidates": [
-        "יהודית קונפורטי (hosting order 1)"
+        "יהודית קונפורטי (hosting order 1)",
+        "יהודית קונפורטי (explicit host cue)"
       ],
       "text": "מרכז - יום א' (פרק 21) המתקשרת והיוצרת יהודית מארחת בדירתה המסקרנת את הערב הראשון בשבוע המרכז"
     },
@@ -577,8 +707,12 @@
       "hostingOrder": 2,
       "matched": "אלה ורמה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אלה ורמה",
+      "explicitMatch": "אלה ורמה",
+      "orderConflict": false,
       "candidates": [
-        "אלה ורמה (hosting order 2)"
+        "אלה ורמה (hosting order 2)",
+        "אלה ורמה (explicit host cue)"
       ],
       "text": "מרכז - יום ב' (פרק 22) אלה תארח בדירת השותפים התל אביבית. האםהבורה תתחבר לאוכל וגם אחד לשני?"
     },
@@ -589,8 +723,12 @@
       "hostingOrder": 3,
       "matched": "סיוון כהן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "סיוון כהן",
+      "explicitMatch": "סיוון כהן",
+      "orderConflict": false,
       "candidates": [
-        "סיוון כהן (hosting order 3)"
+        "סיוון כהן (hosting order 3)",
+        "סיוון כהן (explicit host cue)"
       ],
       "text": "מרכז - יום ג' (פרק 23) סיוון מגישה במגדל ארוחה עשירה במיוחד והופעה מפתיעה, אך לא כולם מתרשמים"
     },
@@ -601,6 +739,8 @@
       "hostingOrder": 4,
       "matched": "אביעד בללי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אביעד בללי",
+      "orderConflict": false,
       "occupation": "כוכב רשת",
       "candidates": [
         "אביעד בללי (hosting order 4)"
@@ -614,8 +754,12 @@
       "hostingOrder": 5,
       "matched": "גל אלון",
       "matchMethod": "hosting-order",
+      "structuredMatch": "גל אלון",
+      "explicitMatch": "גל אלון",
+      "orderConflict": false,
       "candidates": [
-        "גל אלון (hosting order 5)"
+        "גל אלון (hosting order 5)",
+        "גל אלון (explicit host cue)"
       ],
       "text": "מרכז 5 (פרק 25) ארוחת פארם טו טייבל מושקעת אצל גל עם גילויים עסיסיים ומנצח/ת השבוע"
     },
@@ -626,6 +770,8 @@
       "hostingOrder": 1,
       "matched": "מורן זיסר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "מורן זיסר",
+      "orderConflict": false,
       "candidates": [
         "מורן זיסר (hosting order 1)"
       ],
@@ -638,6 +784,8 @@
       "hostingOrder": 2,
       "matched": "פאדי זגאירה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "פאדי זגאירה",
+      "orderConflict": false,
       "occupation": "איש תקשורת",
       "candidates": [
         "פאדי זגאירה (hosting order 2)"
@@ -651,8 +799,12 @@
       "hostingOrder": 3,
       "matched": "מעיין חטואל",
       "matchMethod": "hosting-order",
+      "structuredMatch": "מעיין חטואל",
+      "explicitMatch": "מעיין חטואל",
+      "orderConflict": false,
       "candidates": [
-        "מעיין חטואל (hosting order 3)"
+        "מעיין חטואל (hosting order 3)",
+        "מעיין חטואל (explicit host cue)"
       ],
       "text": "כרמל - יום ג' (פרק 28) ארוחה ביתית מרוקאית ואינטימית אצל מעיין החילונית-מסורתית"
     },
@@ -663,8 +815,12 @@
       "hostingOrder": 4,
       "matched": "דנה שפירא",
       "matchMethod": "hosting-order",
+      "structuredMatch": "דנה שפירא",
+      "explicitMatch": "דנה שפירא",
+      "orderConflict": false,
       "candidates": [
-        "דנה שפירא (hosting order 4)"
+        "דנה שפירא (hosting order 4)",
+        "דנה שפירא (explicit host cue)"
       ],
       "text": "כרמל - יום ד' (פרק 29) ערב קופצני ואנרגטי אצל דנה בחיפה, עם שאלות מציקות ובידור טלפתי מפתיע"
     },
@@ -673,6 +829,7 @@
       "episode": 30,
       "week": 6,
       "hostingOrder": 5,
+      "orderConflict": false,
       "candidates": [],
       "text": "כרמל - יום ה' (פרק 30) הערב תצפין החבורה לאירוח חגיגי במיוחד"
     },
@@ -683,6 +840,8 @@
       "hostingOrder": 1,
       "matched": "לירון אלון",
       "matchMethod": "hosting-order",
+      "structuredMatch": "לירון אלון",
+      "orderConflict": false,
       "candidates": [
         "לירון אלון (hosting order 1)"
       ],
@@ -695,6 +854,8 @@
       "hostingOrder": 2,
       "matched": "שלי סנשיין וולמן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "שלי סנשיין וולמן",
+      "orderConflict": false,
       "candidates": [
         "שלי סנשיין וולמן (hosting order 2)"
       ],
@@ -707,6 +868,8 @@
       "hostingOrder": 3,
       "matched": "עמית שמיר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עמית שמיר",
+      "orderConflict": false,
       "candidates": [
         "עמית שמיר (hosting order 3)"
       ],
@@ -719,6 +882,8 @@
       "hostingOrder": 4,
       "matched": "חנה כהן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "חנה כהן",
+      "orderConflict": false,
       "candidates": [
         "חנה כהן (hosting order 4)"
       ],
@@ -731,6 +896,8 @@
       "hostingOrder": 5,
       "matched": "רחלי סופיר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "רחלי סופיר",
+      "orderConflict": false,
       "candidates": [
         "רחלי סופיר (hosting order 5)"
       ],
@@ -743,6 +910,8 @@
       "hostingOrder": 1,
       "matched": "סיוון קנטי אביטן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "סיוון קנטי אביטן",
+      "orderConflict": false,
       "candidates": [
         "סיוון קנטי אביטן (hosting order 1)"
       ],
@@ -755,6 +924,8 @@
       "hostingOrder": 2,
       "matched": "קרן בר לב",
       "matchMethod": "hosting-order",
+      "structuredMatch": "קרן בר לב",
+      "orderConflict": false,
       "candidates": [
         "קרן בר לב (hosting order 2)"
       ],
@@ -767,6 +938,8 @@
       "hostingOrder": 3,
       "matched": "בן טרומן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "בן טרומן",
+      "orderConflict": false,
       "candidates": [
         "בן טרומן (hosting order 3)"
       ],
@@ -779,6 +952,8 @@
       "hostingOrder": 4,
       "matched": "דני סימון",
       "matchMethod": "hosting-order",
+      "structuredMatch": "דני סימון",
+      "orderConflict": false,
       "candidates": [
         "דני סימון (hosting order 4)"
       ],
@@ -791,6 +966,8 @@
       "hostingOrder": 5,
       "matched": "מיה דגן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "מיה דגן",
+      "orderConflict": false,
       "candidates": [
         "מיה דגן (hosting order 5)"
       ],
@@ -803,6 +980,8 @@
       "hostingOrder": 1,
       "matched": "טל רוזנבך שמעיה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "טל רוזנבך שמעיה",
+      "orderConflict": false,
       "candidates": [
         "טל רוזנבך שמעיה (hosting order 1)"
       ],
@@ -815,6 +994,8 @@
       "hostingOrder": 2,
       "matched": "עומר צוברי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עומר צוברי",
+      "orderConflict": false,
       "candidates": [
         "עומר צוברי (hosting order 2)"
       ],
@@ -827,6 +1008,8 @@
       "hostingOrder": 3,
       "matched": "מירב סעדו",
       "matchMethod": "hosting-order",
+      "structuredMatch": "מירב סעדו",
+      "orderConflict": false,
       "candidates": [
         "מירב סעדו (hosting order 3)"
       ],
@@ -839,6 +1022,8 @@
       "hostingOrder": 4,
       "matched": "יעל בן חביב",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יעל בן חביב",
+      "orderConflict": false,
       "candidates": [
         "יעל בן חביב (hosting order 4)"
       ],
@@ -851,6 +1036,8 @@
       "hostingOrder": 5,
       "matched": "דובי לוי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "דובי לוי",
+      "orderConflict": false,
       "candidates": [
         "דובי לוי (hosting order 5)"
       ],
@@ -863,6 +1050,8 @@
       "hostingOrder": 1,
       "matched": "ענבל פיניאן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ענבל פיניאן",
+      "orderConflict": false,
       "candidates": [
         "ענבל פיניאן (hosting order 1)"
       ],
@@ -875,6 +1064,8 @@
       "hostingOrder": 2,
       "matched": "אביטל מגן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אביטל מגן",
+      "orderConflict": false,
       "candidates": [
         "אביטל מגן (hosting order 2)"
       ],
@@ -887,6 +1078,8 @@
       "hostingOrder": 3,
       "matched": "לימור שובל",
       "matchMethod": "hosting-order",
+      "structuredMatch": "לימור שובל",
+      "orderConflict": false,
       "candidates": [
         "לימור שובל (hosting order 3)"
       ],
@@ -899,6 +1092,8 @@
       "hostingOrder": 4,
       "matched": "יובל ברנדס",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יובל ברנדס",
+      "orderConflict": false,
       "candidates": [
         "יובל ברנדס (hosting order 4)"
       ],
@@ -911,6 +1106,8 @@
       "hostingOrder": 5,
       "matched": "אוליבר רוס",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אוליבר רוס",
+      "orderConflict": false,
       "candidates": [
         "אוליבר רוס (hosting order 5)"
       ],
@@ -923,6 +1120,8 @@
       "hostingOrder": 1,
       "matched": "רובי טשרניחובסקי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "רובי טשרניחובסקי",
+      "orderConflict": false,
       "candidates": [
         "רובי טשרניחובסקי (hosting order 1)"
       ],
@@ -935,6 +1134,8 @@
       "hostingOrder": 2,
       "matched": "רועי אלעני",
       "matchMethod": "hosting-order",
+      "structuredMatch": "רועי אלעני",
+      "orderConflict": false,
       "candidates": [
         "רועי אלעני (hosting order 2)"
       ],
@@ -947,6 +1148,8 @@
       "hostingOrder": 3,
       "matched": "שלי אבנשטיין",
       "matchMethod": "hosting-order",
+      "structuredMatch": "שלי אבנשטיין",
+      "orderConflict": false,
       "candidates": [
         "שלי אבנשטיין (hosting order 3)"
       ],
@@ -959,6 +1162,8 @@
       "hostingOrder": 4,
       "matched": "אסף איפרגן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אסף איפרגן",
+      "orderConflict": false,
       "candidates": [
         "אסף איפרגן (hosting order 4)"
       ],
@@ -971,6 +1176,8 @@
       "hostingOrder": 5,
       "matched": "אבינועם נתנאל",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אבינועם נתנאל",
+      "orderConflict": false,
       "candidates": [
         "אבינועם נתנאל (hosting order 5)"
       ],
@@ -983,6 +1190,8 @@
       "hostingOrder": 1,
       "matched": "ענבל אהרון אזרד",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ענבל אהרון אזרד",
+      "orderConflict": false,
       "occupation": "מורה",
       "candidates": [
         "ענבל אהרון אזרד (hosting order 1)"
@@ -996,9 +1205,13 @@
       "hostingOrder": 2,
       "matched": "מעיין מיזן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "מעיין מיזן",
+      "explicitMatch": "מעיין מיזן",
+      "orderConflict": false,
       "occupation": "מסדרת ארונות וסטייליסטית",
       "candidates": [
-        "מעיין מיזן (hosting order 2)"
+        "מעיין מיזן (hosting order 2)",
+        "מעיין מיזן (explicit host cue)"
       ],
       "text": "פרק 2 - שבוע צפון, יום ב' ביום השני לתחרות מארחת מעיין, מסדרת ארונות מקצועית וסטייליסטית מיקנעם"
     },
@@ -1009,8 +1222,12 @@
       "hostingOrder": 3,
       "matched": "אחיה זלייט",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אחיה זלייט",
+      "explicitMatch": "אחיה זלייט",
+      "orderConflict": false,
       "candidates": [
-        "אחיה זלייט (hosting order 3)"
+        "אחיה זלייט (hosting order 3)",
+        "אחיה זלייט (explicit host cue)"
       ],
       "text": "פרק 3 - שבוע צפון, יום ג' את היום השלישי לתחרות מארח אחיה, לוחם חופש מהיישוב האקולוגי רותם"
     },
@@ -1021,9 +1238,13 @@
       "hostingOrder": 4,
       "matched": "איתמר גרובר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "איתמר גרובר",
+      "explicitMatch": "איתמר גרובר",
+      "orderConflict": false,
       "occupation": "הייטקיסט",
       "candidates": [
-        "איתמר גרובר (hosting order 4)"
+        "איתמר גרובר (hosting order 4)",
+        "איתמר גרובר (explicit host cue)"
       ],
       "text": "פרק 4 - שבוע צפון, יום ד' ביום הרביעי לתחרות החבורה חוזרת לחיפה ומתארחת הפעם אצל איתמר ההייטקיסט"
     },
@@ -1034,9 +1255,13 @@
       "hostingOrder": 5,
       "matched": "דנה כהן הלוי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "דנה כהן הלוי",
+      "explicitMatch": "דנה כהן הלוי",
+      "orderConflict": false,
       "occupation": "מתקשרת",
       "candidates": [
-        "דנה כהן הלוי (hosting order 5)"
+        "דנה כהן הלוי (hosting order 5)",
+        "דנה כהן הלוי (explicit host cue)"
       ],
       "text": "פרק 5 - שבוע צפון, יום ה' בפרק אחרון לשבוע צפון מארחת דנה כהן הלוי, המתקשרת מהמושבה מגדל"
     },
@@ -1047,8 +1272,12 @@
       "hostingOrder": 1,
       "matched": "לבנה שיפמן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "לבנה שיפמן",
+      "explicitMatch": "לבנה שיפמן",
+      "orderConflict": false,
       "candidates": [
-        "לבנה שיפמן (hosting order 1)"
+        "לבנה שיפמן (hosting order 1)",
+        "לבנה שיפמן (explicit host cue)"
       ],
       "text": "פרק 6 - שבוע ירושלים, יום א' שבוע ירושלים נפתח אצל לבנה שיפמן עם ארוחה טבעונית מפתיעה"
     },
@@ -1059,8 +1288,12 @@
       "hostingOrder": 2,
       "matched": "יפה חסידים",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יפה חסידים",
+      "explicitMatch": "יפה חסידים",
+      "orderConflict": false,
       "candidates": [
-        "יפה חסידים (hosting order 2)"
+        "יפה חסידים (hosting order 2)",
+        "יפה חסידים (explicit host cue)"
       ],
       "text": "פרק 7 - שבוע ירושלים, יום ב' ביום השני לשבוע ירושלים תארח יפה חסידים לארוחה עיראקית באווירה משפחתית"
     },
@@ -1071,9 +1304,13 @@
       "hostingOrder": 3,
       "matched": "יוסל'ה זיו",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יוסל'ה זיו",
+      "explicitMatch": "יוסל'ה זיו",
+      "orderConflict": false,
       "occupation": "ספר נשים ודראגיסט",
       "candidates": [
-        "יוסל'ה זיו (hosting order 3)"
+        "יוסל'ה זיו (hosting order 3)",
+        "יוסל'ה זיו (explicit host cue)"
       ],
       "text": "פרק 8 - שבוע ירושלים, יום ג' ביום השלישי לתחרות יארח יוסל'ה, ספר נשים ביום ודראגיסט בלילה"
     },
@@ -1084,9 +1321,13 @@
       "hostingOrder": 4,
       "matched": "קארי בר כהן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "קארי בר כהן",
+      "explicitMatch": "קארי בר כהן",
+      "orderConflict": false,
       "occupation": "אושיית טיקטוק",
       "candidates": [
-        "קארי בר כהן (hosting order 4)"
+        "קארי בר כהן (hosting order 4)",
+        "קארי בר כהן (explicit host cue)"
       ],
       "text": "פרק 9 - שבוע ירושלים, יום ד' ביום הרביעי לשבוע ירושלים תארח קארי - ציונית חרדית ואושיית טיקטוק"
     },
@@ -1097,8 +1338,12 @@
       "hostingOrder": 5,
       "matched": "יהונתן מקרוב",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יהונתן מקרוב",
+      "explicitMatch": "יהונתן מקרוב",
+      "orderConflict": false,
       "candidates": [
-        "יהונתן מקרוב (hosting order 5)"
+        "יהונתן מקרוב (hosting order 5)",
+        "יהונתן מקרוב (explicit host cue)"
       ],
       "text": "פרק 10 - שבוע ירושלים, יום ה' ביום האחרון לתחרות יארח יהונתן מנטף לארוחה אורגנית. מי יהיה הזוכה?"
     },
@@ -1109,6 +1354,8 @@
       "hostingOrder": 1,
       "matched": "עמית שאטו",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עמית שאטו",
+      "orderConflict": false,
       "candidates": [
         "עמית שאטו (hosting order 1)"
       ],
@@ -1121,8 +1368,12 @@
       "hostingOrder": 2,
       "matched": "חן וייסמן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "חן וייסמן",
+      "explicitMatch": "חן וייסמן",
+      "orderConflict": false,
       "candidates": [
-        "חן וייסמן (hosting order 2)"
+        "חן וייסמן (hosting order 2)",
+        "חן וייסמן (explicit host cue)"
       ],
       "text": "פרק 12 - שבוע דרום, יום ב' הערב תארח חן, עירונית בנשמה עם אוכל אסייתי ושיחה סוערת על סטיגמות"
     },
@@ -1133,6 +1384,8 @@
       "hostingOrder": 3,
       "matched": "משה ניסימפור",
       "matchMethod": "hosting-order",
+      "structuredMatch": "משה ניסימפור",
+      "orderConflict": false,
       "candidates": [
         "משה ניסימפור (hosting order 3)"
       ],
@@ -1145,8 +1398,12 @@
       "hostingOrder": 4,
       "matched": "עמרי שושן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עמרי שושן",
+      "explicitMatch": "עמרי שושן",
+      "orderConflict": false,
       "candidates": [
-        "עמרי שושן (hosting order 4)"
+        "עמרי שושן (hosting order 4)",
+        "עמרי שושן (explicit host cue)"
       ],
       "text": "פרק 14 - שבוע דרום, יום ד' הערב מארח עמרי עם תפריט צמחוני, ומשה מגיע סקרן במיוחד לארוחה"
     },
@@ -1157,6 +1414,8 @@
       "hostingOrder": 5,
       "matched": "ריטה ליפשיץ",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ריטה ליפשיץ",
+      "orderConflict": false,
       "candidates": [
         "ריטה ליפשיץ (hosting order 5)"
       ],
@@ -1169,8 +1428,12 @@
       "hostingOrder": 1,
       "matched": "אילנה בן אבו",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אילנה בן אבו",
+      "explicitMatch": "אילנה בן אבו",
+      "orderConflict": false,
       "candidates": [
-        "אילנה בן אבו (hosting order 1)"
+        "אילנה בן אבו (hosting order 1)",
+        "אילנה בן אבו (explicit host cue)"
       ],
       "text": "פרק 16 - שבוע מרכז, יום א' שבוע מרכז נפתח בארוחה מרוקאית מסורתית אצל המארחת אילנה"
     },
@@ -1181,6 +1444,8 @@
       "hostingOrder": 2,
       "matched": "ירון ליברמן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ירון ליברמן",
+      "orderConflict": false,
       "candidates": [
         "ירון ליברמן (hosting order 2)"
       ],
@@ -1193,6 +1458,8 @@
       "hostingOrder": 3,
       "matched": "עמנואל יצחק לוי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עמנואל יצחק לוי",
+      "orderConflict": false,
       "candidates": [
         "עמנואל יצחק לוי (hosting order 3)"
       ],
@@ -1205,6 +1472,8 @@
       "hostingOrder": 4,
       "matched": "נירית מיטל",
       "matchMethod": "hosting-order",
+      "structuredMatch": "נירית מיטל",
+      "orderConflict": false,
       "candidates": [
         "נירית מיטל (hosting order 4)"
       ],
@@ -1217,8 +1486,12 @@
       "hostingOrder": 5,
       "matched": "גל בן דוד",
       "matchMethod": "hosting-order",
+      "structuredMatch": "גל בן דוד",
+      "explicitMatch": "גל בן דוד",
+      "orderConflict": false,
       "candidates": [
-        "גל בן דוד (hosting order 5)"
+        "גל בן דוד (hosting order 5)",
+        "גל בן דוד (explicit host cue)"
       ],
       "text": "פרק 20 - שבוע מרכז, יום ה' ביום האחרון לשבוע מרכז החבורה מגיעה לערב פויקה בשטח אצל גל"
     },
@@ -1229,6 +1502,8 @@
       "hostingOrder": 1,
       "matched": "עדן כהן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עדן כהן",
+      "orderConflict": false,
       "candidates": [
         "עדן כהן (hosting order 1)"
       ],
@@ -1241,8 +1516,12 @@
       "hostingOrder": 2,
       "matched": "לואר עמור",
       "matchMethod": "hosting-order",
+      "structuredMatch": "לואר עמור",
+      "explicitMatch": "לואר עמור",
+      "orderConflict": false,
       "candidates": [
-        "לואר עמור (hosting order 2)"
+        "לואר עמור (hosting order 2)",
+        "לואר עמור (explicit host cue)"
       ],
       "text": "פרק 22 - שבוע מישור החוף, יום ב' ביום השני לתחרות החבורה תגיע לאירוח חוויתי אצל לואר בת הים מאחיטוב"
     },
@@ -1253,8 +1532,12 @@
       "hostingOrder": 3,
       "matched": "אייל עובדיה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אייל עובדיה",
+      "explicitMatch": "אייל עובדיה",
+      "orderConflict": false,
       "candidates": [
-        "אייל עובדיה (hosting order 3)"
+        "אייל עובדיה (hosting order 3)",
+        "אייל עובדיה (explicit host cue)"
       ],
       "text": "פרק 23 - שבוע מישור החוף, יום ג' ביום השלישי לתחרות החבורה תתארח בחדרה אצל אייל הגבר שלא רוצה להתבגר"
     },
@@ -1265,8 +1548,12 @@
       "hostingOrder": 4,
       "matched": "אדי בן סימון",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אדי בן סימון",
+      "explicitMatch": "אדי בן סימון",
+      "orderConflict": false,
       "candidates": [
-        "אדי בן סימון (hosting order 4)"
+        "אדי בן סימון (hosting order 4)",
+        "אדי בן סימון (explicit host cue)"
       ],
       "text": "פרק 24 - שבוע מישור החוף, יום ד' ביום הרביעי לתחרות יארח אדי בן סימון בסגנון קלאס עם מאמץ"
     },
@@ -1277,6 +1564,8 @@
       "hostingOrder": 5,
       "matched": "לינוי דסה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "לינוי דסה",
+      "orderConflict": false,
       "candidates": [
         "לינוי דסה (hosting order 5)"
       ],
@@ -1289,6 +1578,8 @@
       "hostingOrder": 1,
       "matched": "קמילה קידר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "קמילה קידר",
+      "orderConflict": false,
       "occupation": "מעצבת פנים",
       "candidates": [
         "קמילה קידר (hosting order 1)"
@@ -1302,6 +1593,8 @@
       "hostingOrder": 2,
       "matched": "יובל ארוש",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יובל ארוש",
+      "orderConflict": false,
       "candidates": [
         "יובל ארוש (hosting order 2)"
       ],
@@ -1314,8 +1607,12 @@
       "hostingOrder": 3,
       "matched": "ירדן שלי נקים",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ירדן שלי נקים",
+      "explicitMatch": "ירדן שלי נקים",
+      "orderConflict": false,
       "candidates": [
-        "ירדן שלי נקים (hosting order 3)"
+        "ירדן שלי נקים (hosting order 3)",
+        "ירדן שלי נקים (explicit host cue)"
       ],
       "text": "פרק 3 - שבוע דרום, יום ג' היום השלישי לתחרות האירוח והבישול בדרום, הערב מארחת ירדן מבאר שבע"
     },
@@ -1326,8 +1623,12 @@
       "hostingOrder": 4,
       "matched": "שירה ניר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "שירה ניר",
+      "explicitMatch": "שירה ניר",
+      "orderConflict": false,
       "candidates": [
-        "שירה ניר (hosting order 4)"
+        "שירה ניר (hosting order 4)",
+        "שירה ניר (explicit host cue)"
       ],
       "text": "פרק 4 - שבוע דרום, יום ד' היום הרביעי בתחרות באזור הדרום, והיום תארח שירה מאשקלון"
     },
@@ -1338,8 +1639,13 @@
       "hostingOrder": 5,
       "matched": "עודד קב",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עודד קב",
+      "explicitMatch": "עודד קב",
+      "orderConflict": false,
+      "diet": "פירותני",
       "candidates": [
-        "עודד קב (hosting order 5)"
+        "עודד קב (hosting order 5)",
+        "עודד קב (explicit host cue)"
       ],
       "text": "פרק 5 - שבוע דרום, יום ה' בערב האחרון לשבוע באזור הדרום, החבורה תבלה בירוחם אצל עודד הפירותני"
     },
@@ -1350,6 +1656,8 @@
       "hostingOrder": 1,
       "matched": "חננאל אמיתי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "חננאל אמיתי",
+      "orderConflict": false,
       "candidates": [
         "חננאל אמיתי (hosting order 1)"
       ],
@@ -1362,6 +1670,8 @@
       "hostingOrder": 2,
       "matched": "כרמית תא שמע",
       "matchMethod": "hosting-order",
+      "structuredMatch": "כרמית תא שמע",
+      "orderConflict": false,
       "candidates": [
         "כרמית תא שמע (hosting order 2)"
       ],
@@ -1374,9 +1684,13 @@
       "hostingOrder": 3,
       "matched": "רוני אילוז",
       "matchMethod": "hosting-order",
+      "structuredMatch": "רוני אילוז",
+      "explicitMatch": "רוני אילוז",
+      "orderConflict": false,
       "occupation": "מתקשרת",
       "candidates": [
-        "רוני אילוז (hosting order 3)"
+        "רוני אילוז (hosting order 3)",
+        "רוני אילוז (explicit host cue)"
       ],
       "text": "פרק 8 - שבוע ירושלים, יום ג' הערב יגיעו האורחים לירושלים לחוויה רוחנית אצל רוני המתקשרת"
     },
@@ -1387,6 +1701,8 @@
       "hostingOrder": 4,
       "matched": "תום בייקין אוחיון",
       "matchMethod": "hosting-order",
+      "structuredMatch": "תום בייקין אוחיון",
+      "orderConflict": false,
       "candidates": [
         "תום בייקין אוחיון (hosting order 4)"
       ],
@@ -1399,6 +1715,8 @@
       "hostingOrder": 5,
       "matched": "דלילה שמש",
       "matchMethod": "hosting-order",
+      "structuredMatch": "דלילה שמש",
+      "orderConflict": false,
       "candidates": [
         "דלילה שמש (hosting order 5)"
       ],
@@ -1411,6 +1729,8 @@
       "hostingOrder": 1,
       "matched": "זהר יוספיאן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "זהר יוספיאן",
+      "orderConflict": false,
       "candidates": [
         "זהר יוספיאן (hosting order 1)"
       ],
@@ -1423,8 +1743,13 @@
       "hostingOrder": 2,
       "matched": "יעל זילברמן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יעל זילברמן",
+      "explicitMatch": "יעל זילברמן",
+      "orderConflict": false,
+      "occupation": "משפיענית",
       "candidates": [
-        "יעל זילברמן (hosting order 2)"
+        "יעל זילברמן (hosting order 2)",
+        "יעל זילברמן (explicit host cue)"
       ],
       "text": "פרק 12 - שבוע תל אביב, יום ב' היום השני של התחרות באזור תל-אביב והערב מארחת יעל, משפיענית מבני ברק"
     },
@@ -1435,6 +1760,8 @@
       "hostingOrder": 3,
       "matched": "חן (חנצ'ה) יאיר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "חן (חנצ'ה) יאיר",
+      "orderConflict": false,
       "candidates": [
         "חן (חנצ'ה) יאיר (hosting order 3)"
       ],
@@ -1447,6 +1774,8 @@
       "hostingOrder": 4,
       "matched": "אתי גלבוע",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אתי גלבוע",
+      "orderConflict": false,
       "candidates": [
         "אתי גלבוע (hosting order 4)"
       ],
@@ -1459,8 +1788,12 @@
       "hostingOrder": 5,
       "matched": "לינור אברג'ל",
       "matchMethod": "hosting-order",
+      "structuredMatch": "לינור אברג'ל",
+      "explicitMatch": "לינור אברג'ל",
+      "orderConflict": false,
       "candidates": [
-        "לינור אברג'ל (hosting order 5)"
+        "לינור אברג'ל (hosting order 5)",
+        "לינור אברג'ל (explicit host cue)"
       ],
       "text": "פרק 15 - שבוע תל אביב, יום ה' הערב האחרון לתחרות באזור תל אביב הוא ערב חגיגי בסגנון מצרי אצל לינור"
     },
@@ -1471,6 +1804,8 @@
       "hostingOrder": 1,
       "matched": "אילנית יורמן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אילנית יורמן",
+      "orderConflict": false,
       "candidates": [
         "אילנית יורמן (hosting order 1)"
       ],
@@ -1483,8 +1818,12 @@
       "hostingOrder": 2,
       "matched": "קארין מקס",
       "matchMethod": "hosting-order",
+      "structuredMatch": "קארין מקס",
+      "explicitMatch": "קארין מקס",
+      "orderConflict": false,
       "candidates": [
-        "קארין מקס (hosting order 2)"
+        "קארין מקס (hosting order 2)",
+        "קארין מקס (explicit host cue)"
       ],
       "text": "פרק 17 - שבוע השרון והכרמל, יום ב' זה היום השני לתחרות הבישול והאירוח באזור השרון והכרמל, היום תארח קארין"
     },
@@ -1495,6 +1834,8 @@
       "hostingOrder": 3,
       "matched": "אורי זיצ'ק",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אורי זיצ'ק",
+      "orderConflict": false,
       "candidates": [
         "אורי זיצ'ק (hosting order 3)"
       ],
@@ -1507,8 +1848,12 @@
       "hostingOrder": 4,
       "matched": "מאיה לב קורן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "מאיה לב קורן",
+      "explicitMatch": "מאיה לב קורן",
+      "orderConflict": false,
       "candidates": [
-        "מאיה לב קורן (hosting order 4)"
+        "מאיה לב קורן (hosting order 4)",
+        "מאיה לב קורן (explicit host cue)"
       ],
       "text": "פרק 19 - שבוע השרון והכרמל, יום ד' יום רביעי בתחרות הבישול באזור השרון והכרמל, היום מארחת מאיה בקציר"
     },
@@ -1519,8 +1864,12 @@
       "hostingOrder": 5,
       "matched": "אביתר בן פורת",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אביתר בן פורת",
+      "explicitMatch": "אביתר בן פורת",
+      "orderConflict": false,
       "candidates": [
-        "אביתר בן פורת (hosting order 5)"
+        "אביתר בן פורת (hosting order 5)",
+        "אביתר בן פורת (explicit host cue)"
       ],
       "text": "פרק 20 - שבוע השרון והכרמל, יום ה' החבורה מבלה אצל אביתר מחדרה בערב האחרון לתחרות באזור השרון והכרמל"
     },
@@ -1531,6 +1880,9 @@
       "hostingOrder": 1,
       "matched": "אבנית סטרולוב",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אבנית סטרולוב",
+      "orderConflict": false,
+      "occupation": "בלוגרית טיולים",
       "candidates": [
         "אבנית סטרולוב (hosting order 1)"
       ],
@@ -1543,6 +1895,8 @@
       "hostingOrder": 2,
       "matched": "אליאס עבוד",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אליאס עבוד",
+      "orderConflict": false,
       "candidates": [
         "אליאס עבוד (hosting order 2)"
       ],
@@ -1555,6 +1909,8 @@
       "hostingOrder": 3,
       "matched": "אוניקה אלנה דניאלה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אוניקה אלנה דניאלה",
+      "orderConflict": false,
       "candidates": [
         "אוניקה אלנה דניאלה (hosting order 3)"
       ],
@@ -1567,6 +1923,9 @@
       "hostingOrder": 4,
       "matched": "טל הרוש",
       "matchMethod": "hosting-order",
+      "structuredMatch": "טל הרוש",
+      "orderConflict": false,
+      "occupation": "איש חיי הלילה",
       "candidates": [
         "טל הרוש (hosting order 4)"
       ],
@@ -1579,8 +1938,13 @@
       "hostingOrder": 5,
       "matched": "עדי ויצמן אסולין",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עדי ויצמן אסולין",
+      "explicitMatch": "עדי ויצמן אסולין",
+      "orderConflict": false,
+      "occupation": "בעלת סטודיו לריקוד",
       "candidates": [
-        "עדי ויצמן אסולין (hosting order 5)"
+        "עדי ויצמן אסולין (hosting order 5)",
+        "עדי ויצמן אסולין (explicit host cue)"
       ],
       "text": "פרק 25 - שבוע חיפה, יום ה' פרק אחרון באזור חיפה: הפעם תארח עדי, בעלת סטודיו לריקוד מקרית אתא"
     },
@@ -1591,6 +1955,8 @@
       "hostingOrder": 1,
       "matched": "רועי גולן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "רועי גולן",
+      "orderConflict": false,
       "candidates": [
         "רועי גולן (hosting order 1)"
       ],
@@ -1603,8 +1969,12 @@
       "hostingOrder": 2,
       "matched": "אדם גוזלן",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אדם גוזלן",
+      "explicitMatch": "אדם גוזלן",
+      "orderConflict": false,
       "candidates": [
-        "אדם גוזלן (hosting order 2)"
+        "אדם גוזלן (hosting order 2)",
+        "אדם גוזלן (explicit host cue)"
       ],
       "text": "פרק 2 - שבוע ירושלים, יום ב' זה היום השני לתחרות הבישול באזור ירושלים והערב מארח אדם מנווה דניאל"
     },
@@ -1615,6 +1985,8 @@
       "hostingOrder": 3,
       "matched": "יגאל טמיר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יגאל טמיר",
+      "orderConflict": false,
       "candidates": [
         "יגאל טמיר (hosting order 3)"
       ],
@@ -1627,6 +1999,8 @@
       "hostingOrder": 4,
       "matched": "חיה לב",
       "matchMethod": "hosting-order",
+      "structuredMatch": "חיה לב",
+      "orderConflict": false,
       "candidates": [
         "חיה לב (hosting order 4)"
       ],
@@ -1639,8 +2013,12 @@
       "hostingOrder": 5,
       "matched": "ניקול אלטשולר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ניקול אלטשולר",
+      "explicitMatch": "ניקול אלטשולר",
+      "orderConflict": false,
       "candidates": [
-        "ניקול אלטשולר (hosting order 5)"
+        "ניקול אלטשולר (hosting order 5)",
+        "ניקול אלטשולר (explicit host cue)"
       ],
       "text": "פרק 5 - שבוע ירושלים, יום ה' יום אחרון לתחרות באזור ירושלים והערב תארח ניקול. מי המנצח של התחרות?"
     },
@@ -1651,8 +2029,13 @@
       "hostingOrder": 1,
       "matched": "איריס אלוג",
       "matchMethod": "hosting-order",
+      "structuredMatch": "איריס אלוג",
+      "explicitMatch": "איריס אלוג",
+      "orderConflict": false,
+      "occupation": "מעבירה ערבי הפרשות חלה",
       "candidates": [
-        "איריס אלוג (hosting order 1)"
+        "איריס אלוג (hosting order 1)",
+        "איריס אלוג (explicit host cue)"
       ],
       "text": "פרק 6 - שבוע שפלה, יום א' ביום הראשון לתחרות באזור השפלה תארח איריס, מעבירה ערבי הפרשות חלה"
     },
@@ -1663,6 +2046,8 @@
       "hostingOrder": 2,
       "matched": "יריב אגוזי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "יריב אגוזי",
+      "orderConflict": false,
       "candidates": [
         "יריב אגוזי (hosting order 2)"
       ],
@@ -1675,6 +2060,8 @@
       "hostingOrder": 3,
       "matched": "ליהי קימורה",
       "matchMethod": "hosting-order",
+      "structuredMatch": "ליהי קימורה",
+      "orderConflict": false,
       "candidates": [
         "ליהי קימורה (hosting order 3)"
       ],
@@ -1687,8 +2074,12 @@
       "hostingOrder": 4,
       "matched": "זהר גורמס",
       "matchMethod": "hosting-order",
+      "structuredMatch": "זהר גורמס",
+      "explicitMatch": "זהר גורמס",
+      "orderConflict": false,
       "candidates": [
-        "זהר גורמס (hosting order 4)"
+        "זהר גורמס (hosting order 4)",
+        "זהר גורמס (explicit host cue)"
       ],
       "text": "פרק 9 - שבוע שפלה, יום ד' הפעם האורחים יגיעו לביקור אצל זהר, הערב נגלה - למה ליהי לא רוצה ילדים?"
     },
@@ -1699,6 +2090,8 @@
       "hostingOrder": 5,
       "matched": "דניאל דריי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "דניאל דריי",
+      "orderConflict": false,
       "candidates": [
         "דניאל דריי (hosting order 5)"
       ],
@@ -1711,6 +2104,8 @@
       "hostingOrder": 1,
       "matched": "עליזה אלקיים עבאדי",
       "matchMethod": "hosting-order",
+      "structuredMatch": "עליזה אלקיים עבאדי",
+      "orderConflict": false,
       "occupation": "ליצנית רפואית",
       "candidates": [
         "עליזה אלקיים עבאדי (hosting order 1)"
@@ -1724,6 +2119,8 @@
       "hostingOrder": 2,
       "matched": "רוני פליישר",
       "matchMethod": "hosting-order",
+      "structuredMatch": "רוני פליישר",
+      "orderConflict": false,
       "candidates": [
         "רוני פליישר (hosting order 2)"
       ],
@@ -1736,6 +2133,8 @@
       "hostingOrder": 3,
       "matched": "אבינעם שמעון",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אבינעם שמעון",
+      "orderConflict": false,
       "candidates": [
         "אבינעם שמעון (hosting order 3)"
       ],
@@ -1748,6 +2147,8 @@
       "hostingOrder": 4,
       "matched": "מירן הולדשטיין",
       "matchMethod": "hosting-order",
+      "structuredMatch": "מירן הולדשטיין",
+      "orderConflict": false,
       "candidates": [
         "מירן הולדשטיין (hosting order 4)"
       ],
@@ -1760,8 +2161,12 @@
       "hostingOrder": 5,
       "matched": "אלירן בוחבוט",
       "matchMethod": "hosting-order",
+      "structuredMatch": "אלירן בוחבוט",
+      "explicitMatch": "אלירן בוחבוט",
+      "orderConflict": false,
       "candidates": [
-        "אלירן בוחבוט (hosting order 5)"
+        "אלירן בוחבוט (hosting order 5)",
+        "אלירן בוחבוט (explicit host cue)"
       ],
       "text": "פרק 15 - שבוע צפון, יום ה' היום אחרון לתחרות באזור הצפון, והפעם חגיגה מרוקאית אצל אלירן"
     },
@@ -1770,6 +2175,7 @@
       "episode": 16,
       "week": 4,
       "hostingOrder": 1,
+      "orderConflict": false,
       "candidates": [],
       "text": "פרק 16 - שבוע אילת, יום א' זה היום הראשון והפעם הראשונה שתחרות הבישול מגיעה לעיר הדרומית אילת"
     },
@@ -1778,6 +2184,7 @@
       "episode": 17,
       "week": 4,
       "hostingOrder": 2,
+      "orderConflict": false,
       "candidates": [],
       "text": "פרק 17 - שבוע אילת, יום ב' בילי מארחת את החבורה ומדהימה את כולם בסיפור חייה המיוחד"
     }
