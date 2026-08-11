@@ -1,18 +1,17 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import * as cheerio from 'cheerio'
-import type { Contestant, Dish, DishVariant, Episode, SourceRef } from '../lib/types'
+import type { Contestant, Episode, SourceRef } from '../lib/types'
 
 type SeasonPage = { season: number; url: string }
+type MatchMethod = 'hosting-order' | 'explicit-host-text'
 type EnrichmentDiagnostic = {
   season: number
   episode: number
   week?: number
   hostingOrder?: number
   matched?: string
+  matchMethod?: MatchMethod
   candidates?: string[]
-  recipeUrl?: string
-  dishCount?: number
-  recipeError?: string
   text: string
 }
 
@@ -168,101 +167,51 @@ function inferWeek(episode: Episode) {
   return undefined
 }
 
-function scoreCandidate(entry: Contestant, episodeText: string) {
-  const normalizedText = normalize(episodeText)
-  const fullName = normalize(entry.name)
-  let score = fullName && normalizedText.includes(fullName) ? 100 : 0
+function explicitHostMatch(entry: Contestant, episodeText: string) {
   const episodeWords = new Set(words(episodeText))
   const cueText = compact(episodeText).normalize('NFKC').toLocaleLowerCase('he')
-  const hebrewPrefixes = ['ל', 'ב', 'מ', 'ו', 'כ', 'ה']
-
   for (const candidate of firstNameCandidates(entry.name)) {
     if (candidate.length < 2) continue
     const exactWord = episodeWords.has(candidate)
-    const prefixedWord = hebrewPrefixes.some((prefix) => episodeWords.has(`${prefix}${candidate}`))
+    const prefixedWord = ['ל', 'ב', 'מ', 'ו', 'כ', 'ה'].some((prefix) => episodeWords.has(`${prefix}${candidate}`))
     if (!exactWord && !prefixedWord) continue
-
-    score += exactWord ? 20 : 10
-
     const escaped = escapeRegExp(candidate)
-    const explicitHostCue = new RegExp(`(?:מארח(?:ת)?|יארח|תארח|אצל)\\s+${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
-    if (explicitHostCue.test(cueText)) score += 60
+    const explicitCue = new RegExp(`(?:מארח(?:ת)?|יארח|תארח|אצל)\\s+${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
+    if (explicitCue.test(cueText)) return true
+  }
+  return false
+}
+
+function selectHost(candidates: Contestant[], episode: Episode, text: string) {
+  const byOrder = candidates.filter((entry) => entry.hostingOrder === episode.hostingOrder)
+  if (byOrder.length === 1) {
+    return {
+      matched: byOrder[0],
+      matchMethod: 'hosting-order' as const,
+      diagnosticCandidates: byOrder.map((entry) => `${entry.name} (hosting order ${entry.hostingOrder})`),
+    }
   }
 
-  return score
-}
-
-function recipeLinkFromEpisode(html: string, episodeUrl: string) {
-  const $ = cheerio.load(html)
-  let found: string | undefined
-  $('a[href]').each((_, element) => {
-    if (found) return
-    const href = $(element).attr('href') ?? ''
-    if (/\/content\/dig\/recipes\/\d+/i.test(href)) found = absoluteUrl(href, episodeUrl)
-  })
-  return found
-}
-
-function dishCourse(label: string): Dish['course'] | undefined {
-  if (/^מנה\s+ראשונה/.test(label)) return 'starter'
-  if (/^מנה\s+עיקרית/.test(label)) return 'main'
-  if (/^קינוח/.test(label)) return 'dessert'
-  return undefined
-}
-
-function dishVariant(label: string): DishVariant {
-  if (/טבעוני/.test(label)) return 'vegan'
-  if (/צמחוני/.test(label)) return 'vegetarian'
-  if (/חלופ|תחליפ/.test(label)) return 'alternative'
-  return 'standard'
-}
-
-function dishesFromRecipe(html: string, recipeUrl: string): Dish[] {
-  const $ = cheerio.load(html)
-  const dishes: Dish[] = []
-  const seen = new Set<string>()
-  const source: SourceRef = {
-    kind: 'kan',
-    title: 'כאן 11 — בואו לאכול איתי: המתכונים',
-    url: recipeUrl,
-    note: 'Official recipe page; only dish/menu titles are imported',
+  const byExplicitText = candidates.filter((entry) => explicitHostMatch(entry, text))
+  if (byExplicitText.length === 1) {
+    return {
+      matched: byExplicitText[0],
+      matchMethod: 'explicit-host-text' as const,
+      diagnosticCandidates: byExplicitText.map((entry) => `${entry.name} (explicit host cue)`),
+    }
   }
 
-  $('h2,h3').each((_, element) => {
-    const heading = compact($(element).text())
-    const course = dishCourse(heading)
-    if (!course) return
-    const separator = heading.search(/[:：]/)
-    if (separator < 0) return
-    const label = compact(heading.slice(0, separator))
-    const name = compact(heading.slice(separator + 1))
-    if (!name || /^(מרכיבים|אופן ההכנה|הגשה)$/u.test(name)) return
-    const variant = dishVariant(label)
-    const key = `${course}:${variant}:${normalize(name)}`
-    if (seen.has(key)) return
-    seen.add(key)
-    dishes.push({
-      course,
-      variant,
-      label,
-      name,
-      tags: variant === 'standard' ? undefined : [label],
-      sources: [source],
-    })
-  })
-
-  return dishes
+  return {
+    matched: undefined,
+    matchMethod: undefined,
+    diagnosticCandidates: [
+      ...byOrder.map((entry) => `${entry.name} (hosting order ${entry.hostingOrder})`),
+      ...byExplicitText.map((entry) => `${entry.name} (explicit host cue)`),
+    ],
+  }
 }
 
-async function importRecipeForEpisode(episode: Episode) {
-  const episodeHtml = await fetchHtml(episode.url)
-  const recipeUrl = recipeLinkFromEpisode(episodeHtml, episode.url)
-  if (!recipeUrl) return { dishes: [] as Dish[], recipeUrl: undefined }
-  const recipeHtml = await fetchHtml(recipeUrl)
-  return { dishes: dishesFromRecipe(recipeHtml, recipeUrl), recipeUrl }
-}
-
-async function buildKanContestants(episodes: Episode[], wikipediaContestants: Contestant[]) {
+function buildKanContestants(episodes: Episode[], wikipediaContestants: Contestant[]) {
   const rows: Contestant[] = []
   const diagnostics: EnrichmentDiagnostic[] = []
 
@@ -273,48 +222,26 @@ async function buildKanContestants(episodes: Episode[], wikipediaContestants: Co
 
     const candidates = wikipediaContestants.filter((entry) => entry.season === episode.season && entry.week === week && entry.entryType !== 'couple')
     const text = `${episode.title} ${episode.description ?? ''}`
-    const ranked = candidates
-      .map((entry) => ({ entry, score: scoreCandidate(entry, text) }))
-      .filter((item) => item.score > 0)
-      .sort((a, b) => b.score - a.score)
+    const selection = selectHost(candidates, episode, text)
+    const matched = selection.matched
 
-    const top = ranked[0]
-    const unique = top && (!ranked[1] || top.score > ranked[1].score)
-    const matched = unique ? top.entry : undefined
-    const diagnostic: EnrichmentDiagnostic = {
+    diagnostics.push({
       season: episode.season,
       episode: episode.episode,
       week,
       hostingOrder: episode.hostingOrder,
       matched: matched?.name,
-      candidates: ranked.slice(0, 3).map((item) => `${item.entry.name} (${item.score})`),
+      matchMethod: selection.matchMethod,
+      candidates: selection.diagnosticCandidates,
       text: compact(text).slice(0, 300),
-    }
+    })
 
-    if (!matched) {
-      diagnostics.push(diagnostic)
-      continue
-    }
-
-    let dishes: Dish[] = []
-    let recipeUrl: string | undefined
-    try {
-      const recipe = await importRecipeForEpisode(episode)
-      dishes = recipe.dishes
-      recipeUrl = recipe.recipeUrl
-      diagnostic.recipeUrl = recipeUrl
-      diagnostic.dishCount = dishes.length
-    } catch (error) {
-      diagnostic.recipeError = error instanceof Error ? error.message : String(error)
-    }
-    diagnostics.push(diagnostic)
-
-    const episodeSource: SourceRef = {
+    if (!matched) continue
+    const source: SourceRef = {
       ...episode.source,
       url: episode.url,
-      note: `Official Kan episode ${episode.episode}; host matched from episode metadata`,
+      note: `Official Kan episode ${episode.episode}; host matched by ${selection.matchMethod === 'hosting-order' ? 'structured hosting order' : 'explicit host wording'}`,
     }
-    const recipeSource = recipeUrl ? dishes[0]?.sources?.[0] : undefined
 
     rows.push({
       slug: matched.slug,
@@ -325,14 +252,13 @@ async function buildKanContestants(episodes: Episode[], wikipediaContestants: Co
       week,
       weekName: episode.weekName ?? matched.weekName,
       hostingOrder: episode.hostingOrder,
-      dishes,
+      dishes: [],
       episodeUrls: [episode.url],
-      sources: recipeSource ? [episodeSource, recipeSource] : [episodeSource],
+      sources: [source],
       fieldSources: {
-        week: [episodeSource],
-        ...(episode.weekName ? { weekName: [episodeSource] } : {}),
-        hostingOrder: [episodeSource],
-        ...(recipeSource && dishes.length ? { dishes: [recipeSource] } : {}),
+        week: [source],
+        ...(episode.weekName ? { weekName: [source] } : {}),
+        hostingOrder: [source],
       },
     })
   }
@@ -364,21 +290,24 @@ async function main() {
   await writeFile(normalizedFile, JSON.stringify(deduped, null, 2))
 
   const wikipediaContestants = await maybeWikipediaContestants()
-  const enrichment = await buildKanContestants(deduped, wikipediaContestants)
+  const enrichment = buildKanContestants(deduped, wikipediaContestants)
   await writeFile(contestantsFile, JSON.stringify(enrichment.rows, null, 2))
   await writeFile(enrichmentReportFile, JSON.stringify({
     matchedEntries: enrichment.rows.length,
     episodesConsidered: enrichment.diagnostics.length,
-    menuPagesFound: enrichment.diagnostics.filter((item) => item.recipeUrl).length,
-    completeMenusImported: enrichment.diagnostics.filter((item) => item.dishCount === 3).length,
-    dishesImported: enrichment.diagnostics.reduce((sum, item) => sum + (item.dishCount ?? 0), 0),
-    recipeErrors: enrichment.diagnostics.filter((item) => item.recipeError).length,
+    matchedByHostingOrder: enrichment.diagnostics.filter((item) => item.matchMethod === 'hosting-order').length,
+    matchedByExplicitHostText: enrichment.diagnostics.filter((item) => item.matchMethod === 'explicit-host-text').length,
+    unmatchedEpisodes: enrichment.diagnostics.filter((item) => !item.matched).length,
+    recipeDiscovery: {
+      enabled: false,
+      reason: 'Regular season 5–9 episode HTML exposed no direct per-host recipe links during the 2026-08-11 live import. See research/kan-recipes.md.',
+    },
     diagnostics: enrichment.diagnostics,
   }, null, 2))
 
   console.log(`Saved ${deduped.length} official episode records with Kan attribution`)
   console.log(`Matched ${enrichment.rows.length}/${enrichment.diagnostics.length} season 5–9 hosting episodes to competition entries`)
-  console.log(`Imported ${enrichment.diagnostics.reduce((sum, item) => sum + (item.dishCount ?? 0), 0)} official menu titles from ${enrichment.diagnostics.filter((item) => item.recipeUrl).length} Kan recipe pages`)
+  console.log(`Host match methods: ${enrichment.diagnostics.filter((item) => item.matchMethod === 'hosting-order').length} structured order, ${enrichment.diagnostics.filter((item) => item.matchMethod === 'explicit-host-text').length} explicit text`)
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1 })
