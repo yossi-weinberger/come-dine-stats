@@ -1,12 +1,12 @@
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile, readdir, writeFile } from 'node:fs/promises'
 import { z } from 'zod'
 import type { Contestant, Dish, SourceRef } from '../lib/types'
 
-const inputFile = new URL('../data/supplemental/menus.json', import.meta.url)
+const supplementalDir = new URL('../data/supplemental/', import.meta.url)
 const outputFile = new URL('../data/normalized/supplemental-menu-contestants.json', import.meta.url)
 
 const sourceSchema = z.object({
-  kind: z.enum(['foodik', 'rest']),
+  kind: z.enum(['foodik', 'rest', 'manual']),
   url: z.string().url(),
   title: z.string().min(1).optional(),
   author: z.string().min(1).optional(),
@@ -30,6 +30,7 @@ const rowSchema = z.object({
 })
 
 const fileSchema = z.array(rowSchema)
+type MenuRow = z.infer<typeof rowSchema>
 
 function slugify(value: string) {
   return value
@@ -51,9 +52,23 @@ function dishKey(season: number, name: string, dish: z.infer<typeof dishSchema>)
   ].join(':')
 }
 
+async function loadRows() {
+  const files = (await readdir(supplementalDir))
+    .filter((name) => /^menus(?:-[\w-]+)?\.json$/.test(name))
+    .sort()
+
+  const rows: MenuRow[] = []
+  for (const file of files) {
+    const raw = JSON.parse(await readFile(new URL(file, supplementalDir), 'utf8'))
+    rows.push(...fileSchema.parse(raw))
+  }
+
+  console.log(`Loaded ${rows.length} supplemental menu rows from ${files.length} evidence file(s)`)
+  return rows
+}
+
 async function main() {
-  const raw = JSON.parse(await readFile(inputFile, 'utf8'))
-  const rows = fileSchema.parse(raw)
+  const rows = await loadRows()
   const seen = new Set<string>()
 
   const output: Contestant[] = rows.map((row) => {
