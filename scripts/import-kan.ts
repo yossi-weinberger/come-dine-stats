@@ -11,6 +11,8 @@ type EnrichmentDiagnostic = {
   hostingOrder?: number
   matched?: string
   matchMethod?: MatchMethod
+  occupation?: string
+  diet?: string
   candidates?: string[]
   text: string
 }
@@ -24,6 +26,31 @@ const enrichmentReportFile = new URL('../data/reports/kan-contestant-enrichment.
 const wikipediaFile = new URL('../data/normalized/wikipedia-contestants.json', import.meta.url)
 
 const dayOrder: Record<string, number> = { "א'": 1, "ב'": 2, "ג'": 3, "ד'": 4, "ה'": 5 }
+
+const occupationCues: Array<{ value: string; pattern: RegExp }> = [
+  { value: 'מורה לתנ"ך וסולן להקה', pattern: /מורה לתנ["״]ך וסולן להקה/u },
+  { value: 'מסדרת ארונות וסטייליסטית', pattern: /מסדרת ארונות מקצועית וסטייליסטית/u },
+  { value: 'ספר נשים ודראגיסט', pattern: /ספר נשים ביום ודראגיסט בלילה/u },
+  { value: 'מתקשרת ויוצרת', pattern: /המתקשרת והיוצרת/u },
+  { value: 'אחראית כיף בהייטק', pattern: /אחראית הכיף/u },
+  { value: 'מתכנת בהייטק', pattern: /מתכנת בהייטק/u },
+  { value: 'סוחר באבני חן', pattern: /סוחר באבני חן/u },
+  { value: 'ליצנית רפואית', pattern: /ליצנית רפואית/u },
+  { value: 'יועצת מינית', pattern: /יועצת מינית/u },
+  { value: 'מעצבת פנים', pattern: /מעצבת פנים/u },
+  { value: 'מעצב בלונים', pattern: /מעצב הבלונים/u },
+  { value: 'איש תקשורת', pattern: /איש התקשורת/u },
+  { value: 'כוכב רשת', pattern: /כוכב הרשת/u },
+  { value: 'אושיית טיקטוק', pattern: /אושיית טיקטוק/u },
+  { value: 'הייטקיסט', pattern: /ההייטקיסט/u },
+  { value: 'מדענית', pattern: /מדענית/u },
+  { value: 'רפתן', pattern: /הרפתן/u },
+  { value: 'בלוגר', pattern: /הבלוגר/u },
+  { value: 'אומנית', pattern: /האומנית/u },
+  { value: 'מתקשרת', pattern: /המתקשרת/u },
+  { value: 'מורה', pattern: /המורה/u },
+  { value: 'עיתונאית', pattern: /עיתונאית/u },
+]
 
 function compact(value: string) {
   return value.replace(/\s+/g, ' ').trim()
@@ -50,11 +77,15 @@ function escapeRegExp(value: string) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-function firstNameCandidates(name: string) {
+function rawFirstNameCandidates(name: string) {
   const clean = compact(name)
   const firstToken = clean.split(/\s+/)[0]
   const aliases = [...clean.matchAll(/\(([^)]+)\)/g)].map((match) => match[1])
-  return [...new Set([firstToken, ...aliases].map(normalize).filter(Boolean))]
+  return [...new Set([firstToken, ...aliases].map(compact).filter(Boolean))]
+}
+
+function firstNameCandidates(name: string) {
+  return rawFirstNameCandidates(name).map(normalize).filter(Boolean)
 }
 
 async function fetchHtml(url: string) {
@@ -73,7 +104,7 @@ function absoluteUrl(href: string, base: string) {
 }
 
 function inferredHostingOrder(season: number, episode: number | undefined) {
-  if (!episode || season < 5 || season > 9) return undefined
+  if (!episode || season < 5 || season > 10) return undefined
   return ((episode - 1) % 5) + 1
 }
 
@@ -163,7 +194,7 @@ async function maybeWikipediaContestants() {
 }
 
 function inferWeek(episode: Episode) {
-  if (episode.season >= 5 && episode.season <= 9) return Math.floor((episode.episode - 1) / 5) + 1
+  if (episode.season >= 5 && episode.season <= 10) return Math.floor((episode.episode - 1) / 5) + 1
   return undefined
 }
 
@@ -211,12 +242,50 @@ function selectHost(candidates: Contestant[], episode: Episode, text: string) {
   }
 }
 
+function hostLocalContext(entry: Contestant, episodeText: string) {
+  const clean = compact(episodeText)
+  for (const candidate of rawFirstNameCandidates(entry.name)) {
+    if (candidate.length < 2) continue
+    const pattern = new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRegExp(candidate)}(?=$|[^\\p{L}\\p{N}])`, 'u')
+    const match = pattern.exec(clean)
+    if (!match) continue
+    const start = Math.max(0, match.index + match[1].length - 60)
+    const end = Math.min(clean.length, match.index + match[0].length + 180)
+    return clean.slice(start, end)
+  }
+  return ''
+}
+
+function inferOccupation(entry: Contestant, episodeText: string) {
+  const context = hostLocalContext(entry, episodeText)
+  if (!context) return undefined
+  for (const cue of occupationCues) {
+    if (cue.pattern.test(context)) return cue.value
+  }
+  return undefined
+}
+
+function inferDiet(entry: Contestant, episodeText: string) {
+  const clean = compact(episodeText)
+  for (const candidate of rawFirstNameCandidates(entry.name)) {
+    if (candidate.length < 2) continue
+    const pattern = new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRegExp(candidate)}\\s*[,.:;–—-]?\\s*(טבעוני(?:ת)?|צמחוני(?:ת)?|קרניבור(?:ית)?)(?=$|[^\\p{L}\\p{N}])`, 'u')
+    const match = pattern.exec(clean)
+    if (!match) continue
+    const descriptor = match[2]
+    if (descriptor.startsWith('טבעוני')) return 'טבעוני'
+    if (descriptor.startsWith('צמחוני')) return 'צמחוני'
+    if (descriptor.startsWith('קרניבור')) return 'קרניבור'
+  }
+  return undefined
+}
+
 function buildKanContestants(episodes: Episode[], wikipediaContestants: Contestant[]) {
   const rows: Contestant[] = []
   const diagnostics: EnrichmentDiagnostic[] = []
 
   for (const episode of episodes) {
-    if (episode.season < 5 || episode.season > 9 || !episode.hostingOrder) continue
+    if (episode.season < 5 || episode.season > 10 || !episode.hostingOrder) continue
     const week = inferWeek(episode)
     if (!week) continue
 
@@ -224,6 +293,8 @@ function buildKanContestants(episodes: Episode[], wikipediaContestants: Contesta
     const text = `${episode.title} ${episode.description ?? ''}`
     const selection = selectHost(candidates, episode, text)
     const matched = selection.matched
+    const occupation = matched ? inferOccupation(matched, text) : undefined
+    const diet = matched ? inferDiet(matched, text) : undefined
 
     diagnostics.push({
       season: episode.season,
@@ -232,6 +303,8 @@ function buildKanContestants(episodes: Episode[], wikipediaContestants: Contesta
       hostingOrder: episode.hostingOrder,
       matched: matched?.name,
       matchMethod: selection.matchMethod,
+      occupation,
+      diet,
       candidates: selection.diagnosticCandidates,
       text: compact(text).slice(0, 300),
     })
@@ -252,6 +325,8 @@ function buildKanContestants(episodes: Episode[], wikipediaContestants: Contesta
       week,
       weekName: episode.weekName ?? matched.weekName,
       hostingOrder: episode.hostingOrder,
+      occupation,
+      diet,
       dishes: [],
       episodeUrls: [episode.url],
       sources: [source],
@@ -259,6 +334,8 @@ function buildKanContestants(episodes: Episode[], wikipediaContestants: Contesta
         week: [source],
         ...(episode.weekName ? { weekName: [source] } : {}),
         hostingOrder: [source],
+        ...(occupation ? { occupation: [source] } : {}),
+        ...(diet ? { diet: [source] } : {}),
       },
     })
   }
@@ -298,6 +375,11 @@ async function main() {
     matchedByHostingOrder: enrichment.diagnostics.filter((item) => item.matchMethod === 'hosting-order').length,
     matchedByExplicitHostText: enrichment.diagnostics.filter((item) => item.matchMethod === 'explicit-host-text').length,
     unmatchedEpisodes: enrichment.diagnostics.filter((item) => !item.matched).length,
+    profileExtraction: {
+      occupations: enrichment.diagnostics.filter((item) => item.occupation).length,
+      diets: enrichment.diagnostics.filter((item) => item.diet).length,
+      policy: 'Only explicit host-local descriptors are extracted; menu style is not treated as contestant diet.',
+    },
     recipeDiscovery: {
       enabled: false,
       reason: 'Regular season 5–9 episode HTML exposed no direct per-host recipe links during the 2026-08-11 live import. See research/kan-recipes.md.',
@@ -306,8 +388,9 @@ async function main() {
   }, null, 2))
 
   console.log(`Saved ${deduped.length} official episode records with Kan attribution`)
-  console.log(`Matched ${enrichment.rows.length}/${enrichment.diagnostics.length} season 5–9 hosting episodes to competition entries`)
+  console.log(`Matched ${enrichment.rows.length}/${enrichment.diagnostics.length} season 5–10 hosting episodes to competition entries`)
   console.log(`Host match methods: ${enrichment.diagnostics.filter((item) => item.matchMethod === 'hosting-order').length} structured order, ${enrichment.diagnostics.filter((item) => item.matchMethod === 'explicit-host-text').length} explicit text`)
+  console.log(`Profile enrichment: ${enrichment.diagnostics.filter((item) => item.occupation).length} occupations, ${enrichment.diagnostics.filter((item) => item.diet).length} diets`)
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1 })
