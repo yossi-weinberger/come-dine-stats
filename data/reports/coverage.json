@@ -10,6 +10,8 @@
     "fieldCoverage": {
       "weekName": {
         "count": 284,
+        "eligibleCount": 289,
+        "notApplicableCount": 0,
         "percent": 98.3,
         "missing": [
           "אמיר בלנק",
@@ -21,6 +23,8 @@
       },
       "hostingOrder": {
         "count": 288,
+        "eligibleCount": 289,
+        "notApplicableCount": 0,
         "percent": 99.7,
         "missing": [
           "טל ניב"
@@ -28,7 +32,9 @@
       },
       "age": {
         "count": 185,
-        "percent": 64,
+        "eligibleCount": 235,
+        "notApplicableCount": 54,
+        "percent": 78.7,
         "missing": [
           "יוסי והבה",
           "גיל להב",
@@ -42,60 +48,6 @@
           "בן אבנון",
           "אילה גולני",
           "אורית שלום",
-          "רועי עידן וחגית השמשוני",
-          "רונית נוביק ואייל גראד",
-          "עבד ואיסרא זיתונא",
-          "חיים ואצילה גרשון",
-          "ליאת זיוון ודרור תמיר",
-          "שמעון ויוליה נחמני",
-          "מירי אור סעדון ודורון סעדון",
-          "דוד הכהן ורון ירושלמי",
-          "קרן וחיים פרלמן",
-          "ענבל ושניר רובין",
-          "עמליה ואסף",
-          "ספיר וג'וזף",
-          "ישראל וימית סיליק",
-          "ארתור וייט וג'ול באום",
-          "ליאל דבח וליאור צ'רכי",
-          "אושר והילה עטיה",
-          "מירי ומוטי גורדון",
-          "אלעזר ושושנה קרבסי",
-          "אורית בלוך ושחר מזור",
-          "אורלי וישגב גלבוע",
-          "רוני וגלית להב",
-          "לימור וסיגל",
-          "אלכס וסווארופ",
-          "רקפת ויעל",
-          "אבירם וסקיי",
-          "סימה ואביחי דהן",
-          "סיגלית גוסטר ושלמה אבוטבול",
-          "גיא הררי ואביב קליין",
-          "רון וירדנה הרוש",
-          "ויקי בליומין ונועם ברדה",
-          "אלי דודאי ונדב פרץ",
-          "חן ברמי וענר זקוביץ'",
-          "אבי ואודליה סויסה",
-          "ויויאן וז'אק בזק",
-          "עמית ושירלי צוק",
-          "ניצן זך ושירן זך כהן",
-          "פלג בכור ולילך רודני",
-          "כריסי וארנון יהב",
-          "אביבה ויחיאל חזן",
-          "יואב ודודי",
-          "ורד וצחי",
-          "מריאז' ורייצ'ל",
-          "הדר יוסיפון ואלה קלמי",
-          "נילי ברנע וארנון נתן",
-          "קובי אפלבוים ולנה אגרנוביץ'",
-          "עוז ודעי ואהרון בילק",
-          "ספיר ואברהם בלוך",
-          "אושרי כהן וליאת חי טל",
-          "איריס ורחלי ג'וי",
-          "חגי מדי וגל שימרון",
-          "תימור כהן וקובי פלשמן",
-          "מור ודן ציפורי",
-          "עמוס ארליך וטלי רויטנברג",
-          "לירז ויוסי כהן",
           "איב איבנעים",
           "פיני קריספל",
           "ברוריה פסטרנק-שביט",
@@ -138,6 +90,8 @@
       },
       "city": {
         "count": 265,
+        "eligibleCount": 289,
+        "notApplicableCount": 0,
         "percent": 91.7,
         "missing": [
           "לילי בן נון",
@@ -168,7 +122,9 @@
       },
       "occupation": {
         "count": 103,
-        "percent": 35.6,
+        "eligibleCount": 235,
+        "notApplicableCount": 54,
+        "percent": 43.8,
         "missing": [
           "אילנה וייס",
           "נטלי מימון",
@@ -177,60 +133,6 @@
           "חן שאבו",
           "שפרה מזרחי",
           "הילה מודרה",
-          "רועי עידן וחגית השמשוני",
-          "רונית נוביק ואייל גראד",
-          "עבד ואיסרא זיתונא",
-          "חיים ואצילה גרשון",
-          "ליאת זיוון ודרור תמיר",
-          "שמעון ויוליה נחמני",
-          "מירי אור סעדון ודורון סעדון",
-          "דוד הכהן ורון ירושלמי",
-          "קרן וחיים פרלמן",
-          "ענבל ושניר רובין",
-          "עמליה ואסף",
-          "ספיר וג'וזף",
-          "ישראל וימית סיליק",
-          "ארתור וייט וג'ול באום",
-          "ליאל דבח וליאור צ'רכי",
-          "אושר והילה עטיה",
-          "מירי ומוטי גורדון",
-          "אלעזר ושושנה קרבסי",
-          "אורית בלוך ושחר מזור",
-          "אורלי וישגב גלבוע",
-          "רוני וגלית להב",
-          "לימור וסיגל",
-          "אלכס וסווארופ",
-          "רקפת ויעל",
-          "אבירם וסקיי",
-          "סימה ואביחי דהן",
-          "סיגלית גוסטר ושלמה אבוטבול",
-          "גיא הררי ואביב קליין",
-          "רון וירדנה הרוש",
-          "ויקי בליומין ונועם ברדה",
-          "אלי דודאי ונדב פרץ",
-          "חן ברמי וענר זקוביץ'",
-          "אבי ואודליה סויסה",
-          "ויויאן וז'אק בזק",
-          "עמית ושירלי צוק",
-          "ניצן זך ושירן זך כהן",
-          "פלג בכור ולילך רודני",
-          "כריסי וארנון יהב",
-          "אביבה ויחיאל חזן",
-          "יואב ודודי",
-          "ורד וצחי",
-          "מריאז' ורייצ'ל",
-          "הדר יוסיפון ואלה קלמי",
-          "נילי ברנע וארנון נתן",
-          "קובי אפלבוים ולנה אגרנוביץ'",
-          "עוז ודעי ואהרון בילק",
-          "ספיר ואברהם בלוך",
-          "אושרי כהן וליאת חי טל",
-          "איריס ורחלי ג'וי",
-          "חגי מדי וגל שימרון",
-          "תימור כהן וקובי פלשמן",
-          "מור ודן ציפורי",
-          "עמוס ארליך וטלי רויטנברג",
-          "לירז ויוסי כהן",
           "אייל טרסר",
           "ליאת ברששת",
           "בני ציפר",
@@ -360,6 +262,8 @@
       },
       "relationshipStatus": {
         "count": 263,
+        "eligibleCount": 289,
+        "notApplicableCount": 0,
         "percent": 91,
         "missing": [
           "לילי בן נון",
@@ -392,6 +296,8 @@
       },
       "gender": {
         "count": 0,
+        "eligibleCount": 235,
+        "notApplicableCount": 54,
         "percent": 0,
         "missing": [
           "חיים מלכי",
@@ -484,60 +390,6 @@
           "איריס אברמוביץ'",
           "אלון מדר",
           "אבנר בן יון",
-          "רועי עידן וחגית השמשוני",
-          "רונית נוביק ואייל גראד",
-          "עבד ואיסרא זיתונא",
-          "חיים ואצילה גרשון",
-          "ליאת זיוון ודרור תמיר",
-          "שמעון ויוליה נחמני",
-          "מירי אור סעדון ודורון סעדון",
-          "דוד הכהן ורון ירושלמי",
-          "קרן וחיים פרלמן",
-          "ענבל ושניר רובין",
-          "עמליה ואסף",
-          "ספיר וג'וזף",
-          "ישראל וימית סיליק",
-          "ארתור וייט וג'ול באום",
-          "ליאל דבח וליאור צ'רכי",
-          "אושר והילה עטיה",
-          "מירי ומוטי גורדון",
-          "אלעזר ושושנה קרבסי",
-          "אורית בלוך ושחר מזור",
-          "אורלי וישגב גלבוע",
-          "רוני וגלית להב",
-          "לימור וסיגל",
-          "אלכס וסווארופ",
-          "רקפת ויעל",
-          "אבירם וסקיי",
-          "סימה ואביחי דהן",
-          "סיגלית גוסטר ושלמה אבוטבול",
-          "גיא הררי ואביב קליין",
-          "רון וירדנה הרוש",
-          "ויקי בליומין ונועם ברדה",
-          "אלי דודאי ונדב פרץ",
-          "חן ברמי וענר זקוביץ'",
-          "אבי ואודליה סויסה",
-          "ויויאן וז'אק בזק",
-          "עמית ושירלי צוק",
-          "ניצן זך ושירן זך כהן",
-          "פלג בכור ולילך רודני",
-          "כריסי וארנון יהב",
-          "אביבה ויחיאל חזן",
-          "יואב ודודי",
-          "ורד וצחי",
-          "מריאז' ורייצ'ל",
-          "הדר יוסיפון ואלה קלמי",
-          "נילי ברנע וארנון נתן",
-          "קובי אפלבוים ולנה אגרנוביץ'",
-          "עוז ודעי ואהרון בילק",
-          "ספיר ואברהם בלוך",
-          "אושרי כהן וליאת חי טל",
-          "איריס ורחלי ג'וי",
-          "חגי מדי וגל שימרון",
-          "תימור כהן וקובי פלשמן",
-          "מור ודן ציפורי",
-          "עמוס ארליך וטלי רויטנברג",
-          "לירז ויוסי כהן",
           "אייל טרסר",
           "ליאת ברששת",
           "בני ציפר",
@@ -687,7 +539,9 @@
       },
       "diet": {
         "count": 3,
-        "percent": 1,
+        "eligibleCount": 235,
+        "notApplicableCount": 54,
+        "percent": 1.3,
         "missing": [
           "חיים מלכי",
           "גלי משיח רוסו",
@@ -778,60 +632,6 @@
           "איריס אברמוביץ'",
           "אלון מדר",
           "אבנר בן יון",
-          "רועי עידן וחגית השמשוני",
-          "רונית נוביק ואייל גראד",
-          "עבד ואיסרא זיתונא",
-          "חיים ואצילה גרשון",
-          "ליאת זיוון ודרור תמיר",
-          "שמעון ויוליה נחמני",
-          "מירי אור סעדון ודורון סעדון",
-          "דוד הכהן ורון ירושלמי",
-          "קרן וחיים פרלמן",
-          "ענבל ושניר רובין",
-          "עמליה ואסף",
-          "ספיר וג'וזף",
-          "ישראל וימית סיליק",
-          "ארתור וייט וג'ול באום",
-          "ליאל דבח וליאור צ'רכי",
-          "אושר והילה עטיה",
-          "מירי ומוטי גורדון",
-          "אלעזר ושושנה קרבסי",
-          "אורית בלוך ושחר מזור",
-          "אורלי וישגב גלבוע",
-          "רוני וגלית להב",
-          "לימור וסיגל",
-          "אלכס וסווארופ",
-          "רקפת ויעל",
-          "אבירם וסקיי",
-          "סימה ואביחי דהן",
-          "סיגלית גוסטר ושלמה אבוטבול",
-          "גיא הררי ואביב קליין",
-          "רון וירדנה הרוש",
-          "ויקי בליומין ונועם ברדה",
-          "אלי דודאי ונדב פרץ",
-          "חן ברמי וענר זקוביץ'",
-          "אבי ואודליה סויסה",
-          "ויויאן וז'אק בזק",
-          "עמית ושירלי צוק",
-          "ניצן זך ושירן זך כהן",
-          "פלג בכור ולילך רודני",
-          "כריסי וארנון יהב",
-          "אביבה ויחיאל חזן",
-          "יואב ודודי",
-          "ורד וצחי",
-          "מריאז' ורייצ'ל",
-          "הדר יוסיפון ואלה קלמי",
-          "נילי ברנע וארנון נתן",
-          "קובי אפלבוים ולנה אגרנוביץ'",
-          "עוז ודעי ואהרון בילק",
-          "ספיר ואברהם בלוך",
-          "אושרי כהן וליאת חי טל",
-          "איריס ורחלי ג'וי",
-          "חגי מדי וגל שימרון",
-          "תימור כהן וקובי פלשמן",
-          "מור ודן ציפורי",
-          "עמוס ארליך וטלי רויטנברג",
-          "לירז ויוסי כהן",
           "אייל טרסר",
           "ליאת ברששת",
           "בני ציפר",
@@ -979,6 +779,8 @@
       },
       "score": {
         "count": 263,
+        "eligibleCount": 289,
+        "notApplicableCount": 0,
         "percent": 91,
         "missing": [
           "עבד ואיסרא זיתונא",
@@ -1011,6 +813,8 @@
       },
       "placement": {
         "count": 147,
+        "eligibleCount": 289,
+        "notApplicableCount": 0,
         "percent": 50.9,
         "missing": [
           "בנימין יעקביאן",
@@ -1400,6 +1204,8 @@
       "fieldCoverage": {
         "weekName": {
           "count": 45,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 90,
           "missing": [
             "אמיר בלנק",
@@ -1411,11 +1217,15 @@
         },
         "hostingOrder": {
           "count": 50,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 42,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 84,
           "missing": [
             "יוסי והבה",
@@ -1430,6 +1240,8 @@
         },
         "city": {
           "count": 47,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 94,
           "missing": [
             "לילי בן נון",
@@ -1439,6 +1251,8 @@
         },
         "occupation": {
           "count": 47,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 94,
           "missing": [
             "אילנה וייס",
@@ -1448,6 +1262,8 @@
         },
         "relationshipStatus": {
           "count": 44,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 88,
           "missing": [
             "לילי בן נון",
@@ -1460,6 +1276,8 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "חיים מלכי",
@@ -1516,6 +1334,8 @@
         },
         "diet": {
           "count": 0,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "חיים מלכי",
@@ -1572,11 +1392,15 @@
         },
         "score": {
           "count": 50,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "placement": {
           "count": 50,
+          "eligibleCount": 50,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         }
@@ -1626,16 +1450,22 @@
       "fieldCoverage": {
         "weekName": {
           "count": 40,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 40,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 36,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 90,
           "missing": [
             "גדי חפר",
@@ -1646,11 +1476,15 @@
         },
         "city": {
           "count": 40,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "occupation": {
           "count": 36,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 90,
           "missing": [
             "שמעון חזוט",
@@ -1661,6 +1495,8 @@
         },
         "relationshipStatus": {
           "count": 38,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 95,
           "missing": [
             "איציק כרסנטי",
@@ -1669,6 +1505,8 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "איציק כרסנטי",
@@ -1715,6 +1553,8 @@
         },
         "diet": {
           "count": 1,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 2.5,
           "missing": [
             "איציק כרסנטי",
@@ -1760,11 +1600,15 @@
         },
         "score": {
           "count": 40,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "placement": {
           "count": 39,
+          "eligibleCount": 40,
+          "notApplicableCount": 0,
           "percent": 97.5,
           "missing": [
             "בנימין יעקביאן"
@@ -1814,52 +1658,29 @@
       "fieldCoverage": {
         "weekName": {
           "count": 30,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 30,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 0,
+          "eligibleCount": 0,
+          "notApplicableCount": 30,
           "percent": 0,
-          "missing": [
-            "רועי עידן וחגית השמשוני",
-            "רונית נוביק ואייל גראד",
-            "עבד ואיסרא זיתונא",
-            "חיים ואצילה גרשון",
-            "ליאת זיוון ודרור תמיר",
-            "שמעון ויוליה נחמני",
-            "מירי אור סעדון ודורון סעדון",
-            "דוד הכהן ורון ירושלמי",
-            "קרן וחיים פרלמן",
-            "ענבל ושניר רובין",
-            "עמליה ואסף",
-            "ספיר וג'וזף",
-            "ישראל וימית סיליק",
-            "ארתור וייט וג'ול באום",
-            "ליאל דבח וליאור צ'רכי",
-            "אושר והילה עטיה",
-            "מירי ומוטי גורדון",
-            "אלעזר ושושנה קרבסי",
-            "אורית בלוך ושחר מזור",
-            "אורלי וישגב גלבוע",
-            "רוני וגלית להב",
-            "לימור וסיגל",
-            "אלכס וסווארופ",
-            "רקפת ויעל",
-            "אבירם וסקיי",
-            "סימה ואביחי דהן",
-            "סיגלית גוסטר ושלמה אבוטבול",
-            "גיא הררי ואביב קליין",
-            "רון וירדנה הרוש",
-            "ויקי בליומין ונועם ברדה"
-          ]
+          "missing": []
         },
         "city": {
           "count": 27,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 90,
           "missing": [
             "אלכס וסווארופ",
@@ -1869,42 +1690,15 @@
         },
         "occupation": {
           "count": 0,
+          "eligibleCount": 0,
+          "notApplicableCount": 30,
           "percent": 0,
-          "missing": [
-            "רועי עידן וחגית השמשוני",
-            "רונית נוביק ואייל גראד",
-            "עבד ואיסרא זיתונא",
-            "חיים ואצילה גרשון",
-            "ליאת זיוון ודרור תמיר",
-            "שמעון ויוליה נחמני",
-            "מירי אור סעדון ודורון סעדון",
-            "דוד הכהן ורון ירושלמי",
-            "קרן וחיים פרלמן",
-            "ענבל ושניר רובין",
-            "עמליה ואסף",
-            "ספיר וג'וזף",
-            "ישראל וימית סיליק",
-            "ארתור וייט וג'ול באום",
-            "ליאל דבח וליאור צ'רכי",
-            "אושר והילה עטיה",
-            "מירי ומוטי גורדון",
-            "אלעזר ושושנה קרבסי",
-            "אורית בלוך ושחר מזור",
-            "אורלי וישגב גלבוע",
-            "רוני וגלית להב",
-            "לימור וסיגל",
-            "אלכס וסווארופ",
-            "רקפת ויעל",
-            "אבירם וסקיי",
-            "סימה ואביחי דהן",
-            "סיגלית גוסטר ושלמה אבוטבול",
-            "גיא הררי ואביב קליין",
-            "רון וירדנה הרוש",
-            "ויקי בליומין ונועם ברדה"
-          ]
+          "missing": []
         },
         "relationshipStatus": {
           "count": 26,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 86.7,
           "missing": [
             "לימור וסיגל",
@@ -1915,78 +1709,22 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 0,
+          "notApplicableCount": 30,
           "percent": 0,
-          "missing": [
-            "רועי עידן וחגית השמשוני",
-            "רונית נוביק ואייל גראד",
-            "עבד ואיסרא זיתונא",
-            "חיים ואצילה גרשון",
-            "ליאת זיוון ודרור תמיר",
-            "שמעון ויוליה נחמני",
-            "מירי אור סעדון ודורון סעדון",
-            "דוד הכהן ורון ירושלמי",
-            "קרן וחיים פרלמן",
-            "ענבל ושניר רובין",
-            "עמליה ואסף",
-            "ספיר וג'וזף",
-            "ישראל וימית סיליק",
-            "ארתור וייט וג'ול באום",
-            "ליאל דבח וליאור צ'רכי",
-            "אושר והילה עטיה",
-            "מירי ומוטי גורדון",
-            "אלעזר ושושנה קרבסי",
-            "אורית בלוך ושחר מזור",
-            "אורלי וישגב גלבוע",
-            "רוני וגלית להב",
-            "לימור וסיגל",
-            "אלכס וסווארופ",
-            "רקפת ויעל",
-            "אבירם וסקיי",
-            "סימה ואביחי דהן",
-            "סיגלית גוסטר ושלמה אבוטבול",
-            "גיא הררי ואביב קליין",
-            "רון וירדנה הרוש",
-            "ויקי בליומין ונועם ברדה"
-          ]
+          "missing": []
         },
         "diet": {
           "count": 0,
+          "eligibleCount": 0,
+          "notApplicableCount": 30,
           "percent": 0,
-          "missing": [
-            "רועי עידן וחגית השמשוני",
-            "רונית נוביק ואייל גראד",
-            "עבד ואיסרא זיתונא",
-            "חיים ואצילה גרשון",
-            "ליאת זיוון ודרור תמיר",
-            "שמעון ויוליה נחמני",
-            "מירי אור סעדון ודורון סעדון",
-            "דוד הכהן ורון ירושלמי",
-            "קרן וחיים פרלמן",
-            "ענבל ושניר רובין",
-            "עמליה ואסף",
-            "ספיר וג'וזף",
-            "ישראל וימית סיליק",
-            "ארתור וייט וג'ול באום",
-            "ליאל דבח וליאור צ'רכי",
-            "אושר והילה עטיה",
-            "מירי ומוטי גורדון",
-            "אלעזר ושושנה קרבסי",
-            "אורית בלוך ושחר מזור",
-            "אורלי וישגב גלבוע",
-            "רוני וגלית להב",
-            "לימור וסיגל",
-            "אלכס וסווארופ",
-            "רקפת ויעל",
-            "אבירם וסקיי",
-            "סימה ואביחי דהן",
-            "סיגלית גוסטר ושלמה אבוטבול",
-            "גיא הררי ואביב קליין",
-            "רון וירדנה הרוש",
-            "ויקי בליומין ונועם ברדה"
-          ]
+          "missing": []
         },
         "score": {
           "count": 22,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 73.3,
           "missing": [
             "עבד ואיסרא זיתונא",
@@ -2001,6 +1739,8 @@
         },
         "placement": {
           "count": 12,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 40,
           "missing": [
             "רועי עידן וחגית השמשוני",
@@ -2098,46 +1838,29 @@
       "fieldCoverage": {
         "weekName": {
           "count": 24,
+          "eligibleCount": 24,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 24,
+          "eligibleCount": 24,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 0,
+          "eligibleCount": 0,
+          "notApplicableCount": 24,
           "percent": 0,
-          "missing": [
-            "אלי דודאי ונדב פרץ",
-            "חן ברמי וענר זקוביץ'",
-            "אבי ואודליה סויסה",
-            "ויויאן וז'אק בזק",
-            "עמית ושירלי צוק",
-            "ניצן זך ושירן זך כהן",
-            "פלג בכור ולילך רודני",
-            "כריסי וארנון יהב",
-            "אביבה ויחיאל חזן",
-            "יואב ודודי",
-            "ורד וצחי",
-            "מריאז' ורייצ'ל",
-            "הדר יוסיפון ואלה קלמי",
-            "נילי ברנע וארנון נתן",
-            "קובי אפלבוים ולנה אגרנוביץ'",
-            "עוז ודעי ואהרון בילק",
-            "ספיר ואברהם בלוך",
-            "אושרי כהן וליאת חי טל",
-            "איריס ורחלי ג'וי",
-            "חגי מדי וגל שימרון",
-            "תימור כהן וקובי פלשמן",
-            "מור ודן ציפורי",
-            "עמוס ארליך וטלי רויטנברג",
-            "לירז ויוסי כהן"
-          ]
+          "missing": []
         },
         "city": {
           "count": 21,
+          "eligibleCount": 24,
+          "notApplicableCount": 0,
           "percent": 87.5,
           "missing": [
             "יואב ודודי",
@@ -2147,36 +1870,15 @@
         },
         "occupation": {
           "count": 0,
+          "eligibleCount": 0,
+          "notApplicableCount": 24,
           "percent": 0,
-          "missing": [
-            "אלי דודאי ונדב פרץ",
-            "חן ברמי וענר זקוביץ'",
-            "אבי ואודליה סויסה",
-            "ויויאן וז'אק בזק",
-            "עמית ושירלי צוק",
-            "ניצן זך ושירן זך כהן",
-            "פלג בכור ולילך רודני",
-            "כריסי וארנון יהב",
-            "אביבה ויחיאל חזן",
-            "יואב ודודי",
-            "ורד וצחי",
-            "מריאז' ורייצ'ל",
-            "הדר יוסיפון ואלה קלמי",
-            "נילי ברנע וארנון נתן",
-            "קובי אפלבוים ולנה אגרנוביץ'",
-            "עוז ודעי ואהרון בילק",
-            "ספיר ואברהם בלוך",
-            "אושרי כהן וליאת חי טל",
-            "איריס ורחלי ג'וי",
-            "חגי מדי וגל שימרון",
-            "תימור כהן וקובי פלשמן",
-            "מור ודן ציפורי",
-            "עמוס ארליך וטלי רויטנברג",
-            "לירז ויוסי כהן"
-          ]
+          "missing": []
         },
         "relationshipStatus": {
           "count": 21,
+          "eligibleCount": 24,
+          "notApplicableCount": 0,
           "percent": 87.5,
           "missing": [
             "יואב ודודי",
@@ -2186,66 +1888,22 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 0,
+          "notApplicableCount": 24,
           "percent": 0,
-          "missing": [
-            "אלי דודאי ונדב פרץ",
-            "חן ברמי וענר זקוביץ'",
-            "אבי ואודליה סויסה",
-            "ויויאן וז'אק בזק",
-            "עמית ושירלי צוק",
-            "ניצן זך ושירן זך כהן",
-            "פלג בכור ולילך רודני",
-            "כריסי וארנון יהב",
-            "אביבה ויחיאל חזן",
-            "יואב ודודי",
-            "ורד וצחי",
-            "מריאז' ורייצ'ל",
-            "הדר יוסיפון ואלה קלמי",
-            "נילי ברנע וארנון נתן",
-            "קובי אפלבוים ולנה אגרנוביץ'",
-            "עוז ודעי ואהרון בילק",
-            "ספיר ואברהם בלוך",
-            "אושרי כהן וליאת חי טל",
-            "איריס ורחלי ג'וי",
-            "חגי מדי וגל שימרון",
-            "תימור כהן וקובי פלשמן",
-            "מור ודן ציפורי",
-            "עמוס ארליך וטלי רויטנברג",
-            "לירז ויוסי כהן"
-          ]
+          "missing": []
         },
         "diet": {
           "count": 0,
+          "eligibleCount": 0,
+          "notApplicableCount": 24,
           "percent": 0,
-          "missing": [
-            "אלי דודאי ונדב פרץ",
-            "חן ברמי וענר זקוביץ'",
-            "אבי ואודליה סויסה",
-            "ויויאן וז'אק בזק",
-            "עמית ושירלי צוק",
-            "ניצן זך ושירן זך כהן",
-            "פלג בכור ולילך רודני",
-            "כריסי וארנון יהב",
-            "אביבה ויחיאל חזן",
-            "יואב ודודי",
-            "ורד וצחי",
-            "מריאז' ורייצ'ל",
-            "הדר יוסיפון ואלה קלמי",
-            "נילי ברנע וארנון נתן",
-            "קובי אפלבוים ולנה אגרנוביץ'",
-            "עוז ודעי ואהרון בילק",
-            "ספיר ואברהם בלוך",
-            "אושרי כהן וליאת חי טל",
-            "איריס ורחלי ג'וי",
-            "חגי מדי וגל שימרון",
-            "תימור כהן וקובי פלשמן",
-            "מור ודן ציפורי",
-            "עמוס ארליך וטלי רויטנברג",
-            "לירז ויוסי כהן"
-          ]
+          "missing": []
         },
         "score": {
           "count": 19,
+          "eligibleCount": 24,
+          "notApplicableCount": 0,
           "percent": 79.2,
           "missing": [
             "אביבה ויחיאל חזן",
@@ -2257,6 +1915,8 @@
         },
         "placement": {
           "count": 12,
+          "eligibleCount": 24,
+          "notApplicableCount": 0,
           "percent": 50,
           "missing": [
             "חן ברמי וענר זקוביץ'",
@@ -2342,16 +2002,22 @@
       "fieldCoverage": {
         "weekName": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 24,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 96,
           "missing": [
             "איב איבנעים"
@@ -2359,6 +2025,8 @@
         },
         "city": {
           "count": 24,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 96,
           "missing": [
             "איב איבנעים"
@@ -2366,6 +2034,8 @@
         },
         "occupation": {
           "count": 1,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 4,
           "missing": [
             "אייל טרסר",
@@ -2396,6 +2066,8 @@
         },
         "relationshipStatus": {
           "count": 23,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 92,
           "missing": [
             "איב איבנעים",
@@ -2404,6 +2076,8 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "אייל טרסר",
@@ -2435,6 +2109,8 @@
         },
         "diet": {
           "count": 0,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "אייל טרסר",
@@ -2466,6 +2142,8 @@
         },
         "score": {
           "count": 24,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 96,
           "missing": [
             "ספאא זהר אל דין פרחאת"
@@ -2473,6 +2151,8 @@
         },
         "placement": {
           "count": 5,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 20,
           "missing": [
             "אייל טרסר",
@@ -2567,11 +2247,15 @@
       "fieldCoverage": {
         "weekName": {
           "count": 30,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 29,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 96.7,
           "missing": [
             "טל ניב"
@@ -2579,6 +2263,8 @@
         },
         "age": {
           "count": 24,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 80,
           "missing": [
             "פיני קריספל",
@@ -2591,6 +2277,8 @@
         },
         "city": {
           "count": 28,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 93.3,
           "missing": [
             "יהודית קונפורטי",
@@ -2599,6 +2287,8 @@
         },
         "occupation": {
           "count": 5,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 16.7,
           "missing": [
             "אורפז אמסלם דהן",
@@ -2630,6 +2320,8 @@
         },
         "relationshipStatus": {
           "count": 27,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 90,
           "missing": [
             "עודד אסגו",
@@ -2639,6 +2331,8 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "אורפז אמסלם דהן",
@@ -2675,6 +2369,8 @@
         },
         "diet": {
           "count": 1,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 3.3,
           "missing": [
             "אורפז אמסלם דהן",
@@ -2710,6 +2406,8 @@
         },
         "score": {
           "count": 28,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 93.3,
           "missing": [
             "אורן ברט",
@@ -2718,6 +2416,8 @@
         },
         "placement": {
           "count": 7,
+          "eligibleCount": 30,
+          "notApplicableCount": 0,
           "percent": 23.3,
           "missing": [
             "אורפז אמסלם דהן",
@@ -2819,16 +2519,22 @@
       "fieldCoverage": {
         "weekName": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 17,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 68,
           "missing": [
             "רחלי סופיר",
@@ -2843,11 +2549,15 @@
         },
         "city": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "occupation": {
           "count": 0,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "לירון אלון",
@@ -2879,6 +2589,8 @@
         },
         "relationshipStatus": {
           "count": 23,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 92,
           "missing": [
             "רועי אלעני",
@@ -2887,6 +2599,8 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "לירון אלון",
@@ -2918,6 +2632,8 @@
         },
         "diet": {
           "count": 0,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "לירון אלון",
@@ -2949,6 +2665,8 @@
         },
         "score": {
           "count": 22,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 88,
           "missing": [
             "מיה דגן",
@@ -2958,6 +2676,8 @@
         },
         "placement": {
           "count": 8,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 32,
           "missing": [
             "שלי סנשיין וולמן",
@@ -3048,16 +2768,22 @@
       "fieldCoverage": {
         "weekName": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 18,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 72,
           "missing": [
             "מעיין מיזן",
@@ -3071,11 +2797,15 @@
         },
         "city": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "occupation": {
           "count": 6,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 24,
           "missing": [
             "אחיה זלייט",
@@ -3101,6 +2831,8 @@
         },
         "relationshipStatus": {
           "count": 22,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 88,
           "missing": [
             "עמנואל יצחק לוי",
@@ -3110,6 +2842,8 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "ענבל אהרון אזרד",
@@ -3141,6 +2875,8 @@
         },
         "diet": {
           "count": 0,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "ענבל אהרון אזרד",
@@ -3172,6 +2908,8 @@
         },
         "score": {
           "count": 24,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 96,
           "missing": [
             "לינוי דסה"
@@ -3179,6 +2917,8 @@
         },
         "placement": {
           "count": 5,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 20,
           "missing": [
             "ענבל אהרון אזרד",
@@ -3272,16 +3012,22 @@
       "fieldCoverage": {
         "weekName": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 13,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 52,
           "missing": [
             "יובל ארוש",
@@ -3300,6 +3046,8 @@
         },
         "city": {
           "count": 22,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 88,
           "missing": [
             "זהר יוספיאן",
@@ -3309,6 +3057,8 @@
         },
         "occupation": {
           "count": 6,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 24,
           "missing": [
             "יובל ארוש",
@@ -3334,11 +3084,15 @@
         },
         "relationshipStatus": {
           "count": 25,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "קמילה קידר",
@@ -3370,6 +3124,8 @@
         },
         "diet": {
           "count": 1,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 4,
           "missing": [
             "קמילה קידר",
@@ -3400,6 +3156,8 @@
         },
         "score": {
           "count": 21,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 84,
           "missing": [
             "עודד קב",
@@ -3410,6 +3168,8 @@
         },
         "placement": {
           "count": 6,
+          "eligibleCount": 25,
+          "notApplicableCount": 0,
           "percent": 24,
           "missing": [
             "קמילה קידר",
@@ -3503,16 +3263,22 @@
       "fieldCoverage": {
         "weekName": {
           "count": 15,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
           "count": 15,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 11,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 73.3,
           "missing": [
             "עליזה אלקיים עבאדי",
@@ -3523,6 +3289,8 @@
         },
         "city": {
           "count": 6,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 40,
           "missing": [
             "יגאל טמיר",
@@ -3538,6 +3306,8 @@
         },
         "occupation": {
           "count": 2,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 13.3,
           "missing": [
             "רועי גולן",
@@ -3557,6 +3327,8 @@
         },
         "relationshipStatus": {
           "count": 14,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 93.3,
           "missing": [
             "ניקול אלטשולר"
@@ -3564,6 +3336,8 @@
         },
         "gender": {
           "count": 0,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "רועי גולן",
@@ -3585,6 +3359,8 @@
         },
         "diet": {
           "count": 0,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 0,
           "missing": [
             "רועי גולן",
@@ -3606,6 +3382,8 @@
         },
         "score": {
           "count": 13,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 86.7,
           "missing": [
             "ניקול אלטשולר",
@@ -3614,6 +3392,8 @@
         },
         "placement": {
           "count": 3,
+          "eligibleCount": 15,
+          "notApplicableCount": 0,
           "percent": 20,
           "missing": [
             "רועי גולן",
