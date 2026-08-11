@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import type { Contestant, Dish, SourceRef } from '@/lib/types'
 
@@ -196,7 +197,11 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
                   {contestant.winner && <b>🏆 מקום ראשון</b>}
                 </div>
 
-                <h3>{contestant.name}</h3>
+                <h3>
+                  <Link className="contestantNameLink" href={`/contestants/${contestant.slug}`}>
+                    {contestant.name}
+                  </Link>
+                </h3>
                 <div className="meta">
                   {[contestant.age ? `גיל ${contestant.age}` : null, contestant.city, contestant.score != null ? `${contestant.score} נק׳` : null]
                     .filter(Boolean)
@@ -239,6 +244,10 @@ export function ContestantBrowser({ contestants }: { contestants: Contestant[] }
                     </ol>
                   </details>
                 )}
+
+                <Link className="profileLink" href={`/contestants/${contestant.slug}`}>
+                  לפרופיל המלא והמקורות ←
+                </Link>
 
                 <div className="sourceRow" aria-label={`מקורות עבור ${contestant.name}`}>
                   <span>מקורות:</span>
