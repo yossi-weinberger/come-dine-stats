@@ -199,9 +199,9 @@ function explicitHostMatch(entry: Contestant, episodeText: string) {
     const candidate = rawCandidate.normalize('NFKC').toLocaleLowerCase('he')
     if (candidate.length < 2) continue
     const escaped = escapeRegExp(candidate)
-    const beforeName = new RegExp(`(?:מארח(?:ת)?|יארח|תארח|אצל)\\s+(?:את\\s+)?${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
+    const atHost = new RegExp(`אצל\\s+${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
     const afterName = new RegExp(`(^|[^\\p{L}\\p{N}])${escaped}\\s*[,.:;–—-]?\\s*(?:המארח(?:ת)?|מארח(?:ת)?|יארח|תארח|מגיש(?:ה)?|לוקח(?:ת)?\\s+את\\s+אורח(?:יו|יה))(?=$|[^\\p{L}\\p{N}])`, 'u')
-    if (beforeName.test(cueText) || afterName.test(cueText)) return true
+    if (atHost.test(cueText) || afterName.test(cueText)) return true
   }
   return false
 }
