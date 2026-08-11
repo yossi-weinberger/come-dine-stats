@@ -1,9 +1,9 @@
 {
-  "matchedEntries": 143,
+  "matchedEntries": 144,
   "episodesConsidered": 147,
-  "matchedByHostingOrder": 140,
-  "matchedByExplicitHostText": 4,
-  "hostOrderConflicts": 4,
+  "matchedByHostingOrder": 141,
+  "matchedByExplicitHostText": 3,
+  "hostOrderConflicts": 3,
   "unmatchedEpisodes": 3,
   "profileExtraction": {
     "occupations": 20,
@@ -98,14 +98,12 @@
       "episode": 6,
       "week": 2,
       "hostingOrder": 1,
-      "matched": "קייסי זפטה",
-      "matchMethod": "explicit-host-text",
+      "matched": "אושרית מולאי",
+      "matchMethod": "hosting-order",
       "structuredMatch": "אושרית מולאי",
-      "explicitMatch": "קייסי זפטה",
-      "orderConflict": true,
+      "orderConflict": false,
       "candidates": [
-        "אושרית מולאי (hosting order 1)",
-        "קייסי זפטה (explicit host cue)"
+        "אושרית מולאי (hosting order 1)"
       ],
       "text": "פרק 6 - תל אביב-יפו חלק א' אושרית, פעילה נגד המסתננים בת\"א, מארחת את קייסי, בת למהגרים פיליפינים"
     },
@@ -1206,12 +1204,10 @@
       "matched": "מעיין מיזן",
       "matchMethod": "hosting-order",
       "structuredMatch": "מעיין מיזן",
-      "explicitMatch": "מעיין מיזן",
       "orderConflict": false,
       "occupation": "מסדרת ארונות וסטייליסטית",
       "candidates": [
-        "מעיין מיזן (hosting order 2)",
-        "מעיין מיזן (explicit host cue)"
+        "מעיין מיזן (hosting order 2)"
       ],
       "text": "פרק 2 - שבוע צפון, יום ב' ביום השני לתחרות מארחת מעיין, מסדרת ארונות מקצועית וסטייליסטית מיקנעם"
     },
@@ -1223,11 +1219,9 @@
       "matched": "אחיה זלייט",
       "matchMethod": "hosting-order",
       "structuredMatch": "אחיה זלייט",
-      "explicitMatch": "אחיה זלייט",
       "orderConflict": false,
       "candidates": [
-        "אחיה זלייט (hosting order 3)",
-        "אחיה זלייט (explicit host cue)"
+        "אחיה זלייט (hosting order 3)"
       ],
       "text": "פרק 3 - שבוע צפון, יום ג' את היום השלישי לתחרות מארח אחיה, לוחם חופש מהיישוב האקולוגי רותם"
     },
@@ -1256,12 +1250,10 @@
       "matched": "דנה כהן הלוי",
       "matchMethod": "hosting-order",
       "structuredMatch": "דנה כהן הלוי",
-      "explicitMatch": "דנה כהן הלוי",
       "orderConflict": false,
       "occupation": "מתקשרת",
       "candidates": [
-        "דנה כהן הלוי (hosting order 5)",
-        "דנה כהן הלוי (explicit host cue)"
+        "דנה כהן הלוי (hosting order 5)"
       ],
       "text": "פרק 5 - שבוע צפון, יום ה' בפרק אחרון לשבוע צפון מארחת דנה כהן הלוי, המתקשרת מהמושבה מגדל"
     },
@@ -1289,11 +1281,9 @@
       "matched": "יפה חסידים",
       "matchMethod": "hosting-order",
       "structuredMatch": "יפה חסידים",
-      "explicitMatch": "יפה חסידים",
       "orderConflict": false,
       "candidates": [
-        "יפה חסידים (hosting order 2)",
-        "יפה חסידים (explicit host cue)"
+        "יפה חסידים (hosting order 2)"
       ],
       "text": "פרק 7 - שבוע ירושלים, יום ב' ביום השני לשבוע ירושלים תארח יפה חסידים לארוחה עיראקית באווירה משפחתית"
     },
@@ -1305,12 +1295,10 @@
       "matched": "יוסל'ה זיו",
       "matchMethod": "hosting-order",
       "structuredMatch": "יוסל'ה זיו",
-      "explicitMatch": "יוסל'ה זיו",
       "orderConflict": false,
       "occupation": "ספר נשים ודראגיסט",
       "candidates": [
-        "יוסל'ה זיו (hosting order 3)",
-        "יוסל'ה זיו (explicit host cue)"
+        "יוסל'ה זיו (hosting order 3)"
       ],
       "text": "פרק 8 - שבוע ירושלים, יום ג' ביום השלישי לתחרות יארח יוסל'ה, ספר נשים ביום ודראגיסט בלילה"
     },
@@ -1322,12 +1310,10 @@
       "matched": "קארי בר כהן",
       "matchMethod": "hosting-order",
       "structuredMatch": "קארי בר כהן",
-      "explicitMatch": "קארי בר כהן",
       "orderConflict": false,
       "occupation": "אושיית טיקטוק",
       "candidates": [
-        "קארי בר כהן (hosting order 4)",
-        "קארי בר כהן (explicit host cue)"
+        "קארי בר כהן (hosting order 4)"
       ],
       "text": "פרק 9 - שבוע ירושלים, יום ד' ביום הרביעי לשבוע ירושלים תארח קארי - ציונית חרדית ואושיית טיקטוק"
     },
@@ -1339,11 +1325,9 @@
       "matched": "יהונתן מקרוב",
       "matchMethod": "hosting-order",
       "structuredMatch": "יהונתן מקרוב",
-      "explicitMatch": "יהונתן מקרוב",
       "orderConflict": false,
       "candidates": [
-        "יהונתן מקרוב (hosting order 5)",
-        "יהונתן מקרוב (explicit host cue)"
+        "יהונתן מקרוב (hosting order 5)"
       ],
       "text": "פרק 10 - שבוע ירושלים, יום ה' ביום האחרון לתחרות יארח יהונתן מנטף לארוחה אורגנית. מי יהיה הזוכה?"
     },
@@ -1369,11 +1353,9 @@
       "matched": "חן וייסמן",
       "matchMethod": "hosting-order",
       "structuredMatch": "חן וייסמן",
-      "explicitMatch": "חן וייסמן",
       "orderConflict": false,
       "candidates": [
-        "חן וייסמן (hosting order 2)",
-        "חן וייסמן (explicit host cue)"
+        "חן וייסמן (hosting order 2)"
       ],
       "text": "פרק 12 - שבוע דרום, יום ב' הערב תארח חן, עירונית בנשמה עם אוכל אסייתי ושיחה סוערת על סטיגמות"
     },
@@ -1399,11 +1381,9 @@
       "matched": "עמרי שושן",
       "matchMethod": "hosting-order",
       "structuredMatch": "עמרי שושן",
-      "explicitMatch": "עמרי שושן",
       "orderConflict": false,
       "candidates": [
-        "עמרי שושן (hosting order 4)",
-        "עמרי שושן (explicit host cue)"
+        "עמרי שושן (hosting order 4)"
       ],
       "text": "פרק 14 - שבוע דרום, יום ד' הערב מארח עמרי עם תפריט צמחוני, ומשה מגיע סקרן במיוחד לארוחה"
     },
@@ -1429,11 +1409,9 @@
       "matched": "אילנה בן אבו",
       "matchMethod": "hosting-order",
       "structuredMatch": "אילנה בן אבו",
-      "explicitMatch": "אילנה בן אבו",
       "orderConflict": false,
       "candidates": [
-        "אילנה בן אבו (hosting order 1)",
-        "אילנה בן אבו (explicit host cue)"
+        "אילנה בן אבו (hosting order 1)"
       ],
       "text": "פרק 16 - שבוע מרכז, יום א' שבוע מרכז נפתח בארוחה מרוקאית מסורתית אצל המארחת אילנה"
     },
@@ -1549,11 +1527,9 @@
       "matched": "אדי בן סימון",
       "matchMethod": "hosting-order",
       "structuredMatch": "אדי בן סימון",
-      "explicitMatch": "אדי בן סימון",
       "orderConflict": false,
       "candidates": [
-        "אדי בן סימון (hosting order 4)",
-        "אדי בן סימון (explicit host cue)"
+        "אדי בן סימון (hosting order 4)"
       ],
       "text": "פרק 24 - שבוע מישור החוף, יום ד' ביום הרביעי לתחרות יארח אדי בן סימון בסגנון קלאס עם מאמץ"
     },
@@ -1608,11 +1584,9 @@
       "matched": "ירדן שלי נקים",
       "matchMethod": "hosting-order",
       "structuredMatch": "ירדן שלי נקים",
-      "explicitMatch": "ירדן שלי נקים",
       "orderConflict": false,
       "candidates": [
-        "ירדן שלי נקים (hosting order 3)",
-        "ירדן שלי נקים (explicit host cue)"
+        "ירדן שלי נקים (hosting order 3)"
       ],
       "text": "פרק 3 - שבוע דרום, יום ג' היום השלישי לתחרות האירוח והבישול בדרום, הערב מארחת ירדן מבאר שבע"
     },
@@ -1624,11 +1598,9 @@
       "matched": "שירה ניר",
       "matchMethod": "hosting-order",
       "structuredMatch": "שירה ניר",
-      "explicitMatch": "שירה ניר",
       "orderConflict": false,
       "candidates": [
-        "שירה ניר (hosting order 4)",
-        "שירה ניר (explicit host cue)"
+        "שירה ניר (hosting order 4)"
       ],
       "text": "פרק 4 - שבוע דרום, יום ד' היום הרביעי בתחרות באזור הדרום, והיום תארח שירה מאשקלון"
     },
@@ -1744,12 +1716,10 @@
       "matched": "יעל זילברמן",
       "matchMethod": "hosting-order",
       "structuredMatch": "יעל זילברמן",
-      "explicitMatch": "יעל זילברמן",
       "orderConflict": false,
       "occupation": "משפיענית",
       "candidates": [
-        "יעל זילברמן (hosting order 2)",
-        "יעל זילברמן (explicit host cue)"
+        "יעל זילברמן (hosting order 2)"
       ],
       "text": "פרק 12 - שבוע תל אביב, יום ב' היום השני של התחרות באזור תל-אביב והערב מארחת יעל, משפיענית מבני ברק"
     },
@@ -1819,11 +1789,9 @@
       "matched": "קארין מקס",
       "matchMethod": "hosting-order",
       "structuredMatch": "קארין מקס",
-      "explicitMatch": "קארין מקס",
       "orderConflict": false,
       "candidates": [
-        "קארין מקס (hosting order 2)",
-        "קארין מקס (explicit host cue)"
+        "קארין מקס (hosting order 2)"
       ],
       "text": "פרק 17 - שבוע השרון והכרמל, יום ב' זה היום השני לתחרות הבישול והאירוח באזור השרון והכרמל, היום תארח קארין"
     },
@@ -1849,11 +1817,9 @@
       "matched": "מאיה לב קורן",
       "matchMethod": "hosting-order",
       "structuredMatch": "מאיה לב קורן",
-      "explicitMatch": "מאיה לב קורן",
       "orderConflict": false,
       "candidates": [
-        "מאיה לב קורן (hosting order 4)",
-        "מאיה לב קורן (explicit host cue)"
+        "מאיה לב קורן (hosting order 4)"
       ],
       "text": "פרק 19 - שבוע השרון והכרמל, יום ד' יום רביעי בתחרות הבישול באזור השרון והכרמל, היום מארחת מאיה בקציר"
     },
@@ -1939,12 +1905,10 @@
       "matched": "עדי ויצמן אסולין",
       "matchMethod": "hosting-order",
       "structuredMatch": "עדי ויצמן אסולין",
-      "explicitMatch": "עדי ויצמן אסולין",
       "orderConflict": false,
       "occupation": "בעלת סטודיו לריקוד",
       "candidates": [
-        "עדי ויצמן אסולין (hosting order 5)",
-        "עדי ויצמן אסולין (explicit host cue)"
+        "עדי ויצמן אסולין (hosting order 5)"
       ],
       "text": "פרק 25 - שבוע חיפה, יום ה' פרק אחרון באזור חיפה: הפעם תארח עדי, בעלת סטודיו לריקוד מקרית אתא"
     },
@@ -1970,11 +1934,9 @@
       "matched": "אדם גוזלן",
       "matchMethod": "hosting-order",
       "structuredMatch": "אדם גוזלן",
-      "explicitMatch": "אדם גוזלן",
       "orderConflict": false,
       "candidates": [
-        "אדם גוזלן (hosting order 2)",
-        "אדם גוזלן (explicit host cue)"
+        "אדם גוזלן (hosting order 2)"
       ],
       "text": "פרק 2 - שבוע ירושלים, יום ב' זה היום השני לתחרות הבישול באזור ירושלים והערב מארח אדם מנווה דניאל"
     },
@@ -2014,11 +1976,9 @@
       "matched": "ניקול אלטשולר",
       "matchMethod": "hosting-order",
       "structuredMatch": "ניקול אלטשולר",
-      "explicitMatch": "ניקול אלטשולר",
       "orderConflict": false,
       "candidates": [
-        "ניקול אלטשולר (hosting order 5)",
-        "ניקול אלטשולר (explicit host cue)"
+        "ניקול אלטשולר (hosting order 5)"
       ],
       "text": "פרק 5 - שבוע ירושלים, יום ה' יום אחרון לתחרות באזור ירושלים והערב תארח ניקול. מי המנצח של התחרות?"
     },
@@ -2030,12 +1990,10 @@
       "matched": "איריס אלוג",
       "matchMethod": "hosting-order",
       "structuredMatch": "איריס אלוג",
-      "explicitMatch": "איריס אלוג",
       "orderConflict": false,
       "occupation": "מעבירה ערבי הפרשות חלה",
       "candidates": [
-        "איריס אלוג (hosting order 1)",
-        "איריס אלוג (explicit host cue)"
+        "איריס אלוג (hosting order 1)"
       ],
       "text": "פרק 6 - שבוע שפלה, יום א' ביום הראשון לתחרות באזור השפלה תארח איריס, מעבירה ערבי הפרשות חלה"
     },

@@ -210,26 +210,26 @@
     }
   },
   {
-    "slug": "s5-קייסי-זפטה",
-    "name": "קייסי זפטה",
+    "slug": "s5-אושרית-מולאי",
+    "name": "אושרית מולאי",
     "season": 5,
     "entryType": "individual",
     "members": [
-      "קייסי זפטה"
+      "אושרית מולאי"
     ],
     "week": 2,
     "weekName": "תל אביב",
-    "hostingOrder": 5,
+    "hostingOrder": 1,
     "dishes": [],
     "episodeUrls": [
-      "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/"
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/"
     ],
     "sources": [
       {
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
-        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
-        "note": "Official Kan episode 10; host matched by structured hosting order"
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/",
+        "note": "Official Kan episode 6; host matched by structured hosting order"
       }
     ],
     "fieldSources": {
@@ -237,16 +237,16 @@
         {
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
-          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
-          "note": "Official Kan episode 10; host matched by structured hosting order"
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/",
+          "note": "Official Kan episode 6; host matched by structured hosting order"
         }
       ],
       "hostingOrder": [
         {
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
-          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
-          "note": "Official Kan episode 10; host matched by structured hosting order"
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/",
+          "note": "Official Kan episode 6; host matched by structured hosting order"
         }
       ]
     }
@@ -373,6 +373,48 @@
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133682/",
           "note": "Official Kan episode 9; host matched by structured hosting order"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s5-קייסי-זפטה",
+    "name": "קייסי זפטה",
+    "season": 5,
+    "entryType": "individual",
+    "members": [
+      "קייסי זפטה"
+    ],
+    "week": 2,
+    "weekName": "תל אביב",
+    "hostingOrder": 5,
+    "dishes": [],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
+        "note": "Official Kan episode 10; host matched by structured hosting order"
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
+          "note": "Official Kan episode 10; host matched by structured hosting order"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
+          "note": "Official Kan episode 10; host matched by structured hosting order"
         }
       ]
     }
