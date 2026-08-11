@@ -6,7 +6,7 @@
   "hostOrderConflicts": 3,
   "unmatchedEpisodes": 3,
   "profileExtraction": {
-    "occupations": 20,
+    "occupations": 21,
     "diets": 2,
     "policy": "Only explicit host-local descriptors are extracted; menu style is not treated as contestant diet."
   },
@@ -1438,6 +1438,7 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "עמנואל יצחק לוי",
       "orderConflict": false,
+      "occupation": "מורה לתנ\"ך וסולן להקה",
       "candidates": [
         "עמנואל יצחק לוי (hosting order 3)"
       ],

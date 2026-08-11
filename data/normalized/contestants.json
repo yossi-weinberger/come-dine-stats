@@ -43079,7 +43079,14 @@
         }
       ],
       "region": [],
-      "occupation": [],
+      "occupation": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched by structured hosting order"
+        }
+      ],
       "relationshipStatus": [],
       "gender": [],
       "diet": [],
@@ -43088,7 +43095,8 @@
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/"
     ],
-    "city": "תל אביב"
+    "city": "תל אביב",
+    "occupation": "מורה לתנ\"ך וסולן להקה"
   },
   {
     "slug": "s8-נירית-מיטל",

@@ -4600,6 +4600,7 @@
     "week": 4,
     "weekName": "מרכז",
     "hostingOrder": 3,
+    "occupation": "מורה לתנ\"ך וסולן להקה",
     "dishes": [],
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/"
@@ -4630,6 +4631,14 @@
         }
       ],
       "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+          "note": "Official Kan episode 18; host matched by structured hosting order"
+        }
+      ],
+      "occupation": [
         {
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
