@@ -15,10 +15,12 @@ on:
       - 'scripts/import-wikipedia.ts'
       - 'scripts/import-season10.ts'
       - 'scripts/import-kan.ts'
+      - 'scripts/enrich-kan-cities.ts'
       - 'scripts/import-supplemental-menus.ts'
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
       - 'scripts/stats.ts'
+      - 'scripts/update-readme-stats.ts'
       - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
       - 'data/supplemental/menus.json'
@@ -59,6 +61,9 @@ jobs:
       - name: Import Kan metadata
         run: npm run import:kan
 
+      - name: Enrich missing cities from Kan
+        run: npm run enrich:kan-cities
+
       - name: Import verified supplemental menus
         run: npm run import:supplemental-menus
 
@@ -71,6 +76,9 @@ jobs:
       - name: Print stats
         run: npm run stats
 
+      - name: Refresh README snapshot
+        run: npm run update:readme-stats
+
       - name: Commit refreshed data
         shell: bash
         run: |
@@ -78,6 +86,7 @@ jobs:
           git config user.email "137178593+yossi-weinberger@users.noreply.github.com"
 
           for path in \
+            README.md \
             data/raw/fandom/coverage.json \
             data/normalized/fandom-contestants.json \
             data/normalized/wikipedia-contestants.json \
@@ -88,6 +97,7 @@ jobs:
             data/reports/wikipedia-import.json \
             data/reports/wikipedia-season10-rolling.json \
             data/reports/kan-contestant-enrichment.json \
+            data/reports/kan-city-enrichment.json \
             data/reports/conflicts.json \
             data/reports/coverage.json
           do
