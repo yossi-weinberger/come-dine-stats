@@ -14,5 +14,75 @@
       "city": "פתח תקווה",
       "occupation": "מורה לתקשורת ומחנכת"
     }
+  },
+  {
+    "season": 5,
+    "name": "בני ציפר",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.israelhayom.co.il/culture/tv/article/3727921",
+      "title": "ישראל היום — בואו לאכול איתו: השואו של בני ציפר",
+      "author": "ערן סויסה",
+      "note": "Article about Ziffer's participation in season 5 explicitly identifies him as a journalist and poet."
+    },
+    "fields": {
+      "occupation": "עיתונאי ומשורר"
+    }
+  },
+  {
+    "season": 7,
+    "name": "מיה דגן",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.ynet.co.il/entertainment/article/bjsg5b4jh",
+      "title": "ynet — הצופים של בואו לאכול איתי רעבים לאותו הדבר בדיוק",
+      "author": "סמדר שילוני",
+      "note": "Season 7 review explicitly identifies participant Mia Dagan as an actress."
+    },
+    "fields": {
+      "occupation": "שחקנית"
+    }
+  },
+  {
+    "season": 7,
+    "name": "קרן בר לב",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.ynet.co.il/laisha/article/skb9bwti2",
+      "title": "לאשה / ynet — קרן בר לב: אני נשלטת ב-BDSM, אני שמנה ואני עפה על עצמי",
+      "author": "תחיה ברק",
+      "note": "Interview explicitly identifies Bar Lev as a Come Dine With Me participant and states her role at the Weizmann Institute."
+    },
+    "fields": {
+      "occupation": "ראש תחום רשתות חברתיות במכון ויצמן"
+    }
+  },
+  {
+    "season": 9,
+    "name": "שירה ניר",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.ynet.co.il/entertainment/article/s1yjbbfaee",
+      "title": "ynet — כוכבת בואו לאכול איתי: אמרתי להפקה תיזהרו להוציא אותי מטומטמת",
+      "author": "סמדר שילוני",
+      "note": "Interview explicitly identifies Nir as a season 9 participant and criminal defense attorney."
+    },
+    "fields": {
+      "occupation": "עורכת דין פלילית"
+    }
+  },
+  {
+    "season": 10,
+    "name": "אדם גוזלן",
+    "source": {
+      "kind": "manual",
+      "url": "https://www.israelhayom.co.il/culture/tv/article/21018200",
+      "title": "ישראל היום — בואו לאכול איתי של כאן 11 הפכה לבואו להתפרסם איתי",
+      "author": "ניר וולף",
+      "note": "Season 10 review explicitly states that Gozlan works at an event hall."
+    },
+    "fields": {
+      "occupation": "עובד באולם אירועים"
+    }
   }
 ]
