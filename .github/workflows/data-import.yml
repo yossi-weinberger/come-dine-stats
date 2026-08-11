@@ -19,6 +19,7 @@ on:
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
       - 'scripts/stats.ts'
+      - 'scripts/update-readme-stats.ts'
       - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
       - 'data/supplemental/menus.json'
@@ -71,6 +72,9 @@ jobs:
       - name: Print stats
         run: npm run stats
 
+      - name: Refresh README snapshot
+        run: npm run update:readme-stats
+
       - name: Commit refreshed data
         shell: bash
         run: |
@@ -78,6 +82,7 @@ jobs:
           git config user.email "137178593+yossi-weinberger@users.noreply.github.com"
 
           for path in \
+            README.md \
             data/raw/fandom/coverage.json \
             data/normalized/fandom-contestants.json \
             data/normalized/wikipedia-contestants.json \
