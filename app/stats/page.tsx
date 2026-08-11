@@ -3,6 +3,7 @@ import Link from 'next/link'
 import coverageJson from '@/data/reports/coverage.json'
 import { SiteFooter } from '@/components/site-footer'
 import { contestants } from '@/lib/data'
+import { competitionEntries, knownScores, scoreEntries } from '@/lib/competition'
 import type { Contestant } from '@/lib/types'
 
 export const metadata: Metadata = {
@@ -58,14 +59,6 @@ function percent(count: number, total: number) {
   return total ? Math.round((count / total) * 1000) / 10 : 0
 }
 
-function scoreEntries(items = contestants) {
-  return items.filter((entry) => typeof entry.score === 'number')
-}
-
-function knownScores(items = contestants) {
-  return scoreEntries(items).map((entry) => entry.score as number)
-}
-
 function barWidth(value: number, max: number) {
   if (!max) return 0
   return Math.max(3, Math.round((value / max) * 100))
@@ -99,9 +92,10 @@ const cityCoverage = coverage.overall.fieldCoverage.city
 const hostingCoverage = coverage.overall.fieldCoverage.hostingOrder
 
 export default function StatsPage() {
-  const scored = scoreEntries()
-  const scores = knownScores()
-  const scoredWinners = contestants.filter((entry) => entry.winner && typeof entry.score === 'number')
+  const activeEntries = competitionEntries(contestants)
+  const scored = scoreEntries(contestants)
+  const scores = knownScores(contestants)
+  const scoredWinners = activeEntries.filter((entry) => entry.winner && typeof entry.score === 'number')
   const winnerScores = scoredWinners.map((entry) => entry.score as number)
   const individualAges = contestants
     .filter((entry) => entry.entryType !== 'couple' && typeof entry.age === 'number')
@@ -112,8 +106,8 @@ export default function StatsPage() {
     .slice(0, 10)
 
   const hostingRows = [1, 2, 3, 4, 5].map((order) => {
-    const entries = contestants.filter((entry) => entry.hostingOrder === order)
-    const withScore = entries.filter((entry) => typeof entry.score === 'number')
+    const entries = activeEntries.filter((entry) => entry.hostingOrder === order)
+    const withScore = scoreEntries(entries)
     const winners = entries.filter((entry) => entry.winner)
     return {
       order,
@@ -129,6 +123,7 @@ export default function StatsPage() {
   const seasons = [...new Set(contestants.map((entry) => entry.season))].sort((a, b) => a - b)
   const seasonRows = seasons.map((season) => {
     const entries = contestants.filter((entry) => entry.season === season)
+    const activeSeasonEntries = competitionEntries(entries)
     const seasonScores = knownScores(entries)
     const ages = entries
       .filter((entry) => entry.entryType !== 'couple' && typeof entry.age === 'number')
@@ -136,11 +131,12 @@ export default function StatsPage() {
     return {
       season,
       entries: entries.length,
+      activeEntries: activeSeasonEntries.length,
       participants: entries.reduce((sum, entry) => sum + (entry.members?.length || 1), 0),
       scoreCount: seasonScores.length,
       averageScore: average(seasonScores),
       topScore: seasonScores.length ? Math.max(...seasonScores) : null,
-      winners: entries.filter((entry) => entry.winner).length,
+      winners: activeSeasonEntries.filter((entry) => entry.winner).length,
       averageAge: average(ages),
       dishes: entries.reduce((sum, entry) => sum + entry.dishes.length, 0),
     }
@@ -154,7 +150,8 @@ export default function StatsPage() {
   }
 
   const margins: WeekResult[] = []
-  for (const entries of weeks.values()) {
+  for (const weekEntries of weeks.values()) {
+    const entries = competitionEntries(weekEntries)
     const winners = entries.filter((entry) => entry.winner && typeof entry.score === 'number')
     const others = entries
       .filter((entry) => !entry.winner && typeof entry.score === 'number')
@@ -200,6 +197,7 @@ export default function StatsPage() {
   const maxCity = Math.max(...topCities.map((row) => row.count), 1)
 
   const menuCoverage = coverage.overall.menuCoverage
+  const exceptionalEntries = contestants.length - activeEntries.length
 
   return (
     <main className="statsPage">
@@ -225,11 +223,11 @@ export default function StatsPage() {
       </header>
 
       <section className="analysisStats" aria-label="סיכום סטטיסטי">
-        <StatCard label="ממוצע ציון מתועד" value={average(scores) ?? '—'} note={`${scored.length} ציונים`} />
+        <StatCard label="ממוצע ציון תחרותי" value={average(scores) ?? '—'} note={`${scored.length} ציונים פעילים`} />
         <StatCard label="ממוצע ציון של זוכים" value={average(winnerScores) ?? '—'} note={`${scoredWinners.length} זוכים עם ציון`} />
         <StatCard label="גיל ממוצע מתועד" value={average(individualAges) ?? '—'} note="רשומות יחיד בלבד" />
         <StatCard label="ציון שיא" value={scores.length ? Math.max(...scores) : '—'} />
-        <StatCard label="שבועות לניתוח פער" value={margins.length} note="זוכה יחיד + ציוני מתחרים" />
+        <StatCard label="שבועות לניתוח פער" value={margins.length} note="זוכה יחיד + ציוני מתחרים פעילים" />
         <StatCard label="מנות מתועדות" value={coverage.overall.dishes} note={`${menuCoverage.anyDish.count} רשומות עם מנה`} />
       </section>
 
@@ -265,7 +263,7 @@ export default function StatsPage() {
           <CoveragePill label="כיסוי סדר אירוח" field={hostingCoverage} />
         </div>
         <p className="analysisIntro">
-          זהו תיאור של המאגר, לא טענה שסדר האירוח גורם לזכייה. לכל יום מוצגים מספר הזוכים וממוצע הציון המתועד.
+          זהו תיאור של המאגר, לא טענה שסדר האירוח גורם לזכייה. פסולים, פורשים ואורחים אינם נכללים בחישובי התחרות.
         </p>
         <div className="hostingGrid">
           {hostingRows.map((row) => (
@@ -291,7 +289,7 @@ export default function StatsPage() {
             <div className="eyebrow">עונה מול עונה</div>
             <h2 id="season-compare-title">איך העונות משתוות?</h2>
           </div>
-          <span className="analyticsNote">ממוצעי ציון מחושבים רק מהציונים המתועדים בכל עונה</span>
+          <span className="analyticsNote">ממוצעי ציון מחושבים רק מציונים של רשומות תחרות פעילות</span>
         </div>
         <div className="seasonTableWrap">
           <table className="seasonCompareTable">
@@ -311,7 +309,7 @@ export default function StatsPage() {
                 <tr key={row.season}>
                   <th><Link href={`/seasons/${row.season}`}>עונה {row.season}</Link></th>
                   <td>{row.participants}</td>
-                  <td>{row.scoreCount}/{row.entries}</td>
+                  <td>{row.scoreCount}/{row.activeEntries}</td>
                   <td><strong>{row.averageScore ?? '—'}</strong></td>
                   <td>{row.topScore ?? '—'}</td>
                   <td>{row.averageAge ?? '—'}</td>
@@ -329,7 +327,7 @@ export default function StatsPage() {
             <div className="eyebrow">הפרש מהמקום הבא</div>
             <h2 id="margin-title">ניצחונות מוחצים וצמודים</h2>
           </div>
-          <span className="analyticsNote">{margins.length} שבועות עם נתונים מתאימים</span>
+          <span className="analyticsNote">{margins.length} שבועות עם נתונים תחרותיים מתאימים</span>
         </div>
         <div className="marginColumns">
           <div className="marginPanel">
@@ -429,7 +427,8 @@ export default function StatsPage() {
         <p>
           כל החישובים נעשים מהנתונים המנורמלים באתר. נתון חסר לא הופך לאפס ולא מושלם בהשערה;
           זוגות מוחרגים ממדדים אישיים כמו גיל; ופער ניצחון מחושב רק בשבוע שבו יש זוכה יחיד עם ציון
-          ולפחות מתחרה נוסף עם ציון. לכן המספרים יכולים להשתנות כשהמאגר מתעשר או כשעונה 10 מתקדמת.
+          ולפחות מתחרה פעיל נוסף עם ציון. {exceptionalEntries} רשומות חריגות (פסילה, פרישה או אורח) נשארות במאגר
+          ובדפי ההקשר שלהן, אך אינן מעוותות ממוצעי תחרות רגילים.
         </p>
       </aside>
 
