@@ -269,8 +269,10 @@ function hostLocalContext(entry: Contestant, episodeText: string) {
   const clean = compact(episodeText)
   for (const candidate of rawFirstNameCandidates(entry.name)) {
     if (candidate.length < 2) continue
-    const pattern = new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRegExp(candidate)}(?=$|[^\\p{L}\\p{N}])`, 'u')
-    const match = pattern.exec(clean)
+    const escaped = escapeRegExp(candidate)
+    const exactPattern = new RegExp(`(^|[^\\p{L}\\p{N}])${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
+    const prefixedPattern = new RegExp(`(^|[^\\p{L}\\p{N}])(?:ו?[לבמ])${escaped}(?=$|[^\\p{L}\\p{N}])`, 'u')
+    const match = exactPattern.exec(clean) ?? prefixedPattern.exec(clean)
     if (!match) continue
     const start = Math.max(0, match.index + match[1].length - 60)
     const end = Math.min(clean.length, match.index + match[0].length + 180)
