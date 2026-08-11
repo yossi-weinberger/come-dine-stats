@@ -29,7 +29,7 @@ export type Contestant = {
   season: number
   entryType?: 'individual' | 'couple'
   members?: string[]
-  status?: 'active' | 'withdrawn' | 'guest'
+  status?: 'active' | 'withdrawn' | 'guest' | 'disqualified'
   week?: number
   weekName?: string
   hostingOrder?: number
@@ -41,6 +41,7 @@ export type Contestant = {
   gender?: string
   diet?: string
   score?: number
+  scoreBeforeAdjustment?: number
   placement?: number
   winner?: boolean
   dishes: Dish[]
