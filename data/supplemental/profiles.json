@@ -2,193 +2,127 @@
   {
     "season": 6,
     "name": "שרון בוננו",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs",
-      "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול",
-      "author": "גבי בר חיים",
-      "note": "Season 6 winners interview; profile facts are stated explicitly."
-    },
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs", "title": "ynet — המנצחים של בואו לאכול איתי פותחים הכול", "author": "גבי בר חיים", "note": "Season 6 winners interview; profile facts are stated explicitly." },
     "fields": { "age": 49, "city": "פתח תקווה", "occupation": "מורה לתקשורת ומחנכת" }
   },
   {
     "season": 5,
     "name": "בני ציפר",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.israelhayom.co.il/culture/tv/article/3727921",
-      "title": "ישראל היום — בואו לאכול איתו: השואו של בני ציפר",
-      "author": "ערן סויסה",
-      "note": "Article about Ziffer's participation in season 5 explicitly identifies him as a journalist and poet."
-    },
+    "source": { "kind": "manual", "url": "https://www.israelhayom.co.il/culture/tv/article/3727921", "title": "ישראל היום — בואו לאכול איתו: השואו של בני ציפר", "author": "ערן סויסה", "note": "Article about Ziffer's participation in season 5 explicitly identifies him as a journalist and poet." },
     "fields": { "occupation": "עיתונאי ומשורר" }
   },
   {
     "season": 7,
     "name": "מיה דגן",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.ynet.co.il/entertainment/article/bjsg5b4jh",
-      "title": "ynet — הצופים של בואו לאכול איתי רעבים לאותו הדבר בדיוק",
-      "author": "סמדר שילוני",
-      "note": "Season 7 review explicitly identifies participant Mia Dagan as an actress."
-    },
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/bjsg5b4jh", "title": "ynet — הצופים של בואו לאכול איתי רעבים לאותו הדבר בדיוק", "author": "סמדר שילוני", "note": "Season 7 review explicitly identifies participant Mia Dagan as an actress." },
     "fields": { "occupation": "שחקנית" }
   },
   {
     "season": 7,
     "name": "קרן בר לב",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.ynet.co.il/laisha/article/skb9bwti2",
-      "title": "לאשה / ynet — קרן בר לב: אני נשלטת ב-BDSM, אני שמנה ואני עפה על עצמי",
-      "author": "תחיה ברק",
-      "note": "Interview explicitly identifies Bar Lev as a Come Dine With Me participant and states her role at the Weizmann Institute."
-    },
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/laisha/article/skb9bwti2", "title": "לאשה / ynet — קרן בר לב: אני נשלטת ב-BDSM, אני שמנה ואני עפה על עצמי", "author": "תחיה ברק", "note": "Interview explicitly identifies Bar Lev as a Come Dine With Me participant and states her role at the Weizmann Institute." },
     "fields": { "occupation": "ראש תחום רשתות חברתיות במכון ויצמן" }
   },
   {
     "season": 7,
     "name": "בן טרומן",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.mako.co.il/pride-culture/Article-febf4051931b981026.htm",
-      "title": "mako — היא אליטיסטית שחיה בסרט",
-      "author": "לירוי פיניאן",
-      "note": "Interview about Truman's season 7 participation explicitly states that he designs events and prepares catering platters for a living."
-    },
+    "source": { "kind": "manual", "url": "https://www.mako.co.il/pride-culture/Article-febf4051931b981026.htm", "title": "mako — היא אליטיסטית שחיה בסרט", "author": "לירוי פיניאן", "note": "Interview about Truman's season 7 participation explicitly states that he designs events and prepares catering platters for a living." },
     "fields": { "occupation": "מעצב אירועים ומכין מגשי אירוח" }
   },
   {
     "season": 7,
     "name": "רחלי סופיר",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.atmag.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-7/",
-      "title": "את — אכילת ראש: למה בואו לאכול איתי בוחשת לנו ככה ברחם?",
-      "author": "שיר שחף",
-      "note": "Season 7 coverage explicitly identifies Sophir as the group's cosmetician."
-    },
+    "source": { "kind": "manual", "url": "https://www.atmag.co.il/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-7/", "title": "את — אכילת ראש: למה בואו לאכול איתי בוחשת לנו ככה ברחם?", "author": "שיר שחף", "note": "Season 7 coverage explicitly identifies Sophir as the group's cosmetician." },
     "fields": { "occupation": "קוסמטיקאית" }
   },
   {
     "season": 7,
     "name": "סיוון קנטי אביטן",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
-      "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
-      "author": "לורי שטטמאור",
-      "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker."
-    },
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/yokra13517294", "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי", "author": "לורי שטטמאור", "note": "Season 7 winners interview describes Kanti Avitan explicitly as a matchmaker." },
     "fields": { "occupation": "שדכנית" }
   },
   {
     "season": 9,
     "name": "שירה ניר",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.ynet.co.il/entertainment/article/s1yjbbfaee",
-      "title": "ynet — כוכבת בואו לאכול איתי: אמרתי להפקה תיזהרו להוציא אותי מטומטמת",
-      "author": "סמדר שילוני",
-      "note": "Interview explicitly identifies Nir as a season 9 participant and criminal defense attorney."
-    },
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/s1yjbbfaee", "title": "ynet — כוכבת בואו לאכול איתי: אמרתי להפקה תיזהרו להוציא אותי מטומטמת", "author": "סמדר שילוני", "note": "Interview explicitly identifies Nir as a season 9 participant and criminal defense attorney." },
     "fields": { "occupation": "עורכת דין פלילית" }
   },
   {
     "season": 10,
     "name": "אדם גוזלן",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.israelhayom.co.il/culture/tv/article/21018200",
-      "title": "ישראל היום — בואו לאכול איתי של כאן 11 הפכה לבואו להתפרסם איתי",
-      "author": "ניר וולף",
-      "note": "Season 10 review explicitly states that Gozlan works at an event hall."
-    },
+    "source": { "kind": "manual", "url": "https://www.israelhayom.co.il/culture/tv/article/21018200", "title": "ישראל היום — בואו לאכול איתי של כאן 11 הפכה לבואו להתפרסם איתי", "author": "ניר וולף", "note": "Season 10 review explicitly states that Gozlan works at an event hall." },
     "fields": { "occupation": "עובד באולם אירועים" }
   },
   {
     "season": 7,
     "name": "מירב סעדו",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.ynet.co.il/entertainment/article/yokra13517294",
-      "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי",
-      "author": "לורי שטטמאור",
-      "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context."
-    },
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/yokra13517294", "title": "ynet — האנשים שמעירים ברחוב והקטעים שירדו בעריכה: שיחה עם המנצחים של בואו לאכול איתי", "author": "לורי שטטמאור", "note": "Season 7 winners interview explicitly states Sado's age and occupation in show context." },
     "fields": { "age": 53, "occupation": "סוכנת ביטוח" }
   },
   {
     "season": 8,
     "name": "לבנה שיפמן",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.israelhayom.co.il/food/food-news/article/16075643",
-      "title": "ישראל היום — בואו לאכול איתי חוזרת: קבלו מתכון למנה המפתיעה של העונה",
-      "author": "הילה דודאל",
-      "note": "Published on the season 8 premiere date; explicitly identifies Shifman's role promoting foodtech."
-    },
+    "source": { "kind": "manual", "url": "https://www.israelhayom.co.il/food/food-news/article/16075643", "title": "ישראל היום — בואו לאכול איתי חוזרת: קבלו מתכון למנה המפתיעה של העונה", "author": "הילה דודאל", "note": "Published on the season 8 premiere date; explicitly identifies Shifman's role promoting foodtech." },
     "fields": { "occupation": "מנכ״לית העמותה לחקלאות מודרנית" }
   },
   {
     "season": 8,
     "name": "לינוי דסה",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.srugim.co.il/1010778-%D7%9C%D7%90-%D7%A8%D7%A6%D7%99%D7%AA%D7%99-%D7%A9%D7%94%D7%A9%D7%91%D7%AA-%D7%AA%D7%92%D7%9E%D7%A8-%D7%9E%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%AA-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95",
-      "title": "סרוגים — לא רציתי שהשבת תגמר: מתמודדת בואו לאכול איתי בראיון",
-      "author": "רינת קרמר יבלינוביץ",
-      "note": "Interview published on the season 8 premiere date explicitly states Dasa's occupation."
-    },
+    "source": { "kind": "manual", "url": "https://www.srugim.co.il/1010778-%D7%9C%D7%90-%D7%A8%D7%A6%D7%99%D7%AA%D7%99-%D7%A9%D7%94%D7%A9%D7%91%D7%AA-%D7%AA%D7%92%D7%9E%D7%A8-%D7%9E%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%AA-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95", "title": "סרוגים — לא רציתי שהשבת תגמר: מתמודדת בואו לאכול איתי בראיון", "author": "רינת קרמר יבלינוביץ", "note": "Interview published on the season 8 premiere date explicitly states Dasa's occupation." },
     "fields": { "occupation": "סייעת בגן ילדים" }
   },
   {
     "season": 9,
     "name": "אליאס עבוד",
-    "source": {
-      "kind": "manual",
-      "url": "https://1075.fm/item/207268/",
-      "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
-      "author": "עומר מוזר",
-      "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Elias Aboud as an actor."
-    },
+    "source": { "kind": "manual", "url": "https://1075.fm/item/207268/", "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי", "author": "עומר מוזר", "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Elias Aboud as an actor." },
     "fields": { "occupation": "שחקן" }
   },
   {
     "season": 9,
     "name": "אוניקה אלנה דניאלה",
-    "source": {
-      "kind": "manual",
-      "url": "https://1075.fm/item/207268/",
-      "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי",
-      "author": "עומר מוזר",
-      "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Onika Elena Daniela as an artist."
-    },
+    "source": { "kind": "manual", "url": "https://1075.fm/item/207268/", "title": "רדיו חיפה — טל הרוש על בואו לאכול איתי: פרמו לי את כל מנעד הרגשות האפשרי", "author": "עומר מוזר", "note": "Coverage of the season 9 Haifa special explicitly identifies fellow participant Onika Elena Daniela as an artist." },
     "fields": { "occupation": "אמנית" }
   },
   {
     "season": 10,
     "name": "דניאל דריי",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.ynet.co.il/entertainment/article/yokra14831122",
-      "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה",
-      "author": "סמדר שיר",
-      "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
-    },
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/yokra14831122", "title": "ynet — איך ד״ר דניאל דריי מטפל בלוחמים שאיבדו את הביטחון במיטה", "author": "סמדר שיר", "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant." },
     "fields": { "age": 61, "occupation": "סקסולוג" }
   },
   {
     "season": 9,
     "name": "מאיה לב קורן",
-    "source": {
-      "kind": "manual",
-      "url": "https://www.ynet.co.il/laisha/article/h11t892ewl",
-      "title": "לאשה / ynet — ככל שאני גונחת יותר, אני מייצרת יותר הורמונים של עונג",
-      "author": "מאיה בניטה",
-      "note": "Post-show interview explicitly identifies Koren as a Come Dine With Me participant and states that sadotherapy is among her occupations."
-    },
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/laisha/article/h11t892ewl", "title": "לאשה / ynet — ככל שאני גונחת יותר, אני מייצרת יותר הורמונים של עונג", "author": "מאיה בניטה", "note": "Post-show interview explicitly identifies Koren as a Come Dine With Me participant and states that sadotherapy is among her occupations." },
     "fields": { "occupation": "סאדו־תרפיסטית" }
+  },
+  {
+    "season": 6,
+    "name": "ברוריה פסטרנק-שביט",
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs", "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול", "author": "גבי בר חיים", "note": "Season 6 winners interview explicitly identifies Pasternak-Shavit as a multidisciplinary artist." },
+    "fields": { "occupation": "אמנית רב־תחומית" }
+  },
+  {
+    "season": 6,
+    "name": "אילנה אביגל",
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs", "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול", "author": "גבי בר חיים", "note": "Season 6 winners interview explicitly identifies Avigal as an employment-office coordinator." },
+    "fields": { "occupation": "רכזת בלשכת התעסוקה" }
+  },
+  {
+    "season": 6,
+    "name": "גל אלון",
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs", "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול", "author": "גבי בר חיים", "note": "Season 6 winners interview explicitly identifies Alon as a culinary entrepreneur." },
+    "fields": { "occupation": "יזם קולינרי" }
+  },
+  {
+    "season": 6,
+    "name": "דנה שפירא",
+    "source": { "kind": "manual", "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs", "title": "ynet — היו פיצוצים שלא ראו בתוכנית: המנצחים של בואו לאכול איתי פותחים הכול", "author": "גבי בר חיים", "note": "Season 6 winners interview explicitly identifies Shapira as a food entrepreneur." },
+    "fields": { "occupation": "יזמית אוכל" }
+  },
+  {
+    "season": 6,
+    "name": "יעל צין",
+    "source": { "kind": "manual", "url": "https://www.israelhayom.co.il/culture/tv/article/13016123", "title": "ישראל היום — היא לא חרדית בכלל: העיתונאית שהשתתפה בבואו לאכול איתי סופגת אש", "author": "יוסי דלאל", "note": "Article published during season 6 explicitly identifies Tzin as a journalist and participant." },
+    "fields": { "occupation": "עיתונאית" }
   }
 ]
