@@ -15,6 +15,7 @@ on:
       - 'scripts/import-wikipedia.ts'
       - 'scripts/import-season10.ts'
       - 'scripts/import-kan.ts'
+      - 'scripts/enrich-kan-cities.ts'
       - 'scripts/import-supplemental-menus.ts'
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
@@ -60,6 +61,9 @@ jobs:
       - name: Import Kan metadata
         run: npm run import:kan
 
+      - name: Enrich missing cities from Kan
+        run: npm run enrich:kan-cities
+
       - name: Import verified supplemental menus
         run: npm run import:supplemental-menus
 
@@ -93,6 +97,7 @@ jobs:
             data/reports/wikipedia-import.json \
             data/reports/wikipedia-season10-rolling.json \
             data/reports/kan-contestant-enrichment.json \
+            data/reports/kan-city-enrichment.json \
             data/reports/conflicts.json \
             data/reports/coverage.json
           do
