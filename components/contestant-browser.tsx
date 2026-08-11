@@ -7,6 +7,8 @@ const sourceLabels: Record<string, string> = {
   fandom: 'Fandom Wiki',
   wikipedia: 'ויקיפדיה',
   kan: 'כאן 11',
+  foodik: 'Foodik',
+  rest: 'REST',
   legacy: 'עונת הסטטיסטיקות',
   wayback: 'Wayback',
   manual: 'מקור מאומת',

@@ -1,0 +1,99 @@
+[
+  {
+    "season": 6,
+    "name": "שחר חן",
+    "source": {
+      "kind": "foodik",
+      "url": "https://www.foodik.co.il/כל-הכתבות/שחר-חן-בואו-לאכול-איתי/",
+      "title": "שחר חן בואו לאכול איתי עונה 6",
+      "author": "שחר חן",
+      "note": "First-person account by the contestant describing the three dishes he served on the show"
+    },
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "name": "דג טונה על יוגורט מתובל עם קונפי בצל ושום"
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "name": "פסטה עבודת יד ברוטב עגבניות מגי מעושנות ודג"
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "name": "עוגת גבינה באסקית עם קולי פירות יער"
+      }
+    ]
+  },
+  {
+    "season": 7,
+    "name": "לירון אלון",
+    "source": {
+      "kind": "rest",
+      "url": "https://www.rest.co.il/magazine/foodnews/31187/",
+      "title": "בואו לאכול איתי עונה 7 - פרק פתיחה",
+      "note": "Episode recap explicitly listing the host's standard and vegan menu items"
+    },
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "name": "סיגר במילוי דג עם סלטון פרש"
+      },
+      {
+        "course": "starter",
+        "variant": "vegan",
+        "label": "מנה ראשונה טבעונית",
+        "name": "סיגר עם גמבה"
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "name": "פיתה עם שווארמה",
+        "description": "לצד צ'יפס בטטה"
+      },
+      {
+        "course": "main",
+        "variant": "vegan",
+        "label": "מנה עיקרית טבעונית",
+        "name": "פיתה עם שווארמה סייטן ופטריות",
+        "description": "לצד צ'יפס בטטה"
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "name": "קראמבל תות עם קצפת"
+      }
+    ]
+  },
+  {
+    "season": 8,
+    "name": "ענבל אהרון אזרד",
+    "source": {
+      "kind": "rest",
+      "url": "https://www.rest.co.il/magazine/foodnews/31295/",
+      "title": "בואו לאכול איתי עונה 8: מה יהיה עם האוכל?!",
+      "note": "Episode recap explicitly listing the host's three-course diner menu"
+    },
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "name": "שניצלים בשלושה טעמים"
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "name": "יוסף המרושל",
+        "description": "בולונז בתוך ג'בטה ביתית"
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "name": "וופל אמריקאי עם פופקורן"
+      }
+    ]
+  }
+]

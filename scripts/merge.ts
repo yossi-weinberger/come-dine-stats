@@ -3,7 +3,7 @@ import type { Contestant, Dish, SourceRef } from '../lib/types'
 
 const normalizedDir = new URL('../data/normalized/', import.meta.url)
 const reportsDir = new URL('../data/reports/', import.meta.url)
-const sourcePriority: Record<string, number> = { manual: 50, kan: 40, wikipedia: 35, fandom: 30, wayback: 20, legacy: 10 }
+const sourcePriority: Record<string, number> = { manual: 50, kan: 40, foodik: 38, wikipedia: 35, fandom: 30, rest: 28, wayback: 20, legacy: 10 }
 const scalarFields = ['entryType','members','status','week','weekName','hostingOrder','age','city','region','occupation','relationshipStatus','gender','diet','score','placement','winner'] as const
 
 type ScalarField = typeof scalarFields[number]
@@ -104,6 +104,7 @@ async function main() {
     ...(await maybeRead('fandom-contestants.json')),
     ...(await maybeRead('wikipedia-contestants.json')),
     ...(await maybeRead('kan-contestants.json')),
+    ...(await maybeRead('supplemental-menu-contestants.json')),
   ]
   const byKey = new Map<string, Contestant>()
   const conflicts: Conflict[] = []
