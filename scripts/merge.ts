@@ -105,6 +105,7 @@ async function main() {
     ...(await maybeRead('wikipedia-contestants.json')),
     ...(await maybeRead('kan-contestants.json')),
     ...(await maybeRead('supplemental-menu-contestants.json')),
+    ...(await maybeRead('supplemental-profile-contestants.json')),
   ]
   const byKey = new Map<string, Contestant>()
   const conflicts: Conflict[] = []
