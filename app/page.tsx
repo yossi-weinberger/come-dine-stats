@@ -22,6 +22,7 @@ export default function Home() {
         <div className="heroTop">
           <div className="eyebrow">פרויקט לא-רשמי • v0.4 • source-first</div>
           <div className="heroLinks">
+            <Link className="creditsLink" href="/explore">חיפוש מתקדם →</Link>
             <Link className="creditsLink" href="/stats">סטטיסטיקות →</Link>
             <Link className="creditsLink" href="/sources">מקורות וקרדיטים →</Link>
           </div>
@@ -46,6 +47,15 @@ export default function Home() {
           <p>ציוני שיא, סדר אירוח, פערי ניצחון, גילאים, ערים, השוואת עונות וכיסוי התפריטים — עם כיסוי נתונים גלוי ליד כל ניתוח.</p>
         </div>
         <Link href="/stats">לכל הסטטיסטיקות ←</Link>
+      </section>
+
+      <section className="statsTeaser" aria-labelledby="explorer-teaser-title">
+        <div>
+          <div className="eyebrow">לחתוך את המאגר</div>
+          <h2 id="explorer-teaser-title">מי זכה, איפה, באיזה גיל — ומה הוא הגיש?</h2>
+          <p>חיפוש מתקדם לפי עונה, ציון, מקום, גיל, עיר ותפריט. אפשר גם לחפש ישירות שם של מנה ולשתף קישור עם כל המסננים.</p>
+        </div>
+        <Link href="/explore">ל־Explorer ←</Link>
       </section>
 
       <section className="seasonStrip" aria-labelledby="season-strip-title">
