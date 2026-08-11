@@ -1,9 +1,14 @@
 {
-  "matchedEntries": 129,
-  "episodesConsidered": 130,
-  "matchedByHostingOrder": 129,
+  "matchedEntries": 144,
+  "episodesConsidered": 147,
+  "matchedByHostingOrder": 144,
   "matchedByExplicitHostText": 0,
-  "unmatchedEpisodes": 1,
+  "unmatchedEpisodes": 3,
+  "profileExtraction": {
+    "occupations": 15,
+    "diets": 0,
+    "policy": "Only explicit host-local descriptors are extracted; menu style is not treated as contestant diet."
+  },
   "recipeDiscovery": {
     "enabled": false,
     "reason": "Regular season 5–9 episode HTML exposed no direct per-host recipe links during the 2026-08-11 live import. See research/kan-recipes.md."
@@ -196,6 +201,7 @@
       "hostingOrder": 1,
       "matched": "קציעה אלדר",
       "matchMethod": "hosting-order",
+      "occupation": "יועצת מינית",
       "candidates": [
         "קציעה אלדר (hosting order 1)"
       ],
@@ -340,6 +346,7 @@
       "hostingOrder": 3,
       "matched": "שחר חן",
       "matchMethod": "hosting-order",
+      "occupation": "בלוגר",
       "candidates": [
         "שחר חן (hosting order 3)"
       ],
@@ -448,6 +455,7 @@
       "hostingOrder": 2,
       "matched": "ברוריה פסטרנק-שביט",
       "matchMethod": "hosting-order",
+      "occupation": "אומנית",
       "candidates": [
         "ברוריה פסטרנק-שביט (hosting order 2)"
       ],
@@ -556,6 +564,7 @@
       "hostingOrder": 1,
       "matched": "יהודית קונפורטי",
       "matchMethod": "hosting-order",
+      "occupation": "מתקשרת ויוצרת",
       "candidates": [
         "יהודית קונפורטי (hosting order 1)"
       ],
@@ -592,6 +601,7 @@
       "hostingOrder": 4,
       "matched": "אביעד בללי",
       "matchMethod": "hosting-order",
+      "occupation": "כוכב רשת",
       "candidates": [
         "אביעד בללי (hosting order 4)"
       ],
@@ -628,6 +638,7 @@
       "hostingOrder": 2,
       "matched": "פאדי זגאירה",
       "matchMethod": "hosting-order",
+      "occupation": "איש תקשורת",
       "candidates": [
         "פאדי זגאירה (hosting order 2)"
       ],
@@ -972,6 +983,7 @@
       "hostingOrder": 1,
       "matched": "ענבל אהרון אזרד",
       "matchMethod": "hosting-order",
+      "occupation": "מורה",
       "candidates": [
         "ענבל אהרון אזרד (hosting order 1)"
       ],
@@ -984,6 +996,7 @@
       "hostingOrder": 2,
       "matched": "מעיין מיזן",
       "matchMethod": "hosting-order",
+      "occupation": "מסדרת ארונות וסטייליסטית",
       "candidates": [
         "מעיין מיזן (hosting order 2)"
       ],
@@ -1008,6 +1021,7 @@
       "hostingOrder": 4,
       "matched": "איתמר גרובר",
       "matchMethod": "hosting-order",
+      "occupation": "הייטקיסט",
       "candidates": [
         "איתמר גרובר (hosting order 4)"
       ],
@@ -1020,6 +1034,7 @@
       "hostingOrder": 5,
       "matched": "דנה כהן הלוי",
       "matchMethod": "hosting-order",
+      "occupation": "מתקשרת",
       "candidates": [
         "דנה כהן הלוי (hosting order 5)"
       ],
@@ -1056,6 +1071,7 @@
       "hostingOrder": 3,
       "matched": "יוסל'ה זיו",
       "matchMethod": "hosting-order",
+      "occupation": "ספר נשים ודראגיסט",
       "candidates": [
         "יוסל'ה זיו (hosting order 3)"
       ],
@@ -1068,6 +1084,7 @@
       "hostingOrder": 4,
       "matched": "קארי בר כהן",
       "matchMethod": "hosting-order",
+      "occupation": "אושיית טיקטוק",
       "candidates": [
         "קארי בר כהן (hosting order 4)"
       ],
@@ -1272,6 +1289,7 @@
       "hostingOrder": 1,
       "matched": "קמילה קידר",
       "matchMethod": "hosting-order",
+      "occupation": "מעצבת פנים",
       "candidates": [
         "קמילה קידר (hosting order 1)"
       ],
@@ -1356,6 +1374,7 @@
       "hostingOrder": 3,
       "matched": "רוני אילוז",
       "matchMethod": "hosting-order",
+      "occupation": "מתקשרת",
       "candidates": [
         "רוני אילוז (hosting order 3)"
       ],
@@ -1564,6 +1583,203 @@
         "עדי ויצמן אסולין (hosting order 5)"
       ],
       "text": "פרק 25 - שבוע חיפה, יום ה' פרק אחרון באזור חיפה: הפעם תארח עדי, בעלת סטודיו לריקוד מקרית אתא"
+    },
+    {
+      "season": 10,
+      "episode": 1,
+      "week": 1,
+      "hostingOrder": 1,
+      "matched": "רועי גולן",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "רועי גולן (hosting order 1)"
+      ],
+      "text": "פרק 1 - שבוע ירושלים, יום א' היום הראשון לתחרות בעיר הבירה: הכירו את רועי, אדם, יגאל, חיה וניקול"
+    },
+    {
+      "season": 10,
+      "episode": 2,
+      "week": 1,
+      "hostingOrder": 2,
+      "matched": "אדם גוזלן",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אדם גוזלן (hosting order 2)"
+      ],
+      "text": "פרק 2 - שבוע ירושלים, יום ב' זה היום השני לתחרות הבישול באזור ירושלים והערב מארח אדם מנווה דניאל"
+    },
+    {
+      "season": 10,
+      "episode": 3,
+      "week": 1,
+      "hostingOrder": 3,
+      "matched": "יגאל טמיר",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "יגאל טמיר (hosting order 3)"
+      ],
+      "text": "פרק 3 - שבוע ירושלים, יום ג' מה גרם ליגאל להפסיק לספר בדיחות והאם האהבה פורחת?"
+    },
+    {
+      "season": 10,
+      "episode": 4,
+      "week": 1,
+      "hostingOrder": 4,
+      "matched": "חיה לב",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "חיה לב (hosting order 4)"
+      ],
+      "text": "פרק 4 - שבוע ירושלים, יום ד' החבורה מגיעה לארוחה אפריקאית בביתה של חיה. מה כל כך ריגש את אדם?"
+    },
+    {
+      "season": 10,
+      "episode": 5,
+      "week": 1,
+      "hostingOrder": 5,
+      "matched": "ניקול אלטשולר",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "ניקול אלטשולר (hosting order 5)"
+      ],
+      "text": "פרק 5 - שבוע ירושלים, יום ה' יום אחרון לתחרות באזור ירושלים והערב תארח ניקול. מי המנצח של התחרות?"
+    },
+    {
+      "season": 10,
+      "episode": 6,
+      "week": 2,
+      "hostingOrder": 1,
+      "matched": "איריס אלוג",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "איריס אלוג (hosting order 1)"
+      ],
+      "text": "פרק 6 - שבוע שפלה, יום א' ביום הראשון לתחרות באזור השפלה תארח איריס, מעבירה ערבי הפרשות חלה"
+    },
+    {
+      "season": 10,
+      "episode": 7,
+      "week": 2,
+      "hostingOrder": 2,
+      "matched": "יריב אגוזי",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "יריב אגוזי (hosting order 2)"
+      ],
+      "text": "פרק 7 - שבוע שפלה, יום ב' ברוכים הבאים למוזיאון של יריב. מה חשבו האורחים על הבית?"
+    },
+    {
+      "season": 10,
+      "episode": 8,
+      "week": 2,
+      "hostingOrder": 3,
+      "matched": "ליהי קימורה",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "ליהי קימורה (hosting order 3)"
+      ],
+      "text": "פרק 8 - שבוע שפלה, יום ג' החבורה מגיעה לארוחה יפנית בבית של ליהי. האם כולם התחברו לטעמים היפנים?"
+    },
+    {
+      "season": 10,
+      "episode": 9,
+      "week": 2,
+      "hostingOrder": 4,
+      "matched": "זהר גורמס",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "זהר גורמס (hosting order 4)"
+      ],
+      "text": "פרק 9 - שבוע שפלה, יום ד' הפעם האורחים יגיעו לביקור אצל זהר, הערב נגלה - למה ליהי לא רוצה ילדים?"
+    },
+    {
+      "season": 10,
+      "episode": 10,
+      "week": 2,
+      "hostingOrder": 5,
+      "matched": "דניאל דריי",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "דניאל דריי (hosting order 5)"
+      ],
+      "text": "פרק 10 - שבוע שפלה, יום ה' היום האחרון לתחרות באזור השפלה, מה חשבו האורחים על הבית של דניאל?"
+    },
+    {
+      "season": 10,
+      "episode": 11,
+      "week": 3,
+      "hostingOrder": 1,
+      "matched": "עליזה אלקיים עבאדי",
+      "matchMethod": "hosting-order",
+      "occupation": "ליצנית רפואית",
+      "candidates": [
+        "עליזה אלקיים עבאדי (hosting order 1)"
+      ],
+      "text": "פרק 11 - שבוע צפון, יום א' היום הראשון לתחרות באזור הצפון, הפעם תארח - עליזה, ליצנית רפואית"
+    },
+    {
+      "season": 10,
+      "episode": 12,
+      "week": 3,
+      "hostingOrder": 2,
+      "matched": "רוני פליישר",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "רוני פליישר (hosting order 2)"
+      ],
+      "text": "פרק 12 - שבוע צפון, יום ב' ביום השני לתחרות מוזמנים האורחים למסיבת יום ההולדת של רוני"
+    },
+    {
+      "season": 10,
+      "episode": 13,
+      "week": 3,
+      "hostingOrder": 3,
+      "matched": "אבינעם שמעון",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אבינעם שמעון (hosting order 3)"
+      ],
+      "text": "פרק 13 - שבוע צפון, יום ג' ביום השלישי לתחרות הגיעו האורחים לביתו של אבינעם בכליל לארוחה טבעונית"
+    },
+    {
+      "season": 10,
+      "episode": 14,
+      "week": 3,
+      "hostingOrder": 4,
+      "matched": "מירן הולדשטיין",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "מירן הולדשטיין (hosting order 4)"
+      ],
+      "text": "פרק 14 - שבוע צפון, יום ד' הערב הגיעו האורחים אל מירן, למה עליזה לא אכלה את המנה העיקרית?"
+    },
+    {
+      "season": 10,
+      "episode": 15,
+      "week": 3,
+      "hostingOrder": 5,
+      "matched": "אלירן בוחבוט",
+      "matchMethod": "hosting-order",
+      "candidates": [
+        "אלירן בוחבוט (hosting order 5)"
+      ],
+      "text": "פרק 15 - שבוע צפון, יום ה' היום אחרון לתחרות באזור הצפון, והפעם חגיגה מרוקאית אצל אלירן"
+    },
+    {
+      "season": 10,
+      "episode": 16,
+      "week": 4,
+      "hostingOrder": 1,
+      "candidates": [],
+      "text": "פרק 16 - שבוע אילת, יום א' זה היום הראשון והפעם הראשונה שתחרות הבישול מגיעה לעיר הדרומית אילת"
+    },
+    {
+      "season": 10,
+      "episode": 17,
+      "week": 4,
+      "hostingOrder": 2,
+      "candidates": [],
+      "text": "פרק 17 - שבוע אילת, יום ב' בילי מארחת את החבורה ומדהימה את כולם בסיפור חייה המיוחד"
     }
   ]
 }
