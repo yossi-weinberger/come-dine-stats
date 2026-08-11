@@ -20,6 +20,7 @@ on:
       - 'scripts/import-supplemental-profiles.ts'
       - 'scripts/merge.ts'
       - 'scripts/coverage.ts'
+      - 'scripts/menu-gaps.ts'
       - 'scripts/data-health.ts'
       - 'scripts/stats.ts'
       - 'scripts/update-readme-stats.ts'
@@ -79,6 +80,9 @@ jobs:
       - name: Generate coverage report
         run: npm run coverage
 
+      - name: Generate menu gap report
+        run: npm run menu-gaps
+
       - name: Validate data health
         run: npm run health
 
@@ -112,6 +116,7 @@ jobs:
             data/reports/refinements.json \
             data/reports/derived-placements.json \
             data/reports/coverage.json \
+            data/reports/menu-gaps.json \
             data/reports/data-health.json
           do
             if [ -e "$path" ]; then git add "$path"; fi
