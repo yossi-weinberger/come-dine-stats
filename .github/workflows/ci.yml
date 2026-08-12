@@ -33,6 +33,15 @@ jobs:
           KAN_RECIPE_MODE: scan
         run: npm run discover:kan-recipes
 
+      - name: Upload Kan recipe discovery report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kan-recipe-discovery
+          path: artifacts/kan-recipe-discovery.json
+          if-no-files-found: error
+          retention-days: 3
+
       - name: Data health
         run: npm run health
 
