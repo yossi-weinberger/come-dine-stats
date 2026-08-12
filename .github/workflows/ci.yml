@@ -31,6 +31,9 @@ jobs:
       - name: Import official Kan recipes
         run: npm run import:kan-recipes
 
+      - name: Refresh supplemental menus
+        run: npm run import:supplemental-menus
+
       - name: Rebuild merged data with recipes
         run: |
           npm run merge
