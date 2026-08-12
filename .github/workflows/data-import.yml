@@ -15,6 +15,7 @@ on:
       - 'scripts/import-wikipedia.ts'
       - 'scripts/import-season10.ts'
       - 'scripts/import-kan.ts'
+      - 'scripts/import-kan-recipes.ts'
       - 'scripts/enrich-kan-cities.ts'
       - 'scripts/import-supplemental-menus.ts'
       - 'scripts/import-supplemental-profiles.ts'
@@ -23,8 +24,10 @@ on:
       - 'scripts/menu-gaps.ts'
       - 'scripts/data-health.ts'
       - 'scripts/check-competition-rules.ts'
+      - 'scripts/check-stats-engine.ts'
       - 'scripts/stats.ts'
       - 'lib/competition.ts'
+      - 'lib/stats-engine.ts'
       - 'scripts/update-readme-stats.ts'
       - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
@@ -70,6 +73,9 @@ jobs:
       - name: Enrich missing cities from Kan
         run: npm run enrich:kan-cities
 
+      - name: Enrich menus from official Kan recipes
+        run: npm run import:kan-recipes
+
       - name: Import verified supplemental menus
         run: npm run import:supplemental-menus
 
@@ -90,6 +96,9 @@ jobs:
 
       - name: Validate competition rules
         run: npm run check:competition
+
+      - name: Validate stats engine
+        run: npm run check:stats
 
       - name: Print stats
         run: npm run stats
@@ -117,6 +126,7 @@ jobs:
             data/reports/wikipedia-season10-rolling.json \
             data/reports/kan-contestant-enrichment.json \
             data/reports/kan-city-enrichment.json \
+            data/reports/kan-recipe-import.json \
             data/reports/fandom-week-reconciliation.json \
             data/reports/conflicts.json \
             data/reports/refinements.json \
