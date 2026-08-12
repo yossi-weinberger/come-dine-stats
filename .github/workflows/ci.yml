@@ -30,7 +30,7 @@ jobs:
 
       - name: Kan recipe discovery probe
         env:
-          KAN_RECIPE_MODE: sitemap
+          KAN_RECIPE_MODE: scan
         run: npm run discover:kan-recipes
 
       - name: Data health
