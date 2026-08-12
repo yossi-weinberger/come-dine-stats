@@ -74,9 +74,19 @@ function snippets(html: string, terms: RegExp[]) {
   return [...new Set(rows)]
 }
 
+function recipeId(url: string) {
+  const match = url.match(/\/recipes\/(\d+)\/?/u)
+  return match ? Number(match[1]) : null
+}
+
 async function probeHubAndSitemap() {
   const [siteindexXml, hubHtml] = await Promise.all([fetchHtml(SITEINDEX), fetchHtml(HUB)])
   const sitemapLocations = xmlLocations(siteindexXml)
+  const sitemapXmls = await Promise.all(sitemapLocations.map(async (url) => ({ url, xml: await fetchHtml(url) })))
+  const allSitemapPages = sitemapXmls.flatMap(({ xml }) => xmlLocations(xml))
+  const recipeArchiveUrls = [...new Set(allSitemapPages.filter((url) => /\/content\/dig\/recipes\/\d+\/?$/u.test(url)))]
+    .sort((a, b) => (recipeId(a) ?? 0) - (recipeId(b) ?? 0))
+
   const hub$ = cheerio.load(hubHtml)
   const scriptSources = hub$('script[src]').map((_, element) => absoluteUrl(hub$(element).attr('src') || '', HUB)).get()
   const hubAnchors = hub$('a[href]').map((_, element) => {
@@ -90,10 +100,12 @@ async function probeHubAndSitemap() {
     mode: 'sitemap',
     siteindex: {
       url: SITEINDEX,
-      bytes: siteindexXml.length,
       locations: sitemapLocations.length,
-      sample: sitemapLocations.slice(0, 30),
-      directRecipeLocations: sitemapLocations.filter((url) => /\/content\/dig\/recipes\//u.test(url)).slice(0, 30),
+      sitemapFiles: sitemapXmls.map(({ url, xml }) => ({ url, bytes: xml.length, pages: xmlLocations(xml).length })),
+      totalPages: allSitemapPages.length,
+      recipeArchiveCount: recipeArchiveUrls.length,
+      lowestRecipeUrls: recipeArchiveUrls.slice(0, 40),
+      highestRecipeUrls: recipeArchiveUrls.slice(-40),
     },
     hub: {
       url: HUB,
