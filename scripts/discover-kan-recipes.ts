@@ -1,3 +1,4 @@
+import { mkdir, writeFile } from 'node:fs/promises'
 import * as cheerio from 'cheerio'
 import episodesJson from '../data/normalized/kan-episodes.json'
 
@@ -26,9 +27,17 @@ const targetSeason = Number(process.env.KAN_RECIPE_SEASON || '5')
 const mode = process.env.KAN_RECIPE_MODE || 'episodes'
 const HUB = 'https://www.kan.org.il/content/dig/recipes/'
 const SITEINDEX = 'https://www.kan.org.il/media/sitemap/general/siteindex.xml'
+const artifactDir = new URL('../artifacts/', import.meta.url)
+const artifactFile = new URL('kan-recipe-discovery.json', artifactDir)
 
 function compact(value: string) {
   return value.normalize('NFKC').replace(/\s+/g, ' ').trim()
+}
+
+async function emitReport(report: unknown) {
+  await mkdir(artifactDir, { recursive: true })
+  await writeFile(artifactFile, JSON.stringify(report, null, 2))
+  console.log(JSON.stringify(report, null, 2))
 }
 
 function absoluteUrl(href: string, base: string) {
@@ -164,7 +173,7 @@ async function probeArchive() {
   const withCourseHeadings = showPages.filter((page) => page.courseHeadings.length).length
   const withStructuredHost = showPages.filter((page) => page.host).length
 
-  console.log(JSON.stringify({
+  await emitReport({
     mode: 'scan',
     recipeArchiveCount: urls.length,
     fetched: urls.length - errors.length,
@@ -175,7 +184,7 @@ async function probeArchive() {
     withStructuredHost,
     withCourseHeadings,
     pages: showPages,
-  }, null, 2))
+  })
 }
 
 async function probeHubAndSitemap() {
@@ -188,7 +197,7 @@ async function probeHubAndSitemap() {
     return { text, href }
   }).get().filter(Boolean)
 
-  console.log(JSON.stringify({
+  await emitReport({
     mode: 'sitemap',
     recipeArchiveCount: urls.length,
     lowestRecipeUrls: urls.slice(0, 40),
@@ -198,7 +207,7 @@ async function probeHubAndSitemap() {
       directRecipeUrls: extractRecipeUrls(hubHtml, HUB),
       recipeAnchors: hubAnchors.slice(0, 30),
     },
-  }, null, 2))
+  })
 }
 
 async function probeEpisodes() {
@@ -220,14 +229,14 @@ async function probeEpisodes() {
     }
     discoveries.push({ season: episode.season, episode: episode.episode, title: episode.title, episodeUrl: episode.url, recipeUrls: [...recipeUrls], recipeAnchors })
   }
-  console.log(JSON.stringify({
+  await emitReport({
     mode: 'episodes',
     season: targetSeason,
     episodesChecked: discoveries.length,
     episodesWithRecipeUrl: discoveries.filter((item) => item.recipeUrls.length).length,
     episodesWithRecipeText: discoveries.filter((item) => item.recipeAnchors.length).length,
     discoveries: discoveries.filter((item) => item.recipeUrls.length || item.recipeAnchors.length),
-  }, null, 2))
+  })
 }
 
 async function main() {
