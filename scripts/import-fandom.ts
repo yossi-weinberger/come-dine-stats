@@ -4,6 +4,7 @@ import type { Contestant, Dish, DishVariant, SourceRef } from '../lib/types'
 
 const API = 'https://comedinewithmeil.fandom.com/he/api.php'
 const rawDir = new URL('../data/raw/fandom/', import.meta.url)
+const reportsDir = new URL('../data/reports/', import.meta.url)
 const normalizedFile = new URL('../data/normalized/fandom-contestants.json', import.meta.url)
 
 const hebrewNumber: Record<string, number> = {
@@ -143,6 +144,13 @@ function sourceFor(url: string): SourceRef {
   }
 }
 
+const weekReconciliationSource: SourceRef = {
+  kind: 'derived',
+  title: 'Fandom week-name consensus reconciliation',
+  url: 'https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/fandom-week-reconciliation.md',
+  note: 'Numeric week reconciled only when at least three same-season contestant pages agree on the week number for the same explicit week name and that consensus is unique.',
+}
+
 function courseFromLabel(label: string): Dish['course'] | null {
   if (/מנה ראשונה/.test(label)) return 'starter'
   if (/מנה עיקרית/.test(label)) return 'main'
@@ -198,6 +206,73 @@ function normalizedCategories(categories: string[]) {
   return categories.map((category) => category.replace(/_/g, ' ').normalize('NFKC').replace(/\s+/g, ' ').trim())
 }
 
+function normalizeWeekName(value: string) {
+  return value.normalize('NFKC').replace(/[–—-]/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+function uniqueSources(sources: SourceRef[]) {
+  const map = new Map(sources.map((source) => [`${source.kind}:${source.url}:${source.note ?? ''}`, source]))
+  return [...map.values()]
+}
+
+type WeekReconciliation = {
+  season: number
+  weekName: string
+  name: string
+  previousWeek: number
+  resolvedWeek: number
+  consensusSupport: number
+  groupSize: number
+  group: Array<{ name: string; week: number }>
+}
+
+function reconcileWeekNumbers(entries: Contestant[]) {
+  const groups = new Map<string, Contestant[]>()
+  for (const entry of entries) {
+    if (!entry.weekName || entry.week == null) continue
+    const key = `${entry.season}:${normalizeWeekName(entry.weekName)}`
+    groups.set(key, [...(groups.get(key) ?? []), entry])
+  }
+
+  const corrections: WeekReconciliation[] = []
+  for (const group of groups.values()) {
+    if (group.length < 3) continue
+
+    const counts = new Map<number, number>()
+    for (const entry of group) counts.set(entry.week as number, (counts.get(entry.week as number) ?? 0) + 1)
+    const ranked = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0] - b[0])
+    const [best, second] = ranked
+    if (!best || best[1] < 3 || (second && second[1] === best[1])) continue
+
+    const [resolvedWeek, consensusSupport] = best
+    const snapshot = group.map((entry) => ({ name: entry.name, week: entry.week as number }))
+    for (const entry of group) {
+      if (entry.week === resolvedWeek) continue
+      const previousWeek = entry.week as number
+      entry.week = resolvedWeek
+      entry.fieldSources = {
+        ...(entry.fieldSources ?? {}),
+        week: uniqueSources([...(entry.fieldSources?.week ?? entry.sources), weekReconciliationSource]),
+      }
+      corrections.push({
+        season: entry.season,
+        weekName: entry.weekName as string,
+        name: entry.name,
+        previousWeek,
+        resolvedWeek,
+        consensusSupport,
+        groupSize: group.length,
+        group: snapshot,
+      })
+    }
+  }
+
+  return {
+    rule: 'Correct a numeric Fandom week only when season + explicit weekName has at least 3 entries, one numeric week has >=3 supporters, and that support is uniquely highest.',
+    corrections,
+  }
+}
+
 function parseContestant(title: string, html: string, categories: string[], url: string): Contestant | null {
   const $ = cheerio.load(html)
   const episodes = valueAfterHeading($, 'פרקים')
@@ -241,6 +316,7 @@ function parseContestant(title: string, html: string, categories: string[], url:
 
 async function main() {
   await mkdir(rawDir, { recursive: true })
+  await mkdir(reportsDir, { recursive: true })
   const titles = await getContestantTitles()
   const output: Contestant[] = []
   for (const [index, title] of titles.entries()) {
@@ -253,8 +329,12 @@ async function main() {
     if (contestant) output.push(contestant)
     if ((index + 1) % 25 === 0) console.log(`Parsed ${index + 1}/${titles.length} Fandom pages`)
   }
+
+  const weekReconciliation = reconcileWeekNumbers(output)
+  await writeFile(new URL('fandom-week-reconciliation.json', reportsDir), JSON.stringify(weekReconciliation, null, 2))
   await writeFile(normalizedFile, JSON.stringify(output, null, 2))
   console.log(`Imported ${output.length} contestant pages from ${titles.length} candidate pages with direct attribution URLs`)
+  console.log(`Reconciled ${weekReconciliation.corrections.length} inconsistent Fandom week numbers`)
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1 })
