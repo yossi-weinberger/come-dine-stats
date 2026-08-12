@@ -15,7 +15,7 @@ export function contestantFromRouteSlug(contestants: Contestant[], routeSlug: st
 
 export function displayWeekName(weekName?: string) {
   if (!weekName) return undefined
-  if (weekName === 'שמנים') return '״שמנים״ — שם השבוע במקור'
+  if (weekName === 'שמנים') return '״שמנים״ — כינוי ב־Fandom'
   return weekName
 }
 
