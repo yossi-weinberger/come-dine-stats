@@ -117,6 +117,7 @@ jobs:
             data/reports/wikipedia-season10-rolling.json \
             data/reports/kan-contestant-enrichment.json \
             data/reports/kan-city-enrichment.json \
+            data/reports/fandom-week-reconciliation.json \
             data/reports/conflicts.json \
             data/reports/refinements.json \
             data/reports/derived-placements.json \
