@@ -105,33 +105,5 @@
         "name": "קראמבל תות עם קצפת"
       }
     ]
-  },
-  {
-    "season": 8,
-    "name": "ענבל אהרון אזרד",
-    "source": {
-      "kind": "rest",
-      "url": "https://www.rest.co.il/magazine/foodnews/31295/",
-      "title": "בואו לאכול איתי עונה 8: מה יהיה עם האוכל?!",
-      "note": "Episode recap explicitly listing the host's three-course diner menu"
-    },
-    "dishes": [
-      {
-        "course": "starter",
-        "variant": "standard",
-        "name": "שניצלים בשלושה טעמים"
-      },
-      {
-        "course": "main",
-        "variant": "standard",
-        "name": "יוסף המרושל",
-        "description": "בולונז בתוך ג'בטה ביתית"
-      },
-      {
-        "course": "dessert",
-        "variant": "standard",
-        "name": "וופל אמריקאי עם פופקורן"
-      }
-    ]
   }
 ]

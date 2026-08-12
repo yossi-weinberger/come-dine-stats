@@ -28,6 +28,31 @@ jobs:
       - name: Typecheck
         run: npm run lint
 
+      - name: Import official Kan recipes
+        run: npm run import:kan-recipes
+
+      - name: Refresh supplemental menus
+        run: npm run import:supplemental-menus
+
+      - name: Rebuild merged data with recipes
+        run: |
+          npm run merge
+          npm run coverage
+          npm run menu-gaps
+
+      - name: Upload Kan recipe validation reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kan-recipe-validation
+          path: |
+            data/reports/kan-recipe-import.json
+            data/reports/coverage.json
+            data/reports/menu-gaps.json
+            data/normalized/contestants.json
+          if-no-files-found: error
+          retention-days: 3
+
       - name: Data health
         run: npm run health
 
