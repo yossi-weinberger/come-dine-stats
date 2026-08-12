@@ -2,13 +2,13 @@
   "rule": "A complete menu requires standard starter + main + dessert. Named dishes without a supported course remain partial evidence and never fill a primary-course gap by inference.",
   "summary": {
     "entries": 289,
-    "none": 191,
-    "partial": 6,
-    "one-course-away": 0,
-    "complete": 92,
-    "researchQueue": 197,
+    "none": 130,
+    "partial": 5,
+    "one-course-away": 7,
+    "complete": 147,
+    "researchQueue": 142,
     "targetAnyDish50Percent": 145,
-    "additionalEntriesNeededFor50PercentAnyDish": 47
+    "additionalEntriesNeededFor50PercentAnyDish": 0
   },
   "bySeason": {
     "1": {
@@ -69,27 +69,27 @@
     },
     "8": {
       "entries": 25,
-      "anyDish": 2,
-      "complete": 1,
-      "oneCourseAway": 0,
-      "partial": 1,
-      "none": 23
+      "anyDish": 24,
+      "complete": 19,
+      "oneCourseAway": 5,
+      "partial": 0,
+      "none": 1
     },
     "9": {
       "entries": 25,
-      "anyDish": 0,
-      "complete": 0,
+      "anyDish": 24,
+      "complete": 24,
       "oneCourseAway": 0,
       "partial": 0,
-      "none": 25
+      "none": 1
     },
     "10": {
       "entries": 15,
-      "anyDish": 0,
-      "complete": 0,
-      "oneCourseAway": 0,
+      "anyDish": 15,
+      "complete": 13,
+      "oneCourseAway": 2,
       "partial": 0,
-      "none": 15
+      "none": 0
     }
   },
   "leadCatalog": [
@@ -119,6 +119,380 @@
     }
   ],
   "queue": [
+    {
+      "season": 8,
+      "week": 1,
+      "weekName": "צפון",
+      "name": "איתמר גרובר",
+      "slug": "s8-איתמר-גרובר",
+      "status": "one-course-away",
+      "priority": 100,
+      "dishCount": 2,
+      "primaryCoursesPresent": [
+        "main",
+        "dessert"
+      ],
+      "missingPrimaryCourses": [
+        "starter"
+      ],
+      "dishSourceKinds": [
+        "kan"
+      ],
+      "dishes": [
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "פאי רועים וסלט ירוק",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/763602/"
+            }
+          ]
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "מלבי קוקוס ברוטב דובדבנים חמוצים",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/763602/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "week": 2,
+      "weekName": "ירושלים",
+      "name": "יהונתן מקרוב",
+      "slug": "s8-יהונתן-מקרוב",
+      "status": "one-course-away",
+      "priority": 100,
+      "dishCount": 3,
+      "primaryCoursesPresent": [
+        "main",
+        "dessert"
+      ],
+      "missingPrimaryCourses": [
+        "starter"
+      ],
+      "dishSourceKinds": [
+        "kan"
+      ],
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "vegan",
+          "name": "הולנד\"- חגיגה של עולש וליקוטים עם מרק גזרים מקורמלים במייפל, וערמונים וסירות אנדיב עם קוביות סלק, גבינות/גבינות טבעוניות/עלי ליקוט",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/763710/"
+            }
+          ]
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "ארה\"ב\"- צלעות WOW ברוטב OMG לצד תפוחי אדמה, ירקות BBQ וסלט ירוק",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/763710/"
+            }
+          ]
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "הודו\": גלידה עדינה בניחוחות הל וזעפרן, שתפתח לכם את הצא'קרות",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/763710/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "week": 3,
+      "weekName": "דרום",
+      "name": "משה ניסימפור",
+      "slug": "s8-משה-ניסימפור",
+      "status": "one-course-away",
+      "priority": 100,
+      "dishCount": 3,
+      "primaryCoursesPresent": [
+        "starter",
+        "dessert"
+      ],
+      "missingPrimaryCourses": [
+        "main"
+      ],
+      "dishSourceKinds": [
+        "kan"
+      ],
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "standard",
+          "name": "חריימה עם דג מוסר ים",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/778137/"
+            }
+          ]
+        },
+        {
+          "course": "main",
+          "variant": "vegetarian",
+          "name": "מקרוני אטריות דקיקות בטעם מיוחד עם מרק ירקות ועוף (בלי עוף לצמחוני)",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/778137/"
+            }
+          ]
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "קדאיף מתוק טעים ובריא",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/778137/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "week": 3,
+      "weekName": "דרום",
+      "name": "עמית שאטו",
+      "slug": "s8-עמית-שאטו",
+      "status": "one-course-away",
+      "priority": 100,
+      "dishCount": 3,
+      "primaryCoursesPresent": [
+        "starter",
+        "main"
+      ],
+      "missingPrimaryCourses": [
+        "dessert"
+      ],
+      "dishSourceKinds": [
+        "kan"
+      ],
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "standard",
+          "name": "סלט פרש עם שווארמה דג ובצל מטוגן לצד טחינה עמבה",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/777939/"
+            }
+          ]
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "קרואסון אסאדו עם צ'ימיצ'ורי",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/777939/"
+            }
+          ]
+        },
+        {
+          "course": "dessert",
+          "variant": "vegan",
+          "name": "מלבי טבעוני עם רוטב תותים",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/777939/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 8,
+      "week": 4,
+      "weekName": "מרכז",
+      "name": "גל בן דוד",
+      "slug": "s8-גל-בן-דוד",
+      "status": "one-course-away",
+      "priority": 100,
+      "dishCount": 3,
+      "primaryCoursesPresent": [
+        "starter",
+        "dessert"
+      ],
+      "missingPrimaryCourses": [
+        "main"
+      ],
+      "dishSourceKinds": [
+        "kan"
+      ],
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "standard",
+          "name": "פיתות סאג' וסלסלת עגבניות",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/765044/"
+            }
+          ]
+        },
+        {
+          "course": "main",
+          "variant": "vegetarian",
+          "name": "פויקה ציידים/מנה צמחונית: פויקה לקטים",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/765044/"
+            }
+          ]
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "בננה אינדיאנית ואפוגטו",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/765044/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 10,
+      "week": 1,
+      "weekName": "ירושלים",
+      "name": "חיה לב",
+      "slug": "s10-חיה-לב",
+      "status": "one-course-away",
+      "priority": 100,
+      "dishCount": 3,
+      "primaryCoursesPresent": [
+        "main",
+        "dessert"
+      ],
+      "missingPrimaryCourses": [
+        "starter"
+      ],
+      "dishSourceKinds": [
+        "kan"
+      ],
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "vegan",
+          "name": "מרק בוטנים מערב אפריקאי (טבעוני וללא גלוטן)",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/1076866/"
+            }
+          ]
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "תבשיל זנב שור עם שעועית לימה לצד אורז קוקוס, לחם שום וצ'אטני בצל",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/1076866/"
+            }
+          ]
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "פודינג בננות דרומי (פרווה)",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/1076866/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "season": 10,
+      "week": 3,
+      "weekName": "צפון",
+      "name": "אלירן בוחבוט",
+      "slug": "s10-אלירן-בוחבוט",
+      "status": "one-course-away",
+      "priority": 100,
+      "dishCount": 3,
+      "primaryCoursesPresent": [
+        "main",
+        "dessert"
+      ],
+      "missingPrimaryCourses": [
+        "starter"
+      ],
+      "dishSourceKinds": [
+        "kan"
+      ],
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "vegan",
+          "name": "״המנה של המלך״",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/1082630/"
+            }
+          ]
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "״המוח של המלך״",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/1082630/"
+            }
+          ]
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "‏שערות קדאיף במילוי קרם שמנת מתוקה",
+          "sources": [
+            {
+              "kind": "kan",
+              "url": "https://www.kan.org.il/content/dig/recipes/1082630/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "season": 6,
       "week": 2,
@@ -275,38 +649,6 @@
             {
               "kind": "manual",
               "url": "https://www.ynet.co.il/entertainment/article/s1ffezdbs"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "season": 8,
-      "week": 3,
-      "weekName": "דרום",
-      "name": "ריטה ליפשיץ",
-      "slug": "s8-ריטה-ליפשיץ",
-      "status": "partial",
-      "priority": 70,
-      "dishCount": 1,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [
-        "manual"
-      ],
-      "dishes": [
-        {
-          "course": "other",
-          "variant": "standard",
-          "name": "פירה",
-          "sources": [
-            {
-              "kind": "manual",
-              "url": "https://www.ynet.co.il/entertainment/article/yokra14045224"
             }
           ]
         }
@@ -2618,766 +2960,10 @@
     },
     {
       "season": 8,
-      "week": 1,
-      "weekName": "צפון",
-      "name": "אחיה זלייט",
-      "slug": "s8-אחיה-זלייט",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 1,
-      "weekName": "צפון",
-      "name": "איתמר גרובר",
-      "slug": "s8-איתמר-גרובר",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 1,
-      "weekName": "צפון",
-      "name": "דנה כהן הלוי",
-      "slug": "s8-דנה-כהן-הלוי",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 1,
-      "weekName": "צפון",
-      "name": "מעיין מיזן",
-      "slug": "s8-מעיין-מיזן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "יהונתן מקרוב",
-      "slug": "s8-יהונתן-מקרוב",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "יוסל'ה זיו",
-      "slug": "s8-יוסלה-זיו",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "יפה חסידים",
-      "slug": "s8-יפה-חסידים",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "לבנה שיפמן",
-      "slug": "s8-לבנה-שיפמן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "קארי בר כהן",
-      "slug": "s8-קארי-בר-כהן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 3,
-      "weekName": "דרום",
-      "name": "חן וייסמן",
-      "slug": "s8-חן-וייסמן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 3,
-      "weekName": "דרום",
-      "name": "משה ניסימפור",
-      "slug": "s8-משה-ניסימפור",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 3,
-      "weekName": "דרום",
-      "name": "עמית שאטו",
-      "slug": "s8-עמית-שאטו",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 3,
-      "weekName": "דרום",
-      "name": "עמרי שושן",
-      "slug": "s8-עמרי-שושן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
       "week": 4,
       "weekName": "מרכז",
       "name": "אילנה בן אבו",
       "slug": "s8-אילנה-בן-אבו",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 4,
-      "weekName": "מרכז",
-      "name": "גל בן דוד",
-      "slug": "s8-גל-בן-דוד",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 4,
-      "weekName": "מרכז",
-      "name": "ירון ליברמן",
-      "slug": "s8-ירון-ליברמן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 4,
-      "weekName": "מרכז",
-      "name": "נירית מיטל",
-      "slug": "s8-נירית-מיטל",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 4,
-      "weekName": "מרכז",
-      "name": "עמנואל יצחק לוי",
-      "slug": "s8-עמנואל-יצחק-לוי",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 5,
-      "weekName": "מישור החוף",
-      "name": "אדי בן סימון",
-      "slug": "s8-אדי-בן-סימון",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 5,
-      "weekName": "מישור החוף",
-      "name": "אייל עובדיה",
-      "slug": "s8-אייל-עובדיה",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 5,
-      "weekName": "מישור החוף",
-      "name": "לואר עמור",
-      "slug": "s8-לואר-עמור",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 5,
-      "weekName": "מישור החוף",
-      "name": "לינוי דסה",
-      "slug": "s8-לינוי-דסה",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 8,
-      "week": 5,
-      "weekName": "מישור החוף",
-      "name": "עדן כהן",
-      "slug": "s8-עדן-כהן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 1,
-      "weekName": "דרום",
-      "name": "יובל ארוש",
-      "slug": "s9-יובל-ארוש",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 1,
-      "weekName": "דרום",
-      "name": "ירדן שלי נקים",
-      "slug": "s9-ירדן-שלי-נקים",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 1,
-      "weekName": "דרום",
-      "name": "עודד קב",
-      "slug": "s9-עודד-קב",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 1,
-      "weekName": "דרום",
-      "name": "קמילה קידר",
-      "slug": "s9-קמילה-קידר",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 1,
-      "weekName": "דרום",
-      "name": "שירה ניר",
-      "slug": "s9-שירה-ניר",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "דלילה שמש",
-      "slug": "s9-דלילה-שמש",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "חננאל אמיתי",
-      "slug": "s9-חננאל-אמיתי",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "כרמית תא שמע",
-      "slug": "s9-כרמית-תא-שמע",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "רוני אילוז",
-      "slug": "s9-רוני-אילוז",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 2,
-      "weekName": "ירושלים",
-      "name": "תום בייקין אוחיון",
-      "slug": "s9-תום-בייקין-אוחיון",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 3,
-      "weekName": "תל אביב",
-      "name": "אתי גלבוע",
-      "slug": "s9-אתי-גלבוע",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 3,
-      "weekName": "תל אביב",
-      "name": "זהר יוספיאן",
-      "slug": "s9-זהר-יוספיאן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 3,
-      "weekName": "תל אביב",
-      "name": "חן (חנצ'ה) יאיר",
-      "slug": "s9-חן-חנצה-יאיר",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 3,
-      "weekName": "תל אביב",
-      "name": "יעל זילברמן",
-      "slug": "s9-יעל-זילברמן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 3,
-      "weekName": "תל אביב",
-      "name": "לינור אברג'ל",
-      "slug": "s9-לינור-אברגל",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 4,
-      "weekName": "השרון והכרמל",
-      "name": "אביתר בן פורת",
-      "slug": "s9-אביתר-בן-פורת",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 4,
-      "weekName": "השרון והכרמל",
-      "name": "אורי זיצ'ק",
-      "slug": "s9-אורי-זיצק",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 4,
-      "weekName": "השרון והכרמל",
-      "name": "אילנית יורמן",
-      "slug": "s9-אילנית-יורמן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 4,
-      "weekName": "השרון והכרמל",
-      "name": "מאיה לב קורן",
-      "slug": "s9-מאיה-לב-קורן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 4,
-      "weekName": "השרון והכרמל",
-      "name": "קארין מקס",
-      "slug": "s9-קארין-מקס",
       "status": "none",
       "priority": 50,
       "dishCount": 0,
@@ -3396,348 +2982,6 @@
       "weekName": "חיפה",
       "name": "אבנית סטרולוב",
       "slug": "s9-אבנית-סטרולוב",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 5,
-      "weekName": "חיפה",
-      "name": "אוניקה אלנה דניאלה",
-      "slug": "s9-אוניקה-אלנה-דניאלה",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 5,
-      "weekName": "חיפה",
-      "name": "אליאס עבוד",
-      "slug": "s9-אליאס-עבוד",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 5,
-      "weekName": "חיפה",
-      "name": "טל הרוש",
-      "slug": "s9-טל-הרוש",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 9,
-      "week": 5,
-      "weekName": "חיפה",
-      "name": "עדי ויצמן אסולין",
-      "slug": "s9-עדי-ויצמן-אסולין",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 1,
-      "weekName": "ירושלים",
-      "name": "אדם גוזלן",
-      "slug": "s10-אדם-גוזלן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 1,
-      "weekName": "ירושלים",
-      "name": "חיה לב",
-      "slug": "s10-חיה-לב",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 1,
-      "weekName": "ירושלים",
-      "name": "יגאל טמיר",
-      "slug": "s10-יגאל-טמיר",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 1,
-      "weekName": "ירושלים",
-      "name": "ניקול אלטשולר",
-      "slug": "s10-ניקול-אלטשולר",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 1,
-      "weekName": "ירושלים",
-      "name": "רועי גולן",
-      "slug": "s10-רועי-גולן",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 2,
-      "weekName": "השפלה",
-      "name": "איריס אלוג",
-      "slug": "s10-איריס-אלוג",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 2,
-      "weekName": "השפלה",
-      "name": "דניאל דריי",
-      "slug": "s10-דניאל-דריי",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 2,
-      "weekName": "השפלה",
-      "name": "זהר גורמס",
-      "slug": "s10-זהר-גורמס",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 2,
-      "weekName": "השפלה",
-      "name": "יריב אגוזי",
-      "slug": "s10-יריב-אגוזי",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 2,
-      "weekName": "השפלה",
-      "name": "ליהי קימורה",
-      "slug": "s10-ליהי-קימורה",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 3,
-      "weekName": "צפון",
-      "name": "אבינעם שמעון",
-      "slug": "s10-אבינעם-שמעון",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 3,
-      "weekName": "צפון",
-      "name": "אלירן בוחבוט",
-      "slug": "s10-אלירן-בוחבוט",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 3,
-      "weekName": "צפון",
-      "name": "מירן הולדשטיין",
-      "slug": "s10-מירן-הולדשטיין",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 3,
-      "weekName": "צפון",
-      "name": "עליזה אלקיים עבאדי",
-      "slug": "s10-עליזה-אלקיים-עבאדי",
-      "status": "none",
-      "priority": 50,
-      "dishCount": 0,
-      "primaryCoursesPresent": [],
-      "missingPrimaryCourses": [
-        "starter",
-        "main",
-        "dessert"
-      ],
-      "dishSourceKinds": [],
-      "dishes": []
-    },
-    {
-      "season": 10,
-      "week": 3,
-      "weekName": "צפון",
-      "name": "רוני פליישר",
-      "slug": "s10-רוני-פליישר",
       "status": "none",
       "priority": 50,
       "dishCount": 0,

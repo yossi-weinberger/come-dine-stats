@@ -5,7 +5,7 @@
     "individualEntries": 235,
     "coupleEntries": 54,
     "withdrawnEntries": 1,
-    "dishes": 319,
+    "dishes": 514,
     "winners": 64,
     "fieldCoverage": {
       "weekName": {
@@ -902,31 +902,31 @@
     },
     "menuCoverage": {
       "anyDish": {
-        "count": 98,
-        "percent": 33.9
+        "count": 159,
+        "percent": 55
       },
       "threePrimaryCourses": {
-        "count": 92,
-        "percent": 31.8
+        "count": 147,
+        "percent": 50.9
       },
       "vegetarianAlternative": {
+        "count": 18,
+        "percent": 6.2
+      },
+      "veganAlternative": {
         "count": 15,
         "percent": 5.2
       },
-      "veganAlternative": {
-        "count": 6,
-        "percent": 2.1
-      },
       "dishesByCourse": {
-        "starter": 107,
-        "main": 113,
-        "dessert": 92,
+        "starter": 171,
+        "main": 181,
+        "dessert": 155,
         "other": 5
       },
       "dishesByVariant": {
-        "standard": 284,
-        "vegetarian": 24,
-        "vegan": 11,
+        "standard": 463,
+        "vegetarian": 28,
+        "vegan": 23,
         "alternative": 0
       },
       "missingThreePrimaryCourses": [
@@ -1063,69 +1063,14 @@
         "שלי אבנשטיין",
         "אסף איפרגן",
         "אבינועם נתנאל",
-        "מעיין מיזן",
-        "אחיה זלייט",
         "איתמר גרובר",
-        "דנה כהן הלוי",
-        "לבנה שיפמן",
-        "יפה חסידים",
-        "יוסל'ה זיו",
-        "קארי בר כהן",
         "יהונתן מקרוב",
         "עמית שאטו",
-        "חן וייסמן",
         "משה ניסימפור",
-        "עמרי שושן",
-        "ריטה ליפשיץ",
         "אילנה בן אבו",
-        "ירון ליברמן",
-        "עמנואל יצחק לוי",
-        "נירית מיטל",
         "גל בן דוד",
-        "עדן כהן",
-        "לואר עמור",
-        "אייל עובדיה",
-        "אדי בן סימון",
-        "לינוי דסה",
-        "קמילה קידר",
-        "יובל ארוש",
-        "ירדן שלי נקים",
-        "שירה ניר",
-        "עודד קב",
-        "חננאל אמיתי",
-        "כרמית תא שמע",
-        "רוני אילוז",
-        "תום בייקין אוחיון",
-        "דלילה שמש",
-        "זהר יוספיאן",
-        "יעל זילברמן",
-        "חן (חנצ'ה) יאיר",
-        "אתי גלבוע",
-        "לינור אברג'ל",
-        "אילנית יורמן",
-        "קארין מקס",
-        "אורי זיצ'ק",
-        "מאיה לב קורן",
-        "אביתר בן פורת",
         "אבנית סטרולוב",
-        "אליאס עבוד",
-        "אוניקה אלנה דניאלה",
-        "טל הרוש",
-        "עדי ויצמן אסולין",
-        "רועי גולן",
-        "אדם גוזלן",
-        "יגאל טמיר",
         "חיה לב",
-        "ניקול אלטשולר",
-        "איריס אלוג",
-        "יריב אגוזי",
-        "ליהי קימורה",
-        "זהר גורמס",
-        "דניאל דריי",
-        "עליזה אלקיים עבאדי",
-        "רוני פליישר",
-        "אבינעם שמעון",
-        "מירן הולדשטיין",
         "אלירן בוחבוט"
       ]
     }
@@ -2655,7 +2600,7 @@
       "individualEntries": 25,
       "coupleEntries": 0,
       "withdrawnEntries": 0,
-      "dishes": 4,
+      "dishes": 72,
       "winners": 5,
       "fieldCoverage": {
         "weekName": {
@@ -2826,58 +2771,40 @@
       },
       "menuCoverage": {
         "anyDish": {
+          "count": 24,
+          "percent": 96
+        },
+        "threePrimaryCourses": {
+          "count": 19,
+          "percent": 76
+        },
+        "vegetarianAlternative": {
           "count": 2,
           "percent": 8
         },
-        "threePrimaryCourses": {
-          "count": 1,
-          "percent": 4
-        },
-        "vegetarianAlternative": {
-          "count": 0,
-          "percent": 0
-        },
         "veganAlternative": {
-          "count": 0,
-          "percent": 0
+          "count": 2,
+          "percent": 8
         },
         "dishesByCourse": {
-          "starter": 1,
-          "main": 1,
-          "dessert": 1,
+          "starter": 23,
+          "main": 24,
+          "dessert": 24,
           "other": 1
         },
         "dishesByVariant": {
-          "standard": 4,
-          "vegetarian": 0,
-          "vegan": 0,
+          "standard": 68,
+          "vegetarian": 2,
+          "vegan": 2,
           "alternative": 0
         },
         "missingThreePrimaryCourses": [
-          "מעיין מיזן",
-          "אחיה זלייט",
           "איתמר גרובר",
-          "דנה כהן הלוי",
-          "לבנה שיפמן",
-          "יפה חסידים",
-          "יוסל'ה זיו",
-          "קארי בר כהן",
           "יהונתן מקרוב",
           "עמית שאטו",
-          "חן וייסמן",
           "משה ניסימפור",
-          "עמרי שושן",
-          "ריטה ליפשיץ",
           "אילנה בן אבו",
-          "ירון ליברמן",
-          "עמנואל יצחק לוי",
-          "נירית מיטל",
-          "גל בן דוד",
-          "עדן כהן",
-          "לואר עמור",
-          "אייל עובדיה",
-          "אדי בן סימון",
-          "לינוי דסה"
+          "גל בן דוד"
         ]
       }
     },
@@ -2887,7 +2814,7 @@
       "individualEntries": 25,
       "coupleEntries": 0,
       "withdrawnEntries": 0,
-      "dishes": 0,
+      "dishes": 81,
       "winners": 5,
       "fieldCoverage": {
         "weekName": {
@@ -3072,59 +2999,35 @@
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 0,
-          "percent": 0
+          "count": 24,
+          "percent": 96
         },
         "threePrimaryCourses": {
-          "count": 0,
-          "percent": 0
+          "count": 24,
+          "percent": 96
         },
         "vegetarianAlternative": {
-          "count": 0,
-          "percent": 0
+          "count": 1,
+          "percent": 4
         },
         "veganAlternative": {
-          "count": 0,
-          "percent": 0
+          "count": 4,
+          "percent": 16
         },
         "dishesByCourse": {
-          "starter": 0,
-          "main": 0,
-          "dessert": 0,
+          "starter": 27,
+          "main": 29,
+          "dessert": 25,
           "other": 0
         },
         "dishesByVariant": {
-          "standard": 0,
-          "vegetarian": 0,
-          "vegan": 0,
+          "standard": 72,
+          "vegetarian": 2,
+          "vegan": 7,
           "alternative": 0
         },
         "missingThreePrimaryCourses": [
-          "קמילה קידר",
-          "יובל ארוש",
-          "ירדן שלי נקים",
-          "שירה ניר",
-          "עודד קב",
-          "חננאל אמיתי",
-          "כרמית תא שמע",
-          "רוני אילוז",
-          "תום בייקין אוחיון",
-          "דלילה שמש",
-          "זהר יוספיאן",
-          "יעל זילברמן",
-          "חן (חנצ'ה) יאיר",
-          "אתי גלבוע",
-          "לינור אברג'ל",
-          "אילנית יורמן",
-          "קארין מקס",
-          "אורי זיצ'ק",
-          "מאיה לב קורן",
-          "אביתר בן פורת",
-          "אבנית סטרולוב",
-          "אליאס עבוד",
-          "אוניקה אלנה דניאלה",
-          "טל הרוש",
-          "עדי ויצמן אסולין"
+          "אבנית סטרולוב"
         ]
       }
     },
@@ -3134,7 +3037,7 @@
       "individualEntries": 15,
       "coupleEntries": 0,
       "withdrawnEntries": 0,
-      "dishes": 0,
+      "dishes": 46,
       "winners": 2,
       "fieldCoverage": {
         "weekName": {
@@ -3287,48 +3190,35 @@
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 0,
-          "percent": 0
+          "count": 15,
+          "percent": 100
         },
         "threePrimaryCourses": {
-          "count": 0,
-          "percent": 0
+          "count": 13,
+          "percent": 86.7
         },
         "vegetarianAlternative": {
           "count": 0,
           "percent": 0
         },
         "veganAlternative": {
-          "count": 0,
-          "percent": 0
+          "count": 3,
+          "percent": 20
         },
         "dishesByCourse": {
-          "starter": 0,
-          "main": 0,
-          "dessert": 0,
+          "starter": 15,
+          "main": 16,
+          "dessert": 15,
           "other": 0
         },
         "dishesByVariant": {
-          "standard": 0,
+          "standard": 43,
           "vegetarian": 0,
-          "vegan": 0,
+          "vegan": 3,
           "alternative": 0
         },
         "missingThreePrimaryCourses": [
-          "רועי גולן",
-          "אדם גוזלן",
-          "יגאל טמיר",
           "חיה לב",
-          "ניקול אלטשולר",
-          "איריס אלוג",
-          "יריב אגוזי",
-          "ליהי קימורה",
-          "זהר גורמס",
-          "דניאל דריי",
-          "עליזה אלקיים עבאדי",
-          "רוני פליישר",
-          "אבינעם שמעון",
-          "מירן הולדשטיין",
           "אלירן בוחבוט"
         ]
       }
@@ -3339,7 +3229,7 @@
     "foodik": 1,
     "kan": 144,
     "manual": 31,
-    "rest": 4,
+    "rest": 3,
     "wikipedia": 199
   }
 }
