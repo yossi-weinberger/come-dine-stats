@@ -14,6 +14,9 @@ type Discovery = {
 
 const episodes = episodesJson as Episode[]
 const targetSeason = Number(process.env.KAN_RECIPE_SEASON || '5')
+const mode = process.env.KAN_RECIPE_MODE || 'episodes'
+const HUB = 'https://www.kan.org.il/content/dig/recipes/'
+const SITEINDEX = 'https://www.kan.org.il/media/sitemap/general/siteindex.xml'
 
 function absoluteUrl(href: string, base: string) {
   try { return new URL(href, base).toString() } catch { return href }
@@ -49,7 +52,61 @@ async function fetchHtml(url: string) {
   return response.text()
 }
 
-async function main() {
+function xmlLocations(xml: string) {
+  return [...xml.matchAll(/<loc>(.*?)<\/loc>/gs)]
+    .map((match) => match[1].replace(/&amp;/g, '&').trim())
+    .filter(Boolean)
+}
+
+function snippets(html: string, terms: RegExp[]) {
+  const flat = html.replace(/\s+/g, ' ')
+  const rows: string[] = []
+  for (const term of terms) {
+    term.lastIndex = 0
+    let match: RegExpExecArray | null
+    while ((match = term.exec(flat)) && rows.length < 12) {
+      const start = Math.max(0, match.index - 140)
+      const end = Math.min(flat.length, match.index + match[0].length + 260)
+      rows.push(flat.slice(start, end))
+      if (!term.global) break
+    }
+  }
+  return [...new Set(rows)]
+}
+
+async function probeHubAndSitemap() {
+  const [siteindexXml, hubHtml] = await Promise.all([fetchHtml(SITEINDEX), fetchHtml(HUB)])
+  const sitemapLocations = xmlLocations(siteindexXml)
+  const hub$ = cheerio.load(hubHtml)
+  const scriptSources = hub$('script[src]').map((_, element) => absoluteUrl(hub$(element).attr('src') || '', HUB)).get()
+  const hubAnchors = hub$('a[href]').map((_, element) => {
+    const href = absoluteUrl(hub$(element).attr('href') || '', HUB)
+    const text = hub$(element).text().replace(/\s+/g, ' ').trim()
+    if (!/recipe|מתכונ|\/content\/dig\/recipes\//iu.test(`${text} ${href}`)) return null
+    return { text, href }
+  }).get().filter(Boolean)
+
+  console.log(JSON.stringify({
+    mode: 'sitemap',
+    siteindex: {
+      url: SITEINDEX,
+      bytes: siteindexXml.length,
+      locations: sitemapLocations.length,
+      sample: sitemapLocations.slice(0, 30),
+      directRecipeLocations: sitemapLocations.filter((url) => /\/content\/dig\/recipes\//u.test(url)).slice(0, 30),
+    },
+    hub: {
+      url: HUB,
+      bytes: hubHtml.length,
+      directRecipeUrls: extractRecipeUrls(hubHtml, HUB),
+      recipeAnchors: hubAnchors.slice(0, 30),
+      scriptSources: scriptSources.slice(0, 30),
+      interestingSnippets: snippets(hubHtml, [/recipes/giu, /מתכונ/gu, /\/api\//giu]),
+    },
+  }, null, 2))
+}
+
+async function probeEpisodes() {
   const targets = episodes.filter((episode) => episode.season === targetSeason)
   const discoveries: Discovery[] = []
 
@@ -82,12 +139,18 @@ async function main() {
   const withRecipeUrl = discoveries.filter((item) => item.recipeUrls.length)
   const withRecipeText = discoveries.filter((item) => item.recipeAnchors.length)
   console.log(JSON.stringify({
+    mode: 'episodes',
     season: targetSeason,
     episodesChecked: discoveries.length,
     episodesWithRecipeUrl: withRecipeUrl.length,
     episodesWithRecipeText: withRecipeText.length,
     discoveries: discoveries.filter((item) => item.recipeUrls.length || item.recipeAnchors.length),
   }, null, 2))
+}
+
+async function main() {
+  if (mode === 'sitemap') return probeHubAndSitemap()
+  return probeEpisodes()
 }
 
 main().catch((error) => {
