@@ -10,7 +10,9 @@ export type CompetitionWeekStats = {
   scoredEntries: Contestant[]
   scoreCount: number
   activeCount: number
+  hasDisqualification: boolean
   scoresComplete: boolean
+  scoreOrderEligible: boolean
   meanScore: number | null
   medianScore: number | null
   minScore: number | null
@@ -108,6 +110,8 @@ export function groupCompetitionWeeks(entries: Contestant[]): CompetitionWeekSta
       const scoredEntries = scoreEntries(group)
       const scores = scoredEntries.map((entry) => entry.score as number)
       const range = scoreRange(scores)
+      const hasDisqualification = group.some((entry) => entry.status === 'disqualified')
+      const scoresComplete = activeEntries.length >= 2 && scoredEntries.length === activeEntries.length
       return {
         season: group[0].season,
         week: group[0].week as number,
@@ -117,7 +121,9 @@ export function groupCompetitionWeeks(entries: Contestant[]): CompetitionWeekSta
         scoredEntries,
         scoreCount: scoredEntries.length,
         activeCount: activeEntries.length,
-        scoresComplete: activeEntries.length >= 2 && scoredEntries.length === activeEntries.length,
+        hasDisqualification,
+        scoresComplete,
+        scoreOrderEligible: scoresComplete && !hasDisqualification,
         meanScore: mean(scores),
         medianScore: median(scores),
         ...range,
@@ -150,8 +156,8 @@ export function buildSeasonStats(entries: Contestant[]): SeasonStats[] {
       ...range,
       winners: active.filter((entry) => entry.winner).length,
       weeks: seasonWeeks.length,
-      completeScoreWeeks: seasonWeeks.filter((week) => week.scoresComplete).length,
-      scoreTieWeeks: seasonWeeks.filter((week) => week.scoresComplete && week.scoreTie).length,
+      completeScoreWeeks: seasonWeeks.filter((week) => week.scoreOrderEligible).length,
+      scoreTieWeeks: seasonWeeks.filter((week) => week.scoreOrderEligible && week.scoreTie).length,
       dishes: seasonEntries.reduce((sum, entry) => sum + entry.dishes.length, 0),
     }
   })
@@ -177,6 +183,7 @@ export function buildHostingOrderStats(entries: Contestant[], orders = [1, 2, 3,
 export function buildWinnerMargins(entries: Contestant[]): WinnerMargin[] {
   const margins: WinnerMargin[] = []
   for (const week of groupCompetitionWeeks(entries)) {
+    if (week.hasDisqualification) continue
     const winners = week.activeEntries.filter((entry) => entry.winner && typeof entry.score === 'number')
     const others = week.activeEntries
       .filter((entry) => !entry.winner && typeof entry.score === 'number')
@@ -202,7 +209,7 @@ export function buildWinnerMargins(entries: Contestant[]): WinnerMargin[] {
 }
 
 export function completeScoreWeeks(entries: Contestant[]) {
-  return groupCompetitionWeeks(entries).filter((week) => week.scoresComplete)
+  return groupCompetitionWeeks(entries).filter((week) => week.scoreOrderEligible)
 }
 
 export function buildWeekRecords(entries: Contestant[]) {
