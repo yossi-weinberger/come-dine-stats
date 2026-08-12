@@ -18,7 +18,7 @@ assert.equal(
   'decoded contestant slugs must continue to resolve',
 )
 
-assert.equal(displayWeekName('שמנים'), '״שמנים״ — שם השבוע במקור')
+assert.equal(displayWeekName('שמנים'), '״שמנים״ — כינוי ב־Fandom')
 assert.equal(displayWeekName('תל אביב'), 'תל אביב')
 
 console.log(`Route regression OK: ${unicodeEntry.slug} resolves encoded and decoded.`)
