@@ -61,6 +61,22 @@ export type WinnerMargin = {
   activeEntries: number
 }
 
+export type WinnerProfileStats = {
+  winnerEntries: number
+  scoredWinners: number
+  meanWinnerScore: number | null
+  medianWinnerScore: number | null
+  winnerAgeEntries: number
+  meanWinnerAge: number | null
+  medianWinnerAge: number | null
+  nonWinnerAgeEntries: number
+  meanNonWinnerAge: number | null
+  medianNonWinnerAge: number | null
+  marginWeeks: number
+  meanWinningMargin: number | null
+  medianWinningMargin: number | null
+}
+
 export function round1(value: number) {
   return Math.round(value * 10) / 10
 }
@@ -206,6 +222,35 @@ export function buildWinnerMargins(entries: Contestant[]): WinnerMargin[] {
     })
   }
   return margins
+}
+
+export function buildWinnerProfileStats(entries: Contestant[]): WinnerProfileStats {
+  const active = competitionEntries(entries)
+  const winners = active.filter((entry) => entry.winner)
+  const winnerScores = scoreValues(winners)
+  const winnerAges = winners
+    .filter((entry) => entry.entryType !== 'couple' && typeof entry.age === 'number')
+    .map((entry) => entry.age as number)
+  const nonWinnerAges = active
+    .filter((entry) => !entry.winner && entry.entryType !== 'couple' && typeof entry.age === 'number')
+    .map((entry) => entry.age as number)
+  const margins = buildWinnerMargins(entries).map((result) => result.margin)
+
+  return {
+    winnerEntries: winners.length,
+    scoredWinners: winnerScores.length,
+    meanWinnerScore: mean(winnerScores),
+    medianWinnerScore: median(winnerScores),
+    winnerAgeEntries: winnerAges.length,
+    meanWinnerAge: mean(winnerAges),
+    medianWinnerAge: median(winnerAges),
+    nonWinnerAgeEntries: nonWinnerAges.length,
+    meanNonWinnerAge: mean(nonWinnerAges),
+    medianNonWinnerAge: median(nonWinnerAges),
+    marginWeeks: margins.length,
+    meanWinningMargin: mean(margins),
+    medianWinningMargin: median(margins),
+  }
 }
 
 export function completeScoreWeeks(entries: Contestant[]) {

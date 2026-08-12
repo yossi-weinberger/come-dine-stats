@@ -1,5 +1,5 @@
 import contestantsJson from '../data/normalized/contestants.json'
-import { buildSeasonStats, buildWeekRecords, buildWinnerMargins, groupCompetitionWeeks, mean, median } from '../lib/stats-engine'
+import { buildSeasonStats, buildWeekRecords, buildWinnerMargins, buildWinnerProfileStats, groupCompetitionWeeks, mean, median } from '../lib/stats-engine'
 import type { Contestant } from '../lib/types'
 
 const entries = contestantsJson as unknown as Contestant[]
@@ -22,6 +22,13 @@ assert(!disqualificationWeek.scoreOrderEligible, 'Disqualification week must nev
 const margins = buildWinnerMargins(entries)
 assert(!margins.some((margin) => margin.season === 2 && margin.week === 7), 'Disqualification week leaked into winner-margin analytics')
 
+const winnerProfile = buildWinnerProfileStats(entries)
+assert(winnerProfile.winnerEntries > 0, 'Expected winner entries')
+assert(winnerProfile.scoredWinners <= winnerProfile.winnerEntries, 'Scored winner n cannot exceed winner n')
+assert(winnerProfile.winnerAgeEntries <= winnerProfile.winnerEntries, 'Winner age n cannot exceed winner n')
+assert(winnerProfile.marginWeeks === margins.length, 'Winner profile margin n must use the canonical winner-margin set')
+assert(winnerProfile.meanWinningMargin == null || winnerProfile.meanWinningMargin >= 0, 'Winning margin cannot be negative')
+
 const seasonStats = buildSeasonStats(entries)
 assert(seasonStats.length === new Set(entries.map((entry) => entry.season)).size, 'Season stats lost a season')
 assert(seasonStats.every((season) => season.scoredEntries <= season.activeEntries), 'Season scored n cannot exceed active entries')
@@ -38,5 +45,7 @@ console.log(JSON.stringify({
   seasons: seasonStats.length,
   weeks: weeks.length,
   winnerMargins: margins.length,
+  winners: winnerProfile.winnerEntries,
+  winnerAgeEntries: winnerProfile.winnerAgeEntries,
   eligibleWeekRecords: records.eligibleWeeks,
 }, null, 2))
