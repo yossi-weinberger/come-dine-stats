@@ -28,6 +28,11 @@ jobs:
       - name: Typecheck
         run: npm run lint
 
+      - name: Kan recipe discovery probe
+        env:
+          KAN_RECIPE_SEASON: '5'
+        run: npm run discover:kan-recipes
+
       - name: Data health
         run: npm run health
 
