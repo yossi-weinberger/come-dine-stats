@@ -20,10 +20,11 @@
     "menu-gaps": "tsx scripts/menu-gaps.ts",
     "health": "tsx scripts/data-health.ts",
     "check:competition": "tsx scripts/check-competition-rules.ts",
+    "check:stats": "tsx scripts/check-stats-engine.ts",
     "update:readme-stats": "tsx scripts/update-readme-stats.ts",
     "recover:legacy": "tsx scripts/recover-legacy-wayback.ts",
     "merge": "tsx scripts/merge.ts",
-    "import:all": "npm run recover:legacy && npm run normalize && npm run import:fandom && npm run import:wikipedia && npm run import:season10 && npm run import:kan && npm run enrich:kan-cities && npm run import:supplemental-menus && npm run import:supplemental-profiles && npm run merge && npm run coverage && npm run menu-gaps && npm run health && npm run check:competition && npm run stats && npm run update:readme-stats",
+    "import:all": "npm run recover:legacy && npm run normalize && npm run import:fandom && npm run import:wikipedia && npm run import:season10 && npm run import:kan && npm run enrich:kan-cities && npm run import:supplemental-menus && npm run import:supplemental-profiles && npm run merge && npm run coverage && npm run menu-gaps && npm run health && npm run check:competition && npm run check:stats && npm run stats && npm run update:readme-stats",
     "import:kan": "tsx scripts/import-kan.ts"
   },
   "dependencies": {
