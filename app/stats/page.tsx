@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import coverageJson from '@/data/reports/coverage.json'
+import menuGapsJson from '@/data/reports/menu-gaps.json'
 import { SiteFooter } from '@/components/site-footer'
 import { contestants } from '@/lib/data'
 import { competitionEntries, scoreEntries } from '@/lib/competition'
-import { buildHostingOrderStats, buildSeasonStats, buildWeekRecords, buildWinnerMargins, mean } from '@/lib/stats-engine'
+import { buildHostingOrderStats, buildSeasonStats, buildWeekRecords, buildWinnerMargins, buildWinnerProfileStats, mean } from '@/lib/stats-engine'
 
 export const metadata: Metadata = {
   title: 'סטטיסטיקות — בואו לאכול איתי הדאטאבייס',
-  description: 'דירוגי ציונים, השוואת עונות, סדר אירוח, פערי ניצחון, גילאים, ערים וכיסוי תפריטים.',
+  description: 'דירוגי ציונים, השוואת עונות, סדר אירוח, זוכים, פערי ניצחון, גילאים, ערים וכיסוי תפריטים.',
 }
 
 type CoverageField = {
@@ -38,7 +39,21 @@ type CoverageReport = {
   }
 }
 
+type MenuSeasonCoverage = {
+  entries: number
+  anyDish: number
+  complete: number
+  oneCourseAway: number
+  partial: number
+  none: number
+}
+
+type MenuGapReport = {
+  bySeason: Record<string, MenuSeasonCoverage>
+}
+
 const coverage = coverageJson as unknown as CoverageReport
+const menuGaps = menuGapsJson as unknown as MenuGapReport
 
 function barWidth(value: number, max: number) {
   if (!max) return 0
@@ -71,6 +86,10 @@ function weekNote(record: { season: number; week: number; weekName?: string; sco
   return `עונה ${record.season} · שבוע ${record.week}${record.weekName ? ` · ${record.weekName}` : ''} · n=${record.scoreCount}`
 }
 
+function pct(count: number, total: number) {
+  return total ? Math.round((count / total) * 1000) / 10 : 0
+}
+
 const scoreCoverage = coverage.overall.fieldCoverage.score
 const ageCoverage = coverage.overall.fieldCoverage.age
 const cityCoverage = coverage.overall.fieldCoverage.city
@@ -80,8 +99,6 @@ export default function StatsPage() {
   const activeEntries = competitionEntries(contestants)
   const scored = scoreEntries(contestants)
   const scores = scored.map((entry) => entry.score as number)
-  const scoredWinners = activeEntries.filter((entry) => entry.winner && typeof entry.score === 'number')
-  const winnerScores = scoredWinners.map((entry) => entry.score as number)
   const individualAges = contestants
     .filter((entry) => entry.entryType !== 'couple' && typeof entry.age === 'number')
     .map((entry) => entry.age as number)
@@ -101,6 +118,7 @@ export default function StatsPage() {
   })
 
   const margins = buildWinnerMargins(contestants)
+  const winnerProfile = buildWinnerProfileStats(contestants)
   const biggestMargins = [...margins].sort((a, b) => b.margin - a.margin).slice(0, 6)
   const tightestMargins = [...margins].sort((a, b) => a.margin - b.margin).slice(0, 6)
   const weekRecords = buildWeekRecords(contestants)
@@ -129,6 +147,9 @@ export default function StatsPage() {
   const maxCity = Math.max(...topCities.map((row) => row.count), 1)
 
   const menuCoverage = coverage.overall.menuCoverage
+  const menuSeasonRows = Object.entries(menuGaps.bySeason)
+    .map(([season, row]) => ({ season: Number(season), ...row }))
+    .sort((a, b) => a.season - b.season)
   const exceptionalEntries = contestants.length - activeEntries.length
 
   return (
@@ -156,7 +177,7 @@ export default function StatsPage() {
 
       <section className="analysisStats" aria-label="סיכום סטטיסטי">
         <StatCard label="ממוצע ציון תחרותי" value={mean(scores) ?? '—'} note={`${scored.length} ציונים פעילים`} />
-        <StatCard label="ממוצע ציון של זוכים" value={mean(winnerScores) ?? '—'} note={`${scoredWinners.length} זוכים עם ציון`} />
+        <StatCard label="ממוצע ציון של זוכים" value={winnerProfile.meanWinnerScore ?? '—'} note={`${winnerProfile.scoredWinners} זוכים עם ציון`} />
         <StatCard label="גיל ממוצע מתועד" value={mean(individualAges) ?? '—'} note="רשומות יחיד בלבד" />
         <StatCard label="ציון שיא" value={scores.length ? Math.max(...scores) : '—'} />
         <StatCard label="שבועות לניתוח פער" value={margins.length} note="שבועות חריגים מוחרגים" />
@@ -183,6 +204,27 @@ export default function StatsPage() {
               <b>{entry.score}</b>
             </Link>
           ))}
+        </div>
+      </section>
+
+      <section className="analyticsSection" aria-labelledby="winner-profile-title">
+        <div className="analyticsHeading">
+          <div>
+            <div className="eyebrow">פרופיל הזוכים</div>
+            <h2 id="winner-profile-title">איך נראים הזוכים בנתונים?</h2>
+          </div>
+          <span className="analyticsNote">תיאור המאגר בלבד — לא מודל שמנבא זכייה</span>
+        </div>
+        <p className="analysisIntro">
+          גיל מושווה רק ברשומות יחיד שבהן גיל מתועד. פער ניצחון משתמש רק בשבוע רגיל עם זוכה יחיד וציונים מתאימים.
+        </p>
+        <div className="analysisStats">
+          <StatCard label="ציון זוכה ממוצע" value={winnerProfile.meanWinnerScore ?? '—'} note={`n=${winnerProfile.scoredWinners}`} />
+          <StatCard label="חציון ציון זוכה" value={winnerProfile.medianWinnerScore ?? '—'} note={`n=${winnerProfile.scoredWinners}`} />
+          <StatCard label="גיל זוכה ממוצע" value={winnerProfile.meanWinnerAge ?? '—'} note={`n=${winnerProfile.winnerAgeEntries} זוכים יחידים`} />
+          <StatCard label="גיל לא־זוכים ממוצע" value={winnerProfile.meanNonWinnerAge ?? '—'} note={`n=${winnerProfile.nonWinnerAgeEntries} יחידים`} />
+          <StatCard label="חציון גיל זוכים" value={winnerProfile.medianWinnerAge ?? '—'} note={`n=${winnerProfile.winnerAgeEntries}`} />
+          <StatCard label="חציון פער ניצחון" value={winnerProfile.medianWinningMargin ?? '—'} note={`n=${winnerProfile.marginWeeks} שבועות`} />
         </div>
       </section>
 
@@ -387,6 +429,38 @@ export default function StatsPage() {
           <div><span>קינוחים</span><strong>{menuCoverage.dishesByCourse.dessert ?? 0}</strong></div>
           <div><span>מנות נוספות</span><strong>{menuCoverage.dishesByCourse.other ?? 0}</strong></div>
         </div>
+
+        <div className="analyticsHeading compact" style={{ marginTop: 42 }}>
+          <div>
+            <div className="eyebrow">כיסוי לפי עונה</div>
+            <h2>ה־55% לא מתחלקים שווה</h2>
+          </div>
+          <span className="analyticsNote">לכן ניתוחי אוכל עתידיים יציגו תמיד עונה ו־n</span>
+        </div>
+        <div className="seasonTableWrap">
+          <table className="seasonCompareTable">
+            <thead>
+              <tr>
+                <th>עונה</th>
+                <th>לפחות מנה</th>
+                <th>תפריט מלא</th>
+                <th>חלקי</th>
+                <th>ללא מנות</th>
+              </tr>
+            </thead>
+            <tbody>
+              {menuSeasonRows.map((row) => (
+                <tr key={row.season}>
+                  <th><Link href={`/seasons/${row.season}`}>עונה {row.season}</Link></th>
+                  <td><strong>{row.anyDish}/{row.entries}</strong> · {pct(row.anyDish, row.entries)}%</td>
+                  <td>{row.complete}/{row.entries} · {pct(row.complete, row.entries)}%</td>
+                  <td>{row.partial + row.oneCourseAway}</td>
+                  <td>{row.none}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <aside className="statsMethodology">
@@ -396,7 +470,7 @@ export default function StatsPage() {
           כל החישובים נעשים מהנתונים המנורמלים באתר. נתון חסר לא הופך לאפס ולא מושלם בהשערה;
           זוגות מוחרגים ממדדים אישיים כמו גיל; ופערי ניצחון ושיאי שבוע שמסתמכים על סדר ציונים אינם מחושבים
           בשבועות עם פסילה. {exceptionalEntries} רשומות חריגות (פסילה, פרישה או אורח) נשארות במאגר ובדפי ההקשר שלהן,
-          אך אינן מעוותות ממוצעי תחרות רגילים.
+          אך אינן מעוותות ממוצעי תחרות רגילים. כיסוי התפריטים משתנה מאוד בין העונות, ולכן ניתוחי אוכל מוצגים עם sample size ולא כהשוואה מלאה של כל ההיסטוריה.
         </p>
       </aside>
 
