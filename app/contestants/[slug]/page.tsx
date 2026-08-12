@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { SiteFooter } from '@/components/site-footer'
 import { SourceBadge } from '@/components/source-badge'
 import { contestants } from '@/lib/data'
+import { contestantFromRouteSlug, displayWeekName } from '@/lib/presentation'
 import type { Contestant, Dish, SourceRef } from '@/lib/types'
 
 type PageProps = { params: Promise<{ slug: string }> }
@@ -63,6 +64,7 @@ function displayValue(entry: Contestant, field: ProfileField) {
 
   if (field === 'winner') return value ? 'מקום ראשון' : null
   if (field === 'week') return `שבוע ${value}`
+  if (field === 'weekName') return displayWeekName(String(value))
   if (field === 'hostingOrder') return `יום ${value}`
   if (field === 'age') return `גיל ${value}`
   if (field === 'score') return `${value} נק׳`
@@ -92,7 +94,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params
-  const entry = contestants.find((candidate) => candidate.slug === slug)
+  const entry = contestantFromRouteSlug(contestants, slug)
   if (!entry) return {}
 
   return {
@@ -103,7 +105,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ContestantPage({ params }: PageProps) {
   const { slug } = await params
-  const entry = contestants.find((candidate) => candidate.slug === slug)
+  const entry = contestantFromRouteSlug(contestants, slug)
   if (!entry) notFound()
 
   const sameWeek = contestants
@@ -144,7 +146,7 @@ export default async function ContestantPage({ params }: PageProps) {
             <div className="eyebrow">
               עונה {entry.season}
               {entry.week ? ` · שבוע ${entry.week}` : ''}
-              {entry.weekName ? ` · ${entry.weekName}` : ''}
+              {entry.weekName ? ` · ${displayWeekName(entry.weekName)}` : ''}
             </div>
             <h1>{entry.name}</h1>
             <p>{participantLabel(entry)}{entry.status === 'withdrawn' ? ' · פרש/ה מהתחרות' : ''}</p>
