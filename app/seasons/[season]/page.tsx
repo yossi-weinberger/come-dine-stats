@@ -165,12 +165,17 @@ export default async function SeasonPage({ params }: PageProps) {
             const weekScores = knownScores(weekEntries)
             const weekWinners = activeWeekEntries.filter((entry) => entry.winner)
             const exceptional = weekEntries.length - activeWeekEntries.length
-            return (
-              <a key={week ?? 'unknown'} href={`#week-${week ?? 'unknown'}`}>
+            const content = (
+              <>
                 <span>{weekLabel(weekEntries, week)}</span>
                 <strong>{weekWinners.length ? `🏆 ${weekWinners.map((entry) => entry.name).join(', ')}` : 'ללא זוכה מתועד'}</strong>
                 <small>{activeWeekEntries.length} יחידות פעילות · ממוצע {average(weekScores) ?? '—'}{exceptional ? ` · ${exceptional} חריגות` : ''}</small>
-              </a>
+              </>
+            )
+            return week != null ? (
+              <Link key={week} href={`/seasons/${season}/weeks/${week}`}>{content}</Link>
+            ) : (
+              <a key="unknown" href="#week-unknown">{content}</a>
             )
           })}
         </div>
@@ -188,6 +193,11 @@ export default async function SeasonPage({ params }: PageProps) {
                 <div>
                   <div className="eyebrow">{weekLabel(weekEntries, week)}</div>
                   <h2>{weekWinners.length ? `המנצח: ${weekWinners.map((entry) => entry.name).join(', ')}` : 'תוצאות השבוע'}</h2>
+                  {week != null && (
+                    <Link className="profileLink" href={`/seasons/${season}/weeks/${week}`}>
+                      לעמוד השבוע המלא ←
+                    </Link>
+                  )}
                 </div>
                 <div className="weekScoreSummary">
                   <span>ממוצע תחרותי</span>
