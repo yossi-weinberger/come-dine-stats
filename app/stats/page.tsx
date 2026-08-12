@@ -3,8 +3,8 @@ import Link from 'next/link'
 import coverageJson from '@/data/reports/coverage.json'
 import { SiteFooter } from '@/components/site-footer'
 import { contestants } from '@/lib/data'
-import { competitionEntries, knownScores, scoreEntries } from '@/lib/competition'
-import type { Contestant } from '@/lib/types'
+import { competitionEntries, scoreEntries } from '@/lib/competition'
+import { buildHostingOrderStats, buildSeasonStats, buildWeekRecords, buildWinnerMargins, mean } from '@/lib/stats-engine'
 
 export const metadata: Metadata = {
   title: 'סטטיסטיקות — בואו לאכול איתי הדאטאבייס',
@@ -38,26 +38,7 @@ type CoverageReport = {
   }
 }
 
-type WeekResult = {
-  season: number
-  week: number
-  weekName?: string
-  winner: Contestant
-  runnerUp: Contestant
-  margin: number
-}
-
 const coverage = coverageJson as unknown as CoverageReport
-
-function average(values: number[]) {
-  return values.length
-    ? Math.round((values.reduce((sum, value) => sum + value, 0) / values.length) * 10) / 10
-    : null
-}
-
-function percent(count: number, total: number) {
-  return total ? Math.round((count / total) * 1000) / 10 : 0
-}
 
 function barWidth(value: number, max: number) {
   if (!max) return 0
@@ -86,6 +67,10 @@ function CoveragePill({ label, field }: { label: string; field: CoverageField })
   )
 }
 
+function weekNote(record: { season: number; week: number; weekName?: string; scoreCount: number }) {
+  return `עונה ${record.season} · שבוע ${record.week}${record.weekName ? ` · ${record.weekName}` : ''} · n=${record.scoreCount}`
+}
+
 const scoreCoverage = coverage.overall.fieldCoverage.score
 const ageCoverage = coverage.overall.fieldCoverage.age
 const cityCoverage = coverage.overall.fieldCoverage.city
@@ -94,7 +79,7 @@ const hostingCoverage = coverage.overall.fieldCoverage.hostingOrder
 export default function StatsPage() {
   const activeEntries = competitionEntries(contestants)
   const scored = scoreEntries(contestants)
-  const scores = knownScores(contestants)
+  const scores = scored.map((entry) => entry.score as number)
   const scoredWinners = activeEntries.filter((entry) => entry.winner && typeof entry.score === 'number')
   const winnerScores = scoredWinners.map((entry) => entry.score as number)
   const individualAges = contestants
@@ -105,73 +90,20 @@ export default function StatsPage() {
     .sort((a, b) => (b.score ?? -Infinity) - (a.score ?? -Infinity) || a.name.localeCompare(b.name, 'he'))
     .slice(0, 10)
 
-  const hostingRows = [1, 2, 3, 4, 5].map((order) => {
-    const entries = activeEntries.filter((entry) => entry.hostingOrder === order)
-    const withScore = scoreEntries(entries)
-    const winners = entries.filter((entry) => entry.winner)
-    return {
-      order,
-      entries: entries.length,
-      scores: withScore.length,
-      averageScore: average(withScore.map((entry) => entry.score as number)),
-      winners: winners.length,
-      winRate: percent(winners.length, entries.length),
-    }
-  })
+  const hostingRows = buildHostingOrderStats(contestants)
   const maxHostingWinners = Math.max(...hostingRows.map((row) => row.winners), 1)
 
-  const seasons = [...new Set(contestants.map((entry) => entry.season))].sort((a, b) => a - b)
-  const seasonRows = seasons.map((season) => {
-    const entries = contestants.filter((entry) => entry.season === season)
-    const activeSeasonEntries = competitionEntries(entries)
-    const seasonScores = knownScores(entries)
-    const ages = entries
-      .filter((entry) => entry.entryType !== 'couple' && typeof entry.age === 'number')
+  const seasonRows = buildSeasonStats(contestants).map((row) => {
+    const ages = contestants
+      .filter((entry) => entry.season === row.season && entry.entryType !== 'couple' && typeof entry.age === 'number')
       .map((entry) => entry.age as number)
-    return {
-      season,
-      entries: entries.length,
-      activeEntries: activeSeasonEntries.length,
-      participants: entries.reduce((sum, entry) => sum + (entry.members?.length || 1), 0),
-      scoreCount: seasonScores.length,
-      averageScore: average(seasonScores),
-      topScore: seasonScores.length ? Math.max(...seasonScores) : null,
-      winners: activeSeasonEntries.filter((entry) => entry.winner).length,
-      averageAge: average(ages),
-      dishes: entries.reduce((sum, entry) => sum + entry.dishes.length, 0),
-    }
+    return { ...row, averageAge: mean(ages) }
   })
 
-  const weeks = new Map<string, Contestant[]>()
-  for (const entry of contestants) {
-    if (entry.week == null) continue
-    const key = `${entry.season}:${entry.week}`
-    weeks.set(key, [...(weeks.get(key) ?? []), entry])
-  }
-
-  const margins: WeekResult[] = []
-  for (const weekEntries of weeks.values()) {
-    const entries = competitionEntries(weekEntries)
-    const winners = entries.filter((entry) => entry.winner && typeof entry.score === 'number')
-    const others = entries
-      .filter((entry) => !entry.winner && typeof entry.score === 'number')
-      .sort((a, b) => (b.score ?? -Infinity) - (a.score ?? -Infinity))
-    if (winners.length !== 1 || !others.length) continue
-    const winner = winners[0]
-    const runnerUp = others[0]
-    const margin = (winner.score as number) - (runnerUp.score as number)
-    if (margin < 0) continue
-    margins.push({
-      season: winner.season,
-      week: winner.week as number,
-      weekName: winner.weekName,
-      winner,
-      runnerUp,
-      margin,
-    })
-  }
+  const margins = buildWinnerMargins(contestants)
   const biggestMargins = [...margins].sort((a, b) => b.margin - a.margin).slice(0, 6)
   const tightestMargins = [...margins].sort((a, b) => a.margin - b.margin).slice(0, 6)
+  const weekRecords = buildWeekRecords(contestants)
 
   const ageBuckets = [
     { label: 'עד 29', min: -Infinity, max: 29 },
@@ -223,11 +155,11 @@ export default function StatsPage() {
       </header>
 
       <section className="analysisStats" aria-label="סיכום סטטיסטי">
-        <StatCard label="ממוצע ציון תחרותי" value={average(scores) ?? '—'} note={`${scored.length} ציונים פעילים`} />
-        <StatCard label="ממוצע ציון של זוכים" value={average(winnerScores) ?? '—'} note={`${scoredWinners.length} זוכים עם ציון`} />
-        <StatCard label="גיל ממוצע מתועד" value={average(individualAges) ?? '—'} note="רשומות יחיד בלבד" />
+        <StatCard label="ממוצע ציון תחרותי" value={mean(scores) ?? '—'} note={`${scored.length} ציונים פעילים`} />
+        <StatCard label="ממוצע ציון של זוכים" value={mean(winnerScores) ?? '—'} note={`${scoredWinners.length} זוכים עם ציון`} />
+        <StatCard label="גיל ממוצע מתועד" value={mean(individualAges) ?? '—'} note="רשומות יחיד בלבד" />
         <StatCard label="ציון שיא" value={scores.length ? Math.max(...scores) : '—'} />
-        <StatCard label="שבועות לניתוח פער" value={margins.length} note="זוכה יחיד + ציוני מתחרים פעילים" />
+        <StatCard label="שבועות לניתוח פער" value={margins.length} note="שבועות חריגים מוחרגים" />
         <StatCard label="מנות מתועדות" value={coverage.overall.dishes} note={`${menuCoverage.anyDish.count} רשומות עם מנה`} />
       </section>
 
@@ -274,9 +206,9 @@ export default function StatsPage() {
               </div>
               <div className="miniBar" aria-hidden="true"><span style={{ width: `${barWidth(row.winners, maxHostingWinners)}%` }} /></div>
               <dl>
-                <div><dt>ממוצע ציון</dt><dd>{row.averageScore ?? '—'}</dd></div>
-                <div><dt>ציונים זמינים</dt><dd>{row.scores}/{row.entries}</dd></div>
-                <div><dt>שיעור זוכים ברשומות</dt><dd>{row.winRate}%</dd></div>
+                <div><dt>ממוצע ציון</dt><dd>{row.meanScore ?? '—'}</dd></div>
+                <div><dt>ציונים זמינים</dt><dd>{row.scoredEntries}/{row.entries}</dd></div>
+                <div><dt>שיעור זוכים ברשומות</dt><dd>{row.winRatePercent}%</dd></div>
               </dl>
             </article>
           ))}
@@ -289,7 +221,7 @@ export default function StatsPage() {
             <div className="eyebrow">עונה מול עונה</div>
             <h2 id="season-compare-title">איך העונות משתוות?</h2>
           </div>
-          <span className="analyticsNote">ממוצעי ציון מחושבים רק מציונים של רשומות תחרות פעילות</span>
+          <span className="analyticsNote">ממוצע וחציון מחושבים רק מציונים של רשומות תחרות פעילות</span>
         </div>
         <div className="seasonTableWrap">
           <table className="seasonCompareTable">
@@ -299,7 +231,9 @@ export default function StatsPage() {
                 <th>משתתפים</th>
                 <th>ציונים</th>
                 <th>ממוצע</th>
+                <th>חציון</th>
                 <th>שיא</th>
+                <th>שבועות תיקו בציון</th>
                 <th>גיל ממוצע</th>
                 <th>מנות</th>
               </tr>
@@ -309,15 +243,49 @@ export default function StatsPage() {
                 <tr key={row.season}>
                   <th><Link href={`/seasons/${row.season}`}>עונה {row.season}</Link></th>
                   <td>{row.participants}</td>
-                  <td>{row.scoreCount}/{row.activeEntries}</td>
-                  <td><strong>{row.averageScore ?? '—'}</strong></td>
-                  <td>{row.topScore ?? '—'}</td>
+                  <td>{row.scoredEntries}/{row.activeEntries}</td>
+                  <td><strong>{row.meanScore ?? '—'}</strong></td>
+                  <td>{row.medianScore ?? '—'}</td>
+                  <td>{row.maxScore ?? '—'}</td>
+                  <td>{row.scoreTieWeeks}/{row.completeScoreWeeks}</td>
                   <td>{row.averageAge ?? '—'}</td>
                   <td>{row.dishes}</td>
                 </tr>
               ))}
             </tbody>
           </table>
+        </div>
+      </section>
+
+      <section className="analyticsSection" aria-labelledby="week-records-title">
+        <div className="analyticsHeading">
+          <div>
+            <div className="eyebrow">שבוע מול שבוע</div>
+            <h2 id="week-records-title">שיאי השבועות</h2>
+          </div>
+          <span className="analyticsNote">{weekRecords.eligibleWeeks} שבועות עם ציונים מלאים וללא פסילה</span>
+        </div>
+        <div className="analysisStats">
+          <StatCard
+            label="הממוצע השבועי הגבוה"
+            value={weekRecords.highestMean?.meanScore ?? '—'}
+            note={weekRecords.highestMean ? weekNote(weekRecords.highestMean) : undefined}
+          />
+          <StatCard
+            label="הממוצע השבועי הנמוך"
+            value={weekRecords.lowestMean?.meanScore ?? '—'}
+            note={weekRecords.lowestMean ? weekNote(weekRecords.lowestMean) : undefined}
+          />
+          <StatCard
+            label="טווח הציונים הגדול"
+            value={weekRecords.widestSpread?.spread ?? '—'}
+            note={weekRecords.widestSpread ? weekNote(weekRecords.widestSpread) : undefined}
+          />
+          <StatCard
+            label="טווח הציונים הצמוד"
+            value={weekRecords.tightestSpread?.spread ?? '—'}
+            note={weekRecords.tightestSpread ? weekNote(weekRecords.tightestSpread) : undefined}
+          />
         </div>
       </section>
 
@@ -426,9 +394,9 @@ export default function StatsPage() {
         <h2>הסטטיסטיקות טובות כמו הכיסוי שלהן</h2>
         <p>
           כל החישובים נעשים מהנתונים המנורמלים באתר. נתון חסר לא הופך לאפס ולא מושלם בהשערה;
-          זוגות מוחרגים ממדדים אישיים כמו גיל; ופער ניצחון מחושב רק בשבוע שבו יש זוכה יחיד עם ציון
-          ולפחות מתחרה פעיל נוסף עם ציון. {exceptionalEntries} רשומות חריגות (פסילה, פרישה או אורח) נשארות במאגר
-          ובדפי ההקשר שלהן, אך אינן מעוותות ממוצעי תחרות רגילים.
+          זוגות מוחרגים ממדדים אישיים כמו גיל; ופערי ניצחון ושיאי שבוע שמסתמכים על סדר ציונים אינם מחושבים
+          בשבועות עם פסילה. {exceptionalEntries} רשומות חריגות (פסילה, פרישה או אורח) נשארות במאגר ובדפי ההקשר שלהן,
+          אך אינן מעוותות ממוצעי תחרות רגילים.
         </p>
       </aside>
 
