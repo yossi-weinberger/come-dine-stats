@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { contestants } from '@/lib/data'
-import type { Contestant, Dish } from '@/lib/types'
+import type { Contestant, Dish, DishVariant } from '@/lib/types'
 import { SiteFooter } from '@/components/site-footer'
 import styles from './explore.module.css'
 
 export const metadata: Metadata = {
   title: 'חיפוש מתקדם — בואו לאכול איתי הדאטאבייס',
-  description: 'חיפוש וסינון בכל העונות לפי שם, מנה, עיר, גיל, ציון, מקום, זכייה ותפריט.',
+  description: 'חיפוש וסינון בכל העונות לפי שם, מנה, עיר, אזור, מקצוע, גיל, ציון, סדר אירוח, זכייה ותפריט.',
 }
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>
@@ -56,6 +56,10 @@ function hasCompletePrimaryMenu(entry: Contestant) {
   return primaryCourses.every((course) => courses.has(course))
 }
 
+function hasVariant(entry: Contestant, variant: 'vegan' | 'vegetarian') {
+  return entry.dishes.some((dish) => variantOf(dish) === variant)
+}
+
 function compareOptionalNumber(a: number | undefined, b: number | undefined, direction: 'asc' | 'desc') {
   if (a == null && b == null) return 0
   if (a == null) return 1
@@ -70,8 +74,8 @@ function sortEntries(entries: Contestant[], sort: SortKey) {
       case 'score-asc': return compareOptionalNumber(a.score, b.score, 'asc') || a.name.localeCompare(b.name, 'he')
       case 'age-desc': return compareOptionalNumber(a.age, b.age, 'desc') || a.name.localeCompare(b.name, 'he')
       case 'age-asc': return compareOptionalNumber(a.age, b.age, 'asc') || a.name.localeCompare(b.name, 'he')
-      case 'hosting': return compareOptionalNumber(a.hostingOrder, b.hostingOrder, 'asc') || a.season - b.season || a.name.localeCompare(b.name, 'he')
-      case 'placement': return compareOptionalNumber(a.placement, b.placement, 'asc') || a.season - b.season || a.name.localeCompare(b.name, 'he')
+      case 'hosting': return compareOptionalNumber(a.hostingOrder, b.hostingOrder, 'asc') || a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || a.name.localeCompare(b.name, 'he')
+      case 'placement': return compareOptionalNumber(a.placement, b.placement, 'asc') || a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || a.name.localeCompare(b.name, 'he')
       default: return a.season - b.season || (a.week ?? 999) - (b.week ?? 999) || (a.hostingOrder ?? 999) - (b.hostingOrder ?? 999) || a.name.localeCompare(b.name, 'he')
     }
   })
@@ -83,10 +87,21 @@ function dishPreview(entry: Contestant) {
   return source.slice(0, 3)
 }
 
+const presets = [
+  { href: '/explore?winner=yes', label: '🏆 כל הזוכים' },
+  { href: '/explore?menu=complete', label: '🍽️ תפריטים מלאים' },
+  { href: '/explore?season=10', label: 'עונה 10' },
+  { href: '/explore?variant=vegan', label: '🌱 מנות טבעוניות' },
+  { href: '/explore?variant=vegetarian', label: '🥬 מנות צמחוניות' },
+  { href: '/explore?sort=score-desc', label: '🔥 הציונים הגבוהים' },
+]
+
 export default async function ExplorePage({ searchParams }: { searchParams: SearchParams }) {
   const params = await searchParams
   const query = one(params.q)
   const season = numberParam(params.season)
+  const week = numberParam(params.week)
+  const hosting = numberParam(params.hosting)
   const winner = one(params.winner)
   const placement = numberParam(params.placement)
   const minScore = numberParam(params.minScore)
@@ -94,7 +109,11 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
   const minAge = numberParam(params.minAge)
   const maxAge = numberParam(params.maxAge)
   const city = one(params.city)
+  const region = one(params.region)
+  const occupation = one(params.occupation)
+  const entryType = one(params.entryType)
   const menu = one(params.menu)
+  const variant = one(params.variant)
   const requestedSort = one(params.sort)
   const sort: SortKey = ['season', 'score-desc', 'score-asc', 'age-desc', 'age-asc', 'hosting', 'placement'].includes(requestedSort)
     ? requestedSort as SortKey
@@ -104,6 +123,8 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
   const filtered = sortEntries(contestants.filter((entry) => {
     if (needle && !searchableText(entry).includes(needle)) return false
     if (season != null && entry.season !== season) return false
+    if (week != null && entry.week !== week) return false
+    if (hosting != null && entry.hostingOrder !== hosting) return false
     if (winner === 'yes' && !entry.winner) return false
     if (winner === 'no' && entry.winner) return false
     if (placement != null && entry.placement !== placement) return false
@@ -112,15 +133,24 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
     if (minAge != null && (entry.age == null || entry.age < minAge)) return false
     if (maxAge != null && (entry.age == null || entry.age > maxAge)) return false
     if (city && entry.city !== city) return false
+    if (region && entry.region !== region) return false
+    if (occupation && entry.occupation !== occupation) return false
+    if (entryType === 'couple' && entry.entryType !== 'couple') return false
+    if (entryType === 'individual' && entry.entryType === 'couple') return false
     if (menu === 'any' && entry.dishes.length === 0) return false
     if (menu === 'complete' && !hasCompletePrimaryMenu(entry)) return false
     if (menu === 'none' && entry.dishes.length !== 0) return false
+    if (variant === 'vegan' && !hasVariant(entry, 'vegan')) return false
+    if (variant === 'vegetarian' && !hasVariant(entry, 'vegetarian')) return false
     return true
   }), sort)
 
   const seasons = [...new Set(contestants.map((entry) => entry.season))].sort((a, b) => a - b)
+  const weeks = [...new Set(contestants.flatMap((entry) => entry.week != null ? [entry.week] : []))].sort((a, b) => a - b)
   const cities = [...new Set(contestants.flatMap((entry) => entry.city ? [entry.city] : []))].sort((a, b) => a.localeCompare(b, 'he'))
-  const activeFilterCount = [query, season, winner, placement, minScore, maxScore, minAge, maxAge, city, menu]
+  const regions = [...new Set(contestants.flatMap((entry) => entry.region ? [entry.region] : []))].sort((a, b) => a.localeCompare(b, 'he'))
+  const occupations = [...new Set(contestants.flatMap((entry) => entry.occupation ? [entry.occupation] : []))].sort((a, b) => a.localeCompare(b, 'he'))
+  const activeFilterCount = [query, season, week, hosting, winner, placement, minScore, maxScore, minAge, maxAge, city, region, occupation, entryType, menu, variant]
     .filter((value) => value !== undefined && value !== '').length
 
   return (
@@ -133,10 +163,15 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
             <Link className="creditsLink" href="/sources">מקורות →</Link>
           </div>
         </div>
-        <div className="eyebrow">Explorer · 289 יחידות תחרות</div>
+        <div className="eyebrow">Explorer · {contestants.length} יחידות תחרות</div>
         <h1>לחתוך את המאגר<br/><em>איך שבא לכם</em></h1>
         <p>חיפוש אחד על שמות, ערים, מקצועות ומנות — עם פילטרים שנשמרים בכתובת, כך שאפשר לשלוח בדיוק את אותה תוצאה למישהו אחר.</p>
       </section>
+
+      <nav className={styles.presets} aria-label="חיפושים מוכנים">
+        <span>קיצורי דרך:</span>
+        {presets.map((preset) => <Link key={preset.href} href={preset.href}>{preset.label}</Link>)}
+      </nav>
 
       <section className={styles.filterPanel} aria-label="סינון המאגר">
         <form className={styles.filters} action="/explore" method="get">
@@ -150,6 +185,22 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
             <select name="season" defaultValue={season ?? ''}>
               <option value="">כל העונות</option>
               {seasons.map((value) => <option key={value} value={value}>עונה {value}</option>)}
+            </select>
+          </label>
+
+          <label className={styles.field}>
+            <span>שבוע</span>
+            <select name="week" defaultValue={week ?? ''}>
+              <option value="">כל השבועות</option>
+              {weeks.map((value) => <option key={value} value={value}>שבוע {value}</option>)}
+            </select>
+          </label>
+
+          <label className={styles.field}>
+            <span>סדר אירוח</span>
+            <select name="hosting" defaultValue={hosting ?? ''}>
+              <option value="">כל הימים</option>
+              {[1,2,3,4,5].map((value) => <option key={value} value={value}>אירוח #{value}</option>)}
             </select>
           </label>
 
@@ -171,10 +222,35 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
           </label>
 
           <label className={styles.field}>
+            <span>יחיד / זוג</span>
+            <select name="entryType" defaultValue={entryType}>
+              <option value="">הכול</option>
+              <option value="individual">יחידים</option>
+              <option value="couple">זוגות</option>
+            </select>
+          </label>
+
+          <label className={styles.field}>
             <span>עיר</span>
             <select name="city" defaultValue={city}>
               <option value="">כל הערים</option>
               {cities.map((value) => <option key={value} value={value}>{value}</option>)}
+            </select>
+          </label>
+
+          <label className={styles.field}>
+            <span>אזור</span>
+            <select name="region" defaultValue={region}>
+              <option value="">כל האזורים</option>
+              {regions.map((value) => <option key={value} value={value}>{value}</option>)}
+            </select>
+          </label>
+
+          <label className={`${styles.field} ${styles.fieldOccupation}`}>
+            <span>מקצוע</span>
+            <select name="occupation" defaultValue={occupation}>
+              <option value="">כל המקצועות המתועדים</option>
+              {occupations.map((value) => <option key={value} value={value}>{value}</option>)}
             </select>
           </label>
 
@@ -195,8 +271,17 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
             <select name="menu" defaultValue={menu}>
               <option value="">הכול</option>
               <option value="any">יש לפחות מנה</option>
-              <option value="complete">3 מנות עיקריות מתועדות</option>
+              <option value="complete">ראשונה + עיקרית + קינוח</option>
               <option value="none">אין עדיין מנות</option>
+            </select>
+          </label>
+
+          <label className={styles.field}>
+            <span>חלופה מתועדת</span>
+            <select name="variant" defaultValue={variant}>
+              <option value="">הכול</option>
+              <option value="vegan">טבעונית</option>
+              <option value="vegetarian">צמחונית</option>
             </select>
           </label>
 
@@ -246,6 +331,7 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
                   <div className={styles.meta}>
                     {entry.score != null && <span>{entry.score} נק׳</span>}
                     {entry.placement != null && <span>מקום {entry.placement}</span>}
+                    {entry.hostingOrder != null && <span>אירוח #{entry.hostingOrder}</span>}
                     {entry.age != null && <span>גיל {entry.age}</span>}
                     {entry.city && <span>{entry.city}</span>}
                     {entry.occupation && <span>{entry.occupation}</span>}
@@ -253,7 +339,7 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
                   {preview.length > 0 && (
                     <div className={styles.dishes}>
                       {preview.map((dish) => (
-                        <span key={`${dish.course}-${dish.name}`}><strong>{dish.name}</strong>{dish.course === 'other' ? ' · מנה מתועדת' : ''}</span>
+                        <span key={`${dish.course}-${dishVariantKey(dish)}`}><strong>{dish.name}</strong>{dish.course === 'other' ? ' · מנה מתועדת' : ''}</span>
                       ))}
                     </div>
                   )}
@@ -275,4 +361,8 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
       <SiteFooter />
     </main>
   )
+}
+
+function dishVariantKey(dish: Dish) {
+  return `${dish.course}:${dish.variant ?? 'standard'}:${dish.name}`
 }
