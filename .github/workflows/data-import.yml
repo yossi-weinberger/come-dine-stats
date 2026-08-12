@@ -22,7 +22,9 @@ on:
       - 'scripts/coverage.ts'
       - 'scripts/menu-gaps.ts'
       - 'scripts/data-health.ts'
+      - 'scripts/check-competition-rules.ts'
       - 'scripts/stats.ts'
+      - 'lib/competition.ts'
       - 'scripts/update-readme-stats.ts'
       - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
@@ -85,6 +87,9 @@ jobs:
 
       - name: Validate data health
         run: npm run health
+
+      - name: Validate competition rules
+        run: npm run check:competition
 
       - name: Print stats
         run: npm run stats

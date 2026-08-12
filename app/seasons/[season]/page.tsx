@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { SourceBadge } from '@/components/source-badge'
 import { SiteFooter } from '@/components/site-footer'
+import { competitionEntries, competitionStatusLabel, knownScores } from '@/lib/competition'
 import { contestants } from '@/lib/data'
 import type { Contestant, Dish, SourceRef } from '@/lib/types'
 
@@ -45,6 +46,10 @@ function entryTypeLabel(entry: Contestant) {
 }
 
 function scoreLabel(entry: Contestant) {
+  if (entry.status === 'disqualified') {
+    if (entry.score != null) return `${entry.score} נק׳ לאחר פסילה`
+    return 'הציון בוטל עקב פסילה'
+  }
   return entry.score != null ? `${entry.score} נק׳` : 'ציון לא מתועד'
 }
 
@@ -90,10 +95,12 @@ export default async function SeasonPage({ params }: PageProps) {
         a.name.localeCompare(b.name, 'he'),
     )
 
-  const scores = entries.flatMap((entry) => (entry.score != null ? [entry.score] : []))
-  const winners = entries.filter((entry) => entry.winner)
+  const activeEntries = competitionEntries(entries)
+  const scores = knownScores(entries)
+  const winners = activeEntries.filter((entry) => entry.winner)
   const dishes = entries.reduce((sum, entry) => sum + entry.dishes.length, 0)
   const participants = entries.reduce((sum, entry) => sum + participantCount(entry), 0)
+  const exceptionalCount = entries.length - activeEntries.length
   const weekNumbers = [...new Set(entries.map((entry) => entry.week).filter((week): week is number => week != null))].sort((a, b) => a - b)
   const sources = uniqueSources(entries)
 
@@ -121,6 +128,7 @@ export default async function SeasonPage({ params }: PageProps) {
           <p>
             {participants} משתתפים, {weekNumbers.length || weeks.length} שבועות מתועדים ו-{winners.length} זוכים / זוגות זוכים.
             כל הנתונים בדף מגיעים מאותו מאגר source-first של האתר.
+            {exceptionalCount ? ` ${exceptionalCount} רשומות חריגות נשארות מוצגות אך מוחרגות מממוצעי התחרות.` : ''}
           </p>
         </div>
 
@@ -137,7 +145,7 @@ export default async function SeasonPage({ params }: PageProps) {
         <div><span>משתתפים</span><strong>{participants}</strong></div>
         <div><span>יחידות תחרות</span><strong>{entries.length}</strong></div>
         <div><span>שבועות</span><strong>{weekNumbers.length || weeks.length}</strong></div>
-        <div><span>ממוצע ציון מתועד</span><strong>{average(scores) ?? '—'}</strong></div>
+        <div><span>ממוצע ציון תחרותי</span><strong>{average(scores) ?? '—'}</strong></div>
         <div><span>ציון שיא</span><strong>{scores.length ? Math.max(...scores) : '—'}</strong></div>
         <div><span>מנות מתועדות</span><strong>{dishes}</strong></div>
       </section>
@@ -148,18 +156,20 @@ export default async function SeasonPage({ params }: PageProps) {
             <div className="eyebrow">השבועות</div>
             <h2 id="weeks-title">כך נראתה העונה</h2>
           </div>
-          <span>{scores.length}/{entries.length} רשומות עם ציון</span>
+          <span>{scores.length}/{activeEntries.length} רשומות תחרות פעילות עם ציון</span>
         </div>
 
         <div className="weekIndex">
           {weeks.map(([week, weekEntries]) => {
-            const weekScores = weekEntries.flatMap((entry) => (entry.score != null ? [entry.score] : []))
-            const weekWinners = weekEntries.filter((entry) => entry.winner)
+            const activeWeekEntries = competitionEntries(weekEntries)
+            const weekScores = knownScores(weekEntries)
+            const weekWinners = activeWeekEntries.filter((entry) => entry.winner)
+            const exceptional = weekEntries.length - activeWeekEntries.length
             return (
               <a key={week ?? 'unknown'} href={`#week-${week ?? 'unknown'}`}>
                 <span>{weekLabel(weekEntries, week)}</span>
                 <strong>{weekWinners.length ? `🏆 ${weekWinners.map((entry) => entry.name).join(', ')}` : 'ללא זוכה מתועד'}</strong>
-                <small>{weekEntries.length} יחידות · ממוצע {average(weekScores) ?? '—'}</small>
+                <small>{activeWeekEntries.length} יחידות פעילות · ממוצע {average(weekScores) ?? '—'}{exceptional ? ` · ${exceptional} חריגות` : ''}</small>
               </a>
             )
           })}
@@ -168,8 +178,9 @@ export default async function SeasonPage({ params }: PageProps) {
 
       <div className="seasonWeeks">
         {weeks.map(([week, weekEntries]) => {
-          const weekWinners = weekEntries.filter((entry) => entry.winner)
-          const weekScores = weekEntries.flatMap((entry) => (entry.score != null ? [entry.score] : []))
+          const activeWeekEntries = competitionEntries(weekEntries)
+          const weekWinners = activeWeekEntries.filter((entry) => entry.winner)
+          const weekScores = knownScores(weekEntries)
 
           return (
             <section className="weekSection" id={`week-${week ?? 'unknown'}`} key={week ?? 'unknown'}>
@@ -179,7 +190,7 @@ export default async function SeasonPage({ params }: PageProps) {
                   <h2>{weekWinners.length ? `המנצח: ${weekWinners.map((entry) => entry.name).join(', ')}` : 'תוצאות השבוע'}</h2>
                 </div>
                 <div className="weekScoreSummary">
-                  <span>ממוצע</span>
+                  <span>ממוצע תחרותי</span>
                   <strong>{average(weekScores) ?? '—'}</strong>
                 </div>
               </div>
@@ -187,6 +198,7 @@ export default async function SeasonPage({ params }: PageProps) {
               <div className="seasonEntries">
                 {weekEntries.map((entry) => {
                   const menu = primaryDishes(entry)
+                  const status = competitionStatusLabel(entry)
                   const entrySources = [...new Map(entry.sources.map((source) => [`${source.kind}:${source.url}`, source])).values()]
                   return (
                     <article className={`seasonEntry ${entry.winner ? 'winner' : ''}`} key={entry.slug}>
@@ -204,13 +216,14 @@ export default async function SeasonPage({ params }: PageProps) {
                               </Link>
                             </h3>
                             <p>
-                              {[entryTypeLabel(entry), entry.city, entry.age ? `גיל ${entry.age}` : null, entry.occupation]
+                              {[entryTypeLabel(entry), status, entry.city, entry.age ? `גיל ${entry.age}` : null, entry.occupation]
                                 .filter(Boolean)
                                 .join(' · ')}
                             </p>
                           </div>
                           <div className="seasonEntryScore">
                             <strong>{scoreLabel(entry)}</strong>
+                            {entry.status === 'disqualified' && entry.scoreBeforeAdjustment != null && <span>{entry.scoreBeforeAdjustment} נק׳ לפני הביטול</span>}
                             {entry.placement && <span>מקום {entry.placement}</span>}
                           </div>
                         </div>
