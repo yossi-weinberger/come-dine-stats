@@ -62,5 +62,8 @@ jobs:
       - name: Stats engine
         run: npm run check:stats
 
+      - name: Contestant routes
+        run: npm run check:routes
+
       - name: Build
         run: npm run build

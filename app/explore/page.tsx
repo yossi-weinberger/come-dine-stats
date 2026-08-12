@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { contestants } from '@/lib/data'
-import type { Contestant, Dish, DishVariant } from '@/lib/types'
+import { displayWeekName, variantLabel } from '@/lib/presentation'
+import type { Contestant, Dish } from '@/lib/types'
 import { SiteFooter } from '@/components/site-footer'
 import styles from './explore.module.css'
 
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>
 type SortKey = 'season' | 'score-desc' | 'score-asc' | 'age-desc' | 'age-asc' | 'hosting' | 'placement'
+type DietaryVariant = 'vegan' | 'vegetarian'
 
 const primaryCourses = ['starter', 'main', 'dessert'] as const
 
@@ -56,7 +58,7 @@ function hasCompletePrimaryMenu(entry: Contestant) {
   return primaryCourses.every((course) => courses.has(course))
 }
 
-function hasVariant(entry: Contestant, variant: 'vegan' | 'vegetarian') {
+function hasVariant(entry: Contestant, variant: DietaryVariant) {
   return entry.dishes.some((dish) => variantOf(dish) === variant)
 }
 
@@ -81,7 +83,11 @@ function sortEntries(entries: Contestant[], sort: SortKey) {
   })
 }
 
-function dishPreview(entry: Contestant) {
+function dishPreview(entry: Contestant, selectedVariant?: DietaryVariant) {
+  if (selectedVariant) {
+    return entry.dishes.filter((dish) => variantOf(dish) === selectedVariant).slice(0, 3)
+  }
+
   const primary = entry.dishes.filter((dish) => variantOf(dish) === 'standard' && primaryCourses.includes(dish.course as typeof primaryCourses[number]))
   const source = primary.length ? primary : entry.dishes
   return source.slice(0, 3)
@@ -91,8 +97,8 @@ const presets = [
   { href: '/explore?winner=yes', label: '🏆 כל הזוכים' },
   { href: '/explore?menu=complete', label: '🍽️ תפריטים מלאים' },
   { href: '/explore?season=10', label: 'עונה 10' },
-  { href: '/explore?variant=vegan', label: '🌱 מנות טבעוניות' },
-  { href: '/explore?variant=vegetarian', label: '🥬 מנות צמחוניות' },
+  { href: '/explore?variant=vegan', label: '🌱 יש חלופה טבעונית' },
+  { href: '/explore?variant=vegetarian', label: '🥬 יש חלופה צמחונית' },
   { href: '/explore?sort=score-desc', label: '🔥 הציונים הגבוהים' },
 ]
 
@@ -114,6 +120,7 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
   const entryType = one(params.entryType)
   const menu = one(params.menu)
   const variant = one(params.variant)
+  const selectedVariant: DietaryVariant | undefined = variant === 'vegan' || variant === 'vegetarian' ? variant : undefined
   const requestedSort = one(params.sort)
   const sort: SortKey = ['season', 'score-desc', 'score-asc', 'age-desc', 'age-asc', 'hosting', 'placement'].includes(requestedSort)
     ? requestedSort as SortKey
@@ -140,8 +147,7 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
     if (menu === 'any' && entry.dishes.length === 0) return false
     if (menu === 'complete' && !hasCompletePrimaryMenu(entry)) return false
     if (menu === 'none' && entry.dishes.length !== 0) return false
-    if (variant === 'vegan' && !hasVariant(entry, 'vegan')) return false
-    if (variant === 'vegetarian' && !hasVariant(entry, 'vegetarian')) return false
+    if (selectedVariant && !hasVariant(entry, selectedVariant)) return false
     return true
   }), sort)
 
@@ -150,7 +156,7 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
   const cities = [...new Set(contestants.flatMap((entry) => entry.city ? [entry.city] : []))].sort((a, b) => a.localeCompare(b, 'he'))
   const regions = [...new Set(contestants.flatMap((entry) => entry.region ? [entry.region] : []))].sort((a, b) => a.localeCompare(b, 'he'))
   const occupations = [...new Set(contestants.flatMap((entry) => entry.occupation ? [entry.occupation] : []))].sort((a, b) => a.localeCompare(b, 'he'))
-  const activeFilterCount = [query, season, week, hosting, winner, placement, minScore, maxScore, minAge, maxAge, city, region, occupation, entryType, menu, variant]
+  const activeFilterCount = [query, season, week, hosting, winner, placement, minScore, maxScore, minAge, maxAge, city, region, occupation, entryType, menu, selectedVariant]
     .filter((value) => value !== undefined && value !== '').length
 
   return (
@@ -278,10 +284,10 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
 
           <label className={styles.field}>
             <span>חלופה מתועדת</span>
-            <select name="variant" defaultValue={variant}>
+            <select name="variant" defaultValue={selectedVariant ?? ''}>
               <option value="">הכול</option>
-              <option value="vegan">טבעונית</option>
-              <option value="vegetarian">צמחונית</option>
+              <option value="vegan">יש חלופה טבעונית</option>
+              <option value="vegetarian">יש חלופה צמחונית</option>
             </select>
           </label>
 
@@ -320,11 +326,12 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
         {filtered.length ? (
           <div className={styles.grid}>
             {filtered.map((entry) => {
-              const preview = dishPreview(entry)
+              const preview = dishPreview(entry, selectedVariant)
+              const highlightedVariant = selectedVariant ? variantLabel(selectedVariant) : undefined
               return (
                 <Link className={styles.card} href={`/contestants/${entry.slug}`} key={entry.slug}>
                   <div className={styles.cardTop}>
-                    <span>עונה {entry.season}{entry.week ? ` · שבוע ${entry.week}` : ''}{entry.weekName ? ` · ${entry.weekName}` : ''}</span>
+                    <span>עונה {entry.season}{entry.week ? ` · שבוע ${entry.week}` : ''}{entry.weekName ? ` · ${displayWeekName(entry.weekName)}` : ''}</span>
                     {entry.winner ? <b>🏆 זוכה</b> : entry.status === 'disqualified' ? <b>נפסל/ה</b> : null}
                   </div>
                   <h3>{entry.name}</h3>
@@ -336,10 +343,14 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
                     {entry.city && <span>{entry.city}</span>}
                     {entry.occupation && <span>{entry.occupation}</span>}
                   </div>
+                  {highlightedVariant && <small>{highlightedVariant} מתועדת בתפריט:</small>}
                   {preview.length > 0 && (
                     <div className={styles.dishes}>
                       {preview.map((dish) => (
-                        <span key={`${dish.course}-${dishVariantKey(dish)}`}><strong>{dish.name}</strong>{dish.course === 'other' ? ' · מנה מתועדת' : ''}</span>
+                        <span key={`${dish.course}-${dishVariantKey(dish)}`}>
+                          <strong>{dish.name}</strong>
+                          {highlightedVariant ? ` · ${highlightedVariant}` : dish.course === 'other' ? ' · מנה מתועדת' : ''}
+                        </span>
                       ))}
                     </div>
                   )}
