@@ -15,6 +15,7 @@
     "import:supplemental-menus": "tsx scripts/import-supplemental-menus.ts",
     "import:supplemental-profiles": "tsx scripts/import-supplemental-profiles.ts",
     "enrich:kan-cities": "tsx scripts/enrich-kan-cities.ts",
+    "discover:kan-recipes": "tsx scripts/discover-kan-recipes.ts",
     "stats": "tsx scripts/stats.ts",
     "coverage": "tsx scripts/coverage.ts",
     "menu-gaps": "tsx scripts/menu-gaps.ts",
