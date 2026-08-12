@@ -3,7 +3,7 @@
   "summary": {
     "entries": 289,
     "errors": 0,
-    "warnings": 2,
+    "warnings": 1,
     "unresolvedConflicts": 3,
     "derivedPlacements": 27,
     "exceptionalStates": {
@@ -13,41 +13,6 @@
   },
   "errors": [],
   "warnings": [
-    {
-      "code": "duplicate-hosting-order",
-      "message": "Week 1:6 has duplicate hosting order values",
-      "context": {
-        "orders": [
-          2
-        ],
-        "entries": [
-          {
-            "name": "יעקוב חיאט",
-            "hostingOrder": 1
-          },
-          {
-            "name": "ענת דודי",
-            "hostingOrder": 2
-          },
-          {
-            "name": "שמירה ינקו-נוריאל",
-            "hostingOrder": 2
-          },
-          {
-            "name": "אילן אורן",
-            "hostingOrder": 3
-          },
-          {
-            "name": "עמית ילין",
-            "hostingOrder": 4
-          },
-          {
-            "name": "נורית בר-לוי",
-            "hostingOrder": 5
-          }
-        ]
-      }
-    },
     {
       "code": "source-conflicts",
       "message": "3 unresolved source conflicts remain",

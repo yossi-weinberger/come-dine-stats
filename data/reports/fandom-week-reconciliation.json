@@ -1,0 +1,36 @@
+{
+  "rule": "Correct a numeric Fandom week only when season + explicit weekName has at least 3 entries, one numeric week has >=3 supporters, and that support is uniquely highest.",
+  "corrections": [
+    {
+      "season": 1,
+      "weekName": "ירושלים",
+      "name": "ענת דודי",
+      "previousWeek": 6,
+      "resolvedWeek": 9,
+      "consensusSupport": 4,
+      "groupSize": 5,
+      "group": [
+        {
+          "name": "אולריך סאם",
+          "week": 9
+        },
+        {
+          "name": "איציק יעקב",
+          "week": 9
+        },
+        {
+          "name": "מיכל אזולאי",
+          "week": 9
+        },
+        {
+          "name": "מיקי לבני",
+          "week": 9
+        },
+        {
+          "name": "ענת דודי",
+          "week": 6
+        }
+      ]
+    }
+  ]
+}

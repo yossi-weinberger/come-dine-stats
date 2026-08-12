@@ -270,11 +270,6 @@
           "placement": 4
         },
         {
-          "name": "ענת דודי",
-          "score": 31,
-          "placement": 1
-        },
-        {
           "name": "שמירה ינקו-נוריאל",
           "score": 23,
           "placement": 4
@@ -337,6 +332,11 @@
           "name": "מיקי לבני",
           "score": 28,
           "placement": 2
+        },
+        {
+          "name": "ענת דודי",
+          "score": 31,
+          "placement": 1
         },
         {
           "name": "אולריך סאם",

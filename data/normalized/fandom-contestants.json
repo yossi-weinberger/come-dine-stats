@@ -7183,7 +7183,7 @@
     "slug": "1-ענת-דודי",
     "name": "ענת דודי",
     "season": 1,
-    "week": 6,
+    "week": 9,
     "weekName": "ירושלים",
     "hostingOrder": 2,
     "age": 41,
@@ -7278,6 +7278,12 @@
           "url": "https://comedinewithmeil.fandom.com/he/wiki/%D7%A2%D7%A0%D7%AA_%D7%93%D7%95%D7%93%D7%99",
           "license": "CC BY-SA 3.0 (unless otherwise noted by the wiki)",
           "note": "Direct article link preserved for attribution"
+        },
+        {
+          "kind": "derived",
+          "title": "Fandom week-name consensus reconciliation",
+          "url": "https://github.com/yossi-weinberger/come-dine-stats/blob/main/research/fandom-week-reconciliation.md",
+          "note": "Numeric week reconciled only when at least three same-season contestant pages agree on the week number for the same explicit week name and that consensus is unique."
         }
       ],
       "weekName": [
