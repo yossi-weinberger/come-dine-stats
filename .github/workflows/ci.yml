@@ -28,17 +28,24 @@ jobs:
       - name: Typecheck
         run: npm run lint
 
-      - name: Kan recipe discovery probe
-        env:
-          KAN_RECIPE_MODE: scan
-        run: npm run discover:kan-recipes
+      - name: Import official Kan recipes
+        run: npm run import:kan-recipes
 
-      - name: Upload Kan recipe discovery report
+      - name: Rebuild merged data with recipes
+        run: |
+          npm run merge
+          npm run coverage
+          npm run menu-gaps
+
+      - name: Upload Kan recipe validation reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: kan-recipe-discovery
-          path: artifacts/kan-recipe-discovery.json
+          name: kan-recipe-validation
+          path: |
+            data/reports/kan-recipe-import.json
+            data/reports/coverage.json
+            data/reports/menu-gaps.json
           if-no-files-found: error
           retention-days: 3
 
