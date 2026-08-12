@@ -5,10 +5,16 @@
 .hero h1 { font-size: clamp(50px, 8vw, 92px); margin: 26px 0 18px; }
 .hero p { max-width: 780px; margin: 0; color: var(--muted); font-size: 19px; line-height: 1.6; }
 
-.filterPanel { margin: 32px 0 26px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); padding: 18px; }
+.presets { margin: 22px 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.presets > span { color: var(--muted); font-size: 12px; font-weight: 800; margin-left: 4px; }
+.presets a { border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--ink); padding: 7px 11px; text-decoration: none; font-size: 12px; font-weight: 800; }
+.presets a:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+
+.filterPanel { margin: 18px 0 26px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); padding: 18px; }
 .filters { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 12px; align-items: end; }
 .field { display: flex; flex-direction: column; gap: 6px; grid-column: span 2; color: var(--muted); font-size: 12px; font-weight: 700; }
 .fieldWide { grid-column: span 4; }
+.fieldOccupation { grid-column: span 4; }
 .field input, .field select { width: 100%; min-height: 44px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); padding: 0 11px; outline: none; }
 .field input:focus, .field select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(222,75,44,.1); }
 .rangeGroup { grid-column: span 2; display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
@@ -43,15 +49,17 @@
 @media (max-width: 920px) {
   .filters { grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .field, .rangeGroup, .actions { grid-column: span 2; }
-  .fieldWide { grid-column: span 4; }
+  .fieldWide, .fieldOccupation { grid-column: span 4; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 640px) {
   .heroTop, .resultHeader { align-items: flex-start; flex-direction: column; }
+  .presets { align-items: flex-start; }
+  .presets > span { width: 100%; }
   .filters { grid-template-columns: 1fr 1fr; }
-  .field, .fieldWide, .rangeGroup { grid-column: span 1; }
-  .fieldWide { grid-column: 1 / -1; }
+  .field, .fieldWide, .fieldOccupation, .rangeGroup { grid-column: span 1; }
+  .fieldWide, .fieldOccupation { grid-column: 1 / -1; }
   .actions { grid-column: 1 / -1; }
   .grid { grid-template-columns: 1fr; }
 }
