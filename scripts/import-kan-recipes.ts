@@ -23,7 +23,7 @@ function normalizeWeekName(value?: string) {
 }
 
 function normalizeName(value: string) {
-  return value.normalize('NFKC').toLocaleLowerCase('he').replace(/["'״׳().,;:–—-]/g, ' ').replace(/\s+/g, ' ').trim()
+  return value.normalize('NFKC').toLocaleLowerCase('he').replace(/["'״׳]/g, '').replace(/[().,;:–—-]/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
 function nameTokens(value: string) {
@@ -70,9 +70,9 @@ function sourceFor(url: string, host: string): SourceRef {
 }
 
 function courseFromHeading(heading: string): Dish['course'] | null {
-  if (/^מנה\s+ראשונה(?:\s|:)/u.test(heading)) return 'starter'
-  if (/^מנה\s+עיקרית(?:\s|:)/u.test(heading)) return 'main'
-  if (/^קינוח(?:\s|:)/u.test(heading)) return 'dessert'
+  if (/^מנה\s+ראשונה(?:\s|:|[-–—])/u.test(heading)) return 'starter'
+  if (/^מנה\s+עיקרית(?:\s|:|[-–—])/u.test(heading)) return 'main'
+  if (/^קינוח(?:\s|:|[-–—])/u.test(heading)) return 'dessert'
   return null
 }
 
@@ -88,15 +88,16 @@ function dishFromHeading(rawHeading: string, source: SourceRef): Dish | null {
   if (!course) return null
   const variant = variantFromHeading(heading)
   const prefix = course === 'starter' ? /^מנה\s+ראשונה/u : course === 'main' ? /^מנה\s+עיקרית/u : /^קינוח/u
-  const value = compact(heading.replace(prefix, '').replace(/^\s+(?:טבעונית|טבעוני|צמחונית|צמחוני|צימחונית|צימחוני)/u, '').replace(/^\s*:\s*/u, ''))
+  const value = compact(heading.replace(prefix, '').replace(/^\s+(?:טבעונית|טבעוני|צמחונית|צמחוני|צימחונית|צימחוני)/u, '').replace(/^\s*[:–—-]\s*/u, ''))
   if (!value) return null
   const [namePart, ...descriptionParts] = value.split(/\s+-\s+/)
   const name = compact(namePart.replace(/^["“”]|["“”]$/g, ''))
   if (!name) return null
+  const courseLabel = course === 'starter' ? 'מנה ראשונה' : course === 'main' ? 'מנה עיקרית' : 'קינוח'
   return {
     course,
     variant,
-    label: heading.slice(0, heading.indexOf(':') > -1 ? heading.indexOf(':') : heading.length),
+    label: variant === 'standard' ? courseLabel : `${courseLabel} ${variant === 'vegan' ? 'טבעונית' : 'צמחונית'}`,
     name,
     description: compact(descriptionParts.join(' - ')) || undefined,
     tags: variant === 'standard' ? undefined : [variant === 'vegan' ? 'טבעונית' : 'צמחונית'],
