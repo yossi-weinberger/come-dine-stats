@@ -6,10 +6,7 @@ import './analytics.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: {
-    default: SITE_NAME,
-    template: `%s — ${SITE_NAME}`,
-  },
+  title: SITE_NAME,
   description: SITE_DESCRIPTION,
   openGraph: {
     type: 'website',
