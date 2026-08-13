@@ -22,6 +22,7 @@ const cases = [
 const historicalCases = [
   ['רועי וחגית – נשואים +2, מתל אביב.', { name: 'רועי וחגית', city: 'תל אביב', relationshipStatus: 'נשואים +2' }],
   ["יעל ונועה – נשואות בשנית +1, מפדיה.", { name: 'יעל ונועה', city: 'פדיה', relationshipStatus: 'נשואות בשנית +1' }],
+  ["קובי אפלבוים ולנה אגרנוביץ' – בהורות משותפת +1, מרמת גן.", { name: "קובי אפלבוים ולנה אגרנוביץ'", city: 'רמת גן', relationshipStatus: 'בהורות משותפת +1' }],
 ] as const
 
 function definedFields(value: Record<string, unknown> | null) {
