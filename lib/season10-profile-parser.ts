@@ -7,7 +7,7 @@ export type WikipediaParticipant = {
 
 export type Season10Participant = WikipediaParticipant
 
-const RELATIONSHIP_STATUS_PATTERN = /(?:נשוי|נשואה|נשואים|נשואות|גרוש|גרושה|גרושים|גרושות|אלמן|אלמנה|אלמנים|אלמנות|רווק|רווקה|רווקים|רווקות|פרוד|פרודה|פרודים|פרודות|בזוגיות)/u
+const RELATIONSHIP_STATUS_PATTERN = /(?:נשוי|נשואה|נשואים|נשואות|גרוש|גרושה|גרושים|גרושות|אלמן|אלמנה|אלמנים|אלמנות|רווק|רווקה|רווקים|רווקות|פרוד|פרודה|פרודים|פרודות|בזוגיות|בהורות משותפת|הורות משותפת)/u
 
 function compact(value: string) {
   return value.replace(/\s+/g, ' ').trim()
