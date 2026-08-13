@@ -28,6 +28,9 @@ jobs:
       - name: Typecheck
         run: npm run lint
 
+      - name: Season 10 profile parser regressions
+        run: npm run check:season10-profile
+
       - name: Import official Kan recipes
         run: npm run import:kan-recipes
 
