@@ -21,6 +21,27 @@ export function hasExplicitRelationshipStatus(value: string) {
   return RELATIONSHIP_STATUS_PATTERN.test(value)
 }
 
+function isValidCityPrefix(value: string) {
+  const prefix = compact(value.replace(/[\s,]+$/u, ''))
+  return !prefix || /^\+\d+$/u.test(prefix) || hasExplicitRelationshipStatus(prefix)
+}
+
+function splitTrailingCity(value: string) {
+  const markerPattern = /(?:^|[\s,])מ(?=\S)/gu
+  for (const match of value.matchAll(markerPattern)) {
+    if (match.index == null) continue
+    const separatorLength = match[0].length - 1
+    const markerIndex = match.index + separatorLength
+    const prefix = compact(value.slice(0, match.index).replace(/[\s,]+$/u, ''))
+    if (!isValidCityPrefix(prefix)) continue
+
+    const city = compact(value.slice(markerIndex + 1).replace(/[.,]\s*$/, ''))
+    if (!city) continue
+    return { prefix, city }
+  }
+  return { prefix: value, city: undefined }
+}
+
 export function parseWikipediaParticipant(text: string): WikipediaParticipant | null {
   const clean = stripReferences(text).replace(/\s*\.\s*$/, '')
   const separator = clean.match(/\s+[–—-]\s+/u)
@@ -33,19 +54,10 @@ export function parseWikipediaParticipant(text: string): WikipediaParticipant | 
   const ageMatch = detail.match(/ב[ןת]\s+(\d{1,3})/u)
   const age = ageMatch ? Number(ageMatch[1]) : undefined
 
-  let city: string | undefined
-  const cityMatch = detail.match(/(?:^|[\s,])מ(\S(?:.*\S)?)$/u)
-  if (cityMatch && cityMatch.index != null) {
-    city = compact(cityMatch[1].replace(/[.,]\s*$/, ''))
-    detail = compact(detail.slice(0, cityMatch.index).replace(/[\s,]+$/u, ''))
-  }
-
-  detail = compact(
-    detail
-      .replace(/^ב[ןת]\s+\d{1,3}\s*,?\s*/u, '')
-      .replace(/^,\s*/, '')
-      .replace(/,\s*$/, ''),
-  )
+  detail = compact(detail.replace(/^ב[ןת]\s+\d{1,3}\s*,?\s*/u, '').replace(/^,\s*/, ''))
+  const citySplit = splitTrailingCity(detail)
+  const city = citySplit.city
+  detail = compact(citySplit.prefix.replace(/^,\s*/, '').replace(/,\s*$/, ''))
 
   const relationshipStatus = detail && hasExplicitRelationshipStatus(detail) ? detail : undefined
   return { name, age, city, relationshipStatus }
