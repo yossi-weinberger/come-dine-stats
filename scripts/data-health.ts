@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import type { Contestant } from '../lib/types'
+import { hasExplicitRelationshipStatus } from '../lib/season10-profile-parser'
 
 const normalizedFile = new URL('../data/normalized/contestants.json', import.meta.url)
 const reportsDir = new URL('../data/reports/', import.meta.url)
@@ -44,6 +45,24 @@ function isCompetitionActive(entry: Contestant) {
   return entry.status !== 'guest' && entry.status !== 'withdrawn' && entry.status !== 'disqualified'
 }
 
+function normalizeSemanticValue(value: string) {
+  return value
+    .normalize('NFKC')
+    .replace(/[^\p{L}\p{N}]+/gu, '')
+    .toLowerCase()
+}
+
+function findLeakedCity(value: string, knownCities: Map<string, string>) {
+  const normalized = normalizeSemanticValue(value)
+  for (const [cityKey, city] of knownCities) {
+    if (cityKey.length < 3) continue
+    if (normalized === cityKey || normalized === `מ${cityKey}` || normalized.endsWith(`מ${cityKey}`)) {
+      return city
+    }
+  }
+  return undefined
+}
+
 async function main() {
   await mkdir(reportsDir, { recursive: true })
 
@@ -55,6 +74,11 @@ async function main() {
   const errors: Finding[] = []
   const warnings: Finding[] = []
   const seen = new Set<string>()
+  const knownCities = new Map<string, string>()
+  for (const entry of entries) {
+    if (!entry.city) continue
+    knownCities.set(normalizeSemanticValue(entry.city), entry.city)
+  }
 
   for (const entry of entries) {
     const key = entityKey(entry)
@@ -73,6 +97,45 @@ async function main() {
 
     if (entry.placement != null && (!Number.isInteger(entry.placement) || entry.placement < 1)) {
       errors.push({ code: 'invalid-placement', message: `Invalid placement for ${entry.name}`, context: { placement: entry.placement, key } })
+    }
+
+    if (entry.age != null && (!Number.isInteger(entry.age) || entry.age < 18 || entry.age > 100)) {
+      warnings.push({
+        code: 'implausible-age',
+        message: `Age is outside the expected adult contestant range: ${entry.name}`,
+        context: { age: entry.age, key },
+      })
+    }
+
+    if (entry.relationshipStatus) {
+      const leakedCity = findLeakedCity(entry.relationshipStatus, knownCities)
+      if (leakedCity) {
+        warnings.push({
+          code: 'relationship-location-leak',
+          message: `Relationship status appears to contain a location for ${entry.name}`,
+          context: { relationshipStatus: entry.relationshipStatus, matchedCity: leakedCity, key },
+        })
+      }
+    }
+
+    if (entry.city && hasExplicitRelationshipStatus(entry.city)) {
+      warnings.push({
+        code: 'city-relationship-leak',
+        message: `City appears to contain relationship-status text for ${entry.name}`,
+        context: { city: entry.city, key },
+      })
+    }
+
+    if (entry.occupation) {
+      const occupationKey = normalizeSemanticValue(entry.occupation)
+      const matchedCity = knownCities.get(occupationKey)
+      if (matchedCity) {
+        warnings.push({
+          code: 'occupation-location-leak',
+          message: `Occupation exactly matches a known location for ${entry.name}`,
+          context: { occupation: entry.occupation, matchedCity, key },
+        })
+      }
     }
 
     if (entry.status === 'disqualified') {
