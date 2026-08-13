@@ -9450,7 +9450,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
-        "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
+        "note": "Official Kan episode 2; host matched by structured hosting order"
       },
       {
         "kind": "kan",
@@ -9484,14 +9484,6 @@
           "note": "Official Kan episode 2; host matched by structured hosting order"
         }
       ],
-      "city": [
-        {
-          "kind": "kan",
-          "title": "כאן 11 — בואו לאכול איתי",
-          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
-          "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
-        }
-      ],
       "dishes": [
         {
           "kind": "kan",
@@ -9500,8 +9492,7 @@
           "note": "Official Kan recipe page; only explicitly labeled courses are imported."
         }
       ]
-    },
-    "city": "נווה דניאל"
+    }
   },
   {
     "slug": "s10-יגאל-טמיר",
@@ -10695,7 +10686,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
-        "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
+        "note": "Official Kan episode 13; host matched by structured hosting order"
       },
       {
         "kind": "kan",
@@ -10729,14 +10720,6 @@
           "note": "Official Kan episode 13; host matched by structured hosting order"
         }
       ],
-      "city": [
-        {
-          "kind": "kan",
-          "title": "כאן 11 — בואו לאכול איתי",
-          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
-          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
-        }
-      ],
       "dishes": [
         {
           "kind": "kan",
@@ -10745,8 +10728,7 @@
           "note": "Official Kan recipe page; only explicitly labeled courses are imported."
         }
       ]
-    },
-    "city": "כליל"
+    }
   },
   {
     "slug": "s10-מירן-הולדשטיין",

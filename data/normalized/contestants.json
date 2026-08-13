@@ -52724,7 +52724,6 @@
     "hostingOrder": 1,
     "age": 44,
     "city": "מלחה",
-    "relationshipStatus": "+4",
     "score": 29,
     "winner": false,
     "dishes": [
@@ -52906,16 +52905,6 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "relationshipStatus": [
-        {
-          "kind": "wikipedia",
-          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
-          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
-          "author": "ויקיפדיה העברית — עורכים שונים",
-          "license": "CC BY-SA 4.0",
-          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
-        }
-      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -52948,6 +52937,7 @@
       ],
       "region": [],
       "occupation": [],
+      "relationshipStatus": [],
       "gender": [],
       "diet": [],
       "scoreBeforeAdjustment": [],
@@ -52970,7 +52960,8 @@
     "weekName": "ירושלים",
     "hostingOrder": 2,
     "age": 28,
-    "relationshipStatus": "גרוש +1 מנווה דניאל",
+    "city": "נווה דניאל",
+    "relationshipStatus": "גרוש +1",
     "score": 26,
     "winner": false,
     "dishes": [
@@ -53030,7 +53021,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
-        "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
+        "note": "Official Kan episode 2; host matched by structured hosting order"
       },
       {
         "kind": "kan",
@@ -53060,7 +53051,7 @@
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
-          "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
+          "note": "Official Kan episode 2; host matched by structured hosting order"
         },
         {
           "kind": "kan",
@@ -53082,7 +53073,7 @@
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
-          "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
+          "note": "Official Kan episode 2; host matched by structured hosting order"
         },
         {
           "kind": "kan",
@@ -53149,6 +53140,16 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
       "relationshipStatus": [
         {
           "kind": "wikipedia",
@@ -53189,14 +53190,6 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [
-        {
-          "kind": "kan",
-          "title": "כאן 11 — בואו לאכול איתי",
-          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
-          "note": "Official Kan episode 2; city extracted from an explicit host-local location phrase"
-        }
-      ],
       "region": [],
       "occupation": [
         {
@@ -53215,7 +53208,6 @@
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/"
     ],
-    "city": "נווה דניאל",
     "occupation": "עובד באולם אירועים"
   },
   {
@@ -53231,7 +53223,8 @@
     "weekName": "ירושלים",
     "hostingOrder": 3,
     "age": 79,
-    "relationshipStatus": "נשוי פעם שנייה משורש",
+    "city": "שורש",
+    "relationshipStatus": "נשוי פעם שנייה",
     "score": 28,
     "winner": false,
     "dishes": [
@@ -53403,6 +53396,16 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
       "relationshipStatus": [
         {
           "kind": "wikipedia",
@@ -53443,7 +53446,6 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [],
       "region": [],
       "occupation": [],
       "gender": [],
@@ -53468,7 +53470,7 @@
     "weekName": "ירושלים",
     "hostingOrder": 4,
     "age": 52,
-    "relationshipStatus": "מנחלאות",
+    "city": "נחלאות",
     "score": 30,
     "placement": 1,
     "winner": true,
@@ -53644,7 +53646,7 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "relationshipStatus": [
+      "city": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
@@ -53694,9 +53696,9 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [],
       "region": [],
       "occupation": [],
+      "relationshipStatus": [],
       "gender": [],
       "diet": [],
       "scoreBeforeAdjustment": []
@@ -54206,7 +54208,8 @@
     "weekName": "השפלה",
     "hostingOrder": 2,
     "age": 55,
-    "relationshipStatus": "גרוש +3 מנס ציונה",
+    "city": "נס ציונה",
+    "relationshipStatus": "גרוש +3",
     "score": 32,
     "dishes": [
       {
@@ -54380,6 +54383,16 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
       "relationshipStatus": [
         {
           "kind": "wikipedia",
@@ -54410,7 +54423,6 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [],
       "region": [],
       "occupation": [],
       "gender": [],
@@ -54436,7 +54448,8 @@
     "weekName": "השפלה",
     "hostingOrder": 3,
     "age": 35,
-    "relationshipStatus": "נשואה ממזכרת בתיה",
+    "city": "מזכרת בתיה",
+    "relationshipStatus": "נשואה",
     "score": 27,
     "dishes": [
       {
@@ -54610,6 +54623,16 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
       "relationshipStatus": [
         {
           "kind": "wikipedia",
@@ -54640,7 +54663,6 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [],
       "region": [],
       "occupation": [],
       "gender": [],
@@ -54666,7 +54688,8 @@
     "weekName": "השפלה",
     "hostingOrder": 4,
     "age": 30,
-    "relationshipStatus": "נשואה +2 מרחובות",
+    "city": "רחובות",
+    "relationshipStatus": "נשואה +2",
     "score": 31,
     "dishes": [
       {
@@ -54840,6 +54863,16 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
       "relationshipStatus": [
         {
           "kind": "wikipedia",
@@ -54870,7 +54903,6 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [],
       "region": [],
       "occupation": [],
       "gender": [],
@@ -54896,7 +54928,8 @@
     "weekName": "השפלה",
     "hostingOrder": 5,
     "age": 61,
-    "relationshipStatus": "נשוי +4 מגנות",
+    "city": "גנות",
+    "relationshipStatus": "נשוי +4",
     "score": 31,
     "dishes": [
       {
@@ -55081,6 +55114,16 @@
           "note": "Interview published during season 10 explicitly identifies Dray as a sexologist, age 61, and a full participant."
         }
       ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
       "relationshipStatus": [
         {
           "kind": "wikipedia",
@@ -55111,7 +55154,6 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [],
       "region": [],
       "occupation": [
         {
@@ -55411,7 +55453,7 @@
     "weekName": "צפון",
     "hostingOrder": 2,
     "age": 50,
-    "relationshipStatus": "+1 מכרמיאל",
+    "city": "כרמיאל",
     "score": 33,
     "winner": false,
     "dishes": [
@@ -55586,7 +55628,7 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "relationshipStatus": [
+      "city": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
@@ -55626,9 +55668,9 @@
           "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [],
       "region": [],
       "occupation": [],
+      "relationshipStatus": [],
       "gender": [],
       "diet": [],
       "scoreBeforeAdjustment": [],
@@ -55650,7 +55692,7 @@
     "week": 3,
     "weekName": "צפון",
     "hostingOrder": 3,
-    "relationshipStatus": "מכליל",
+    "city": "כליל",
     "score": 28,
     "winner": false,
     "dishes": [
@@ -55710,7 +55752,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
-        "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
+        "note": "Official Kan episode 13; host matched by structured hosting order"
       },
       {
         "kind": "kan",
@@ -55733,7 +55775,7 @@
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
-          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
+          "note": "Official Kan episode 13; host matched by structured hosting order"
         },
         {
           "kind": "kan",
@@ -55755,7 +55797,7 @@
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
-          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
+          "note": "Official Kan episode 13; host matched by structured hosting order"
         },
         {
           "kind": "kan",
@@ -55812,7 +55854,7 @@
           "note": "Official Kan episode 13; host matched by structured hosting order"
         }
       ],
-      "relationshipStatus": [
+      "city": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
@@ -55853,16 +55895,9 @@
         }
       ],
       "age": [],
-      "city": [
-        {
-          "kind": "kan",
-          "title": "כאן 11 — בואו לאכול איתי",
-          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
-          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
-        }
-      ],
       "region": [],
       "occupation": [],
+      "relationshipStatus": [],
       "gender": [],
       "diet": [],
       "scoreBeforeAdjustment": [],
@@ -55870,8 +55905,7 @@
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/"
-    ],
-    "city": "כליל"
+    ]
   },
   {
     "slug": "s10-מירן-הולדשטיין",
@@ -55885,7 +55919,8 @@
     "week": 3,
     "weekName": "צפון",
     "hostingOrder": 4,
-    "relationshipStatus": "נשואה מחיפה",
+    "city": "חיפה",
+    "relationshipStatus": "נשואה",
     "score": 28,
     "winner": false,
     "dishes": [
@@ -56049,6 +56084,16 @@
           "note": "Official Kan episode 14; host matched by structured hosting order"
         }
       ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
       "relationshipStatus": [
         {
           "kind": "wikipedia",
@@ -56090,7 +56135,6 @@
         }
       ],
       "age": [],
-      "city": [],
       "region": [],
       "occupation": [],
       "gender": [],
@@ -56114,7 +56158,8 @@
     "week": 3,
     "weekName": "צפון",
     "hostingOrder": 5,
-    "relationshipStatus": "נשוי +1 מקריית אתא",
+    "city": "קריית אתא",
+    "relationshipStatus": "נשוי +1",
     "placement": 1,
     "winner": true,
     "dishes": [
@@ -56281,6 +56326,16 @@
           "note": "Official Kan episode 15; host matched by structured hosting order"
         }
       ],
+      "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 10 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_10&oldid=43736954",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Rolling season import from revision 43736954; factual competition metadata with revision-level attribution"
+        }
+      ],
       "relationshipStatus": [
         {
           "kind": "wikipedia",
@@ -56322,7 +56377,6 @@
         }
       ],
       "age": [],
-      "city": [],
       "region": [],
       "occupation": [],
       "gender": [],
