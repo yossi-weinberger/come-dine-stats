@@ -17599,6 +17599,7 @@
     "weekName": "תל אביב",
     "hostingOrder": 1,
     "city": "תל אביב",
+    "relationshipStatus": "נשואים +2",
     "score": 28,
     "winner": false,
     "dishes": [],
@@ -17664,6 +17665,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
@@ -17850,6 +17861,7 @@
     "weekName": "תל אביב",
     "hostingOrder": 3,
     "city": "יפו",
+    "relationshipStatus": "נשואים +1",
     "placement": 1,
     "winner": true,
     "dishes": [],
@@ -17924,6 +17936,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "placement": [
         {
           "kind": "wikipedia",
@@ -17970,6 +17992,7 @@
     "weekName": "מישור החוף הצפוני",
     "hostingOrder": 1,
     "city": "חיפה",
+    "relationshipStatus": "נשואים בפרק ב'",
     "score": 33,
     "placement": 1,
     "winner": true,
@@ -18045,6 +18068,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -18101,6 +18134,7 @@
     "weekName": "מישור החוף הצפוני",
     "hostingOrder": 2,
     "city": "פרדס חנה",
+    "relationshipStatus": "נשואים",
     "score": 21,
     "winner": false,
     "dishes": [],
@@ -18175,6 +18209,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -18221,6 +18265,7 @@
     "weekName": "מישור החוף הצפוני",
     "hostingOrder": 3,
     "city": "טירת הכרמל",
+    "relationshipStatus": "נשואים +1",
     "placement": 2,
     "winner": false,
     "dishes": [],
@@ -18295,6 +18340,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "placement": [
         {
           "kind": "wikipedia",
@@ -18341,6 +18396,7 @@
     "weekName": "אוכל כשר",
     "hostingOrder": 1,
     "city": "נחושה",
+    "relationshipStatus": "נשואים +4",
     "score": 26,
     "winner": false,
     "dishes": [],
@@ -18406,6 +18462,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
@@ -18592,6 +18658,7 @@
     "weekName": "אוכל כשר",
     "hostingOrder": 3,
     "city": "כפר תפוח",
+    "relationshipStatus": "נשואים +4",
     "placement": 1,
     "winner": true,
     "dishes": [],
@@ -18666,6 +18733,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "placement": [
         {
           "kind": "wikipedia",
@@ -18712,6 +18789,7 @@
     "weekName": "מחוז המרכז",
     "hostingOrder": 1,
     "city": "רעננה",
+    "relationshipStatus": "נשואים",
     "score": 24,
     "winner": false,
     "dishes": [],
@@ -18786,6 +18864,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -18832,6 +18920,7 @@
     "weekName": "מחוז המרכז",
     "hostingOrder": 2,
     "city": "רחובות",
+    "relationshipStatus": "נשואים +1",
     "score": 25,
     "winner": false,
     "dishes": [],
@@ -18906,6 +18995,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -18952,6 +19051,7 @@
     "weekName": "מחוז המרכז",
     "hostingOrder": 3,
     "city": "רמלה",
+    "relationshipStatus": "נשואים +1",
     "placement": 1,
     "winner": true,
     "dishes": [],
@@ -19026,6 +19126,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "placement": [
         {
           "kind": "wikipedia",
@@ -19072,6 +19182,7 @@
     "weekName": "גוש דן",
     "hostingOrder": 1,
     "city": "חולון",
+    "relationshipStatus": "נשואים +3",
     "score": 28,
     "placement": 1,
     "winner": true,
@@ -19138,6 +19249,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
@@ -19466,6 +19587,7 @@
     "weekName": "ירושלים",
     "hostingOrder": 1,
     "city": "פסגת זאב",
+    "relationshipStatus": "נשואים +3",
     "score": 25,
     "winner": false,
     "dishes": [],
@@ -19540,6 +19662,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -19586,6 +19718,7 @@
     "weekName": "ירושלים",
     "hostingOrder": 2,
     "city": "מלחה",
+    "relationshipStatus": "נשואים",
     "score": 29,
     "placement": 1,
     "winner": true,
@@ -19661,6 +19794,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -19717,6 +19860,7 @@
     "weekName": "ירושלים",
     "hostingOrder": 3,
     "city": "עין כרם",
+    "relationshipStatus": "נשואים",
     "score": 25,
     "winner": false,
     "dishes": [],
@@ -19782,6 +19926,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
@@ -19968,6 +20122,7 @@
     "weekName": "אזור השרון",
     "hostingOrder": 2,
     "city": "כפר מל\"ל",
+    "relationshipStatus": "נשואים",
     "score": 28,
     "winner": false,
     "dishes": [],
@@ -20042,6 +20197,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -20088,6 +20253,7 @@
     "weekName": "אזור השרון",
     "hostingOrder": 3,
     "city": "נתניה",
+    "relationshipStatus": "נשואים",
     "placement": 1,
     "winner": true,
     "dishes": [],
@@ -20153,6 +20319,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
@@ -20666,6 +20842,7 @@
     "weekName": "העמקים והקריות",
     "hostingOrder": 2,
     "city": "מלאה",
+    "relationshipStatus": "נשואים",
     "score": 28,
     "winner": false,
     "dishes": [],
@@ -20731,6 +20908,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
@@ -21048,6 +21235,7 @@
     "weekName": "השרון ומישור החוף",
     "hostingOrder": 2,
     "city": "נתניה",
+    "relationshipStatus": "נשואים",
     "score": 27,
     "placement": 1,
     "winner": true,
@@ -21123,6 +21311,16 @@
           "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -21179,6 +21377,7 @@
     "weekName": "השרון ומישור החוף",
     "hostingOrder": 3,
     "city": "תל אביב",
+    "relationshipStatus": "נשואים",
     "placement": 3,
     "winner": false,
     "dishes": [],
@@ -21244,6 +21443,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_3&oldid=43385404",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385404; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 3 — ויקיפדיה העברית",
@@ -21572,6 +21781,7 @@
     "weekName": "דרום",
     "hostingOrder": 3,
     "city": "ירוחם",
+    "relationshipStatus": "נשואים +4",
     "score": 26,
     "winner": false,
     "dishes": [],
@@ -21646,6 +21856,16 @@
           "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -21692,6 +21912,7 @@
     "weekName": "מישור החוף הצפוני",
     "hostingOrder": 1,
     "city": "חיפה",
+    "relationshipStatus": "נשואים",
     "score": 27,
     "placement": 1,
     "winner": true,
@@ -21767,6 +21988,16 @@
           "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -21823,6 +22054,7 @@
     "weekName": "מישור החוף הצפוני",
     "hostingOrder": 2,
     "city": "נהריה",
+    "relationshipStatus": "נשואות",
     "score": 23,
     "winner": false,
     "dishes": [],
@@ -21888,6 +22120,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
@@ -21943,6 +22185,7 @@
     "weekName": "מישור החוף הצפוני",
     "hostingOrder": 3,
     "city": "קריית חיים",
+    "relationshipStatus": "נשואים",
     "score": 23,
     "winner": false,
     "dishes": [],
@@ -22008,6 +22251,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
@@ -22205,6 +22458,7 @@
     "weekName": "השומרון וקו התפר",
     "hostingOrder": 2,
     "city": "אורנית",
+    "relationshipStatus": "נשואים +3",
     "score": 20,
     "winner": false,
     "dishes": [],
@@ -22279,6 +22533,16 @@
           "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -22325,6 +22589,7 @@
     "weekName": "השומרון וקו התפר",
     "hostingOrder": 3,
     "city": "אריאל",
+    "relationshipStatus": "נשואים +3",
     "placement": 2,
     "winner": false,
     "dishes": [],
@@ -22390,6 +22655,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
@@ -22794,6 +23069,7 @@
     "weekName": "מרכז",
     "hostingOrder": 1,
     "city": "יקום",
+    "relationshipStatus": "נשואים +1",
     "score": 30,
     "placement": 1,
     "winner": true,
@@ -22869,6 +23145,16 @@
           "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -22925,6 +23211,7 @@
     "weekName": "מרכז",
     "hostingOrder": 2,
     "city": "תל אביב",
+    "relationshipStatus": "נשואים +1",
     "score": 26,
     "winner": false,
     "dishes": [],
@@ -22990,6 +23277,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
@@ -23308,6 +23605,7 @@
     "weekName": "ספיישל כשר",
     "hostingOrder": 2,
     "city": "בית אל",
+    "relationshipStatus": "נשואים",
     "score": 20,
     "winner": false,
     "dishes": [],
@@ -23373,6 +23671,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
@@ -23559,6 +23867,7 @@
     "weekName": "השפלה והמרכז",
     "hostingOrder": 1,
     "city": "פדיה",
+    "relationshipStatus": "נשואות בשנית +1",
     "score": 24,
     "winner": false,
     "dishes": [],
@@ -23624,6 +23933,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
@@ -23799,6 +24118,7 @@
     "weekName": "השפלה והמרכז",
     "hostingOrder": 3,
     "city": "תל אביב",
+    "relationshipStatus": "נשואים",
     "score": 25,
     "placement": 1,
     "winner": true,
@@ -23874,6 +24194,16 @@
           "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
         }
       ],
+      "relationshipStatus": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -23930,6 +24260,7 @@
     "weekName": "תל אביב יפו",
     "hostingOrder": 1,
     "city": "דרום תל אביב",
+    "relationshipStatus": "נשואים",
     "score": 27,
     "winner": false,
     "dishes": [],
@@ -23995,6 +24326,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
@@ -24181,6 +24522,7 @@
     "weekName": "תל אביב יפו",
     "hostingOrder": 3,
     "city": "יפו ד'",
+    "relationshipStatus": "נשואים +2",
     "placement": 1,
     "winner": true,
     "dishes": [],
@@ -24246,6 +24588,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
