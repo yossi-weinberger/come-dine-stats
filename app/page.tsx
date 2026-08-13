@@ -22,6 +22,7 @@ export default function Home() {
         <div className="heroTop">
           <div className="eyebrow">פרויקט לא-רשמי • v0.4 • source-first</div>
           <div className="heroLinks">
+            <Link className="creditsLink" href="/contestants">כל המשתתפים →</Link>
             <Link className="creditsLink" href="/explore">חיפוש מתקדם →</Link>
             <Link className="creditsLink" href="/stats">סטטיסטיקות →</Link>
             <Link className="creditsLink" href="/sources">מקורות וקרדיטים →</Link>
