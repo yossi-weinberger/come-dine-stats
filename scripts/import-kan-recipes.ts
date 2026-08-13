@@ -105,6 +105,25 @@ function dishFromHeading(rawHeading: string, source: SourceRef): Dish | null {
   }
 }
 
+function normalizeDietaryPrimaryDishes(dishes: Dish[]) {
+  return dishes.map((dish) => {
+    const variant = dish.variant ?? 'standard'
+    if (variant !== 'vegan' && variant !== 'vegetarian') return dish
+
+    const sameCourse = dishes.filter((candidate) => candidate.course === dish.course)
+    const hasStandardSibling = sameCourse.some((candidate) => (candidate.variant ?? 'standard') === 'standard')
+
+    // A heading such as "מנה ראשונה טבעונית" describes the primary course when
+    // it is the only documented dish for that course. It is an alternative only
+    // when the same official menu also contains a standard sibling for the course.
+    if (!hasStandardSibling && sameCourse.length === 1) {
+      return { ...dish, variant: 'standard' as const }
+    }
+
+    return dish
+  })
+}
+
 function parseRecipePage(url: string, html: string): RecipePage | null {
   const $ = cheerio.load(html)
   const ogTitle = $('meta[property="og:title"]').attr('content')
@@ -126,7 +145,7 @@ function parseRecipePage(url: string, html: string): RecipePage | null {
   const dishes = $('h1,h2,h3,h4,h5').map((_, element) => dishFromHeading($(element).text(), source)).get()
     .filter((dish): dish is Dish => Boolean(dish))
   const uniqueDishes = [...new Map(dishes.map((dish) => [`${dish.course}:${dish.variant}:${normalizeName(dish.name)}`, dish])).values()]
-  return { url, title, season, weekName, host, dishes: uniqueDishes }
+  return { url, title, season, weekName, host, dishes: normalizeDietaryPrimaryDishes(uniqueDishes) }
 }
 
 function candidateFrom(row: Contestant): Candidate {
@@ -232,8 +251,10 @@ async function main() {
   }
 
   const completeStandard = (dishes: Dish[]) => ['starter','main','dessert'].every((course) => dishes.some((dish) => dish.course === course && (dish.variant ?? 'standard') === 'standard'))
+  const dietaryPrimaryDishes = enriched.flatMap((result) => result.page.dishes)
+    .filter((dish) => (dish.variant ?? 'standard') === 'standard' && (dish.tags ?? []).some((tag) => /טבעונ|צמחונ/u.test(tag)))
   const report = {
-    rule: 'Enrich only existing Kan contestant rows from official Kan recipe pages with explicit season + week + host metadata, explicit course headings, and a unique safe match within the same season/week.',
+    rule: 'Enrich only existing Kan contestant rows from official Kan recipe pages with explicit season + week + host metadata, explicit course headings, and a unique safe match within the same season/week. A dietary heading is a primary dish when it is the only documented dish for that course; it is an alternative only when a standard sibling exists on the same official menu.',
     recipeArchivePages: urls.length,
     fetchedPages: urls.length - errors.length,
     showPages: showPages.length,
@@ -241,12 +262,13 @@ async function main() {
     matchedMenus: enriched.length,
     matchedDishes: enriched.reduce((sum, result) => sum + result.page.dishes.length, 0),
     completeStandardMenus: enriched.filter((result) => completeStandard(result.page.dishes)).length,
+    dietaryPrimaryDishes: dietaryPrimaryDishes.length,
     matchStrategies: Object.fromEntries(['exact-name','token-subset','unique-first-name'].map((strategy) => [strategy, enriched.filter((result) => result.strategy === strategy).length])),
     bySeason: Object.fromEntries([...new Set(enriched.map((result) => result.page.season as number))].sort((a,b) => a-b).map((season) => [season, enriched.filter((result) => result.page.season === season).length])),
     errors,
     noKanTarget: noKanTarget.map((result) => ({ url: result.page.url, season: result.page.season, weekName: result.page.weekName, host: result.page.host, contestant: result.candidate.name, strategy: result.strategy })),
     unmatched: unmatched.map(({ page, reason, candidates }) => ({ url: page.url, season: page.season, weekName: page.weekName, host: page.host, title: page.title, dishes: page.dishes.length, reason, candidates })),
-    matched: enriched.map(({ page, candidate, strategy }) => ({ url: page.url, season: page.season, weekName: page.weekName, recipeHost: page.host, contestant: candidate.name, strategy, dishes: page.dishes.map((dish) => ({ course: dish.course, variant: dish.variant ?? 'standard', name: dish.name })) })),
+    matched: enriched.map(({ page, candidate, strategy }) => ({ url: page.url, season: page.season, weekName: page.weekName, recipeHost: page.host, contestant: candidate.name, strategy, dishes: page.dishes.map((dish) => ({ course: dish.course, variant: dish.variant ?? 'standard', tags: dish.tags, name: dish.name })) })),
   }
 
   await writeFile(kanFile, JSON.stringify(kanRows, null, 2))
@@ -258,6 +280,7 @@ async function main() {
     matchedMenus: report.matchedMenus,
     matchedDishes: report.matchedDishes,
     completeStandardMenus: report.completeStandardMenus,
+    dietaryPrimaryDishes: report.dietaryPrimaryDishes,
     matchStrategies: report.matchStrategies,
     bySeason: report.bySeason,
     unmatched: report.unmatched.length,
