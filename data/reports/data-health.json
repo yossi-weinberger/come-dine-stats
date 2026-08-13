@@ -3,7 +3,7 @@
   "summary": {
     "entries": 289,
     "errors": 0,
-    "warnings": 7,
+    "warnings": 1,
     "unresolvedConflicts": 3,
     "derivedPlacements": 27,
     "exceptionalStates": {
@@ -13,60 +13,6 @@
   },
   "errors": [],
   "warnings": [
-    {
-      "code": "relationship-location-leak",
-      "message": "Relationship status appears to contain a location for חגי מדי וגל שימרון",
-      "context": {
-        "relationshipStatus": "מרחובות",
-        "matchedCity": "רחובות",
-        "key": "4:חגימדיוגלשימרון"
-      }
-    },
-    {
-      "code": "relationship-location-leak",
-      "message": "Relationship status appears to contain a location for יהודית קונפורטי",
-      "context": {
-        "relationshipStatus": "מרמת גן",
-        "matchedCity": "רמת גן",
-        "key": "6:יהודיתקונפורטי"
-      }
-    },
-    {
-      "code": "relationship-location-leak",
-      "message": "Relationship status appears to contain a location for ירון ליברמן",
-      "context": {
-        "relationshipStatus": "מגבעתיים",
-        "matchedCity": "גבעתיים",
-        "key": "8:ירוןליברמן"
-      }
-    },
-    {
-      "code": "relationship-location-leak",
-      "message": "Relationship status appears to contain a location for זהר יוספיאן",
-      "context": {
-        "relationshipStatus": "מתל אביב",
-        "matchedCity": "תל אביב",
-        "key": "9:זהריוספיאן"
-      }
-    },
-    {
-      "code": "relationship-location-leak",
-      "message": "Relationship status appears to contain a location for קארין מקס",
-      "context": {
-        "relationshipStatus": "מנתניה",
-        "matchedCity": "נתניה",
-        "key": "9:קאריןמקס"
-      }
-    },
-    {
-      "code": "relationship-location-leak",
-      "message": "Relationship status appears to contain a location for אורי זיצ'ק",
-      "context": {
-        "relationshipStatus": "מדאלית אל-כרמל",
-        "matchedCity": "דאלית אל-כרמל",
-        "key": "9:אוריזיצק"
-      }
-    },
     {
       "code": "source-conflicts",
       "message": "3 unresolved source conflicts remain",

@@ -5458,7 +5458,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
-        "note": "Official Kan episode 17; city extracted from an explicit host-local location phrase"
+        "note": "Official Kan episode 17; host matched by structured hosting order"
       },
       {
         "kind": "kan",
@@ -5492,14 +5492,6 @@
           "note": "Official Kan episode 17; host matched by structured hosting order"
         }
       ],
-      "city": [
-        {
-          "kind": "kan",
-          "title": "כאן 11 — בואו לאכול איתי",
-          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
-          "note": "Official Kan episode 17; city extracted from an explicit host-local location phrase"
-        }
-      ],
       "dishes": [
         {
           "kind": "kan",
@@ -5508,8 +5500,7 @@
           "note": "Official Kan recipe page; only explicitly labeled courses are imported."
         }
       ]
-    },
-    "city": "גבעתיים"
+    }
   },
   {
     "slug": "s8-עמנואל-יצחק-לוי",
@@ -8465,7 +8456,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
-        "note": "Official Kan episode 18; city extracted from an explicit host-local location phrase"
+        "note": "Official Kan episode 18; host matched by structured hosting order"
       },
       {
         "kind": "kan",
@@ -8499,14 +8490,6 @@
           "note": "Official Kan episode 18; host matched by structured hosting order"
         }
       ],
-      "city": [
-        {
-          "kind": "kan",
-          "title": "כאן 11 — בואו לאכול איתי",
-          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
-          "note": "Official Kan episode 18; city extracted from an explicit host-local location phrase"
-        }
-      ],
       "dishes": [
         {
           "kind": "kan",
@@ -8515,8 +8498,7 @@
           "note": "Official Kan recipe page; only explicitly labeled courses are imported."
         }
       ]
-    },
-    "city": "דלית אל-כרמל"
+    }
   },
   {
     "slug": "s9-מאיה-לב-קורן",
