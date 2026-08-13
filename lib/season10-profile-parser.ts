@@ -1,9 +1,11 @@
-export type Season10Participant = {
+export type WikipediaParticipant = {
   name: string
   age?: number
   city?: string
   relationshipStatus?: string
 }
+
+export type Season10Participant = WikipediaParticipant
 
 const RELATIONSHIP_STATUS_PATTERN = /(?:נשוי|נשואה|גרוש|גרושה|אלמן|אלמנה|רווק|רווקה|פרוד|פרודה|בזוגיות)/u
 
@@ -19,7 +21,7 @@ export function hasExplicitRelationshipStatus(value: string) {
   return RELATIONSHIP_STATUS_PATTERN.test(value)
 }
 
-export function parseSeason10Participant(text: string): Season10Participant | null {
+export function parseWikipediaParticipant(text: string): WikipediaParticipant | null {
   const clean = stripReferences(text).replace(/\s*\.\s*$/, '')
   const separator = clean.match(/\s+[–—-]\s+/u)
   if (!separator || separator.index == null) return null
@@ -48,3 +50,5 @@ export function parseSeason10Participant(text: string): Season10Participant | nu
   const relationshipStatus = detail && hasExplicitRelationshipStatus(detail) ? detail : undefined
   return { name, age, city, relationshipStatus }
 }
+
+export const parseSeason10Participant = parseWikipediaParticipant
