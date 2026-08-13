@@ -1,12 +1,13 @@
 {
-  "rule": "Enrich only existing Kan contestant rows from official Kan recipe pages with explicit season + week + host metadata, explicit course headings, and a unique safe match within the same season/week.",
+  "rule": "Enrich only existing Kan contestant rows from official Kan recipe pages with explicit season + week + host metadata, explicit course headings, and a unique safe match within the same season/week. A dietary heading is a primary dish when it is the only documented dish for that course; it is an alternative only when a standard sibling exists on the same official menu.",
   "recipeArchivePages": 308,
   "fetchedPages": 308,
   "showPages": 102,
   "structuredMenuPages": 72,
   "matchedMenus": 63,
   "matchedDishes": 198,
-  "completeStandardMenus": 56,
+  "completeStandardMenus": 62,
+  "dietaryPrimaryDishes": 6,
   "matchStrategies": {
     "exact-name": 35,
     "token-subset": 26,
@@ -458,7 +459,10 @@
       "dishes": [
         {
           "course": "starter",
-          "variant": "vegan",
+          "variant": "standard",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "הולנד\"- חגיגה של עולש וליקוטים עם מרק גזרים מקורמלים במייפל, וערמונים וסירות אנדיב עם קוביות סלק, גבינות/גבינות טבעוניות/עלי ליקוט"
         },
         {
@@ -513,7 +517,10 @@
         },
         {
           "course": "main",
-          "variant": "vegetarian",
+          "variant": "standard",
+          "tags": [
+            "צמחונית"
+          ],
           "name": "פויקה ציידים/מנה צמחונית: פויקה לקטים"
         },
         {
@@ -593,7 +600,10 @@
         },
         {
           "course": "dessert",
-          "variant": "vegan",
+          "variant": "standard",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "מלבי טבעוני עם רוטב תותים"
         }
       ]
@@ -638,7 +648,10 @@
         },
         {
           "course": "main",
-          "variant": "vegetarian",
+          "variant": "standard",
+          "tags": [
+            "צמחונית"
+          ],
           "name": "מקרוני אטריות דקיקות בטעם מיוחד עם מרק ירקות ועוף (בלי עוף לצמחוני)"
         },
         {
@@ -719,6 +732,9 @@
         {
           "course": "main",
           "variant": "vegan",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "סטייק טופו על קרם ארטישוק עם עגבניות שרי צלויות ושום קונפי"
         },
         {
@@ -729,6 +745,9 @@
         {
           "course": "dessert",
           "variant": "vegan",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "קצפת צמחית בתוספת פירות יער טריים לצד תה מסורתי"
         }
       ]
@@ -749,6 +768,9 @@
         {
           "course": "starter",
           "variant": "vegan",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "מאפה 12 האלים"
         },
         {
@@ -759,6 +781,9 @@
         {
           "course": "main",
           "variant": "vegan",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "חציל קלוי במילוי ירקות שורש עם תפוחי אדמה בגריל, ברוטב עשבי תיבול ולימון"
         },
         {
@@ -789,6 +814,9 @@
         {
           "course": "main",
           "variant": "vegan",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "קציצות טופו ברוטב אדום"
         },
         {
@@ -814,6 +842,9 @@
         {
           "course": "starter",
           "variant": "vegan",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "קובה בורגול מטוגנת במילוי פטריות"
         },
         {
@@ -824,6 +855,9 @@
         {
           "course": "main",
           "variant": "vegan",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "קרפלך במילוי תפוחי אדמה ברוטב לצד פרנה"
         },
         {
@@ -974,6 +1008,9 @@
         {
           "course": "starter",
           "variant": "vegetarian",
+          "tags": [
+            "צמחונית"
+          ],
           "name": "כדורי חורשט סבזי צמחוניים מטוגנים, מוגשים על איולי לימון פרסי"
         },
         {
@@ -984,6 +1021,9 @@
         {
           "course": "main",
           "variant": "vegetarian",
+          "tags": [
+            "צמחונית"
+          ],
           "name": "טורטליני טופו בתיבול מרוקאי ויקיטורי טופו במרינדה אסלית"
         },
         {
@@ -1403,7 +1443,10 @@
       "dishes": [
         {
           "course": "starter",
-          "variant": "vegan",
+          "variant": "standard",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "מרק בוטנים מערב אפריקאי (טבעוני וללא גלוטן)"
         },
         {
@@ -1589,6 +1632,9 @@
         {
           "course": "main",
           "variant": "vegan",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "המבורגר מעדשים על מצע של סלט ים תיכוני"
         },
         {
@@ -1633,7 +1679,10 @@
       "dishes": [
         {
           "course": "starter",
-          "variant": "vegan",
+          "variant": "standard",
+          "tags": [
+            "טבעונית"
+          ],
           "name": "״המנה של המלך״"
         },
         {

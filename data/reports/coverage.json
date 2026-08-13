@@ -904,16 +904,16 @@
         "percent": 55
       },
       "threePrimaryCourses": {
-        "count": 147,
-        "percent": 50.9
+        "count": 153,
+        "percent": 52.9
       },
       "vegetarianAlternative": {
-        "count": 18,
-        "percent": 6.2
+        "count": 16,
+        "percent": 5.5
       },
       "veganAlternative": {
-        "count": 15,
-        "percent": 5.2
+        "count": 11,
+        "percent": 3.8
       },
       "dishesByCourse": {
         "starter": 171,
@@ -922,9 +922,9 @@
         "other": 5
       },
       "dishesByVariant": {
-        "standard": 463,
-        "vegetarian": 28,
-        "vegan": 23,
+        "standard": 469,
+        "vegetarian": 26,
+        "vegan": 19,
         "alternative": 0
       },
       "missingThreePrimaryCourses": [
@@ -1062,14 +1062,8 @@
         "אסף איפרגן",
         "אבינועם נתנאל",
         "איתמר גרובר",
-        "יהונתן מקרוב",
-        "עמית שאטו",
-        "משה ניסימפור",
         "אילנה בן אבו",
-        "גל בן דוד",
-        "אבנית סטרולוב",
-        "חיה לב",
-        "אלירן בוחבוט"
+        "אבנית סטרולוב"
       ]
     }
   },
@@ -2773,16 +2767,16 @@
           "percent": 96
         },
         "threePrimaryCourses": {
-          "count": 19,
-          "percent": 76
+          "count": 23,
+          "percent": 92
         },
         "vegetarianAlternative": {
-          "count": 2,
-          "percent": 8
+          "count": 0,
+          "percent": 0
         },
         "veganAlternative": {
-          "count": 2,
-          "percent": 8
+          "count": 0,
+          "percent": 0
         },
         "dishesByCourse": {
           "starter": 23,
@@ -2791,18 +2785,14 @@
           "other": 1
         },
         "dishesByVariant": {
-          "standard": 68,
-          "vegetarian": 2,
-          "vegan": 2,
+          "standard": 72,
+          "vegetarian": 0,
+          "vegan": 0,
           "alternative": 0
         },
         "missingThreePrimaryCourses": [
           "איתמר גרובר",
-          "יהונתן מקרוב",
-          "עמית שאטו",
-          "משה ניסימפור",
-          "אילנה בן אבו",
-          "גל בן דוד"
+          "אילנה בן אבו"
         ]
       }
     },
@@ -3188,16 +3178,16 @@
           "percent": 100
         },
         "threePrimaryCourses": {
-          "count": 13,
-          "percent": 86.7
+          "count": 15,
+          "percent": 100
         },
         "vegetarianAlternative": {
           "count": 0,
           "percent": 0
         },
         "veganAlternative": {
-          "count": 3,
-          "percent": 20
+          "count": 1,
+          "percent": 6.7
         },
         "dishesByCourse": {
           "starter": 15,
@@ -3206,15 +3196,12 @@
           "other": 0
         },
         "dishesByVariant": {
-          "standard": 43,
+          "standard": 45,
           "vegetarian": 0,
-          "vegan": 3,
+          "vegan": 1,
           "alternative": 0
         },
-        "missingThreePrimaryCourses": [
-          "חיה לב",
-          "אלירן בוחבוט"
-        ]
+        "missingThreePrimaryCourses": []
       }
     }
   },
