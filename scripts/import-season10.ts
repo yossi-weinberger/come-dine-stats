@@ -1,13 +1,11 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import * as cheerio from 'cheerio'
 import type { Contestant, SourceRef } from '../lib/types'
-
-type ParsedParticipant = {
-  name: string
-  age?: number
-  city?: string
-  relationshipStatus?: string
-}
+import {
+  hasExplicitRelationshipStatus,
+  parseSeason10Participant,
+  type Season10Participant,
+} from '../lib/season10-profile-parser'
 
 type ParsedRow = {
   hostingOrder?: number
@@ -71,29 +69,6 @@ function parsePlacement(value: string) {
   return undefined
 }
 
-function parseParticipant(text: string): ParsedParticipant | null {
-  const clean = stripReferences(text).replace(/\s*\.\s*$/, '')
-  const separator = clean.match(/\s+[–—-]\s+/u)
-  if (!separator || separator.index == null) return null
-
-  const name = compact(clean.slice(0, separator.index))
-  let detail = compact(clean.slice(separator.index + separator[0].length))
-  if (!name) return null
-
-  const ageMatch = detail.match(/ב[ןת]\s+(\d{1,3})/u)
-  const age = ageMatch ? Number(ageMatch[1]) : undefined
-
-  let city: string | undefined
-  const cityMatch = detail.match(/,\s*מ(.+?)$/u)
-  if (cityMatch) {
-    city = compact(cityMatch[1].replace(/\.$/, ''))
-    detail = compact(detail.slice(0, cityMatch.index))
-  }
-
-  detail = compact(detail.replace(/^ב[ןת]\s+\d{1,3}\s*,?\s*/u, '').replace(/^,\s*/, ''))
-  return { name, age, city, relationshipStatus: detail || undefined }
-}
-
 function participantMatchesRow(participantName: string, rowName: string) {
   const participant = normalizeName(participantName)
   const row = normalizeName(rowName)
@@ -139,11 +114,11 @@ function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRo
 }
 
 function bestParticipantList($: cheerio.CheerioAPI, siblings: cheerio.Cheerio<any>[]) {
-  let best: ParsedParticipant[] = []
+  let best: Season10Participant[] = []
   for (const list of allNodeMatches($, siblings, 'ul')) {
     const parsed = list.find('li').toArray()
-      .map((li) => parseParticipant($(li).text()))
-      .filter((item): item is ParsedParticipant => Boolean(item))
+      .map((li) => parseSeason10Participant($(li).text()))
+      .filter((item): item is Season10Participant => Boolean(item))
     if (parsed.length > best.length) best = parsed
   }
   return best
@@ -239,7 +214,7 @@ function extractSeason(html: string, source: SourceRef): Extraction {
     if (!participants.length && !rows.length) return
 
     const winner = inferSafeWinner(rows)
-    const canonical: Array<{ row: ParsedRow; participant?: ParsedParticipant }> = rows.length
+    const canonical: Array<{ row: ParsedRow; participant?: Season10Participant }> = rows.length
       ? rows.map((row) => ({ row, participant: participants.find((item) => participantMatchesRow(item.name, row.tableName)) }))
       : participants.map((participant) => ({ row: { tableName: participant.name, status: 'active' }, participant }))
 
@@ -298,7 +273,7 @@ function mergePreviousFields(current: Contestant[], previous: Contestant[]) {
     if (!old) return item
 
     const merged = { ...item } as Contestant
-    const fields = ['hostingOrder', 'age', 'city', 'relationshipStatus', 'score', 'placement', 'winner'] as const
+    const fields = ['hostingOrder', 'age', 'city', 'score', 'placement', 'winner'] as const
     for (const field of fields) {
       if (merged[field] === undefined && old[field] !== undefined) {
         ;(merged as any)[field] = old[field]
@@ -307,6 +282,21 @@ function mergePreviousFields(current: Contestant[], previous: Contestant[]) {
         }
       }
     }
+
+    if (
+      merged.relationshipStatus === undefined
+      && old.relationshipStatus !== undefined
+      && hasExplicitRelationshipStatus(old.relationshipStatus)
+    ) {
+      merged.relationshipStatus = old.relationshipStatus
+      if (old.fieldSources?.relationshipStatus) {
+        merged.fieldSources = {
+          ...(merged.fieldSources ?? {}),
+          relationshipStatus: old.fieldSources.relationshipStatus,
+        }
+      }
+    }
+
     return merged
   })
 }
