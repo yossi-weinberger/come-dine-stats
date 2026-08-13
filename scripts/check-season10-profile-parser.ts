@@ -19,8 +19,13 @@ const cases = [
   ['אלירן בוחבוט – נשוי +1 מקריית אתא.', { name: 'אלירן בוחבוט', city: 'קריית אתא', relationshipStatus: 'נשוי +1' }],
 ] as const
 
+function definedFields(value: Record<string, unknown> | null) {
+  if (!value) return value
+  return Object.fromEntries(Object.entries(value).filter(([, item]) => item !== undefined))
+}
+
 for (const [input, expected] of cases) {
-  assert.deepEqual(parseSeason10Participant(input), expected, input)
+  assert.deepEqual(definedFields(parseSeason10Participant(input)), expected, input)
 }
 
 console.log(`Season 10 profile parser: ${cases.length} regression cases passed`)
