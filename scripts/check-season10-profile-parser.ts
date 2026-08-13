@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { parseSeason10Participant } from '../lib/season10-profile-parser'
+import { parseSeason10Participant, parseWikipediaParticipant } from '../lib/season10-profile-parser'
 
 const cases = [
   ['רועי גולן – בן 44, +4, ממלחה.', { name: 'רועי גולן', age: 44, city: 'מלחה' }],
@@ -19,6 +19,11 @@ const cases = [
   ['אלירן בוחבוט – נשוי +1 מקריית אתא.', { name: 'אלירן בוחבוט', city: 'קריית אתא', relationshipStatus: 'נשוי +1' }],
 ] as const
 
+const historicalCases = [
+  ['רועי וחגית – נשואים +2, מתל אביב.', { name: 'רועי וחגית', city: 'תל אביב', relationshipStatus: 'נשואים +2' }],
+  ["יעל ונועה – נשואות בשנית +1, מפדיה.", { name: 'יעל ונועה', city: 'פדיה', relationshipStatus: 'נשואות בשנית +1' }],
+] as const
+
 function definedFields(value: Record<string, unknown> | null) {
   if (!value) return value
   return Object.fromEntries(Object.entries(value).filter(([, item]) => item !== undefined))
@@ -28,4 +33,8 @@ for (const [input, expected] of cases) {
   assert.deepEqual(definedFields(parseSeason10Participant(input)), expected, input)
 }
 
-console.log(`Season 10 profile parser: ${cases.length} regression cases passed`)
+for (const [input, expected] of historicalCases) {
+  assert.deepEqual(definedFields(parseWikipediaParticipant(input)), expected, input)
+}
+
+console.log(`Wikipedia profile parser: ${cases.length + historicalCases.length} regression cases passed`)
