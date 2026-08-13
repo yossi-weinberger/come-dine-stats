@@ -1,6 +1,6 @@
 {
-  "considered": 2,
-  "enriched": 1,
+  "considered": 3,
+  "enriched": 2,
   "policy": "Only fill a city when Wikipedia has no city and the matched Kan episode contains an explicit host-local place phrase.",
   "diagnostics": [
     {
@@ -15,6 +15,13 @@
       "episode": 18,
       "city": "תל אביב",
       "text": "פרק 18 - שבוע מרכז, יום ג' ביום השלישי החבורה תגיע לעמנואל, מורה לתנ\"ך וסולן להקה מדרום תל אביב"
+    },
+    {
+      "season": 9,
+      "name": "חן (חנצ'ה) יאיר",
+      "episode": 13,
+      "city": "תל אביב",
+      "text": "פרק 13 - שבוע תל אביב, יום ג' היום השלישי לתחרות בתל אביב והערב מגיעים כולם לבית של חנצ'ה"
     }
   ]
 }

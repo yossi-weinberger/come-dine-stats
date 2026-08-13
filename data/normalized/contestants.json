@@ -23341,7 +23341,8 @@
     "week": 5,
     "weekName": "מרכז",
     "hostingOrder": 3,
-    "city": "שותפת +1, מרמת גן",
+    "city": "רמת גן",
+    "relationshipStatus": "בהורות משותפת +1",
     "placement": 3,
     "winner": false,
     "dishes": [],
@@ -23407,6 +23408,16 @@
         }
       ],
       "city": [
+        {
+          "kind": "wikipedia",
+          "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
+          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_4&oldid=43385476",
+          "author": "ויקיפדיה העברית — עורכים שונים",
+          "license": "CC BY-SA 4.0",
+          "note": "Imported from revision 43385476; factual competition metadata with revision-level attribution"
+        }
+      ],
+      "relationshipStatus": [
         {
           "kind": "wikipedia",
           "title": "בואו לאכול איתי עונה 4 — ויקיפדיה העברית",
@@ -49518,7 +49529,6 @@
     "weekName": "תל אביב",
     "hostingOrder": 3,
     "age": 27,
-    "city": "דרום תל אביב",
     "score": 29,
     "winner": false,
     "dishes": [
@@ -49579,7 +49589,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
-        "note": "Official Kan episode 13; host matched by structured hosting order"
+        "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
       },
       {
         "kind": "kan",
@@ -49602,7 +49612,7 @@
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
-          "note": "Official Kan episode 13; host matched by structured hosting order"
+          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
         },
         {
           "kind": "kan",
@@ -49624,7 +49634,7 @@
           "kind": "kan",
           "title": "כאן 11 — בואו לאכול איתי",
           "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
-          "note": "Official Kan episode 13; host matched by structured hosting order"
+          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
         },
         {
           "kind": "kan",
@@ -49691,16 +49701,6 @@
           "note": "Imported from revision 43526353; factual competition metadata with revision-level attribution"
         }
       ],
-      "city": [
-        {
-          "kind": "wikipedia",
-          "title": "בואו לאכול איתי עונה 9 — ויקיפדיה העברית",
-          "url": "https://he.wikipedia.org/w/index.php?title=%D7%91%D7%95%D7%90%D7%95_%D7%9C%D7%90%D7%9B%D7%95%D7%9C_%D7%90%D7%99%D7%AA%D7%99_%D7%A2%D7%95%D7%A0%D7%94_9&oldid=43526353",
-          "author": "ויקיפדיה העברית — עורכים שונים",
-          "license": "CC BY-SA 4.0",
-          "note": "Imported from revision 43526353; factual competition metadata with revision-level attribution"
-        }
-      ],
       "score": [
         {
           "kind": "wikipedia",
@@ -49731,6 +49731,14 @@
           "note": "Imported from revision 43526353; factual competition metadata with revision-level attribution"
         }
       ],
+      "city": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
+          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
+        }
+      ],
       "region": [],
       "occupation": [],
       "relationshipStatus": [],
@@ -49741,7 +49749,8 @@
     },
     "episodeUrls": [
       "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/"
-    ]
+    ],
+    "city": "תל אביב"
   },
   {
     "slug": "s9-אתי-גלבוע",

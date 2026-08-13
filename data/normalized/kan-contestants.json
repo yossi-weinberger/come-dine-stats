@@ -7910,7 +7910,7 @@
         "kind": "kan",
         "title": "כאן 11 — בואו לאכול איתי",
         "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
-        "note": "Official Kan episode 13; host matched by structured hosting order"
+        "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
       },
       {
         "kind": "kan",
@@ -7944,6 +7944,14 @@
           "note": "Official Kan episode 13; host matched by structured hosting order"
         }
       ],
+      "city": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
+          "note": "Official Kan episode 13; city extracted from an explicit host-local location phrase"
+        }
+      ],
       "dishes": [
         {
           "kind": "kan",
@@ -7952,7 +7960,8 @@
           "note": "Official Kan recipe page; only explicitly labeled courses are imported."
         }
       ]
-    }
+    },
+    "city": "תל אביב"
   },
   {
     "slug": "s9-אתי-גלבוע",
