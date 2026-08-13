@@ -25,9 +25,11 @@ on:
       - 'scripts/data-health.ts'
       - 'scripts/check-competition-rules.ts'
       - 'scripts/check-stats-engine.ts'
+      - 'scripts/check-season10-profile-parser.ts'
       - 'scripts/stats.ts'
       - 'lib/competition.ts'
       - 'lib/stats-engine.ts'
+      - 'lib/season10-profile-parser.ts'
       - 'scripts/update-readme-stats.ts'
       - 'data/wikipedia-season-pages.json'
       - 'data/kan-season-pages.json'
@@ -93,6 +95,9 @@ jobs:
 
       - name: Validate data health
         run: npm run health
+
+      - name: Validate season 10 profile parser
+        run: npm run check:season10-profile
 
       - name: Validate competition rules
         run: npm run check:competition
