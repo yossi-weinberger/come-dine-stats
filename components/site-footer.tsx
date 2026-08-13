@@ -8,6 +8,7 @@ export function SiteFooter() {
         <p>פרויקט מעריצים לא-רשמי. כל נתון נשמר עם המקור שממנו נלקח.</p>
       </div>
       <nav aria-label="קישורי אתר ומקור">
+        <Link href="/contestants">כל המשתתפים</Link>
         <Link href="/winners">כל הזוכים</Link>
         <Link href="/records">שיאים ורשומות</Link>
         <Link href="/menus">התפריטים</Link>
