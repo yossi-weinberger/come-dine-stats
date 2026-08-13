@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import * as cheerio from 'cheerio'
 import type { Contestant, SourceRef } from '../lib/types'
+import { parseWikipediaParticipant, type WikipediaParticipant } from '../lib/season10-profile-parser'
 
 type SeasonConfig = {
   season: number
@@ -8,13 +9,6 @@ type SeasonConfig = {
   entryType: 'individual' | 'couple'
   expectedEntries: number
   expectedWeeks: number
-}
-
-type ParsedParticipant = {
-  name: string
-  age?: number
-  city?: string
-  relationshipStatus?: string
 }
 
 type ParsedRow = {
@@ -107,29 +101,6 @@ function parseMembers(name: string, entryType: SeasonConfig['entryType']) {
   return parts
 }
 
-function parseParticipant(text: string): ParsedParticipant | null {
-  const clean = stripReferences(text).replace(/\s*\.\s*$/, '')
-  const separator = clean.match(/\s+[–—-]\s+/u)
-  if (!separator || separator.index == null) return null
-
-  const name = compact(clean.slice(0, separator.index))
-  let detail = compact(clean.slice(separator.index + separator[0].length))
-  if (!name) return null
-
-  const ageMatch = detail.match(/ב[ןת]\s+(\d{1,3})/u)
-  const age = ageMatch ? Number(ageMatch[1]) : undefined
-
-  let city: string | undefined
-  const cityMatch = detail.match(/,\s*מ(.+?)$/u)
-  if (cityMatch) {
-    city = compact(cityMatch[1].replace(/\.$/, ''))
-    detail = compact(detail.slice(0, cityMatch.index))
-  }
-
-  detail = compact(detail.replace(/^ב[ןת]\s+\d{1,3}\s*,?\s*/u, '').replace(/^,\s*/, ''))
-  return { name, age, city, relationshipStatus: detail || undefined }
-}
-
 function winnerFromIntro(text: string) {
   const match = stripReferences(text).match(/בשבוע\s+זה\s+ניצח(?:ה|ו)?\s+(.+?)(?:\s+עם\s+(\d+(?:\.\d+)?)\s+נקודות|\.|$)/u)
   if (!match) return undefined
@@ -154,7 +125,7 @@ function participantMatchesRow(participantName: string, rowName: string, entryTy
   return rowParts.length > 1 && rowParts.every((part) => participant.includes(part))
 }
 
-function participantsForCoupleRow(participants: ParsedParticipant[], rowName: string) {
+function participantsForCoupleRow(participants: WikipediaParticipant[], rowName: string) {
   const rowParts = coupleNameParts(rowName)
   if (rowParts.length !== 2) return []
   return rowParts.flatMap((part) => {
@@ -181,8 +152,6 @@ function allNodeMatches($: cheerio.CheerioAPI, nodes: cheerio.Cheerio<any>[], se
 function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRow[] {
   const rows: ParsedRow[] = []
   table.find('tr').each((_, row) => {
-    // Wikipedia uses <th> for row headers (hosting order and contestant/couple)
-    // and <td> for the individual votes/total. Treat both as logical cells.
     const cells = $(row).children('th,td')
     if (cells.length < 2) return
 
@@ -208,11 +177,11 @@ function parseRows($: cheerio.CheerioAPI, table: cheerio.Cheerio<any>): ParsedRo
 }
 
 function bestParticipantList($: cheerio.CheerioAPI, siblings: cheerio.Cheerio<any>[]) {
-  let best: ParsedParticipant[] = []
+  let best: WikipediaParticipant[] = []
   for (const list of allNodeMatches($, siblings, 'ul')) {
     const parsed = list.find('li').toArray()
-      .map((li) => parseParticipant($(li).text()))
-      .filter((item): item is ParsedParticipant => Boolean(item))
+      .map((li) => parseWikipediaParticipant($(li).text()))
+      .filter((item): item is WikipediaParticipant => Boolean(item))
     if (parsed.length > best.length) best = parsed
   }
   return best
