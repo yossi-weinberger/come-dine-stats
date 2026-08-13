@@ -1,9 +1,9 @@
 {
   "rule": "Enrich only existing Kan contestant rows from official Kan recipe pages with explicit season + week + host metadata, explicit course headings, and a unique safe match within the same season/week.",
-  "recipeArchivePages": 307,
-  "fetchedPages": 307,
-  "showPages": 101,
-  "structuredMenuPages": 71,
+  "recipeArchivePages": 308,
+  "fetchedPages": 308,
+  "showPages": 102,
+  "structuredMenuPages": 72,
   "matchedMenus": 63,
   "matchedDishes": 198,
   "completeStandardMenus": 56,
@@ -89,6 +89,15 @@
       "weekName": "אילת",
       "host": "שלומי",
       "title": "בואו לאכול איתי עונה 10 | שבוע אילת - המתכונים של שלומי",
+      "dishes": 3,
+      "reason": "no-candidates-for-season-week"
+    },
+    {
+      "url": "https://www.kan.org.il/content/dig/recipes/1088099/",
+      "season": 10,
+      "weekName": "אילת",
+      "host": "דרור",
+      "title": "בואו לאכול איתי עונה 10 | שבוע אילת - המתכונים של דרור",
       "dishes": 3,
       "reason": "no-candidates-for-season-week"
     }
