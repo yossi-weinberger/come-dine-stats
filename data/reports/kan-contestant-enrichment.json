@@ -1,10 +1,10 @@
 {
   "matchedEntries": 144,
-  "episodesConsidered": 150,
+  "episodesConsidered": 151,
   "matchedByHostingOrder": 141,
   "matchedByExplicitHostText": 3,
   "hostOrderConflicts": 3,
-  "unmatchedEpisodes": 6,
+  "unmatchedEpisodes": 7,
   "profileExtraction": {
     "occupations": 21,
     "diets": 2,
@@ -2173,6 +2173,15 @@
       "orderConflict": false,
       "candidates": [],
       "text": "פרק 20 - שבוע אילת, יום ה' ערב אחרון באילת אצל בני עם ארוחה תימנית אסלית, מי המנצח של השבוע?"
+    },
+    {
+      "season": 10,
+      "episode": 21,
+      "week": 5,
+      "hostingOrder": 1,
+      "orderConflict": false,
+      "candidates": [],
+      "text": "פרק 21 - שבוע מרכז, יום א' זה היום הראשון לתחרות הבישול והאירוח באזור המרכז, והמארח הפעם הוא תום"
     }
   ]
 }
