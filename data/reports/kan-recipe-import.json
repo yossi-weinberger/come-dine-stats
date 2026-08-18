@@ -1,22 +1,22 @@
 {
   "rule": "Enrich only existing Kan contestant rows from official Kan recipe pages with explicit season + week + host metadata, explicit course headings, and a unique safe match within the same season/week. A dietary heading is a primary dish when it is the only documented dish for that course; it is an alternative only when a standard sibling exists on the same official menu.",
-  "recipeArchivePages": 309,
-  "fetchedPages": 309,
-  "showPages": 103,
-  "structuredMenuPages": 73,
-  "matchedMenus": 63,
-  "matchedDishes": 198,
-  "completeStandardMenus": 62,
+  "recipeArchivePages": 310,
+  "fetchedPages": 310,
+  "showPages": 104,
+  "structuredMenuPages": 74,
+  "matchedMenus": 68,
+  "matchedDishes": 213,
+  "completeStandardMenus": 67,
   "dietaryPrimaryDishes": 6,
   "matchStrategies": {
     "exact-name": 35,
-    "token-subset": 26,
+    "token-subset": 31,
     "unique-first-name": 2
   },
   "bySeason": {
     "8": 24,
     "9": 24,
-    "10": 15
+    "10": 20
   },
   "errors": [],
   "noKanTarget": [],
@@ -67,47 +67,11 @@
       "reason": "no-candidates-for-season-week"
     },
     {
-      "url": "https://www.kan.org.il/content/dig/recipes/1086520/",
+      "url": "https://www.kan.org.il/content/dig/recipes/1088846/",
       "season": 10,
-      "weekName": "אילת",
-      "host": "יערית",
-      "title": "בואו לאכול איתי עונה 10 | שבוע אילת - המתכונים של יערית",
-      "dishes": 3,
-      "reason": "no-candidates-for-season-week"
-    },
-    {
-      "url": "https://www.kan.org.il/content/dig/recipes/1086566/",
-      "season": 10,
-      "weekName": "אילת",
-      "host": "בילי",
-      "title": "בואו לאכול איתי עונה 10 | שבוע אילת - המתכונים של בילי",
-      "dishes": 3,
-      "reason": "no-candidates-for-season-week"
-    },
-    {
-      "url": "https://www.kan.org.il/content/dig/recipes/1088090/",
-      "season": 10,
-      "weekName": "אילת",
-      "host": "שלומי",
-      "title": "בואו לאכול איתי עונה 10 | שבוע אילת - המתכונים של שלומי",
-      "dishes": 3,
-      "reason": "no-candidates-for-season-week"
-    },
-    {
-      "url": "https://www.kan.org.il/content/dig/recipes/1088099/",
-      "season": 10,
-      "weekName": "אילת",
-      "host": "דרור",
-      "title": "בואו לאכול איתי עונה 10 | שבוע אילת - המתכונים של דרור",
-      "dishes": 3,
-      "reason": "no-candidates-for-season-week"
-    },
-    {
-      "url": "https://www.kan.org.il/content/dig/recipes/1088121/",
-      "season": 10,
-      "weekName": "אילת",
-      "host": "בני",
-      "title": "בואו לאכול איתי עונה 10 | שבוע אילת - המתכונים של בני",
+      "weekName": "מרכז",
+      "host": "תום",
+      "title": "בואו לאכול איתי עונה 10 | שבוע מרכז - המתכונים של תום",
       "dishes": 3,
       "reason": "no-candidates-for-season-week"
     }
@@ -1778,6 +1742,131 @@
           "course": "dessert",
           "variant": "standard",
           "name": "מוס שוקולד וקצפת"
+        }
+      ]
+    },
+    {
+      "url": "https://www.kan.org.il/content/dig/recipes/1086520/",
+      "season": 10,
+      "weekName": "אילת",
+      "recipeHost": "יערית",
+      "contestant": "יערית אבוטבול",
+      "strategy": "token-subset",
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "standard",
+          "name": "טורטייה ממולאת שקדי עגל וסלט משוויה"
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "חזה אווז בממרח לוטוס לצד פירה"
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "רולאפס עם גלידות"
+        }
+      ]
+    },
+    {
+      "url": "https://www.kan.org.il/content/dig/recipes/1086566/",
+      "season": 10,
+      "weekName": "אילת",
+      "recipeHost": "בילי",
+      "contestant": "בילי טרובתי",
+      "strategy": "token-subset",
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "standard",
+          "name": "סביצ'ה לצד סלט חצילים, קולסלאו וסלט חסה עם אגוזים"
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "צלי בקר אייבי נתן לצד אורז עם שקדים ושעועית ירוקה"
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "עוגת בננות עם כדור גלידה"
+        }
+      ]
+    },
+    {
+      "url": "https://www.kan.org.il/content/dig/recipes/1088090/",
+      "season": 10,
+      "weekName": "אילת",
+      "recipeHost": "שלומי",
+      "contestant": "שלומי נחמיאס",
+      "strategy": "token-subset",
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "standard",
+          "name": "זיווה במילוי מוסר ים, ריבת בצל ועגבניות צלויות לצד טחינה מרעננת"
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "צ'ילי קון קרנה לצד אורז"
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "קרואסון גן עדן במילוי גלידת סורבה ביתית בזיגוג סירופ שוקולד וקרם תות"
+        }
+      ]
+    },
+    {
+      "url": "https://www.kan.org.il/content/dig/recipes/1088099/",
+      "season": 10,
+      "weekName": "אילת",
+      "recipeHost": "דרור",
+      "contestant": "דרור בנארי",
+      "strategy": "token-subset",
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "standard",
+          "name": "ההר הירוק תמיד"
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "הים האדום, פויקה \"בורשט"
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "בסחלב חם"
+        }
+      ]
+    },
+    {
+      "url": "https://www.kan.org.il/content/dig/recipes/1088121/",
+      "season": 10,
+      "weekName": "אילת",
+      "recipeHost": "בני",
+      "contestant": "בני גמליאלי",
+      "strategy": "token-subset",
+      "dishes": [
+        {
+          "course": "starter",
+          "variant": "standard",
+          "name": "מרק עוף עם חילבה, סחוג ולחוח"
+        },
+        {
+          "course": "main",
+          "variant": "standard",
+          "name": "אוסובוקו לצד פרוסות תפוחי אדמה, ואספרגוס לצד גוואקמולה"
+        },
+        {
+          "course": "dessert",
+          "variant": "standard",
+          "name": "אגס שיכור עם גלידת וניל וטיפות ליקר דובדבן בעבודת יד"
         }
       ]
     }

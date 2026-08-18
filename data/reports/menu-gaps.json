@@ -1,13 +1,13 @@
 {
   "rule": "A complete menu requires standard starter + main + dessert. Named dishes without a supported course remain partial evidence and never fill a primary-course gap by inference.",
   "summary": {
-    "entries": 289,
+    "entries": 294,
     "none": 130,
     "partial": 5,
     "one-course-away": 1,
-    "complete": 153,
+    "complete": 158,
     "researchQueue": 136,
-    "targetAnyDish50Percent": 145,
+    "targetAnyDish50Percent": 147,
     "additionalEntriesNeededFor50PercentAnyDish": 0
   },
   "bySeason": {
@@ -84,9 +84,9 @@
       "none": 1
     },
     "10": {
-      "entries": 15,
-      "anyDish": 15,
-      "complete": 15,
+      "entries": 20,
+      "anyDish": 20,
+      "complete": 20,
       "oneCourseAway": 0,
       "partial": 0,
       "none": 0

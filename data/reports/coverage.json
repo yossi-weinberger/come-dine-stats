@@ -1,16 +1,16 @@
 {
   "overall": {
-    "entries": 289,
-    "participants": 345,
-    "individualEntries": 235,
+    "entries": 294,
+    "participants": 350,
+    "individualEntries": 240,
     "coupleEntries": 54,
     "withdrawnEntries": 1,
-    "dishes": 514,
+    "dishes": 529,
     "winners": 63,
     "fieldCoverage": {
       "weekName": {
-        "count": 284,
-        "eligibleCount": 289,
+        "count": 289,
+        "eligibleCount": 294,
         "notApplicableCount": 0,
         "percent": 98.3,
         "missing": [
@@ -22,8 +22,8 @@
         ]
       },
       "hostingOrder": {
-        "count": 288,
-        "eligibleCount": 289,
+        "count": 293,
+        "eligibleCount": 294,
         "notApplicableCount": 0,
         "percent": 99.7,
         "missing": [
@@ -32,9 +32,9 @@
       },
       "age": {
         "count": 193,
-        "eligibleCount": 235,
+        "eligibleCount": 240,
         "notApplicableCount": 54,
-        "percent": 82.1,
+        "percent": 80.4,
         "missing": [
           "שרית אליהו",
           "נטלי מימון",
@@ -77,14 +77,19 @@
           "עליזה אלקיים עבאדי",
           "אבינעם שמעון",
           "מירן הולדשטיין",
-          "אלירן בוחבוט"
+          "אלירן בוחבוט",
+          "יערית אבוטבול",
+          "בילי טרובתי",
+          "שלומי נחמיאס",
+          "דרור בנארי",
+          "בני גמליאלי"
         ]
       },
       "city": {
         "count": 282,
-        "eligibleCount": 289,
+        "eligibleCount": 294,
         "notApplicableCount": 0,
-        "percent": 97.6,
+        "percent": 95.9,
         "missing": [
           "לילי בן נון",
           "קובי דימנט",
@@ -92,14 +97,19 @@
           "רקפת ויעל",
           "אבירם וסקיי",
           "יואב ודודי",
-          "מריאז' ורייצ'ל"
+          "מריאז' ורייצ'ל",
+          "יערית אבוטבול",
+          "בילי טרובתי",
+          "שלומי נחמיאס",
+          "דרור בנארי",
+          "בני גמליאלי"
         ]
       },
       "occupation": {
         "count": 128,
-        "eligibleCount": 235,
+        "eligibleCount": 240,
         "notApplicableCount": 54,
-        "percent": 54.5,
+        "percent": 53.3,
         "missing": [
           "אילנה וייס",
           "נטלי מימון",
@@ -207,14 +217,19 @@
           "רוני פליישר",
           "אבינעם שמעון",
           "מירן הולדשטיין",
-          "אלירן בוחבוט"
+          "אלירן בוחבוט",
+          "יערית אבוטבול",
+          "בילי טרובתי",
+          "שלומי נחמיאס",
+          "דרור בנארי",
+          "בני גמליאלי"
         ]
       },
       "relationshipStatus": {
         "count": 250,
-        "eligibleCount": 289,
+        "eligibleCount": 294,
         "notApplicableCount": 0,
-        "percent": 86.5,
+        "percent": 85,
         "missing": [
           "לילי בן נון",
           "קובי דימנט",
@@ -254,12 +269,17 @@
           "חיה לב",
           "ניקול אלטשולר",
           "רוני פליישר",
-          "אבינעם שמעון"
+          "אבינעם שמעון",
+          "יערית אבוטבול",
+          "בילי טרובתי",
+          "שלומי נחמיאס",
+          "דרור בנארי",
+          "בני גמליאלי"
         ]
       },
       "gender": {
         "count": 0,
-        "eligibleCount": 235,
+        "eligibleCount": 240,
         "notApplicableCount": 54,
         "percent": 0,
         "missing": [
@@ -497,12 +517,17 @@
           "רוני פליישר",
           "אבינעם שמעון",
           "מירן הולדשטיין",
-          "אלירן בוחבוט"
+          "אלירן בוחבוט",
+          "יערית אבוטבול",
+          "בילי טרובתי",
+          "שלומי נחמיאס",
+          "דרור בנארי",
+          "בני גמליאלי"
         ]
       },
       "diet": {
         "count": 3,
-        "eligibleCount": 235,
+        "eligibleCount": 240,
         "notApplicableCount": 54,
         "percent": 1.3,
         "missing": [
@@ -737,14 +762,19 @@
           "רוני פליישר",
           "אבינעם שמעון",
           "מירן הולדשטיין",
-          "אלירן בוחבוט"
+          "אלירן בוחבוט",
+          "יערית אבוטבול",
+          "בילי טרובתי",
+          "שלומי נחמיאס",
+          "דרור בנארי",
+          "בני גמליאלי"
         ]
       },
       "score": {
-        "count": 263,
-        "eligibleCount": 289,
+        "count": 265,
+        "eligibleCount": 294,
         "notApplicableCount": 0,
-        "percent": 91,
+        "percent": 90.1,
         "missing": [
           "עבד ואיסרא זיתונא",
           "שמעון ויוליה נחמני",
@@ -771,14 +801,17 @@
           "אביתר בן פורת",
           "עדי ויצמן אסולין",
           "ניקול אלטשולר",
-          "אלירן בוחבוט"
+          "אלירן בוחבוט",
+          "שלומי נחמיאס",
+          "דרור בנארי",
+          "בני גמליאלי"
         ]
       },
       "placement": {
         "count": 173,
-        "eligibleCount": 289,
+        "eligibleCount": 294,
         "notApplicableCount": 0,
-        "percent": 59.9,
+        "percent": 58.8,
         "missing": [
           "בנימין יעקביאן",
           "רועי עידן וחגית השמשוני",
@@ -895,35 +928,40 @@
           "רוני פליישר",
           "אבינעם שמעון",
           "מירן הולדשטיין",
-          "אלירן בוחבוט"
+          "אלירן בוחבוט",
+          "יערית אבוטבול",
+          "בילי טרובתי",
+          "שלומי נחמיאס",
+          "דרור בנארי",
+          "בני גמליאלי"
         ]
       }
     },
     "menuCoverage": {
       "anyDish": {
-        "count": 159,
-        "percent": 55
+        "count": 164,
+        "percent": 55.8
       },
       "threePrimaryCourses": {
-        "count": 153,
-        "percent": 52.9
+        "count": 158,
+        "percent": 53.7
       },
       "vegetarianAlternative": {
         "count": 16,
-        "percent": 5.5
+        "percent": 5.4
       },
       "veganAlternative": {
         "count": 11,
-        "percent": 3.8
+        "percent": 3.7
       },
       "dishesByCourse": {
-        "starter": 171,
-        "main": 181,
-        "dessert": 155,
+        "starter": 176,
+        "main": 186,
+        "dessert": 160,
         "other": 5
       },
       "dishesByVariant": {
-        "standard": 469,
+        "standard": 484,
         "vegetarian": 26,
         "vegan": 19,
         "alternative": 0
@@ -3023,52 +3061,63 @@
       }
     },
     "10": {
-      "entries": 15,
-      "participants": 15,
-      "individualEntries": 15,
+      "entries": 20,
+      "participants": 20,
+      "individualEntries": 20,
       "coupleEntries": 0,
       "withdrawnEntries": 0,
-      "dishes": 46,
+      "dishes": 61,
       "winners": 1,
       "fieldCoverage": {
         "weekName": {
-          "count": 15,
-          "eligibleCount": 15,
+          "count": 20,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "hostingOrder": {
-          "count": 15,
-          "eligibleCount": 15,
+          "count": 20,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
           "percent": 100,
           "missing": []
         },
         "age": {
           "count": 11,
-          "eligibleCount": 15,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
-          "percent": 73.3,
+          "percent": 55,
           "missing": [
             "עליזה אלקיים עבאדי",
             "אבינעם שמעון",
             "מירן הולדשטיין",
-            "אלירן בוחבוט"
+            "אלירן בוחבוט",
+            "יערית אבוטבול",
+            "בילי טרובתי",
+            "שלומי נחמיאס",
+            "דרור בנארי",
+            "בני גמליאלי"
           ]
         },
         "city": {
           "count": 15,
-          "eligibleCount": 15,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
-          "percent": 100,
-          "missing": []
+          "percent": 75,
+          "missing": [
+            "יערית אבוטבול",
+            "בילי טרובתי",
+            "שלומי נחמיאס",
+            "דרור בנארי",
+            "בני גמליאלי"
+          ]
         },
         "occupation": {
           "count": 4,
-          "eligibleCount": 15,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
-          "percent": 26.7,
+          "percent": 20,
           "missing": [
             "רועי גולן",
             "יגאל טמיר",
@@ -3080,25 +3129,35 @@
             "רוני פליישר",
             "אבינעם שמעון",
             "מירן הולדשטיין",
-            "אלירן בוחבוט"
+            "אלירן בוחבוט",
+            "יערית אבוטבול",
+            "בילי טרובתי",
+            "שלומי נחמיאס",
+            "דרור בנארי",
+            "בני גמליאלי"
           ]
         },
         "relationshipStatus": {
           "count": 10,
-          "eligibleCount": 15,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
-          "percent": 66.7,
+          "percent": 50,
           "missing": [
             "רועי גולן",
             "חיה לב",
             "ניקול אלטשולר",
             "רוני פליישר",
-            "אבינעם שמעון"
+            "אבינעם שמעון",
+            "יערית אבוטבול",
+            "בילי טרובתי",
+            "שלומי נחמיאס",
+            "דרור בנארי",
+            "בני גמליאלי"
           ]
         },
         "gender": {
           "count": 0,
-          "eligibleCount": 15,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
           "percent": 0,
           "missing": [
@@ -3116,12 +3175,17 @@
             "רוני פליישר",
             "אבינעם שמעון",
             "מירן הולדשטיין",
-            "אלירן בוחבוט"
+            "אלירן בוחבוט",
+            "יערית אבוטבול",
+            "בילי טרובתי",
+            "שלומי נחמיאס",
+            "דרור בנארי",
+            "בני גמליאלי"
           ]
         },
         "diet": {
           "count": 0,
-          "eligibleCount": 15,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
           "percent": 0,
           "missing": [
@@ -3139,24 +3203,32 @@
             "רוני פליישר",
             "אבינעם שמעון",
             "מירן הולדשטיין",
-            "אלירן בוחבוט"
+            "אלירן בוחבוט",
+            "יערית אבוטבול",
+            "בילי טרובתי",
+            "שלומי נחמיאס",
+            "דרור בנארי",
+            "בני גמליאלי"
           ]
         },
         "score": {
-          "count": 13,
-          "eligibleCount": 15,
+          "count": 15,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
-          "percent": 86.7,
+          "percent": 75,
           "missing": [
             "ניקול אלטשולר",
-            "אלירן בוחבוט"
+            "אלירן בוחבוט",
+            "שלומי נחמיאס",
+            "דרור בנארי",
+            "בני גמליאלי"
           ]
         },
         "placement": {
           "count": 2,
-          "eligibleCount": 15,
+          "eligibleCount": 20,
           "notApplicableCount": 0,
-          "percent": 13.3,
+          "percent": 10,
           "missing": [
             "רועי גולן",
             "אדם גוזלן",
@@ -3170,17 +3242,22 @@
             "רוני פליישר",
             "אבינעם שמעון",
             "מירן הולדשטיין",
-            "אלירן בוחבוט"
+            "אלירן בוחבוט",
+            "יערית אבוטבול",
+            "בילי טרובתי",
+            "שלומי נחמיאס",
+            "דרור בנארי",
+            "בני גמליאלי"
           ]
         }
       },
       "menuCoverage": {
         "anyDish": {
-          "count": 15,
+          "count": 20,
           "percent": 100
         },
         "threePrimaryCourses": {
-          "count": 15,
+          "count": 20,
           "percent": 100
         },
         "vegetarianAlternative": {
@@ -3189,16 +3266,16 @@
         },
         "veganAlternative": {
           "count": 1,
-          "percent": 6.7
+          "percent": 5
         },
         "dishesByCourse": {
-          "starter": 15,
-          "main": 16,
-          "dessert": 15,
+          "starter": 20,
+          "main": 21,
+          "dessert": 20,
           "other": 0
         },
         "dishesByVariant": {
-          "standard": 45,
+          "standard": 60,
           "vegetarian": 0,
           "vegan": 1,
           "alternative": 0
@@ -3210,9 +3287,9 @@
   "sourceCounts": {
     "fandom": 90,
     "foodik": 1,
-    "kan": 144,
+    "kan": 149,
     "manual": 31,
     "rest": 3,
-    "wikipedia": 199
+    "wikipedia": 204
   }
 }

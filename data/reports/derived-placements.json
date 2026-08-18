@@ -1735,6 +1735,35 @@
           "status": "active"
         }
       ]
+    },
+    {
+      "season": 10,
+      "week": 4,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "יערית אבוטבול",
+          "status": "active",
+          "score": 28
+        },
+        {
+          "name": "בילי טרובתי",
+          "status": "active",
+          "score": 24
+        },
+        {
+          "name": "שלומי נחמיאס",
+          "status": "active"
+        },
+        {
+          "name": "דרור בנארי",
+          "status": "active"
+        },
+        {
+          "name": "בני גמליאלי",
+          "status": "active"
+        }
+      ]
     }
   ]
 }

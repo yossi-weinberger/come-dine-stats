@@ -10941,5 +10941,543 @@
         }
       ]
     }
+  },
+  {
+    "slug": "s10-יערית-אבוטבול",
+    "name": "יערית אבוטבול",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "יערית אבוטבול"
+    ],
+    "week": 4,
+    "weekName": "אילת",
+    "hostingOrder": 1,
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
+        "name": "טורטייה ממולאת שקדי עגל וסלט משוויה",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של יערית",
+            "url": "https://www.kan.org.il/content/dig/recipes/1086520/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
+        "name": "חזה אווז בממרח לוטוס לצד פירה",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של יערית",
+            "url": "https://www.kan.org.il/content/dig/recipes/1086520/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
+        "name": "רולאפס עם גלידות",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של יערית",
+            "url": "https://www.kan.org.il/content/dig/recipes/1086520/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      }
+    ],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077378/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077378/",
+        "note": "Official Kan episode 16; host matched by structured hosting order"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי, המתכונים של יערית",
+        "url": "https://www.kan.org.il/content/dig/recipes/1086520/",
+        "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077378/",
+          "note": "Official Kan episode 16; host matched by structured hosting order"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077378/",
+          "note": "Official Kan episode 16; host matched by structured hosting order"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077378/",
+          "note": "Official Kan episode 16; host matched by structured hosting order"
+        }
+      ],
+      "dishes": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי, המתכונים של יערית",
+          "url": "https://www.kan.org.il/content/dig/recipes/1086520/",
+          "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-בילי-טרובתי",
+    "name": "בילי טרובתי",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "בילי טרובתי"
+    ],
+    "week": 4,
+    "weekName": "אילת",
+    "hostingOrder": 2,
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
+        "name": "סביצ'ה לצד סלט חצילים, קולסלאו וסלט חסה עם אגוזים",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של בילי",
+            "url": "https://www.kan.org.il/content/dig/recipes/1086566/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
+        "name": "צלי בקר אייבי נתן לצד אורז עם שקדים ושעועית ירוקה",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של בילי",
+            "url": "https://www.kan.org.il/content/dig/recipes/1086566/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
+        "name": "עוגת בננות עם כדור גלידה",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של בילי",
+            "url": "https://www.kan.org.il/content/dig/recipes/1086566/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      }
+    ],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/",
+        "note": "Official Kan episode 17; host matched by structured hosting order"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי, המתכונים של בילי",
+        "url": "https://www.kan.org.il/content/dig/recipes/1086566/",
+        "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/",
+          "note": "Official Kan episode 17; host matched by structured hosting order"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/",
+          "note": "Official Kan episode 17; host matched by structured hosting order"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/",
+          "note": "Official Kan episode 17; host matched by structured hosting order"
+        }
+      ],
+      "dishes": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי, המתכונים של בילי",
+          "url": "https://www.kan.org.il/content/dig/recipes/1086566/",
+          "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-שלומי-נחמיאס",
+    "name": "שלומי נחמיאס",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "שלומי נחמיאס"
+    ],
+    "week": 4,
+    "weekName": "אילת",
+    "hostingOrder": 3,
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
+        "name": "זיווה במילוי מוסר ים, ריבת בצל ועגבניות צלויות לצד טחינה מרעננת",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של שלומי",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088090/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
+        "name": "צ'ילי קון קרנה לצד אורז",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של שלומי",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088090/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
+        "name": "קרואסון גן עדן במילוי גלידת סורבה ביתית בזיגוג סירופ שוקולד וקרם תות",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של שלומי",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088090/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      }
+    ],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077380/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077380/",
+        "note": "Official Kan episode 18; host matched by structured hosting order"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי, המתכונים של שלומי",
+        "url": "https://www.kan.org.il/content/dig/recipes/1088090/",
+        "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077380/",
+          "note": "Official Kan episode 18; host matched by structured hosting order"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077380/",
+          "note": "Official Kan episode 18; host matched by structured hosting order"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077380/",
+          "note": "Official Kan episode 18; host matched by structured hosting order"
+        }
+      ],
+      "dishes": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי, המתכונים של שלומי",
+          "url": "https://www.kan.org.il/content/dig/recipes/1088090/",
+          "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-דרור-בנארי",
+    "name": "דרור בנארי",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "דרור בנארי"
+    ],
+    "week": 4,
+    "weekName": "אילת",
+    "hostingOrder": 4,
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
+        "name": "ההר הירוק תמיד",
+        "description": "סלט ירוקים מרעננים, הפתעות ואגוזים, על מצע של קרם טחינה נענע",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של דרור",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088099/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
+        "name": "הים האדום, פויקה \"בורשט",
+        "description": "נתחי בקר שבושלו שעות במדורה עם סלקים וירקות שורש, מוגשים על פיתה חרוכה היישר מהמדורה לצד פלפל אש",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של דרור",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088099/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
+        "name": "בסחלב חם",
+        "description": "אגס מבושל ביין ותבלינים חמים על מצע סחלב קטיפתי",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של דרור",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088099/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      }
+    ],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077381/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077381/",
+        "note": "Official Kan episode 19; host matched by structured hosting order"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי, המתכונים של דרור",
+        "url": "https://www.kan.org.il/content/dig/recipes/1088099/",
+        "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077381/",
+          "note": "Official Kan episode 19; host matched by structured hosting order"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077381/",
+          "note": "Official Kan episode 19; host matched by structured hosting order"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077381/",
+          "note": "Official Kan episode 19; host matched by structured hosting order"
+        }
+      ],
+      "dishes": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי, המתכונים של דרור",
+          "url": "https://www.kan.org.il/content/dig/recipes/1088099/",
+          "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "s10-בני-גמליאלי",
+    "name": "בני גמליאלי",
+    "season": 10,
+    "entryType": "individual",
+    "members": [
+      "בני גמליאלי"
+    ],
+    "week": 4,
+    "weekName": "אילת",
+    "hostingOrder": 5,
+    "dishes": [
+      {
+        "course": "starter",
+        "variant": "standard",
+        "label": "מנה ראשונה",
+        "name": "מרק עוף עם חילבה, סחוג ולחוח",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של בני",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088121/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "main",
+        "variant": "standard",
+        "label": "מנה עיקרית",
+        "name": "אוסובוקו לצד פרוסות תפוחי אדמה, ואספרגוס לצד גוואקמולה",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של בני",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088121/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      },
+      {
+        "course": "dessert",
+        "variant": "standard",
+        "label": "קינוח",
+        "name": "אגס שיכור עם גלידת וניל וטיפות ליקר דובדבן בעבודת יד",
+        "sources": [
+          {
+            "kind": "kan",
+            "title": "כאן 11 — בואו לאכול איתי, המתכונים של בני",
+            "url": "https://www.kan.org.il/content/dig/recipes/1088121/",
+            "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+          }
+        ]
+      }
+    ],
+    "episodeUrls": [
+      "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077382/"
+    ],
+    "sources": [
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי",
+        "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077382/",
+        "note": "Official Kan episode 20; host matched by structured hosting order"
+      },
+      {
+        "kind": "kan",
+        "title": "כאן 11 — בואו לאכול איתי, המתכונים של בני",
+        "url": "https://www.kan.org.il/content/dig/recipes/1088121/",
+        "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+      }
+    ],
+    "fieldSources": {
+      "week": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077382/",
+          "note": "Official Kan episode 20; host matched by structured hosting order"
+        }
+      ],
+      "weekName": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077382/",
+          "note": "Official Kan episode 20; host matched by structured hosting order"
+        }
+      ],
+      "hostingOrder": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי",
+          "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077382/",
+          "note": "Official Kan episode 20; host matched by structured hosting order"
+        }
+      ],
+      "dishes": [
+        {
+          "kind": "kan",
+          "title": "כאן 11 — בואו לאכול איתי, המתכונים של בני",
+          "url": "https://www.kan.org.il/content/dig/recipes/1088121/",
+          "note": "Official Kan recipe page; only explicitly labeled courses are imported."
+        }
+      ]
+    }
   }
 ]

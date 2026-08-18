@@ -1,10 +1,10 @@
 {
-  "matchedEntries": 144,
-  "episodesConsidered": 151,
-  "matchedByHostingOrder": 141,
+  "matchedEntries": 149,
+  "episodesConsidered": 152,
+  "matchedByHostingOrder": 146,
   "matchedByExplicitHostText": 3,
   "hostOrderConflicts": 3,
-  "unmatchedEpisodes": 7,
+  "unmatchedEpisodes": 3,
   "profileExtraction": {
     "occupations": 21,
     "diets": 2,
@@ -2134,8 +2134,13 @@
       "episode": 16,
       "week": 4,
       "hostingOrder": 1,
+      "matched": "יערית אבוטבול",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "יערית אבוטבול",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "יערית אבוטבול (hosting order 1)"
+      ],
       "text": "פרק 16 - שבוע אילת, יום א' זה היום הראשון והפעם הראשונה שתחרות הבישול מגיעה לעיר הדרומית אילת"
     },
     {
@@ -2143,8 +2148,15 @@
       "episode": 17,
       "week": 4,
       "hostingOrder": 2,
+      "matched": "בילי טרובתי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "בילי טרובתי",
+      "explicitMatch": "בילי טרובתי",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "בילי טרובתי (hosting order 2)",
+        "בילי טרובתי (explicit host cue)"
+      ],
       "text": "פרק 17 - שבוע אילת, יום ב' בילי מארחת את החבורה ומדהימה את כולם בסיפור חייה המיוחד"
     },
     {
@@ -2152,8 +2164,13 @@
       "episode": 18,
       "week": 4,
       "hostingOrder": 3,
+      "matched": "שלומי נחמיאס",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "שלומי נחמיאס",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "שלומי נחמיאס (hosting order 3)"
+      ],
       "text": "פרק 18 - שבוע אילת, יום ג' הערב הגיעו האורחים אל שלומי, למה יערית קמה בסערה מהשולחן?"
     },
     {
@@ -2161,8 +2178,15 @@
       "episode": 19,
       "week": 4,
       "hostingOrder": 4,
+      "matched": "דרור בנארי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "דרור בנארי",
+      "explicitMatch": "דרור בנארי",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "דרור בנארי (hosting order 4)",
+        "דרור בנארי (explicit host cue)"
+      ],
       "text": "פרק 19 - שבוע אילת, יום ד' החבורה הגיעה לארוחה אצל דרור, האם האורחים הצליחו להתמסר לחוויית המדבר?"
     },
     {
@@ -2170,8 +2194,15 @@
       "episode": 20,
       "week": 4,
       "hostingOrder": 5,
+      "matched": "בני גמליאלי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "בני גמליאלי",
+      "explicitMatch": "בני גמליאלי",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "בני גמליאלי (hosting order 5)",
+        "בני גמליאלי (explicit host cue)"
+      ],
       "text": "פרק 20 - שבוע אילת, יום ה' ערב אחרון באילת אצל בני עם ארוחה תימנית אסלית, מי המנצח של השבוע?"
     },
     {
@@ -2182,6 +2213,15 @@
       "orderConflict": false,
       "candidates": [],
       "text": "פרק 21 - שבוע מרכז, יום א' זה היום הראשון לתחרות הבישול והאירוח באזור המרכז, והמארח הפעם הוא תום"
+    },
+    {
+      "season": 10,
+      "episode": 22,
+      "week": 5,
+      "hostingOrder": 2,
+      "orderConflict": false,
+      "candidates": [],
+      "text": "פרק 22 - שבוע מרכז, יום ב' איך יגיבו האורחים כשיבינו שהם צריכים להעביר את הארוחה על הריצפה?"
     }
   ]
 }
