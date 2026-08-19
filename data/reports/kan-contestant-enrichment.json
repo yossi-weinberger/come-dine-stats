@@ -1,10 +1,10 @@
 {
   "matchedEntries": 149,
-  "episodesConsidered": 152,
+  "episodesConsidered": 153,
   "matchedByHostingOrder": 146,
   "matchedByExplicitHostText": 3,
   "hostOrderConflicts": 3,
-  "unmatchedEpisodes": 3,
+  "unmatchedEpisodes": 4,
   "profileExtraction": {
     "occupations": 21,
     "diets": 2,
@@ -2222,6 +2222,15 @@
       "orderConflict": false,
       "candidates": [],
       "text": "פרק 22 - שבוע מרכז, יום ב' איך יגיבו האורחים כשיבינו שהם צריכים להעביר את הארוחה על הריצפה?"
+    },
+    {
+      "season": 10,
+      "episode": 23,
+      "week": 5,
+      "hostingOrder": 3,
+      "orderConflict": false,
+      "candidates": [],
+      "text": "פרק 23 - שבוע מרכז, יום ג' הערב נגלה איזה כישוף אושרית מכינה לחבורה ומה אסור להגיד בבית שלה?"
     }
   ]
 }

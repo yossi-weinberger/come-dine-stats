@@ -1,9 +1,9 @@
 {
   "rule": "Enrich only existing Kan contestant rows from official Kan recipe pages with explicit season + week + host metadata, explicit course headings, and a unique safe match within the same season/week. A dietary heading is a primary dish when it is the only documented dish for that course; it is an alternative only when a standard sibling exists on the same official menu.",
-  "recipeArchivePages": 310,
-  "fetchedPages": 310,
-  "showPages": 104,
-  "structuredMenuPages": 74,
+  "recipeArchivePages": 312,
+  "fetchedPages": 312,
+  "showPages": 106,
+  "structuredMenuPages": 76,
   "matchedMenus": 68,
   "matchedDishes": 213,
   "completeStandardMenus": 67,
@@ -72,6 +72,24 @@
       "weekName": "מרכז",
       "host": "תום",
       "title": "בואו לאכול איתי עונה 10 | שבוע מרכז - המתכונים של תום",
+      "dishes": 3,
+      "reason": "no-candidates-for-season-week"
+    },
+    {
+      "url": "https://www.kan.org.il/content/dig/recipes/1088862/",
+      "season": 10,
+      "weekName": "מרכז",
+      "host": "איבאא",
+      "title": "בואו לאכול איתי עונה 10 | שבוע מרכז - המתכונים של איבאא",
+      "dishes": 3,
+      "reason": "no-candidates-for-season-week"
+    },
+    {
+      "url": "https://www.kan.org.il/content/dig/recipes/1090444/",
+      "season": 10,
+      "weekName": "מרכז",
+      "host": "אושרית",
+      "title": "בואו לאכול איתי עונה 10 | שבוע מרכז - המתכונים של אושרית",
       "dishes": 3,
       "reason": "no-candidates-for-season-week"
     }
