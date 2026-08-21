@@ -1,10 +1,10 @@
 {
   "matchedEntries": 149,
-  "episodesConsidered": 154,
+  "episodesConsidered": 155,
   "matchedByHostingOrder": 146,
   "matchedByExplicitHostText": 3,
   "hostOrderConflicts": 3,
-  "unmatchedEpisodes": 5,
+  "unmatchedEpisodes": 6,
   "profileExtraction": {
     "occupations": 21,
     "diets": 2,
@@ -2240,6 +2240,15 @@
       "orderConflict": false,
       "candidates": [],
       "text": "פרק 24 - שבוע מרכז, יום ד' החבורה מתארחת אצל ליאת למסע תאילנדי"
+    },
+    {
+      "season": 10,
+      "episode": 25,
+      "week": 5,
+      "hostingOrder": 5,
+      "orderConflict": false,
+      "candidates": [],
+      "text": "פרק 25 - שבוע מרכז, יום ה' פרק אחרון לעונה! בערב האחרון לתחרות יארח דימה, או אלעד?"
     }
   ]
 }
