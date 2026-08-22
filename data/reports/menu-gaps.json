@@ -1,14 +1,14 @@
 {
   "rule": "A complete menu requires standard starter + main + dessert. Named dishes without a supported course remain partial evidence and never fill a primary-course gap by inference.",
   "summary": {
-    "entries": 294,
-    "none": 197,
+    "entries": 299,
+    "none": 202,
     "partial": 6,
     "one-course-away": 0,
     "complete": 91,
-    "researchQueue": 203,
-    "targetAnyDish50Percent": 147,
-    "additionalEntriesNeededFor50PercentAnyDish": 50
+    "researchQueue": 208,
+    "targetAnyDish50Percent": 150,
+    "additionalEntriesNeededFor50PercentAnyDish": 53
   },
   "bySeason": {
     "1": {
@@ -84,12 +84,12 @@
       "none": 25
     },
     "10": {
-      "entries": 20,
+      "entries": 25,
       "anyDish": 0,
       "complete": 0,
       "oneCourseAway": 0,
       "partial": 0,
-      "none": 20
+      "none": 25
     }
   },
   "leadCatalog": [
@@ -3846,6 +3846,96 @@
       "weekName": "אילת",
       "name": "שלומי נחמיאס",
       "slug": "s10-שלומי-נחמיאס",
+      "status": "none",
+      "priority": 50,
+      "dishCount": 0,
+      "primaryCoursesPresent": [],
+      "missingPrimaryCourses": [
+        "starter",
+        "main",
+        "dessert"
+      ],
+      "dishSourceKinds": [],
+      "dishes": []
+    },
+    {
+      "season": 10,
+      "week": 5,
+      "weekName": "מרכז",
+      "name": "אושרית נברה",
+      "slug": "s10-אושרית-נברה",
+      "status": "none",
+      "priority": 50,
+      "dishCount": 0,
+      "primaryCoursesPresent": [],
+      "missingPrimaryCourses": [
+        "starter",
+        "main",
+        "dessert"
+      ],
+      "dishSourceKinds": [],
+      "dishes": []
+    },
+    {
+      "season": 10,
+      "week": 5,
+      "weekName": "מרכז",
+      "name": "איבאא",
+      "slug": "s10-איבאא",
+      "status": "none",
+      "priority": 50,
+      "dishCount": 0,
+      "primaryCoursesPresent": [],
+      "missingPrimaryCourses": [
+        "starter",
+        "main",
+        "dessert"
+      ],
+      "dishSourceKinds": [],
+      "dishes": []
+    },
+    {
+      "season": 10,
+      "week": 5,
+      "weekName": "מרכז",
+      "name": "אלעד משה",
+      "slug": "s10-אלעד-משה",
+      "status": "none",
+      "priority": 50,
+      "dishCount": 0,
+      "primaryCoursesPresent": [],
+      "missingPrimaryCourses": [
+        "starter",
+        "main",
+        "dessert"
+      ],
+      "dishSourceKinds": [],
+      "dishes": []
+    },
+    {
+      "season": 10,
+      "week": 5,
+      "weekName": "מרכז",
+      "name": "ליאת שקלרז",
+      "slug": "s10-ליאת-שקלרז",
+      "status": "none",
+      "priority": 50,
+      "dishCount": 0,
+      "primaryCoursesPresent": [],
+      "missingPrimaryCourses": [
+        "starter",
+        "main",
+        "dessert"
+      ],
+      "dishSourceKinds": [],
+      "dishes": []
+    },
+    {
+      "season": 10,
+      "week": 5,
+      "weekName": "מרכז",
+      "name": "תום כדורי",
+      "slug": "s10-תום-כדורי",
       "status": "none",
       "priority": 50,
       "dishCount": 0,

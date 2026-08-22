@@ -1739,7 +1739,7 @@
     {
       "season": 10,
       "week": 4,
-      "reason": "missing-score",
+      "reason": "score-tie",
       "entries": [
         {
           "name": "יערית אבוטבול",
@@ -1753,15 +1753,52 @@
         },
         {
           "name": "שלומי נחמיאס",
-          "status": "active"
+          "status": "active",
+          "score": 33
         },
         {
           "name": "דרור בנארי",
-          "status": "active"
+          "status": "active",
+          "score": 35,
+          "placement": 1
         },
         {
           "name": "בני גמליאלי",
-          "status": "active"
+          "status": "active",
+          "score": 28
+        }
+      ]
+    },
+    {
+      "season": 10,
+      "week": 5,
+      "reason": "missing-score",
+      "entries": [
+        {
+          "name": "תום כדורי",
+          "status": "active",
+          "score": 28
+        },
+        {
+          "name": "איבאא",
+          "status": "active",
+          "score": 29
+        },
+        {
+          "name": "אושרית נברה",
+          "status": "active",
+          "score": 35,
+          "placement": 1
+        },
+        {
+          "name": "ליאת שקלרז",
+          "status": "active",
+          "score": 33
+        },
+        {
+          "name": "אלעד משה",
+          "status": "active",
+          "placement": 5
         }
       ]
     }

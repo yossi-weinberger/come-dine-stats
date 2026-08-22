@@ -2,11 +2,11 @@
   "season": 10,
   "mode": "rolling",
   "ok": true,
-  "revision": 43783391,
-  "entries": 20,
+  "revision": 43789762,
+  "entries": 25,
   "previousEntries": 0,
-  "detectedWeeks": 4,
-  "tableWeeks": 4,
+  "detectedWeeks": 5,
+  "tableWeeks": 5,
   "maxEntries": 25,
   "maxWeeks": 5
 }

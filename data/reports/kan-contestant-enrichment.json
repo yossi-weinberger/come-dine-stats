@@ -1,10 +1,10 @@
 {
-  "matchedEntries": 149,
+  "matchedEntries": 154,
   "episodesConsidered": 155,
-  "matchedByHostingOrder": 146,
+  "matchedByHostingOrder": 151,
   "matchedByExplicitHostText": 3,
   "hostOrderConflicts": 3,
-  "unmatchedEpisodes": 6,
+  "unmatchedEpisodes": 1,
   "profileExtraction": {
     "occupations": 21,
     "diets": 2,
@@ -2210,8 +2210,13 @@
       "episode": 21,
       "week": 5,
       "hostingOrder": 1,
+      "matched": "תום כדורי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "תום כדורי",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "תום כדורי (hosting order 1)"
+      ],
       "text": "פרק 21 - שבוע מרכז, יום א' זה היום הראשון לתחרות הבישול והאירוח באזור המרכז, והמארח הפעם הוא תום"
     },
     {
@@ -2219,8 +2224,13 @@
       "episode": 22,
       "week": 5,
       "hostingOrder": 2,
+      "matched": "איבאא",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "איבאא",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "איבאא (hosting order 2)"
+      ],
       "text": "פרק 22 - שבוע מרכז, יום ב' איך יגיבו האורחים כשיבינו שהם צריכים להעביר את הארוחה על הריצפה?"
     },
     {
@@ -2228,8 +2238,13 @@
       "episode": 23,
       "week": 5,
       "hostingOrder": 3,
+      "matched": "אושרית נברה",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "אושרית נברה",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "אושרית נברה (hosting order 3)"
+      ],
       "text": "פרק 23 - שבוע מרכז, יום ג' הערב נגלה איזה כישוף אושרית מכינה לחבורה ומה אסור להגיד בבית שלה?"
     },
     {
@@ -2237,8 +2252,15 @@
       "episode": 24,
       "week": 5,
       "hostingOrder": 4,
+      "matched": "ליאת שקלרז",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "ליאת שקלרז",
+      "explicitMatch": "ליאת שקלרז",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "ליאת שקלרז (hosting order 4)",
+        "ליאת שקלרז (explicit host cue)"
+      ],
       "text": "פרק 24 - שבוע מרכז, יום ד' החבורה מתארחת אצל ליאת למסע תאילנדי"
     },
     {
@@ -2246,8 +2268,13 @@
       "episode": 25,
       "week": 5,
       "hostingOrder": 5,
+      "matched": "אלעד משה",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "אלעד משה",
       "orderConflict": false,
-      "candidates": [],
+      "candidates": [
+        "אלעד משה (hosting order 5)"
+      ],
       "text": "פרק 25 - שבוע מרכז, יום ה' פרק אחרון לעונה! בערב האחרון לתחרות יארח דימה, או אלעד?"
     }
   ]
