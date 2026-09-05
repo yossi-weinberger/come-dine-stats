@@ -6,7 +6,7 @@
     "coupleEntries": 54,
     "withdrawnEntries": 1,
     "dishes": 316,
-    "winners": 65,
+    "winners": 66,
     "fieldCoverage": {
       "weekName": {
         "count": 294,
@@ -795,10 +795,10 @@
         ]
       },
       "score": {
-        "count": 272,
+        "count": 273,
         "eligibleCount": 299,
         "notApplicableCount": 0,
-        "percent": 91,
+        "percent": 91.3,
         "missing": [
           "עבד ואיסרא זיתונא",
           "שמעון ויוליה נחמני",
@@ -825,15 +825,14 @@
           "אביתר בן פורת",
           "עדי ויצמן אסולין",
           "ניקול אלטשולר",
-          "אלירן בוחבוט",
           "אלעד משה"
         ]
       },
       "placement": {
-        "count": 176,
+        "count": 177,
         "eligibleCount": 299,
         "notApplicableCount": 0,
-        "percent": 58.9,
+        "percent": 59.2,
         "missing": [
           "בנימין יעקביאן",
           "רועי עידן וחגית השמשוני",
@@ -950,7 +949,6 @@
           "רוני פליישר",
           "אבינעם שמעון",
           "מירן הולדשטיין",
-          "אלירן בוחבוט",
           "יערית אבוטבול",
           "בילי טרובתי",
           "שלומי נחמיאס",
@@ -3210,7 +3208,7 @@
       "coupleEntries": 0,
       "withdrawnEntries": 0,
       "dishes": 0,
-      "winners": 3,
+      "winners": 4,
       "fieldCoverage": {
         "weekName": {
           "count": 25,
@@ -3379,21 +3377,20 @@
           ]
         },
         "score": {
-          "count": 22,
+          "count": 23,
           "eligibleCount": 25,
           "notApplicableCount": 0,
-          "percent": 88,
+          "percent": 92,
           "missing": [
             "ניקול אלטשולר",
-            "אלירן בוחבוט",
             "אלעד משה"
           ]
         },
         "placement": {
-          "count": 5,
+          "count": 6,
           "eligibleCount": 25,
           "notApplicableCount": 0,
-          "percent": 20,
+          "percent": 24,
           "missing": [
             "רועי גולן",
             "אדם גוזלן",
@@ -3407,7 +3404,6 @@
             "רוני פליישר",
             "אבינעם שמעון",
             "מירן הולדשטיין",
-            "אלירן בוחבוט",
             "יערית אבוטבול",
             "בילי טרובתי",
             "שלומי נחמיאס",

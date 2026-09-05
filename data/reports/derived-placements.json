@@ -1708,7 +1708,7 @@
     {
       "season": 10,
       "week": 3,
-      "reason": "missing-score",
+      "reason": "score-tie",
       "entries": [
         {
           "name": "עליזה אלקיים עבאדי",
@@ -1732,7 +1732,9 @@
         },
         {
           "name": "אלירן בוחבוט",
-          "status": "active"
+          "status": "active",
+          "score": 36,
+          "placement": 1
         }
       ]
     },
