@@ -1,10 +1,10 @@
 {
-  "status": "warn",
+  "status": "pass",
   "summary": {
     "entries": 299,
     "errors": 0,
-    "warnings": 1,
-    "unresolvedConflicts": 3,
+    "warnings": 0,
+    "unresolvedConflicts": 0,
     "derivedPlacements": 27,
     "exceptionalStates": {
       "disqualified": 1,
@@ -12,13 +12,5 @@
     }
   },
   "errors": [],
-  "warnings": [
-    {
-      "code": "source-conflicts",
-      "message": "3 unresolved source conflicts remain",
-      "context": {
-        "count": 3
-      }
-    }
-  ]
+  "warnings": []
 }

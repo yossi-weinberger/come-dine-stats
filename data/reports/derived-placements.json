@@ -1132,12 +1132,6 @@
           "score": 30
         },
         {
-          "name": "אילנה אביגל",
-          "status": "active",
-          "score": 34,
-          "placement": 1
-        },
-        {
           "name": "עודד אסגו",
           "status": "active",
           "score": 29
@@ -1146,6 +1140,12 @@
           "name": "רוני ברון",
           "status": "active",
           "score": 27
+        },
+        {
+          "name": "אילנה אביגל",
+          "status": "active",
+          "score": 34,
+          "placement": 1
         }
       ]
     },
