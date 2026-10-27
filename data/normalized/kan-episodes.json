@@ -240,18 +240,6 @@
     }
   },
   {
-    "season": 3,
-    "episode": 100,
-    "title": "בואו לאכול איתי - פסח | טריילר פרק 100",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
     "season": 4,
     "episode": 1,
     "title": "פרק 1 - דרום, חלק א' עונה 4, פרק 1",
@@ -440,18 +428,6 @@
       "kind": "kan",
       "title": "כאן 11 — בואו לאכול איתי",
       "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660736/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 4,
-    "episode": 100,
-    "title": "בואו לאכול איתי - פסח | טריילר פרק 100",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
       "note": "Official episode archive; factual metadata and links only"
     }
   },
@@ -777,19 +753,6 @@
       "kind": "kan",
       "title": "כאן 11 — בואו לאכול איתי",
       "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134187/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 5,
-    "episode": 100,
-    "hostingOrder": 5,
-    "title": "בואו לאכול איתי - פסח | טריילר פרק 100",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
       "note": "Official episode archive; factual metadata and links only"
     }
   },
@@ -1213,19 +1176,6 @@
     }
   },
   {
-    "season": 6,
-    "episode": 100,
-    "hostingOrder": 5,
-    "title": "בואו לאכול איתי - פסח | טריילר פרק 100",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
     "season": 7,
     "episode": 1,
     "weekName": "שרון",
@@ -1556,86 +1506,6 @@
       "kind": "kan",
       "title": "כאן 11 — בואו לאכול איתי",
       "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469803/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 7,
-    "episode": 100,
-    "hostingOrder": 5,
-    "title": "בואו לאכול איתי - פסח | טריילר פרק 100",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 7,
-    "episode": 101,
-    "weekName": "1",
-    "hostingOrder": 1,
-    "title": "שבוע 1 - הכירו את עמית עונה 7, פרק 101",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/447189/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/447189/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 7,
-    "episode": 102,
-    "hostingOrder": 2,
-    "title": "שלי סנשיין: אופטומטריסטית אופטימית שמחפשת חתן עונה 7, פרק 102",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/447182/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/447182/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 7,
-    "episode": 103,
-    "weekName": "1",
-    "hostingOrder": 3,
-    "title": "שבוע 1 - הכירו את רחלי עונה 7, פרק 103",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/447184/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/447184/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 7,
-    "episode": 104,
-    "hostingOrder": 4,
-    "title": "\"נולדתי סטרייט בפוקס\" | הכירו את לירון עונה 7, פרק 104",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/447021/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/447021/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 7,
-    "episode": 105,
-    "hostingOrder": 5,
-    "title": "הצצה | מיה דגן מצטרפת לתוכנית עונה 7, פרק 105",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/%D7%94%D7%A6%D7%A6%D7%95%D7%AA-%D7%9C%D7%A2%D7%95%D7%A0%D7%94-%D7%94%D7%A9%D7%91%D7%99%D7%A2%D7%99%D7%AA-%D7%A9%D7%9C-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99/463578/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/%D7%94%D7%A6%D7%A6%D7%95%D7%AA-%D7%9C%D7%A2%D7%95%D7%A0%D7%94-%D7%94%D7%A9%D7%91%D7%99%D7%A2%D7%99%D7%AA-%D7%A9%D7%9C-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99/463578/",
       "note": "Official episode archive; factual metadata and links only"
     }
   },
@@ -2055,19 +1925,6 @@
     }
   },
   {
-    "season": 8,
-    "episode": 100,
-    "hostingOrder": 5,
-    "title": "בואו לאכול איתי - פסח | טריילר פרק 100",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
     "season": 9,
     "episode": 1,
     "weekName": "דרום",
@@ -2414,58 +2271,6 @@
       "kind": "kan",
       "title": "כאן 11 — בואו לאכול איתי",
       "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939930/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 9,
-    "episode": 100,
-    "hostingOrder": 5,
-    "title": "בואו לאכול איתי - פסח | טריילר פרק 100",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 10,
-    "episode": 1,
-    "hostingOrder": 1,
-    "title": "טריילר פרק 1",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/902925/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/902925/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 10,
-    "episode": 10,
-    "hostingOrder": 5,
-    "title": "טריילר פרק 10",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1078602/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1078602/",
-      "note": "Official episode archive; factual metadata and links only"
-    }
-  },
-  {
-    "season": 10,
-    "episode": 100,
-    "hostingOrder": 5,
-    "title": "בואו לאכול איתי - פסח | טריילר פרק 100",
-    "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
-    "source": {
-      "kind": "kan",
-      "title": "כאן 11 — בואו לאכול איתי",
-      "url": "https://www.kan.org.il/content/kan/kan-11/p-11843/1023506/",
       "note": "Official episode archive; factual metadata and links only"
     }
   }

@@ -1,10 +1,10 @@
 {
-  "matchedEntries": 131,
-  "episodesConsidered": 148,
-  "matchedByHostingOrder": 131,
+  "matchedEntries": 129,
+  "episodesConsidered": 135,
+  "matchedByHostingOrder": 129,
   "matchedByExplicitHostText": 0,
   "hostOrderConflicts": 0,
-  "unmatchedEpisodes": 17,
+  "unmatchedEpisodes": 6,
   "profileExtraction": {
     "occupations": 0,
     "diets": 0,
@@ -364,15 +364,6 @@
         "ספאא זהר אל דין פרחאת (hosting order 5)"
       ],
       "text": "פרק 25 - חיפה והקריות חלק ה' עונה 5, פרק 25"
-    },
-    {
-      "season": 5,
-      "episode": 100,
-      "week": 20,
-      "hostingOrder": 5,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "בואו לאכול איתי - פסח | טריילר פרק 100"
     },
     {
       "season": 6,
@@ -790,15 +781,6 @@
       "text": "כרמל - יום ה' (פרק 30) עונה 6, פרק 30"
     },
     {
-      "season": 6,
-      "episode": 100,
-      "week": 20,
-      "hostingOrder": 5,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "בואו לאכול איתי - פסח | טריילר פרק 100"
-    },
-    {
       "season": 7,
       "episode": 1,
       "week": 1,
@@ -1147,60 +1129,6 @@
         "אבינועם נתנאל (hosting order 5)"
       ],
       "text": "פרק 25 - תל אביב, יום ה' בשל הסכמי זכויות שידור, תוכן זה כבר לא זמין לצפייה"
-    },
-    {
-      "season": 7,
-      "episode": 100,
-      "week": 20,
-      "hostingOrder": 5,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "בואו לאכול איתי - פסח | טריילר פרק 100"
-    },
-    {
-      "season": 7,
-      "episode": 101,
-      "week": 21,
-      "hostingOrder": 1,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "שבוע 1 - הכירו את עמית עונה 7, פרק 101"
-    },
-    {
-      "season": 7,
-      "episode": 102,
-      "week": 21,
-      "hostingOrder": 2,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "שלי סנשיין: אופטומטריסטית אופטימית שמחפשת חתן עונה 7, פרק 102"
-    },
-    {
-      "season": 7,
-      "episode": 103,
-      "week": 21,
-      "hostingOrder": 3,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "שבוע 1 - הכירו את רחלי עונה 7, פרק 103"
-    },
-    {
-      "season": 7,
-      "episode": 104,
-      "week": 21,
-      "hostingOrder": 4,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "\"נולדתי סטרייט בפוקס\" | הכירו את לירון עונה 7, פרק 104"
-    },
-    {
-      "season": 7,
-      "episode": 105,
-      "week": 21,
-      "hostingOrder": 5,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "הצצה | מיה דגן מצטרפת לתוכנית עונה 7, פרק 105"
     },
     {
       "season": 8,
@@ -1598,15 +1526,6 @@
       "text": "חלק ה - גל זהבי עונה 8, פרק 30"
     },
     {
-      "season": 8,
-      "episode": 100,
-      "week": 20,
-      "hostingOrder": 5,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "בואו לאכול איתי - פסח | טריילר פרק 100"
-    },
-    {
       "season": 9,
       "episode": 1,
       "week": 1,
@@ -1955,52 +1874,6 @@
         "עדי ויצמן אסולין (hosting order 5)"
       ],
       "text": "פרק 25 - שבוע חיפה, יום ה' עונה 9, פרק 25"
-    },
-    {
-      "season": 9,
-      "episode": 100,
-      "week": 20,
-      "hostingOrder": 5,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "בואו לאכול איתי - פסח | טריילר פרק 100"
-    },
-    {
-      "season": 10,
-      "episode": 1,
-      "week": 1,
-      "hostingOrder": 1,
-      "matched": "רועי גולן",
-      "matchMethod": "hosting-order",
-      "structuredMatch": "רועי גולן",
-      "orderConflict": false,
-      "candidates": [
-        "רועי גולן (hosting order 1)"
-      ],
-      "text": "טריילר פרק 1"
-    },
-    {
-      "season": 10,
-      "episode": 10,
-      "week": 2,
-      "hostingOrder": 5,
-      "matched": "דניאל דריי",
-      "matchMethod": "hosting-order",
-      "structuredMatch": "דניאל דריי",
-      "orderConflict": false,
-      "candidates": [
-        "דניאל דריי (hosting order 5)"
-      ],
-      "text": "טריילר פרק 10"
-    },
-    {
-      "season": 10,
-      "episode": 100,
-      "week": 20,
-      "hostingOrder": 5,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "בואו לאכול איתי - פסח | טריילר פרק 100"
     }
   ]
 }
