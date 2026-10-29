@@ -1,13 +1,13 @@
 {
-  "matchedEntries": 129,
-  "episodesConsidered": 135,
-  "matchedByHostingOrder": 129,
-  "matchedByExplicitHostText": 0,
-  "hostOrderConflicts": 0,
-  "unmatchedEpisodes": 6,
+  "matchedEntries": 154,
+  "episodesConsidered": 155,
+  "matchedByHostingOrder": 151,
+  "matchedByExplicitHostText": 3,
+  "hostOrderConflicts": 3,
+  "unmatchedEpisodes": 1,
   "profileExtraction": {
-    "occupations": 0,
-    "diets": 0,
+    "occupations": 21,
+    "diets": 2,
     "policy": "Only explicit host-local descriptors are extracted; menu style is not treated as contestant diet."
   },
   "recipeDiscovery": {
@@ -23,11 +23,13 @@
       "matched": "אייל טרסר",
       "matchMethod": "hosting-order",
       "structuredMatch": "אייל טרסר",
+      "explicitMatch": "אייל טרסר",
       "orderConflict": false,
       "candidates": [
-        "אייל טרסר (hosting order 1)"
+        "אייל טרסר (hosting order 1)",
+        "אייל טרסר (explicit host cue)"
       ],
-      "text": "פרק 1 - השרון חלק א' עונה 5, פרק 1"
+      "text": "פרק 1 - השרון חלק א' ערב ראשון בשרון, אייל מארח בדירת המעוצבת ובני ציפר נחשף"
     },
     {
       "season": 5,
@@ -37,11 +39,13 @@
       "matched": "ליאת ברששת",
       "matchMethod": "hosting-order",
       "structuredMatch": "ליאת ברששת",
+      "explicitMatch": "ליאת ברששת",
       "orderConflict": false,
       "candidates": [
-        "ליאת ברששת (hosting order 2)"
+        "ליאת ברששת (hosting order 2)",
+        "ליאת ברששת (explicit host cue)"
       ],
-      "text": "פרק 2 - השרון חלק ב' עונה 5, פרק 2"
+      "text": "פרק 2 - השרון חלק ב' ליאת מארחת ומנפצת סטיגמות ובני ואייל ממשיכים ללחוץ אחד לשני על נקודות"
     },
     {
       "season": 5,
@@ -55,7 +59,7 @@
       "candidates": [
         "בני ציפר (hosting order 3)"
       ],
-      "text": "פרק 3 - השרון חלק ג' עונה 5, פרק 3"
+      "text": "פרק 3 - השרון חלק ג' בני ציפר מגיש ארוחה תורכית ומתהדר בסטנדרטים המתאימים לנתניהוז"
     },
     {
       "season": 5,
@@ -65,11 +69,13 @@
       "matched": "גילי שמחה עוזיאל",
       "matchMethod": "hosting-order",
       "structuredMatch": "גילי שמחה עוזיאל",
+      "explicitMatch": "גילי שמחה עוזיאל",
       "orderConflict": false,
       "candidates": [
-        "גילי שמחה עוזיאל (hosting order 4)"
+        "גילי שמחה עוזיאל (hosting order 4)",
+        "גילי שמחה עוזיאל (explicit host cue)"
       ],
-      "text": "פרק 4 - השרון חלק ד' עונה 5, פרק 4"
+      "text": "פרק 4 - השרון חלק ד' גילי מארחת בהקפדה בביתה בקיבוץ, במטרה לכבוש את המקום הראשון"
     },
     {
       "season": 5,
@@ -79,11 +85,13 @@
       "matched": "ירון גנד",
       "matchMethod": "hosting-order",
       "structuredMatch": "ירון גנד",
+      "explicitMatch": "ירון גנד",
       "orderConflict": false,
       "candidates": [
-        "ירון גנד (hosting order 5)"
+        "ירון גנד (hosting order 5)",
+        "ירון גנד (explicit host cue)"
       ],
-      "text": "פרק 5 - השרון חלק ה' עונה 5, פרק 5"
+      "text": "פרק 5 - השרון חלק ה' ירון מארח וחולק עם האורחים את אמונתו במפלצת הפסטה. האם יעזור לו לנצח?"
     },
     {
       "season": 5,
@@ -97,7 +105,7 @@
       "candidates": [
         "אושרית מולאי (hosting order 1)"
       ],
-      "text": "פרק 6 - תל אביב-יפו חלק א' עונה 5, פרק 6"
+      "text": "פרק 6 - תל אביב-יפו חלק א' אושרית, פעילה נגד המסתננים בת\"א, מארחת את קייסי, בת למהגרים פיליפינים"
     },
     {
       "season": 5,
@@ -107,11 +115,13 @@
       "matched": "ירון תשבי",
       "matchMethod": "hosting-order",
       "structuredMatch": "ירון תשבי",
+      "explicitMatch": "ירון תשבי",
       "orderConflict": false,
       "candidates": [
-        "ירון תשבי (hosting order 2)"
+        "ירון תשבי (hosting order 2)",
+        "ירון תשבי (explicit host cue)"
       ],
-      "text": "פרק 7 - תל אביב-יפו חלק ב' עונה 5, פרק 7"
+      "text": "פרק 7 - תל אביב-יפו חלק ב' ירון מארח בפאר בקומה ה-37, אבל לא כולם מוכנים לנסות טעמים חדשים"
     },
     {
       "season": 5,
@@ -125,7 +135,7 @@
       "candidates": [
         "הדס פישר (hosting order 3)"
       ],
-      "text": "פרק 8 - תל אביב-יפו חלק ג' עונה 5, פרק 8"
+      "text": "פרק 8 - תל אביב-יפו חלק ג' הדס מנסה לנצח בעזרת קסם אישי, האם האורחים יפלו לרשתה?"
     },
     {
       "season": 5,
@@ -139,7 +149,7 @@
       "candidates": [
         "גיא זלצר (hosting order 4)"
       ],
-      "text": "פרק 9 - תל אביב-יפו חלק ד' עונה 5, פרק 9"
+      "text": "פרק 9 - תל אביב-יפו חלק ד' גיא משקיע מכל הלב באירוח, אבל שיחות על החיים יוצאות מכלל שליטה"
     },
     {
       "season": 5,
@@ -149,11 +159,13 @@
       "matched": "קייסי זפטה",
       "matchMethod": "hosting-order",
       "structuredMatch": "קייסי זפטה",
+      "explicitMatch": "קייסי זפטה",
       "orderConflict": false,
       "candidates": [
-        "קייסי זפטה (hosting order 5)"
+        "קייסי זפטה (hosting order 5)",
+        "קייסי זפטה (explicit host cue)"
       ],
-      "text": "פרק 10 - תל אביב-יפו חלק ה' עונה 5, פרק 10"
+      "text": "פרק 10 - תל אביב-יפו חלק ה' קייסי מארחת בדירתה והאורחים מופעים מהמיקום ומצדדים באישיותה שנחשפים"
     },
     {
       "season": 5,
@@ -167,7 +179,7 @@
       "candidates": [
         "חנה בן שימול (hosting order 1)"
       ],
-      "text": "פרק 11 - צפון חלק א' עונה 5, פרק 11"
+      "text": "פרק 11 - צפון חלק א' חנה בחצור הגלילית, מכינה חפלה מרוקאית. מי יאכל ומי יאכל את הראש?"
     },
     {
       "season": 5,
@@ -181,7 +193,7 @@
       "candidates": [
         "עימראן עיאדה (hosting order 2)"
       ],
-      "text": "פרק 12 - צפון חלק ב' עונה 5, פרק 12"
+      "text": "פרק 12 - צפון חלק ב' עימראן מכפר בועאנה נוג'ידאת מפתיע את האורחים עם ארוחה איטלקית מסורתית"
     },
     {
       "season": 5,
@@ -195,7 +207,7 @@
       "candidates": [
         "שרין אברהם (hosting order 3)"
       ],
-      "text": "פרק 13 - צפון חלק ג' עונה 5, פרק 13"
+      "text": "פרק 13 - צפון חלק ג' האם שרין הצעירה הצעירה מעפולה תצליח לנצח את חנה בסעודה מהמטבח המרוקאי?"
     },
     {
       "season": 5,
@@ -209,7 +221,7 @@
       "candidates": [
         "אריאל סולומון (hosting order 4)"
       ],
-      "text": "פרק 14 - צפון חלק ד' עונה 5, פרק 14"
+      "text": "פרק 14 - צפון חלק ד' איך יתמודדו האורחים עם סגנונו נטול היומרה (והמפה) של אריאל מעין יעקב?"
     },
     {
       "season": 5,
@@ -223,7 +235,7 @@
       "candidates": [
         "ינה קליפר (hosting order 5)"
       ],
-      "text": "פרק 15 - צפון חלק ה' עונה 5, פרק 15"
+      "text": "פרק 15 - צפון חלק ה' הדו קרב בין חנה לינה מגיע לשיאו במגדלי פנורמה, בערב האחרון בשבוע הצפון"
     },
     {
       "season": 5,
@@ -234,10 +246,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "קציעה אלדר",
       "orderConflict": false,
+      "occupation": "יועצת מינית",
       "candidates": [
         "קציעה אלדר (hosting order 1)"
       ],
-      "text": "פרק 16 - דרום חלק א' עונה 5, פרק 16"
+      "text": "פרק 16 - דרום חלק א' בערב פתיחת שבוע דרום מאחרת קציעה, היועצת מינית, שמגישה מנות וגם טיפים"
     },
     {
       "season": 5,
@@ -251,7 +264,7 @@
       "candidates": [
         "איב איבנעים (hosting order 2)"
       ],
-      "text": "פרק 17 - דרום חלק ב' עונה 5, פרק 17"
+      "text": "פרק 17 - דרום חלק ב' איב התחרותי, מארח את החבורה בדירת הרווקים, שמיצדם מתרכזים בהיותו רווק"
     },
     {
       "season": 5,
@@ -265,7 +278,7 @@
       "candidates": [
         "אביגיל אוקנין חביב (hosting order 3)"
       ],
-      "text": "פרק 18 - דרום חלק ג' עונה 5, פרק 18"
+      "text": "פרק 18 - דרום חלק ג' ארוחה בייתית נינוחה בבית של אביגיל הופכת לשדה קרב, לאחר תקרית מביכה"
     },
     {
       "season": 5,
@@ -279,7 +292,7 @@
       "candidates": [
         "תאיר אלון (hosting order 4)"
       ],
-      "text": "פרק 19 - דרום חלק ד' עונה 5, פרק 19"
+      "text": "פרק 19 - דרום חלק ד' האורחים מגיעים מלאי ציפייה לממלכת השיק של תאיר בב\"ש לארוחה בלתי נשכחת"
     },
     {
       "season": 5,
@@ -289,11 +302,13 @@
       "matched": "איגור גרינברג",
       "matchMethod": "hosting-order",
       "structuredMatch": "איגור גרינברג",
+      "explicitMatch": "איגור גרינברג",
       "orderConflict": false,
       "candidates": [
-        "איגור גרינברג (hosting order 5)"
+        "איגור גרינברג (hosting order 5)",
+        "איגור גרינברג (explicit host cue)"
       ],
-      "text": "פרק 20 - דרום חלק ה' עונה 5, פרק 20"
+      "text": "פרק 20 - דרום חלק ה' איגור מארח לערב אחרון מלא אלכוהול. האם תאיר וקציעה ישלימו ומי ינצח?"
     },
     {
       "season": 5,
@@ -307,7 +322,7 @@
       "candidates": [
         "אבי אמר (hosting order 1)"
       ],
-      "text": "פרק 21 - חיפה והקריות חלק א' עונה 5, פרק 21"
+      "text": "פרק 21 - חיפה והקריות חלק א' הארוחה הראשונה בשבוע חיפה והקריות מתגלה כערב רווקים רווקות"
     },
     {
       "season": 5,
@@ -317,11 +332,13 @@
       "matched": "ענבל אלנקווה",
       "matchMethod": "hosting-order",
       "structuredMatch": "ענבל אלנקווה",
+      "explicitMatch": "ענבל אלנקווה",
       "orderConflict": false,
       "candidates": [
-        "ענבל אלנקווה (hosting order 2)"
+        "ענבל אלנקווה (hosting order 2)",
+        "ענבל אלנקווה (explicit host cue)"
       ],
-      "text": "פרק 22 - חיפה והקריות חלק ב' עונה 5, פרק 22"
+      "text": "פרק 22 - חיפה והקריות חלק ב' ענבל מארחת בביתה בכרמל לערב של אלכוהול וסטיגמות על שים, גברים וזוגיות"
     },
     {
       "season": 5,
@@ -335,7 +352,7 @@
       "candidates": [
         "אלכס שולץ (hosting order 3)"
       ],
-      "text": "פרק 23 - חיפה והקריות חלק ג' עונה 5, פרק 23"
+      "text": "פרק 23 - חיפה והקריות חלק ג' האורחים מגיעים לאלכס ומופעים שעדיין גר עם ההורים"
     },
     {
       "season": 5,
@@ -345,11 +362,13 @@
       "matched": "אורן מלכה",
       "matchMethod": "hosting-order",
       "structuredMatch": "אורן מלכה",
+      "explicitMatch": "אורן מלכה",
       "orderConflict": false,
       "candidates": [
-        "אורן מלכה (hosting order 4)"
+        "אורן מלכה (hosting order 4)",
+        "אורן מלכה (explicit host cue)"
       ],
-      "text": "פרק 24 - חיפה והקריות חלק ד' עונה 5, פרק 24"
+      "text": "פרק 24 - חיפה והקריות חלק ד' אורן מארח בדירת החדר שלו לערב של התגוששות מילולית ופיזית"
     },
     {
       "season": 5,
@@ -363,7 +382,7 @@
       "candidates": [
         "ספאא זהר אל דין פרחאת (hosting order 5)"
       ],
-      "text": "פרק 25 - חיפה והקריות חלק ה' עונה 5, פרק 25"
+      "text": "פרק 25 - חיפה והקריות חלק ה' בביתה של ספאא בדלית אל כרמל, אלכס מגלה שהוא לא היחיד שגר עם ההורים"
     },
     {
       "season": 6,
@@ -377,7 +396,7 @@
       "candidates": [
         "אורפז אמסלם דהן (hosting order 1)"
       ],
-      "text": "צפון - יום א' (פרק 1) עונה 6, פרק 1"
+      "text": "צפון - יום א' (פרק 1) ערב ראשון בצפון. אורפז משקיעה מאוד באורחיה, אך האם הם יעריכו את הטרחה?"
     },
     {
       "season": 6,
@@ -391,7 +410,7 @@
       "candidates": [
         "עודד דואר (hosting order 2)"
       ],
-      "text": "צפון - יום ב' (פרק 2) עונה 6, פרק 2"
+      "text": "צפון - יום ב' (פרק 2) יום שני לתחרות והאורחים מגלים צדדים חדשים שלא הכירו בעודד"
     },
     {
       "season": 6,
@@ -402,10 +421,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "שחר חן",
       "orderConflict": false,
+      "occupation": "בלוגר",
       "candidates": [
         "שחר חן (hosting order 3)"
       ],
-      "text": "צפון - יום ג' (פרק 3) עונה 6, פרק 3"
+      "text": "צפון - יום ג' (פרק 3) ממטבח קטן בנהריה, שחר הבלוגר מגיש ארוחה גדולה ועונה לשאלות על זוגיות"
     },
     {
       "season": 6,
@@ -419,7 +439,7 @@
       "candidates": [
         "שמרי שקד מאור (hosting order 4)"
       ],
-      "text": "צפון - יום ד' (פרק 4) עונה 6, פרק 4"
+      "text": "צפון - יום ד' (פרק 4) שמרי מחליט להכין מנות חדשות בפעם הראשונה ומכיר לאורחים את קערת הקריסטל"
     },
     {
       "season": 6,
@@ -433,7 +453,7 @@
       "candidates": [
         "חני בוהדנה (hosting order 5)"
       ],
-      "text": "צפון - יום ה' (פרק 5) עונה 6, פרק 5"
+      "text": "צפון - יום ה' (פרק 5) בפרק סיום השבוע בבית הצבעוני של חני, תיקו מפתיע ועניינים אישיים נחשפים"
     },
     {
       "season": 6,
@@ -443,11 +463,13 @@
       "matched": "קרין אלקונין",
       "matchMethod": "hosting-order",
       "structuredMatch": "קרין אלקונין",
+      "explicitMatch": "קרין אלקונין",
       "orderConflict": false,
       "candidates": [
-        "קרין אלקונין (hosting order 1)"
+        "קרין אלקונין (hosting order 1)",
+        "קרין אלקונין (explicit host cue)"
       ],
-      "text": "דרום - יום א' (פרק 6) עונה 6, פרק 6"
+      "text": "דרום - יום א' (פרק 6) בדרום, קרין המארחת מנסה להראות שהיא נסיכה ובשלנית. האם האורחים יסכימו?"
     },
     {
       "season": 6,
@@ -457,53 +479,61 @@
       "matched": "סופיה (סופי) דביר",
       "matchMethod": "hosting-order",
       "structuredMatch": "סופיה (סופי) דביר",
+      "explicitMatch": "סופיה (סופי) דביר",
       "orderConflict": false,
       "candidates": [
-        "סופיה (סופי) דביר (hosting order 2)"
+        "סופיה (סופי) דביר (hosting order 2)",
+        "סופיה (סופי) דביר (explicit host cue)"
       ],
-      "text": "דרום - יום ב' (פרק 7) עונה 6, פרק 7"
+      "text": "דרום - יום ב' (פרק 7) סופיה מגישה מנות גיאורגיות, בליווי ריקוד מפתיע ודיון על דת"
     },
     {
       "season": 6,
       "episode": 8,
       "week": 2,
       "hostingOrder": 3,
-      "matched": "עודד אסגו",
-      "matchMethod": "hosting-order",
+      "matched": "אילנה אביגל",
+      "matchMethod": "explicit-host-text",
       "structuredMatch": "עודד אסגו",
-      "orderConflict": false,
+      "explicitMatch": "אילנה אביגל",
+      "orderConflict": true,
       "candidates": [
-        "עודד אסגו (hosting order 3)"
+        "עודד אסגו (hosting order 3)",
+        "אילנה אביגל (explicit host cue)"
       ],
-      "text": "דרום - יום ג' (פרק 8) עונה 6, פרק 8"
+      "text": "דרום - יום ג' (פרק 8) עוד ערב גיאורגי, הפעם אצל אילנה. איך תגיב לשיחות הבוטות?"
     },
     {
       "season": 6,
       "episode": 9,
       "week": 2,
       "hostingOrder": 4,
-      "matched": "רוני ברון",
-      "matchMethod": "hosting-order",
+      "matched": "עודד אסגו",
+      "matchMethod": "explicit-host-text",
       "structuredMatch": "רוני ברון",
-      "orderConflict": false,
+      "explicitMatch": "עודד אסגו",
+      "orderConflict": true,
       "candidates": [
-        "רוני ברון (hosting order 4)"
+        "רוני ברון (hosting order 4)",
+        "עודד אסגו (explicit host cue)"
       ],
-      "text": "דרום - יום ד' (פרק 9) עונה 6, פרק 9"
+      "text": "דרום - יום ד' (פרק 9) עודד מארח את החבורה בדירת השותפים בב\"ש, איך יגיב כשתוכניותיו ישתבשו?"
     },
     {
       "season": 6,
       "episode": 10,
       "week": 2,
       "hostingOrder": 5,
-      "matched": "אילנה אביגל",
-      "matchMethod": "hosting-order",
+      "matched": "רוני ברון",
+      "matchMethod": "explicit-host-text",
       "structuredMatch": "אילנה אביגל",
-      "orderConflict": false,
+      "explicitMatch": "רוני ברון",
+      "orderConflict": true,
       "candidates": [
-        "אילנה אביגל (hosting order 5)"
+        "אילנה אביגל (hosting order 5)",
+        "רוני ברון (explicit host cue)"
       ],
-      "text": "דרום - יום ה' (פרק 10) עונה 6, פרק 10"
+      "text": "דרום - יום ה' (פרק 10) רוני לוקח את אורחיו ל\"טיול\" בפרו ארץ מולדתו. האם הוא ינצח בשבוע הדרום?"
     },
     {
       "season": 6,
@@ -514,10 +544,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "פיני קריספל",
       "orderConflict": false,
+      "diet": "קרניבור",
       "candidates": [
         "פיני קריספל (hosting order 1)"
       ],
-      "text": "ירושלים - יום א' (פרק 11) עונה 6, פרק 11"
+      "text": "ירושלים - יום א' (פרק 11) בפתיחת שבוע ירושלים, פיני הקרניבור מארח חבורה ירושלמית הטרוגנית"
     },
     {
       "season": 6,
@@ -528,10 +559,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "ברוריה פסטרנק-שביט",
       "orderConflict": false,
+      "occupation": "אומנית",
       "candidates": [
         "ברוריה פסטרנק-שביט (hosting order 2)"
       ],
-      "text": "ירושלים - יום ב' (פרק 12) עונה 6, פרק 12"
+      "text": "ירושלים - יום ב' (פרק 12) ברוריה האומנית משלבת באירוח סיפור חיים, קודש וחול"
     },
     {
       "season": 6,
@@ -545,7 +577,7 @@
       "candidates": [
         "אריק פינקלברג (hosting order 3)"
       ],
-      "text": "ירושלים - יום ג' (פרק 13) עונה 6, פרק 13"
+      "text": "ירושלים - יום ג' (פרק 13) אריק חוגג טבעוני, הפתעה קרובה והיסטוריה ירושלמית"
     },
     {
       "season": 6,
@@ -555,11 +587,13 @@
       "matched": "שלם מושעיהו",
       "matchMethod": "hosting-order",
       "structuredMatch": "שלם מושעיהו",
+      "explicitMatch": "שלם מושעיהו",
       "orderConflict": false,
       "candidates": [
-        "שלם מושעיהו (hosting order 4)"
+        "שלם מושעיהו (hosting order 4)",
+        "שלם מושעיהו (explicit host cue)"
       ],
-      "text": "ירושלים - יום ד' (פרק 14) עונה 6, פרק 14"
+      "text": "ירושלים - יום ד' (פרק 14) שלם מארח בארמונו לארוחה וסיפור חיים מפתיעים ומרתקים"
     },
     {
       "season": 6,
@@ -573,7 +607,7 @@
       "candidates": [
         "יעל צין (hosting order 5)"
       ],
-      "text": "ירושלים - יום ה' (פרק 15) עונה 6, פרק 15"
+      "text": "ירושלים - יום ה' (פרק 15) יעל סוגרת עם מנה מפתיעה, והמנצח של ירושלים נקבע"
     },
     {
       "season": 6,
@@ -587,7 +621,7 @@
       "candidates": [
         "מחמוד (מודי) צפורי (hosting order 1)"
       ],
-      "text": "דן ושומרון - יום א' (פרק 16) עונה 6, פרק 16"
+      "text": "דן ושומרון - יום א' (פרק 16) בואו לאכול איתי באזור המרכז, שעה מכל פקק. הפעם, מודי מבת ים יארח"
     },
     {
       "season": 6,
@@ -601,7 +635,7 @@
       "candidates": [
         "רבקה לפאיר (hosting order 2)"
       ],
-      "text": "דן ושומרון - יום ב' (פרק 17) עונה 6, פרק 17"
+      "text": "דן ושומרון - יום ב' (פרק 17) היום תגיע החבורה ברכב משוריין לעמיחי. שם תארח נערת הגבעות רבקה"
     },
     {
       "season": 6,
@@ -615,7 +649,7 @@
       "candidates": [
         "שרון בוננו (hosting order 3)"
       ],
-      "text": "דן ושומרון - יום ג' (פרק 18) עונה 6, פרק 18"
+      "text": "דן ושומרון - יום ג' (פרק 18) האורחים ניהנים בארוחה המקסיקנית של שרון עד ששאלה אחת מבעירה את השולחן"
     },
     {
       "season": 6,
@@ -625,11 +659,13 @@
       "matched": "גאלה רחמילביץ'",
       "matchMethod": "hosting-order",
       "structuredMatch": "גאלה רחמילביץ'",
+      "explicitMatch": "גאלה רחמילביץ'",
       "orderConflict": false,
       "candidates": [
-        "גאלה רחמילביץ' (hosting order 4)"
+        "גאלה רחמילביץ' (hosting order 4)",
+        "גאלה רחמילביץ' (explicit host cue)"
       ],
-      "text": "דן ושומרון - יום ד' (פרק 19) עונה 6, פרק 19"
+      "text": "דן ושומרון - יום ד' (פרק 19) גאלה מארחת בביתה הצבעוני והמיוחד, והאורחים לומדים על טינדר דתי וחילוני"
     },
     {
       "season": 6,
@@ -643,7 +679,7 @@
       "candidates": [
         "אורן ברט (hosting order 5)"
       ],
-      "text": "דן ושומרון - יום ה' (פרק 20) עונה 6, פרק 20"
+      "text": "דן ושומרון - יום ה' (פרק 20) עומר מאלקנה, שהצהיר שבא לנצח, סוגר את השבוע. האם יעמוד באתגר שהציב?"
     },
     {
       "season": 6,
@@ -653,11 +689,14 @@
       "matched": "יהודית קונפורטי",
       "matchMethod": "hosting-order",
       "structuredMatch": "יהודית קונפורטי",
+      "explicitMatch": "יהודית קונפורטי",
       "orderConflict": false,
+      "occupation": "מתקשרת ויוצרת",
       "candidates": [
-        "יהודית קונפורטי (hosting order 1)"
+        "יהודית קונפורטי (hosting order 1)",
+        "יהודית קונפורטי (explicit host cue)"
       ],
-      "text": "מרכז - יום א' (פרק 21) עונה 6, פרק 21"
+      "text": "מרכז - יום א' (פרק 21) המתקשרת והיוצרת יהודית מארחת בדירתה המסקרנת את הערב הראשון בשבוע המרכז"
     },
     {
       "season": 6,
@@ -667,11 +706,13 @@
       "matched": "אלה ורמה",
       "matchMethod": "hosting-order",
       "structuredMatch": "אלה ורמה",
+      "explicitMatch": "אלה ורמה",
       "orderConflict": false,
       "candidates": [
-        "אלה ורמה (hosting order 2)"
+        "אלה ורמה (hosting order 2)",
+        "אלה ורמה (explicit host cue)"
       ],
-      "text": "מרכז - יום ב' (פרק 22) עונה 6, פרק 22"
+      "text": "מרכז - יום ב' (פרק 22) אלה תארח בדירת השותפים התל אביבית. האםהבורה תתחבר לאוכל וגם אחד לשני?"
     },
     {
       "season": 6,
@@ -681,11 +722,13 @@
       "matched": "סיוון כהן",
       "matchMethod": "hosting-order",
       "structuredMatch": "סיוון כהן",
+      "explicitMatch": "סיוון כהן",
       "orderConflict": false,
       "candidates": [
-        "סיוון כהן (hosting order 3)"
+        "סיוון כהן (hosting order 3)",
+        "סיוון כהן (explicit host cue)"
       ],
-      "text": "מרכז - יום ג' (פרק 23) עונה 6, פרק 23"
+      "text": "מרכז - יום ג' (פרק 23) סיוון מגישה במגדל ארוחה עשירה במיוחד והופעה מפתיעה, אך לא כולם מתרשמים"
     },
     {
       "season": 6,
@@ -696,10 +739,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "אביעד בללי",
       "orderConflict": false,
+      "occupation": "כוכב רשת",
       "candidates": [
         "אביעד בללי (hosting order 4)"
       ],
-      "text": "מרכז - יום ד' (פרק 24) עונה 6, פרק 24"
+      "text": "מרכז - יום ד' (פרק 24) כוכב הרשת אביעד וחתוליו מארחים את סיוון ויהודית שעסוקות בלסגור חשבון"
     },
     {
       "season": 6,
@@ -709,11 +753,13 @@
       "matched": "גל אלון",
       "matchMethod": "hosting-order",
       "structuredMatch": "גל אלון",
+      "explicitMatch": "גל אלון",
       "orderConflict": false,
       "candidates": [
-        "גל אלון (hosting order 5)"
+        "גל אלון (hosting order 5)",
+        "גל אלון (explicit host cue)"
       ],
-      "text": "מרכז 5 (פרק 25) עונה 6, פרק 25"
+      "text": "מרכז 5 (פרק 25) ארוחת פארם טו טייבל מושקעת אצל גל עם גילויים עסיסיים ומנצח/ת השבוע"
     },
     {
       "season": 6,
@@ -727,7 +773,7 @@
       "candidates": [
         "מורן זיסר (hosting order 1)"
       ],
-      "text": "כרמל - יום א' (פרק 26) עונה 6, פרק 26"
+      "text": "כרמל - יום א' (פרק 26) פגישה ראשונה בבית הלא שגרתי של מורן לארוחה מרוקאית-רומנית"
     },
     {
       "season": 6,
@@ -738,10 +784,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "פאדי זגאירה",
       "orderConflict": false,
+      "occupation": "איש תקשורת",
       "candidates": [
         "פאדי זגאירה (hosting order 2)"
       ],
-      "text": "כרמל - יום ב' (פרק 27) עונה 6, פרק 27"
+      "text": "כרמל - יום ב' (פרק 27) פאדי איש התקשורת מארח בביתו ומשתף בפרטים שלא כולם שמחים לשמוע"
     },
     {
       "season": 6,
@@ -751,11 +798,13 @@
       "matched": "מעיין חטואל",
       "matchMethod": "hosting-order",
       "structuredMatch": "מעיין חטואל",
+      "explicitMatch": "מעיין חטואל",
       "orderConflict": false,
       "candidates": [
-        "מעיין חטואל (hosting order 3)"
+        "מעיין חטואל (hosting order 3)",
+        "מעיין חטואל (explicit host cue)"
       ],
-      "text": "כרמל - יום ג' (פרק 28) עונה 6, פרק 28"
+      "text": "כרמל - יום ג' (פרק 28) ארוחה ביתית מרוקאית ואינטימית אצל מעיין החילונית-מסורתית"
     },
     {
       "season": 6,
@@ -765,11 +814,13 @@
       "matched": "דנה שפירא",
       "matchMethod": "hosting-order",
       "structuredMatch": "דנה שפירא",
+      "explicitMatch": "דנה שפירא",
       "orderConflict": false,
       "candidates": [
-        "דנה שפירא (hosting order 4)"
+        "דנה שפירא (hosting order 4)",
+        "דנה שפירא (explicit host cue)"
       ],
-      "text": "כרמל - יום ד' (פרק 29) עונה 6, פרק 29"
+      "text": "כרמל - יום ד' (פרק 29) ערב קופצני ואנרגטי אצל דנה בחיפה, עם שאלות מציקות ובידור טלפתי מפתיע"
     },
     {
       "season": 6,
@@ -778,7 +829,7 @@
       "hostingOrder": 5,
       "orderConflict": false,
       "candidates": [],
-      "text": "כרמל - יום ה' (פרק 30) עונה 6, פרק 30"
+      "text": "כרמל - יום ה' (פרק 30) הערב תצפין החבורה לאירוח חגיגי במיוחד"
     },
     {
       "season": 7,
@@ -1139,10 +1190,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "ענבל אהרון אזרד",
       "orderConflict": false,
+      "occupation": "מורה",
       "candidates": [
         "ענבל אהרון אזרד (hosting order 1)"
       ],
-      "text": "פרק 1 - שבוע צפון, יום א' עונה 8, פרק 1"
+      "text": "פרק 1 - שבוע צפון, יום א' אז אצל מי באים לאכול? את התחרות פותחת ענבל המורה מחיפה"
     },
     {
       "season": 8,
@@ -1153,10 +1205,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "מעיין מיזן",
       "orderConflict": false,
+      "occupation": "מסדרת ארונות וסטייליסטית",
       "candidates": [
         "מעיין מיזן (hosting order 2)"
       ],
-      "text": "פרק 2 - שבוע צפון, יום ב' עונה 8, פרק 2"
+      "text": "פרק 2 - שבוע צפון, יום ב' ביום השני לתחרות מארחת מעיין, מסדרת ארונות מקצועית וסטייליסטית מיקנעם"
     },
     {
       "season": 8,
@@ -1170,7 +1223,7 @@
       "candidates": [
         "אחיה זלייט (hosting order 3)"
       ],
-      "text": "פרק 3 - שבוע צפון, יום ג' עונה 8, פרק 3"
+      "text": "פרק 3 - שבוע צפון, יום ג' את היום השלישי לתחרות מארח אחיה, לוחם חופש מהיישוב האקולוגי רותם"
     },
     {
       "season": 8,
@@ -1180,11 +1233,14 @@
       "matched": "איתמר גרובר",
       "matchMethod": "hosting-order",
       "structuredMatch": "איתמר גרובר",
+      "explicitMatch": "איתמר גרובר",
       "orderConflict": false,
+      "occupation": "הייטקיסט",
       "candidates": [
-        "איתמר גרובר (hosting order 4)"
+        "איתמר גרובר (hosting order 4)",
+        "איתמר גרובר (explicit host cue)"
       ],
-      "text": "פרק 4 - שבוע צפון, יום ד' עונה 8, פרק 4"
+      "text": "פרק 4 - שבוע צפון, יום ד' ביום הרביעי לתחרות החבורה חוזרת לחיפה ומתארחת הפעם אצל איתמר ההייטקיסט"
     },
     {
       "season": 8,
@@ -1195,10 +1251,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "דנה כהן הלוי",
       "orderConflict": false,
+      "occupation": "מתקשרת",
       "candidates": [
         "דנה כהן הלוי (hosting order 5)"
       ],
-      "text": "פרק 5 - שבוע צפון, יום ה' עונה 8, פרק 5"
+      "text": "פרק 5 - שבוע צפון, יום ה' בפרק אחרון לשבוע צפון מארחת דנה כהן הלוי, המתקשרת מהמושבה מגדל"
     },
     {
       "season": 8,
@@ -1208,11 +1265,13 @@
       "matched": "לבנה שיפמן",
       "matchMethod": "hosting-order",
       "structuredMatch": "לבנה שיפמן",
+      "explicitMatch": "לבנה שיפמן",
       "orderConflict": false,
       "candidates": [
-        "לבנה שיפמן (hosting order 1)"
+        "לבנה שיפמן (hosting order 1)",
+        "לבנה שיפמן (explicit host cue)"
       ],
-      "text": "פרק 6 - שבוע ירושלים, יום א' עונה 8, פרק 6"
+      "text": "פרק 6 - שבוע ירושלים, יום א' שבוע ירושלים נפתח אצל לבנה שיפמן עם ארוחה טבעונית מפתיעה"
     },
     {
       "season": 8,
@@ -1226,7 +1285,7 @@
       "candidates": [
         "יפה חסידים (hosting order 2)"
       ],
-      "text": "פרק 7 - שבוע ירושלים, יום ב' עונה 8, פרק 7"
+      "text": "פרק 7 - שבוע ירושלים, יום ב' ביום השני לשבוע ירושלים תארח יפה חסידים לארוחה עיראקית באווירה משפחתית"
     },
     {
       "season": 8,
@@ -1237,10 +1296,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "יוסל'ה זיו",
       "orderConflict": false,
+      "occupation": "ספר נשים ודראגיסט",
       "candidates": [
         "יוסל'ה זיו (hosting order 3)"
       ],
-      "text": "פרק 8 - שבוע ירושלים, יום ג' עונה 8, פרק 8"
+      "text": "פרק 8 - שבוע ירושלים, יום ג' ביום השלישי לתחרות יארח יוסל'ה, ספר נשים ביום ודראגיסט בלילה"
     },
     {
       "season": 8,
@@ -1251,10 +1311,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "קארי בר כהן",
       "orderConflict": false,
+      "occupation": "אושיית טיקטוק",
       "candidates": [
         "קארי בר כהן (hosting order 4)"
       ],
-      "text": "פרק 9 - שבוע ירושלים, יום ד' עונה 8, פרק 9"
+      "text": "פרק 9 - שבוע ירושלים, יום ד' ביום הרביעי לשבוע ירושלים תארח קארי - ציונית חרדית ואושיית טיקטוק"
     },
     {
       "season": 8,
@@ -1268,7 +1329,7 @@
       "candidates": [
         "יהונתן מקרוב (hosting order 5)"
       ],
-      "text": "פרק 10 - שבוע ירושלים, יום ה' עונה 8, פרק 10"
+      "text": "פרק 10 - שבוע ירושלים, יום ה' ביום האחרון לתחרות יארח יהונתן מנטף לארוחה אורגנית. מי יהיה הזוכה?"
     },
     {
       "season": 8,
@@ -1282,7 +1343,7 @@
       "candidates": [
         "עמית שאטו (hosting order 1)"
       ],
-      "text": "פרק 11 - שבוע דרום, יום א' עונה 8, פרק 11"
+      "text": "פרק 11 - שבוע דרום, יום א' יום ראשון של שבוע חדש בתחרות האוכל והבישול"
     },
     {
       "season": 8,
@@ -1296,7 +1357,7 @@
       "candidates": [
         "חן וייסמן (hosting order 2)"
       ],
-      "text": "פרק 12 - שבוע דרום, יום ב' עונה 8, פרק 12"
+      "text": "פרק 12 - שבוע דרום, יום ב' הערב תארח חן, עירונית בנשמה עם אוכל אסייתי ושיחה סוערת על סטיגמות"
     },
     {
       "season": 8,
@@ -1310,7 +1371,7 @@
       "candidates": [
         "משה ניסימפור (hosting order 3)"
       ],
-      "text": "פרק 13 - שבוע דרום, יום ג' עונה 8, פרק 13"
+      "text": "פרק 13 - שבוע דרום, יום ג' היום השלישי לתחרות הבישול באזור הדרום עם אירוח של משה, אשקלוני גאה"
     },
     {
       "season": 8,
@@ -1324,7 +1385,7 @@
       "candidates": [
         "עמרי שושן (hosting order 4)"
       ],
-      "text": "פרק 14 - שבוע דרום, יום ד' עונה 8, פרק 14"
+      "text": "פרק 14 - שבוע דרום, יום ד' הערב מארח עמרי עם תפריט צמחוני, ומשה מגיע סקרן במיוחד לארוחה"
     },
     {
       "season": 8,
@@ -1338,7 +1399,7 @@
       "candidates": [
         "ריטה ליפשיץ (hosting order 5)"
       ],
-      "text": "פרק 15 - שבוע דרום, יום ה' עונה 8, פרק 15"
+      "text": "פרק 15 - שבוע דרום, יום ה' זה היום האחרון לתחרות בשבוע הדרום עם אירוח ריטה, עולה משוודיה"
     },
     {
       "season": 8,
@@ -1352,7 +1413,7 @@
       "candidates": [
         "אילנה בן אבו (hosting order 1)"
       ],
-      "text": "פרק 16 - שבוע מרכז, יום א' עונה 8, פרק 16"
+      "text": "פרק 16 - שבוע מרכז, יום א' שבוע מרכז נפתח בארוחה מרוקאית מסורתית אצל המארחת אילנה"
     },
     {
       "season": 8,
@@ -1366,7 +1427,7 @@
       "candidates": [
         "ירון ליברמן (hosting order 2)"
       ],
-      "text": "פרק 17 - שבוע מרכז, יום ב' עונה 8, פרק 17"
+      "text": "פרק 17 - שבוע מרכז, יום ב' ביום השני לתחרות החבורה תגיע לירון מגבעתיים שיארח לארוחה אירופאית"
     },
     {
       "season": 8,
@@ -1377,10 +1438,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "עמנואל יצחק לוי",
       "orderConflict": false,
+      "occupation": "מורה לתנ\"ך וסולן להקה",
       "candidates": [
         "עמנואל יצחק לוי (hosting order 3)"
       ],
-      "text": "פרק 18 - שבוע מרכז, יום ג' עונה 8, פרק 18"
+      "text": "פרק 18 - שבוע מרכז, יום ג' ביום השלישי החבורה תגיע לעמנואל, מורה לתנ\"ך וסולן להקה מדרום תל אביב"
     },
     {
       "season": 8,
@@ -1394,7 +1456,7 @@
       "candidates": [
         "נירית מיטל (hosting order 4)"
       ],
-      "text": "פרק 19 - שבוע מרכז, יום ד' עונה 8, פרק 19"
+      "text": "פרק 19 - שבוע מרכז, יום ד' ביום הרביעי לתחרות החבורה מגיעה לנירית מצפון תל אביב לארוחה איטלקית"
     },
     {
       "season": 8,
@@ -1404,11 +1466,13 @@
       "matched": "גל בן דוד",
       "matchMethod": "hosting-order",
       "structuredMatch": "גל בן דוד",
+      "explicitMatch": "גל בן דוד",
       "orderConflict": false,
       "candidates": [
-        "גל בן דוד (hosting order 5)"
+        "גל בן דוד (hosting order 5)",
+        "גל בן דוד (explicit host cue)"
       ],
-      "text": "פרק 20 - שבוע מרכז, יום ה' עונה 8, פרק 20"
+      "text": "פרק 20 - שבוע מרכז, יום ה' ביום האחרון לשבוע מרכז החבורה מגיעה לערב פויקה בשטח אצל גל"
     },
     {
       "season": 8,
@@ -1422,7 +1486,7 @@
       "candidates": [
         "עדן כהן (hosting order 1)"
       ],
-      "text": "פרק 21 - שבוע מישור החוף, יום א' עונה 8, פרק 21"
+      "text": "פרק 21 - שבוע מישור החוף, יום א' שבוע מישור החוף נפתח באירוח המשפחתי של עדן כהן מנתניה"
     },
     {
       "season": 8,
@@ -1432,11 +1496,13 @@
       "matched": "לואר עמור",
       "matchMethod": "hosting-order",
       "structuredMatch": "לואר עמור",
+      "explicitMatch": "לואר עמור",
       "orderConflict": false,
       "candidates": [
-        "לואר עמור (hosting order 2)"
+        "לואר עמור (hosting order 2)",
+        "לואר עמור (explicit host cue)"
       ],
-      "text": "פרק 22 - שבוע מישור החוף, יום ב' עונה 8, פרק 22"
+      "text": "פרק 22 - שבוע מישור החוף, יום ב' ביום השני לתחרות החבורה תגיע לאירוח חוויתי אצל לואר בת הים מאחיטוב"
     },
     {
       "season": 8,
@@ -1446,11 +1512,13 @@
       "matched": "אייל עובדיה",
       "matchMethod": "hosting-order",
       "structuredMatch": "אייל עובדיה",
+      "explicitMatch": "אייל עובדיה",
       "orderConflict": false,
       "candidates": [
-        "אייל עובדיה (hosting order 3)"
+        "אייל עובדיה (hosting order 3)",
+        "אייל עובדיה (explicit host cue)"
       ],
-      "text": "פרק 23 - שבוע מישור החוף, יום ג' עונה 8, פרק 23"
+      "text": "פרק 23 - שבוע מישור החוף, יום ג' ביום השלישי לתחרות החבורה תתארח בחדרה אצל אייל הגבר שלא רוצה להתבגר"
     },
     {
       "season": 8,
@@ -1464,7 +1532,7 @@
       "candidates": [
         "אדי בן סימון (hosting order 4)"
       ],
-      "text": "פרק 24 - שבוע מישור החוף, יום ד' עונה 8, פרק 24"
+      "text": "פרק 24 - שבוע מישור החוף, יום ד' ביום הרביעי לתחרות יארח אדי בן סימון בסגנון קלאס עם מאמץ"
     },
     {
       "season": 8,
@@ -1478,52 +1546,7 @@
       "candidates": [
         "לינוי דסה (hosting order 5)"
       ],
-      "text": "פרק 25 - שבוע מישור החוף, יום ה' עונה 8, פרק 25"
-    },
-    {
-      "season": 8,
-      "episode": 26,
-      "week": 6,
-      "hostingOrder": 1,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "חלק א - סמדי (בומבה) וקנין עונה 8, פרק 26"
-    },
-    {
-      "season": 8,
-      "episode": 27,
-      "week": 6,
-      "hostingOrder": 2,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "חלק ב - ניסן שור עונה 8, פרק 27"
-    },
-    {
-      "season": 8,
-      "episode": 28,
-      "week": 6,
-      "hostingOrder": 3,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "חלק ג - נועה לוי עונה 8, פרק 28"
-    },
-    {
-      "season": 8,
-      "episode": 29,
-      "week": 6,
-      "hostingOrder": 4,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "חלק ד - שחף שבתאי עונה 8, פרק 29"
-    },
-    {
-      "season": 8,
-      "episode": 30,
-      "week": 6,
-      "hostingOrder": 5,
-      "orderConflict": false,
-      "candidates": [],
-      "text": "חלק ה - גל זהבי עונה 8, פרק 30"
+      "text": "פרק 25 - שבוע מישור החוף, יום ה' ביום האחרון לתחרות תארח את החבורה לינוי דסה מפתח תקווה"
     },
     {
       "season": 9,
@@ -1534,10 +1557,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "קמילה קידר",
       "orderConflict": false,
+      "occupation": "מעצבת פנים",
       "candidates": [
         "קמילה קידר (hosting order 1)"
       ],
-      "text": "פרק 1 - שבוע דרום, יום א' עונה 9, פרק 1"
+      "text": "פרק 1 - שבוע דרום, יום א' את התחרות בשבוע הראשון באזור הדרום פותחת קמילה, מעצבת פנים מבאר שבע"
     },
     {
       "season": 9,
@@ -1551,7 +1575,7 @@
       "candidates": [
         "יובל ארוש (hosting order 2)"
       ],
-      "text": "פרק 2 - שבוע דרום, יום ב' עונה 9, פרק 2"
+      "text": "פרק 2 - שבוע דרום, יום ב' הערב תתארח החבורה בטברנה היוונית של יובל. יאסו!"
     },
     {
       "season": 9,
@@ -1565,7 +1589,7 @@
       "candidates": [
         "ירדן שלי נקים (hosting order 3)"
       ],
-      "text": "פרק 3 - שבוע דרום, יום ג' עונה 9, פרק 3"
+      "text": "פרק 3 - שבוע דרום, יום ג' היום השלישי לתחרות האירוח והבישול בדרום, הערב מארחת ירדן מבאר שבע"
     },
     {
       "season": 9,
@@ -1579,7 +1603,7 @@
       "candidates": [
         "שירה ניר (hosting order 4)"
       ],
-      "text": "פרק 4 - שבוע דרום, יום ד' עונה 9, פרק 4"
+      "text": "פרק 4 - שבוע דרום, יום ד' היום הרביעי בתחרות באזור הדרום, והיום תארח שירה מאשקלון"
     },
     {
       "season": 9,
@@ -1589,11 +1613,14 @@
       "matched": "עודד קב",
       "matchMethod": "hosting-order",
       "structuredMatch": "עודד קב",
+      "explicitMatch": "עודד קב",
       "orderConflict": false,
+      "diet": "פירותני",
       "candidates": [
-        "עודד קב (hosting order 5)"
+        "עודד קב (hosting order 5)",
+        "עודד קב (explicit host cue)"
       ],
-      "text": "פרק 5 - שבוע דרום, יום ה' עונה 9, פרק 5"
+      "text": "פרק 5 - שבוע דרום, יום ה' בערב האחרון לשבוע באזור הדרום, החבורה תבלה בירוחם אצל עודד הפירותני"
     },
     {
       "season": 9,
@@ -1607,7 +1634,7 @@
       "candidates": [
         "חננאל אמיתי (hosting order 1)"
       ],
-      "text": "פרק 6 - שבוע ירושלים, יום א' עונה 9, פרק 6"
+      "text": "פרק 6 - שבוע ירושלים, יום א' את היום הראשון של התחרות באזור ירושלים, יבלו המשתתפים בישוב מטע"
     },
     {
       "season": 9,
@@ -1621,7 +1648,7 @@
       "candidates": [
         "כרמית תא שמע (hosting order 2)"
       ],
-      "text": "פרק 7 - שבוע ירושלים, יום ב' עונה 9, פרק 7"
+      "text": "פרק 7 - שבוע ירושלים, יום ב' הערב מארחות כרמית והבינה המלאכותית במודיעין"
     },
     {
       "season": 9,
@@ -1631,11 +1658,14 @@
       "matched": "רוני אילוז",
       "matchMethod": "hosting-order",
       "structuredMatch": "רוני אילוז",
+      "explicitMatch": "רוני אילוז",
       "orderConflict": false,
+      "occupation": "מתקשרת",
       "candidates": [
-        "רוני אילוז (hosting order 3)"
+        "רוני אילוז (hosting order 3)",
+        "רוני אילוז (explicit host cue)"
       ],
-      "text": "פרק 8 - שבוע ירושלים, יום ג' עונה 9, פרק 8"
+      "text": "פרק 8 - שבוע ירושלים, יום ג' הערב יגיעו האורחים לירושלים לחוויה רוחנית אצל רוני המתקשרת"
     },
     {
       "season": 9,
@@ -1649,7 +1679,7 @@
       "candidates": [
         "תום בייקין אוחיון (hosting order 4)"
       ],
-      "text": "פרק 9 - שבוע ירושלים, יום ד' עונה 9, פרק 9"
+      "text": "פרק 9 - שבוע ירושלים, יום ד' היום הרביעי לתחרות באזור ירושלים, והפעם האורחים בצור הדסה בערב מהאגדות"
     },
     {
       "season": 9,
@@ -1663,7 +1693,7 @@
       "candidates": [
         "דלילה שמש (hosting order 5)"
       ],
-      "text": "פרק 10 - שבוע ירושלים, יום ה' עונה 9, פרק 10"
+      "text": "פרק 10 - שבוע ירושלים, יום ה' את הערב האחרון לתחרות באזור ירושלים תבלה החבורה במוזיאון של דלילה"
     },
     {
       "season": 9,
@@ -1677,7 +1707,7 @@
       "candidates": [
         "זהר יוספיאן (hosting order 1)"
       ],
-      "text": "פרק 11 - שבוע תל אביב, יום א' עונה 9, פרק 11"
+      "text": "פרק 11 - שבוע תל אביב, יום א' את היום הראשון של תחרות הבישול והאירוח באזור תל אביב יפתח זהר"
     },
     {
       "season": 9,
@@ -1688,10 +1718,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "יעל זילברמן",
       "orderConflict": false,
+      "occupation": "משפיענית",
       "candidates": [
         "יעל זילברמן (hosting order 2)"
       ],
-      "text": "פרק 12 - שבוע תל אביב, יום ב' עונה 9, פרק 12"
+      "text": "פרק 12 - שבוע תל אביב, יום ב' היום השני של התחרות באזור תל-אביב והערב מארחת יעל, משפיענית מבני ברק"
     },
     {
       "season": 9,
@@ -1705,7 +1736,7 @@
       "candidates": [
         "חן (חנצ'ה) יאיר (hosting order 3)"
       ],
-      "text": "פרק 13 - שבוע תל אביב, יום ג' עונה 9, פרק 13"
+      "text": "פרק 13 - שבוע תל אביב, יום ג' היום השלישי לתחרות בתל אביב והערב מגיעים כולם לבית של חנצ'ה"
     },
     {
       "season": 9,
@@ -1719,7 +1750,7 @@
       "candidates": [
         "אתי גלבוע (hosting order 4)"
       ],
-      "text": "פרק 14 - שבוע תל אביב, יום ד' עונה 9, פרק 14"
+      "text": "פרק 14 - שבוע תל אביב, יום ד' היום הרביעי לתחרות באזור תל אביב, וכולם מוזמנים לצהרון של אתי"
     },
     {
       "season": 9,
@@ -1729,11 +1760,13 @@
       "matched": "לינור אברג'ל",
       "matchMethod": "hosting-order",
       "structuredMatch": "לינור אברג'ל",
+      "explicitMatch": "לינור אברג'ל",
       "orderConflict": false,
       "candidates": [
-        "לינור אברג'ל (hosting order 5)"
+        "לינור אברג'ל (hosting order 5)",
+        "לינור אברג'ל (explicit host cue)"
       ],
-      "text": "פרק 15 - שבוע תל אביב, יום ה' עונה 9, פרק 15"
+      "text": "פרק 15 - שבוע תל אביב, יום ה' הערב האחרון לתחרות באזור תל אביב הוא ערב חגיגי בסגנון מצרי אצל לינור"
     },
     {
       "season": 9,
@@ -1747,7 +1780,7 @@
       "candidates": [
         "אילנית יורמן (hosting order 1)"
       ],
-      "text": "פרק 16 - שבוע השרון והכרמל, יום א' עונה 9, פרק 16"
+      "text": "פרק 16 - שבוע השרון והכרמל, יום א' הערב תיפגש החבורה בבית של זוכת מדליית הזהב בתחרות הפאראטריאתלון אילנית"
     },
     {
       "season": 9,
@@ -1761,7 +1794,7 @@
       "candidates": [
         "קארין מקס (hosting order 2)"
       ],
-      "text": "פרק 17 - שבוע השרון והכרמל, יום ב' עונה 9, פרק 17"
+      "text": "פרק 17 - שבוע השרון והכרמל, יום ב' זה היום השני לתחרות הבישול והאירוח באזור השרון והכרמל, היום תארח קארין"
     },
     {
       "season": 9,
@@ -1775,7 +1808,7 @@
       "candidates": [
         "אורי זיצ'ק (hosting order 3)"
       ],
-      "text": "פרק 18 - שבוע השרון והכרמל, יום ג' עונה 9, פרק 18"
+      "text": "פרק 18 - שבוע השרון והכרמל, יום ג' היום השלישי לתחרות והערב יגיעו האורחים לאשרם של אורי בדלית אל כרמל"
     },
     {
       "season": 9,
@@ -1789,7 +1822,7 @@
       "candidates": [
         "מאיה לב קורן (hosting order 4)"
       ],
-      "text": "פרק 19 - שבוע השרון והכרמל, יום ד' עונה 9, פרק 19"
+      "text": "פרק 19 - שבוע השרון והכרמל, יום ד' יום רביעי בתחרות הבישול באזור השרון והכרמל, היום מארחת מאיה בקציר"
     },
     {
       "season": 9,
@@ -1799,11 +1832,13 @@
       "matched": "אביתר בן פורת",
       "matchMethod": "hosting-order",
       "structuredMatch": "אביתר בן פורת",
+      "explicitMatch": "אביתר בן פורת",
       "orderConflict": false,
       "candidates": [
-        "אביתר בן פורת (hosting order 5)"
+        "אביתר בן פורת (hosting order 5)",
+        "אביתר בן פורת (explicit host cue)"
       ],
-      "text": "פרק 20 - שבוע השרון והכרמל, יום ה' עונה 9, פרק 20"
+      "text": "פרק 20 - שבוע השרון והכרמל, יום ה' החבורה מבלה אצל אביתר מחדרה בערב האחרון לתחרות באזור השרון והכרמל"
     },
     {
       "season": 9,
@@ -1814,10 +1849,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "אבנית סטרולוב",
       "orderConflict": false,
+      "occupation": "בלוגרית טיולים",
       "candidates": [
         "אבנית סטרולוב (hosting order 1)"
       ],
-      "text": "פרק 21 - שבוע חיפה, יום א' עונה 9, פרק 21"
+      "text": "פרק 21 - שבוע חיפה, יום א' את השבוע הראשון לתחרות באזור חיפה פותחת אבנית בלוגרית טיולים"
     },
     {
       "season": 9,
@@ -1831,7 +1867,7 @@
       "candidates": [
         "אליאס עבוד (hosting order 2)"
       ],
-      "text": "פרק 22 - שבוע חיפה, יום ב' עונה 9, פרק 22"
+      "text": "פרק 22 - שבוע חיפה, יום ב' אליאס מואדי ניסנאס יארח לארוחת כריסמס חגיגית במיוחד"
     },
     {
       "season": 9,
@@ -1845,7 +1881,7 @@
       "candidates": [
         "אוניקה אלנה דניאלה (hosting order 3)"
       ],
-      "text": "פרק 23 - שבוע חיפה, יום ג' עונה 9, פרק 23"
+      "text": "פרק 23 - שבוע חיפה, יום ג' הערב דניאלה תעביר את האורחים מסע רוחני"
     },
     {
       "season": 9,
@@ -1856,10 +1892,11 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "טל הרוש",
       "orderConflict": false,
+      "occupation": "איש חיי הלילה",
       "candidates": [
         "טל הרוש (hosting order 4)"
       ],
-      "text": "פרק 24 - שבוע חיפה, יום ד' עונה 9, פרק 24"
+      "text": "פרק 24 - שבוע חיפה, יום ד' יום רביעי בתחרות באזור חיפה ומהמארח היום הוא טל, איש חיי הלילה מנשר"
     },
     {
       "season": 9,
@@ -1870,10 +1907,375 @@
       "matchMethod": "hosting-order",
       "structuredMatch": "עדי ויצמן אסולין",
       "orderConflict": false,
+      "occupation": "בעלת סטודיו לריקוד",
       "candidates": [
         "עדי ויצמן אסולין (hosting order 5)"
       ],
-      "text": "פרק 25 - שבוע חיפה, יום ה' עונה 9, פרק 25"
+      "text": "פרק 25 - שבוע חיפה, יום ה' פרק אחרון באזור חיפה: הפעם תארח עדי, בעלת סטודיו לריקוד מקרית אתא"
+    },
+    {
+      "season": 10,
+      "episode": 1,
+      "week": 1,
+      "hostingOrder": 1,
+      "matched": "רועי גולן",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "רועי גולן",
+      "orderConflict": false,
+      "candidates": [
+        "רועי גולן (hosting order 1)"
+      ],
+      "text": "פרק 1 - שבוע ירושלים, יום א' היום הראשון לתחרות בעיר הבירה: הכירו את רועי, אדם, יגאל, חיה וניקול"
+    },
+    {
+      "season": 10,
+      "episode": 2,
+      "week": 1,
+      "hostingOrder": 2,
+      "matched": "אדם גוזלן",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "אדם גוזלן",
+      "orderConflict": false,
+      "candidates": [
+        "אדם גוזלן (hosting order 2)"
+      ],
+      "text": "פרק 2 - שבוע ירושלים, יום ב' זה היום השני לתחרות הבישול באזור ירושלים והערב מארח אדם מנווה דניאל"
+    },
+    {
+      "season": 10,
+      "episode": 3,
+      "week": 1,
+      "hostingOrder": 3,
+      "matched": "יגאל טמיר",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "יגאל טמיר",
+      "orderConflict": false,
+      "candidates": [
+        "יגאל טמיר (hosting order 3)"
+      ],
+      "text": "פרק 3 - שבוע ירושלים, יום ג' מה גרם ליגאל להפסיק לספר בדיחות והאם האהבה פורחת?"
+    },
+    {
+      "season": 10,
+      "episode": 4,
+      "week": 1,
+      "hostingOrder": 4,
+      "matched": "חיה לב",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "חיה לב",
+      "orderConflict": false,
+      "candidates": [
+        "חיה לב (hosting order 4)"
+      ],
+      "text": "פרק 4 - שבוע ירושלים, יום ד' החבורה מגיעה לארוחה אפריקאית בביתה של חיה. מה כל כך ריגש את אדם?"
+    },
+    {
+      "season": 10,
+      "episode": 5,
+      "week": 1,
+      "hostingOrder": 5,
+      "matched": "ניקול אלטשולר",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "ניקול אלטשולר",
+      "orderConflict": false,
+      "candidates": [
+        "ניקול אלטשולר (hosting order 5)"
+      ],
+      "text": "פרק 5 - שבוע ירושלים, יום ה' יום אחרון לתחרות באזור ירושלים והערב תארח ניקול. מי המנצח של התחרות?"
+    },
+    {
+      "season": 10,
+      "episode": 6,
+      "week": 2,
+      "hostingOrder": 1,
+      "matched": "איריס אלוג",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "איריס אלוג",
+      "orderConflict": false,
+      "occupation": "מעבירה ערבי הפרשות חלה",
+      "candidates": [
+        "איריס אלוג (hosting order 1)"
+      ],
+      "text": "פרק 6 - שבוע שפלה, יום א' ביום הראשון לתחרות באזור השפלה תארח איריס, מעבירה ערבי הפרשות חלה"
+    },
+    {
+      "season": 10,
+      "episode": 7,
+      "week": 2,
+      "hostingOrder": 2,
+      "matched": "יריב אגוזי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "יריב אגוזי",
+      "orderConflict": false,
+      "candidates": [
+        "יריב אגוזי (hosting order 2)"
+      ],
+      "text": "פרק 7 - שבוע שפלה, יום ב' ברוכים הבאים למוזיאון של יריב. מה חשבו האורחים על הבית?"
+    },
+    {
+      "season": 10,
+      "episode": 8,
+      "week": 2,
+      "hostingOrder": 3,
+      "matched": "ליהי קימורה",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "ליהי קימורה",
+      "orderConflict": false,
+      "candidates": [
+        "ליהי קימורה (hosting order 3)"
+      ],
+      "text": "פרק 8 - שבוע שפלה, יום ג' החבורה מגיעה לארוחה יפנית בבית של ליהי. האם כולם התחברו לטעמים היפנים?"
+    },
+    {
+      "season": 10,
+      "episode": 9,
+      "week": 2,
+      "hostingOrder": 4,
+      "matched": "זהר גורמס",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "זהר גורמס",
+      "explicitMatch": "זהר גורמס",
+      "orderConflict": false,
+      "candidates": [
+        "זהר גורמס (hosting order 4)",
+        "זהר גורמס (explicit host cue)"
+      ],
+      "text": "פרק 9 - שבוע שפלה, יום ד' הפעם האורחים יגיעו לביקור אצל זהר, הערב נגלה - למה ליהי לא רוצה ילדים?"
+    },
+    {
+      "season": 10,
+      "episode": 10,
+      "week": 2,
+      "hostingOrder": 5,
+      "matched": "דניאל דריי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "דניאל דריי",
+      "orderConflict": false,
+      "candidates": [
+        "דניאל דריי (hosting order 5)"
+      ],
+      "text": "פרק 10 - שבוע שפלה, יום ה' היום האחרון לתחרות באזור השפלה, מה חשבו האורחים על הבית של דניאל?"
+    },
+    {
+      "season": 10,
+      "episode": 11,
+      "week": 3,
+      "hostingOrder": 1,
+      "matched": "עליזה אלקיים עבאדי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "עליזה אלקיים עבאדי",
+      "orderConflict": false,
+      "occupation": "ליצנית רפואית",
+      "candidates": [
+        "עליזה אלקיים עבאדי (hosting order 1)"
+      ],
+      "text": "פרק 11 - שבוע צפון, יום א' היום הראשון לתחרות באזור הצפון, הפעם תארח - עליזה, ליצנית רפואית"
+    },
+    {
+      "season": 10,
+      "episode": 12,
+      "week": 3,
+      "hostingOrder": 2,
+      "matched": "רוני פליישר",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "רוני פליישר",
+      "orderConflict": false,
+      "candidates": [
+        "רוני פליישר (hosting order 2)"
+      ],
+      "text": "פרק 12 - שבוע צפון, יום ב' ביום השני לתחרות מוזמנים האורחים למסיבת יום ההולדת של רוני"
+    },
+    {
+      "season": 10,
+      "episode": 13,
+      "week": 3,
+      "hostingOrder": 3,
+      "matched": "אבינעם שמעון",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "אבינעם שמעון",
+      "orderConflict": false,
+      "candidates": [
+        "אבינעם שמעון (hosting order 3)"
+      ],
+      "text": "פרק 13 - שבוע צפון, יום ג' ביום השלישי לתחרות הגיעו האורחים לביתו של אבינעם בכליל לארוחה טבעונית"
+    },
+    {
+      "season": 10,
+      "episode": 14,
+      "week": 3,
+      "hostingOrder": 4,
+      "matched": "מירן הולדשטיין",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "מירן הולדשטיין",
+      "orderConflict": false,
+      "candidates": [
+        "מירן הולדשטיין (hosting order 4)"
+      ],
+      "text": "פרק 14 - שבוע צפון, יום ד' הערב הגיעו האורחים אל מירן, למה עליזה לא אכלה את המנה העיקרית?"
+    },
+    {
+      "season": 10,
+      "episode": 15,
+      "week": 3,
+      "hostingOrder": 5,
+      "matched": "אלירן בוחבוט",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "אלירן בוחבוט",
+      "explicitMatch": "אלירן בוחבוט",
+      "orderConflict": false,
+      "candidates": [
+        "אלירן בוחבוט (hosting order 5)",
+        "אלירן בוחבוט (explicit host cue)"
+      ],
+      "text": "פרק 15 - שבוע צפון, יום ה' היום אחרון לתחרות באזור הצפון, והפעם חגיגה מרוקאית אצל אלירן"
+    },
+    {
+      "season": 10,
+      "episode": 16,
+      "week": 4,
+      "hostingOrder": 1,
+      "matched": "יערית אבוטבול",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "יערית אבוטבול",
+      "orderConflict": false,
+      "candidates": [
+        "יערית אבוטבול (hosting order 1)"
+      ],
+      "text": "פרק 16 - שבוע אילת, יום א' זה היום הראשון והפעם הראשונה שתחרות הבישול מגיעה לעיר הדרומית אילת"
+    },
+    {
+      "season": 10,
+      "episode": 17,
+      "week": 4,
+      "hostingOrder": 2,
+      "matched": "בילי טרובתי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "בילי טרובתי",
+      "explicitMatch": "בילי טרובתי",
+      "orderConflict": false,
+      "candidates": [
+        "בילי טרובתי (hosting order 2)",
+        "בילי טרובתי (explicit host cue)"
+      ],
+      "text": "פרק 17 - שבוע אילת, יום ב' בילי מארחת את החבורה ומדהימה את כולם בסיפור חייה המיוחד"
+    },
+    {
+      "season": 10,
+      "episode": 18,
+      "week": 4,
+      "hostingOrder": 3,
+      "matched": "שלומי נחמיאס",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "שלומי נחמיאס",
+      "orderConflict": false,
+      "candidates": [
+        "שלומי נחמיאס (hosting order 3)"
+      ],
+      "text": "פרק 18 - שבוע אילת, יום ג' הערב הגיעו האורחים אל שלומי, למה יערית קמה בסערה מהשולחן?"
+    },
+    {
+      "season": 10,
+      "episode": 19,
+      "week": 4,
+      "hostingOrder": 4,
+      "matched": "דרור בנארי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "דרור בנארי",
+      "explicitMatch": "דרור בנארי",
+      "orderConflict": false,
+      "candidates": [
+        "דרור בנארי (hosting order 4)",
+        "דרור בנארי (explicit host cue)"
+      ],
+      "text": "פרק 19 - שבוע אילת, יום ד' החבורה הגיעה לארוחה אצל דרור, האם האורחים הצליחו להתמסר לחוויית המדבר?"
+    },
+    {
+      "season": 10,
+      "episode": 20,
+      "week": 4,
+      "hostingOrder": 5,
+      "matched": "בני גמליאלי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "בני גמליאלי",
+      "explicitMatch": "בני גמליאלי",
+      "orderConflict": false,
+      "candidates": [
+        "בני גמליאלי (hosting order 5)",
+        "בני גמליאלי (explicit host cue)"
+      ],
+      "text": "פרק 20 - שבוע אילת, יום ה' ערב אחרון באילת אצל בני עם ארוחה תימנית אסלית, מי המנצח של השבוע?"
+    },
+    {
+      "season": 10,
+      "episode": 21,
+      "week": 5,
+      "hostingOrder": 1,
+      "matched": "תום כדורי",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "תום כדורי",
+      "orderConflict": false,
+      "candidates": [
+        "תום כדורי (hosting order 1)"
+      ],
+      "text": "פרק 21 - שבוע מרכז, יום א' זה היום הראשון לתחרות הבישול והאירוח באזור המרכז, והמארח הפעם הוא תום"
+    },
+    {
+      "season": 10,
+      "episode": 22,
+      "week": 5,
+      "hostingOrder": 2,
+      "matched": "איבאא",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "איבאא",
+      "orderConflict": false,
+      "candidates": [
+        "איבאא (hosting order 2)"
+      ],
+      "text": "פרק 22 - שבוע מרכז, יום ב' איך יגיבו האורחים כשיבינו שהם צריכים להעביר את הארוחה על הריצפה?"
+    },
+    {
+      "season": 10,
+      "episode": 23,
+      "week": 5,
+      "hostingOrder": 3,
+      "matched": "אושרית נברה",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "אושרית נברה",
+      "orderConflict": false,
+      "candidates": [
+        "אושרית נברה (hosting order 3)"
+      ],
+      "text": "פרק 23 - שבוע מרכז, יום ג' הערב נגלה איזה כישוף אושרית מכינה לחבורה ומה אסור להגיד בבית שלה?"
+    },
+    {
+      "season": 10,
+      "episode": 24,
+      "week": 5,
+      "hostingOrder": 4,
+      "matched": "ליאת שקלרז",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "ליאת שקלרז",
+      "explicitMatch": "ליאת שקלרז",
+      "orderConflict": false,
+      "candidates": [
+        "ליאת שקלרז (hosting order 4)",
+        "ליאת שקלרז (explicit host cue)"
+      ],
+      "text": "פרק 24 - שבוע מרכז, יום ד' החבורה מתארחת אצל ליאת למסע תאילנדי"
+    },
+    {
+      "season": 10,
+      "episode": 25,
+      "week": 5,
+      "hostingOrder": 5,
+      "matched": "אלעד משה",
+      "matchMethod": "hosting-order",
+      "structuredMatch": "אלעד משה",
+      "orderConflict": false,
+      "candidates": [
+        "אלעד משה (hosting order 5)"
+      ],
+      "text": "פרק 25 - שבוע מרכז, יום ה' פרק אחרון לעונה! בערב האחרון לתחרות יארח דימה, או אלעד?"
     }
   ]
 }
